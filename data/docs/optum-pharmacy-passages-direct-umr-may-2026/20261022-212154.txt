@@ -1,0 +1,387 @@
+Pharmacy Passages
+Formulary update
+May 2026
+
+
+
+
+The following formulary decisions and updates apply to
+Optum Rx® commercial business.
+The Optum Rx Business Committee meets monthly to evaluate tier placements and new prescription products
+approved by the Food and Drug Administration (FDA). This committee makes decisions based on information
+and recommendations from the Optum Rx National Pharmacy & Therapeutics Committee, comprised of
+independent physician providers and pharmacists.
+The following are the strategic clinical decisions made in the past month. Your actual plan's copays and/or
+coinsurance may differ from those indicated depending on the selected plan design, which determines coverage
+and pharmacy provider(s). Refer to your benefit plan documents to make sure the listed medications are included
+in your benefit.
+Please note:
+If your plan includes Specialty Pharmacy (SP), your members may obtain specialty products from Optum
+Specialty Pharmacy for your plan’s designated copay or coinsurance. If your plan does not include SP, your
+members may purchase self-injectable and oral specialty medications from retail pharmacies, or specialty
+products may be covered under your medical plan. Specialty program medications may be limited to a 30-day
+supply depending on plan design. Please consult your plan coverage documents.
+
+
+
+
+Available formularies
+ Premium: Three tier formulary with generic drugs included in tier 1. Some drugs may be excluded from the
+          Premium Formulary due to our strate gic evaluation of the market, utilization, quality outcomes and
+          total cost of care.
+Select:     Three tier formulary with generic drugs included in tier 1, preferred brand name drugs included in
+            tier 2 and non-preferred drugs included in tier 3. Many tier 3 drugs have lower-cost options in
+            tier 1 or 2.
+
+
+   Key
+   SP: Specialty pharmacy         PA: Prior authorization       ST: Step therapy        QL: Quantity limit
+FDA approves Trimbow for asthma treatment
+On May 18, 2026, the FDA approved Trimbow (beclomethasone dipropionate / formoterol fumarate /
+glycopyrrolate) for the maintenance treatment of asthma in adult patients aged 18 years and older.
+Asthma is a chronic, inflammatory respiratory disease that affects the airways. Individuals can experience
+shortness of breath, wheezing, coughing and chest tightness. More than 25 million people in the U.S. live with
+asthma and symptoms remain difficult to manage even with existing treatments. An estimated 60% of adults with
+asthma continue to experience frequent symptoms leading to emergency hospitalizations and lower quality of life.
+Trimbow is a triple combination inhaler offering another solution that addresses respiratory needs and the burden
+that persists for people living with the disease.
+The Optum Rx National Pharmacy & Therapeutics Committee is thoroughly assessing Trimbow for clinical value
+and safety. Afterwards, Optum Rx will determine its place on Optum Rx standard formularies.
+
+
+
+
+Down-tiers
+Medications may move to a lower tier throughout the year, helping members take immediate advantage
+of cost savings.
+
+                                                            Brand/         Select         Premium      Effective
+   Therapeutic use                Medication name
+                                                            Generic         Tier            Tier         date
+ Antidepressant           Auvelity (dextromethorphan-
+                                                             Brand         3 (N/C)        EXC > 3          6/1/26
+ Agents                   bupropion) ER tablet
+ Antineoplastic
+                          Ibtrozi (taletrectinib) capsule    Brand         3 (N/C)        EXC > 3          6/1/26
+ Agents
+ Endocrine and
+                          Rezdiffra (resmetirom) tablet      Brand         3 (N/C)        EXC > 3          7/1/26
+ Metabolic Agents
+                          Bimzelx (bimekizumab-bkzx)
+ Immunological
+                          auto-injector and prefilled        Brand          3>2             3>2            6/1/26
+ Agents
+                          syringe for SC injection
+
+N/C: No change
+EXC: Excluded
+
+
+
+
+Up-tiers
+Medications typically move to a higher tier on Jan. 1 and July 1 to help reduce member disruption. Brand
+medications may move to a higher tier at any time when a generic equivalent becomes available.
+Please note there are no up-tiers at this time.
+
+
+
+
+                                                                                                                    2
+New brand launches
+New brand name medications launch throughout the year. Final coverage status is determined after medications
+are thoroughly reviewed by the Optum Rx National Pharmacy & Therapeutics Committee. New brand launches
+may include Authorized Brand Alternatives.
+
+
+                                                 Select      Premium             Programs          Effective
+ Therapeutic use       Medication name
+                                                  Tier         Tier       SP     PA    ST    QL      date
+
+                    Dapagliflozin-saxagliptin
+                                                 Tier 3        EXC         ---   ---   X     ---    4/6/26
+                    10-5mg tablet*
+ Antidiabetic
+ Agents             Ozempic (semaglutide)
+                                                 Tier 2       Tier 2       ---    X    ---   X     4/16/26
+                    tablet 1.5, 4, 9mg
+
+                    Granisol (granisetron)
+                                                 Tier 3        EXC         ---   ---   ---   ---   4/28/26
+                    oral solution*
+ Antiemetic
+ Agents             Nereus (tradipitant)
+                                                 Tier 3        EXC         ---   ---   ---   ---    4/6/26
+                    capsule*
+
+ Antilipemic        Juxtapid (lomitapide)
+                                                 Tier 3       Tier 3       X      X    ---   X     4/28/26
+ Agents             capsule 2mg
+
+                    Avopef (etoposide) IV
+                                                 Tier 3        EXC         X     ---   ---   ---    4/6/26
+                    injection*
+ Antineoplastic
+ Agents             Favlyxa (fluorouracil) IV
+                                                 Tier 3        EXC         X     ---   ---   ---    4/6/26
+                    injection*
+
+ Anti-obesity       Foundayo (oforglipron)
+                                                 Tier 3        EXC         ---    X    ---   X      4/3/26
+ Agents             tablet*
+
+                    Azilsartan (ABA of
+                                                 Tier 3        EXC         ---   ---   X     ---   4/24/26
+                    Edarbi) tablet*
+
+                    Hemangeol (propranolol)
+ Cardiovascular                                  Tier 3        EXC         ---    X    ---   ---   4/23/26
+                    oral solution (by Eton)*
+ Agents
+                    Widaplik (amlodipine-
+                    telmisartan-indapamide)      Tier 3        EXC         ---   ---   ---   ---   4/23/26
+                    tablet*
+
+                    Fesilty (fibrinogen,
+                    human-chmt) IV               Tier 3        EXC         X     ---   ---   ---   4/27/26
+ Hematological      injection*
+ Agents
+                    Quiofic (folic acid) oral
+                                                 Tier 3        EXC         ---   ---   ---   ---   4/23/26
+                    solution*
+
+                    Saphnelo (anifrolumab-
+ Immunological
+                    fnia) auto-injector for SC   Tier 3        EXC         X      X    ---   X     4/29/26
+ Agents
+                    injection*
+
+
+
+
+                                                                                                               3
+                                                              Select          Premium                  Programs               Effective
+ Therapeutic use              Medication name
+                                                               Tier             Tier           SP      PA     ST      QL        date
+
+                         Relgaabi (gabapentin)
+                                                              Tier 3            EXC            ---     ---     X      ---      4/14/26
+                         capsule 300, 400mg*
+ Neurological
+ Agents                  Wainua (eplontersen)
+                         prefilled syringe for SC             Tier 3            Tier 3          X       X      ---     X       5/19/26
+                         injection
+
+ Ophthalmic              Byqlovi (clobetasol)
+                                                              Tier 3            EXC            ---     ---     ---     X        4/6/26
+ Agents                  ophthalmic suspension*
+
+                         Umeclidinium Ellipta
+ Respiratory
+                         (ABA of Incruse Ellipta)             Tier 3            EXC            ---     ---     X       X        4/9/26
+ Agents
+                         powder inhaler*
+
+*Medications or products added to the New Drugs to Market exclusion list can remain excluded for up to six months. Updates for these
+products will be listed in the New Benefit Coverage for Medications Removed from the New Drugs to Market Exclusion List
+section below.
+
+EXC: Excluded
+
+
+
+
+New generic launches
+New generic medication launches occur throughout the year. Generic medications will be placed in tier 1 on the
+Select and Premium Formularies. Brand medications may move to a higher tier at any time when a generic
+equivalent becomes available.
+
+                            Generic               Brand                                                Programs
+   Therapeutic                                                      Select       Premium                                      Effective
+                           medication           medication
+       use                                                           Tier          Tier          SP     PA     ST     QL        date
+                             name                 name
+
+ Analgesic               ketoprofen
+                                               Orudis                Tier 1         Tier 1       ---    ---     ---    X       4/20/26
+ Agents                  capsule
+
+ Antidepressant          citalopram
+                                               N/A                   Tier 1         Tier 1       ---    ---     ---    ---     3/31/26
+ Agents                  capsule
+
+                         dapagliflozin
+                                               Farxiga               Tier 1         Tier 1       ---    ---     ---    ---      4/7/26
+                         tablet
+ Antidiabetic
+ Agents                  dapagliflozin-
+                         metformin ER          Xigduo XR             Tier 1         Tier 1       ---    ---     ---    ---      4/8/26
+                         tablet
+
+ Cardiovascular          clonidine tablet
+                                               Folotyn               Tier 1         Tier 1       ---    ---     ---    ---     4/14/26
+ Agents                  0.05mg
+
+
+
+
+                                                                                                                                          4
+                       Generic               Brand                                     Programs
+   Therapeutic                                           Select     Premium                              Effective
+                      medication           medication
+       use                                                Tier        Tier      SP     PA    ST    QL      date
+                        name                 name
+
+ Cardiovascular     nitroglycerin
+                                           Nitro-bid     Tier 1    Tier 1        ---   ---   ---   ---   4/15/26
+ Agents             oinment 2%
+
+                    fluticasone
+                    propionate HFA         N/A           Tier 1    Tier 1        ---   ---   ---   X     4/22/26
+ Respiratory        inhaler
+ Agents
+                    ipratropium
+                                           Atrovent      Tier 1    Tier 1        ---   ---   ---   X     4/22/26
+                    HFA inhaler
+
+
+
+
+New benefit coverage for medications removed from the
+New Drugs to Market exclusion list
+New Drugs to Market updates apply to all plans that have this exclusion list in place. New drugs can be
+maintained on this list for up to six months. Medications that are removed from this exclusion list have new benefit
+coverage as shown below.
+
+
+   Therapeutic                                Brand/     Select     Premium            Programs          Effective
+                     Medication name
+       use                                    Generic     Tier        Tier      SP     PA    ST    QL      date
+
+                    Hyrnuo
+                    (sevabertinib)               Brand   Tier 3       Tier 3     X      X    ---   ---    6/2/26
+                    tablet
+ Antineoplastic     Keytruda Qlex
+ Agents             (pembrolizumab-
+                    berahyaluron-                Brand   Tier 3       Tier 3     X      X    ---   ---   5/31/26
+                    pmph) SC
+                    injection
+
+ Anti-obesity       Foundayo
+                                                 Brand   Tier 2       Tier 2     ---    X    ---    X     5/11/26
+ Agents             (orfoglipron) tablet
+
+                    Voyxact
+                    (sibeprenlimab-
+ Genitourinary
+                    szsi) prefilled              Brand   Tier 3       Tier 3     X      X    ---    X     6/3/26
+ Agents
+                    syringe for SC
+                    injection
+
+                    Bildyos
+ Metabolic          (denosumab-nxxp)
+                                                 Brand   Tier 2       Tier 2     X      X    ---    X     7/1/26
+ Agents             prefilled syringe
+                    for SC injection
+
+
+
+                                                                                                                     5
+   Therapeutic                             Brand/        Select     Premium           Programs            Effective
+                     Medication name
+       use                                 Generic        Tier        Tier       SP    PA    ST    QL       date
+
+                     Bilprevda
+                     (denosumab-nxxp)        Brand       Tier 2       Tier 2      X     X    ---   ---     7/1/26
+                     SC injection
+
+                     Enoby
+                     (denosumab-
+                     qbde) prefilled         Brand       Tier 2       Tier 2      X     X    ---    X      7/1/26
+ Metabolic           syringe for SC
+                     injection
+ Agents
+                     Xtrenbo
+                     (denosumab-             Brand       Tier 2       Tier 2      X     X    ---   ---     7/1/26
+                     qbde) SC injection
+
+                     Zycubo (copper
+                     histidinate) SC         Brand       Tier 3       Tier 3      X     X    ---    X      6/1/26
+                     injection
+
+                     Itvisma
+ Neuromuscular       (onasemnogene
+                     abeparvovec-brve)       Brand       Tier 3       Tier 3      X     X    ---   ---    5/29/26
+ Agents
+                     intrathecal
+                     injection
+
+
+
+
+ PA          Prior authorization
+Prior authorization requires physicians to provide additional clinical information to verify member benefit coverage.
+This table only shows prior authorizations that have been added or removed. Existing utilization management
+such as step therapy and quantity limits may still apply.
+
+
+     Therapeutic use                        Medication name                     Add/Remove          Effective date
+
+
+ Hormonal Agents              Desmoda (desmopressin) oral solution                    Add                5/126
+
+ Metabolic Agents             Zycubo (copper histidinate) SC injection                Add                4/28/26
+
+
+
+
+                                                                                                                      6
+ ST         Step therapy
+Step therapy directs members to try a lower-cost alternative (Step 1) before a higher-cost medication (Step 2)
+may be eligible for coverage. This table only shows step therapy that have been added or removed. Existing
+utilization management such as prior authorizations and quantity limits may still apply.
+
+
+     Therapeutic use                   Medication name                      Add/Remove             Effective date
+
+
+                               Meloxicam oral suspension                      Remove                    5/1/26
+
+ Analgesic Agents
+                               Zybic (meloxicam) oral
+                                                                              Remove                    5/1/26
+                               suspension
+
+ Respiratory Agents            Beclomethasone HFA inhaler                      Add                      5/1/26
+
+
+
+
+ QL         Quantity limits
+Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. This table
+only shows Quantity limits that have been added or removed. Existing utilization management such as prior
+authorizations and step therapy may still apply.
+
+
+     Therapeutic use                   Medication name                      Add/Remove             Effective date
+
+                               Zycubo (copper histidinate) SC
+ Metabolic Agents                                                              Add                     4/28/26
+                               injection
+
+
+
+
+             If you would like additional information that is not listed,
+             please contact your Optum Rx representative.
+
+
+
+
+                                                                                                                    7
+Optum is a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. All other brand or product names are the property of their
+respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications
+without prior notice. Optum is an equal opportunity employer.
+© 2026 OptumRx, Inc. All rights reserved. WF21110258_260217_DirectandUMRMay2026
+

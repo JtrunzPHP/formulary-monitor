@@ -1,0 +1,26 @@
+{
+  "id": "optum-pharmacy-passages-ehb-september-2026",
+  "stamp": "20261022-212154",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 81,
+  "watchlist_in_document": [
+    {
+      "line": 34,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "Anitdiabetic Ozempic (semaglutide)",
+      "context": [
+        "Medication name",
+        "use Base Enhanced SP PA ST QL date",
+        "Anitdiabetic Ozempic (semaglutide)",
+        "Tier 2 Tier 2 X X 9/1/26",
+        "Agents tablet"
+      ]
+    }
+  ]
+}

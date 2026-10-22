@@ -1,0 +1,378 @@
+Pharmacy Passages
+Formulary update
+September 2026
+
+
+
+
+The following formulary decisions and updates apply to
+Optum Rx® commercial business.
+The Optum Rx Business Committee meets monthly to evaluate tier placements and new prescription products
+approved by the Food and Drug Administration (FDA). The committee makes decisions based on information and
+recommendations from the independent Optum Rx National Pharmacy & Therapeutics (P&T) Committee, which is
+comprised of practicing physicians, pharmacists and a patient representative.
+The following are the strategic clinical decisions made in the past month. Your actual plan's copays and/or
+coinsurance may differ from those indicated depending on the selected plan design, which determines coverage
+and pharmacy provider(s). Refer to your benefit plan documents to make sure the listed medications are included
+in your benefit.
+Please note:
+If your plan includes Specialty Pharmacy (SP), your members may obtain specialty products from Optum
+Specialty Pharmacy for your plan’s designated copay or coinsurance. If your plan does not include SP, your
+members may purchase self-injectable and oral specialty medications from retail pharmacies, or specialty
+products may be covered under your medical plan. Specialty program medications may be limited to a 30-day
+supply depending on plan design. Please consult your plan coverage documents.
+
+
+
+
+Available formularies
+ Premium: Three tier formulary with generic drugs included in tier 1. Some drugs may be excluded from the
+          Premium Formulary due to our strate gic evaluation of the market, utilization, quality outcomes and
+          total cost of care.
+Select:     Three tier formulary with generic drugs included in tier 1, preferred brand name drugs included in
+            tier 2 and non-preferred drugs included in tier 3. Many tier 3 drugs have lower-cost options in
+            tier 1 or 2.
+
+
+   Key
+   SP: Specialty pharmacy         PA: Prior authorization       ST: Step therapy        QL: Quantity limit
+Announcing the Jan. 1, 2027 Pharmacy Benefit Update
+We are pleased to announce the Optum Rx direct Jan. 1, 2027
+Pharmacy Benefit Update. Our strategic formulary and
+utilization management updates will continue to deliver
+beneficial, cost-effective solutions for our clients and members
+in 2027.
+Watch the webcast to learn more about our Jan. 1, 2027
+formulary and Utilization Management strategies including:
+    •   Affordability – New generics for Atrovent HFA,
+        Lumigan and diabetes drugs Farxiga, Janumet and Januvia will become preferred at Tier 1, delivering
+        improved savings for clients and members. To encourage use of these generics and other lower cost
+        medications, 90 drugs will be added to the Vigilant Drug Program including 39 High-Cost Brands with
+        Generics and 20 High-Cost Generics.
+    •   Utilization Management updates – New Step Therapy will be applied to 25 diabetes medications
+        including Aloglipin, Januvia, Janumet, Zituvimet, Farxiga, Invokamet and others, requiring the trial of
+        multiple preferred therapies, including newly launched generics. New Quantity Limits will be applied to
+        diabetic supplies including glucose test strips for those not using insulin, and insulin pump supplies such
+        as Omnipod, Twiist and V-Go.
+Our Jan. 1, 2027 strategic formulary management decisions are summarized below. A more detailed list of drug
+updates for the Select and Premium Formularies is also available, identifying all therapeutic categories,
+brand/generic drug names, and the planned update for each one.
+
+
+                                                                              Select                Premium
+  Jan. 1, 2027 Pharmacy Benefit Update Summary
+                                                                            Formulary              Formulary
+
+ Down-tier (positive)
+                                                                                 2                      2
+ Medications can move to a lower tier at any time throughout the
+ year to provide members with immediate cost savings.
+
+
+ Up-tier (negative)
+ Medications that move to a higher tier because they offer less                  18                     3
+ health care value, clinically and/or financially, than similar
+ medications in their therapeutic classes.
+
+
+ Exclusions
+ A medication is only excluded when it offers no clinical value over
+                                                                                N/A                    36
+ other options in its class and its exclusion can be leveraged to
+ achieve significant savings for our clients while preserving
+ affordable choices for members.
+
+
+At Optum Rx, our goal is to promote better choices and outcomes while lowering the total cost of care. We believe
+these formulary decisions support our clients and members in achieving this goal. If you have questions about
+these updates, please talk to your Optum Rx representative.
+
+
+
+
+                                                                                                                      2
+September updates
+
+Down-tiers
+Medications may move to a lower tier throughout the year, helping members take immediate advantage
+of cost savings.
+
+                                                            Brand/        Select          Premium      Effective
+   Therapeutic use              Medication name
+                                                            Generic        Tier             Tier         date
+
+ Antiviral Agents         Xocova (ensitrelvir) tablet       Brand          3>2            EXC > 2          9/21/26
+
+                          Jubereq (denosumab-desu)
+                                                            Brand          3>2            EXC > 2          10/1/26
+                          SC injection
+ Metabolic Agents
+                          Osvyrti (denosumab-desu)
+                                                            Brand          3>2            EXC > 2          10/1/26
+                          SC injection
+
+EXC: Excluded
+
+
+
+
+Up-tiers
+Medications typically move to a higher tier on Jan. 1 and July 1 to help reduce member disruption. Brand
+medications may move to a higher tier at any time when a generic equivalent becomes available.
+Please note there are no up-tiers at this time.
+
+
+
+
+New brand launches
+New brand name medications launch throughout the year. Final coverage status is determined after medications
+are thoroughly reviewed by the Optum Rx National Pharmacy & Therapeutics Committee. New brand launches
+may include Authorized Brand Alternatives.
+
+                                                   Select       Premium            Programs           Effective
+ Therapeutic use        Medication name
+                                                    Tier          Tier       SP    PA    ST     QL      date
+
+ Antimigraine         Rizafilm (rizatriptan)
+                                                   Tier 3           EXC      ---   ---    ---   X      8/17/26
+ Agents               oral film*
+                      Rasonque
+                                                   Tier 3        EXC^         X     X     ---   ---    8/31/26
+                      (daraxonrasib) tablet*
+                      Revtorpyk
+ Antineoplastic       (gedatolisib) IV             Tier 3           EXC       X    ---    ---   ---    8/7/26
+ Agents               injection*
+                      Tepadina (thiotepa
+                      and sodium chloride)         Tier 3           EXC       X    ---    ---   ---    9/1/26
+                      IV injection
+
+
+
+
+                                                                                                                     3
+                                                            Select           Premium                  Programs               Effective
+ Therapeutic use              Medication name
+                                                             Tier              Tier            SP     PA      ST      QL       date
+
+                            Tudriqev
+                            (vusolimogene
+                                                             Tier 3             EXC             X      ---     ---    ---     8/25/26
+ Antineoplastic             oderparepvec-wtypg)
+ Agents                     intralesional injection*
+                            Zenbexus
+                                                             Tier 3             EXC             X      ---     ---    ---     8/18/26
+                            (iberdomide) capsule*
+                            Bixlenvo (bictegravir-
+ Antiviral Agents                                            Tier 3             EXC            ---     ---     ---    ---     8/31/26
+                            lenacapavir) tablet*
+                            Furoscix (furosemide)
+ Cardiovascular
+                            auto-injector for SC             Tier 3             EXC            ---     X       ---    ---      8/4/26
+ Agents
+                            injection*
+                            Gwyn Lo
+ Contraceptive              (norelgestromin-
+                                                             Tier 3             EXC            ---     ---     ---    ---     8/12/26
+ Agents                     ethinyl estradiol)
+                            patch*
+ Corticosteroid             Prednisone tablet 5mg
+                                                             Tier 3             EXC            ---     ---     ---    ---     8/13/26
+ Agents                     (by Dr. Reddy)
+                            Adquey (difamilast)
+                                                             Tier 3             EXC            ---     ---     ---    ---      9/1/26
+ Dermatological             ointment*
+ Agents                     Lisraya (brepocitinib)
+                                                             Tier 3             EXC             X      ---     ---    ---      9/2/26
+                            tablet*
+                            MOBI Connect blood
+ Diabetes
+                            glucose monitoring               Tier 3             EXC            ---     ---     X      ---     8/20/26
+ Supplies
+                            kit*
+                            Waskyra
+ Hematological              (etuvetidigene
+                                                             Tier 3             EXC             X      ---     ---    ---     8/17/26
+ Agents                     autotemcel) IV
+                            injection*
+                            Niktimvo (axatilimab-
+ Immunological              csfr) IV injection
+                                                             Tier 3             EXC             X      X       ---    ---      9/1/26
+ Agents                     9mg/0.9mL,
+                            22mg/2.2mL
+ Metabolic                  Pasatru (garetosmab-
+                                                             Tier 3             EXC             X      ---     ---    ---     8/24/26
+ Agents                     grts) IV injection*
+                            Clotic (clotrimazole)
+ Otic Agents                                                 Tier 3             EXC            ---     ---     ---    ---     8/20/26
+                            otic solution*
+                            Omlyclo (omalizumab-
+ Respiratory
+                            igec) prefilled syringe          Tier 3             EXC             X      ---     ---    ---      8/7/26
+ Agents
+                            for SC injection*
+
+*Medications or products added to the New Drugs to Market exclusion list can remain excluded for up to six months. Updates for these
+products will be listed in the New Benefit Coverage for Medications Removed from the New Drugs to Market Exclusion List
+section below.
+^Tier 3 effective 10/1/26
+
+EXC: Excluded
+
+
+
+                                                                                                                                         4
+New generic launches
+New generic medication launches occur throughout the year. Generic medications will be placed in tier 1 on the
+Select and Premium Formularies. Brand medications may move to a higher tier at any time when a generic
+equivalent becomes available.
+
+                     Generic             Brand                                         Programs
+ Therapeutic                                             Select     Premium                              Effective
+                    medication         medication
+     use                                                  Tier        Tier      SP     PA    ST    QL      date
+                      name               name
+ Analgesic        ketoprofen
+                                     Orudis              Tier 1       Tier 1     ---   ---   ---   ---   8/20/26
+ Agents           capsule
+ Antiemetic       trimethobenza
+                                     Tigan               Tier 1       Tier 1     ---   ---   ---   ---   8/14/26
+ Agents           mide injection
+ Electrolytic
+                  ferric citrate
+ and Renal                           Auryxia             Tier 1       Tier 1     ---   ---   ---   ---   8/20/26
+                  tablet
+ Agents
+
+
+
+
+New benefit coverage for medications removed from the
+New Drugs to Market exclusion list
+New Drugs to Market updates apply to all plans that have this exclusion list in place. New drugs can be
+maintained on this list for up to six months. Medications that are removed from this exclusion list have new benefit
+coverage as shown below.
+
+  Therapeutic                                  Brand/    Select     Premium            Programs          Effective
+                       Medication name
+      use                                      Generic    Tier        Tier      SP     PA    ST    QL      date
+
+ Anti-infective     Contepo (fosfomycin)
+                                               Brand      Tier 3      Tier 3     X      X    ---   ---   9/25/26
+ Agents             IV injection
+
+ Antineoplastic     Lifyorli (relacorilant)
+                                               Brand      Tier 3      Tier 3     X      X    ---   ---   10/1/26
+ Agents             capsule therapy pack
+
+ Antiviral          Xocova (ensitrelvir)
+                                               Brand      Tier 2      Tier 2     ---   ---   ---   X     9/21/26
+ Agents             tablet
+ Endocrine and
+                    Avlayah (tividenofusp
+ Metabolic                                     Brand      Tier 3      Tier 3     X      X    ---   ---   10/1/26
+                    alfa-eknm)
+ Agents
+
+                    Jubereq (denosumab-
+                                               Brand      Tier 2      Tier 2     X      X    ---   ---   10/1/26
+ Metabolic          desu) SC injection
+ Agents
+                    Osvyrti (denosumab-
+                                               Brand      Tier 2      Tier 2     X      X    ---   X     10/1/26
+                    desu) SC injection
+
+
+
+
+                                                                                                                     5
+ PA         Prior authorization
+Prior authorization requires physicians to provide additional clinical information to verify member benefit coverage.
+This table only shows prior authorizations that have been added or removed. Existing utilization management
+such as step therapy and quantity limits may still apply.
+
+
+     Therapeutic use                         Medication name                      Add/Remove        Effective date
+
+                              Orlynvah (sulopenem-etzadroxil-probenecid)
+ Anti-infective Agents                                                               Remove             10/1/26
+                              tablet
+
+ Antilipemic Agents           Lipfendra (enlicitide) tablet                            Add               9/1/26
+
+ Antineoplastic Agents        Veppanu (vepdegestrant) tablet                           Add               9/1/26
+
+ Endocrine Agents             Lumvoa (veligrotug-vvze) IV injection                    Add               9/1/26
+
+ Gastrointestinal Agents      Lynavoy (linerixibat) tablet                             Add               9/1/26
+
+                              Trutakna (atacicept-vymj) auto-injector for SC
+ Genitourinary Agents                                                                  Add               9/1/26
+                              injection
+                              Tregzi (Tregs & HSPC & TCONS-vldq) IV
+ Immunological Agents                                                                  Add               9/1/26
+                              infusion
+
+ Otic Agents                  Otarmeni (lunsotogene parvec-cwha) injection             Add               9/1/26
+
+
+
+
+ ST         Step therapy
+Step therapy directs members to try a lower-cost alternative (Step 1) before a higher-cost medication (Step 2)
+may be eligible for coverage. This table only shows step therapy that have been added or removed. Existing
+utilization management such as prior authorizations and quantity limits may still apply.
+
+
+     Therapeutic use                         Medication name                      Add/Remove        Effective date
+
+                              Orlynvah (sulopenem-etzadroxil-probenecid)
+ Anti-infective Agents                                                                 Add              10/1/26
+                              tablet
+
+ Otic Agents                  Xtoro (finafloxacin) otic suspension                     Add               9/1/26
+
+
+
+
+                                                                                                                   6
+ QL            Quantity limits
+Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. This table
+only shows Quantity limits that have been added or removed. Existing utilization management such as prior
+authorizations and step therapy may still apply.
+
+
+       Therapeutic use                                  Medication name                               Add/Remove            Effective date
+
+                                                                                                                                  9/1/26
+ Antilipemic Agents                   Lipfendra (enlicitide) tablet                                         Add
+
+                                                                                                                                  9/1/26
+ Antineoplastic Agents                Veppanu (vepdegestrant) tablet                                        Add
+
+                                                                                                                                  9/1/26
+ Gastrointestinal Agents              Lynavoy (linerixibat) tablet                                          Add
+
+                                      Trutakna (atacicept-vymj) auto-injector for SC                                              9/1/26
+ Genitourinary Agents                                                                                       Add
+                                      injection
+
+
+
+
+                If you would like additional information that is not listed,
+                please contact your Optum Rx representative.
+
+
+
+
+Optum is a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. All other brand or product names are the property of their
+respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications
+without prior notice. Optum is an equal opportunity employer.
+
+© 2026 OptumRx, Inc. All rights reserved. WF21110258_260217 DirectSeptember2026
+
+
+
+
+                                                                                                                                                 7
+

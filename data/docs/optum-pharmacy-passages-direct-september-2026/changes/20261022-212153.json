@@ -1,0 +1,74 @@
+{
+  "id": "optum-pharmacy-passages-direct-september-2026",
+  "stamp": "20261022-212153",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 269,
+  "watchlist_in_document": [
+    {
+      "line": 44,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)",
+        "Insulin (category)"
+      ],
+      "text": "diabetic supplies including glucose test strips for those not using insulin, and insulin pump supplies such",
+      "context": [
+        "including Aloglipin, Januvia, Janumet, Zituvimet, Farxiga, Invokamet and others, requiring the trial of",
+        "multiple preferred therapies, including newly launched generics. New Quantity Limits will be applied to",
+        "diabetic supplies including glucose test strips for those not using insulin, and insulin pump supplies such",
+        "as Omnipod, Twiist and V-Go.",
+        "Our Jan. 1, 2027 strategic formulary management decisions are summarized below. A more detailed list of drug"
+      ]
+    },
+    {
+      "line": 45,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "as Omnipod, Twiist and V-Go.",
+      "context": [
+        "multiple preferred therapies, including newly launched generics. New Quantity Limits will be applied to",
+        "diabetic supplies including glucose test strips for those not using insulin, and insulin pump supplies such",
+        "as Omnipod, Twiist and V-Go.",
+        "Our Jan. 1, 2027 strategic formulary management decisions are summarized below. A more detailed list of drug",
+        "updates for the Select and Premium Formularies is also available, identifying all therapeutic categories,"
+      ]
+    },
+    {
+      "line": 141,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "MOBI Connect blood",
+      "context": [
+        "Tier 3 EXC X --- --- --- 9/2/26",
+        "tablet*",
+        "MOBI Connect blood",
+        "Diabetes",
+        "glucose monitoring Tier 3 EXC --- --- X --- 8/20/26"
+      ]
+    },
+    {
+      "line": 143,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "glucose monitoring Tier 3 EXC --- --- X --- 8/20/26",
+      "context": [
+        "MOBI Connect blood",
+        "Diabetes",
+        "glucose monitoring Tier 3 EXC --- --- X --- 8/20/26",
+        "Supplies",
+        "kit*"
+      ]
+    }
+  ]
+}

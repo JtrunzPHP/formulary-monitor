@@ -1,1 +1,146 @@
-{}
+{
+  "optum-pharmacy-passages-direct-september-2026": {
+    "id": "optum-pharmacy-passages-direct-september-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-direct-september-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-direct-september-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.267Z"
+  },
+  "optum-pharmacy-passages-august-2026": {
+    "id": "optum-pharmacy-passages-august-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-august-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-august-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-july-2026": {
+    "id": "optum-pharmacy-passages-july-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-july-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-july-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-direct-umr-june-2026": {
+    "id": "optum-pharmacy-passages-direct-umr-june-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-direct-umr-june-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-direct-umr-june-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-direct-umr-may-2026": {
+    "id": "optum-pharmacy-passages-direct-umr-may-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-direct-umr-may-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-direct-umr-may-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-direct-umr-april-2026": {
+    "id": "optum-pharmacy-passages-direct-umr-april-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-direct-umr-april-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-direct-umr-april-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-ehb-september-2026": {
+    "id": "optum-pharmacy-passages-ehb-september-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-ehb-september-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-ehb-september-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-ehb-august-2026": {
+    "id": "optum-pharmacy-passages-ehb-august-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-ehb-august-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-ehb-august-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-ehb-july-2026": {
+    "id": "optum-pharmacy-passages-ehb-july-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-ehb-july-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-ehb-july-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-ehb-june-2026": {
+    "id": "optum-pharmacy-passages-ehb-june-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-ehb-june-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-ehb-june-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-ehb-may-2026": {
+    "id": "optum-pharmacy-passages-ehb-may-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-ehb-may-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-ehb-may-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  },
+  "optum-pharmacy-passages-ehb-april-2026": {
+    "id": "optum-pharmacy-passages-ehb-april-2026",
+    "pbm": "Optum Rx",
+    "owner": "business.optum.com",
+    "name": "Optum Rx: pharmacy-passages-ehb-april-2026.pdf",
+    "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-ehb-april-2026.pdf",
+    "kind": "pdf",
+    "cadence": "monthly",
+    "verified": "discovered",
+    "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+    "found_at": "2026-10-22T21:21:53.268Z"
+  }
+}

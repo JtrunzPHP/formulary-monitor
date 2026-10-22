@@ -1,0 +1,156 @@
+Pharmacy Passages
+Health Exchange Essential Health
+Benefit (EHB) Formulary Update
+April 2026
+
+
+
+
+The following formulary decisions and updates apply to
+Optum Rx® standard EHB formularies.
+The Optum Rx Business Committee meets monthly to evaluate tier placements and new prescription products
+approved by the Food and Drug Administration (FDA). This committee makes decisions based on information and
+recommendations from the Optum Rx Pharmacy & Therapeutics Committee, comprised of independent physician
+providers and pharmacists.
+The following are the strategic clinical decisions made in the past month. Your actual plan's copays and/or
+coinsurance may differ from those indicated depending on the selected plan design, which determines coverage
+and pharmacy provider(s).
+The tier chart below does not necessarily correlate to Centers for Medicare and Medicaid Services (CMS)
+submission tiers.
+
+
+
+
+ HIX BASE (RxBuilder) tiers                                HIX ENHANCED (RxBuilder) tiers
+ Generic = 1                                               Low-cost generic = LCG
+ Preferred brand = 2                                       Generic = 1
+ Non-preferred brand = 3                                   Preferred brand = 2
+ Specialty = 4                                             Non-preferred brand = 3
+ Both versions include preventive (PV) drugs
+ which may have $0 when health care reform                 Specialty generic and specialty preferred brands = 4
+ requirements are met.
+ Both versions may contain oral chemo (CM)
+                                                           Specialty non-preferred brands = 5
+ tier if elected.
+
+
+
+   Key
+   SP: Specialty pharmacy        PA: Prior authorization        ST: Step therapy        QL: Quantity limit
+Down-tiers
+Medications may move to a lower tier or be added to the formulary throughout the year, helping members take
+immediate advantage of cost savings.
+Please note there are no new down-tiers at this time.
+
+
+
+
+Up-tiers
+Medications may move to a higher tier on Jan. 1.
+Please note there are no up-tiers at this time.
+
+
+
+
+New brand launches and new strengths
+New brand name medications and new strengths launch throughout the year. Final coverage status for new
+medications is determined after thorough review by the Optum Rx Pharmacy & Therapeutics Committee. New
+brand launches may include Authorized Brand Alternatives.*
+
+
+   Therapeutic                                                  EHB            EHB                   Programs                Effective
+                             Medication name
+       use                                                      Base         Enhanced         SP      PA      ST     QL        date
+
+ Immunological          Starjemza (ustekinumab-
+                                                               Tier 4           Tier 4         X       X      ---     X       4/29/26
+ Agents                 hmny) IV and SC injection
+
+
+                        Avtozma (tocilizumab-
+ Musculoskeletal        anoh) auto-injector and
+                                                               Tier 4           Tier 5         X       X      ---     X       3/17/26
+ Agents                 prefilled syringe for SC
+                        injection
+
+* Authorized Brand Alternatives (ABA), also referred to as Authorized Generics, are approved brand name medications marketed by either
+  the brand company or another company. Although it does not have the brand name on its label, it is the exact same drug product as the
+  brand product.
+
+
+
+
+                                                                                                                                          2
+New generic launches
+New generic medication launches occur throughout the year.
+
+
+                     Generic            Generic                                          Programs
+  Therapeutic                                           EHB         EHB                                    Effective
+                    medication         medication
+      use                                               Base      Enhanced         SP    PA    ST     QL     date
+                      name               name
+ Antineoplastic    pomalidomide
+                                      Pomalyst         Tier 4        Tier 4        X      X    ---    X     3/5/26
+ Agents            capsule
+                   milnacipran
+ Neurological
+                   tablet titration   Savella          Tier 1        Tier 1        ---   ---   ---    X    3/31/26
+ Agents
+                   pack
+                   Bimatoprost
+ Ophthalmic
+                   ophthalmic         Lumigan          Tier 1        Tier 1        ---   ---   ---    X     4/7/26
+ Agents
+                   solution
+
+
+
+
+ PA         Prior authorization
+Prior authorization requires physicians to provide additional clinical information to verify member
+benefit coverage.
+Please note there are no additions or removals of this restriction at this time.
+
+
+
+
+ ST         Step therapy
+Step therapy directs members to try a lower-cost alternative (Step 1) before a higher-cost medication (Step 2)
+may be eligible for coverage.
+Please note there are no additions or removals of this restriction at this time.
+
+
+
+
+ QL         Quantity limits
+Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe.
+Please note there are no additions or removals of this restriction at this time.
+
+
+
+
+                                                                                                                       3
+ AR            Age restrictions (this applies to a limited number of clinical programs)
+Please note there are no additions or removals of this restriction at this time.
+
+
+
+
+                If you would like additional information that is not listed,
+                please contact your Optum Rx representative.
+
+
+
+
+Optum is a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. All other brand or product names are the property of their
+respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications
+without prior notice. Optum is an equal opportunity employer.
+
+© 2026 OptumRx, Inc. All rights reserved. WF21110258-260217 EHB April 2026
+
+
+
+
+                                                                                                                                                 4
+

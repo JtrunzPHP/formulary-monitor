@@ -1,0 +1,24 @@
+{
+  "id": "optum-pharmacy-passages-august-2026",
+  "stamp": "20261022-212153",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 254,
+  "watchlist_in_document": [
+    {
+      "line": 88,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Awiqli (insulin icodec-",
+      "context": [
+        "Agents autoinjector for SC",
+        "injection 500mg",
+        "Awiqli (insulin icodec-",
+        "Antidiabetic",
+        "abae) pen-injector for Tier 3 EXC --- X --- X 7/13/26"
+      ]
+    }
+  ]
+}

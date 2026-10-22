@@ -1,0 +1,88 @@
+{
+  "id": "optum-pharmacy-passages-direct-umr-april-2026",
+  "stamp": "20261022-212154",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 271,
+  "watchlist_in_document": [
+    {
+      "line": 50,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Insulin glargine (ABA of",
+      "context": [
+        "Therapeutic use Medication name",
+        "Generic Tier Tier date",
+        "Insulin glargine (ABA of",
+        "Antidiabetic Agents Toujeo) pen-injector for SC Brand 3>1 EXC (N/C) 5/1/26",
+        "injection"
+      ]
+    },
+    {
+      "line": 51,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Antidiabetic Agents Toujeo) pen-injector for SC Brand 3>1 EXC (N/C) 5/1/26",
+      "context": [
+        "Generic Tier Tier date",
+        "Insulin glargine (ABA of",
+        "Antidiabetic Agents Toujeo) pen-injector for SC Brand 3>1 EXC (N/C) 5/1/26",
+        "injection",
+        "Anti-infective"
+      ]
+    },
+    {
+      "line": 98,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "Wegovy HD",
+      "context": [
+        "Tier 3 EXC X --- --- --- 3/31/26",
+        "Agents capsule pack*",
+        "Wegovy HD",
+        "Antiobesity (semaglutide) SC",
+        "Tier 2 Tier 2 --- X --- X 4/14/26"
+      ]
+    },
+    {
+      "line": 99,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "Antiobesity (semaglutide) SC",
+      "context": [
+        "Agents capsule pack*",
+        "Wegovy HD",
+        "Antiobesity (semaglutide) SC",
+        "Tier 2 Tier 2 --- X --- X 4/14/26",
+        "Agents injection"
+      ]
+    },
+    {
+      "line": 238,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Insulin glargine (ABA of Toujeo) pen-injector",
+      "context": [
+        "such as step therapy and quantity limits may still apply.",
+        "Therapeutic use Medication name Add/Remove Effective date",
+        "Insulin glargine (ABA of Toujeo) pen-injector",
+        "Antidiabetic Agents Remove 5/1/26",
+        "for SC injection"
+      ]
+    }
+  ]
+}

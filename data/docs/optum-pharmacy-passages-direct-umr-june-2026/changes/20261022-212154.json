@@ -1,0 +1,24 @@
+{
+  "id": "optum-pharmacy-passages-direct-umr-june-2026",
+  "stamp": "20261022-212154",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 278,
+  "watchlist_in_document": [
+    {
+      "line": 65,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Antidiabetic Pivot insulin delivery",
+      "context": [
+        "Therapeutic use Medication name",
+        "Tier Tier SP PA ST QL date",
+        "Antidiabetic Pivot insulin delivery",
+        "Tier 3 EXC --- --- --- --- 5/28/26",
+        "Supplies system*"
+      ]
+    }
+  ]
+}
