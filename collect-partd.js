@@ -260,7 +260,8 @@ async function parseFormulary(file, keepFormularies) {
   let header = null;
   let cols = null;
   let idx = null;
-  const rows = new Map(); // key formulary|rxcui -> [tier, pa, st, ql, qlAmt, qlDays, ndcCount, mixed]
+  const rows = new Map(); // key formulary|rxcui -> [tier, pa, st, ql, qlAmt, qlDays, ndcCount, mixed, selected, ndc]
+  const formularyVersions = new Map(); // formulary_id -> "year|version"
   let lines = 0;
   let kept = 0;
   let skippedFormulary = 0;
@@ -281,6 +282,9 @@ async function parseFormulary(file, keepFormularies) {
         ql: pick(header, 'QUANTITY_LIMIT_YN', 'QL_YN'),
         qlAmt: pick(header, 'QUANTITY_LIMIT_AMOUNT'),
         qlDays: pick(header, 'QUANTITY_LIMIT_DAYS'),
+        selected: pick(header, 'SELECTED_DRUG_YN'),
+        version: pick(header, 'FORMULARY_VERSION'),
+        year: pick(header, 'CONTRACT_YEAR'),
       };
       log(`Column mapping: ${JSON.stringify(idx)}`);
       if (idx.form < 0 || idx.rxcui < 0 || idx.tier < 0) {
@@ -304,12 +308,15 @@ async function parseFormulary(file, keepFormularies) {
     const ql = idx.ql >= 0 ? (f[idx.ql] || '') : '';
     const qlAmt = idx.qlAmt >= 0 ? (f[idx.qlAmt] || '') : '';
     const qlDays = idx.qlDays >= 0 ? (f[idx.qlDays] || '') : '';
+    const selected = idx.selected >= 0 ? (f[idx.selected] || '') : '';
+    const ndc = idx.ndc >= 0 ? (f[idx.ndc] || '') : '';
+    if (idx.version >= 0 && !formularyVersions.has(form)) formularyVersions.set(form, `${idx.year >= 0 ? f[idx.year] : ''}|${f[idx.version]}`);
 
     if (ndcSample.length < 5 && idx.ndc >= 0) ndcSample.push(f[idx.ndc]);
 
     const existing = rows.get(key);
     if (!existing) {
-      rows.set(key, [tier, pa, st, ql, qlAmt, qlDays, 1, 0]);
+      rows.set(key, [tier, pa, st, ql, qlAmt, qlDays, 1, 0, selected, ndc]);
       kept++;
     } else {
       existing[6]++;
@@ -319,14 +326,14 @@ async function parseFormulary(file, keepFormularies) {
 
   log(`Formulary file: ${lines.toLocaleString()} NDC rows read, ${rows.size.toLocaleString()} formulary-RXCUI combinations kept, ${skippedFormulary.toLocaleString()} rows skipped by formulary filter`);
   log(`Sample NDC values (to confirm format for the name lookup step): ${ndcSample.join(', ')}`);
-  return rows;
+  return { rows, formularyVersions };
 }
 
 // ---------------------------------------------------------------------------
 // Step 4: write the snapshot
 // ---------------------------------------------------------------------------
 
-function writeSnapshot(dateTag, sourceName, plans, rows) {
+function writeSnapshot(dateTag, sourceName, plans, rows, formularyVersions) {
   const dir = path.join(SNAP_DIR, dateTag);
   ensureDir(dir);
 
@@ -350,17 +357,18 @@ function writeSnapshot(dateTag, sourceName, plans, rows) {
     if (p.ticker) x.tickers.add(p.ticker);
     x.contracts.add(p.contract_id);
   }
-  const formLines = ['formulary_id,plan_count,contract_count,parents,tickers'];
+  const formLines = ['formulary_id,contract_year,formulary_version,plan_count,contract_count,parents,tickers'];
   for (const [fid, x] of byForm) {
-    formLines.push([fid, x.plans, x.contracts.size, [...x.parents].sort().join('; '), [...x.tickers].sort().join(' ')].map(csvCell).join(','));
+    const [yr, ver] = (formularyVersions.get(fid) || '|').split('|');
+    formLines.push([fid, yr, ver, x.plans, x.contracts.size, [...x.parents].sort().join('; '), [...x.tickers].sort().join(' ')].map(csvCell).join(','));
   }
   fs.writeFileSync(path.join(dir, 'formularies.csv'), formLines.join('\n') + '\n');
 
   // formulary.csv.gz: one row per formulary x RXCUI
-  const out = ['formulary_id,rxcui,tier,pa,st,ql,ql_amount,ql_days,ndc_count,mixed_ndc'];
+  const out = ['formulary_id,rxcui,ndc,tier,pa,st,ql,ql_amount,ql_days,selected_drug,ndc_count,mixed_ndc'];
   for (const [key, v] of rows) {
     const [form, rxcui] = key.split('|');
-    out.push(`${form},${rxcui},${v[0]},${v[1]},${v[2]},${v[3]},${v[4]},${v[5]},${v[6]},${v[7]}`);
+    out.push(`${form},${rxcui},${v[9]},${v[0]},${v[1]},${v[2]},${v[3]},${v[4]},${v[5]},${v[8]},${v[6]},${v[7]}`);
   }
   const gz = zlib.gzipSync(Buffer.from(out.join('\n') + '\n'), { level: 9 });
   fs.writeFileSync(path.join(dir, 'formulary.csv.gz'), gz);
@@ -483,8 +491,8 @@ async function main() {
     log(`KEEP_ONLY_MAPPED is on: keeping ${keepFormularies.size} formularies used by mapped parents`);
   }
 
-  const rows = await parseFormulary(formFile, keepFormularies);
-  const meta = writeSnapshot(dateTag, name, plans, rows);
+  const { rows, formularyVersions } = await parseFormulary(formFile, keepFormularies);
+  const meta = writeSnapshot(dateTag, name, plans, rows, formularyVersions);
 
   // Save the unmapped list as a file too, for the mapping pass.
   fs.writeFileSync(
