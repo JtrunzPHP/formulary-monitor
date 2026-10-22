@@ -462,9 +462,10 @@ async function main() {
     log(`Unzipping inner file ${path.basename(z)}`);
     execSync(`unzip -o -q "${z}" -d "${innerDir}"`, { stdio: 'inherit' });
   }
-  files = listFilesRecursive(unzipDir);
-  const textFiles = files.filter((f) => /\.(txt|csv)$/i.test(f));
-  log(`Text files available after inner unzip: ${textFiles.map((f) => path.basename(f)).join(' | ')}`);
+  const innerFiles = listFilesRecursive(innerDir);
+  log(`Files produced by the inner unzip (${innerFiles.length}):`);
+  innerFiles.forEach((f) => log(`   ${(fs.statSync(f).size / 1048576).toFixed(1).padStart(8)} MB  ${path.relative(innerDir, f)}`));
+  const textFiles = innerFiles.filter((f) => !/\.zip$/i.test(f));
 
   const planFile = findFile(textFiles, /plan.*information/i);
   const formFile = findFile(textFiles, /basic.*drugs.*formulary/i);
