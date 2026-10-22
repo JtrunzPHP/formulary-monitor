@@ -15,7 +15,7 @@
 
 const PARENTS = [
   // ---- UnitedHealth Group / Optum Rx ----
-  { match: /unitedhealth|united health|\buhc\b|optum|sierra health|rocky mountain health|care improvement plus|preferred care partners|physicians health choice|arizona physicians|oxford health|pacificare|peoples health/i,
+  { match: /unitedhealth|united health|\buhc\b|optum|sierra health|rocky mountain health|care improvement plus|preferred care partners|preferred care network|physicians health choice|arizona physicians|oxford health|pacificare|peoples health/i,
     parent: 'UnitedHealth Group', ticker: 'UNH', pbm: 'Optum Rx', note: 'Peoples Health: UHC subsidiary since 2014 (verify)' },
 
   // ---- CVS Health / Aetna / SilverScript / Caremark ----
@@ -35,12 +35,12 @@ const PARENTS = [
     parent: 'Elevance Health', ticker: 'ELV', pbm: 'CarelonRx', note: 'Freedom, Optimum, MMM, HealthSun acquired 2020 onward (verify)' },
 
   // ---- Centene / WellCare ----
-  { match: /centene|wellcare|wellcare prescription|health net|fidelis|new york quality healthcare|superior healthplan|peach state|sunshine state|sunshine health|buckeye|ambetter|allwell|magnolia|meridian|absolute total care|home state|louisiana healthcare connections|managed health services|silversummit|trillium|western sky|nebraska total care|coordinated care|arkansas total care|iowa total care|pa health|mhs health|harmony health plan|american progressive life/i,
+  { match: /centene|wellcare|wellcare prescription|health net|fidelis|new york quality healthcare|superior healthplan|peach state|sunshine state|sunshine health|buckeye|ambetter|allwell|magnolia|meridian|absolute total care|home state|louisiana healthcare connections|managed health services|silversummit|trillium|western sky|nebraska total care|coordinated care|arkansas total care|iowa total care|pa health|mhs health|harmony health plan|american progressive life|celtic insurance|sunflower state|health & wellness|health and wellness|healthy arkansas|healthy mississippi/i,
     parent: 'Centene', ticker: 'CNC', pbm: 'Express Scripts (contracted; verify)', note: 'WellCare MA and PDP ownership by contract should be verified; American Progressive came with Universal American via WellCare (verify)' },
 
   // ---- Molina ----
-  { match: /molina/i,
-    parent: 'Molina Healthcare', ticker: 'MOH', pbm: 'CVS Caremark (contracted; verify)' },
+  { match: /molina|senior whole health/i,
+    parent: 'Molina Healthcare', ticker: 'MOH', pbm: 'CVS Caremark (contracted; verify)', note: 'Senior Whole Health acquired by Molina 2018 (verify)' },
 
   // ---- Other public names ----
   { match: /alignment health/i,
@@ -59,14 +59,22 @@ const PARENTS = [
     parent: 'Mutual of Omaha (private)', ticker: 'PRIVATE', pbm: 'verify' },
   { match: /elixir|rite aid/i,
     parent: 'Elixir / Rite Aid (private)', ticker: 'PRIVATE', pbm: 'Elixir' },
-  { match: /highmark|keystone health plan central|capital advantage/i,
+  { match: /highmark|keystone health plan central|capital advantage|gateway health/i,
     parent: 'Highmark / Capital Blue (nonprofit Blues)', ticker: 'PRIVATE', pbm: 'Express Scripts (verify)', note: 'Capital Blue Cross and Keystone Central are separate from Highmark; grouped here as PA Blues (verify)' },
   { match: /keystone health plan east|independence blue|qcc insurance/i,
     parent: 'Independence Blue Cross (nonprofit)', ticker: 'PRIVATE', pbm: 'verify' },
   { match: /california physicians|blue shield of california/i,
     parent: 'Blue Shield of California (nonprofit)', ticker: 'PRIVATE', pbm: 'verify' },
-  { match: /triple.?s|guidewell|florida blue|blue cross and blue shield of florida/i,
+  { match: /triple.?s|guidewell|florida blue|blue cross and blue shield of florida|capital health plan/i,
     parent: 'GuideWell / Florida Blue / Triple-S (private)', ticker: 'PRIVATE', pbm: 'Prime Therapeutics (verify)' },
+  { match: /metroplus/i,
+    parent: 'MetroPlus / NYC Health + Hospitals (public)', ticker: 'PRIVATE', pbm: 'verify' },
+  { match: /amerihealth caritas/i,
+    parent: 'AmeriHealth Caritas (IBX and BCBS Michigan JV, private)', ticker: 'PRIVATE', pbm: 'verify' },
+  { match: /mass general brigham|commonwealth care alliance|neighborhood health plan|capital district physicians|cox health|st\. luke.?s health plan|baycare|partners insurance|southeastern indiana|community care health plan of louisiana|vns choice|vna homecare|mercy care|hamaspik|village senior|primewest/i,
+    parent: 'Provider-sponsored or nonprofit regional plan', ticker: 'PRIVATE', pbm: 'verify' },
+  { match: /pruitthealth|provider partners|nhc advantage|signature advantage|procare advantage|liberty advantage|lifeworks advantance|lifeworks advantage|medcare partners|american health plan of|align senior care|simpra|sapphire edge|marquis advantage|eternalhealth|verda health|range health|ks plan administrators|kansas superior select|arkansas superior select|beshp|thp insurance/i,
+    parent: 'Institutional SNP or regional MA startup (private, various)', ticker: 'PRIVATE', pbm: 'verify' },
   { match: /health insurance plan of greater new york|emblemhealth|\bhip\b/i,
     parent: 'EmblemHealth (nonprofit)', ticker: 'PRIVATE', pbm: 'verify' },
   { match: /selecthealth|intermountain/i,
@@ -99,7 +107,7 @@ const PARENTS = [
     parent: 'Regional MA plan (private, various)', ticker: 'PRIVATE', pbm: 'verify' },
 
   // ---- Catch-all Blues ----
-  { match: /blue cross|blue shield|bcbs|bluecross|blueshield|wellmark|premera|regence|cambia|carefirst|horizon|capital blue|excellus|lifetime healthcare|hcsc|health care service corporation|arkansas blue|blue care network|blue plus|hmo louisiana|hmo partners|usable/i,
+  { match: /blue cross|blue shield|bcbs|bluecross|blueshield|wellmark|premera|regence|cambia|carefirst|horizon|capital blue|excellus|lifetime healthcare|hcsc|health care service corporation|arkansas blue|blue care network|blue plus|hmo louisiana|hmo partners|usable|louisiana health service|volunteer state/i,
     parent: 'Blue Cross Blue Shield affiliate (various)', ticker: 'VARIES', pbm: 'Prime Therapeutics or other (verify per plan)' },
 
   // ---- Catch-all regional and provider-sponsored ----
