@@ -1,19 +1,24 @@
 // diff-partd.js
-// Compares the two newest Part D snapshots and writes every change at the
-// formulary x drug level, enriched with drug name, manufacturer, manufacturer
-// ticker, and the plan parents that use the formulary.
+// Compares the two newest Part D snapshots at the drug level.
+//
+// CMS assigns new formulary IDs each plan year, so the comparison follows the
+// plans rather than the IDs: for every plan present in both snapshots, the
+// formulary it used before is compared with the formulary it uses now. Plans
+// that made the same before -> after transition are grouped so each comparison
+// runs once and is weighted by the number of plans on it.
 //
 // Outputs (all under data/partd/diffs/):
-//   <prev>_to_<latest>.csv        one row per change
-//   <prev>_to_<latest>.summary.json  counts and the most widespread changes
-//   index.json                    list of diffs produced so far
+//   <prev>_to_<latest>.csv            one row per change
+//   <prev>_to_<latest>.summary.json   counts and the most widespread changes
+//   index.json                        list of diffs produced so far
 //
 // Change types: ADDED, REMOVED, TIER_UP (worse), TIER_DOWN (better), PA_ADDED,
 // PA_REMOVED, ST_ADDED, ST_REMOVED, QL_ADDED, QL_REMOVED, QL_CHANGED,
-// SELECTED_DRUG_FLAG_CHANGED, plus FORMULARY_NEW / FORMULARY_GONE at the
-// formulary level and PLAN_FORMULARY_CHANGED when a plan switches formulary.
+// SELECTED_DRUG_FLAG_CHANGED, plus PLAN_FORMULARY_SWITCH when, within the same
+// plan year, a plan moves to a different formulary ID, and FORMULARY_SPLIT when
+// plans that shared one formulary before are now on different formularies.
 //
-// No npm packages. Node 20 or newer.
+// No npm packages. Node 20 or newer. FORCE=true rebuilds an existing diff.
 
 const fs = require('fs');
 const path = require('path');
@@ -32,7 +37,6 @@ function readJson(f, fb) { try { return JSON.parse(fs.readFileSync(f, 'utf8')); 
 function csvCell(v) { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
 
 function parseCsvLine(line) {
-  // Handles quoted cells written by csvCell above.
   const out = []; let cur = ''; let q = false;
   for (let i = 0; i < line.length; i++) {
     const ch = line[i];
@@ -48,33 +52,35 @@ function parseCsvLine(line) {
   return out;
 }
 
-async function readFormulary(snap) {
-  const file = path.join(SNAP_DIR, snap, 'formulary.csv.gz');
-  const rl = readline.createInterface({ input: fs.createReadStream(file).pipe(zlib.createGunzip()), crlfDelay: Infinity });
-  let h = null; const idx = {};
-  const rows = new Map(); // formulary|rxcui -> {tier, pa, st, ql, qlAmt, qlDays, sel}
-  const forms = new Set();
-  for await (const line of rl) {
-    if (!h) { h = line.split(','); h.forEach((c, i) => { idx[c] = i; }); continue; }
-    if (!line) continue;
-    const f = line.split(',');
-    const form = f[idx.formulary_id];
-    forms.add(form);
-    rows.set(`${form}|${f[idx.rxcui]}`, {
-      tier: f[idx.tier] || '', pa: f[idx.pa] || '', st: f[idx.st] || '', ql: f[idx.ql] || '',
-      qlAmt: f[idx.ql_amount] || '', qlDays: f[idx.ql_days] || '', sel: idx.selected_drug != null ? (f[idx.selected_drug] || '') : '',
-    });
-  }
-  return { rows, forms };
-}
-
 function readCsv(file) {
   const lines = fs.readFileSync(file, 'utf8').split('\n').filter((l) => l.length);
   const h = parseCsvLine(lines[0]);
   return lines.slice(1).map((l) => { const f = parseCsvLine(l); const o = {}; h.forEach((c, i) => { o[c] = f[i]; }); return o; });
 }
 
+async function readFormulary(snap) {
+  // Returns Map formulary_id -> Map rxcui -> {tier, pa, st, ql, qlAmt, qlDays, sel}
+  const file = path.join(SNAP_DIR, snap, 'formulary.csv.gz');
+  const rl = readline.createInterface({ input: fs.createReadStream(file).pipe(zlib.createGunzip()), crlfDelay: Infinity });
+  let h = null; const idx = {};
+  const byForm = new Map();
+  for await (const line of rl) {
+    if (!h) { h = line.split(','); h.forEach((c, i) => { idx[c] = i; }); continue; }
+    if (!line) continue;
+    const f = line.split(',');
+    const form = f[idx.formulary_id];
+    let m = byForm.get(form);
+    if (!m) { m = new Map(); byForm.set(form, m); }
+    m.set(f[idx.rxcui], {
+      tier: f[idx.tier] || '', pa: f[idx.pa] || '', st: f[idx.st] || '', ql: f[idx.ql] || '',
+      qlAmt: f[idx.ql_amount] || '', qlDays: f[idx.ql_days] || '', sel: idx.selected_drug != null ? (f[idx.selected_drug] || '') : '',
+    });
+  }
+  return byForm;
+}
+
 function tierNum(t) { const n = parseInt(t, 10); return Number.isFinite(n) ? n : null; }
+function planKey(p) { return `${p.contract_id}|${p.plan_id}|${p.segment_id}`; }
 
 async function main() {
   const dirs = fs.existsSync(SNAP_DIR) ? fs.readdirSync(SNAP_DIR).filter((d) => /^\d{8}$/.test(d)).sort() : [];
@@ -90,123 +96,152 @@ async function main() {
   log(`Diffing ${prev} -> ${latest}`);
 
   const drugs = readJson(DRUGS_JSON, {});
-  const formsLatest = readCsv(path.join(SNAP_DIR, latest, 'formularies.csv'));
-  const formsPrev = readCsv(path.join(SNAP_DIR, prev, 'formularies.csv'));
-  const formInfo = new Map(formsLatest.map((r) => [r.formulary_id, r]));
-  for (const r of formsPrev) if (!formInfo.has(r.formulary_id)) formInfo.set(r.formulary_id, r);
-
-  const plansLatest = readCsv(path.join(SNAP_DIR, latest, 'plans.csv'));
   const plansPrev = readCsv(path.join(SNAP_DIR, prev, 'plans.csv'));
-  const yearLatest = (formsLatest[0] || {}).contract_year || '';
+  const plansLatest = readCsv(path.join(SNAP_DIR, latest, 'plans.csv'));
+  const formsPrev = readCsv(path.join(SNAP_DIR, prev, 'formularies.csv'));
+  const formsLatest = readCsv(path.join(SNAP_DIR, latest, 'formularies.csv'));
   const yearPrev = (formsPrev[0] || {}).contract_year || '';
-  log(`Contract year ${yearPrev} -> ${yearLatest}${yearPrev !== yearLatest ? ' (new plan year: expect many changes)' : ''}`);
+  const yearLatest = (formsLatest[0] || {}).contract_year || '';
+  const newYear = yearPrev !== yearLatest;
+  log(`Contract year ${yearPrev} -> ${yearLatest}${newYear ? ' (new plan year: formulary ids are expected to change, following plans instead)' : ''}`);
+
+  // ---- Build transitions: prevFormulary -> latestFormulary, with the plans on each ----
+  const prevByPlan = new Map(plansPrev.map((p) => [planKey(p), p]));
+  const latestKeys = new Set(plansLatest.map(planKey));
+  const transitions = new Map(); // "prevF|latestF" -> {prevF, latestF, plans, parents Map, tickers Set, examples}
+  let matchedPlans = 0, newPlans = 0;
+  const prevFormToLatest = new Map(); // prevF -> Set(latestF)
+  for (const p of plansLatest) {
+    const q = prevByPlan.get(planKey(p));
+    if (!q) { newPlans++; continue; }
+    matchedPlans++;
+    const k = `${q.formulary_id}|${p.formulary_id}`;
+    let t = transitions.get(k);
+    if (!t) { t = { prevF: q.formulary_id, latestF: p.formulary_id, plans: 0, parents: new Map(), tickers: new Set(), examples: [] }; transitions.set(k, t); }
+    t.plans++;
+    t.parents.set(p.parent, (t.parents.get(p.parent) || 0) + 1);
+    if (p.ticker) t.tickers.add(p.ticker);
+    if (t.examples.length < 3) t.examples.push(`${p.contract_id}-${p.plan_id} ${p.plan_name}`);
+    if (!prevFormToLatest.has(q.formulary_id)) prevFormToLatest.set(q.formulary_id, new Set());
+    prevFormToLatest.get(q.formulary_id).add(p.formulary_id);
+  }
+  const goneP = plansPrev.filter((q) => !latestKeys.has(planKey(q))).length;
+  log(`Plans: ${plansPrev.length} before, ${plansLatest.length} now; ${matchedPlans} matched, ${newPlans} new, ${goneP} gone`);
+  log(`Distinct formulary transitions to compare: ${transitions.size}`);
 
   const A = await readFormulary(prev);
   const B = await readFormulary(latest);
-  log(`Rows: ${A.rows.size.toLocaleString()} -> ${B.rows.size.toLocaleString()}; formularies ${A.forms.size} -> ${B.forms.size}`);
+  log(`Formularies loaded: ${A.size} before, ${B.size} now`);
 
   const changes = [];
-  function push(form, rxcui, type, detail, before, after) {
+  function push(t, rxcui, type, detail, before, after) {
     const d = drugs[rxcui] || {};
     const lab = mapLabeler(d.labeler);
-    const fi = formInfo.get(form) || {};
     changes.push({
-      formulary_id: form, rxcui, change: type, detail, before, after,
+      prev_formulary_id: t.prevF, formulary_id: t.latestF, rxcui, change: type, detail, before, after,
       drug: d.name || '', tty: d.tty || '', ingredients: d.ingredients || '', brands: d.brands || '',
       labeler: d.labeler || '', mfr_parent: lab.parent, mfr_ticker: lab.ticker,
-      plan_parents: fi.parents || '', plan_tickers: fi.tickers || '', plan_count: fi.plan_count || '',
+      plan_count: t.plans,
+      plan_parents: [...t.parents.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`).join('; '),
+      plan_tickers: [...t.tickers].sort().join(' '),
+      example_plans: t.examples.join('; '),
     });
   }
 
-  // Formulary-level
-  for (const f of B.forms) if (!A.forms.has(f)) push(f, '', 'FORMULARY_NEW', 'formulary id not in previous snapshot', '', '');
-  for (const f of A.forms) if (!B.forms.has(f)) push(f, '', 'FORMULARY_GONE', 'formulary id not in latest snapshot', '', '');
-
-  // Plan-level formulary switches
-  const planPrev = new Map(plansPrev.map((p) => [`${p.contract_id}|${p.plan_id}|${p.segment_id}`, p]));
-  let switched = 0;
-  for (const p of plansLatest) {
-    const k = `${p.contract_id}|${p.plan_id}|${p.segment_id}`;
-    const q = planPrev.get(k);
-    if (q && q.formulary_id !== p.formulary_id) {
-      switched++;
-      push(p.formulary_id, '', 'PLAN_FORMULARY_CHANGED', `${p.contract_id}-${p.plan_id} ${p.plan_name} (${p.parent})`, q.formulary_id, p.formulary_id);
+  // ---- Structural changes ----
+  let switches = 0, splits = 0;
+  for (const t of transitions.values()) {
+    if (!newYear && t.prevF !== t.latestF) { switches++; push(t, '', 'PLAN_FORMULARY_SWITCH', `${t.plans} plan(s) moved to a different formulary id within the plan year`, t.prevF, t.latestF); }
+  }
+  for (const [prevF, set] of prevFormToLatest) {
+    if (set.size > 1) {
+      splits++;
+      for (const t of transitions.values()) if (t.prevF === prevF) push(t, '', 'FORMULARY_SPLIT', `plans formerly on ${prevF} now sit on ${set.size} different formularies`, prevF, [...set].join(' '));
     }
   }
 
-  // Drug-level
-  const common = new Set([...A.forms].filter((f) => B.forms.has(f)));
-  for (const [key, b] of B.rows) {
-    const [form, rxcui] = key.split('|');
-    if (!common.has(form)) continue;
-    const a = A.rows.get(key);
-    if (!a) { push(form, rxcui, 'ADDED', `tier ${b.tier}${b.pa === 'Y' ? ' PA' : ''}${b.st === 'Y' ? ' ST' : ''}${b.ql === 'Y' ? ' QL' : ''}`, '', b.tier); continue; }
-    const ta = tierNum(a.tier), tb = tierNum(b.tier);
-    if (a.tier !== b.tier) push(form, rxcui, ta != null && tb != null && tb > ta ? 'TIER_UP' : 'TIER_DOWN', `tier ${a.tier} -> ${b.tier}`, a.tier, b.tier);
-    if (a.pa !== b.pa) push(form, rxcui, b.pa === 'Y' ? 'PA_ADDED' : 'PA_REMOVED', 'prior authorization', a.pa, b.pa);
-    if (a.st !== b.st) push(form, rxcui, b.st === 'Y' ? 'ST_ADDED' : 'ST_REMOVED', 'step therapy', a.st, b.st);
-    if (a.ql !== b.ql) push(form, rxcui, b.ql === 'Y' ? 'QL_ADDED' : 'QL_REMOVED', `quantity limit ${b.qlAmt}/${b.qlDays}d`, a.ql, b.ql);
-    else if (b.ql === 'Y' && (a.qlAmt !== b.qlAmt || a.qlDays !== b.qlDays)) push(form, rxcui, 'QL_CHANGED', 'quantity limit amount or days', `${a.qlAmt}/${a.qlDays}d`, `${b.qlAmt}/${b.qlDays}d`);
-    if (a.sel !== b.sel) push(form, rxcui, 'SELECTED_DRUG_FLAG_CHANGED', 'Medicare negotiation selected-drug flag', a.sel, b.sel);
+  // ---- Drug-level changes, once per transition ----
+  let compared = 0, skipped = 0;
+  for (const t of transitions.values()) {
+    const a = A.get(t.prevF); const b = B.get(t.latestF);
+    if (!a || !b) { skipped++; continue; }
+    compared++;
+    for (const [rxcui, y] of b) {
+      const x = a.get(rxcui);
+      if (!x) { push(t, rxcui, 'ADDED', `tier ${y.tier}${y.pa === 'Y' ? ' PA' : ''}${y.st === 'Y' ? ' ST' : ''}${y.ql === 'Y' ? ' QL' : ''}`, '', y.tier); continue; }
+      const ta = tierNum(x.tier), tb = tierNum(y.tier);
+      if (x.tier !== y.tier) push(t, rxcui, ta != null && tb != null && tb > ta ? 'TIER_UP' : 'TIER_DOWN', `tier ${x.tier} -> ${y.tier}`, x.tier, y.tier);
+      if (x.pa !== y.pa) push(t, rxcui, y.pa === 'Y' ? 'PA_ADDED' : 'PA_REMOVED', 'prior authorization', x.pa, y.pa);
+      if (x.st !== y.st) push(t, rxcui, y.st === 'Y' ? 'ST_ADDED' : 'ST_REMOVED', 'step therapy', x.st, y.st);
+      if (x.ql !== y.ql) push(t, rxcui, y.ql === 'Y' ? 'QL_ADDED' : 'QL_REMOVED', `quantity limit ${y.qlAmt}/${y.qlDays}d`, x.ql, y.ql);
+      else if (y.ql === 'Y' && (x.qlAmt !== y.qlAmt || x.qlDays !== y.qlDays)) push(t, rxcui, 'QL_CHANGED', 'quantity limit amount or days', `${x.qlAmt}/${x.qlDays}d`, `${y.qlAmt}/${y.qlDays}d`);
+      if (x.sel !== y.sel) push(t, rxcui, 'SELECTED_DRUG_FLAG_CHANGED', 'Medicare negotiation selected-drug flag', x.sel, y.sel);
+    }
+    for (const [rxcui, x] of a) if (!b.has(rxcui)) push(t, rxcui, 'REMOVED', `was tier ${x.tier}`, x.tier, '');
   }
-  for (const [key, a] of A.rows) {
-    const [form, rxcui] = key.split('|');
-    if (!common.has(form)) continue;
-    if (!B.rows.has(key)) push(form, rxcui, 'REMOVED', `was tier ${a.tier}`, a.tier, '');
-  }
+  log(`Transitions compared: ${compared}, skipped (formulary missing from a snapshot): ${skipped}`);
 
-  // Write CSV
-  const cols = ['formulary_id', 'rxcui', 'change', 'detail', 'before', 'after', 'drug', 'tty', 'ingredients', 'brands', 'labeler', 'mfr_parent', 'mfr_ticker', 'plan_parents', 'plan_tickers', 'plan_count'];
+  // ---- Write CSV ----
+  const cols = ['prev_formulary_id', 'formulary_id', 'rxcui', 'change', 'detail', 'before', 'after', 'drug', 'tty', 'ingredients', 'brands', 'labeler', 'mfr_parent', 'mfr_ticker', 'plan_count', 'plan_parents', 'plan_tickers', 'example_plans'];
   const csv = [cols.join(',')].concat(changes.map((c) => cols.map((k) => csvCell(c[k])).join(',')));
   fs.writeFileSync(path.join(DIFF_DIR, `${tag}.csv`), csv.join('\n') + '\n');
 
-  // Summary
+  // ---- Summary ----
   const byType = {};
   for (const c of changes) byType[c.change] = (byType[c.change] || 0) + 1;
 
-  // Most widespread drug-level changes: same drug and change type across many formularies, weighted by plans
-  const agg = new Map();
+  const agg = new Map(); // rxcui|change -> rollup across transitions, weighted by plans
   for (const c of changes) {
     if (!c.rxcui) continue;
     const k = `${c.rxcui}|${c.change}`;
-    const x = agg.get(k) || { rxcui: c.rxcui, change: c.change, drug: c.drug, ingredients: c.ingredients, labeler: c.labeler, mfr_ticker: c.mfr_ticker, formularies: 0, plans: 0, parents: new Set() };
-    x.formularies++;
+    const x = agg.get(k) || { rxcui: c.rxcui, change: c.change, drug: c.drug, tty: c.tty, ingredients: c.ingredients, labeler: c.labeler, mfr_ticker: c.mfr_ticker, transitions: 0, plans: 0, parents: new Map() };
+    x.transitions++;
     x.plans += Number(c.plan_count) || 0;
-    (c.plan_parents || '').split('; ').filter(Boolean).forEach((p) => x.parents.add(p));
+    for (const part of (c.plan_parents || '').split('; ')) {
+      const m = part.match(/^(.*) \((\d+)\)$/);
+      if (m) x.parents.set(m[1], (x.parents.get(m[1]) || 0) + Number(m[2]));
+    }
     agg.set(k, x);
   }
-  const top = [...agg.values()].sort((a, b) => b.plans - a.plans).slice(0, 200)
-    .map((x) => ({ ...x, parents: [...x.parents].sort() }));
+  const top = [...agg.values()].sort((a, b) => b.plans - a.plans).slice(0, 300)
+    .map((x) => ({ ...x, parents: [...x.parents.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`) }));
 
-  // By plan parent: counts of removals and restrictions
-  const byParent = {};
+  const byParent = {}; // plan parent -> change type -> plans affected
   for (const c of changes) {
-    for (const p of (c.plan_parents || '').split('; ').filter(Boolean)) {
-      const x = byParent[p] || (byParent[p] = {});
-      x[c.change] = (x[c.change] || 0) + 1;
+    for (const part of (c.plan_parents || '').split('; ')) {
+      const m = part.match(/^(.*) \((\d+)\)$/);
+      if (!m) continue;
+      const x = byParent[m[1]] || (byParent[m[1]] = {});
+      x[c.change] = (x[c.change] || 0) + Number(m[2]);
     }
   }
-
-  // By manufacturer ticker: removals and restrictions against them
-  const byMfr = {};
+  const byMfr = {}; // manufacturer ticker -> change type -> plans affected
   for (const c of changes) {
-    if (!c.mfr_ticker) continue;
+    if (!c.mfr_ticker || !c.rxcui) continue;
     const x = byMfr[c.mfr_ticker] || (byMfr[c.mfr_ticker] = { parent: c.mfr_parent });
-    x[c.change] = (x[c.change] || 0) + 1;
+    x[c.change] = (x[c.change] || 0) + (Number(c.plan_count) || 0);
   }
 
-  const summary = { tag, prev, latest, contract_year_prev: yearPrev, contract_year_latest: yearLatest, generated_at: new Date().toISOString(), total_changes: changes.length, plans_switched_formulary: switched, by_type: byType, by_plan_parent: byParent, by_manufacturer: byMfr, top_changes: top };
+  const summary = {
+    tag, prev, latest, contract_year_prev: yearPrev, contract_year_latest: yearLatest, new_plan_year: newYear,
+    generated_at: new Date().toISOString(), plans_matched: matchedPlans, plans_new: newPlans, plans_gone: goneP,
+    transitions: transitions.size, transitions_compared: compared, formulary_switches_within_year: switches, formulary_splits: splits,
+    total_change_rows: changes.length, by_type: byType, by_plan_parent_plans_affected: byParent, by_manufacturer_plans_affected: byMfr, top_changes: top,
+  };
   fs.writeFileSync(path.join(DIFF_DIR, `${tag}.summary.json`), JSON.stringify(summary, null, 2));
 
   index.diffs = index.diffs.filter((d) => d.tag !== tag);
-  index.diffs.push({ tag, prev, latest, total_changes: changes.length, generated_at: summary.generated_at });
+  index.diffs.push({ tag, prev, latest, total_change_rows: changes.length, generated_at: summary.generated_at });
   index.diffs.sort((a, b) => a.tag.localeCompare(b.tag));
   fs.writeFileSync(INDEX, JSON.stringify(index, null, 2));
 
-  log(`Changes: ${changes.length.toLocaleString()} total; plans that switched formulary: ${switched}`);
+  log(`Change rows: ${changes.length.toLocaleString()}; within-year formulary switches: ${switches}; formulary splits: ${splits}`);
   log(`By type: ${JSON.stringify(byType)}`);
-  log('Top 25 most widespread changes (by plans covered):');
-  top.slice(0, 25).forEach((x) => log(`   ${String(x.plans).padStart(5)} plans ${String(x.formularies).padStart(4)} formularies  ${x.change.padEnd(10)} ${x.drug} [${x.labeler}] ${x.mfr_ticker}`));
+  log('Top 30 most widespread drug changes (plans affected):');
+  top.slice(0, 30).forEach((x) => log(`   ${String(x.plans).padStart(5)} plans ${String(x.transitions).padStart(4)} formularies  ${x.change.padEnd(10)} ${x.drug} [${x.labeler}] ${x.mfr_ticker}`));
+  log('Plans affected by change type, by plan parent (top 12 parents):');
+  Object.entries(byParent).sort((a, b) => Object.values(b[1]).reduce((s, v) => s + v, 0) - Object.values(a[1]).reduce((s, v) => s + v, 0)).slice(0, 12)
+    .forEach(([p, x]) => log(`   ${p}: ${JSON.stringify(x)}`));
   log(`Wrote ${tag}.csv and ${tag}.summary.json`);
 }
 
