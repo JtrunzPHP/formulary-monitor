@@ -393,9 +393,10 @@ function summarize(plans) {
   const unmapped = new Map();
   for (const p of plans.values()) {
     const k = p.parent;
-    const x = byParent.get(k) || { plans: 0, formularies: new Set() };
+    const x = byParent.get(k) || { plans: 0, formularies: new Set(), names: new Map() };
     x.plans++;
     x.formularies.add(p.formulary_id);
+    x.names.set(p.contract_name, (x.names.get(p.contract_name) || 0) + 1);
     byParent.set(k, x);
     if (p.parent === 'UNMAPPED') unmapped.set(p.contract_name, (unmapped.get(p.contract_name) || 0) + 1);
   }
@@ -403,6 +404,13 @@ function summarize(plans) {
   [...byParent.entries()]
     .sort((a, b) => b[1].plans - a[1].plans)
     .forEach(([k, x]) => log(`   ${String(x.plans).padStart(5)} plans  ${String(x.formularies.size).padStart(4)} formularies  ${k}`));
+
+  log('Contract names matched under each parent (plan counts), for checking the map:');
+  for (const [k, x] of [...byParent.entries()].sort((a, b) => b[1].plans - a[1].plans)) {
+    if (k === 'UNMAPPED') continue;
+    log(`   ${k}`);
+    [...x.names.entries()].sort((a, b) => b[1] - a[1]).slice(0, 25).forEach(([n, c]) => log(`        ${String(c).padStart(4)}  ${n}`));
+  }
 
   const un = [...unmapped.entries()].sort((a, b) => b[1] - a[1]);
   log(`UNMAPPED contract names (${un.length} distinct). Top 60, paste these back so parents.js can be extended:`);
@@ -500,10 +508,10 @@ async function main() {
     'contract_name,plan_count\n' + unmapped.map(([n, c]) => `${csvCell(n)},${c}`).join('\n') + '\n'
   );
 
-  manifest.latest = dateTag;
   manifest.processed = manifest.processed.filter((p) => p.source_file !== name);
   manifest.processed.push(meta);
   manifest.processed.sort((a, b) => a.snapshot.localeCompare(b.snapshot));
+  manifest.latest = manifest.processed[manifest.processed.length - 1].snapshot;
   writeJson(MANIFEST, manifest);
 
   pruneSnapshots();
