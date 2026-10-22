@@ -1,0 +1,196 @@
+{
+  "tag": "20260916_to_20261008",
+  "prev": "20260916",
+  "latest": "20261008",
+  "contract_year_prev": "2026",
+  "contract_year_latest": "2027",
+  "generated_at": "2026-10-22T20:47:54.986Z",
+  "total_changes": 4994,
+  "plans_switched_formulary": 4380,
+  "by_type": {
+    "FORMULARY_NEW": 286,
+    "FORMULARY_GONE": 328,
+    "PLAN_FORMULARY_CHANGED": 4380
+  },
+  "by_plan_parent": {
+    "UnitedHealth Group": {
+      "FORMULARY_NEW": 4,
+      "FORMULARY_GONE": 5,
+      "PLAN_FORMULARY_CHANGED": 715
+    },
+    "UNMAPPED": {
+      "FORMULARY_NEW": 99,
+      "FORMULARY_GONE": 61,
+      "PLAN_FORMULARY_CHANGED": 1764
+    },
+    "SelectHealth / Intermountain (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 8
+    },
+    "CVS Health (Aetna / SilverScript)": {
+      "FORMULARY_NEW": 12,
+      "FORMULARY_GONE": 14,
+      "PLAN_FORMULARY_CHANGED": 534
+    },
+    "Elevance Health": {
+      "FORMULARY_NEW": 10,
+      "FORMULARY_GONE": 11,
+      "PLAN_FORMULARY_CHANGED": 234
+    },
+    "Blue Cross Blue Shield affiliate (various)": {
+      "FORMULARY_NEW": 37,
+      "FORMULARY_GONE": 40,
+      "PLAN_FORMULARY_CHANGED": 248
+    },
+    "Humana": {
+      "FORMULARY_NEW": 8,
+      "FORMULARY_GONE": 8,
+      "PLAN_FORMULARY_CHANGED": 889
+    },
+    "Regional MA plan (private, various)": {
+      "FORMULARY_NEW": 28,
+      "FORMULARY_GONE": 30,
+      "PLAN_FORMULARY_CHANGED": 218
+    },
+    "EmblemHealth (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 4
+    },
+    "GuideWell / Florida Blue / Triple-S (private)": {
+      "FORMULARY_NEW": 5,
+      "FORMULARY_GONE": 8,
+      "PLAN_FORMULARY_CHANGED": 43
+    },
+    "Highmark / Capital Blue (nonprofit Blues)": {
+      "FORMULARY_NEW": 5,
+      "FORMULARY_GONE": 6,
+      "PLAN_FORMULARY_CHANGED": 115
+    },
+    "Cigna Group": {
+      "FORMULARY_NEW": 5,
+      "FORMULARY_GONE": 9,
+      "PLAN_FORMULARY_CHANGED": 174
+    },
+    "MJHS Elderplan (nonprofit)": {
+      "FORMULARY_NEW": 2,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 4
+    },
+    "Health Alliance Plan / Henry Ford (nonprofit)": {
+      "FORMULARY_NEW": 2,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 13
+    },
+    "Regional or provider-sponsored plan": {
+      "FORMULARY_NEW": 53,
+      "FORMULARY_GONE": 62,
+      "PLAN_FORMULARY_CHANGED": 282
+    },
+    "Johns Hopkins (nonprofit)": {
+      "FORMULARY_NEW": 3,
+      "FORMULARY_GONE": 3,
+      "PLAN_FORMULARY_CHANGED": 5
+    },
+    "VIVA Health / UAB (nonprofit)": {
+      "FORMULARY_NEW": 2,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 7
+    },
+    "Trinity Health (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 14
+    },
+    "Clover Health": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 13
+    },
+    "Devoted Health (private)": {
+      "FORMULARY_NEW": 3,
+      "FORMULARY_GONE": 5,
+      "PLAN_FORMULARY_CHANGED": 400
+    },
+    "Centene": {
+      "FORMULARY_NEW": 6,
+      "FORMULARY_GONE": 10,
+      "PLAN_FORMULARY_CHANGED": 251
+    },
+    "Alignment Healthcare": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 60
+    },
+    "Molina Healthcare": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 36
+    },
+    "PacificSource (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 3
+    },
+    "Blue Shield of California (nonprofit)": {
+      "FORMULARY_NEW": 3,
+      "FORMULARY_GONE": 3,
+      "PLAN_FORMULARY_CHANGED": 17
+    },
+    "Health New England / Baystate (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 4
+    },
+    "Community Health Choice / Harris Health (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 2
+    },
+    "Peak Health / WVU Medicine (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 8
+    },
+    "Independence Blue Cross (nonprofit)": {
+      "FORMULARY_NEW": 2,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 12
+    },
+    "MCS (Puerto Rico, private)": {
+      "FORMULARY_NEW": 2,
+      "FORMULARY_GONE": 2,
+      "PLAN_FORMULARY_CHANGED": 19
+    },
+    "Jefferson Health Plans (nonprofit)": {
+      "FORMULARY_NEW": 3,
+      "FORMULARY_GONE": 3,
+      "PLAN_FORMULARY_CHANGED": 8
+    },
+    "Kaiser Permanente (nonprofit)": {
+      "FORMULARY_NEW": 3,
+      "FORMULARY_GONE": 3,
+      "PLAN_FORMULARY_CHANGED": 110
+    },
+    "SCAN Health Plan (nonprofit)": {
+      "FORMULARY_NEW": 1,
+      "FORMULARY_GONE": 1,
+      "PLAN_FORMULARY_CHANGED": 54
+    },
+    "Provider-sponsored or nonprofit regional plan": {
+      "FORMULARY_GONE": 21
+    },
+    "Institutional SNP or regional MA startup (private, various)": {
+      "FORMULARY_GONE": 26
+    },
+    "MetroPlus / NYC Health + Hospitals (public)": {
+      "FORMULARY_GONE": 2
+    },
+    "AmeriHealth Caritas (IBX and BCBS Michigan JV, private)": {
+      "FORMULARY_GONE": 4
+    }
+  },
+  "by_manufacturer": {},
+  "top_changes": []
+}
