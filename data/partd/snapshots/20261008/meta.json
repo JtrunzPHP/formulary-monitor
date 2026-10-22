@@ -1,9 +1,9 @@
 {
   "snapshot": "20261008",
   "source_file": "2027_20261008.zip",
-  "processed_at": "2026-10-22T20:11:37.201Z",
+  "processed_at": "2026-10-22T20:36:30.709Z",
   "plans": 5495,
   "formularies": 286,
   "formulary_rxcui_rows": 963666,
-  "formulary_gz_bytes": 4542583
+  "formulary_gz_bytes": 8373405
 }
