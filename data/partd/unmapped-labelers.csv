@@ -1,172 +1,184 @@
 labeler,drug_count
-"Teva Pharmaceuticals USA, Inc.",192
+"Teva Pharmaceuticals USA, Inc.",193
 Aurobindo Pharma Limited,157
-Pfizer Laboratories Div Pfizer Inc,128
-"Sun Pharmaceutical Industries, Inc.",114
-Mylan Pharmaceuticals Inc.,113
-"Lupin Pharmaceuticals, Inc.",109
+Pfizer Laboratories Div Pfizer Inc,140
+Novartis Pharmaceuticals Corporation,119
+Mylan Pharmaceuticals Inc.,115
+"Sun Pharmaceutical Industries, Inc.",115
+"Lupin Pharmaceuticals, Inc.",110
 Hikma Pharmaceuticals USA Inc.,101
-Apotex Corp.,90
+Apotex Corp.,94
 Zydus Pharmaceuticals USA Inc.,88
-Novartis Pharmaceuticals Corporation,85
-Amneal Pharmaceuticals LLC,82
+Amneal Pharmaceuticals LLC,85
+"ANI Pharmaceuticals, Inc.",83
 "Glenmark Pharmaceuticals Inc., USA",79
-Eli Lilly and Company,76
-Padagis Israel Pharmaceuticals Ltd,76
+Eli Lilly and Company,77
+Sandoz Inc,77
+Padagis Israel Pharmaceuticals Ltd,77
 "Rising Pharma Holdings, Inc.",71
-Sandoz Inc,69
-"Par Health USA, LLC",68
-Merck Sharp & Dohme LLC,65
-"ANI Pharmaceuticals, Inc.",63
-"Ascend Laboratories, LLC",63
-"Actavis Pharma, Inc.",61
-AbbVie Inc.,59
+"Allergan, Inc.",70
+"Par Health USA, LLC",69
+Merck Sharp & Dohme LLC,68
+"Takeda Pharmaceuticals America, Inc.",68
+AbbVie Inc.,67
+GlaxoSmithKline LLC,66
+"Actavis Pharma, Inc.",63
+AstraZeneca Pharmaceuticals LP,62
+"Ascend Laboratories, LLC",61
+"Upsher-Smith Laboratories, LLC",59
 "Camber Pharmaceuticals, Inc.",59
-GlaxoSmithKline LLC,52
-"Fresenius Kabi USA, LLC",52
-"Upsher-Smith Laboratories, LLC",50
-"Allergan, Inc.",46
-"Teva Pharmaceuticals, Inc.",46
+Viatris Specialty LLC,57
+"Fresenius Kabi USA, LLC",57
+"Boehringer Ingelheim Pharmaceuticals, Inc.",53
+Organon LLC,52
+"Teva Pharmaceuticals, Inc.",47
 "Ingenus Pharmaceuticals, LLC",46
-"Boehringer Ingelheim Pharmaceuticals, Inc.",44
 Amneal Pharmaceuticals NY LLC,42
-AstraZeneca Pharmaceuticals LP,41
+Bayer HealthCare Pharmaceuticals Inc.,41
 "Amgen, Inc",41
 Macleods Pharmaceuticals Limited,40
-"Takeda Pharmaceuticals America, Inc.",39
 "Lannett Company, Inc.",37
 Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.,37
-Bayer HealthCare Pharmaceuticals Inc.,37
+"UCB, Inc.",37
+(no FDA match),36
 Amneal Pharmaceuticals of New York LLC,36
-"UCB, Inc.",32
-"Janssen Pharmaceuticals, Inc.",32
+SpecGx LLC,36
+"Cosette Pharmaceuticals, Inc.",35
+"Janssen Pharmaceuticals, Inc.",35
+Bausch & Lomb Incorporated,32
+"Gilead Sciences, Inc.",32
 Cipla USA Inc.,32
-SpecGx LLC,31
+Novadoz Pharmaceuticals LLC,32
 Torrent Pharmaceuticals Limited,31
-"Gilead Sciences, Inc.",31
-Novadoz Pharmaceuticals LLC,31
-(no FDA match),30
+"Bausch Health US, LLC",31
+Pharmacia & Upjohn Company LLC,30
+Sanofi-Aventis U.S. LLC,30
 Dr. Reddy's Laboratories Limited,30
 Prasco Laboratories,30
 IBSA Pharma Inc.,30
+"Genentech, Inc.",29
+"E.R. Squibb & Sons, L.L.C.",28
 "Unichem Pharmaceuticals (USA), Inc.",28
 Strides Pharma Science Limited,28
-Bausch & Lomb Incorporated,27
-"Genentech, Inc.",27
+Baxter Healthcare Corporation,27
 Zydus Pharmaceuticals (USA) Inc.,27
+Bausch Health US LLC,26
 Ajanta Pharma USA Inc.,26
-Viatris Specialty LLC,26
-"E.R. Squibb & Sons, L.L.C.",25
-Baxter Healthcare Corporation,25
+"Otsuka America Pharmaceutical, Inc.",26
 "Solco Healthcare US, LLC",24
+Novo Nordisk,23
 "Breckenridge Pharmaceutical, Inc.",23
-Alembic Pharmaceuticals Inc.,23
-Novo Nordisk,22
 "Janssen Biotech, Inc.",22
-Organon LLC,22
+Alembic Pharmaceuticals Inc.,22
 "Novo Nordisk Pharmaceutical Industries, LP",21
 "Azurity Pharmaceuticals, Inc.",21
-"Cosette Pharmaceuticals, Inc.",20
 Vertex Pharmaceuticals Incorporated,20
 GlaxoSmithKline Biologicals SA,20
-"Otsuka America Pharmaceutical, Inc.",20
-Pharmacia & Upjohn Company LLC,19
+Celgene Corporation,20
 Alvogen Inc.,19
-Sanofi-Aventis U.S. LLC,18
+"Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.",18
 "Hospira, Inc.",18
 "Astellas Pharma US, Inc.",18
 Micro Labs Limited,18
-United Therapeutics Corporation,17
+United Therapeutics Corporation,18
 Padagis US LLC,16
 Dr. Reddy's Laboratories Inc.,16
 Dr. Reddy's Laboratories Inc,16
+ViiV Healthcare Company,16
+Eisai Inc.,16
+"Teva Neuroscience, Inc.",16
 "Xiromed, LLC",16
 "CELLTRION USA, Inc.",16
-"Bausch Health US, LLC",16
 "Lannett Company, LLC",15
 "Alkermes, Inc.",15
 "Leading Pharma, LLC",15
 "Actelion Pharmaceuticals US, Inc.",15
 "PAI Holdings, LLC dba PAI Pharma",14
 Sandoz Inc.,14
+Vanda Pharmaceuticals Inc.,14
 Sanofi Vaccines US Inc.,14
 Incyte Corporation,14
-Celgene Corporation,14
 "Janssen Products, LP",14
-Eisai Inc.,14
-"Teva Neuroscience, Inc.",14
 "Noven Therapeutics, LLC",14
 Xiromed LLC,14
 "Ascendis Pharma Endocrinology, Inc.",14
 Accord Healthcare Inc.,13
+"Collegium Pharmaceutical, Inc.",13
 Rhodes Pharmaceuticals LLC,13
-Vanda Pharmaceuticals Inc.,13
 Eugia US LLC,13
+Advanz Pharma (US) Corp.,13
 Granules Pharmaceuticals Inc.,13
 "Slate Run Pharmaceuticals, LLC",13
-"Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.",12
+Knoa Pharma LLC,13
 "Chiesi USA, Inc.",12
 "Epic Pharma, LLC",12
-ViiV Healthcare Company,12
 "OWP Pharmaceuticals, Inc.",12
 H2-Pharma LLC,12
 "Trigen Laboratories, LLC",12
 YARAL Pharma Inc.,12
 "Ipsen Biopharmaceuticals, Inc.",11
 Northstar Rx LLC,11
+Validus Pharmaceuticals LLC,11
+Janssen Products LP,11
+Apotex Corp,11
 "Chartwell RX, LLC",11
 "Somerset Therapeutics, LLC",11
 "Aimmune Therapeutics, Inc.",11
 "Sumitomo Pharma America, Inc.",11
-"Collegium Pharmaceutical, Inc.",10
 Sagent Pharmaceuticals,10
 "EMD Serono, Inc.",10
 TruPharma LLC,10
 Oceanside Pharmaceuticals,10
 "SK Life Science, Inc.",10
+"Harrow Eye, LLC",10
 Biocon Biologics Inc.,10
 Acer Therapeutics Inc.,10
+Lundbeck Pharmaceuticals LLC,10
+"Vertical Pharmaceuticals, LLC",10
+Baxter Healthcare Company,9
 "WG Critical Care, LLC",9
 "Afaxys Pharma, LLC",9
-Janssen Products LP,9
+"Catalyst Pharmaceuticals, Inc.",9
 "Xiromed, LLC.",9
 Mirum Pharmaceuticals Inc.,9
-"Harrow Eye, LLC",9
+Quallent Pharmaceuticals Health LLC,9
 Medexus Pharma Inc.,9
+BioMarin Pharmaceutical Inc.,9
 "Gilead Sciences, Inc",9
-"Catalyst Pharmaceuticals, Inc.",9
 "Hikma Pharmaceuticals USA, Inc.",8
 B. Braun Medical Inc.,8
-Baxter Healthcare Company,8
 "Amphastar Pharmaceuticals, Inc.",8
 "Encube Ethicals, Inc.",8
 "SOLCO HEALTHCARE US, LLC",8
 Dr.Reddys Laboratories Inc,8
 "Wilshire Pharmaceuticals, Inc.",8
+"Salix Pharmaceuticals, Inc.",8
 Mylan Institutional LLC,8
+Cycle Pharmaceuticals Ltd,8
 Karyopharm Therapeutics Inc.,8
 Dr. Reddy�s Laboratories Inc.,8
 Waylis Therapeutics LLC,8
 Teva Women's Health LLC,8
-BioDelivery Sciences International Inc,8
+"Covis Pharma US, Inc",8
 Cordavis Limited,8
-Cycle Pharmaceuticals Ltd,8
+BioDelivery Sciences International Inc,8
 Biogen Inc.,8
-Knoa Pharma LLC,8
+Parke-Davis Div of Pfizer Inc,7
 "EPIC PHARMA, LLC",7
 "Lupin Pharmaceuticals,Inc.",7
 Dr. Reddys Laboratories Inc,7
 Dr. Reddys Laboratories Limited,7
-Advanz Pharma (US) Corp.,7
-Apotex Corp,7
+Ferring Pharmaceuticals Inc.,7
 TOLMAR Inc.,7
 Genus Lifesciences Inc.,7
 "Neurocrine Biosciences, Inc.",7
 "Agios Pharmaceuticals, Inc.",7
 Advagen Pharma Limited,7
 Corcept Therapeutics Incorporated,7
-Quallent Pharmaceuticals Health LLC,7
+Almatica Pharma LLC,7
+"Almirall, LLC",7
 Cycle Pharmaceuticals Ltd.,7
+"Melinta Therapeutics, LLC",7
 "E. Fougera & Co. a division of Fougera Pharmaceuticals, LLC",6
 "Cranbury Pharmaceuticals, LLC",6
 "Exelixis, Inc.",6
@@ -179,14 +191,15 @@ Dr.Reddy's Laboratories Limited,6
 Pharmacyclics LLC,6
 Jubilant Cadista Pharmaceuticals Inc.,6
 Acadia Pharmaceuticals Inc.,6
-"Salix Pharmaceuticals, Inc.",6
+"Xeris Pharmaceuticals, Inc.",6
 "Aucta Pharmaceuticals, Inc.",6
-BioMarin Pharmaceutical Inc.,6
 "Shandong Luye Pharmaceutical Co., Ltd.",6
-VIVUS LLC,6
+Roerig,6
 "Orexo US, Inc.",6
+Legacy Pharma USA Inc.,6
+VIVUS LLC,6
+ROERIG,6
 sanofi-aventis U.S. LLC,5
-Bausch Health US LLC,5
 "Lannett Company, Inc",5
 "KVK-Tech, Inc.",5
 Aurolife Pharma LLC,5
@@ -195,7 +208,6 @@ Aurolife Pharma LLC,5
 Edenbridge Pharmaceuticals LLC.,5
 "Solco healthcare U.S., LLC",5
 Bavarian Nordic A/S,5
-Ferring Pharmaceuticals Inc.,5
 Immunex Corporation,5
 Genzyme Corporation,5
 "Method Pharmaceuticals, LLC",5
@@ -206,27 +218,24 @@ Biocon Pharma Inc.,5
 Lifestar Pharma LLC,5
 Novitium Pharma LLC,5
 Blueprint Medicines Corporation,5
-"Xeris Pharmaceuticals, Inc.",5
 Viona Pharmaceuticals Inc,5
 Advagen Pharma Ltd,5
 "Ritedose Pharmaceuticals, LLC",5
 pharmaand GmbH,5
 "SpringWorks Therapeutics, Inc.",5
-Parke-Davis Div of Pfizer Inc,5
-"Almirall, LLC",5
-"Cephalon, LLC",5
-"Covis Pharma US, Inc",5
+Thea Pharma Inc.,5
 "Exeltis USA, Inc.",5
-Roerig,5
+"Cephalon, LLC",5
 "Alcon Laboratories, Inc.",4
 "American Regent, Inc.",4
 INDIVIOR INC.,4
 "Accord Healthcare, Inc.",4
-Validus Pharmaceuticals LLC,4
 "SUN PHARMACEUTICAL INDUSTRIES, INC.",4
 ScieGen Pharmaceuticals Inc,4
 Mayne Pharma,4
 "TruPharma, LLC",4
+"Vifor Pharma, Inc.",4
+"Leadiant Biosciences, Inc.",4
 Amgen Inc,4
 BluePoint Laboratories,4
 "BIOCODEX, INC.",4
@@ -237,19 +246,20 @@ Bionpharma Inc.,4
 "AkaRx, Inc.",4
 "Neurelis, Inc",4
 "Deciphera Pharmaceuticals, LLC",4
-"Arcutis Biotherapeutics, Inc.",4
-"Day One Biopharmaceuticals, Inc.",4
-LEO Pharma Inc.,4
-"Vifor Pharma, Inc.",4
-"Millicent US, Inc.",4
-Phathom Pharmaceuticals Inc.,4
-"Liquidia Technologies, Inc.",4
-"ENDO USA, Inc.",4
 "Myokardia, Inc.",4
+"Arcutis Biotherapeutics, Inc.",4
+Phathom Pharmaceuticals Inc.,4
+"Day One Biopharmaceuticals, Inc.",4
+"Galderma Laboratories, L.P.",4
+LEO Pharma Inc.,4
+"ENDO USA, Inc.",4
+"Millicent US, Inc.",4
+"Liquidia Technologies, Inc.",4
+"H2-Pharma, LLC",4
 Cytokinetics Inc.,4
 "URONOVA PHARMACEUTICALS, INC.",4
+SWEDISH ORPHAN BIOVITRUM AB (PUBL),4
 INA Pharmaceutics Inc,4
-Legacy Pharma USA Inc.,4
 "Digestive Care, Inc.",4
 Major Pharmaceuticals,3
 Aquestive Therapeutics,3
@@ -260,11 +270,13 @@ NorthStar Rx LLC,3
 Camber Pharmaceuticals Inc,3
 "XGen Pharmaceuticals DJB, Inc.",3
 Laurus Labs Limited,3
+"Medimetriks Pharmaceuticals, Inc.",3
 "CMP Pharma, Inc.",3
 "ScieGen Pharmaceuticals, Inc.",3
 Dr. Reddy's Labratories Inc.,3
 "Braintree Laboratories, Inc.",3
 Wilshire Pharmaceuticals,3
+"NextSource Biotechnology, LLC",3
 "Otsuka America Pharmaceutical, Inc",3
 "Teva Respiratory, LLC",3
 CSL Behring GmbH,3
@@ -290,28 +302,28 @@ Carnegie Pharmaceuticals LLC,3
 Idorsia Pharmaceuticals Ltd,3
 "Axsome Therapeutics, Inc.",3
 "Madrigal Pharmaceuticals, Inc.",3
-Camber Pharmaceuticals Inc.,3
-"kaleo, Inc",3
-SANDOZ INC,3
-Bio Products Laboratory Ltd,3
 "Westminster Pharmaceuticals, LLC",3
-"Melinta Therapeutics, LLC",3
-Verity Pharmaceuticals Inc.,3
-"Medimetriks Pharmaceuticals, Inc.",3
-"Larken Laboratories, Inc.",3
-Thea Pharma Inc.,3
-Biocon Biologics Inc,3
+SANDOZ INC,3
+Camber Pharmaceuticals Inc.,3
+Mission Pharmacal Company,3
 "Ascendis Pharma, Endocrinology, Inc.",3
-FH2 Pharma LLC,3
-Keenova ARD LLC,3
-"NextSource Biotechnology, LLC",3
-"Trifluent Pharma, LLC",3
+Verity Pharmaceuticals Inc.,3
 "Supernus Pharmaceuticals, Inc",3
-Nuvaila Limited,3
+"kaleo, Inc",3
+Bio Products Laboratory Ltd,3
+"Larken Laboratories, Inc.",3
+Keenova ARD LLC,3
+FH2 Pharma LLC,3
+"Trifluent Pharma, LLC",3
 "Antares Pharma, Inc.",3
-"PANGEA PHARMACEUTICALS, LLC",3
-"Legacy Pharma USA, Inc.",3
+Nuvaila Limited,3
 "Soleno Therapeutics, Inc.",3
+PFIZER LABORATORIES DIV PFIZER INC,3
+Almatica Pharma Inc.,3
+Biocon Biologics Inc,3
+"PANGEA PHARMACEUTICALS, LLC",3
+Biotest AG,3
+"Legacy Pharma USA, Inc.",3
 "Xttrium Laboratories, Inc.",2
 "Fougera Pharmaceuticals, LLC",2
 Crown Laboratories,2
@@ -327,20 +339,20 @@ Bausch & Lomb Incoporated,2
 "Sentynl Therapeutics, Inc.",2
 MICRO LABS LIMITED,2
 "Aprecia Pharmaceuticals, LLC",2
+"Eurofarma, Inc.",2
 Medimetriks Pharmaceuticals,2
+Dr.Reddy's Laboratories Inc.,2
 "AVEO Pharmaceuticals, Inc.",2
 "TIME CAP LABORATORIES, INC",2
 SEAGEN INC.,2
 "TaSun Pharmaceutical Industries, Inc.",2
 Mayne Pharma Inc.,2
 Amarin Pharma Inc.,2
-"Leadiant Biosciences, Inc.",2
 Dr. Reddy's Laboratories Ltd.,2
 "Rising Health, LLC",2
 "Carlsbad Technology, Inc.",2
 AGOURON,2
 Swedish Orphan Biovitrum AB (publ),2
-"Travere Therapeutics, Inc.",2
 Octapharma USA Inc,2
 "Amici Pharma, Inc",2
 "Coherus Oncology, Inc.",2
@@ -353,59 +365,63 @@ TerSera Therapeutics LLC,2
 Modavar Pharmaceuticals LLC,2
 "Esperion Therapeutics, Inc.",2
 ARMAS PHARMACEUTICALS INC.,2
-CELLTRION USA Inc.,2
 Asegua Therapeutics LLC,2
 Servier Pharmaceuticals LLC,2
 "Secura Bio, Inc",2
+Solaris Pharma Corporation,2
 "WINDER LABORATORIES, LLC",2
+Cadila Pharmaceuticals Limited,2
 "Nivagen Pharmaceuticals, Inc.",2
-Dr.Reddy's Laboratories Inc.,2
 OMNIVIUM PHARMACEUTICALS LLC.,2
 Novugen Pharma (USA) LLC,2
 "Averitas Pharma, Inc.",2
 "Xcovery Holdings, Inc.",2
 Mayne Pharma Commercial LLC,2
-"Eurofarma, Inc.",2
-Cadila Pharmaceuticals Limited,2
-"INDEPENDENCE PHARMACEUTICALS, LLC",2
-Dr. Reddys Laboratories Inc.,2
-Almatica Pharma LLC,2
-"Azurity Pharmaceuticals, Inc",2
-"Harmony Biosciences, LLC",2
-Fosun Pharma USA Inc.,2
 Medunik,2
+Fosun Pharma USA Inc.,2
+Creekwood Pharmaceuticals LLC,2
 "Solco Healthcare U.S., LLC",2
 "Salix Pharmaceuticals, Inc",2
+Bausch & Lomb Americas Inc.,2
 "Misemer Pharmaceuticals, Inc.",2
+"Kyowa Kirin, Inc.",2
+Pharming Healthcare Inc.,2
+The J. Molner Company LLC,2
+"INDEPENDENCE PHARMACEUTICALS, LLC",2
+Dr. Reddys Laboratories Inc.,2
+"Azurity Pharmaceuticals, Inc",2
+"Travere Therapeutics, Inc.",2
+"Harmony Biosciences, LLC",2
+"BioCryst Pharmaceuticals, Inc.",2
 Sebela Pharmaceuticals Inc.,2
 Salix Pharmaceuticals,2
-Mission Pharmacal Company,2
+"Atland Pharmaceuticals, LLC",2
 "Supernus Pharmaceuticals, Inc.",2
-Creekwood Pharmaceuticals LLC,2
-The J. Molner Company LLC,2
-"Regeneron Pharmaceuticals, Inc.",2
-Scilex Pharmaceuticals Inc.,2
-"Lifsa Drugs, LLC",2
-Pharming Healthcare Inc.,2
+"Lexicon Pharmaceuticals, Inc.",2
+"IPG Pharmaceuticals, Inc.",2
+CELLTRION USA Inc.,2
+"Marnel Pharmaceuticals, Inc.",2
+Recordati Rare Diseases,2
+"Tonix Medicines, Inc.",2
 INA Pharmaceutics Inc.,2
 Medicure International Inc,2
-Accord BioPharma Inc.,2
+Scilex Pharmaceuticals Inc.,2
+Theratechnologies Inc.,2
 "ARS Pharmaceuticals Operations, Inc.",2
-"Galderma Laboratories, L.P.",2
-"IPG Pharmaceuticals, Inc.",2
-"Lexicon Pharmaceuticals, Inc.",2
-Alexion Pharmaceuticals Inc.,2
-"BioCryst Pharmaceuticals, Inc.",2
-Pharmaka Generics Inc.,2
-"Marnel Pharmaceuticals, Inc.",2
-"Kyowa Kirin, Inc.",2
-Recordati Rare Diseases,2
-"Crinetics Pharmaceuticals, Inc.",2
+"Regeneron Pharmaceuticals, Inc.",2
 Journey Medical Corporation,2
 Marius Pharmaceuticals,2
-Theratechnologies Inc.,2
+"Lifsa Drugs, LLC",2
+Alexion Pharmaceuticals Inc.,2
+"Crinetics Pharmaceuticals, Inc.",2
+Currax Pharmaceuticals LLC,2
+"Sun Pharmaceutical Industries, Inc",2
+"HLS Therapeutics (USA), Inc.",2
+LXO US Inc.,2
+Accord BioPharma Inc.,2
 PTC Therapeutics Inc.,2
 Kedrion S.p.A.,2
+Pharmaka Generics Inc.,2
 Wyeth Pharmaceutical Division of Wyeth Holdings LLC,1
 Hikma Pharmceuticals USA Inc.,1
 "Colgate Oral Pharmaceuticals, Inc.",1
@@ -446,7 +462,6 @@ Hikma Specialty USA Inc.,1
 APOTEX CORP.,1
 American Health Packaging,1
 "Pacific Pharma, Inc.",1
-"H2-Pharma, LLC",1
 "Chartwell RX, LLC.",1
 "Fresenius Kabi, LLC",1
 A-S Medication Solutions,1
@@ -467,6 +482,7 @@ Banner Life Sciences LLC,1
 "Oxford Pharmaceuticals, LLC",1
 "Helsinn Therapeutics (U.S.), Inc.",1
 Granules Pharmaceuticals Inc,1
+OPKO Pharmaceuticals LLC,1
 Slate Run Pharmaceuticals,1
 "Puma Biotechnology, Inc.",1
 Analog Pharma,1
@@ -474,17 +490,16 @@ Shionogi Inc.,1
 "Radius Health, Inc.",1
 XIROMED LLC,1
 Lifestar Pharma LLC.,1
+"Avondale Pharmaceuticals, LLC",1
+"Redmont Pharmaceuticals, LLC",1
 Eyevance Pharmaceuticals,1
 Verastem Inc.,1
-"Partner Therapeutics, Inc.",1
 Eywa Pharma Inc,1
 "i3 Pharmaceuticals, LLC",1
 "Sobi, Inc.",1
 "BeOne Medicines USA, Inc.",1
 Servier Pharmaceutical LLC,1
 Advagen Pharma Ltd.,1
-Solaris Pharma Corporation,1
-argenx US,1
 "Oyster Point Pharma, Inc.",1
 PharmaEssentia USA,1
 "Kiniksa Pharmaceuticals (UK), Ltd.",1
@@ -497,7 +512,6 @@ HRA Pharma Rare Diseases,1
 "Mirati Therapeutics, Inc",1
 "Moderna US, INC.",1
 Immedica Pharma US Inc,1
-Calliditas Therapeutics AB,1
 "Shorla Oncology Inc.,",1
 "Tarsus Pharmaceuticals, Inc.",1
 Hepalink USA Inc.,1
@@ -508,122 +522,121 @@ Nuvation Bio Inc.,1
 "Kura Oncology, Inc.",1
 Rubicon Holdings Inc.,1
 "Dr. Reddy's Laboratories Inc.,",1
-OPKO Pharmaceuticals LLC,1
-"Avondale Pharmaceuticals, LLC",1
-"Redmont Pharmaceuticals, LLC",1
-"Upsher-smith Laboratories, LLC",1
-"SUNRISE PHARMACEUTICAL, INC",1
+Dr.Reddy's Laboratories Inc,1
 CSL Behring AG,1
-"Fresenius Medical Care Renal Therapies Group, LLC",1
-ParaPRO LLC,1
+"Fera Pharmaceuticals, LLC",1
 PURETEK CORPORATION,1
 "Mylan Pharmaceuticals, Inc.",1
-Bio Products Laboratory Limited,1
+"Nova Laboratories, Ltd",1
+"Neos Therapeutics, LP",1
 "Foxland Pharmaceuticals, Inc.",1
+Cycle Pharmaceuticals Ltd-Uk,1
+"OptiNose US, Inc.",1
+"ChemoCentryx, Inc.",1
+"Kadmon Pharmaceuticals, LLC",1
+SHORLA ONCOLOGY INC.,1
+"Azorian Pharma, LLC",1
+MidAmerica Pharmaceuticals,1
+Oceanside Pharmacueticals,1
+"ALCON LABORATORIES, INC.",1
+"Lacer Pharma, LLC",1
+"KEDRION BIOPHARMA, INC.",1
+CSL Behring LLC,1
+Teva Pharmaceuticals USA Inc.,1
+"Upsher-smith Laboratories, LLC",1
+Par Health,1
+"SUNRISE PHARMACEUTICAL, INC",1
+El Dorado Distributors LLC,1
+Italfarmaco SPA,1
+CALL INC. (dba Rochester Pharmaceuticals),1
+"LEO Pharma, Inc",1
+ALK-Abello A S,1
+"RECORDATI RARE DISEASES, INC.",1
+Chartwell RX LLC,1
+"TAKEDA PHARMACEUTICALS AMERICA, INC.",1
+"Endo USA, Inc.",1
+"Napo Pharmaceuticals, Inc.",1
+Meitheal Pharmaceuticals Inc,1
+Medunik USA,1
+"Partner Therapeutics, Inc.",1
+"Florida Pharmaceutical Products, LLC",1
+"Ayurax, LLC",1
+INA PHARMACEUTICS INC.,1
+"Mycovia Pharmaceuticals, Inc.",1
+ITERUM THERAPEUTICS US LIMITED,1
+Immedica Pharma US Inc.,1
+"BridgeBio Pharma, Inc.",1
+"LNHC, Inc.",1
+Eddingpharm (U. S. ) Inc.,1
+"Allegis Holdings, LLC",1
+"Fresenius Medical Care Renal Therapies Group, LLC",1
+ParaPRO LLC,1
+Bio Products Laboratory Limited,1
 "Amneal Pharmaceuticals of New York, LLC",1
 "Evofem, Inc.",1
 "ADMA Biologics, Inc.",1
 "Nordic Pharma, Inc.",1
-Meitheal Pharmaceuticals Inc,1
-"Ionis Pharmaceuticals, Inc.",1
-"Florida Pharmaceutical Products, LLC",1
 "Sumitomo Pharma America, Inc",1
-"ChemoCentryx, Inc.",1
+"Nobelpharma America, LLC",1
 "Aurinia Pharma U.S., Inc.",1
-"KEDRION BIOPHARMA, INC.",1
-"BridgeBio Pharma, Inc.",1
-MidAmerica Pharmaceuticals,1
+Calliditas Therapeutics AB,1
 "Avyxa Pharma, LLC",1
 IntraBio Inc,1
-Eddingpharm (U. S. ) Inc.,1
 "Coral Way Pharma, LLC",1
-Dr.Reddy's Laboratories Inc,1
-RedHill Biopharma Ltd,1
-"Neos Therapeutics, LP",1
-"OptiNose US, Inc.",1
-"Kadmon Pharmaceuticals, LLC",1
-SHORLA ONCOLOGY INC.,1
-"Azorian Pharma, LLC",1
-"Arrowhead Pharmaceuticals, Inc.",1
-"ALCON LABORATORIES, INC.",1
-"Lacer Pharma, LLC",1
-Bausch & Lomb Americas Inc.,1
-Cycle Pharmaceuticals Ltd-Uk,1
-Trifluent Pharma LLC,1
 Method Pharmaceuticals LLC,1
-Oceanside Pharmacueticals,1
-"Napo Pharmaceuticals, Inc.",1
-Par Health,1
+Trifluent Pharma LLC,1
+Avvisto Therapeutics LLC,1
 "EDW PHARMA, INC",1
 "Amicus Therapeutics US, LLC",1
 Domp� farmaceutici S.p.A.,1
 Sarfez Pharmaceuticals Inc,1
-"RECORDATI RARE DISEASES, INC.",1
-Acella Pharmaceuticals,1
-"Ayurax, LLC.",1
-Orphalan SA,1
-"Allegis Holdings, LLC",1
-Avvisto Therapeutics LLC,1
-MERCK SHARP & DOHME LLC,1
-"Fera Pharmaceuticals, LLC",1
-"Nova Laboratories, Ltd",1
-"scPharmaceuticals Inc., a wholly owned subsidiary of MannKind Corporation",1
-"Ayurax, LLC",1
-INA PHARMACEUTICS INC.,1
-CSL Behring LLC,1
-El Dorado Distributors LLC,1
-Italfarmaco SPA,1
-CALL INC. (dba Rochester Pharmaceuticals),1
-"Apellis Pharmaceuticals, Inc.",1
-ALK-Abello A S,1
-"TAKEDA PHARMACEUTICALS AMERICA, INC.",1
-La Jolla Pharmaceutical Company,1
-Medunik USA,1
-"Mycovia Pharmaceuticals, Inc.",1
-Teva Pharmaceuticals USA Inc.,1
-Chartwell RX LLC,1
+argenx US,1
 "Pari Respiratory Equipment, Inc.",1
 "Vyera Pharmaceuticals, LLC",1
 Evofem Inc.,1
 Ultragenyx Pharmaceutical Inc.,1
-"Nobelpharma America, LLC",1
 Pangea Pharmaceuticals LLC,1
-"LEO Pharma, Inc",1
+Orphalan SA,1
+"scPharmaceuticals Inc., a wholly owned subsidiary of MannKind Corporation",1
+Acella Pharmaceuticals,1
+RedHill Biopharma Ltd,1
+"Ayurax, LLC.",1
+MERCK SHARP & DOHME LLC,1
+Corstasis USA LLC,1
+"Emmaus Medical, Inc.",1
+Impel Pharmaceuticals LLC,1
+"Ionis Pharmaceuticals, Inc.",1
+"Apellis Pharmaceuticals, Inc.",1
+Forte Bio-Pharma,1
+FH2 PHARMA LLC,1
+Allegis Holdings LLC,1
+"Advagen Pharma Ltd.,",1
+"Assertio Specialty Pharmaceuticals, LLC",1
+"Milestone Pharmaceuticals USA, Inc.",1
+"Arrowhead Pharmaceuticals, Inc.",1
+Royal Pharmaceuticals,1
+Casper Pharma LLC,1
 CSL,1
 Stealth Biotherapeutics Inc.,1
 KalVista Pharmaceuticals Ltd,1
-Royal Pharmaceuticals,1
-ITERUM THERAPEUTICS US LIMITED,1
-Immedica Pharma US Inc.,1
-"LNHC, Inc.",1
-Forte Bio-Pharma,1
-FH2 PHARMA LLC,1
-"Emmaus Medical, Inc.",1
-Casper Pharma LLC,1
-Corstasis USA LLC,1
-Impel Pharmaceuticals LLC,1
+TILDE Sciences LLC,1
+La Jolla Pharmaceutical Company,1
+Amryt Pharmaceuticals Designated Activity Company,1
+"Nova Laboratories, Ltd.",1
+"AGEPHA Pharma USA, LLC",1
 "MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc",1
 "IPG Pharmaceuticals, inc.",1
 Ionis Pharmaceuticals Inc.,1
 Derm Ventures LLC,1
+"BluCrest Pharmaceuticals, LLC",1
 "MDD US Operations, LLC",1
-"Nova Laboratories, Ltd.",1
-Intra-Sana Laboratories,1
-"Pangea Pharmaceuticals, LLC",1
-"Advagen Pharma Ltd.,",1
-Allegis Holdings LLC,1
-"Atland Pharmaceuticals, LLC",1
-"Assertio Specialty Pharmaceuticals, LLC",1
-"Milestone Pharmaceuticals USA, Inc.",1
-Zyla Life Sciences US Inc.,1
-SWEDISH ORPHAN BIOVITRUM AB (PUBL),1
-"NextWave Pharmaceuticals, Inc",1
-Amryt Pharmaceuticals Designated Activity Company,1
-Scienture LLC,1
 SCILEX PHARMACEUTICALS INC.,1
+Zyla Life Sciences US Inc.,1
 "Evoke Pharma, Inc.",1
 Avion Pharmaceuticals,1
 "Oliva Therapeutics, LLC",1
-"Tonix Medicines, Inc.",1
-"AGEPHA Pharma USA, LLC",1
+"NextWave Pharmaceuticals, Inc",1
+"Pangea Pharmaceuticals, LLC",1
+Intra-Sana Laboratories,1
+Scienture LLC,1
 Botanix SB Inc.,1
