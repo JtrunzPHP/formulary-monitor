@@ -33,6 +33,7 @@ const { watchHits, WATCHLIST } = require('./watchlist');
 
 const DATA_DIR = path.join(__dirname, 'data', 'docs');
 const INDEX = path.join(DATA_DIR, 'index.json');
+const DISCOVERED = path.join(DATA_DIR, 'discovered.json');
 const WORK_DIR = path.join(__dirname, '.work-docs');
 const KEEP_TEXT_VERSIONS = 6;
 const CONTEXT_LINES = 2;
@@ -67,6 +68,29 @@ function extractText(file, kind) {
   }
   if (kind === 'xlsx') return '[xlsx recorded; cell-level parsing is a later step]';
   return fs.readFileSync(file, 'utf8');
+}
+
+function slug(s) { return String(s).toLowerCase().replace(/\.(pdf|xlsx|html?)$/i, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60); }
+
+function discoverLinks(html, pageUrl, rule) {
+  // Finds links on an index page that match rule.pattern and returns new source entries.
+  const out = [];
+  const re = /href\s*=\s*["']([^"']+)["']/gi;
+  let m;
+  const seen = new Set();
+  while ((m = re.exec(html))) {
+    let href = m[1].replace(/&amp;/g, '&');
+    if (!rule.pattern.test(href)) continue;
+    let abs;
+    try { abs = new URL(href, pageUrl).toString(); } catch { continue; }
+    if (seen.has(abs)) continue;
+    seen.add(abs);
+    const file = path.basename(new URL(abs).pathname);
+    const ext = (file.match(/\.(pdf|xlsx|html?)$/i) || [])[1];
+    const kind = ext ? ext.toLowerCase().replace('htm', 'html') : (rule.kind || 'pdf');
+    out.push({ id: `${rule.idPrefix}${slug(file)}`, pbm: rule.pbm, owner: new URL(abs).hostname, name: `${rule.namePrefix || ''}${file}`, url: abs, kind, cadence: rule.cadence || '', verified: 'discovered', discovered_from: pageUrl });
+  }
+  return out;
 }
 
 function normLines(text) {
@@ -116,11 +140,16 @@ async function processSource(src, index) {
   }
   const hash = crypto.createHash('sha256').update(fs.readFileSync(tmp)).digest('hex');
   const last = meta.versions[meta.versions.length - 1];
+  if (src.kind === 'html' && src.discover) {
+    const found = discoverLinks(fs.readFileSync(tmp, 'utf8'), src.url, src.discover);
+    log(`   discovery: ${found.length} link(s) on the page match ${src.discover.pattern}`);
+    src.__found = found;
+  }
   log(`   downloaded ${(dl.size / 1024).toFixed(0)} KB (${dl.type}); hash ${hash.slice(0, 12)}${last ? ` vs last ${last.hash.slice(0, 12)}` : ' (first capture)'}`);
   if (last && last.hash === hash && !FORCE) {
     meta.last_checked = new Date().toISOString();
     writeJson(path.join(dir, 'meta.json'), meta);
-    return { id: src.id, status: 'unchanged' };
+    return { id: src.id, status: 'unchanged', found: src.__found || [] };
   }
 
   let text;
@@ -156,15 +185,24 @@ async function processSource(src, index) {
     if (fs.existsSync(f)) fs.rmSync(f);
   }
   writeJson(path.join(dir, 'meta.json'), meta);
-  return { id: src.id, status: change.kind, change };
+  return { id: src.id, status: change.kind, change, found: src.__found || [] };
 }
 
-function printHits(title, hits, max = 40) {
+function printHits(title, hits, perLabel = 6) {
   if (!hits || !hits.length) return;
-  log(`   ${title} (${hits.length}, showing up to ${max}):`);
-  for (const h of hits.slice(0, max)) {
-    log(`      [${h.tickers.join(' ') || '-'}] ${h.labels.join('; ')}`);
-    for (const c of h.context || [h.text]) log(`         | ${c}`);
+  const groups = new Map();
+  for (const h of hits) {
+    const key = (h.tickers.join(' ') || '-') + ' ' + h.labels.join('; ');
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(h);
+  }
+  log(`   ${title} (${hits.length} hits across ${groups.size} watchlist names; up to ${perLabel} shown per name):`);
+  for (const [key, list] of [...groups.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
+    log(`      ${key}  (${list.length})`);
+    for (const h of list.slice(0, perLabel)) {
+      for (const c of h.context || [h.text]) log(`         | ${c}`);
+      log('         |');
+    }
   }
 }
 
@@ -175,9 +213,11 @@ async function main() {
   try { execSync('pdftotext -v', { stdio: 'pipe' }); } catch { log('WARNING: pdftotext not found; PDF sources will fail to extract. The workflow should install poppler-utils.'); }
 
   const index = readJson(INDEX, { sources: {}, runs: [] });
+  const discovered = readJson(DISCOVERED, {});
   const results = [];
-  for (const src of SOURCES) {
-    if (ONLY && src.id !== ONLY) continue;
+  const known = new Set(SOURCES.map((x) => x.url));
+
+  async function runOne(src) {
     log(`Source ${src.id}: ${src.name}`);
     const r = await processSource(src, index);
     results.push(r);
@@ -190,8 +230,19 @@ async function main() {
         if (r.change.removed.length) { log('   First 15 removed lines:'); r.change.removed.slice(0, 15).forEach((x) => log(`      - ${x.text}`)); }
       }
     }
-    index.sources[src.id] = { ...src, match: undefined, status: r.status, last_checked: new Date().toISOString(), last_change: r.change ? r.change.stamp : (index.sources[src.id] || {}).last_change || null, error: r.error || null };
+    for (const f of r.found || []) {
+      if (known.has(f.url)) continue;
+      known.add(f.url);
+      if (!discovered[f.id]) { discovered[f.id] = { ...f, found_at: new Date().toISOString() }; log(`   new document discovered: ${f.id} -> ${f.url}`); }
+    }
+    const { discover, __found, ...plain } = src;
+    index.sources[src.id] = { ...plain, status: r.status, last_checked: new Date().toISOString(), last_change: r.change ? r.change.stamp : (index.sources[src.id] || {}).last_change || null, error: r.error || null };
   }
+
+  for (const src of SOURCES) { if (ONLY && src.id !== ONLY) continue; await runOne(src); }
+  writeJson(DISCOVERED, discovered);
+  for (const src of Object.values(discovered)) { if (ONLY && src.id !== ONLY) continue; if (!SOURCES.some((x) => x.id === src.id)) await runOne(src); }
+
   index.runs.push({ at: new Date().toISOString(), results: results.map((r) => ({ id: r.id, status: r.status })) });
   index.runs = index.runs.slice(-60);
   index.watchlist = WATCHLIST.map((w) => ({ ticker: w.ticker, label: w.label }));
