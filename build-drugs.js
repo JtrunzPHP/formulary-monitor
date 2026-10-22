@@ -47,25 +47,26 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // ---------------------------------------------------------------------------
 
 async function readSnapshotCodes() {
-  const manifest = readJson(MANIFEST, null);
-  if (!manifest || !manifest.latest) throw new Error('No snapshot yet. Run the Part D collector first.');
-  const file = path.join(SNAP_DIR, manifest.latest, 'formulary.csv.gz');
-  log(`Reading snapshot ${manifest.latest}`);
-
-  const rl = readline.createInterface({ input: fs.createReadStream(file).pipe(zlib.createGunzip()), crlfDelay: Infinity });
-  let header = null;
+  const dirs = fs.existsSync(SNAP_DIR) ? fs.readdirSync(SNAP_DIR).filter((d) => /^\d{8}$/.test(d)).sort() : [];
+  if (dirs.length === 0) throw new Error('No snapshot yet. Run the Part D collector first.');
   const codes = new Map(); // rxcui -> ndc
-  for await (const line of rl) {
-    if (!header) { header = line.split(','); continue; }
-    if (!line) continue;
-    const f = line.split(',');
-    const rxcui = f[header.indexOf('rxcui')];
-    const ndc = header.indexOf('ndc') >= 0 ? f[header.indexOf('ndc')] : '';
-    if (rxcui && !codes.has(rxcui)) codes.set(rxcui, ndc);
+  for (const snap of dirs) {
+    const file = path.join(SNAP_DIR, snap, 'formulary.csv.gz');
+    if (!fs.existsSync(file)) continue;
+    log(`Reading snapshot ${snap}`);
+    const rl = readline.createInterface({ input: fs.createReadStream(file).pipe(zlib.createGunzip()), crlfDelay: Infinity });
+    let header = null; let iR = -1; let iN = -1; let before = codes.size;
+    for await (const line of rl) {
+      if (!header) { header = line.split(','); iR = header.indexOf('rxcui'); iN = header.indexOf('ndc'); continue; }
+      if (!line) continue;
+      const f = line.split(',');
+      const rxcui = f[iR];
+      const ndc = iN >= 0 ? f[iN] : '';
+      if (rxcui && !codes.has(rxcui)) codes.set(rxcui, ndc);
+    }
+    log(`   ${codes.size - before} new codes from this snapshot (running total ${codes.size})`);
   }
-  log(`Distinct RXCUIs in snapshot: ${codes.size}`);
-  log(`Snapshot header: ${header.join(',')}`);
-  if (header.indexOf('ndc') < 0) log('WARNING: snapshot has no ndc column. Re-run the collector with force=true so the snapshot carries NDCs.');
+  log(`Distinct RXCUIs across snapshots: ${codes.size}`);
   log(`Sample snapshot NDC values: ${[...codes.values()].slice(0, 5).map((v) => JSON.stringify(v)).join(', ')}`);
   return codes;
 }
