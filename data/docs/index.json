@@ -9,8 +9,8 @@
       "kind": "pdf",
       "cadence": "quarterly (Jan/Apr/Jul/Oct) plus ad hoc",
       "verified": "yes",
-      "status": "update",
-      "last_checked": "2026-10-22T21:18:06.742Z",
+      "status": "unchanged",
+      "last_checked": "2026-10-22T21:20:21.819Z",
       "last_change": "20261022-211806",
       "error": null
     },
@@ -139,6 +139,15 @@
         {
           "id": "aetna-acp-2027",
           "status": "update"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-22T21:20:21.819Z",
+      "results": [
+        {
+          "id": "aetna-acp-2027",
+          "status": "unchanged"
         }
       ]
     }
