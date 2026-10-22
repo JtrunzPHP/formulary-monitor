@@ -1,0 +1,24 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "name name sitagliptin- Antidiabetic metformin Janumet XR",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "7/27/2026",
+      "text": "metformin           Janumet XR            Tier 2         Tier 2        ---     ---    ---     ---    7/27/2026"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 0
+  }
+}

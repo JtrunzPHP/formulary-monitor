@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "use Base Enhanced SP PA ST QL date name name sitagliptin Januvia",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "raw": "--- --- ---"
+      },
+      "effective": "5/28/26",
+      "text": "Januvia                Tier 2         Tier 2         ---    ---      --     ---     5/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "Antidiabetic Agents sitagliptin- metformin Janumet",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "raw": "--- --- ---"
+      },
+      "effective": "5/28/26",
+      "text": "metformin           Janumet                Tier 2         Tier 2         ---    ---      --     ---     5/28/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "hydrocodone-homa",
+      "name": "tropine oral solution odone-homatropine)",
+      "effective": "7/1/26",
+      "text": "Remove               7/1/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 1
+  }
+}

@@ -1,0 +1,676 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Freestyle g",
+      "name": "lucose blood test strips and se monitoring kits lucose blood test strips and",
+      "brand_generic": "Brand",
+      "tier_before": "3>2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "9/15/25",
+      "text": "Brand         3>2             EXC            9/15/25",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Diabetic supplies (category)"
+      ]
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "blood gluco",
+      "name": "se monitoring kits",
+      "brand_generic": "Brand",
+      "tier_before": "3>2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "9/15/25",
+      "text": "Brand         3>2             EXC            9/15/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Endocrine and Metabolic Jynarque (t",
+      "name": "olvaptan) tablet and tablet k*",
+      "brand_generic": "Brand",
+      "tier_before": "3>1",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "10/1/25",
+      "text": "Brand         3>1            EXC > 1         10/1/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Endocrine and Metabolic tolvaptan t",
+      "name": "ablet and tablet therapy",
+      "brand_generic": "Generic",
+      "tier_before": "1>3",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "10/1/25",
+      "text": "Generic       1>3             EXC            10/1/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Amphetami",
+      "name": "ne (ABA of Adzenys XR) egrating tablet (donidalorsen) auto-injector",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": true
+      },
+      "effective": "8/27/25",
+      "text": "ADHD Agents                                                            Tier 3           EXC    ---     ---     X       X      8/27/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Angioedema Agents",
+      "name": "jection",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/25/25",
+      "text": "Angioedema Agents                                                      Tier 3           EXC    X       ---    ---      ---    8/25/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Brynovin (s",
+      "name": "itagliptin) oral solution* T ulin aspart-xjhz) solution",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/8/25",
+      "text": "Brynovin (sitagliptin) oral solution*            Tier 3           EXC           ---      ---     ---     ---         8/8/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "and pen-inj",
+      "name": "T ector for SC injection*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/18/25",
+      "text": "Tier 3           EXC           ---      ---     ---     ---        8/18/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Brukinsa (z",
+      "name": "anubrutinib) 160mg tablet T",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "9/10/25",
+      "text": "Brukinsa (zanubrutinib) 160mg tablet             Tier 3           Tier 3         X       X       ---     ---        9/10/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Hernexeos (",
+      "name": "zongertinib) tablet* T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/11/25",
+      "text": "Hernexeos (zongertinib) tablet*                  Tier 3           EXC            X       ---     ---     ---        8/11/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Jobevne (be",
+      "name": "vacizumab-nwgd) IV T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/18/25",
+      "text": "Tier 3           EXC            X       X       ---     ---        8/18/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Kyxata (car",
+      "name": "boplatin) IV injection* T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/21/25",
+      "text": "Kyxata (carboplatin) IV injection*               Tier 3           EXC            X       ---     ---     ---        8/21/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Modeyso (do",
+      "name": "rdaviprone) capsule* T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/14/25",
+      "text": "Modeyso (dordaviprone) capsule*                  Tier 3           EXC            X       ---     ---     ---        8/14/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Unloxcyt (c",
+      "name": "osibelimab-ipdl) IV T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/25/25",
+      "text": "Tier 3           EXC            X       ---     ---     ---        8/25/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Papzimeos (",
+      "name": "zopapogene T drba) SC injection* darunavir-cobicistat)",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/22/25",
+      "text": "Tier 3           EXC            X       ---     ---     ---        8/22/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "675-150mg t",
+      "name": "T ablet",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "9/3/25",
+      "text": "Tier 2           Tier 2        ---      ---     ---     ---         9/3/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Remodulin (",
+      "name": "treprostinil) 8mg/20mL T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/11/25",
+      "text": "Cardiovascular Agents                                                              Tier 3           EXC            X       X       ---     ---        8/11/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Dermatological Agents Hydrocortis",
+      "name": "one acetate cream T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/1/25",
+      "text": "Dermatological Agents             Hydrocortisone acetate cream                     Tier 3           EXC           ---      ---     ---     ---         8/1/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Dexcom G7 1",
+      "name": "5-day continuous T itor sensor in disposable infusion",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "9/16/25",
+      "text": "Tier 2           Tier 2        ---      X       ---     ---        9/16/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "pump welcom",
+      "name": "T e kit and supply kit*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/26/25",
+      "text": "Tier 3           EXC           ---      ---     ---     ---        8/26/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Pyzchiva (u",
+      "name": "stekinumab-ttwe) & 90mg/mL auto- T r SC injection",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "8/26/25",
+      "text": "Immunological Agents              45mg/0.5mL & 90mg/mL auto-                       Tier 3           EXC            X       X       ---     X          8/26/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ophthalmic Agents Vizz (acecl",
+      "name": "idine) ophthalmic solution* T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/6/25",
+      "text": "Ophthalmic Agents                 Vizz (aceclidine) ophthalmic solution*           Tier 3           EXC           ---      ---     ---     ---         8/6/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Respiratory Agents Brinsupri (",
+      "name": "brensocatib) tablet* T",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/14/25",
+      "text": "Respiratory Agents                Brinsupri (brensocatib) tablet*                  Tier 3           EXC            X       ---     ---     ---        8/14/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Cardiovascular",
+      "name": "name N/A",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/26/25",
+      "text": "valsartan oral solution         N/A                   Tier 1            Tier 1       ---   ---     ---     ---           8/26/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Corticosteroid triamcinolone 50mg/5mL",
+      "name": "Kenolog-10",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/11/25",
+      "text": "Kenolog-10            Tier 1            Tier 1       ---   ---     ---     ---           8/11/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Hematological",
+      "name": "Venofer",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/11/25",
+      "text": "iron sucrose IV injection       Venofer               Tier 1            Tier 1       ---   ---     ---     ---           8/11/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ophthalmic pilocarpine ophthalmic",
+      "name": "Vuity",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "8/6/25",
+      "text": "Vuity                 Tier 1            Tier 1       ---   X       ---         X          8/6/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Enflonsia",
+      "name": "(clesrovimab-cfor) prefilled r IM injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "9/15/25",
+      "text": "Brand            Tier 2            Tier 2     ---    ---   ---       X       9/15/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Zevtera (c",
+      "name": "eftobiprole medocaril) IV",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "10/18/25",
+      "text": "Brand            Tier 3            Tier 3     ---    ---   ---       ---     10/18/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antineoplastic",
+      "name": "abiraterone) tablet",
+      "brand_generic": "Generic",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "9/12/25",
+      "text": "Abirtega (abiraterone) tablet              Generic           Tier 1            Tier 1     X      X     ---       ---     9/12/25"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Metabolic Agents Vykat XR (",
+      "name": "diazoxide) ER tablet",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "10/1/25",
+      "text": "Metabolic Agents     Vykat XR (diazoxide) ER tablet              Brand            Tier 3            Tier 3     X      X     ---       X       10/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Angioedema Agents Ekterly (sebetralstat)",
+      "name": "ablet",
+      "effective": "9/1/25",
+      "text": "Angioedema Agents         Ekterly (sebetralstat) tablet                                    Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Orlynvah (sulopenem-pro",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Orlynvah (sulopenem-probenecid) tablet                           Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Synagis (palivizumab) I",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Synagis (palivizumab) IM injection                              Remove          9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Ensacove (ensartinib) c",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Ensacove (ensartinib) capsule                                    Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Ibtrozi (taletrectinib)",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Ibtrozi (taletrectinib) capsule                                  Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Lynozyfic (linvoseltama",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Lynozyfic (linvoseltamab-gcpt) IV injection                      Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Zusduri (mitomycin) int",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Zusduri (mitomycin) intravesical injection                       Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Cardiovascular Agents Andembry (garadacimab-g",
+      "name": "ii) auto-injector for SC injection",
+      "effective": "9/1/25",
+      "text": "Cardiovascular Agents     Andembry (garadacimab-gxii) auto-injector for SC injection       Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Endocrine and Metabolic",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Harliku (nitisinone) tablet                                      Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Hematological Agents Hympavzi (marstacimab-h",
+      "name": "cq) auto-injector for SC injection",
+      "effective": "9/1/25",
+      "text": "Hematological Agents      Hympavzi (marstacimab-hncq) auto-injector for SC injection      Remove          9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Ophthalmic Agents Tryptyr (acoltremon) op",
+      "name": "thalmic solution",
+      "effective": "9/1/25",
+      "text": "Ophthalmic Agents         Tryptyr (acoltremon) ophthalmic solution                         Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Merilog (insulin aspart",
+      "name": "injection",
+      "effective": "9/1/25",
+      "text": "Merilog (insulin aspart-szjj) pen-injector for SC injection      Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Merilog (insulin aspart",
+      "name": "ction",
+      "effective": "9/1/25",
+      "text": "Merilog (insulin aspart-szjj) solution for SC injection          Add            9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Contraceptive Agents Averi (desogestrel-estra",
+      "name": "iol) tablet",
+      "effective": "9/1/25",
+      "text": "Contraceptive Agents      Averi (desogestrel-estradiol) tablet                            Add             9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "Freestyle glucose blood",
+      "name": "test strips and blood glucose test strips and blood glucose",
+      "effective": "9/15/25",
+      "text": "Remove          9/15/25",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Diabetic supplies (category)"
+      ]
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "monitoring kits",
+      "name": "",
+      "effective": "9/15/25",
+      "text": "Remove          9/15/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Angioedema Agents Ekterly (sebetralstat)",
+      "name": "ablet",
+      "effective": "9/1/25",
+      "text": "Angioedema Agents         Ekterly (sebetralstat) tablet                                   Add             9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Anti-infective Agents Orlynvah (sulopenem-pro",
+      "name": "enecid) tablet",
+      "effective": "9/1/25",
+      "text": "Anti-infective Agents     Orlynvah (sulopenem-probenecid) tablet                          Add             9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Cardiovascular Agents Andembry (garadacimab-g",
+      "name": "ii) auto-injector for SC injection",
+      "effective": "9/1/25",
+      "text": "Cardiovascular Agents     Andembry (garadacimab-gxii) auto-injector for SC injection      Add             9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Freestyle glucose blood",
+      "name": "",
+      "effective": "9/15/25",
+      "text": "Freestyle glucose blood test strips                            Remove          9/15/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Precision glucose blood",
+      "name": "",
+      "effective": "9/15/25",
+      "text": "Precision glucose blood test strips                            Remove          9/15/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Endocrine and Metabolic",
+      "name": "",
+      "effective": "9/1/25",
+      "text": "Harliku (nitisinone) tablet                                     Add             9/1/25"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Ophthalmic Agents Tryptyr (acoltremon) op",
+      "name": "thalmic solution",
+      "effective": "9/1/25",
+      "text": "Ophthalmic Agents         Tryptyr (acoltremon) ophthalmic solution                        Add             9/1/25"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 9
+  }
+}

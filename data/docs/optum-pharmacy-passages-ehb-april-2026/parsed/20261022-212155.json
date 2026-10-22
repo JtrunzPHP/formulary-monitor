@@ -1,0 +1,88 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Immunological Starj",
+      "name": "emza (ustekinumab-",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/29/26",
+      "text": "Tier 4           Tier 4         X       X      ---     X       4/29/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Avtoz",
+      "name": "ma (tocilizumab- auto-injector and",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 5",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "3/17/26",
+      "text": "Tier 4           Tier 5         X       X      ---     X       3/17/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "use",
+      "name": "Base Enhanced SP PA ST QL date name de Pomalyst",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "3/5/26",
+      "text": "Pomalyst         Tier 4        Tier 4        X      X    ---    X     3/5/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "tablet tit",
+      "name": "ration Savella",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "3/31/26",
+      "text": "tablet titration   Savella          Tier 1        Tier 1        ---   ---   ---    X    3/31/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ophthalmic",
+      "name": "Lumigan",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/7/26",
+      "text": "ophthalmic         Lumigan          Tier 1        Tier 1        ---   ---   ---    X     4/7/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 1
+  }
+}

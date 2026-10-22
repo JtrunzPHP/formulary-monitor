@@ -1,0 +1,706 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Cardiovascular Camzyo",
+      "name": "s (mavacamten) e",
+      "brand_generic": "Brand",
+      "tier_before": "(N/C)",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/26",
+      "text": "Brand          3 (N/C)         EXC > 3          7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Icotyd",
+      "name": "e (icotrokinra) tablet",
+      "brand_generic": "Brand",
+      "tier_before": "3>2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "6/1/26",
+      "text": "Icotyde (icotrokinra) tablet     Brand           3>2            EXC > 2          6/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antidiabetic Pivo",
+      "name": "t insulin delivery em* fi XR (ruxolitinib)",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/28/26",
+      "text": "Tier 3                    EXC                 ---       ---        ---       ---        5/28/26",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents tabl",
+      "name": "et x (crotamiton)",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "5/27/26",
+      "text": "Tier 3                   Tier 3                X         X         ---       X          5/27/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents crea",
+      "name": "m* nti",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/14/26",
+      "text": "Tier 3                    EXC                 ---       ---        ---       ---        5/14/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "(mil",
+      "name": "saperidone) tablet therapy pack* ludex",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/14/26",
+      "text": "(milsaperidone) tablet                         Tier 3                    EXC                 ---       ---        ---       ---        5/14/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "(bul",
+      "name": "evirtide-gmod) SC ction* nso (doravirine-",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/28/26",
+      "text": "(bulevirtide-gmod) SC                          Tier 3                    EXC                  X        ---        ---       ---        5/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "isla",
+      "name": "travir) tablet* endy (baxdrostat)",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/6/26",
+      "text": "Tier 3                    EXC                 ---       ---        ---       ---         5/6/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents tabl",
+      "name": "et* yt",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/20/26",
+      "text": "Tier 3                    EXC                 ---       ---        ---       ---        5/20/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "(dex",
+      "name": "amethasone) et* upeg",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/27/26",
+      "text": "(dexamethasone)                                Tier 3                    EXC                 ---       ---        ---       ---        5/27/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "(peg",
+      "name": "filgrastim-unne) illed syringe for njection*",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/19/26",
+      "text": "Tier 3                    EXC                  X         X         ---       ---        5/19/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Filk",
+      "name": "ri (filgrastim-laha) illed syringe for ction* c acid (ABA of",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/21/26",
+      "text": "prefilled syringe for                          Tier 3                    EXC                  X        ---        ---       ---        5/21/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Quio",
+      "name": "fic) oral solution* nelo frolumab-fnia)",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/12/26",
+      "text": "Tier 3                    EXC                 ---       ---        ---       ---        5/12/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents pref",
+      "name": "illed syringe for njection* mbus",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "5/15/26",
+      "text": "Tier 3                    EXC                  X         X         ---       X          5/15/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ophthalmic",
+      "name": "atoprost) PF halmic gel* o (finafloxacin)",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/8/26",
+      "text": "(bimatoprost) PF                               Tier 3                    EXC                 ---       ---        ---       ---         5/8/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Otic Agents",
+      "name": "suspension* New Drugs to Market exclusion list can rema Drugs to Market Exclusion List",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/14/26",
+      "text": "Otic Agents                                                                    Tier 3                    EXC                 ---       ---        ---       ---        5/14/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "use",
+      "name": "Tier Tier S name N/A",
+      "brand_generic": "",
+      "tier_before": "",
+      "tier_after": "",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/22/26",
+      "text": "N/A            Tier 1      Tier 1     ---   ---   ---   ---   5/22/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "15mg",
+      "name": "N/A",
+      "brand_generic": "",
+      "tier_before": "",
+      "tier_after": "",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/11/26",
+      "text": "N/A            Tier 1      Tier 1     ---   ---   ---   ---    5/11/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "sitagliptin tablet",
+      "name": "Januvia",
+      "brand_generic": "",
+      "tier_before": "",
+      "tier_after": "",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/28/26",
+      "text": "sitagliptin tablet     Januvia        Tier 1      Tier 1     ---   ---   ---   ---   5/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "metformin tablet",
+      "name": "Janumet",
+      "brand_generic": "",
+      "tier_before": "",
+      "tier_after": "",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/28/26",
+      "text": "Janumet        Tier 1      Tier 1     ---   ---   ---   ---   5/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents capsule",
+      "name": "Astagraf XR",
+      "brand_generic": "",
+      "tier_before": "",
+      "tier_after": "",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/4/26",
+      "text": "Astagraf XR    Tier 1      Tier 1     ---   ---   ---   ---    5/4/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Sclerosis",
+      "name": "Mavenclad",
+      "brand_generic": "",
+      "tier_before": "",
+      "tier_after": "",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "5/27/26",
+      "text": "Sclerosis                                 Mavenclad      Tier 1      Tier 1     X      X    ---   X     5/27/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "P",
+      "name": "ivya pivmecillinam) ablet yqorzo",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/17/26",
+      "text": "(pivmecillinam)          Brand       Tier 3       Tier 3     ---    X    ---   X     7/17/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents (",
+      "name": "aficamten) tablet cotyde",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/16/26",
+      "text": "Brand       Tier 3       Tier 3     X      X    ---   X     7/16/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents (",
+      "name": "icotrokinra) tablet qvesme",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/1/26",
+      "text": "Brand       Tier 2       Tier 2     X      X    ---   X      6/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents (",
+      "name": "mitapivat) tablet",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/27/26",
+      "text": "Brand       Tier 3       Tier 3     X      X    ---   X     6/27/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Hematological",
+      "name": "Yartemlea (narsoplimab- wuug) IV injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "7/16/26",
+      "text": "(narsoplimab-           Brand       Tier 3          Tier 3    X      X      ---   ---    7/16/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Immunological",
+      "name": "Gammagard ERC (immune globulin",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "7/10/26",
+      "text": "(immune globulin        Brand       Tier 3          Tier 3    X      X      ---   ---    7/10/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Metabolic",
+      "name": "[human]) injection Kygevvi (doxecitine- doxribtimine) powder pack",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "7/1/26",
+      "text": "Brand       Tier 3          Tier 3    X      X      ---   ---     7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Lerochol (lerod",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Antilipemic Agents                                                                      Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Antineoplastic Agents Lifyorli (relac",
+      "name": "rilant) capsule therapy pack",
+      "effective": "6/1/26",
+      "text": "Antineoplastic Agents        Lifyorli (relacorilant) capsule therapy pack               Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "glycopyrrolate",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "glycopyrrolate injection                                   Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "Gastrointestinal Agents Glycopyrrolate",
+      "name": "PF pre-filled syringe for",
+      "effective": "6/1/26",
+      "text": "Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Avlayah (tivide",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Avlayah (tividenofusp alfa-eknm) IV injection              Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Metabolic Agents Kygevvi (doxeci",
+      "name": "ine-doxribtimine) powder pack",
+      "effective": "6/1/26",
+      "text": "Metabolic Agents             Kygevvi (doxecitine-doxribtimine) powder pack              Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Loargys (pegzil",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Loargys (pegzilarginase-nbln) injection                    Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Yuviwel (navepe",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Yuviwel (navepegritide) SC injection                       Add                 6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Respiratory Agents Coditussin (pse",
+      "name": "id",
+      "effective": "7/1/26",
+      "text": "Coditussin AC (guaifenesin-codeine) oral liquid           Remove               7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "G Tussin AC (guai",
+      "name": "ion",
+      "effective": "7/1/26",
+      "text": "G Tussin AC (guaifenesin-codeine) oral solution         Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "guaifenesin-codei",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "guaifenesin-codeine oral solution                       Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "solution and tabl",
+      "name": "et tirex-chlorpheniramine",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "polistrex ER susp",
+      "name": "ension ropine oral solution and",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "tablet",
+      "name": "done-homatropine) oral",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "solution",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Mar-Cof CG (guaif",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "Mar-Cof CG (guaifenesin-codeine) oral liquid            Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Respiratory Agents",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "Respiratory Agents                                                                Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Maxi-Tuss AC (gua",
+      "name": "tion",
+      "effective": "7/1/26",
+      "text": "Maxi-Tuss AC (guaifenesin-codeine) oral solution        Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Ninjacof-XG (guai",
+      "name": "d",
+      "effective": "7/1/26",
+      "text": "Ninjacof-XG (guaifenesin-codeine) oral liquid           Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "codeine) oral liq",
+      "name": "uid",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "promethazine-code",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "promethazine-codeine syrup                              Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "codeine) syrup",
+      "name": "drine-brompheniramine-",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "codeine) oral liq",
+      "name": "uid",
+      "effective": "7/1/26",
+      "text": "Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Tuxarin (codeine-",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "Tuxarin (codeine-chlorpheniramine) ER tablet            Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Virtussin AC (gua",
+      "name": "tion",
+      "effective": "7/1/26",
+      "text": "Virtussin AC (guaifenesin-codeine) oral solution        Remove             7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Tolectin (tolmet",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Tolectin (tolmetin) tablet 600mg                        Remove             6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "tolmetin tablet",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "tolmetin tablet 600mg                                   Remove             6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Lerochol (lerodalc",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Antilipemic Agents                                                                                         Add                   6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Yuvezzi (carbachol",
+      "name": "",
+      "effective": "6/1/26",
+      "text": "Ophthalmic Agents                                                                                          Add                   6/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Metabolic Agents Yuviwel (navepegri",
+      "name": "ide) SC injection",
+      "effective": "6/1/26",
+      "text": "Metabolic Agents                     Yuviwel (navepegritide) SC injection                                  Add                   6/1/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 8
+  }
+}

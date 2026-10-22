@@ -1,0 +1,214 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ky",
+      "name": "gevvi Powder M/2GM (doxecitine-",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 5",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "8/1/2026",
+      "text": "2GM/2GM (doxecitine-             Tier 4          Tier 5   X      X   ---   ---     8/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Prad",
+      "name": "axa 110mg tablets",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Xare",
+      "name": "lto 1MG/ML",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Xarelto 1MG/ML                           Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents (per",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Tier 3 > EXC     Tier 3 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antivirals (emt",
+      "name": "icitabine-rilpivirine-",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Antivirals             (emticitabine-rilpivirine-               Tier 3 > EXC     Tier 3 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Modifiers powd",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Tier 4 > EXC     Tier 5 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents vals",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Hormonal Agents",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Hormonal Agents                                                 Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Oncology",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Oncology                                                        Tier 4 > EXC     Tier 5 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Bril",
+      "name": "inta tablets (ticagrelor)",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Brilinta tablets (ticagrelor)            Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Tract/Pulmonary",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/2026",
+      "text": "Tract/Pulmonary                                                 Tier 4 > EXC     Tier 5 > EXC          7/1/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Immunological Skyr",
+      "name": "izi Inj 55mg/.37ml",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/28/2026",
+      "text": "Tier 4           Tier 4         X       X      ---     X      7/28/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antineoplastic bosu",
+      "name": "tinib Bosulif",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 5",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "6/17/2026",
+      "text": "Bosulif               Tier 4         Tier 5         X      X      ---     ---    6/17/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "tofa",
+      "name": "citinib Xeljanz XR",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/11/2026",
+      "text": "Xeljanz XR            Tier 4         Tier 4         X      X      ---     X      6/11/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "solu",
+      "name": "tion, Xeljanz",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/11/2026",
+      "text": "solution,        Xeljanz               Tier 4         Tier 4         X      X      ---     X      6/11/2026"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Cardiovascular maci",
+      "name": "tentan Opsumit",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/12/2026",
+      "text": "Opsumit               Tier 4         Tier 4         X      X      ---     X      6/12/2026"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 3
+  }
+}

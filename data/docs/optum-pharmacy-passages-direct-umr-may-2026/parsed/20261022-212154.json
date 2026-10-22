@@ -1,0 +1,674 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antidepressant Auvelity",
+      "name": "(dextromethorphan- n) ER tablet",
+      "brand_generic": "Brand",
+      "tier_before": "(N/C)",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "6/1/26",
+      "text": "Brand         3 (N/C)        EXC > 3          6/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ibtrozi",
+      "name": "(taletrectinib) capsule",
+      "brand_generic": "Brand",
+      "tier_before": "(N/C)",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "6/1/26",
+      "text": "Ibtrozi (taletrectinib) capsule    Brand         3 (N/C)        EXC > 3          6/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Rezdiffr",
+      "name": "a (resmetirom) tablet (bimekizumab-bkzx)",
+      "brand_generic": "Brand",
+      "tier_before": "(N/C)",
+      "tier_after": "EXC",
+      "flags": {},
+      "effective": "7/1/26",
+      "text": "Rezdiffra (resmetirom) tablet      Brand         3 (N/C)        EXC > 3          7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "auto-inj",
+      "name": "ector and prefilled for SC injection",
+      "brand_generic": "Brand",
+      "tier_before": "3>2",
+      "tier_after": "3>2",
+      "flags": {},
+      "effective": "6/1/26",
+      "text": "auto-injector and prefilled        Brand          3>2             3>2            6/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Dap",
+      "name": "agliflozin-saxagliptin T mpic (semaglutide)",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": false
+      },
+      "effective": "4/6/26",
+      "text": "Tier 3        EXC         ---   ---   X     ---    4/6/26",
+      "watch_tickers": [
+        "NVO"
+      ],
+      "watch_labels": [
+        "Novo semaglutide"
+      ]
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "10-",
+      "name": "5mg tablet* T let 1.5, 4, 9mg",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/16/26",
+      "text": "Tier 2       Tier 2       ---    X    ---   X     4/16/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Gra",
+      "name": "nisol (granisetron) T l solution* eus (tradipitant)",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/28/26",
+      "text": "Tier 3        EXC         ---   ---   ---   ---   4/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "cap",
+      "name": "T sule*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/6/26",
+      "text": "Tier 3        EXC         ---   ---   ---   ---    4/6/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antilipemic Jux",
+      "name": "tapid (lomitapide) T sule 2mg",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/28/26",
+      "text": "Tier 3       Tier 3       X      X    ---   X     4/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Avo",
+      "name": "pef (etoposide) IV T ection* lyxa (fluorouracil) IV",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/6/26",
+      "text": "Tier 3        EXC         X     ---   ---   ---    4/6/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "inj",
+      "name": "T ection*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/6/26",
+      "text": "Tier 3        EXC         X     ---   ---   ---    4/6/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Anti-obesity Fou",
+      "name": "ndayo (oforglipron) T let*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/3/26",
+      "text": "Tier 3        EXC         ---    X    ---   X      4/3/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Azi",
+      "name": "lsartan (ABA of T rbi) tablet*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": false
+      },
+      "effective": "4/24/26",
+      "text": "Tier 3        EXC         ---   ---   X     ---   4/24/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Hem",
+      "name": "angeol (propranolol) T l solution (by Eton)* aplik (amlodipine-",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/23/26",
+      "text": "Cardiovascular                                  Tier 3        EXC         ---    X    ---   ---   4/23/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "tel",
+      "name": "misartan-indapamide) T let*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/23/26",
+      "text": "telmisartan-indapamide)      Tier 3        EXC         ---   ---   ---   ---   4/23/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Fes",
+      "name": "ilty (fibrinogen, an-chmt) IV T ection* ofic (folic acid) oral",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/27/26",
+      "text": "human-chmt) IV               Tier 3        EXC         X     ---   ---   ---   4/27/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "sol",
+      "name": "T ution*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/23/26",
+      "text": "Tier 3        EXC         ---   ---   ---   ---   4/23/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Sap",
+      "name": "hnelo (anifrolumab- a) auto-injector for SC T ection*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/29/26",
+      "text": "fnia) auto-injector for SC   Tier 3        EXC         X      X    ---   X     4/29/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Relga",
+      "name": "abi (gabapentin) T le 300, 400mg* a (eplontersen)",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": false
+      },
+      "effective": "4/14/26",
+      "text": "Tier 3            EXC            ---     ---     X      ---      4/14/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "prefi",
+      "name": "lled syringe for SC T tion",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "5/19/26",
+      "text": "prefilled syringe for SC             Tier 3            Tier 3          X       X      ---     X       5/19/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Ophthalmic Byqlo",
+      "name": "vi (clobetasol) T almic suspension*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/6/26",
+      "text": "Tier 3            EXC            ---     ---     ---     X        4/6/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Umecl",
+      "name": "idinium Ellipta of Incruse Ellipta) T r inhaler*",
+      "brand_generic": "",
+      "tier_before": "EXC",
+      "tier_after": "EXC",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": true
+      },
+      "effective": "4/9/26",
+      "text": "(ABA of Incruse Ellipta)             Tier 3            EXC            ---     ---     X       X        4/9/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Analgesic ketop",
+      "name": "rofen Orudis le",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/20/26",
+      "text": "Orudis                Tier 1         Tier 1       ---    ---     ---    X       4/20/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antidepressant cital",
+      "name": "opram N/A le",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "3/31/26",
+      "text": "N/A                   Tier 1         Tier 1       ---    ---     ---    ---     3/31/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "dapag",
+      "name": "liflozin Farxiga t liflozin-",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/7/26",
+      "text": "Farxiga               Tier 1         Tier 1       ---    ---     ---    ---      4/7/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "metfo",
+      "name": "rmin ER Xigduo XR t",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/8/26",
+      "text": "metformin ER          Xigduo XR             Tier 1         Tier 1       ---    ---     ---    ---      4/8/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Cardiovascular cloni",
+      "name": "dine tablet Folotyn g",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/14/26",
+      "text": "Folotyn               Tier 1         Tier 1       ---    ---     ---    ---     4/14/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Cardiovascular nitroglyce",
+      "name": "rin Nitro-bid",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "4/15/26",
+      "text": "Nitro-bid     Tier 1    Tier 1        ---   ---   ---   ---   4/15/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "fluticason",
+      "name": "e HFA N/A m",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/22/26",
+      "text": "propionate HFA         N/A           Tier 1    Tier 1        ---   ---   ---   X     4/22/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "HFA inhale",
+      "name": "Atrovent r",
+      "brand_generic": "",
+      "tier_before": "Tier 1",
+      "tier_after": "Tier 1",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "4/22/26",
+      "text": "Atrovent      Tier 1    Tier 1        ---   ---   ---   X     4/22/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "H",
+      "name": "yrnuo sevabertinib) ablet eytruda Qlex pembrolizumab-",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "6/2/26",
+      "text": "(sevabertinib)               Brand   Tier 3       Tier 3     X      X    ---   ---    6/2/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "b",
+      "name": "erahyaluron- mph) SC njection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/31/26",
+      "text": "berahyaluron-                Brand   Tier 3       Tier 3     X      X    ---   ---   5/31/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Anti-obesity F",
+      "name": "oundayo orfoglipron) tablet",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "5/11/26",
+      "text": "Brand   Tier 2       Tier 2     ---    X    ---    X     5/11/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "V",
+      "name": "oyxact sibeprenlimab- zsi) prefilled yringe for SC njection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/3/26",
+      "text": "szsi) prefilled              Brand   Tier 3       Tier 3     X      X    ---    X     6/3/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "B",
+      "name": "ildyos denosumab-nxxp) refilled syringe or SC injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/1/26",
+      "text": "Brand   Tier 2       Tier 2     X      X    ---    X     7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "Bilprevda (denosumab-nxxp) SC injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "7/1/26",
+      "text": "(denosumab-nxxp)        Brand       Tier 2       Tier 2      X     X    ---   ---     7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Metabolic",
+      "name": "Enoby (denosumab- qbde) prefilled syringe for SC injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/1/26",
+      "text": "qbde) prefilled         Brand       Tier 2       Tier 2      X     X    ---    X      7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "Xtrenbo (denosumab- qbde) SC injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "7/1/26",
+      "text": "(denosumab-             Brand       Tier 2       Tier 2      X     X    ---   ---     7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "Zycubo (copper histidinate) SC injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "6/1/26",
+      "text": "histidinate) SC         Brand       Tier 3       Tier 3      X     X    ---    X      6/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Neuromuscular",
+      "name": "Itvisma (onasemnogene abeparvovec-brve) intrathecal injection",
+      "brand_generic": "Brand",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": false
+      },
+      "effective": "5/29/26",
+      "text": "abeparvovec-brve)       Brand       Tier 3       Tier 3      X     X    ---   ---    5/29/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Metabolic Agents Zycubo (copper",
+      "name": "histidinate) SC injection",
+      "effective": "4/28/26",
+      "text": "Metabolic Agents             Zycubo (copper histidinate) SC injection                Add                4/28/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "Meloxica",
+      "name": "",
+      "effective": "5/1/26",
+      "text": "Meloxicam oral suspension                      Remove                    5/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "",
+      "therapeutic_use": "Analgesic Agents",
+      "name": "eloxicam) oral on",
+      "effective": "5/1/26",
+      "text": "Remove                    5/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Respiratory Agents Beclomet",
+      "name": "asone HFA inhaler",
+      "effective": "5/1/26",
+      "text": "Respiratory Agents            Beclomethasone HFA inhaler                      Add                      5/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Add",
+      "therapeutic_use": "Zycubo (",
+      "name": "",
+      "effective": "4/28/26",
+      "text": "Metabolic Agents                                                              Add                     4/28/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 8
+  }
+}

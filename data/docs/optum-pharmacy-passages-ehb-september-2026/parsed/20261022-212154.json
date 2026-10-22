@@ -1,0 +1,66 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Anitdiabetic Ozemp",
+      "name": "ic (semaglutide)",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "raw": "X X"
+      },
+      "effective": "9/1/26",
+      "text": "Tier 2           Tier 2                 X              X        9/1/26",
+      "watch_tickers": [
+        "NVO"
+      ],
+      "watch_labels": [
+        "Novo semaglutide"
+      ]
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Agents Maint",
+      "name": "",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 5",
+      "flags": {
+        "raw": "X X"
+      },
+      "effective": "9/1/26",
+      "text": "Tier 4           Tier 5                 X              X        9/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Antineoplastic Rason",
+      "name": "que (daraxonrasib)",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 5",
+      "flags": {
+        "raw": "X"
+      },
+      "effective": "11/1/26",
+      "text": "Tier 4           Tier 5                 X                       11/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Xocov",
+      "name": "a (ensitrelvir) tablet",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "raw": "X"
+      },
+      "effective": "9/21/26",
+      "text": "Xocova (ensitrelvir) tablet            Tier 3           Tier 3                                X       9/21/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 2
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Enoby",
+      "name": "(denosumab-qbde) lled syringe for SC",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/1/26",
+      "text": "prefilled syringe for SC               Tier 4           Tier 4         X       X      ---     X        7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Musculoskeletal Xtren",
+      "name": "bo (denosumab-",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 4",
+      "flags": {
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "7/1/26",
+      "text": "Tier 4           Tier 4         X       X      ---     X        7/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "use",
+      "name": "Base Enhanced SP PA ST QL date name flozin Farxiga",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": false
+      },
+      "effective": "4/6/26",
+      "text": "Farxiga                Tier 2         Tier 2         ---    ---      X      ---      4/6/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "name",
+      "name": "name zin- ER Xigduo XR",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": true,
+        "QL": false
+      },
+      "effective": "4/8/26",
+      "text": "metformin ER     Xigduo XR          Tier 2        Tier 2        ---   ---   X      ---    4/8/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "propionate",
+      "name": "N/A",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "3/30/26",
+      "text": "propionate       N/A                Tier 2        Tier 2        ---   ---   ---    X     3/30/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "HFA inhale",
+      "name": "Atrovent HFA",
+      "brand_generic": "",
+      "tier_before": "Tier 3",
+      "tier_after": "Tier 3",
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": true
+      },
+      "effective": "3/13/26",
+      "text": "Atrovent HFA       Tier 3        Tier 3        ---   ---   ---    X     3/13/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 1
+  }
+}
