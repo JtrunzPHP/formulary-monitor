@@ -9,9 +9,9 @@
       "kind": "pdf",
       "cadence": "quarterly (Jan/Apr/Jul/Oct) plus ad hoc",
       "verified": "yes",
-      "status": "baseline",
-      "last_checked": "2026-10-22T21:14:54.587Z",
-      "last_change": "20261022-211454",
+      "status": "update",
+      "last_checked": "2026-10-22T21:18:06.742Z",
+      "last_change": "20261022-211806",
       "error": null
     },
     "esi-npf-changes-jul-2026": {
@@ -130,6 +130,15 @@
         {
           "id": "optum-pharmacy-passages-sep-2025",
           "status": "baseline"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-22T21:18:06.742Z",
+      "results": [
+        {
+          "id": "aetna-acp-2027",
+          "status": "update"
         }
       ]
     }
