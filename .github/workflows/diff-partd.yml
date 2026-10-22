@@ -1,0 +1,53 @@
+name: Diff Part D snapshots
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Rebuild the newest diff even if it already exists (true/false)'
+        required: false
+        default: 'false'
+  workflow_run:
+    workflows: ["Build drug dictionary"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diff-partd
+  cancel-in-progress: false
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run diff
+        env:
+          FORCE: ${{ github.event.inputs.force }}
+        run: node --max-old-space-size=6144 diff-partd.js
+
+      - name: Commit results
+        run: |
+          git config user.name "formulary-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/partd
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Part D diff: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
