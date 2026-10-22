@@ -8,7 +8,8 @@
 // runs once and is weighted by the number of plans on it.
 //
 // Outputs (all under data/partd/diffs/):
-//   <prev>_to_<latest>.csv            one row per change
+//   <prev>_to_<latest>.csv.gz         one row per change (compressed)
+//   <prev>_to_<latest>.top.csv        the most widespread changes, for Excel
 //   <prev>_to_<latest>.summary.json   counts and the most widespread changes
 //   index.json                        list of diffs produced so far
 //
@@ -184,7 +185,12 @@ async function main() {
   // ---- Write CSV ----
   const cols = ['prev_formulary_id', 'formulary_id', 'rxcui', 'change', 'detail', 'before', 'after', 'drug', 'tty', 'ingredients', 'brands', 'labeler', 'mfr_parent', 'mfr_ticker', 'plan_count', 'plan_parents', 'plan_tickers', 'example_plans'];
   const csv = [cols.join(',')].concat(changes.map((c) => cols.map((k) => csvCell(c[k])).join(',')));
-  fs.writeFileSync(path.join(DIFF_DIR, `${tag}.csv`), csv.join('\n') + '\n');
+  const gz = zlib.gzipSync(Buffer.from(csv.join('\n') + '\n'), { level: 9 });
+  fs.writeFileSync(path.join(DIFF_DIR, `${tag}.csv.gz`), gz);
+  log(`Detail file: ${changes.length.toLocaleString()} rows, ${(gz.length / 1048576).toFixed(1)} MB compressed`);
+  // Remove any uncompressed detail file left by an earlier version
+  const oldCsv = path.join(DIFF_DIR, `${tag}.csv`);
+  if (fs.existsSync(oldCsv)) fs.rmSync(oldCsv);
 
   // ---- Summary ----
   const byType = {};
@@ -230,6 +236,11 @@ async function main() {
   };
   fs.writeFileSync(path.join(DIFF_DIR, `${tag}.summary.json`), JSON.stringify(summary, null, 2));
 
+  // Small, Excel-friendly file of the most widespread changes (one row per drug and change type)
+  const topCols = ['plans_affected', 'formularies', 'change', 'drug', 'tty', 'ingredients', 'labeler', 'mfr_ticker', 'rxcui', 'plan_parents'];
+  const topCsv = [topCols.join(',')].concat(top.map((x) => [x.plans, x.transitions, x.change, x.drug, x.tty, x.ingredients, x.labeler, x.mfr_ticker, x.rxcui, x.parents.join('; ')].map(csvCell).join(',')));
+  fs.writeFileSync(path.join(DIFF_DIR, `${tag}.top.csv`), topCsv.join('\n') + '\n');
+
   index.diffs = index.diffs.filter((d) => d.tag !== tag);
   index.diffs.push({ tag, prev, latest, total_change_rows: changes.length, generated_at: summary.generated_at });
   index.diffs.sort((a, b) => a.tag.localeCompare(b.tag));
@@ -242,7 +253,7 @@ async function main() {
   log('Plans affected by change type, by plan parent (top 12 parents):');
   Object.entries(byParent).sort((a, b) => Object.values(b[1]).reduce((s, v) => s + v, 0) - Object.values(a[1]).reduce((s, v) => s + v, 0)).slice(0, 12)
     .forEach(([p, x]) => log(`   ${p}: ${JSON.stringify(x)}`));
-  log(`Wrote ${tag}.csv and ${tag}.summary.json`);
+  log(`Wrote ${tag}.csv.gz, ${tag}.top.csv and ${tag}.summary.json`);
 }
 
 main().catch((e) => { console.error('DIFF FAILED:', e.message); process.exit(1); });
