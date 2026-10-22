@@ -70,6 +70,7 @@ function finishAetnaEntry(e) {
   const tierText = norm(e.tier.join(' '));
   const limitsText = norm(e.limits.join(' '));
   if (!nameText) return null;
+  if (nameText.length > 400) return { problem: 'entry too long', text: nameText.slice(0, 160), category: e.category };
   const tierM = tierText.match(TIER_RE) || nameText.match(TIER_RE);
   if (!tierM) return { problem: 'no tier code', text: `${nameText} | ${tierText} | ${limitsText}`, category: e.category };
   const tier = tierM[1];
@@ -92,6 +93,97 @@ function finishAetnaEntry(e) {
   return { category: e.category, name, generic, tier, restrictions: restr, limits: lim, text: `${nameText} | ${tierText} | ${lim}` };
 }
 
+// Split two-column pages into columns. pdftotext -layout keeps horizontal
+// positions, so a vertical whitespace gap near the middle of a page marks the
+// column boundary. Returns one entry per page: an array of columns, each an
+// array of lines. Pages are separated by form feeds.
+function pageColumns(text) {
+  const pages = text.split('\f');
+  const out = [];
+  for (const page of pages) {
+    const lines = page.split('\n').map((l) => l.replace(/\s+$/, ''));
+    const width = Math.max(0, ...lines.map((l) => l.length));
+    const nonEmpty = lines.filter((l) => l.trim().length);
+    if (width < 90 || nonEmpty.length < 8) { out.push([lines]); continue; }
+    let best = -1, bestScore = 0;
+    for (let c = Math.floor(width * 0.35); c <= Math.floor(width * 0.65); c++) {
+      let blank = 0;
+      for (const l of nonEmpty) if (c >= l.length || (l[c] === ' ' && (l[c - 1] === ' ' || l[c + 1] === ' '))) blank++;
+      const score = blank / nonEmpty.length;
+      if (score > bestScore) { bestScore = score; best = c; }
+    }
+    if (bestScore < 0.97) { out.push([lines]); continue; }
+    const left = lines.map((l) => l.slice(0, best).replace(/\s+$/, ''));
+    const right = lines.map((l) => l.slice(best).replace(/^\s{0,2}/, '').replace(/\s+$/, ''));
+    out.push([left, right]);
+  }
+  return out;
+}
+
+// Aetna booklet-style guide (seen in the 2026 Advanced Control Plan file): a
+// product list where only exceptions carry a code (CE, NP, NPSP, PB, PG, PSP,
+// NF). Listed products with no code are covered with tier unmarked.
+const BOOKLET_CODES = ['NPSP', 'PSP', 'NP', 'PB', 'PG', 'NF', 'CE'];
+const BOOKLET_RE = new RegExp(`(?:^|\\s)(${BOOKLET_CODES.join('|')})(?=\\s|$)`);
+const BOOKLET_SKIP = /^\d{1,2}\/\d{1,2}\/\d{4}$|^Page \d|^\d{1,3}$|Advanced Control Plan|aetna\.com|Aetna Inc|Pharmacy Drug Guide/i;
+const LEGEND_RE = /^(CE|NP|NPSP|PB|PG|PSP|NF)?\s*=\s*|lowercase italics\s*=|UPPERCASE\s*=|= Non-formulary|Copay Exception|exception request granted/i;
+
+function parseAetnaBooklet(text) {
+  const pages = pageColumns(text);
+  const rows = []; const problems = []; const notes = { booklet: true, pages: pages.length };
+  // Find the page holding the legend; parsing starts there, after the legend lines in each column.
+  let legendPage = -1;
+  for (let p = 0; p < pages.length; p++) if (pages[p].some((col) => col.some((l) => LEGEND_RE.test(l.trim()) && /Preferred|Non-formulary|Generic drugs|Brand name/i.test(l)))) { legendPage = p; break; }
+  if (legendPage < 0) { legendPage = 0; notes.legendFound = false; }
+  const lines = [];
+  for (let p = legendPage; p < pages.length; p++) {
+    for (const col of pages[p]) {
+      let colLines = col;
+      if (p === legendPage) { let last = -1; col.forEach((l, i) => { if (LEGEND_RE.test(l.trim())) last = i; }); colLines = col.slice(last + 1); }
+      lines.push(...colLines);
+    }
+  }
+  let category = ''; let buf = null;
+  const isHeader = (t) => t && !/\(/.test(t) && t === t.toUpperCase() && /[A-Z]{3,}/.test(t) && !FORM_WORDS.test(t) && !/-$/.test(t) && t.length < 110 && !BOOKLET_RE.test(' ' + t) && !/\d+ MG|\d+ ML/.test(t);
+  const cont = (t, soFar) => (/^\([a-z]/.test(t) && !hasGeneric(soFar)) || /^[\d.]+ ?(MG|ML|MCG|UNIT|UNT|%|X|GM|G)\b/i.test(t) || /^(MG|ML|MCG|UNIT|GM|G)\b/i.test(t) || (!/\(/.test(t) && /\)\s*$/.test(t)) || /^(INJECTOR|KWIKPEN|SOLOSTAR|FLEXTOUCH|FLEXPEN|PEN-INJECTOR|CARTRIDGE|AUTO-INJECTOR|SYRINGE|THERAPY PACK|PACK|DETERRENT|RELEASE)\b/i.test(t) || (/-$/.test(soFar.trim())) || (/^[a-z]/.test(t) && /^[^A-Z]*\)\s*$/.test(t) && parenBalance(soFar) > 0) || (parenBalance(soFar) > 0 && !/\(/.test(t));
+  const flush = () => {
+    if (!buf) return;
+    const t = norm(buf.join(' '));
+    buf = null;
+    if (!t || t.length > 400) { if (t) problems.push({ problem: 'entry too long', text: t.slice(0, 160), category }); return; }
+    const codes = [...t.matchAll(new RegExp(BOOKLET_RE.source, 'g'))].map((m) => m[1]);
+    const tier = codes.find((c) => c !== 'CE') || '';
+    const restr = [];
+    if (codes.includes('CE')) restr.push('CE copay exception');
+    if (/\bPA\b/.test(t)) restr.push('PA');
+    if (/\bST\b/.test(t)) restr.push('ST');
+    if (/\bQL\b/.test(t)) restr.push('QL');
+    if (/\bN7\b/.test(t)) restr.push('N7');
+    let clean = t.replace(new RegExp(BOOKLET_RE.source, 'g'), ' ').replace(/\bN7 \(?/g, ' ').replace(/\bPA;?\b/g, ' ');
+    clean = norm(clean);
+    let generic = '';
+    const parens = [...clean.matchAll(/\(([^()]*(?:\([^()]*\)[^()]*)*)\)/g)].map((m) => m[1]);
+    for (const p of parens) if (/^[a-z]/.test(p)) generic = norm(p);
+    let name = clean;
+    if (generic) { const i = clean.lastIndexOf('(' + generic); if (i > 0) name = clean.slice(0, i); }
+    name = norm(name);
+    if (!name || !/[A-Za-z]{3,}/.test(name)) return;
+    rows.push({ category, name, generic, tier, coverage: tier === 'NF' ? 'not covered' : 'listed', restrictions: restr, text: t });
+  };
+  for (const rawLine of lines) {
+    const t = rawLine.trim();
+    if (!t || BOOKLET_SKIP.test(t) || LEGEND_RE.test(t)) continue;
+    if (isHeader(t) && (!buf || parenBalance(buf.join(' ')) <= 0)) { flush(); category = t; continue; }
+    if (buf && !cont(t, buf.join(' ')) && parenBalance(buf.join(' ')) <= 0) flush();
+    if (!buf) buf = [];
+    buf.push(t);
+  }
+  flush();
+  return { rows, problems, notes };
+}
+
+function diffBooklet(prevRows, rows) { return diffAetna(prevRows, rows); }
+
 function parseAetna(text) {
   const raw = text.split('\n').map((l) => l.replace(/\s+$/, ''));
   // Column offsets from the page header
@@ -105,6 +197,7 @@ function parseAetna(text) {
     }
   }
   const columnMode = tierCol > 10;
+  if (!columnMode && /Advanced Control Plan|PSP = Preferred Specialty|PG = Preferred Generic/i.test(text)) return parseAetnaBooklet(text);
   if (columnMode && limitsCol <= tierCol) limitsCol = tierCol + 12;
   const rows = []; const problems = []; const notes = { columnMode, tierCol, limitsCol, unknownTierTokens: {} };
   let category = ''; let e = null;
@@ -320,6 +413,29 @@ function main() {
   structured.generated_at = new Date().toISOString();
   writeJson(OUT, structured);
   log(`Wrote ${OUT}`);
+
+  // Short human-readable report, small enough to read from a link.
+  const lines = [`# Formulary monitor: commercial documents report`, ``, `Generated ${structured.generated_at}`, ``];
+  for (const e of Object.values(structured.sources)) {
+    const v = e.latest_stamp ? e.versions[e.latest_stamp] : null;
+    lines.push(`## ${e.name} (${e.id})`, `Parser: ${e.parser}${v ? `; rows ${v.rows}, problems ${v.problems}, watchlist rows ${v.watch_rows}` : ''}${e.latest_diff ? `; latest diff ${e.latest_diff} with ${(e.latest_changes || []).length} changes` : ''}`, ``);
+    if (e.parser === 'none') { lines.push(''); continue; }
+    const pf = path.join(DATA_DIR, e.id, 'parsed', `${e.latest_stamp}.json`);
+    const parsed = readJson(pf, null);
+    if (parsed && parsed.notes) lines.push(`Notes: ${JSON.stringify(parsed.notes)}`, ``);
+    if (parsed && parsed.problems && parsed.problems.length) { lines.push(`Problems (first 12):`); parsed.problems.slice(0, 12).forEach((p) => lines.push(`- ${p.problem}: ${String(p.text).slice(0, 140)}`)); lines.push(''); }
+    if (parsed && parsed.rows) { lines.push(`Sample rows (first 10):`); parsed.rows.slice(0, 10).forEach((r) => lines.push(`- ${rowLine(r)}`)); lines.push(''); }
+    if (e.watch_rows && e.watch_rows.length) { lines.push(`Watchlist rows (up to 60 of ${e.watch_rows.length}):`); e.watch_rows.slice(0, 60).forEach((r) => lines.push(`- [${(r.watch_tickers || []).join(' ')}] ${rowLine(r)}`)); lines.push(''); }
+    if (e.latest_changes && e.latest_changes.length) { lines.push(`Structured changes vs previous version (watchlist first, up to 60):`); const w = e.latest_changes.filter((c) => c.watch_tickers); const o = e.latest_changes.filter((c) => !c.watch_tickers); w.concat(o).slice(0, 60).forEach((c) => lines.push(`- ${c.change} ${c.name}${c.generic ? ` (${c.generic})` : ''}: ${c.tier_before || '-'} -> ${c.tier_after || '-'}${c.restrictions_after ? ` [${c.restrictions_after.join(', ')}]` : ''}`)); lines.push(''); }
+  }
+  fs.writeFileSync(path.join(DATA_DIR, 'report.md'), lines.join('\n'));
+  log('Wrote data/docs/report.md');
+}
+
+function rowLine(r) {
+  if (r.kind === 'tier_change') return `${r.therapeutic_use ? r.therapeutic_use + ' | ' : ''}${r.name} | ${r.tier_before} -> ${r.tier_after}${r.brand_generic ? ' | ' + r.brand_generic : ''} | ${JSON.stringify(r.flags)} | eff ${r.effective}`;
+  if (r.kind === 'add_remove') return `${r.action} ${r.name} | eff ${r.effective}`;
+  return `${r.category} | ${r.name}${r.generic ? ' (' + r.generic + ')' : ''} | ${r.tier || (r.coverage || '')} | ${(r.restrictions || []).join(', ')}`;
 }
 
 main();
