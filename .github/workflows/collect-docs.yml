@@ -46,6 +46,7 @@ jobs:
 
       - name: Parse documents into structured rows
         env:
+          FORCE: ${{ github.event.inputs.force }}
           ONLY: ${{ github.event.inputs.only }}
         run: node parse-docs.js
 
