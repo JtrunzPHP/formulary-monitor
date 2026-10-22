@@ -10,7 +10,7 @@
       "cadence": "updated the first week of each month (per the document)",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:45.939Z",
+      "last_checked": "2026-10-22T21:51:31.382Z",
       "last_change": "20261022-211806",
       "error": null
     },
@@ -24,7 +24,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:46.489Z",
+      "last_checked": "2026-10-22T21:51:32.492Z",
       "last_change": "20261022-211455",
       "error": null
     },
@@ -38,7 +38,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:46.554Z",
+      "last_checked": "2026-10-22T21:51:32.556Z",
       "last_change": "20261022-211455",
       "error": null
     },
@@ -52,7 +52,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:46.585Z",
+      "last_checked": "2026-10-22T21:51:32.619Z",
       "last_change": "20261022-211456",
       "error": null
     },
@@ -66,8 +66,8 @@
       "cadence": "monthly",
       "verified": "yes",
       "status": "update",
-      "last_checked": "2026-10-22T21:38:46.691Z",
-      "last_change": "20261022-213846",
+      "last_checked": "2026-10-22T21:51:32.723Z",
+      "last_change": "20261022-215132",
       "error": null
     },
     "optum-pharmacy-passages-mar-2026": {
@@ -94,7 +94,7 @@
       "cadence": "monthly",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:46.923Z",
+      "last_checked": "2026-10-22T21:51:32.892Z",
       "last_change": "20261022-211456",
       "error": null
     },
@@ -110,7 +110,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.267Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:47.139Z",
+      "last_checked": "2026-10-22T21:51:33.060Z",
       "last_change": "20261022-212153",
       "error": null
     },
@@ -126,7 +126,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:47.431Z",
+      "last_checked": "2026-10-22T21:51:33.231Z",
       "last_change": "20261022-212153",
       "error": null
     },
@@ -142,7 +142,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:47.762Z",
+      "last_checked": "2026-10-22T21:51:33.391Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -158,7 +158,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:48.008Z",
+      "last_checked": "2026-10-22T21:51:33.544Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -174,7 +174,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:48.155Z",
+      "last_checked": "2026-10-22T21:51:33.897Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -190,7 +190,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:48.399Z",
+      "last_checked": "2026-10-22T21:51:34.091Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -206,7 +206,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:48.596Z",
+      "last_checked": "2026-10-22T21:51:34.440Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -222,7 +222,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:48.781Z",
+      "last_checked": "2026-10-22T21:51:34.565Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -238,7 +238,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:49.061Z",
+      "last_checked": "2026-10-22T21:51:34.700Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -254,7 +254,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:49.286Z",
+      "last_checked": "2026-10-22T21:51:34.863Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -270,7 +270,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:49.480Z",
+      "last_checked": "2026-10-22T21:51:35.070Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -286,7 +286,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:49.735Z",
+      "last_checked": "2026-10-22T21:51:35.205Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -300,7 +300,7 @@
       "cadence": "monthly",
       "verified": "inferred",
       "status": "unchanged",
-      "last_checked": "2026-10-22T21:38:46.090Z",
+      "last_checked": "2026-10-22T21:51:32.238Z",
       "last_change": "20261022-212410",
       "error": null
     }
@@ -517,6 +517,87 @@
     },
     {
       "at": "2026-10-22T21:38:49.735Z",
+      "results": [
+        {
+          "id": "aetna-acp-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-acp-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-changes-jul-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-changes-jan-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-flex-changes-jan-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-formulary-updates-page",
+          "status": "update"
+        },
+        {
+          "id": "optum-pharmacy-passages-sep-2025",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-september-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-august-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-july-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-june-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-may-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-april-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-september-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-august-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-july-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-june-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-may-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-april-2026",
+          "status": "unchanged"
+        }
+      ]
+    },
+    {
+      "at": "2026-10-22T21:51:35.205Z",
       "results": [
         {
           "id": "aetna-acp-2027",
