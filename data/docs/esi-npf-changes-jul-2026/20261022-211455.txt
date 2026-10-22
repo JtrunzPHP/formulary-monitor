@@ -1,0 +1,101 @@
+      EXPRESS SCRIPTS PHARMACY BENEFIT SERVICES
+
+      2026 National Preferred Formulary
+      Exclusion list changes coming July 1, 2026
+
+
+
+This is not an all-inclusive list of exclusions for the Express Scripts® Pharmacy Benefit Services National Preferred Formulary.
+The excluded medications shown below are not covered on the Express Scripts National Preferred Formulary beginning
+July 1, 2026 unless otherwise noted. If there is a clinical reason, identified by your doctor, that requires you to continue taking
+your current medication, your doctor can request a coverage review by visiting the Express Scripts online portal at esrx.com/PA.
+
+Single-source brand and generic exclusions
+
+ DRUG CLASS                                          EXCLUDED MEDICATIONS                       PREFERRED ALTERNATIVES
+
+ AUTONOMIC AND CENTRAL NERVOUS SYSTEM                orphenadrine-aspirin-caffeine, NORGESIC,   orphenadrine citrate er
+ Orphenadrine-Containing Analgesics                  NORGESIC FORTE
+
+ Tricyclic Antidepressants                           protriptyline1                             desipramine, nortriptyline
+
+ CARDIOVASCULAR                                      fluvastatin, fluvastatin er, ALTOPREV,     atorvastatin, lovastatin, pitavastatin, pravastatin,
+ HMG and Cholesterol Inhibitor Combinations          ATORVALIQ, LESCOL XL                       rosuvastatin, simvastatin
+
+ MISCELLANEOUS AGENTS                                BOMYNTRA, OSENVELT, WYOST, XGEVA           BILPREVDA, XTRENBO
+ Other Bone Mineral Density Increasing Agents
+
+ Primary Biliary Cholangitis Agents                  LIVDELZI                                   IQIRVO
+
+
+
+Indication-based management
+
+ DRUG CLASS                                          EXCLUDED MEDICATIONS                       PREFERRED ALTERNATIVES
+
+ Adalimumab Products for Inflammatory Conditions‡    ADALIMUMAB-AACF, IDACIO                    ADALIMUMAB-ADAZ
+                                                     ADALIMUMAB-AATY, YUFLYMA                   ADALIMUMAB-ADBM
+                                                     ADALIMUMAB-BWWD                            (by Boehringer Ingelheim & Quallent)
+                                                     ADALIMUMAB-FKJP, HULIO                     ADALIMUMAB-RYVK (by Quallent), SIMLANDI
+                                                     ADALIMUMAB-RYVK (by Teva)
+                                                     ABRILADA
+                                                     AMJEVITA
+                                                     CYLTEZO
+                                                     HADLIMA
+                                                     HUMIRA
+                                                     HYRIMOZ
+                                                     YUSIMRY
+ Tocilizumab Products for Inflammatory Conditions‡   ACTEMRA SC                                 TYENNE SC**
+
+ Ustekinumab Products for Inflammatory Conditions‡   OTULFI SC, PYZCHIVA SC, STARJEMZA SC,      IMULDOSA SC, SELARSDI SC, USTEKINUMAB-
+                                                     STELARA SC2, STEQEYMA SC, USTEKINUMAB      TTWE SC (by Quallent), YESINTEK SC
+                                                     SC, USTEKINUMAB-AAUZ SC, USTEKINUMAB-
+                                                     AEKN SC, WEZLANA SC
+ Referenced excluded medications for Inflammatory    KINERET, SILIQ                             See next page for Preferred Alternatives
+ Conditions‡ as indicated
+
+
+
+
+© 2026 Evernorth. All rights reserved.
+Indication-based management (continued)
+
+ DRUG CLASS                                         OTHER MEDICATIONS                                   PREFERRED ALTERNATIVES
+
+ Inflammatory Conditions‡                           All other Brand Name medications for Inflammatory   Preferred: ADALIMUMAB-ADAZ, ADALIMUMAB-
+                                                    Conditions may require a trial of one or more       ADBM (by Boehringer Ingelheim & Quallent),
+                                                    Preferred medications as part of the Formulary      ADALIMUMAB-RYVK (by Quallent), ENBREL,
+                                                    exceptions process.                                 IMULDOSA SC, OMVOH SC, OTEZLA, RINVOQ,
+                                                                                                        RINVOQ LQ, SELARSDI SC, SIMLANDI, SKYRIZI,
+                                                                                                        SOTYKTU, TALTZ, TREMFYA SC, USTEKINUMAB-
+                                                                                                        TTWE SC (by Quallent), VELSIPITY, XELJANZ,
+                                                                                                        XELJANZ SOLUTION, XELJANZ XR, YESINTEK
+                                                                                                        SC, ZYMFENTRA
+                                                                                                        Preferred for Non-Radiographic Axial
+                                                                                                        Spondyloarthritis (nr-axSpA) only: CIMZIA, TALTZ
+                                                                                                        **Preferred after use of one Preferred Medication:
+                                                                                                        CIMZIA (for Crohn’s Disease only), SIMPONI
+                                                                                                        100MG, TYENNE SC
+
+
+Multi-source brand exclusions
+The generic equivalents of the following brand-name medications are covered on the National Preferred Formulary.
+FDA-approved generic medications meet strict standards and contain the same active ingredients as their
+corresponding brand-name medications, although they may have a different appearance.
+ ENTRESTO                                           MAVENCLAD                                           XIGDUO XR3
+ FARXIGA3                                           MYDAYIS
+
+
+
+
+Bolded Excluded Medications are new for 07/01/2026
+1. Exclusion impacts new utilizers only
+2. Exclusion impacts all utilizers effective 07/01/2026
+3. Pending generic availability
+‡ Please note that PDL and product placement for treatment of Inflammatory and Atopic Conditions in the Inflammatory and Atopic Conditions Care
+Value (IACCV) Program are subject to change throughout the year based upon changes in market dynamics, new indications for existing products,
+biosimilar and new product launches.
+
+
+© 2026 Evernorth. All rights reserved. All trademarks are the property of their respective owners.
+

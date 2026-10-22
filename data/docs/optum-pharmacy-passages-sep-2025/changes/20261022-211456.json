@@ -1,0 +1,221 @@
+{
+  "id": "optum-pharmacy-passages-sep-2025",
+  "stamp": "20261022-211456",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 255,
+  "watchlist_in_document": [
+    {
+      "line": 75,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Freestyle glucose blood test strips and",
+      "context": [
+        "Therapeutic use Medication name Brand/Generic",
+        "Tier Tier date",
+        "Freestyle glucose blood test strips and",
+        "Brand 3>2 EXC 9/15/25",
+        "blood glucose monitoring kits"
+      ]
+    },
+    {
+      "line": 77,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "blood glucose monitoring kits",
+      "context": [
+        "Freestyle glucose blood test strips and",
+        "Brand 3>2 EXC 9/15/25",
+        "blood glucose monitoring kits",
+        "Diabetes Supplies",
+        "Precision glucose blood test strips and"
+      ]
+    },
+    {
+      "line": 79,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Precision glucose blood test strips and",
+      "context": [
+        "blood glucose monitoring kits",
+        "Diabetes Supplies",
+        "Precision glucose blood test strips and",
+        "Brand 3>2 EXC 9/15/25",
+        "blood glucose monitoring kits"
+      ]
+    },
+    {
+      "line": 81,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "blood glucose monitoring kits",
+      "context": [
+        "Precision glucose blood test strips and",
+        "Brand 3>2 EXC 9/15/25",
+        "blood glucose monitoring kits",
+        "Endocrine and Metabolic Jynarque (tolvaptan) tablet and tablet",
+        "Brand 3>1 EXC > 1 10/1/25"
+      ]
+    },
+    {
+      "line": 117,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Kirsty (insulin aspart-xjhz) solution",
+      "context": [
+        "Brynovin (sitagliptin) oral solution* Tier 3 EXC --- --- --- --- 8/8/25",
+        "Antidiabetic Agents",
+        "Kirsty (insulin aspart-xjhz) solution",
+        "Tier 3 EXC --- --- --- --- 8/18/25",
+        "and pen-injector for SC injection*"
+      ]
+    },
+    {
+      "line": 142,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "Dexcom G7 15-day continuous",
+      "context": [
+        "injection*",
+        "Dermatological Agents Hydrocortisone acetate cream Tier 3 EXC --- --- --- --- 8/1/25",
+        "Dexcom G7 15-day continuous",
+        "Tier 2 Tier 2 --- X --- --- 9/16/25",
+        "glucose monitor sensor"
+      ]
+    },
+    {
+      "line": 144,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "glucose monitor sensor",
+      "context": [
+        "Dexcom G7 15-day continuous",
+        "Tier 2 Tier 2 --- X --- --- 9/16/25",
+        "glucose monitor sensor",
+        "Diabetes Supplies",
+        "MODD1 insulin disposable infusion"
+      ]
+    },
+    {
+      "line": 146,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "MODD1 insulin disposable infusion",
+      "context": [
+        "glucose monitor sensor",
+        "Diabetes Supplies",
+        "MODD1 insulin disposable infusion",
+        "Tier 3 EXC --- --- --- --- 8/26/25",
+        "pump welcome kit and supply kit*"
+      ]
+    },
+    {
+      "line": 223,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Merilog (insulin aspart-szjj) pen-injector for SC injection Add 9/1/25",
+      "context": [
+        "management such as Prior Authorizations and Quantity Limits may still apply.",
+        "Therapeutic use Medication name Add/Remove Effective date",
+        "Merilog (insulin aspart-szjj) pen-injector for SC injection Add 9/1/25",
+        "Antidiabetic Agents",
+        "Merilog (insulin aspart-szjj) solution for SC injection Add 9/1/25"
+      ]
+    },
+    {
+      "line": 225,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Merilog (insulin aspart-szjj) solution for SC injection Add 9/1/25",
+      "context": [
+        "Merilog (insulin aspart-szjj) pen-injector for SC injection Add 9/1/25",
+        "Antidiabetic Agents",
+        "Merilog (insulin aspart-szjj) solution for SC injection Add 9/1/25",
+        "Therapeutic use Medication name Add/Remove Effective date",
+        "Contraceptive Agents Averi (desogestrel-estradiol) tablet Add 9/1/25"
+      ]
+    },
+    {
+      "line": 228,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Freestyle glucose blood test strips and blood glucose",
+      "context": [
+        "Therapeutic use Medication name Add/Remove Effective date",
+        "Contraceptive Agents Averi (desogestrel-estradiol) tablet Add 9/1/25",
+        "Freestyle glucose blood test strips and blood glucose",
+        "Remove 9/15/25",
+        "monitoring kits"
+      ]
+    },
+    {
+      "line": 232,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Precision glucose blood test strips and blood glucose",
+      "context": [
+        "monitoring kits",
+        "Diabetes Supplies",
+        "Precision glucose blood test strips and blood glucose",
+        "Remove 9/15/25",
+        "monitoring kits"
+      ]
+    },
+    {
+      "line": 243,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Freestyle glucose blood test strips Remove 9/15/25",
+      "context": [
+        "Anti-infective Agents Orlynvah (sulopenem-probenecid) tablet Add 9/1/25",
+        "Cardiovascular Agents Andembry (garadacimab-gxii) auto-injector for SC injection Add 9/1/25",
+        "Freestyle glucose blood test strips Remove 9/15/25",
+        "Diabetes Supplies",
+        "Precision glucose blood test strips Remove 9/15/25"
+      ]
+    },
+    {
+      "line": 245,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Precision glucose blood test strips Remove 9/15/25",
+      "context": [
+        "Freestyle glucose blood test strips Remove 9/15/25",
+        "Diabetes Supplies",
+        "Precision glucose blood test strips Remove 9/15/25",
+        "Endocrine and Metabolic",
+        "Harliku (nitisinone) tablet Add 9/1/25"
+      ]
+    }
+  ]
+}

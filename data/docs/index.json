@@ -1,0 +1,219 @@
+{
+  "sources": {
+    "aetna-acp-2027": {
+      "id": "aetna-acp-2027",
+      "pbm": "CVS Caremark",
+      "owner": "Aetna via formularynavigator.com",
+      "name": "2027 Advanced Control Plan, Aetna",
+      "url": "https://fm.formularynavigator.com/FBO/41/2027_Advanced_Control_Plan_Aetna.pdf",
+      "kind": "pdf",
+      "cadence": "quarterly (Jan/Apr/Jul/Oct) plus ad hoc",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-10-22T21:14:54.587Z",
+      "last_change": "20261022-211454",
+      "error": null
+    },
+    "esi-npf-changes-jul-2026": {
+      "id": "esi-npf-changes-jul-2026",
+      "pbm": "Express Scripts",
+      "owner": "Evernorth",
+      "name": "National Preferred Formulary exclusion changes effective July 1, 2026",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/NPF%207.1.26%20Changes.pdf?version=0",
+      "kind": "pdf",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-10-22T21:14:55.371Z",
+      "last_change": "20261022-211455",
+      "error": null
+    },
+    "esi-npf-changes-jan-2026": {
+      "id": "esi-npf-changes-jan-2026",
+      "pbm": "Express Scripts",
+      "owner": "Evernorth",
+      "name": "National Preferred Formulary exclusion changes effective January 1, 2026",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Changes.250806.pdf?version=0",
+      "kind": "pdf",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-10-22T21:14:55.699Z",
+      "last_change": "20261022-211455",
+      "error": null
+    },
+    "esi-npf-flex-changes-jan-2026": {
+      "id": "esi-npf-flex-changes-jan-2026",
+      "pbm": "Express Scripts",
+      "owner": "Evernorth",
+      "name": "National Preferred Flex Formulary exclusion changes effective January 1, 2026",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Flex%20Changes.250806.pdf?version=0",
+      "kind": "pdf",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-10-22T21:14:56.091Z",
+      "last_change": "20261022-211456",
+      "error": null
+    },
+    "optum-formulary-updates-page": {
+      "id": "optum-formulary-updates-page",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx formulary and UM updates page (Pharmacy Passages index)",
+      "url": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
+      "kind": "html",
+      "cadence": "monthly",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-10-22T21:14:56.169Z",
+      "last_change": "20261022-211456",
+      "error": null
+    },
+    "optum-pharmacy-passages-mar-2026": {
+      "id": "optum-pharmacy-passages-mar-2026",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Pharmacy Passages, March 2026",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-3026.pdf",
+      "kind": "pdf",
+      "cadence": "monthly",
+      "verified": "yes",
+      "status": "download failed",
+      "last_checked": "2026-10-22T21:14:56.311Z",
+      "last_change": null,
+      "error": "HTTP 404"
+    },
+    "optum-pharmacy-passages-sep-2025": {
+      "id": "optum-pharmacy-passages-sep-2025",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Pharmacy Passages, September 2025 (Jan 2026 cycle)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/PharmacyPassages-September-2025.pdf",
+      "kind": "pdf",
+      "cadence": "monthly",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-10-22T21:14:56.633Z",
+      "last_change": "20261022-211456",
+      "error": null
+    }
+  },
+  "runs": [
+    {
+      "at": "2026-10-22T21:14:56.633Z",
+      "results": [
+        {
+          "id": "aetna-acp-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-changes-jul-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-changes-jan-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-flex-changes-jan-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-formulary-updates-page",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-pharmacy-passages-mar-2026",
+          "status": "download failed"
+        },
+        {
+          "id": "optum-pharmacy-passages-sep-2025",
+          "status": "baseline"
+        }
+      ]
+    }
+  ],
+  "watchlist": [
+    {
+      "ticker": "DXCM",
+      "label": "Dexcom CGM"
+    },
+    {
+      "ticker": "ABT",
+      "label": "Abbott FreeStyle Libre"
+    },
+    {
+      "ticker": "PODD",
+      "label": "Insulet Omnipod"
+    },
+    {
+      "ticker": "TNDM",
+      "label": "Tandem pump"
+    },
+    {
+      "ticker": "MDT",
+      "label": "Medtronic diabetes"
+    },
+    {
+      "ticker": "PRIVATE",
+      "label": "LifeScan OneTouch (private)"
+    },
+    {
+      "ticker": "ROG SW",
+      "label": "Roche Accu-Chek"
+    },
+    {
+      "ticker": "PRIVATE",
+      "label": "Ascensia Contour (PHC Holdings)"
+    },
+    {
+      "ticker": "",
+      "label": "Diabetic supplies (category)"
+    },
+    {
+      "ticker": "NVO",
+      "label": "Novo semaglutide"
+    },
+    {
+      "ticker": "LLY",
+      "label": "Lilly tirzepatide"
+    },
+    {
+      "ticker": "LLY",
+      "label": "Lilly orforglipron"
+    },
+    {
+      "ticker": "NVO",
+      "label": "Novo liraglutide"
+    },
+    {
+      "ticker": "LLY",
+      "label": "Lilly dulaglutide"
+    },
+    {
+      "ticker": "",
+      "label": "Insulin (category)"
+    },
+    {
+      "ticker": "OPCH",
+      "label": "Option Care"
+    },
+    {
+      "ticker": "BTSG",
+      "label": "BrightSpring"
+    },
+    {
+      "ticker": "GRDN",
+      "label": "Guardian Pharmacy"
+    },
+    {
+      "ticker": "RMD",
+      "label": "ResMed"
+    },
+    {
+      "ticker": "PHG",
+      "label": "Philips Respironics"
+    }
+  ]
+}

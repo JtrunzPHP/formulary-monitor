@@ -1,0 +1,277 @@
+{
+  "id": "esi-npf-changes-jan-2026",
+  "stamp": "20261022-211455",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 192,
+  "watchlist_in_document": [
+    {
+      "line": 58,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "ASCENSIA (CONTOUR)",
+      "context": [
+        "ABBOTT FREESTYLE KITS/METERS",
+        "(FREESTYLE FREEDOM, FREESTYLE FREEDOM LITE,",
+        "ASCENSIA (CONTOUR)",
+        "FREESTYLE INSULINX, FREESTYLE LITE)",
+        "ELI LILLY (TEMPO)"
+      ]
+    },
+    {
+      "line": 59,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FREESTYLE INSULINX, FREESTYLE LITE)",
+      "context": [
+        "(FREESTYLE FREEDOM, FREESTYLE FREEDOM LITE,",
+        "ASCENSIA (CONTOUR)",
+        "FREESTYLE INSULINX, FREESTYLE LITE)",
+        "ELI LILLY (TEMPO)",
+        "ABBOTT FREESTYLE TEST STRIPS"
+      ]
+    },
+    {
+      "line": 61,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "ABBOTT FREESTYLE TEST STRIPS",
+      "context": [
+        "FREESTYLE INSULINX, FREESTYLE LITE)",
+        "ELI LILLY (TEMPO)",
+        "ABBOTT FREESTYLE TEST STRIPS",
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER,",
+        "DIABETES (FREESTYLE, FREESTYLE INSULINX,"
+      ]
+    },
+    {
+      "line": 62,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "LIFESCAN (ONETOUCH SOLUTIONS STARTER,",
+      "context": [
+        "ELI LILLY (TEMPO)",
+        "ABBOTT FREESTYLE TEST STRIPS",
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER,",
+        "DIABETES (FREESTYLE, FREESTYLE INSULINX,",
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX)4"
+      ]
+    },
+    {
+      "line": 63,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "DIABETES (FREESTYLE, FREESTYLE INSULINX,",
+      "context": [
+        "ABBOTT FREESTYLE TEST STRIPS",
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER,",
+        "DIABETES (FREESTYLE, FREESTYLE INSULINX,",
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX)4",
+        "Blood Glucose Meters & Test Strips FREESTYLE LITE, FREESTYLE PRECISION NEO)"
+      ]
+    },
+    {
+      "line": 65,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Blood Glucose Meters & Test Strips FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+      "context": [
+        "DIABETES (FREESTYLE, FREESTYLE INSULINX,",
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX)4",
+        "Blood Glucose Meters & Test Strips FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+        "ROCHE (ACCU-CHEK)",
+        "ABBOTT PRECISION XTRA METERS, TEST STRIPS"
+      ]
+    },
+    {
+      "line": 66,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ROCHE (ACCU-CHEK)",
+      "context": [
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX)4",
+        "Blood Glucose Meters & Test Strips FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+        "ROCHE (ACCU-CHEK)",
+        "ABBOTT PRECISION XTRA METERS, TEST STRIPS",
+        "ALL OTHER METERS & TEST STRIPS"
+      ]
+    },
+    {
+      "line": 67,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "ABBOTT PRECISION XTRA METERS, TEST STRIPS",
+      "context": [
+        "Blood Glucose Meters & Test Strips FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+        "ROCHE (ACCU-CHEK)",
+        "ABBOTT PRECISION XTRA METERS, TEST STRIPS",
+        "ALL OTHER METERS & TEST STRIPS",
+        "TRIVIDIA METERS (TRUE METRIX AIR, TRUE METRIX,"
+      ]
+    },
+    {
+      "line": 68,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "ALL OTHER METERS & TEST STRIPS",
+      "context": [
+        "ROCHE (ACCU-CHEK)",
+        "ABBOTT PRECISION XTRA METERS, TEST STRIPS",
+        "ALL OTHER METERS & TEST STRIPS",
+        "TRIVIDIA METERS (TRUE METRIX AIR, TRUE METRIX,",
+        "THAT ARE NOT LISTED AS PREFERRED"
+      ]
+    },
+    {
+      "line": 72,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "TRIVIDIA TEST STRIPS (TRUE METRIX, TRUETRACK)",
+      "context": [
+        "THAT ARE NOT LISTED AS PREFERRED",
+        "TRUE METRIX GO)",
+        "TRIVIDIA TEST STRIPS (TRUE METRIX, TRUETRACK)",
+        "U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "U-100: ADMELOG, APIDRA, FIASP, HUMALOG VIAL, JUNIOR KWIKPEN), HUMALOG TEMPO,"
+      ]
+    },
+    {
+      "line": 73,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+      "context": [
+        "TRUE METRIX GO)",
+        "TRIVIDIA TEST STRIPS (TRUE METRIX, TRUETRACK)",
+        "U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "U-100: ADMELOG, APIDRA, FIASP, HUMALOG VIAL, JUNIOR KWIKPEN), HUMALOG TEMPO,",
+        "Insulins INSULIN ASPART, NOVOLOG, RELION NOVOLOG INSULIN LISPRO, LYUMJEV KWIKPEN & VIAL,"
+      ]
+    },
+    {
+      "line": 74,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-100: ADMELOG, APIDRA, FIASP, HUMALOG VIAL, JUNIOR KWIKPEN), HUMALOG TEMPO,",
+      "context": [
+        "TRIVIDIA TEST STRIPS (TRUE METRIX, TRUETRACK)",
+        "U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "U-100: ADMELOG, APIDRA, FIASP, HUMALOG VIAL, JUNIOR KWIKPEN), HUMALOG TEMPO,",
+        "Insulins INSULIN ASPART, NOVOLOG, RELION NOVOLOG INSULIN LISPRO, LYUMJEV KWIKPEN & VIAL,",
+        "Inhalation: AFREZZA LYUMJEV TEMPO"
+      ]
+    },
+    {
+      "line": 75,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Insulins INSULIN ASPART, NOVOLOG, RELION NOVOLOG INSULIN LISPRO, LYUMJEV KWIKPEN & VIAL,",
+      "context": [
+        "U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "U-100: ADMELOG, APIDRA, FIASP, HUMALOG VIAL, JUNIOR KWIKPEN), HUMALOG TEMPO,",
+        "Insulins INSULIN ASPART, NOVOLOG, RELION NOVOLOG INSULIN LISPRO, LYUMJEV KWIKPEN & VIAL,",
+        "Inhalation: AFREZZA LYUMJEV TEMPO",
+        "U-200: HUMALOG KWIKPEN, LYUMJEV KWIKPEN"
+      ]
+    },
+    {
+      "line": 76,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Inhalation: AFREZZA LYUMJEV TEMPO",
+      "context": [
+        "U-100: ADMELOG, APIDRA, FIASP, HUMALOG VIAL, JUNIOR KWIKPEN), HUMALOG TEMPO,",
+        "Insulins INSULIN ASPART, NOVOLOG, RELION NOVOLOG INSULIN LISPRO, LYUMJEV KWIKPEN & VIAL,",
+        "Inhalation: AFREZZA LYUMJEV TEMPO",
+        "U-200: HUMALOG KWIKPEN, LYUMJEV KWIKPEN",
+        "EAR/NOSE"
+      ]
+    },
+    {
+      "line": 77,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-200: HUMALOG KWIKPEN, LYUMJEV KWIKPEN",
+      "context": [
+        "Insulins INSULIN ASPART, NOVOLOG, RELION NOVOLOG INSULIN LISPRO, LYUMJEV KWIKPEN & VIAL,",
+        "Inhalation: AFREZZA LYUMJEV TEMPO",
+        "U-200: HUMALOG KWIKPEN, LYUMJEV KWIKPEN",
+        "EAR/NOSE",
+        "Nasal Antihistamines and azelastine/fluticasone, DYMISTA azelastine nasal plus fluticasone nasal"
+      ]
+    },
+    {
+      "line": 124,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide",
+        "Novo liraglutide"
+      ],
+      "text": "Weight Loss SAXENDA, ZEPBOUND VIALS WEGOVY, ZEPBOUND PENS",
+      "context": [
+        "Infused Non-TNF Biologics - OTULFI IV, PYZCHIVA IV, STELARA IV, STEQEYMA IV, SELARSDI IV, USTEKINUMAB-TTWE IV (by Quallent),",
+        "Ustekinumab Agents USTEKINUMAB IV, WEZLANA IV YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+        "Weight Loss SAXENDA, ZEPBOUND VIALS WEGOVY, ZEPBOUND PENS",
+        "Bolded Excluded Medications are new for January 1, 2026 (continued)",
+        "Exclusion impacts new starts January 1, 2026 and existing utilizers April 1, 2026"
+      ]
+    },
+    {
+      "line": 183,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "IXCHIQ ONE TOUCH CONTROL SOLUTION",
+      "context": [
+        "INGREZZA, INGREZZA SPRINKLE",
+        "Preferred to Non-Preferred",
+        "IXCHIQ ONE TOUCH CONTROL SOLUTION",
+        "Bolded Excluded Medications are new for January 1, 2026",
+        "Exclusion impacts new starts January 1, 2026 and existing utilizers April 1, 2026"
+      ]
+    }
+  ]
+}
