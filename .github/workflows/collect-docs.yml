@@ -44,6 +44,11 @@ jobs:
           ONLY: ${{ github.event.inputs.only }}
         run: node collect-docs.js
 
+      - name: Parse documents into structured rows
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+        run: node parse-docs.js
+
       - name: Commit results
         run: |
           git config user.name "formulary-monitor-bot"
