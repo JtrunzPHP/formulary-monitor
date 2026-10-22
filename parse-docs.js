@@ -197,7 +197,9 @@ function parseAetna(text) {
     }
   }
   const columnMode = tierCol > 10;
-  if (!columnMode && /Advanced Control Plan|PSP = Preferred Specialty|PG = Preferred Generic/i.test(text)) return parseAetnaBooklet(text);
+  // Booklet-style guides carry a legend with PSP/NPSP codes; route them to the booklet parser even if a
+  // "Drug Tier" header line appears somewhere in the front matter.
+  if (/NPSP\s*=|PSP\s*=\s*Preferred Specialty/i.test(text) || (!columnMode && /PG\s*=\s*Preferred Generic/i.test(text))) return parseAetnaBooklet(text);
   if (columnMode && limitsCol <= tierCol) limitsCol = tierCol + 12;
   const rows = []; const problems = []; const notes = { columnMode, tierCol, limitsCol, unknownTierTokens: {} };
   let category = ''; let e = null;
@@ -433,6 +435,8 @@ function main() {
 }
 
 function rowLine(r) {
+  const cut = (v, n = 160) => { const t = String(v == null ? '' : v); return t.length > n ? t.slice(0, n) + '…' : t; };
+  if (r.name && String(r.name).length > 200) return `(oversized row, ${String(r.name).length} chars) ${cut(r.name)}`;
   if (r.kind === 'tier_change') return `${r.therapeutic_use ? r.therapeutic_use + ' | ' : ''}${r.name} | ${r.tier_before} -> ${r.tier_after}${r.brand_generic ? ' | ' + r.brand_generic : ''} | ${JSON.stringify(r.flags)} | eff ${r.effective}`;
   if (r.kind === 'add_remove') return `${r.action} ${r.name} | eff ${r.effective}`;
   return `${r.category} | ${r.name}${r.generic ? ' (' + r.generic + ')' : ''} | ${r.tier || (r.coverage || '')} | ${(r.restrictions || []).join(', ')}`;
