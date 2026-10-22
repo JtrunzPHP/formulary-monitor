@@ -26,8 +26,10 @@ const SOURCES = [
   { id: 'esi-npf-flex-changes-jan-2026', pbm: 'Express Scripts', owner: 'Evernorth', name: 'National Preferred Flex Formulary exclusion changes effective January 1, 2026', url: 'https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Flex%20Changes.250806.pdf?version=0', kind: 'pdf', cadence: 'January and July', verified: 'yes' },
 
   // ---- Optum Rx ----
-  { id: 'optum-formulary-updates-page', pbm: 'Optum Rx', owner: 'business.optum.com', name: 'Optum Rx formulary and UM updates page (Pharmacy Passages index)', url: 'https://business.optum.com/en/support/hcp-resources/formulary-updates.html', kind: 'html', cadence: 'monthly', verified: 'yes' },
-  { id: 'optum-pharmacy-passages-mar-2026', pbm: 'Optum Rx', owner: 'business.optum.com', name: 'Pharmacy Passages, March 2026', url: 'https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/pharmacy-passages-3026.pdf', kind: 'pdf', cadence: 'monthly', verified: 'yes' },
+  // This index page lists every monthly Pharmacy Passages issue and the formulary/UM update files.
+  // The collector reads the links off it on every run and adds any new PDF or XLSX as a source automatically.
+  { id: 'optum-formulary-updates-page', pbm: 'Optum Rx', owner: 'business.optum.com', name: 'Optum Rx formulary and UM updates page (Pharmacy Passages index)', url: 'https://business.optum.com/en/support/hcp-resources/formulary-updates.html', kind: 'html', cadence: 'monthly', verified: 'yes',
+    discover: { pattern: /passages[^"']*\.pdf|formulary[^"']*updates[^"']*\.(pdf|xlsx)/i, idPrefix: 'optum-', namePrefix: 'Optum Rx: ', pbm: 'Optum Rx', kind: 'pdf', cadence: 'monthly' } },
   { id: 'optum-pharmacy-passages-sep-2025', pbm: 'Optum Rx', owner: 'business.optum.com', name: 'Pharmacy Passages, September 2025 (Jan 2026 cycle)', url: 'https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/PharmacyPassages-September-2025.pdf', kind: 'pdf', cadence: 'monthly', verified: 'yes' },
 ];
 
