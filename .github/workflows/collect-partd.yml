@@ -1,0 +1,57 @@
+name: Collect Part D formulary file
+
+on:
+  schedule:
+    # Every Monday and Thursday at 12:00 UTC. CMS posts the monthly file on
+    # varying days, so the script checks for a new file and exits quietly
+    # if nothing new has been posted.
+    - cron: '0 12 * * 1,4'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-process the latest file even if it was already processed (true/false)'
+        required: false
+        default: 'false'
+      file_url:
+        description: 'Optional: direct URL of a specific CMS monthly zip to process instead of the latest'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-partd
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run collector
+        env:
+          FORCE: ${{ github.event.inputs.force }}
+          FILE_URL: ${{ github.event.inputs.file_url }}
+        run: node --max-old-space-size=6144 collect-partd.js
+
+      - name: Commit results
+        run: |
+          git config user.name "formulary-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/partd
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Part D collector: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
