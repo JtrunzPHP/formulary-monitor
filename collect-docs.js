@@ -146,10 +146,17 @@ async function processSource(src, index) {
     src.__found = found;
   }
   log(`   downloaded ${(dl.size / 1024).toFixed(0)} KB (${dl.type}); hash ${hash.slice(0, 12)}${last ? ` vs last ${last.hash.slice(0, 12)}` : ' (first capture)'}`);
-  if (last && last.hash === hash && !FORCE) {
+  if (last && last.hash === hash) {
     meta.last_checked = new Date().toISOString();
     writeJson(path.join(dir, 'meta.json'), meta);
-    return { id: src.id, status: 'unchanged', found: src.__found || [] };
+    if (!FORCE) return { id: src.id, status: 'unchanged', found: src.__found || [] };
+    // Force on an unchanged document: re-report the watchlist hits in the current text, write nothing.
+    let text;
+    try { text = extractText(tmp, src.kind); } catch (e) { return { id: src.id, status: 'extract failed', error: e.message }; }
+    const lines = normLines(text);
+    const hits = scanWatchlist(lines);
+    log(`   unchanged; re-reporting ${hits.length} watchlist hits in the current text`);
+    return { id: src.id, status: 'unchanged', found: src.__found || [], change: { kind: 'baseline', watchlist_in_document: hits, stamp: last.stamp } };
   }
 
   let text;
