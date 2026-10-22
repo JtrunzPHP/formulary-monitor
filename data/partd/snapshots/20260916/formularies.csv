@@ -1,0 +1,330 @@
+formulary_id,contract_year,formulary_version,plan_count,contract_count,parents,tickers
+00026408,2026,16,660,34,Humana; UNMAPPED,HUM
+00026409,2026,16,40,9,Humana,HUM
+00026330,2026,17,77,32,Centene; UNMAPPED,CNC
+00026188,2026,17,34,17,Centene,CNC
+00026187,2026,17,101,48,Centene; UNMAPPED,CNC
+00026303,2026,19,2,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026329,2026,18,56,33,Centene,CNC
+00026219,2026,18,3,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026212,2026,18,4,2,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
+00026267,2026,18,31,10,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
+00026264,2026,18,20,5,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
+00026136,2026,15,5,1,VIVA Health / UAB (nonprofit),PRIVATE
+00026137,2026,14,2,1,VIVA Health / UAB (nonprofit),PRIVATE
+00026002,2026,23,669,57,UnitedHealth Group,UNH
+00026003,2026,22,101,21,UnitedHealth Group,UNH
+00026225,2026,16,3,1,"Regional MA plan (private, various)",PRIVATE
+00026415,2026,16,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026452,2026,15,21,4,Regional or provider-sponsored plan; UNMAPPED,PRIVATE
+00026189,2026,17,5,2,Centene,CNC
+00026096,2026,19,141,13,Cigna Group,CI
+00026102,2026,19,8,5,Cigna Group,CI
+00026066,2026,15,8,7,UNMAPPED,
+00026124,2026,15,141,36,Devoted Health (private),PRIVATE
+00026119,2026,17,142,29,Devoted Health (private),PRIVATE
+00026111,2026,15,1,1,MetroPlus / NYC Health + Hospitals (public),PRIVATE
+00026112,2026,14,2,1,MetroPlus / NYC Health + Hospitals (public),PRIVATE
+00026099,2026,20,41,9,Cigna Group,CI
+00026258,2026,29,15,3,Blue Shield of California (nonprofit),PRIVATE
+00026010,2026,17,568,42,CVS Health (Aetna / SilverScript),CVS
+00026405,2026,19,99,9,Kaiser Permanente (nonprofit),PRIVATE
+00026038,2026,20,35,7,Elevance Health,ELV
+00026036,2026,21,130,33,"Blue Cross Blue Shield affiliate (various); Elevance Health; Humana; Provider-sponsored or nonprofit regional plan; Regional MA plan (private, various); UNMAPPED",ELV HUM PRIVATE VARIES
+00026037,2026,19,25,5,Elevance Health,ELV
+00026367,2026,15,5,1,"Regional MA plan (private, various)",PRIVATE
+00026011,2026,17,36,12,CVS Health (Aetna / SilverScript),CVS
+00026322,2026,15,2,1,"AmeriHealth Caritas (IBX and BCBS Michigan JV, private)",PRIVATE
+00026446,2026,14,1,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026213,2026,16,15,6,"Institutional SNP or regional MA startup (private, various); Regional or provider-sponsored plan; UNMAPPED",PRIVATE
+00026277,2026,18,8,1,UNMAPPED,
+00026411,2026,16,63,7,Humana,HUM
+00026456,2026,21,74,8,SCAN Health Plan (nonprofit),PRIVATE
+00026297,2026,18,24,1,"Regional MA plan (private, various)",PRIVATE
+00026412,2026,17,35,7,Humana,HUM
+00026417,2026,26,2,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026422,2026,16,13,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026396,2026,27,10,1,CVS Health (Aetna / SilverScript),CVS
+00026389,2026,15,1,1,UNMAPPED,
+00026228,2026,15,6,1,UNMAPPED,
+00026034,2026,22,19,6,Elevance Health,ELV
+00026178,2026,16,1,1,UNMAPPED,
+00026105,2026,15,3,3,Johns Hopkins (nonprofit),PRIVATE
+00026103,2026,14,1,1,Johns Hopkins (nonprofit),PRIVATE
+00026196,2026,15,15,2,Blue Cross Blue Shield affiliate (various),VARIES
+00026208,2026,16,6,3,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026039,2026,24,7,4,UnitedHealth Group,UNH
+00026120,2026,15,32,2,Devoted Health (private),PRIVATE
+00026121,2026,15,35,7,Devoted Health (private),PRIVATE
+00026046,2026,19,6,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026110,2026,15,2,1,Regional or provider-sponsored plan,PRIVATE
+00026153,2026,16,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026164,2026,16,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026339,2026,14,2,2,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026345,2026,15,9,2,"Regional MA plan (private, various)",PRIVATE
+00026346,2026,15,2,2,"Regional MA plan (private, various)",PRIVATE
+00026387,2026,15,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026447,2026,14,1,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026357,2026,17,3,3,Jefferson Health Plans (nonprofit); Provider-sponsored or nonprofit regional plan,PRIVATE
+00026337,2026,19,7,3,Jefferson Health Plans (nonprofit); Provider-sponsored or nonprofit regional plan,PRIVATE
+00026354,2026,15,1,1,UNMAPPED,
+00026091,2026,15,3,3,CVS Health (Aetna / SilverScript); Regional or provider-sponsored plan,CVS PRIVATE
+00026144,2026,15,78,19,Molina Healthcare; Regional or provider-sponsored plan; UNMAPPED,MOH PRIVATE
+00026127,2026,15,21,6,Trinity Health (nonprofit),PRIVATE
+00026332,2026,15,7,1,"Regional MA plan (private, various)",PRIVATE
+00026029,2026,36,14,1,SelectHealth / Intermountain (nonprofit),PRIVATE
+00026236,2026,20,15,5,Blue Cross Blue Shield affiliate (various),VARIES
+00026243,2026,18,10,2,Regional or provider-sponsored plan,PRIVATE
+00026398,2026,23,1,1,UNMAPPED,
+00026313,2026,15,1,1,UNMAPPED,
+00026453,2026,15,2,2,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026370,2026,15,2,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026371,2026,15,1,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026155,2026,18,5,5,"Institutional SNP or regional MA startup (private, various); UNMAPPED",PRIVATE
+00026166,2026,16,5,4,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026142,2026,14,3,2,Molina Healthcare,MOH
+00026077,2026,17,10,2,Blue Cross Blue Shield affiliate (various),VARIES
+00026335,2026,15,3,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026328,2026,19,42,3,Regional or provider-sponsored plan,PRIVATE
+00026062,2026,21,12,2,Health Alliance Plan / Henry Ford (nonprofit),PRIVATE
+00026170,2026,16,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026386,2026,15,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026364,2026,15,2,2,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026101,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026312,2026,18,2,2,Regional or provider-sponsored plan,PRIVATE
+00026132,2026,16,10,3,Provider-sponsored or nonprofit regional plan; Regional or provider-sponsored plan,PRIVATE
+00026289,2026,18,1,1,UNMAPPED,
+00026420,2026,14,23,3,Regional or provider-sponsored plan,PRIVATE
+00026421,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026288,2026,18,6,2,Blue Cross Blue Shield affiliate (various),VARIES
+00026291,2026,18,8,2,Blue Cross Blue Shield affiliate (various),VARIES
+00026122,2026,15,65,21,Devoted Health (private),PRIVATE
+00026026,2026,26,2,2,Regional or provider-sponsored plan,PRIVATE
+00026324,2026,15,1,1,"AmeriHealth Caritas (IBX and BCBS Michigan JV, private)",PRIVATE
+00026070,2026,15,6,1,Regional or provider-sponsored plan,PRIVATE
+00026310,2026,19,1,1,"Regional MA plan (private, various)",PRIVATE
+00026391,2026,16,6,2,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026255,2026,18,4,2,Health New England / Baystate (nonprofit),PRIVATE
+00026379,2026,15,3,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026210,2026,16,6,1,Kaiser Permanente (nonprofit),PRIVATE
+00026424,2026,15,5,1,"Regional MA plan (private, various)",PRIVATE
+00026427,2026,15,9,1,"Regional MA plan (private, various)",PRIVATE
+00026431,2026,15,2,1,"Regional MA plan (private, various)",PRIVATE
+00026183,2026,16,2,1,"Regional MA plan (private, various)",PRIVATE
+00026184,2026,16,1,1,"Regional MA plan (private, various)",PRIVATE
+00026126,2026,15,1,1,UNMAPPED,
+00026293,2026,18,4,2,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026395,2026,52,6,1,Regional or provider-sponsored plan,PRIVATE
+00026013,2026,17,7,1,CVS Health (Aetna / SilverScript),CVS
+00026259,2026,17,2,1,CVS Health (Aetna / SilverScript),CVS
+00026266,2026,18,4,4,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
+00026162,2026,20,3,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026160,2026,16,4,2,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026169,2026,16,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026114,2026,15,6,2,Regional or provider-sponsored plan,PRIVATE
+00026118,2026,16,2,1,Regional or provider-sponsored plan,PRIVATE
+00026229,2026,18,10,2,EmblemHealth (nonprofit),PRIVATE
+00026059,2026,26,16,2,Blue Cross Blue Shield affiliate (various),VARIES
+00026428,2026,22,3,2,Regional or provider-sponsored plan,PRIVATE
+00026083,2026,14,3,1,MJHS Elderplan (nonprofit),PRIVATE
+00026084,2026,15,3,1,MJHS Elderplan (nonprofit),PRIVATE
+00026090,2026,15,1,1,CVS Health (Aetna / SilverScript),CVS
+00026462,2026,14,1,1,CVS Health (Aetna / SilverScript),CVS
+00026088,2026,15,2,1,CVS Health (Aetna / SilverScript),CVS
+00026087,2026,14,1,1,CVS Health (Aetna / SilverScript),CVS
+00026425,2026,19,2,1,Regional or provider-sponsored plan,PRIVATE
+00026426,2026,17,1,1,Regional or provider-sponsored plan,PRIVATE
+00026020,2026,19,5,2,Highmark / Capital Blue (nonprofit Blues),PRIVATE
+00026018,2026,19,81,5,Highmark / Capital Blue (nonprofit Blues),PRIVATE
+00026443,2026,25,3,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026205,2026,18,14,4,Blue Cross Blue Shield affiliate (various),VARIES
+00026177,2026,16,3,1,CVS Health (Aetna / SilverScript),CVS
+00026157,2026,16,3,2,"Regional MA plan (private, various)",PRIVATE
+00026167,2026,16,6,2,"Regional MA plan (private, various)",PRIVATE
+00026232,2026,17,68,8,Alignment Healthcare,ALHC
+00026159,2026,16,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026168,2026,16,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026117,2026,15,4,2,Regional or provider-sponsored plan,PRIVATE
+00026318,2026,16,7,1,Regional or provider-sponsored plan,PRIVATE
+00026351,2026,19,3,1,Regional or provider-sponsored plan,PRIVATE
+00026060,2026,15,8,2,"Institutional SNP or regional MA startup (private, various); Regional or provider-sponsored plan",PRIVATE
+00026380,2026,15,6,1,"Regional MA plan (private, various)",PRIVATE
+00026171,2026,16,16,12,"Institutional SNP or regional MA startup (private, various); UNMAPPED",PRIVATE
+00026378,2026,15,2,1,"Regional MA plan (private, various)",PRIVATE
+00026377,2026,15,3,1,"Regional MA plan (private, various)",PRIVATE
+00026172,2026,16,4,1,"Regional MA plan (private, various)",PRIVATE
+00026383,2026,15,18,8,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026360,2026,15,1,1,UNMAPPED,
+00026397,2026,14,1,1,UNMAPPED,
+00026333,2026,15,2,1,"Regional MA plan (private, various)",PRIVATE
+00026093,2026,15,4,1,Regional or provider-sponsored plan,PRIVATE
+00026461,2026,19,11,2,PacificSource (nonprofit),PRIVATE
+00026106,2026,16,2,1,Johns Hopkins (nonprofit),PRIVATE
+00026307,2026,17,20,2,Centene; Regional or provider-sponsored plan,CNC PRIVATE
+00026308,2026,19,12,4,Centene; Regional or provider-sponsored plan,CNC PRIVATE
+00026200,2026,20,6,2,Independence Blue Cross (nonprofit),PRIVATE
+00026201,2026,18,9,3,Independence Blue Cross (nonprofit); UNMAPPED,PRIVATE
+00026017,2026,18,12,3,Highmark / Capital Blue (nonprofit Blues); UNMAPPED,PRIVATE
+00026238,2026,18,4,2,Highmark / Capital Blue (nonprofit Blues),PRIVATE
+00026241,2026,19,26,2,Highmark / Capital Blue (nonprofit Blues),PRIVATE
+00026230,2026,19,12,2,Regional or provider-sponsored plan,PRIVATE
+00026393,2026,22,20,2,Elevance Health,ELV
+00026406,2026,20,10,2,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026366,2026,18,1,1,UNMAPPED,
+00026356,2026,15,1,1,UNMAPPED,
+00026185,2026,16,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026186,2026,16,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026251,2026,18,9,1,"Regional MA plan (private, various)",PRIVATE
+00026296,2026,19,5,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026156,2026,16,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026457,2026,15,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026143,2026,15,1,1,Health Alliance Plan / Henry Ford (nonprofit),PRIVATE
+00026073,2026,15,6,3,Blue Cross Blue Shield affiliate (various),VARIES
+00026320,2026,15,2,1,UNMAPPED,
+00026459,2026,26,4,1,"Regional MA plan (private, various)",PRIVATE
+00026242,2026,15,16,2,Regional or provider-sponsored plan,PRIVATE
+00026100,2026,19,23,2,Cigna Group,CI
+00026135,2026,15,13,2,Regional or provider-sponsored plan,PRIVATE
+00026134,2026,15,20,2,Regional or provider-sponsored plan,PRIVATE
+00026361,2026,15,2,1,UNMAPPED,
+00026314,2026,15,2,1,UNMAPPED,
+00026338,2026,15,1,1,UNMAPPED,
+00026321,2026,15,1,1,UNMAPPED,
+00026442,2026,14,3,2,Regional or provider-sponsored plan,PRIVATE
+00026388,2026,15,2,1,UNMAPPED,
+00026429,2026,20,16,1,Kaiser Permanente (nonprofit),PRIVATE
+00026315,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026082,2026,15,7,2,Clover Health,CLOV
+00026081,2026,15,6,1,Clover Health,CLOV
+00026215,2026,16,4,1,Regional or provider-sponsored plan,PRIVATE
+00026128,2026,27,8,1,Regional or provider-sponsored plan,PRIVATE
+00026450,2026,14,14,2,Regional or provider-sponsored plan,PRIVATE
+00026455,2026,14,4,2,Regional or provider-sponsored plan,PRIVATE
+00026071,2026,15,4,1,Regional or provider-sponsored plan,PRIVATE
+00026044,2026,19,26,2,Elevance Health,ELV
+00026042,2026,19,9,2,Elevance Health,ELV
+00026043,2026,20,4,2,Elevance Health,ELV
+00026045,2026,17,63,2,Elevance Health,ELV
+00026418,2026,28,1,1,UNMAPPED,
+00026250,2026,18,12,2,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026173,2026,16,2,1,CVS Health (Aetna / SilverScript),CVS
+00026350,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026349,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026372,2026,15,2,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026373,2026,15,1,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026265,2026,18,19,1,"MCS (Puerto Rico, private)",PRIVATE
+00026262,2026,20,1,1,"MCS (Puerto Rico, private)",PRIVATE
+00026076,2026,15,3,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026086,2026,14,1,1,UNMAPPED,
+00026108,2026,15,4,1,Regional or provider-sponsored plan,PRIVATE
+00026109,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026342,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026343,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026336,2026,15,1,1,UNMAPPED,
+00026347,2026,15,1,1,UNMAPPED,
+00026410,2026,18,12,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026067,2026,15,2,1,UNMAPPED,
+00026331,2026,15,1,1,UNMAPPED,
+00026458,2026,25,1,1,UNMAPPED,
+00026449,2026,20,48,5,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
+00026072,2026,15,3,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026454,2026,16,7,3,Highmark / Capital Blue (nonprofit Blues),PRIVATE
+00026247,2026,18,2,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026246,2026,18,2,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026436,2026,20,20,3,Regional or provider-sponsored plan,PRIVATE
+00026438,2026,17,1,1,Regional or provider-sponsored plan,PRIVATE
+00026401,2026,15,2,1,UNMAPPED,
+00026334,2026,15,10,3,"Regional MA plan (private, various)",PRIVATE
+00026222,2026,36,1,1,UNMAPPED,
+00026365,2026,15,14,2,"Regional MA plan (private, various)",PRIVATE
+00026123,2026,15,7,1,Regional or provider-sponsored plan,PRIVATE
+00026340,2026,15,1,1,UNMAPPED,
+00026359,2026,15,3,1,Regional or provider-sponsored plan,PRIVATE
+00026326,2026,15,1,1,UNMAPPED,
+00026179,2026,16,2,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026180,2026,18,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026344,2026,15,2,1,UNMAPPED,
+00026323,2026,15,1,1,"AmeriHealth Caritas (IBX and BCBS Michigan JV, private)",PRIVATE
+00026141,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026369,2026,15,3,2,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026056,2026,15,2,1,UNMAPPED,
+00026444,2026,15,1,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026064,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026065,2026,15,3,2,Regional or provider-sponsored plan,PRIVATE
+00026194,,,1,1,UNMAPPED,
+00026154,2026,16,1,1,UNMAPPED,
+00026165,2026,16,1,1,UNMAPPED,
+00026287,2026,18,4,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026244,2026,18,2,1,UNMAPPED,
+00026437,2026,17,1,1,Regional or provider-sponsored plan,PRIVATE
+00026439,2026,17,4,2,Regional or provider-sponsored plan,PRIVATE
+00026147,2026,15,2,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026063,2026,23,4,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026061,2026,15,1,1,UNMAPPED,
+00026440,2026,14,1,1,UNMAPPED,
+00026080,2026,15,4,1,"Regional MA plan (private, various)",PRIVATE
+00026317,2026,15,1,1,UNMAPPED,
+00026304,2026,19,3,2,UNMAPPED,
+00026163,2026,18,17,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026216,2026,16,3,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026218,2026,16,3,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026368,2026,15,1,1,UNMAPPED,
+00026292,2026,18,1,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00026325,2026,15,1,1,"AmeriHealth Caritas (IBX and BCBS Michigan JV, private)",PRIVATE
+00026281,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026138,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026140,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026098,2026,15,1,1,Regional or provider-sponsored plan,PRIVATE
+00026460,2026,19,4,1,Regional or provider-sponsored plan,PRIVATE
+00026148,2026,15,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026327,2026,24,1,1,Centene,CNC
+00026319,2026,17,1,1,Regional or provider-sponsored plan,PRIVATE
+00026300,2026,16,1,1,Regional or provider-sponsored plan,PRIVATE
+00026182,2026,16,8,1,Peak Health / WVU Medicine (nonprofit),PRIVATE
+00026299,2026,16,7,1,Regional or provider-sponsored plan,PRIVATE
+00026069,2026,28,7,1,Regional or provider-sponsored plan,PRIVATE
+00026382,2026,15,3,1,UNMAPPED,
+00026175,2026,17,4,1,Regional or provider-sponsored plan,PRIVATE
+00026390,2026,15,1,1,UNMAPPED,
+00026352,2026,17,3,1,Jefferson Health Plans (nonprofit),PRIVATE
+00026376,2026,15,1,1,"Regional MA plan (private, various)",PRIVATE
+00026374,2026,15,2,1,"Regional MA plan (private, various)",PRIVATE
+00026375,2026,15,4,1,"Regional MA plan (private, various)",PRIVATE
+00026445,2026,15,3,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00026253,2026,18,1,1,UNMAPPED,
+00026309,2026,19,3,1,"Regional MA plan (private, various)",PRIVATE
+00026174,2026,16,2,1,Community Health Choice / Harris Health (nonprofit),PRIVATE
+00026305,2026,17,1,1,UNMAPPED,
+00026048,2026,15,5,1,"Regional MA plan (private, various)",PRIVATE
+00026207,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026206,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026290,2026,22,1,1,Blue Shield of California (nonprofit),PRIVATE
+00026294,2026,20,1,1,Blue Shield of California (nonprofit),PRIVATE
+00026129,2026,15,1,1,Elevance Health,ELV
+00026130,2026,15,1,1,Elevance Health,ELV
+00026191,2026,18,34,1,Centene,CNC
+00026195,2026,18,34,1,Centene,CNC
+00026202,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026203,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026007,2026,18,25,1,CVS Health (Aetna / SilverScript),CVS
+00026008,2026,19,8,1,CVS Health (Aetna / SilverScript),CVS
+00026089,2026,22,33,1,Cigna Group,CI
+00026094,2026,20,27,1,Cigna Group,CI
+00026263,2026,18,3,1,Cigna Group,CI
+00026260,2026,18,4,1,Cigna Group,CI
+00026261,2026,18,1,1,Cigna Group,CI
+00026284,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026286,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026285,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026248,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026074,2026,15,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026075,2026,15,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026000,2026,23,39,2,UnitedHealth Group,UNH
+00026399,2026,19,34,1,Humana,HUM
+00026402,2026,16,34,1,Humana,HUM
+00026400,2026,16,34,1,Humana,HUM
+00026252,2026,18,1,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00026001,2026,22,34,1,UnitedHealth Group,UNH
+00026220,2026,17,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026279,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00026280,2026,18,1,1,Blue Cross Blue Shield affiliate (various),VARIES

@@ -2,6 +2,15 @@
   "latest": "20261008",
   "processed": [
     {
+      "snapshot": "20260916",
+      "source_file": "2026_20260916.zip",
+      "processed_at": "2026-10-22T20:46:55.198Z",
+      "plans": 5518,
+      "formularies": 329,
+      "formulary_rxcui_rows": 1129364,
+      "formulary_gz_bytes": 9757668
+    },
+    {
       "snapshot": "20261008",
       "source_file": "2027_20261008.zip",
       "processed_at": "2026-10-22T20:36:30.709Z",
