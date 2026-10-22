@@ -64,6 +64,9 @@ async function readSnapshotCodes() {
     if (rxcui && !codes.has(rxcui)) codes.set(rxcui, ndc);
   }
   log(`Distinct RXCUIs in snapshot: ${codes.size}`);
+  log(`Snapshot header: ${header.join(',')}`);
+  if (header.indexOf('ndc') < 0) log('WARNING: snapshot has no ndc column. Re-run the collector with force=true so the snapshot carries NDCs.');
+  log(`Sample snapshot NDC values: ${[...codes.values()].slice(0, 5).map((v) => JSON.stringify(v)).join(', ')}`);
   return codes;
 }
 
@@ -123,6 +126,7 @@ async function loadFdaNdc() {
     }
   }
   log(`FDA product.txt: ${rows} rows, ${map.size} distinct product codes`);
+  log(`Sample FDA keys: ${[...map.keys()].slice(0, 5).join(', ')}`);
   return map;
 }
 
@@ -208,22 +212,46 @@ async function main() {
   await Promise.all(Array.from({ length: CONCURRENCY }, worker));
   log(`RxNorm lookups complete: ${done} done, ${notFound} not found in RxNorm`);
 
-  // FDA enrichment for every code (cheap, so refresh each run)
-  let fdaHit = 0; let fdaMiss = 0;
+  // FDA enrichment for every code. First try the NDC in the CMS file; if that
+  // misses, ask RxNorm for every NDC tied to the RXCUI and try each (cached).
+  let fdaHit = 0; let fdaViaRx = 0; let fdaMiss = 0; let sampleMiss = [];
+  const missQueue = [];
   for (const [rxcui, ndc] of codes) {
     const d = drugs[rxcui] || (drugs[rxcui] = { rxcui });
     d.ndc = ndc;
     const key = fdaKeyFromCmsNdc(ndc);
     const rec = key ? fda.get(key) : null;
-    if (rec) { Object.assign(d, rec); fdaHit++; }
-    else { fdaMiss++; if (!d.labeler) d.labeler = ''; }
-    if (!d.name && d.fda_brand) d.name = d.fda_brand;
+    if (rec) { Object.assign(d, rec); d.fda_source = 'cms ndc'; fdaHit++; }
+    else missQueue.push(rxcui);
   }
-  log(`FDA NDC match: ${fdaHit} matched, ${fdaMiss} not matched (discontinued or repackager codes are the usual reason)`);
+  log(`FDA direct NDC match: ${fdaHit} matched, ${missQueue.length} to retry via RxNorm NDC lists`);
+
+  async function ndcWorker() {
+    while (missQueue.length) {
+      const rxcui = missQueue.shift();
+      const d = drugs[rxcui];
+      if (!Array.isArray(d.rx_ndcs)) {
+        const j = await rxGet(`${RXNORM_BASE}/rxcui/${rxcui}/ndcs.json`);
+        d.rx_ndcs = (j && j.ndcGroup && j.ndcGroup.ndcList && j.ndcGroup.ndcList.ndc) || [];
+        await sleep(PAUSE_MS);
+      }
+      let found = null;
+      for (const n of d.rx_ndcs) {
+        const k = fdaKeyFromCmsNdc(n);
+        if (k && fda.has(k)) { found = fda.get(k); break; }
+      }
+      if (found) { Object.assign(d, found); d.fda_source = 'rxnorm ndc'; fdaViaRx++; }
+      else { fdaMiss++; if (!d.labeler) d.labeler = ''; if (sampleMiss.length < 10) sampleMiss.push(`${rxcui} ${d.name} cms:${d.ndc} rx:${d.rx_ndcs.slice(0, 3).join('/')}`); }
+    }
+  }
+  await Promise.all(Array.from({ length: CONCURRENCY }, ndcWorker));
+  for (const rxcui of codes.keys()) { const d = drugs[rxcui]; if (!d.name && d.fda_brand) d.name = d.fda_brand; }
+  log(`FDA NDC match: ${fdaHit} direct, ${fdaViaRx} via RxNorm NDC list, ${fdaMiss} not matched`);
+  if (sampleMiss.length) { log('Sample unmatched:'); sampleMiss.forEach((s) => log(`   ${s}`)); }
 
   fs.writeFileSync(DRUGS_JSON, JSON.stringify(drugs, null, 1));
 
-  const cols = ['rxcui', 'name', 'tty', 'ingredients', 'brands', 'ndc', 'fda_brand', 'fda_generic', 'dosage_form', 'route', 'labeler', 'marketing_category', 'product_type', 'rx_status', 'updated'];
+  const cols = ['rxcui', 'name', 'tty', 'ingredients', 'brands', 'ndc', 'fda_brand', 'fda_generic', 'dosage_form', 'route', 'labeler', 'marketing_category', 'product_type', 'fda_source', 'rx_status', 'updated'];
   const lines = [cols.join(',')];
   for (const rxcui of [...codes.keys()].sort((a, b) => Number(a) - Number(b))) {
     const d = drugs[rxcui] || {};
