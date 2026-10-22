@@ -1,0 +1,54 @@
+name: Build drug dictionary
+
+on:
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Re-look-up every drug, not just new ones (true/false)'
+        required: false
+        default: 'false'
+  workflow_run:
+    workflows: ["Collect Part D formulary file"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-drugs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    # When triggered by the collector, only run if the collector succeeded.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build drug dictionary
+        env:
+          FORCE_REFRESH: ${{ github.event.inputs.force_refresh }}
+        run: node build-drugs.js
+
+      - name: Commit results
+        run: |
+          git config user.name "formulary-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/partd
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Drug dictionary: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
