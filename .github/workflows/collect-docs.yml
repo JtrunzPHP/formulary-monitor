@@ -1,0 +1,58 @@
+name: Collect commercial formulary documents
+
+on:
+  schedule:
+    # Daily at 13:00 UTC (9 am Eastern in summer, 8 am in winter)
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-extract and re-diff every document even if unchanged (true/false)'
+        required: false
+        default: 'false'
+      only:
+        description: 'Optional: process a single source id from sources.js'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-docs
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install pdftotext
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+
+      - name: Run document collector
+        env:
+          FORCE: ${{ github.event.inputs.force }}
+          ONLY: ${{ github.event.inputs.only }}
+        run: node collect-docs.js
+
+      - name: Commit results
+        run: |
+          git config user.name "formulary-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/docs
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git commit -m "Commercial docs: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
