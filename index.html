@@ -8,233 +8,349 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f7f8f8;
-    --panel: #ffffff;
-    --ink: #17202a;
-    --ink-2: #4a5663;
-    --line: #d9dee3;
-    --accent: #0f6e6e;
-    --accent-soft: #d9ecec;
-    --add: #2f7d4f;
-    --remove: #b23a3a;
-    --restrict: #b7791f;
-    --tier: #4b5fa8;
-    --flag: #7a5aa6;
+    --bg: #f5f7f8; --panel: #ffffff; --ink: #16202a; --ink-2: #536270; --line: #dbe1e6; --line-2: #eef1f4;
+    --accent: #0f6e6e; --accent-soft: #e2f0f0;
+    --add: #2f7d4f; --remove: #b23a3a; --restrict: #b7791f; --tier: #4b5fa8; --flag: #7a5aa6;
+    --covered: #e3f1e8; --covered-ink: #1f5c38; --notcov: #f6e2e2; --notcov-ink: #7d2727; --limited: #f7ecd6; --limited-ink: #6d4a0a; --neutral: #eef1f4; --neutral-ink: #3b4752;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #141a1f; --panel: #1b232a; --ink: #e8edf1; --ink-2: #a3b0bc; --line: #2d3942;
-      --accent: #5fc1c1; --accent-soft: #1f3a3a; --add: #6fc48f; --remove: #e07a7a; --restrict: #e0b45a; --tier: #8fa0e0; --flag: #b79ad8;
+      --bg: #12181d; --panel: #1a2229; --ink: #e9eef2; --ink-2: #a2afba; --line: #2b3741; --line-2: #222c34;
+      --accent: #5fc1c1; --accent-soft: #1d3636;
+      --add: #6fc48f; --remove: #e07a7a; --restrict: #e0b45a; --tier: #8fa0e0; --flag: #b79ad8;
+      --covered: #1d3a29; --covered-ink: #9fdcb6; --notcov: #432020; --notcov-ink: #f0a1a1; --limited: #3f3217; --limited-ink: #efcf86; --neutral: #263039; --neutral-ink: #c5ced6;
       color-scheme: dark;
     }
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; line-height: 1.45; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; line-height: 1.45; }
   a { color: var(--accent); }
-  header { padding: 20px 28px 0; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 5; }
-  .masthead { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 8px 24px; }
-  .masthead h1 { font-size: 20px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
-  .masthead .sub { color: var(--ink-2); font-size: 14px; }
-  .controls { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 12px 0 0; padding-bottom: 12px; }
-  select, input[type=search] { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 4px; padding: 6px 9px; }
-  input[type=search] { min-width: 260px; }
-  nav.tabs { display: flex; gap: 2px; flex-wrap: wrap; }
-  nav.tabs button { font: inherit; font-weight: 500; color: var(--ink-2); background: none; border: none; border-bottom: 2px solid transparent; padding: 10px 12px; cursor: pointer; }
-  nav.tabs button[aria-selected=true] { color: var(--ink); border-bottom-color: var(--accent); }
-  nav.tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
-  main { padding: 20px 28px 60px; max-width: 1500px; }
-  section[hidden] { display: none; }
-  .note { color: var(--ink-2); font-size: 14px; max-width: 78ch; margin: 0 0 16px; }
-  .strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 0 0 22px; }
-  .strip div { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 10px 12px; }
-  .strip b { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 20px; font-weight: 500; }
+  .app { display: grid; grid-template-columns: 220px 1fr; min-height: 100%; }
+  aside { background: var(--panel); border-right: 1px solid var(--line); padding: 22px 16px; position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 6px; }
+  aside h1 { font-size: 17px; font-weight: 600; margin: 0 8px 14px; letter-spacing: -0.01em; }
+  aside h1 small { display: block; font-weight: 400; color: var(--ink-2); font-size: 12px; margin-top: 2px; }
+  aside button { font: inherit; text-align: left; color: var(--ink-2); background: none; border: none; border-radius: 6px; padding: 8px 10px; cursor: pointer; width: 100%; }
+  aside button[aria-selected=true] { background: var(--accent-soft); color: var(--ink); font-weight: 500; }
+  aside button:hover { color: var(--ink); }
+  aside button:focus-visible { outline: 2px solid var(--accent); }
+  aside .foot { margin-top: auto; font-size: 12px; color: var(--ink-2); padding: 0 10px; }
+  main { padding: 24px 32px 70px; min-width: 0; }
+  .topbar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
+  .topbar h2 { font-size: 22px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+  .topbar .sub { color: var(--ink-2); font-size: 14px; max-width: 80ch; }
+  .topbar .spacer { flex: 1; }
+  input[type=search], select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; }
+  input[type=search] { min-width: 280px; }
+  input[type=search]:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .view[hidden] { display: none; }
+  .note { color: var(--ink-2); font-size: 14px; max-width: 82ch; margin: 0 0 14px; }
+  .strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 0 0 20px; }
+  .strip div { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+  .strip b { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 22px; font-weight: 500; }
   .strip span { color: var(--ink-2); font-size: 13px; }
-  table { border-collapse: collapse; width: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; font-size: 14px; }
-  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
-  th { font-weight: 600; color: var(--ink-2); font-size: 13px; position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none; white-space: nowrap; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
+  .card h3 { margin: 0 0 4px; font-size: 15px; font-weight: 600; }
+  .card .meta { color: var(--ink-2); font-size: 13px; margin-bottom: 10px; }
+  table { border-collapse: collapse; width: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; font-size: 14px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line-2); vertical-align: top; }
+  th { font-weight: 600; color: var(--ink-2); font-size: 13px; position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none; white-space: nowrap; z-index: 1; }
   tr:last-child td { border-bottom: none; }
   td.num, th.num { text-align: right; font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .wrap { overflow-x: auto; }
-  .tag { display: inline-block; padding: 1px 7px; border-radius: 3px; font-size: 12px; font-weight: 500; border: 1px solid transparent; white-space: nowrap; }
-  .tag.ADDED, .tag.PA_REMOVED, .tag.ST_REMOVED, .tag.QL_REMOVED { color: var(--add); border-color: currentColor; }
-  .tag.REMOVED { color: var(--remove); border-color: currentColor; }
-  .tag.PA_ADDED, .tag.ST_ADDED, .tag.QL_ADDED, .tag.QL_CHANGED { color: var(--restrict); border-color: currentColor; }
-  .tag.TIER_UP, .tag.TIER_DOWN { color: var(--tier); border-color: currentColor; }
+  .wrap { overflow-x: auto; border-radius: 8px; }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: 12px; font-weight: 500; border: 1px solid transparent; white-space: nowrap; }
+  .tag.ADDED, .tag.PA_REMOVED, .tag.ST_REMOVED, .tag.QL_REMOVED, .tag.Add { color: var(--add); border-color: currentColor; }
+  .tag.REMOVED, .tag.Remove { color: var(--remove); border-color: currentColor; }
+  .tag.PA_ADDED, .tag.ST_ADDED, .tag.QL_ADDED, .tag.QL_CHANGED, .tag.RESTRICTION_CHANGED { color: var(--restrict); border-color: currentColor; }
+  .tag.TIER_UP, .tag.TIER_DOWN, .tag.TIER_CHANGED { color: var(--tier); border-color: currentColor; }
   .tag.SELECTED_DRUG_FLAG_CHANGED, .tag.FORMULARY_SPLIT, .tag.PLAN_FORMULARY_SWITCH { color: var(--flag); border-color: currentColor; }
+  /* watchlist matrix */
+  .matrix { border-collapse: separate; border-spacing: 0; }
+  .matrix th.col { writing-mode: horizontal-tb; max-width: 190px; white-space: normal; line-height: 1.25; font-size: 12px; }
+  .matrix td.name { font-weight: 500; white-space: nowrap; }
+  .matrix td.name small { display: block; color: var(--ink-2); font-weight: 400; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; }
+  .cell { display: inline-block; border-radius: 5px; padding: 3px 8px; font-size: 12.5px; font-weight: 500; line-height: 1.3; background: var(--neutral); color: var(--neutral-ink); margin: 1px 4px 1px 0; }
+  .cell.covered { background: var(--covered); color: var(--covered-ink); }
+  .cell.notcov { background: var(--notcov); color: var(--notcov-ink); }
+  .cell.limited { background: var(--limited); color: var(--limited-ink); }
+  .cell small { font-weight: 400; opacity: .85; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--ink-2); font-size: 13px; margin: 8px 0 16px; }
+  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+  details { margin: 8px 0; }
+  summary { cursor: pointer; color: var(--accent); font-weight: 500; }
   .mix { display: grid; grid-template-columns: 220px 1fr 90px; gap: 10px 14px; align-items: center; margin-bottom: 8px; }
-  .mix .name { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .mix .bar { display: flex; height: 18px; border-radius: 3px; overflow: hidden; background: var(--line); }
+  .mix .nm { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .mix .bar { display: flex; height: 16px; border-radius: 4px; overflow: hidden; background: var(--line-2); }
   .mix .bar i { display: block; height: 100%; }
   .mix .tot { font-family: "IBM Plex Mono", ui-monospace, monospace; text-align: right; color: var(--ink-2); font-size: 13px; }
-  .legend { display: flex; gap: 16px; flex-wrap: wrap; color: var(--ink-2); font-size: 13px; margin: 6px 0 16px; }
-  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: -1px; margin-right: 5px; }
   .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
   .filters label { color: var(--ink-2); font-size: 13px; }
-  button.plain { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 6px 12px; cursor: pointer; }
+  button.plain { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
   button.plain:hover { border-color: var(--accent); }
   .muted { color: var(--ink-2); }
   .status { font-size: 13px; color: var(--ink-2); margin: 8px 0; }
-  @media (max-width: 700px) { header, main { padding-left: 14px; padding-right: 14px; } .mix { grid-template-columns: 120px 1fr 70px; } }
+  .ok { color: var(--add); } .bad { color: var(--remove); }
+  @media (max-width: 860px) { .app { grid-template-columns: 1fr; } aside { position: static; height: auto; flex-direction: row; flex-wrap: wrap; } aside h1 { width: 100%; } aside button { width: auto; } aside .foot { display: none; } main { padding: 16px; } .mix { grid-template-columns: 120px 1fr 70px; } }
 </style>
 </head>
 <body>
-<header>
-  <div class="masthead">
-    <h1>Formulary Monitor</h1>
-    <div class="sub">Medicare Part D formulary changes from the CMS monthly public use files, matched to manufacturers and plan parents.</div>
-  </div>
-  <div class="controls">
-    <label>Comparison <select id="diffSel"></select></label>
-    <span id="diffMeta" class="muted"></span>
-  </div>
-  <nav class="tabs" role="tablist">
-    <button role="tab" aria-selected="true" data-tab="overview">Overview</button>
-    <button role="tab" aria-selected="false" data-tab="changes">Widest changes</button>
-    <button role="tab" aria-selected="false" data-tab="negotiated">Negotiated drugs</button>
-    <button role="tab" aria-selected="false" data-tab="payers">By plan parent</button>
-    <button role="tab" aria-selected="false" data-tab="mfr">By manufacturer</button>
-    <button role="tab" aria-selected="false" data-tab="detail">Full detail</button>
-  </nav>
-</header>
+<div class="app">
+  <aside>
+    <h1>Formulary Monitor<small>Parkman Healthcare Partners</small></h1>
+    <button data-view="watch" aria-selected="true">Watchlist</button>
+    <button data-view="commercial" aria-selected="false">Commercial changes</button>
+    <button data-view="partd" aria-selected="false">Medicare Part D</button>
+    <button data-view="sources" aria-selected="false">Sources</button>
+    <div class="foot" id="foot"></div>
+  </aside>
 
-<main>
-  <section id="tab-overview">
-    <p class="note" id="overviewNote"></p>
-    <div class="strip" id="strip"></div>
-    <p class="note">Change mix by plan parent. Each bar is the share of that parent's plan-level change events that were coverage losses, coverage gains, new restrictions, loosened restrictions or tier moves. Across a plan-year boundary tier moves often reflect a changed tier structure rather than individual drug decisions, so read them with that in mind.</p>
-    <div class="legend">
-      <span><i style="background:var(--remove)"></i>Removed</span>
-      <span><i style="background:var(--add)"></i>Added</span>
-      <span><i style="background:var(--restrict)"></i>Restriction added or tightened</span>
-      <span><i style="background:var(--accent)"></i>Restriction removed</span>
-      <span><i style="background:var(--tier)"></i>Tier moved</span>
-    </div>
-    <div id="mix"></div>
-  </section>
+  <main>
+    <!-- Watchlist -->
+    <section class="view" id="view-watch">
+      <div class="topbar">
+        <div><h2>Watchlist across formularies</h2><div class="sub">Each row is a product family you asked to follow; each column is a formulary we track. Cells show the latest status read from that document.</div></div>
+        <div class="spacer"></div>
+        <input type="search" id="watchSearch" placeholder="Filter by product, ticker, formulary">
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--covered)"></i>Covered or preferred</span>
+        <span><i style="background:var(--limited)"></i>Covered with restriction or tier move</span>
+        <span><i style="background:var(--notcov)"></i>Not covered or excluded</span>
+        <span><i style="background:var(--neutral)"></i>Mentioned, status not parsed</span>
+      </div>
+      <div class="wrap"><table class="matrix" id="matrix"></table></div>
+      <p class="note" style="margin-top:14px" id="matrixNote"></p>
+    </section>
 
-  <section id="tab-changes" hidden>
-    <p class="note">The 300 drug-level changes touching the most plans, one row per drug and change type, summed across every formulary that made it. Click a column heading to sort.</p>
-    <div class="filters">
-      <input type="search" id="chgSearch" placeholder="Search drug, ingredient, manufacturer">
-      <label>Type <select id="chgType"><option value="">All</option></select></label>
-      <label>Parent <select id="chgParent"><option value="">All</option></select></label>
-      <label><input type="checkbox" id="chgHideFlag" checked> Hide negotiation-flag rows</label>
-    </div>
-    <div class="wrap"><table id="chgTable"></table></div>
-  </section>
+    <!-- Commercial -->
+    <section class="view" id="view-commercial" hidden>
+      <div class="topbar">
+        <div><h2>Commercial formulary changes</h2><div class="sub">Structured rows parsed from each PBM document: Optum Rx monthly update tables, and version-to-version comparisons of the Aetna drug guides.</div></div>
+        <div class="spacer"></div>
+        <input type="search" id="comSearch" placeholder="Filter by drug, class, document">
+      </div>
+      <div class="filters">
+        <label>Source <select id="comSource"><option value="">All</option></select></label>
+        <label>Kind <select id="comKind"><option value="">All</option><option value="tier_change">Tier or UM change</option><option value="add_remove">Add or remove</option><option value="diff">Version comparison</option></select></label>
+        <label><input type="checkbox" id="comWatchOnly"> Watchlist only</label>
+      </div>
+      <div class="wrap"><table id="comTable"></table></div>
+    </section>
 
-  <section id="tab-negotiated" hidden>
-    <p class="note">Drugs whose Medicare price-negotiation flag changed between the two files, grouped by active ingredient. When the comparison spans a plan-year boundary this list is the negotiated drugs taking effect in the new year rather than a sponsor decision.</p>
-    <div class="wrap"><table id="negTable"></table></div>
-  </section>
+    <!-- Part D -->
+    <section class="view" id="view-partd" hidden>
+      <div class="topbar">
+        <div><h2>Medicare Part D</h2><div class="sub" id="pdMeta">Changes between CMS monthly formulary files, matched to manufacturers and plan parents.</div></div>
+        <div class="spacer"></div>
+        <label class="muted">Comparison <select id="diffSel"></select></label>
+      </div>
+      <p class="note" id="overviewNote"></p>
+      <div class="strip" id="strip"></div>
+      <details open><summary>Change mix by plan parent</summary>
+        <p class="note">Share of each parent's plan-level change events by type. Across a plan-year boundary tier moves often reflect a changed tier structure rather than individual decisions.</p>
+        <div class="legend"><span><i style="background:var(--remove)"></i>Removed</span><span><i style="background:var(--add)"></i>Added</span><span><i style="background:var(--restrict)"></i>Restriction added</span><span><i style="background:var(--accent)"></i>Restriction removed</span><span><i style="background:var(--tier)"></i>Tier moved</span></div>
+        <div id="mix"></div>
+      </details>
+      <details open><summary>Widest changes</summary>
+        <div class="filters" style="margin-top:8px">
+          <input type="search" id="chgSearch" placeholder="Search drug, ingredient, manufacturer">
+          <label>Type <select id="chgType"><option value="">All</option></select></label>
+          <label>Parent <select id="chgParent"><option value="">All</option></select></label>
+          <label><input type="checkbox" id="chgHideFlag" checked> Hide negotiation-flag rows</label>
+        </div>
+        <div class="wrap"><table id="chgTable"></table></div>
+      </details>
+      <details><summary>Negotiated drugs</summary><div class="wrap" style="margin-top:8px"><table id="negTable"></table></div></details>
+      <details><summary>By plan parent</summary><div class="wrap" style="margin-top:8px"><table id="payerTable"></table></div></details>
+      <details><summary>By manufacturer</summary><div class="wrap" style="margin-top:8px"><table id="mfrTable"></table></div></details>
+      <details><summary>Full detail</summary>
+        <div class="filters" style="margin-top:8px">
+          <button class="plain" id="loadDetail">Load full detail</button>
+          <input type="search" id="detSearch" placeholder="Search" disabled>
+          <label>Type <select id="detType" disabled><option value="">All</option></select></label>
+          <label>Parent contains <input type="search" id="detParent" placeholder="e.g. Humana" disabled style="min-width:160px"></label>
+          <button class="plain" id="detExport" disabled>Download filtered CSV</button>
+        </div>
+        <div class="status" id="detStatus">Not loaded.</div>
+        <div class="wrap"><table id="detTable"></table></div>
+      </details>
+    </section>
 
-  <section id="tab-payers" hidden>
-    <p class="note">Plan-level change events by plan parent. A drug removed from a formulary used by 40 plans counts 40 here, so the numbers scale with the size of each book.</p>
-    <div class="wrap"><table id="payerTable"></table></div>
-  </section>
-
-  <section id="tab-mfr" hidden>
-    <p class="note">Plan-level change events by manufacturer ticker, from the FDA labeler on each drug. Tickers come from labelers.js; UNMAPPED and PRIVATE are grouped. Removals and new restrictions are the columns that matter for a manufacturer.</p>
-    <div class="wrap"><table id="mfrTable"></table></div>
-  </section>
-
-  <section id="tab-detail" hidden>
-    <p class="note">Every change row for this comparison, straight from the compressed detail file. Loading pulls the whole file into the browser, which can be large for an annual comparison.</p>
-    <div class="filters">
-      <button class="plain" id="loadDetail">Load full detail</button>
-      <input type="search" id="detSearch" placeholder="Search drug, manufacturer, formulary id, plan parent" disabled>
-      <label>Type <select id="detType" disabled><option value="">All</option></select></label>
-      <label>Parent contains <input type="search" id="detParent" placeholder="e.g. Humana" disabled></label>
-      <button class="plain" id="detExport" disabled>Download filtered CSV</button>
-    </div>
-    <div class="status" id="detStatus">Not loaded.</div>
-    <div class="wrap"><table id="detTable"></table></div>
-  </section>
-</main>
+    <!-- Sources -->
+    <section class="view" id="view-sources" hidden>
+      <div class="topbar"><div><h2>Sources</h2><div class="sub">Every document the monitor watches, when it was last checked, and when it last changed. Discovered documents were found automatically on an index page.</div></div></div>
+      <div class="wrap"><table id="srcTable"></table></div>
+    </section>
+  </main>
+</div>
 
 <script>
 (() => {
   const $ = (s) => document.querySelector(s);
   const fmt = (n) => Number(n || 0).toLocaleString();
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-  const BASE = 'data/partd/diffs/';
+  const PD = 'data/partd/diffs/'; const DOCS = 'data/docs/';
   const TYPES = ['REMOVED', 'ADDED', 'PA_ADDED', 'ST_ADDED', 'QL_ADDED', 'QL_CHANGED', 'PA_REMOVED', 'ST_REMOVED', 'QL_REMOVED', 'TIER_UP', 'TIER_DOWN', 'SELECTED_DRUG_FLAG_CHANGED', 'FORMULARY_SPLIT', 'PLAN_FORMULARY_SWITCH'];
   const GROUP = { REMOVED: 'remove', ADDED: 'add', PA_ADDED: 'restrict', ST_ADDED: 'restrict', QL_ADDED: 'restrict', QL_CHANGED: 'restrict', PA_REMOVED: 'loosen', ST_REMOVED: 'loosen', QL_REMOVED: 'loosen', TIER_UP: 'tier', TIER_DOWN: 'tier' };
   const GCOLOR = { remove: 'var(--remove)', add: 'var(--add)', restrict: 'var(--restrict)', loosen: 'var(--accent)', tier: 'var(--tier)' };
+  const tag = (t) => `<span class="tag ${esc(t)}">${esc(t)}</span>`;
+  const fetchJson = async (u) => { const r = await fetch(u, { cache: 'no-store' }); if (!r.ok) throw new Error(`${u} ${r.status}`); return r.json(); };
 
-  let index = null, summary = null, detail = null;
+  let structured = null, docsIndex = null, pdIndex = null, summary = null, detail = null;
 
-  // ---------- tabs ----------
-  document.querySelectorAll('nav.tabs button').forEach((b) => b.addEventListener('click', () => {
-    document.querySelectorAll('nav.tabs button').forEach((x) => x.setAttribute('aria-selected', x === b));
-    document.querySelectorAll('main > section').forEach((s) => { s.hidden = s.id !== 'tab-' + b.dataset.tab; });
+  // ---------- navigation ----------
+  document.querySelectorAll('aside button').forEach((b) => b.addEventListener('click', () => {
+    document.querySelectorAll('aside button').forEach((x) => x.setAttribute('aria-selected', x === b));
+    document.querySelectorAll('main .view').forEach((v) => { v.hidden = v.id !== 'view-' + b.dataset.view; });
+    location.hash = b.dataset.view;
   }));
+  const openHash = () => { const h = location.hash.replace('#', ''); const b = document.querySelector(`aside button[data-view="${h}"]`); if (b) b.click(); };
 
-  // ---------- generic sortable table ----------
+  // ---------- sortable table ----------
   function renderTable(el, cols, rows, opts = {}) {
     let sortKey = opts.sortKey || cols[0].key, sortDir = opts.sortDir || -1;
     function draw() {
       const sorted = [...rows].sort((a, b) => {
-        const x = a[sortKey], y = b[sortKey];
-        const nx = Number(x), ny = Number(y);
-        if (!Number.isNaN(nx) && !Number.isNaN(ny) && x !== '' && y !== '') return (nx - ny) * sortDir;
+        const x = a[sortKey], y = b[sortKey]; const nx = Number(x), ny = Number(y);
+        if (!Number.isNaN(nx) && !Number.isNaN(ny) && x !== '' && y !== '' && x != null && y != null) return (nx - ny) * sortDir;
         return String(x || '').localeCompare(String(y || '')) * sortDir;
       });
       const limit = opts.limit || sorted.length;
       el.innerHTML = '<thead><tr>' + cols.map((c) => `<th class="${c.num ? 'num' : ''}" data-k="${c.key}">${esc(c.label)}${sortKey === c.key ? (sortDir < 0 ? ' ▾' : ' ▴') : ''}</th>`).join('') + '</tr></thead><tbody>' +
-        sorted.slice(0, limit).map((r) => '<tr>' + cols.map((c) => `<td class="${c.num ? 'num' : ''}">${c.render ? c.render(r[c.key], r) : (c.num ? fmt(r[c.key]) : esc(r[c.key]))}</td>`).join('') + '</tr>').join('') +
-        '</tbody>' + (sorted.length > limit ? `<tfoot><tr><td colspan="${cols.length}" class="muted">Showing ${fmt(limit)} of ${fmt(sorted.length)} rows. Narrow the filter or download the CSV for the rest.</td></tr></tfoot>` : '');
+        (sorted.length ? sorted.slice(0, limit).map((r) => '<tr>' + cols.map((c) => `<td class="${c.num ? 'num' : ''}">${c.render ? c.render(r[c.key], r) : (c.num ? fmt(r[c.key]) : esc(r[c.key]))}</td>`).join('') + '</tr>').join('') : `<tr><td colspan="${cols.length}" class="muted">Nothing matches.</td></tr>`) +
+        '</tbody>' + (sorted.length > limit ? `<tfoot><tr><td colspan="${cols.length}" class="muted">Showing ${fmt(limit)} of ${fmt(sorted.length)} rows.</td></tr></tfoot>` : '');
       el.querySelectorAll('th').forEach((th) => th.addEventListener('click', () => { const k = th.dataset.k; if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = -1; } draw(); }));
     }
     draw();
   }
-  const tag = (t) => `<span class="tag ${esc(t)}">${esc(t)}</span>`;
 
-  // ---------- load ----------
-  async function loadIndex() {
-    const r = await fetch(BASE + 'index.json', { cache: 'no-store' });
-    if (!r.ok) { $('#overviewNote').textContent = 'No comparisons yet. The diff step writes data/partd/diffs/index.json once two monthly snapshots exist.'; return; }
-    index = await r.json();
-    const sel = $('#diffSel');
-    sel.innerHTML = [...index.diffs].reverse().map((d) => `<option value="${esc(d.tag)}">${esc(d.prev)} to ${esc(d.latest)} (${fmt(d.total_change_rows)} rows)</option>`).join('');
-    sel.addEventListener('change', () => loadSummary(sel.value));
-    if (index.diffs.length) loadSummary(sel.value);
+  // ---------- status classification ----------
+  function classify(row) {
+    // returns {cls, label}
+    if (row.kind === 'tier_change') {
+      const after = (row.tier_after || '').toUpperCase(); const before = (row.tier_before || '').toUpperCase();
+      const flags = row.flags || {}; const um = ['PA', 'ST', 'QL'].filter((k) => flags[k]);
+      if (/EXC|N\/C/.test(after)) return { cls: 'notcov', label: `Excluded${before && !/EXC/.test(before) ? ` (was ${before})` : ''}` };
+      if (before && after && before !== after) return { cls: 'limited', label: `${before} → ${after}` };
+      if (um.length) return { cls: 'limited', label: `${after || 'Covered'} ${um.join('/')}` };
+      return { cls: 'covered', label: after || 'Covered' };
+    }
+    if (row.kind === 'add_remove') return row.action === 'Remove' ? { cls: 'notcov', label: 'Removed' } : { cls: 'covered', label: 'Added' };
+    // Aetna rows
+    const t = (row.tier || '').toUpperCase();
+    const restr = row.restrictions || [];
+    if (t === 'NF' || row.coverage === 'not covered') return { cls: 'notcov', label: 'NF' };
+    if (!t && row.coverage === 'listed') return { cls: 'covered', label: restr.length ? `Listed, ${restr.join(', ')}` : 'Listed' };
+    if (/^(NP|NB|NPSP)$/.test(t)) return { cls: 'limited', label: t + (restr.length ? ' ' + restr.filter((r) => /^(PA|ST|QL)/.test(r)).map((r) => r.replace(/\s*\(.*$/, '')).join('/') : '') };
+    const um = restr.filter((r) => /^(PA|ST|QL|SPC)/.test(r)).map((r) => r.replace(/\s*\(.*$/, ''));
+    if (um.length) return { cls: 'limited', label: `${t || 'Covered'} ${um.join('/')}` };
+    return { cls: 'covered', label: t || 'Covered' };
   }
 
+  // ---------- watchlist matrix ----------
+  function renderMatrix() {
+    const q = ($('#watchSearch').value || '').trim().toLowerCase();
+    const sources = Object.values((structured || {}).sources || {}).filter((s) => s.parser && s.parser !== 'none');
+    const labels = new Map(); // label -> {tickers:Set, cells: Map(sourceId -> rows[])}
+    for (const s of sources) {
+      for (const r of s.watch_rows || []) for (const lab of r.watch_labels || []) {
+        if (/\(category\)/.test(lab)) continue;
+        let x = labels.get(lab); if (!x) { x = { label: lab, tickers: new Set(), cells: new Map() }; labels.set(lab, x); }
+        (r.watch_tickers || []).forEach((t) => x.tickers.add(t));
+        if (!x.cells.has(s.id)) x.cells.set(s.id, []);
+        x.cells.get(s.id).push(r);
+      }
+    }
+    // Part D column: by manufacturer ticker from the latest comparison summary
+    const pdCol = summary && summary.by_manufacturer_plans_affected ? summary.by_manufacturer_plans_affected : null;
+    const rows = [...labels.values()].sort((a, b) => a.label.localeCompare(b.label)).filter((x) => !q || `${x.label} ${[...x.tickers].join(' ')}`.toLowerCase().includes(q) || sources.some((s) => s.name.toLowerCase().includes(q) && x.cells.has(s.id)));
+    const cols = sources.filter((s) => !q || rows.some((x) => x.cells.has(s.id)) || s.name.toLowerCase().includes(q));
+    const head = '<thead><tr><th>Product family</th>' + cols.map((s) => `<th class="col" title="${esc(s.url || '')}">${esc(s.name)}<br><span class="muted">${esc(s.pbm || '')}</span></th>`).join('') + (pdCol ? `<th class="col">Medicare Part D<br><span class="muted">${esc(summary.prev)} → ${esc(summary.latest)}</span></th>` : '') + '</tr></thead>';
+    const body = rows.map((x) => {
+      const cells = cols.map((s) => {
+        const rs = x.cells.get(s.id);
+        if (!rs) return '<td><span class="muted">·</span></td>';
+        // Aggregate: count statuses
+        const agg = new Map();
+        for (const r of rs) { const c = classify(r); const k = `${c.cls}|${c.label}`; const e = agg.get(k) || { ...c, n: 0, ex: r }; e.n++; agg.set(k, e); }
+        const parts = [...agg.values()].sort((a, b) => b.n - a.n).slice(0, 4).map((e) => {
+          const eff = e.ex.effective ? ` <small>${esc(e.ex.effective)}</small>` : '';
+          return `<span class="cell ${e.cls}" title="${esc(e.ex.name || '')}">${esc(e.label)}${e.n > 1 ? ` <small>×${e.n}</small>` : ''}${eff}</span>`;
+        });
+        return `<td>${parts.join('')}</td>`;
+      }).join('');
+      let pd = '';
+      if (pdCol) {
+        const hits = [...x.tickers].map((t) => pdCol[t]).filter(Boolean);
+        if (!hits.length) pd = '<td><span class="muted">·</span></td>';
+        else {
+          const sum = {}; for (const h of hits) for (const [k, v] of Object.entries(h)) if (k !== 'parent') sum[k] = (sum[k] || 0) + v;
+          const bits = [['REMOVED', 'notcov', 'removed'], ['PA_ADDED', 'limited', 'PA added'], ['ST_ADDED', 'limited', 'ST added'], ['QL_ADDED', 'limited', 'QL added'], ['ADDED', 'covered', 'added']].filter(([k]) => sum[k]).map(([k, cls, l]) => `<span class="cell ${cls}">${fmt(sum[k])} <small>plan-events ${l}</small></span>`);
+          pd = `<td>${bits.join('') || '<span class="muted">no coverage events</span>'}</td>`;
+        }
+      }
+      return `<tr><td class="name">${esc(x.label)}<small>${esc([...x.tickers].join(' ') || 'private')}</small></td>${cells}${pd}</tr>`;
+    }).join('');
+    $('#matrix').innerHTML = head + '<tbody>' + (body || `<tr><td class="muted" colspan="${cols.length + 2}">No parsed watchlist rows yet. The commercial collector writes data/docs/structured.json after its first parse.</td></tr>`) + '</tbody>';
+    $('#matrixNote').textContent = 'Cells are read directly from the parsed documents. Aetna cells show the tier code from the drug guide (PB preferred brand, NF not covered, PA/ST/QL restrictions). Optum cells show the change rows from Pharmacy Passages with effective dates. The Part D column counts plan-level events for the manufacturer ticker in the latest monthly comparison, which is a manufacturer-wide figure rather than this product alone.';
+  }
+
+  // ---------- commercial feed ----------
+  let comRows = [];
+  function buildCommercial() {
+    comRows = [];
+    for (const s of Object.values((structured || {}).sources || {})) {
+      for (const r of s.changes || []) comRows.push({ source: s.name, sid: s.id, pbm: s.pbm, kind: r.kind, change: r.kind === 'add_remove' ? r.action : (classify(r).label), drug: r.name, cls: r.therapeutic_use || '', before: r.tier_before || '', after: r.tier_after || r.action || '', flags: r.flags ? ['SP', 'PA', 'ST', 'QL'].filter((k) => r.flags[k]).join(' ') : '', effective: r.effective || '', watch: (r.watch_tickers || []).join(' '), sortDate: toSortDate(r.effective) });
+      for (const c of s.latest_changes || []) comRows.push({ source: s.name, sid: s.id, pbm: s.pbm, kind: 'diff', change: c.change, drug: c.name + (c.generic ? ` (${c.generic})` : ''), cls: c.category || '', before: c.tier_before || '', after: c.tier_after || '', flags: (c.restrictions_after || []).join(', '), effective: s.latest_diff ? s.latest_diff.replace(/_to_.*$/, '') + ' → ' + s.latest_stamp : '', watch: (c.watch_tickers || []).join(' '), sortDate: s.latest_stamp || '' });
+    }
+    const srcSel = $('#comSource'); srcSel.innerHTML = '<option value="">All</option>' + [...new Set(comRows.map((r) => r.source))].sort().map((n) => `<option>${esc(n)}</option>`).join('');
+  }
+  function toSortDate(d) { const m = String(d || '').match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/); if (!m) return ''; const y = m[3].length === 2 ? '20' + m[3] : m[3]; return `${y}${m[1].padStart(2, '0')}${m[2].padStart(2, '0')}`; }
+  function renderCommercial() {
+    const q = ($('#comSearch').value || '').trim().toLowerCase(), src = $('#comSource').value, kind = $('#comKind').value, w = $('#comWatchOnly').checked;
+    const rows = comRows.filter((r) => (!src || r.source === src) && (!kind || r.kind === kind) && (!w || r.watch) && (!q || `${r.drug} ${r.cls} ${r.source} ${r.watch} ${r.change}`.toLowerCase().includes(q)));
+    renderTable($('#comTable'), [
+      { key: 'sortDate', label: 'Effective', render: (v, r) => esc(r.effective) }, { key: 'source', label: 'Document' }, { key: 'change', label: 'Change', render: (v, r) => r.kind === 'diff' || r.kind === 'add_remove' ? tag(v) : esc(v) },
+      { key: 'drug', label: 'Product' }, { key: 'cls', label: 'Class' }, { key: 'before', label: 'Before' }, { key: 'after', label: 'After' }, { key: 'flags', label: 'Restrictions' }, { key: 'watch', label: 'Watchlist' },
+    ], rows, { sortKey: 'sortDate', limit: 800 });
+  }
+
+  // ---------- sources ----------
+  function renderSources() {
+    const rows = Object.values((docsIndex || {}).sources || {}).map((s) => ({ ...s, parsed: ((structured || {}).sources || {})[s.id] ? (structured.sources[s.id].parser || 'none') : 'none', rows: (((structured || {}).sources || {})[s.id] || {}).versions ? Object.values(structured.sources[s.id].versions).slice(-1)[0].rows : '' }));
+    renderTable($('#srcTable'), [
+      { key: 'pbm', label: 'PBM' }, { key: 'name', label: 'Document', render: (v, r) => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>` : esc(v) },
+      { key: 'status', label: 'Last run', render: (v) => `<span class="${/fail/.test(v) ? 'bad' : 'ok'}">${esc(v)}</span>` },
+      { key: 'last_checked', label: 'Checked', render: (v) => esc(String(v || '').slice(0, 16).replace('T', ' ')) },
+      { key: 'last_change', label: 'Last change', render: (v) => esc(v || '') }, { key: 'cadence', label: 'Cadence' }, { key: 'verified', label: 'URL' }, { key: 'parsed', label: 'Parser' }, { key: 'rows', label: 'Rows', num: true },
+    ], rows, { sortKey: 'pbm', sortDir: 1 });
+  }
+
+  // ---------- Part D ----------
+  async function loadPartD() {
+    try { pdIndex = await fetchJson(PD + 'index.json'); } catch { $('#overviewNote').textContent = 'No Part D comparison yet.'; return; }
+    const sel = $('#diffSel');
+    sel.innerHTML = [...pdIndex.diffs].reverse().map((d) => `<option value="${esc(d.tag)}">${esc(d.prev)} to ${esc(d.latest)} (${fmt(d.total_change_rows)} rows)</option>`).join('');
+    sel.addEventListener('change', () => loadSummary(sel.value));
+    if (pdIndex.diffs.length) await loadSummary(sel.value);
+  }
   async function loadSummary(tag) {
     detail = null; $('#detStatus').textContent = 'Not loaded.'; $('#detTable').innerHTML = '';
     ['#detSearch', '#detType', '#detParent', '#detExport'].forEach((s) => { $(s).disabled = true; });
-    const r = await fetch(`${BASE}${tag}.summary.json`, { cache: 'no-store' });
-    summary = await r.json();
+    summary = await fetchJson(`${PD}${tag}.summary.json`);
     const s = summary;
-    $('#diffMeta').textContent = `Contract year ${s.contract_year_prev} to ${s.contract_year_latest}${s.new_plan_year ? ' (annual reset)' : ''}; ${fmt(s.plans_matched)} plans matched, ${fmt(s.plans_new)} new, ${fmt(s.plans_gone)} gone; generated ${String(s.generated_at).slice(0, 10)}.`;
-    $('#overviewNote').textContent = s.new_plan_year
-      ? 'This comparison crosses a plan-year boundary, so it captures each sponsor\'s annual formulary reset. Formulary IDs change every year; plans are followed from their old formulary to their new one.'
-      : 'This comparison is within a plan year, so every change below is a mid-year sponsor decision or a CMS file correction.';
-    renderOverview(); renderChanges(); renderNegotiated(); renderPayers(); renderMfr();
+    $('#pdMeta').textContent = `Contract year ${s.contract_year_prev} to ${s.contract_year_latest}${s.new_plan_year ? ' (annual reset)' : ''}; ${fmt(s.plans_matched)} plans matched, ${fmt(s.plans_new)} new, ${fmt(s.plans_gone)} gone; generated ${String(s.generated_at).slice(0, 10)}.`;
+    $('#overviewNote').textContent = s.new_plan_year ? 'This comparison crosses a plan-year boundary, so it captures each sponsor\'s annual formulary reset. Formulary IDs change every year; plans are followed from their old formulary to their new one.' : 'This comparison is within a plan year, so every change is a mid-year sponsor decision or a CMS file correction.';
+    renderOverview(); renderChanges(); renderNegotiated(); renderPayers(); renderMfr(); renderMatrix();
   }
-
-  // ---------- overview ----------
   function renderOverview() {
     const t = summary.by_type || {};
-    const cells = [
-      ['Change rows', summary.total_change_rows], ['Drugs removed', t.REMOVED], ['Drugs added', t.ADDED],
-      ['Prior auth added', t.PA_ADDED], ['Step therapy added', t.ST_ADDED], ['Quantity limit added', t.QL_ADDED],
-      ['Tier moves', (t.TIER_UP || 0) + (t.TIER_DOWN || 0)], ['Negotiation flag changes', t.SELECTED_DRUG_FLAG_CHANGED],
-    ];
+    const cells = [['Change rows', summary.total_change_rows], ['Drugs removed', t.REMOVED], ['Drugs added', t.ADDED], ['Prior auth added', t.PA_ADDED], ['Step therapy added', t.ST_ADDED], ['Quantity limit added', t.QL_ADDED], ['Tier moves', (t.TIER_UP || 0) + (t.TIER_DOWN || 0)], ['Negotiation flag changes', t.SELECTED_DRUG_FLAG_CHANGED]];
     $('#strip').innerHTML = cells.map(([l, v]) => `<div><b>${fmt(v)}</b><span>${esc(l)}</span></div>`).join('');
     const bp = summary.by_plan_parent_plans_affected || {};
-    const rows = Object.entries(bp).map(([p, x]) => {
-      const g = { remove: 0, add: 0, restrict: 0, loosen: 0, tier: 0 };
-      for (const [k, v] of Object.entries(x)) if (GROUP[k]) g[GROUP[k]] += v;
-      const tot = Object.values(g).reduce((a, b) => a + b, 0);
-      return { p, g, tot };
-    }).filter((r) => r.tot > 0).sort((a, b) => b.tot - a.tot).slice(0, 20);
-    $('#mix').innerHTML = rows.map((r) => `<div class="mix"><div class="name" title="${esc(r.p)}">${esc(r.p)}</div><div class="bar">${Object.entries(r.g).map(([k, v]) => `<i style="width:${(100 * v / r.tot).toFixed(2)}%;background:${GCOLOR[k]}" title="${k}: ${fmt(v)}"></i>`).join('')}</div><div class="tot">${fmt(r.tot)}</div></div>`).join('');
+    const rows = Object.entries(bp).map(([p, x]) => { const g = { remove: 0, add: 0, restrict: 0, loosen: 0, tier: 0 }; for (const [k, v] of Object.entries(x)) if (GROUP[k]) g[GROUP[k]] += v; const tot = Object.values(g).reduce((a, b) => a + b, 0); return { p, g, tot }; }).filter((r) => r.tot > 0).sort((a, b) => b.tot - a.tot).slice(0, 20);
+    $('#mix').innerHTML = rows.map((r) => `<div class="mix"><div class="nm" title="${esc(r.p)}">${esc(r.p)}</div><div class="bar">${Object.entries(r.g).map(([k, v]) => `<i style="width:${(100 * v / r.tot).toFixed(2)}%;background:${GCOLOR[k]}" title="${k}: ${fmt(v)}"></i>`).join('')}</div><div class="tot">${fmt(r.tot)}</div></div>`).join('');
   }
-
-  // ---------- widest changes ----------
   function renderChanges() {
     const top = summary.top_changes || [];
     const typeSel = $('#chgType'); typeSel.innerHTML = '<option value="">All</option>' + TYPES.filter((t) => top.some((x) => x.change === t)).map((t) => `<option>${t}</option>`).join('');
@@ -242,113 +358,64 @@
     const parSel = $('#chgParent'); parSel.innerHTML = '<option value="">All</option>' + [...parents].sort().map((p) => `<option>${esc(p)}</option>`).join('');
     const draw = () => {
       const q = $('#chgSearch').value.trim().toLowerCase(), ty = typeSel.value, pa = parSel.value, hide = $('#chgHideFlag').checked;
-      const rows = top.filter((x) => (!hide || x.change !== 'SELECTED_DRUG_FLAG_CHANGED') && (!ty || x.change === ty) && (!pa || (x.parents || []).some((p) => p.startsWith(pa + ' (')))
-        && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker}`.toLowerCase().includes(q)));
-      renderTable($('#chgTable'), [
-        { key: 'plans', label: 'Plans', num: true }, { key: 'transitions', label: 'Formularies', num: true },
-        { key: 'change', label: 'Change', render: tag }, { key: 'drug', label: 'Drug' }, { key: 'tty', label: 'Type' },
-        { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' },
-        { key: 'parents', label: 'Plan parents', render: (v) => esc((v || []).slice(0, 4).join('; ') + ((v || []).length > 4 ? '; …' : '')) },
-      ], rows, { sortKey: 'plans' });
+      const rows = top.filter((x) => (!hide || x.change !== 'SELECTED_DRUG_FLAG_CHANGED') && (!ty || x.change === ty) && (!pa || (x.parents || []).some((p) => p.startsWith(pa + ' ('))) && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker}`.toLowerCase().includes(q)));
+      renderTable($('#chgTable'), [{ key: 'plans', label: 'Plans', num: true }, { key: 'transitions', label: 'Formularies', num: true }, { key: 'change', label: 'Change', render: tag }, { key: 'drug', label: 'Drug' }, { key: 'tty', label: 'Type' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'parents', label: 'Plan parents', render: (v) => esc((v || []).slice(0, 4).join('; ') + ((v || []).length > 4 ? '; …' : '')) }], rows, { sortKey: 'plans' });
     };
     ['#chgSearch', '#chgType', '#chgParent', '#chgHideFlag'].forEach((s) => $(s).oninput = draw);
     draw();
   }
-
-  // ---------- negotiated ----------
   function renderNegotiated() {
     const rows = (summary.top_changes || []).filter((x) => x.change === 'SELECTED_DRUG_FLAG_CHANGED');
     const byIng = new Map();
-    for (const r of rows) {
-      const k = r.ingredients || r.drug;
-      const x = byIng.get(k) || { ingredient: k, brands: new Set(), forms: 0, plans: 0, labeler: r.labeler, mfr_ticker: r.mfr_ticker };
-      const bn = (r.drug.match(/\[([^\]]+)\]/) || [])[1]; if (bn) x.brands.add(bn);
-      x.forms++; x.plans = Math.max(x.plans, r.plans); byIng.set(k, x);
-    }
-    const out = [...byIng.values()].map((x) => ({ ...x, brands: [...x.brands].join(', ') }));
-    if (!out.length) { $('#negTable').innerHTML = '<tbody><tr><td class="muted">No negotiation-flag changes in this comparison.</td></tr></tbody>'; return; }
-    renderTable($('#negTable'), [
-      { key: 'ingredient', label: 'Ingredient' }, { key: 'brands', label: 'Brand' }, { key: 'forms', label: 'Products', num: true },
-      { key: 'plans', label: 'Plans (max)', num: true }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' },
-    ], out, { sortKey: 'plans' });
+    for (const r of rows) { const k = r.ingredients || r.drug; const x = byIng.get(k) || { ingredient: k, brands: new Set(), forms: 0, plans: 0, labeler: r.labeler, mfr_ticker: r.mfr_ticker }; const bn = (r.drug.match(/\[([^\]]+)\]/) || [])[1]; if (bn) x.brands.add(bn); x.forms++; x.plans = Math.max(x.plans, r.plans); byIng.set(k, x); }
+    renderTable($('#negTable'), [{ key: 'ingredient', label: 'Ingredient' }, { key: 'brands', label: 'Brand', render: (v) => esc([...v].join(', ')) }, { key: 'forms', label: 'Products', num: true }, { key: 'plans', label: 'Plans (max)', num: true }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }], [...byIng.values()], { sortKey: 'plans' });
   }
-
-  // ---------- payers ----------
   function renderPayers() {
     const bp = summary.by_plan_parent_plans_affected || {};
     const rows = Object.entries(bp).map(([p, x]) => ({ parent: p, ...x, total: Object.values(x).reduce((a, b) => a + b, 0) }));
-    const cols = [{ key: 'parent', label: 'Plan parent' }, { key: 'total', label: 'Total', num: true }].concat(TYPES.filter((t) => rows.some((r) => r[t])).map((t) => ({ key: t, label: t.replace(/_/g, ' ').toLowerCase(), num: true })));
-    renderTable($('#payerTable'), cols, rows, { sortKey: 'total' });
+    renderTable($('#payerTable'), [{ key: 'parent', label: 'Plan parent' }, { key: 'total', label: 'Total', num: true }].concat(TYPES.filter((t) => rows.some((r) => r[t])).map((t) => ({ key: t, label: t.replace(/_/g, ' ').toLowerCase(), num: true }))), rows, { sortKey: 'total' });
   }
-
-  // ---------- manufacturers ----------
   function renderMfr() {
     const bm = summary.by_manufacturer_plans_affected || {};
     const rows = Object.entries(bm).map(([t, x]) => { const { parent, ...rest } = x; return { ticker: t, parent, ...rest, total: Object.values(rest).reduce((a, b) => a + b, 0) }; });
-    const cols = [{ key: 'ticker', label: 'Ticker' }, { key: 'parent', label: 'Parent' }, { key: 'total', label: 'Total', num: true }]
-      .concat(['REMOVED', 'PA_ADDED', 'ST_ADDED', 'QL_ADDED', 'TIER_UP', 'ADDED', 'TIER_DOWN', 'PA_REMOVED', 'SELECTED_DRUG_FLAG_CHANGED'].filter((t) => rows.some((r) => r[t])).map((t) => ({ key: t, label: t.replace(/_/g, ' ').toLowerCase(), num: true })));
-    renderTable($('#mfrTable'), cols, rows, { sortKey: 'REMOVED' });
+    renderTable($('#mfrTable'), [{ key: 'ticker', label: 'Ticker' }, { key: 'parent', label: 'Parent' }, { key: 'total', label: 'Total', num: true }].concat(['REMOVED', 'PA_ADDED', 'ST_ADDED', 'QL_ADDED', 'TIER_UP', 'ADDED', 'TIER_DOWN', 'PA_REMOVED', 'SELECTED_DRUG_FLAG_CHANGED'].filter((t) => rows.some((r) => r[t])).map((t) => ({ key: t, label: t.replace(/_/g, ' ').toLowerCase(), num: true }))), rows, { sortKey: 'REMOVED' });
   }
-
-  // ---------- full detail ----------
   function parseCsv(text) {
     const rows = []; let row = [], cur = '', q = false;
-    for (let i = 0; i < text.length; i++) {
-      const c = text[i];
-      if (q) { if (c === '"' && text[i + 1] === '"') { cur += '"'; i++; } else if (c === '"') q = false; else cur += c; }
-      else if (c === '"') q = true;
-      else if (c === ',') { row.push(cur); cur = ''; }
-      else if (c === '\n') { row.push(cur); rows.push(row); row = []; cur = ''; }
-      else if (c !== '\r') cur += c;
-    }
+    for (let i = 0; i < text.length; i++) { const c = text[i]; if (q) { if (c === '"' && text[i + 1] === '"') { cur += '"'; i++; } else if (c === '"') q = false; else cur += c; } else if (c === '"') q = true; else if (c === ',') { row.push(cur); cur = ''; } else if (c === '\n') { row.push(cur); rows.push(row); row = []; cur = ''; } else if (c !== '\r') cur += c; }
     if (cur.length || row.length) { row.push(cur); rows.push(row); }
-    const h = rows.shift();
-    return rows.filter((r) => r.length === h.length).map((r) => { const o = {}; h.forEach((k, i) => { o[k] = r[i]; }); return o; });
+    const h = rows.shift(); return rows.filter((r) => r.length === h.length).map((r) => { const o = {}; h.forEach((k, i) => { o[k] = r[i]; }); return o; });
   }
   $('#loadDetail').addEventListener('click', async () => {
-    if (!summary) return;
-    $('#detStatus').textContent = 'Downloading…';
+    if (!summary) return; $('#detStatus').textContent = 'Downloading…';
     try {
-      const r = await fetch(`${BASE}${summary.tag}.csv.gz`, { cache: 'no-store' });
-      if (!r.ok) throw new Error('file not found');
-      let text;
-      if (typeof DecompressionStream === 'function') {
-        text = await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text();
-      } else {
-        throw new Error('this browser cannot decompress in the page; download the .csv.gz from the repo instead');
-      }
-      $('#detStatus').textContent = 'Parsing…';
-      detail = parseCsv(text);
-      $('#detStatus').textContent = `${fmt(detail.length)} rows loaded.`;
+      const r = await fetch(`${PD}${summary.tag}.csv.gz`, { cache: 'no-store' }); if (!r.ok) throw new Error('file not found');
+      if (typeof DecompressionStream !== 'function') throw new Error('this browser cannot decompress in the page; download the .csv.gz from the repo instead');
+      const text = await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text();
+      $('#detStatus').textContent = 'Parsing…'; detail = parseCsv(text);
       ['#detSearch', '#detType', '#detParent', '#detExport'].forEach((s) => { $(s).disabled = false; });
       $('#detType').innerHTML = '<option value="">All</option>' + TYPES.filter((t) => detail.some((x) => x.change === t)).map((t) => `<option>${t}</option>`).join('');
       drawDetail();
     } catch (e) { $('#detStatus').textContent = 'Could not load the detail file: ' + e.message; }
   });
-  function filteredDetail() {
-    const q = $('#detSearch').value.trim().toLowerCase(), ty = $('#detType').value, pa = $('#detParent').value.trim().toLowerCase();
-    return detail.filter((x) => (!ty || x.change === ty) && (!pa || (x.plan_parents || '').toLowerCase().includes(pa))
-      && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker} ${x.formulary_id} ${x.prev_formulary_id} ${x.plan_parents}`.toLowerCase().includes(q)));
-  }
-  function drawDetail() {
-    const rows = filteredDetail();
-    $('#detStatus').textContent = `${fmt(rows.length)} of ${fmt(detail.length)} rows match.`;
-    renderTable($('#detTable'), [
-      { key: 'plan_count', label: 'Plans', num: true }, { key: 'change', label: 'Change', render: tag }, { key: 'detail', label: 'Detail' },
-      { key: 'drug', label: 'Drug' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' },
-      { key: 'prev_formulary_id', label: 'From' }, { key: 'formulary_id', label: 'To' }, { key: 'plan_parents', label: 'Plan parents' },
-    ], rows, { sortKey: 'plan_count', limit: 500 });
-  }
+  function filteredDetail() { const q = $('#detSearch').value.trim().toLowerCase(), ty = $('#detType').value, pa = $('#detParent').value.trim().toLowerCase(); return detail.filter((x) => (!ty || x.change === ty) && (!pa || (x.plan_parents || '').toLowerCase().includes(pa)) && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker} ${x.formulary_id} ${x.prev_formulary_id} ${x.plan_parents}`.toLowerCase().includes(q))); }
+  function drawDetail() { const rows = filteredDetail(); $('#detStatus').textContent = `${fmt(rows.length)} of ${fmt(detail.length)} rows match.`; renderTable($('#detTable'), [{ key: 'plan_count', label: 'Plans', num: true }, { key: 'change', label: 'Change', render: tag }, { key: 'detail', label: 'Detail' }, { key: 'drug', label: 'Drug' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'prev_formulary_id', label: 'From' }, { key: 'formulary_id', label: 'To' }, { key: 'plan_parents', label: 'Plan parents' }], rows, { sortKey: 'plan_count', limit: 500 }); }
   ['#detSearch', '#detType', '#detParent'].forEach((s) => $(s).addEventListener('input', () => { if (detail) drawDetail(); }));
-  $('#detExport').addEventListener('click', () => {
-    if (!detail) return;
-    const rows = filteredDetail(); const cols = Object.keys(rows[0] || detail[0] || {});
-    const cell = (v) => /[",\n]/.test(String(v ?? '')) ? '"' + String(v).replace(/"/g, '""') + '"' : String(v ?? '');
-    const blob = new Blob([[cols.join(',')].concat(rows.map((r) => cols.map((c) => cell(r[c])).join(','))).join('\n')], { type: 'text/csv' });
-    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `${summary.tag}-filtered.csv`; a.click();
-  });
+  $('#detExport').addEventListener('click', () => { if (!detail) return; const rows = filteredDetail(); const cols = Object.keys(rows[0] || detail[0] || {}); const cell = (v) => /[",\n]/.test(String(v ?? '')) ? '"' + String(v).replace(/"/g, '""') + '"' : String(v ?? ''); const blob = new Blob([[cols.join(',')].concat(rows.map((r) => cols.map((c) => cell(r[c])).join(','))).join('\n')], { type: 'text/csv' }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `${summary.tag}-filtered.csv`; a.click(); });
 
-  loadIndex().catch((e) => { $('#overviewNote').textContent = 'Could not load the comparison index: ' + e.message; });
+  // ---------- boot ----------
+  async function boot() {
+    try { structured = await fetchJson(DOCS + 'structured.json'); } catch { structured = { sources: {} }; }
+    try { docsIndex = await fetchJson(DOCS + 'index.json'); } catch { docsIndex = { sources: {} }; }
+    buildCommercial(); renderCommercial(); renderSources(); renderMatrix();
+    ['#comSearch', '#comSource', '#comKind', '#comWatchOnly'].forEach((s) => $(s).addEventListener('input', renderCommercial));
+    $('#watchSearch').addEventListener('input', renderMatrix);
+    const nDocs = Object.keys((docsIndex || {}).sources || {}).length; const gen = (structured || {}).generated_at || '';
+    $('#foot').textContent = `${nDocs} documents watched${gen ? `; parsed ${gen.slice(0, 10)}` : ''}`;
+    await loadPartD();
+    openHash();
+  }
+  boot();
 })();
 </script>
 </body>
