@@ -149,36 +149,38 @@ async function findLatestZip() {
   const datasets = Array.isArray(catalog.dataset) ? catalog.dataset : [];
   log(`Catalog lists ${datasets.length} datasets`);
 
-  const ds = datasets.find((d) => DATASET_TITLE.test(String(d.title || '')));
-  if (!ds) {
-    const near = datasets
-      .map((d) => d.title)
-      .filter((t) => /formulary/i.test(String(t)))
-      .slice(0, 20);
-    throw new Error(`Could not find the monthly Part D dataset in the catalog. Titles containing "formulary": ${JSON.stringify(near)}`);
+  // CMS publishes each monthly file as its own dataset entry whose title ends
+  // with the posting date, e.g. "... Information : 2026-10-15". Collect every
+  // zip across all of those entries and pick the newest by date.
+  const monthly = datasets.filter((d) => DATASET_TITLE.test(String(d.title || '')));
+  log(`Monthly Part D dataset entries found: ${monthly.length}`);
+  if (monthly.length === 0) {
+    const near = datasets.map((d) => d.title).filter((t) => /formulary/i.test(String(t))).slice(0, 20);
+    throw new Error(`No monthly Part D datasets in the catalog. Titles containing "formulary": ${JSON.stringify(near)}`);
   }
-  log(`Found dataset: "${ds.title}"`);
 
-  const dists = (ds.distribution || [])
-    .map((d) => {
+  const dists = [];
+  for (const ds of monthly) {
+    const titleDate = (String(ds.title || '').match(/(\d{4})-(\d{2})-(\d{2})/) || []).slice(1).join('');
+    for (const d of ds.distribution || []) {
       const url = d.downloadURL || d.accessURL || '';
-      const name = path.basename((() => { try { return new URL(url).pathname; } catch { return url; } })());
-      return { url, name, title: d.title || '', date: extractDate(name) || extractDate(d.title || '') };
-    })
-    .filter((d) => d.url && /\.zip(\?|$)/i.test(d.url));
-
+      if (!url || !/\.zip(\?|$)/i.test(url)) continue;
+      let name = url;
+      try { name = path.basename(new URL(url).pathname); } catch {}
+      const date = extractDate(name) || titleDate;
+      dists.push({ url, name, title: ds.title, date });
+    }
+  }
   if (dists.length === 0) {
-    throw new Error(`Dataset has no zip distributions. Raw distribution sample: ${JSON.stringify((ds.distribution || []).slice(0, 3))}`);
+    throw new Error(`Monthly datasets have no zip distributions. Sample entry: ${JSON.stringify(monthly[0]).slice(0, 800)}`);
   }
 
   dists.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-  log('Newest five zips in the catalog:');
+  log('Newest five monthly zips in the catalog:');
   dists.slice(0, 5).forEach((d) => log(`   ${d.date || '(no date)'}  ${d.name}  ${d.url}`));
 
   const latest = dists[0];
-  if (!latest.date) {
-    log('WARNING: could not parse a posting date from the newest file name; proceeding with the first listed.');
-  }
+  if (!latest.date) log('WARNING: could not parse a posting date from the newest entry; proceeding with the first listed.');
   return { url: latest.url, name: latest.name };
 }
 
@@ -437,14 +439,37 @@ async function main() {
   ensureDir(unzipDir);
   execSync(`unzip -o -q "${zipPath}" -d "${unzipDir}"`, { stdio: 'inherit' });
 
-  const files = listFilesRecursive(unzipDir);
+  let files = listFilesRecursive(unzipDir);
   log(`Files inside the zip (${files.length}):`);
   files.forEach((f) => log(`   ${(fs.statSync(f).size / 1048576).toFixed(1).padStart(8)} MB  ${path.relative(unzipDir, f)}`));
 
-  const planFile = findFile(files, /plan.*information/i);
-  const formFile = findFile(files, /basic.*drugs.*formulary/i);
+  // Print the readme if there is one, since it describes the file layout.
+  const readme = files.find((f) => /readme\.txt$/i.test(f));
+  if (readme) {
+    log('---- readme.txt from the zip ----');
+    console.log(fs.readFileSync(readme, 'utf8').slice(0, 6000));
+    log('---- end readme ----');
+  }
+
+  // The monthly zip holds one inner zip per file. Unzip only the two we need
+  // (the pharmacy network zips are 2 GB and are not used here).
+  const innerDir = path.join(WORK_DIR, 'inner');
+  ensureDir(innerDir);
+  const innerPlan = findFile(files.filter((f) => /\.zip$/i.test(f)), /plan.*information/i);
+  const innerForm = findFile(files.filter((f) => /\.zip$/i.test(f)), /basic.*drugs.*formulary/i);
+  for (const z of [innerPlan, innerForm]) {
+    if (!z) continue;
+    log(`Unzipping inner file ${path.basename(z)}`);
+    execSync(`unzip -o -q "${z}" -d "${innerDir}"`, { stdio: 'inherit' });
+  }
+  files = listFilesRecursive(unzipDir);
+  const textFiles = files.filter((f) => /\.(txt|csv)$/i.test(f));
+  log(`Text files available after inner unzip: ${textFiles.map((f) => path.basename(f)).join(' | ')}`);
+
+  const planFile = findFile(textFiles, /plan.*information/i);
+  const formFile = findFile(textFiles, /basic.*drugs.*formulary/i);
   if (!planFile || !formFile) {
-    throw new Error(`Could not locate the plan information file or the basic drugs formulary file. Names above need a pattern update.`);
+    throw new Error('Could not locate the plan information text file or the basic drugs formulary text file after unzipping. Names above need a pattern update.');
   }
 
   const plans = await parsePlans(planFile);
