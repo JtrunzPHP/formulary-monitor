@@ -18,7 +18,9 @@
 
 const SOURCES = [
   // ---- CVS Caremark / Aetna (commercial formularies hosted on MMIT's formularynavigator) ----
-  { id: 'aetna-acp-2027', pbm: 'CVS Caremark', owner: 'Aetna via formularynavigator.com', name: '2027 Advanced Control Plan, Aetna', url: 'https://fm.formularynavigator.com/FBO/41/2027_Advanced_Control_Plan_Aetna.pdf', kind: 'pdf', cadence: 'quarterly (Jan/Apr/Jul/Oct) plus ad hoc', verified: 'yes' },
+  { id: 'aetna-acp-2027', pbm: 'CVS Caremark', owner: 'Aetna via formularynavigator.com', name: '2027 Advanced Control Plan, Aetna', url: 'https://fm.formularynavigator.com/FBO/41/2027_Advanced_Control_Plan_Aetna.pdf', kind: 'pdf', cadence: 'updated the first week of each month (per the document)', verified: 'yes' },
+  // 2026 edition at the same address pattern. File name inferred from the 2027 one, not verified; the run log will say if it 404s.
+  { id: 'aetna-acp-2026', pbm: 'CVS Caremark', owner: 'Aetna via formularynavigator.com', name: '2026 Advanced Control Plan, Aetna', url: 'https://fm.formularynavigator.com/FBO/41/2026_Advanced_Control_Plan_Aetna.pdf', kind: 'pdf', cadence: 'monthly', verified: 'inferred' },
 
   // ---- Express Scripts / Evernorth ----
   { id: 'esi-npf-changes-jul-2026', pbm: 'Express Scripts', owner: 'Evernorth', name: 'National Preferred Formulary exclusion changes effective July 1, 2026', url: 'https://my.comms.evernorth.com/rs/190-RZO-340/images/NPF%207.1.26%20Changes.pdf?version=0', kind: 'pdf', cadence: 'January and July', verified: 'yes' },
