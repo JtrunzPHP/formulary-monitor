@@ -1,0 +1,130 @@
+{
+  "id": "optum-formulary-updates-page",
+  "stamp": "20261027-183053",
+  "previous": "20261026-185924",
+  "kind": "update",
+  "lines_added": 26,
+  "lines_removed": 3,
+  "added": [
+    {
+      "line": 90,
+      "text": "State-specific information"
+    },
+    {
+      "line": 91,
+      "text": "Arizona"
+    },
+    {
+      "line": 92,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 93,
+      "text": "A.R.S. §20-3335: D. If a pharmacy benefit manager or health care insurer makes any formulary change that limits or excludes coverage of a prescription drug, the pharmacy benefit manager or health care insurer shall provide electronic or written notice of the removal of or change for any prescription drug on the drug formulary to each impacted covered individual and the impacted covered individual’s prescribing health care provider at least sixty days before the formulary change. The notice shall do both of the following:"
+    },
+    {
+      "line": 94,
+      "text": "Set forth the process by which the covered individual’s health care provider may notify the pharmacy benefit manager or health care insurer for the continued use of the nonformulary prescription drugs."
+    },
+    {
+      "line": 95,
+      "text": "Include notification to the prescribing health care provider that if the health care provider notifies the pharmacy benefit manager or health care insurer that the insured, enrollee or subscriber will continue on the nonformulary prescription drug for the remainder of the health care plan year, the health care provider will need to apply for a formulary exception pursuant to section 20-3336 for the continued use of the nonformulary prescription drug on renewal of the health care plan."
+    },
+    {
+      "line": 96,
+      "text": "Indiana"
+    },
+    {
+      "line": 97,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 98,
+      "text": "UHC GP EXCHANGE IN"
+    },
+    {
+      "line": 99,
+      "text": "Indiana Medicaid (FFS)"
+    },
+    {
+      "line": 100,
+      "text": "Maryland"
+    },
+    {
+      "line": 101,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 102,
+      "text": "UHC"
+    },
+    {
+      "line": 103,
+      "text": "Minnesota"
+    },
+    {
+      "line": 104,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 105,
+      "text": "State of Minnesota formulary change prohibitions do not apply for a brand name drug if: (1) the health plan adds a generic or multisource brand equivalent per the FDA Orange Book, a biologic drug rated as interchangeable according to the FDA Purple Book, or a biosimilar at the same or lower cost to the enrollee; and (2) provides 60 days’ notice to impacted covered individuals and impacted health care providers, including pharmacists."
+    },
+    {
+      "line": 106,
+      "text": "Nebraska"
+    },
+    {
+      "line": 107,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 108,
+      "text": "UHC GP EXCHANGE NE"
+    },
+    {
+      "line": 109,
+      "text": "North Dakota"
+    },
+    {
+      "line": 110,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 111,
+      "text": "UNITED HEALTHCARE & AFFILIATES ND"
+    },
+    {
+      "line": 112,
+      "text": "Oklahoma"
+    },
+    {
+      "line": 113,
+      "text": "Provider guidance"
+    },
+    {
+      "line": 114,
+      "text": "UHC of OK (PacifiCare)"
+    },
+    {
+      "line": 115,
+      "text": "UHC GP EXCHANGE OK"
+    }
+  ],
+  "removed": [
+    {
+      "line": 90,
+      "text": "State-specific utilization management information"
+    },
+    {
+      "line": 91,
+      "text": "Additional utilization management criteria and guidance are available for providers in Indiana, Nebraska, North Dakota and Oklahoma."
+    },
+    {
+      "line": 92,
+      "text": "View details"
+    }
+  ],
+  "watchlist_in_added": [],
+  "watchlist_in_removed": []
+}
