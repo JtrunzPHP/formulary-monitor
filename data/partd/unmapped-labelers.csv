@@ -37,7 +37,6 @@ Amneal Pharmaceuticals NY LLC,42
 Bayer HealthCare Pharmaceuticals Inc.,41
 "Amgen, Inc",41
 Macleods Pharmaceuticals Limited,40
-"Lannett Company, Inc.",37
 Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.,37
 "UCB, Inc.",37
 (no FDA match),36
@@ -45,6 +44,7 @@ Amneal Pharmaceuticals of New York LLC,36
 SpecGx LLC,36
 "Cosette Pharmaceuticals, Inc.",35
 "Janssen Pharmaceuticals, Inc.",35
+"Lannett Company, Inc.",34
 Bausch & Lomb Incorporated,32
 "Gilead Sciences, Inc.",32
 Cipla USA Inc.,32
@@ -79,6 +79,7 @@ Alvogen Inc.,19
 "Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.",18
 "Hospira, Inc.",18
 "Astellas Pharma US, Inc.",18
+"Lannett Company, LLC",18
 Micro Labs Limited,18
 United Therapeutics Corporation,18
 Padagis US LLC,16
@@ -89,7 +90,6 @@ Eisai Inc.,16
 "Teva Neuroscience, Inc.",16
 "Xiromed, LLC",16
 "CELLTRION USA, Inc.",16
-"Lannett Company, LLC",15
 "Alkermes, Inc.",15
 "Leading Pharma, LLC",15
 "Actelion Pharmaceuticals US, Inc.",15
@@ -125,12 +125,12 @@ Apotex Corp,11
 "Somerset Therapeutics, LLC",11
 "Aimmune Therapeutics, Inc.",11
 "Sumitomo Pharma America, Inc.",11
+"Harrow Eye, LLC",11
 Sagent Pharmaceuticals,10
 "EMD Serono, Inc.",10
 TruPharma LLC,10
 Oceanside Pharmaceuticals,10
 "SK Life Science, Inc.",10
-"Harrow Eye, LLC",10
 Biocon Biologics Inc.,10
 Acer Therapeutics Inc.,10
 Lundbeck Pharmaceuticals LLC,10
@@ -392,7 +392,7 @@ Dr. Reddys Laboratories Inc.,2
 "Azurity Pharmaceuticals, Inc",2
 "Travere Therapeutics, Inc.",2
 "Harmony Biosciences, LLC",2
-"BioCryst Pharmaceuticals, Inc.",2
+BioCryst Pharmaceuticals Inc.,2
 Sebela Pharmaceuticals Inc.,2
 Salix Pharmaceuticals,2
 "Atland Pharmaceuticals, LLC",2
@@ -500,7 +500,6 @@ Eywa Pharma Inc,1
 "BeOne Medicines USA, Inc.",1
 Servier Pharmaceutical LLC,1
 Advagen Pharma Ltd.,1
-"Oyster Point Pharma, Inc.",1
 PharmaEssentia USA,1
 "Kiniksa Pharmaceuticals (UK), Ltd.",1
 "Nivagen Pharmaceuticals, INC.",1
