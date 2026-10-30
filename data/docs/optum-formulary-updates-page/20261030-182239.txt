@@ -34,6 +34,9 @@ Manage your account, find resources and more.
 Payer lists Enrollment forms Product Support portals Claims
 Rx Prior Authorization Join Our Team All Support
 Home
+Business customer support
+Forms & resources for health care professionals
+Formulary Updates for Providers
 Section
 Formulary drug lists
 Optum Rx helps minimize patient disruption during formulary cycle updates and throughout the year. Use the lists below to find coverage information.
@@ -85,9 +88,32 @@ Quantity limits
 Select
 Premium
 Combined flyer
-State-specific utilization management information
-Additional utilization management criteria and guidance are available for providers in Indiana, Nebraska, North Dakota and Oklahoma.
-View details
+State-specific information
+Arizona
+Provider guidance
+A.R.S. §20-3335: D. If a pharmacy benefit manager or health care insurer makes any formulary change that limits or excludes coverage of a prescription drug, the pharmacy benefit manager or health care insurer shall provide electronic or written notice of the removal of or change for any prescription drug on the drug formulary to each impacted covered individual and the impacted covered individual’s prescribing health care provider at least sixty days before the formulary change. The notice shall do both of the following:
+Set forth the process by which the covered individual’s health care provider may notify the pharmacy benefit manager or health care insurer for the continued use of the nonformulary prescription drugs.
+Include notification to the prescribing health care provider that if the health care provider notifies the pharmacy benefit manager or health care insurer that the insured, enrollee or subscriber will continue on the nonformulary prescription drug for the remainder of the health care plan year, the health care provider will need to apply for a formulary exception pursuant to section 20-3336 for the continued use of the nonformulary prescription drug on renewal of the health care plan.
+Indiana
+Provider guidance
+UHC GP EXCHANGE IN
+Indiana Medicaid (FFS)
+Maryland
+Provider guidance
+UHC
+Minnesota
+Provider guidance
+State of Minnesota formulary change prohibitions do not apply for a brand name drug if: (1) the health plan adds a generic or multisource brand equivalent per the FDA Orange Book, a biologic drug rated as interchangeable according to the FDA Purple Book, or a biosimilar at the same or lower cost to the enrollee; and (2) provides 60 days’ notice to impacted covered individuals and impacted health care providers, including pharmacists.
+Nebraska
+Provider guidance
+UHC GP EXCHANGE NE
+North Dakota
+Provider guidance
+UNITED HEALTHCARE & AFFILIATES ND
+Oklahoma
+Provider guidance
+UHC of OK (PacifiCare)
+UHC GP EXCHANGE OK
 Supporting your patients
 During formulary cycle updates, Optum Rx reaches out to impacted patients with the information they need, including suggested covered alternative medications. We’re here to support you and your patients through this process.
 Here are a few things you can do to help make the transition smoother for your patients:
