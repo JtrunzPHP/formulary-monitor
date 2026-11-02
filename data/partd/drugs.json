@@ -31898,10 +31898,15 @@
   "fda_generic": "quetiapine",
   "dosage_form": "TABLET, FILM COATED",
   "route": "ORAL",
-  "labeler": "AstraZeneca Pharmaceuticals LP",
+  "labeler": "H2-Pharma, LLC",
   "marketing_category": "NDA",
   "product_type": "HUMAN PRESCRIPTION DRUG",
-  "fda_source": "cms ndc"
+  "fda_source": "rxnorm ndc",
+  "rx_ndcs": [
+   "00310027910",
+   "00310027939",
+   "61269025510"
+  ]
  },
  "616487": {
   "name": "quetiapine 50 MG Oral Tablet",
@@ -58663,7 +58668,7 @@
   "rxcui": "966248",
   "updated": "2026-10-22",
   "ndc": "00378181110",
-  "labeler": "Teva Pharmaceuticals, Inc.",
+  "labeler": "Lannett Company, Inc",
   "rx_ndcs": [
    "00378181104",
    "00378181110",
@@ -58774,11 +58779,11 @@
    "87063008860",
    "87063008890"
   ],
-  "fda_brand": "Levothyroxine sodium",
-  "fda_generic": "Levothyroxine sodium",
+  "fda_brand": "Levothyroxine Sodium",
+  "fda_generic": "Levothyroxine Sodium",
   "dosage_form": "TABLET",
   "route": "ORAL",
-  "marketing_category": "ANDA",
+  "marketing_category": "NDA AUTHORIZED GENERIC",
   "product_type": "HUMAN PRESCRIPTION DRUG",
   "fda_source": "rxnorm ndc"
  },
@@ -110150,7 +110155,7 @@
   "updated": "2026-10-22",
   "ndc": "70700031685",
   "labeler": "Xiromed, LLC",
-  "fda_brand": "Orquidea",
+  "fda_brand": "ORQUIDEA",
   "fda_generic": "norethindrone",
   "dosage_form": "TABLET",
   "route": "ORAL",
