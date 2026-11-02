@@ -1,6 +1,6 @@
 # Formulary monitor: commercial documents report
 
-Generated 2026-11-01T18:14:12.611Z
+Generated 2026-11-02T22:04:09.704Z
 
 ## 2026 Advanced Control Plan, Aetna (aetna-acp-2026)
 Parser: aetna-guide; rows 8259, problems 0, watchlist rows 488
