@@ -1,6 +1,6 @@
 # Formulary monitor: commercial documents report
 
-Generated 2026-11-02T22:04:09.704Z
+Generated 2026-11-03T19:56:03.125Z
 
 ## 2026 Advanced Control Plan, Aetna (aetna-acp-2026)
 Parser: aetna-guide; rows 8259, problems 0, watchlist rows 488
@@ -389,3 +389,29 @@ Sample rows (first 10):
 Watchlist rows (up to 60 of 2):
 - [] Freestyle g | lucose blood test strips and se monitoring kits lucose blood test strips and | 3>2 -> EXC | Brand | {} | eff 9/15/25
 - []  test strips and blood glucose test strips and blood glucose | eff 9/15/25
+
+## Optum Rx: pharmacy-passages-direct-umr-october-2026.pdf (optum-pharmacy-passages-direct-umr-october-2026)
+Parser: optum-passages; rows 31, problems 0, watchlist rows 0
+
+Notes: {"tables":5}
+
+Sample rows (first 10):
+- Biktar | vy (bictegravir- itabine-tenofovir amide) tablet ca (lenacapavir) SC | 3>2 -> 3>2 | Brand | {} | eff 11/1/26
+- inject | ion, tablet, tablet y pack y (fibrinogen human- | 3>2 -> 3>2 | Brand | {} | eff 12/1/26
+- Adalim | umab-aaty auto- | 3>2 -> EXC | Brand | {} | eff 10/28/26
+- Agents chmt) | IV injection or, prefilled syringe for ection umab-adaz prefilled | 3>2 -> EXC | Brand | {} | eff 1/1/27
+- syring | e for SC injection .1mL | 3>2 -> EXC | Brand | {} | eff 1/1/27
+- Langlara (i | nsulin dy) pen- r SC | EXC -> EXC | {"SP":false,"PA":false,"ST":false,"QL":false} | eff 9/3/26
+- Nuzolvence | in) granules spension* | EXC -> EXC | {"SP":false,"PA":false,"ST":false,"QL":false} | eff 9/3/26
+- Beqalzi (so | nrotoclax) blet therapy | EXC -> EXC | {"SP":true,"PA":false,"ST":false,"QL":false} | eff 9/10/26
+- Agents | nt) tablet* | EXC -> EXC | {"SP":true,"PA":false,"ST":false,"QL":false} | eff 9/10/26
+- Mimrylo (ru | sfertide) n* | EXC -> EXC | {"SP":true,"PA":false,"ST":false,"QL":false} | eff 9/8/26
+
+## Optum Rx: pharmacy-passages-ehb-october-2026.pdf (optum-pharmacy-passages-ehb-october-2026)
+Parser: optum-passages; rows 2, problems 0, watchlist rows 0
+
+Notes: {"tables":2}
+
+Sample rows (first 10):
+- Anitdiabetic | Cequr Inserter | Tier 2 -> Tier 2 | {} | eff 10/15/26
+- Tryng | olza (olezarsen) injector for SC | Tier 4 -> Tier 5 | {"raw":"X X X"} | eff 11/1/26

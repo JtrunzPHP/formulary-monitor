@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Anitdiabetic",
+      "name": "Cequr Inserter",
+      "brand_generic": "",
+      "tier_before": "Tier 2",
+      "tier_after": "Tier 2",
+      "flags": {},
+      "effective": "10/15/26",
+      "text": "Anitdiabetic                  Cequr Inserter                  Tier 2           Tier 2         --      --      --     --      10/15/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "Tryng",
+      "name": "olza (olezarsen) injector for SC",
+      "brand_generic": "",
+      "tier_before": "Tier 4",
+      "tier_after": "Tier 5",
+      "flags": {
+        "raw": "X X X"
+      },
+      "effective": "11/1/26",
+      "text": "auto-injector for SC                   Tier 4           Tier 5         X       X              X        11/1/26"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "tables": 2
+  }
+}

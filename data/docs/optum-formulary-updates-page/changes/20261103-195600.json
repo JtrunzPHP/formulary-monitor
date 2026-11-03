@@ -1,0 +1,30 @@
+{
+  "id": "optum-formulary-updates-page",
+  "stamp": "20261103-195600",
+  "previous": "20261102-220406",
+  "kind": "update",
+  "lines_added": 2,
+  "lines_removed": 2,
+  "added": [
+    {
+      "line": 45,
+      "text": "October 2026 Issue Download"
+    },
+    {
+      "line": 52,
+      "text": "October 2026 Issue Download"
+    }
+  ],
+  "removed": [
+    {
+      "line": 50,
+      "text": "April 2026 Issue Download"
+    },
+    {
+      "line": 57,
+      "text": "April 2026 Issue Download"
+    }
+  ],
+  "watchlist_in_added": [],
+  "watchlist_in_removed": []
+}

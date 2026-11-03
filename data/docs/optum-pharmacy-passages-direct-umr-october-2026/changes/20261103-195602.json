@@ -1,0 +1,39 @@
+{
+  "id": "optum-pharmacy-passages-direct-umr-october-2026",
+  "stamp": "20261103-195602",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 213,
+  "watchlist_in_document": [
+    {
+      "line": 77,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Langlara (insulin",
+      "context": [
+        "Therapeutic use Medication nam",
+        "Tier Tier SP PA ST QL date",
+        "Langlara (insulin",
+        "Antidiabetic glargine-aldy) pen-",
+        "Tier 3 EXC --- --- --- --- 9/3/26"
+      ]
+    },
+    {
+      "line": 96,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Mint insulin infusion",
+      "context": [
+        "Tier 3 EXC X --- --- --- 9/8/26",
+        "SC injection*",
+        "Mint insulin infusion",
+        "Diabetes",
+        "disposable pump Tier 3 EXC --- --- --- --- 9/16/26"
+      ]
+    }
+  ]
+}
