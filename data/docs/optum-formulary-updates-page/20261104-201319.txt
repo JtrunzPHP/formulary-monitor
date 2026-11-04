@@ -43,19 +43,19 @@ Optum Rx helps minimize patient disruption during formulary cycle updates and th
 Pharmacy Passages
 Pharmacy Passages is an Optum Rx publication listing monthly updates to our standard formularies. For updates specific to health plans and custom drug lists, please check with the member's prescription benefit plan.
 Pharmacy Passages - For the Select and Premium Formularies
+October 2026 Issue Download
 September 2026 Issue Download
 August 2026 Issue Download
 July 2026 Issue Download
 June 2026 Issue Download
 May 2026 Issue Download
-April 2026 Issue Download
 Pharmacy Passages - For the Health Exchange (HIX) Essential Health Benefit (EHB) Base and Enhanced Formularies
+October 2026 Issue Download
 September 2026 Issue Download
 August 2026 Issue Download
 July 2026 Issue Download
 June 2026 Issue Download
 May 2026 Issue Download
-April 2026 Issue Download
 Formulary & UM updates
 These updates may include exclusions, tier changes, prior authorizations, quantity limits and/or step therapy.
 January 1, 2027 Updates
@@ -88,7 +88,18 @@ Quantity limits
 Select
 Premium
 Combined flyer
-State-specific information
+Supporting your patients
+During formulary cycle updates, Optum Rx reaches out to impacted patients with the information they need, including suggested covered alternative medications. We’re here to support you and your patients through this process.
+Here are a few things you can do to help make the transition smoother for your patients:
+Reach out to your patient
+Or they may be contacting you with questions.
+Discuss their options
+Determine if other covered medications could benefit the patient.
+Select the medication
+If alternative medication is selected, send us an e-prescription. (Send CancelRx for the affected medication.)
+Sticking with their current medication?
+A prior authorization may be required. Visit go.covermymeds.com/optumrx to submit.
+State-specific regulatory information
 Arizona
 Provider guidance
 A.R.S. §20-3335: D. If a pharmacy benefit manager or health care insurer makes any formulary change that limits or excludes coverage of a prescription drug, the pharmacy benefit manager or health care insurer shall provide electronic or written notice of the removal of or change for any prescription drug on the drug formulary to each impacted covered individual and the impacted covered individual’s prescribing health care provider at least sixty days before the formulary change. The notice shall do both of the following:
@@ -114,17 +125,6 @@ Oklahoma
 Provider guidance
 UHC of OK (PacifiCare)
 UHC GP EXCHANGE OK
-Supporting your patients
-During formulary cycle updates, Optum Rx reaches out to impacted patients with the information they need, including suggested covered alternative medications. We’re here to support you and your patients through this process.
-Here are a few things you can do to help make the transition smoother for your patients:
-Reach out to your patient
-Or they may be contacting you with questions.
-Discuss their options
-Determine if other covered medications could benefit the patient.
-Select the medication
-If alternative medication is selected, send us an e-prescription. (Send CancelRx for the affected medication.)
-Sticking with their current medication?
-A prior authorization may be required. Visit go.covermymeds.com/optumrx to submit.
 Certain states require Optum Rx to communicate prior authorization changes before the effective date. Flyers are sent to members to outline the drugs affected by prior authorization, quantity limits, and step therapy based on benefit plan designs. Please review each document for more details.
 Please note: these changes may not reflect final P&T Committee determinations. These changes are specific to prescription drug benefits only, and do not reflect changes that may occur at the health plan level. Prescribers are strongly encouraged to check with the health plan for other changes that may occur.
 back to top
