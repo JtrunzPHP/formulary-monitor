@@ -47510,7 +47510,7 @@
   "fda_brand": "sevelamer hydrochloride",
   "fda_generic": "sevelamer hydrochloride",
   "dosage_form": "TABLET, FILM COATED",
-  "route": "PARENTERAL",
+  "route": "ORAL",
   "marketing_category": "ANDA",
   "product_type": "HUMAN PRESCRIPTION DRUG",
   "fda_source": "cms ndc"
@@ -86470,7 +86470,11 @@
   "route": "INTRAVENOUS",
   "marketing_category": "BLA",
   "product_type": "PLASMA DERIVATIVE",
-  "fda_source": "cms ndc"
+  "fda_source": "cms ndc",
+  "rx_ndcs": [
+   "64208823403",
+   "64208823407"
+  ]
  },
  "1809520": {
   "name": "200 ML immunoglobulin G, human 100 MG/ML Injection [Privigen]",
