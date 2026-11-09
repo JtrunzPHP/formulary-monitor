@@ -1,10 +1,6 @@
 Formulary Updates for Providers | Optum
 Skip to Data Use Notice
 Skip to main content
-Informational
-Data use:
-We use cookies and similar tools to make your use of this website easy and to keep it working properly. We may share data about you and how you use the site with third parties, such as analytics and marketing partners. Learn more in our Privacy Policy and Terms of Use . By continuing to use the site, you agree to this.
-Close
 Personal
 Business
 Site Logo
@@ -156,3 +152,5 @@ Opt out
 Accessibility
 Vulnerability report
 Do Not Call policy
+Data Use
+We use cookies and similar tools to make your use of this website easy and to keep it working properly. We may share data about you and how you use the site with third parties, such as analytics and marketing partners. Learn more in our Privacy Policy and Terms of Use . By continuing to use the site, you agree to this.
