@@ -1,12 +1,12 @@
 labeler,drug_count
-"Teva Pharmaceuticals USA, Inc.",193
+"Teva Pharmaceuticals USA, Inc.",195
 Aurobindo Pharma Limited,157
 Pfizer Laboratories Div Pfizer Inc,140
 Novartis Pharmaceuticals Corporation,119
 Mylan Pharmaceuticals Inc.,115
 "Sun Pharmaceutical Industries, Inc.",115
 "Lupin Pharmaceuticals, Inc.",110
-Hikma Pharmaceuticals USA Inc.,101
+Hikma Pharmaceuticals USA Inc.,99
 Apotex Corp.,94
 Zydus Pharmaceuticals USA Inc.,88
 Amneal Pharmaceuticals LLC,85
@@ -33,9 +33,9 @@ Viatris Specialty LLC,57
 Organon LLC,52
 "Teva Pharmaceuticals, Inc.",46
 "Ingenus Pharmaceuticals, LLC",46
+"Amgen, Inc",44
 Amneal Pharmaceuticals NY LLC,42
 Bayer HealthCare Pharmaceuticals Inc.,41
-"Amgen, Inc",41
 Macleods Pharmaceuticals Limited,40
 Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.,37
 "UCB, Inc.",37
@@ -237,7 +237,6 @@ Mayne Pharma,4
 "TruPharma, LLC",4
 "Vifor Pharma, Inc.",4
 "Leadiant Biosciences, Inc.",4
-Amgen Inc,4
 BluePoint Laboratories,4
 "BIOCODEX, INC.",4
 "Glenmark Pharmaceuticals Inc.,USA",4
@@ -458,6 +457,7 @@ DR.REDDYS LABORATORIES INC,1
 Proficient Rx LP,1
 TruPharma LLC.,1
 "Duchesnay USA, Inc.",1
+Amgen Inc,1
 Hikma Specialty USA Inc.,1
 APOTEX CORP.,1
 American Health Packaging,1
