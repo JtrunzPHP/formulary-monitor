@@ -73,12 +73,14 @@ async function main() {
   if (prev && prev.period === period && !OVERRIDE) { log('Already have this period. Nothing to do.'); fs.rmSync(WORK, { recursive: true, force: true }); return; }
 
   execSync(`unzip -o -q "${zipPath}" -d "${WORK}"`, { stdio: 'inherit' });
-  const files = fs.readdirSync(WORK).filter((f) => /\.csv$/i.test(f));
-  log(`Files in zip: ${fs.readdirSync(WORK).join(', ')}`);
-  const csv = files.find((f) => /plan/i.test(f)) || files[0];
+  const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]);
+  const all = walk(WORK).filter((f) => f !== zipPath);
+  log(`Files in zip: ${all.map((f) => path.relative(WORK, f)).join(', ')}`);
+  const csvs = all.filter((f) => /\.csv$/i.test(f));
+  const csv = csvs.find((f) => /plan/i.test(path.basename(f))) || csvs[0];
   if (!csv) throw new Error('No CSV in the enrollment zip');
 
-  const lines = fs.readFileSync(path.join(WORK, csv), 'utf8').split(/\r?\n/).filter((l) => l.length);
+  const lines = fs.readFileSync(csv, 'utf8').split(/\r?\n/).filter((l) => l.length);
   const header = parseCsvLine(lines[0]).map((h) => h.replace(/^\uFEFF/, '').trim());
   log(`Columns (${header.length}): ${header.join(' | ')}`);
   const idx = (names) => { for (const n of names) { const i = header.findIndex((h) => h.toLowerCase() === n.toLowerCase()); if (i >= 0) return i; } return -1; };
