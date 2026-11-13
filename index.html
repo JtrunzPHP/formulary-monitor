@@ -262,7 +262,9 @@
       }
     }
     // Part D column: by manufacturer ticker from the latest comparison summary
-    const pdCol = summary && summary.by_manufacturer_plans_affected ? summary.by_manufacturer_plans_affected : null;
+    const pdLives = summary && summary.by_manufacturer_lives_affected && Object.keys(summary.by_manufacturer_lives_affected).length;
+    const pdCol = summary ? (pdLives ? summary.by_manufacturer_lives_affected : summary.by_manufacturer_plans_affected) : null;
+    const pdUnit = pdLives ? 'lives' : 'plan-events';
     const rows = [...labels.values()].sort((a, b) => a.label.localeCompare(b.label)).filter((x) => !q || `${x.label} ${[...x.tickers].join(' ')}`.toLowerCase().includes(q) || sources.some((s) => s.name.toLowerCase().includes(q) && x.cells.has(s.id)));
     const cols = sources.filter((s) => !q || rows.some((x) => x.cells.has(s.id)) || s.name.toLowerCase().includes(q));
     const head = '<thead><tr><th>Product family</th>' + cols.map((s) => `<th class="col" title="${esc(s.url || '')}">${esc(s.name)}<br><span class="muted">${esc(s.pbm || '')}</span></th>`).join('') + (pdCol ? `<th class="col">Medicare Part D<br><span class="muted">${esc(summary.prev)} → ${esc(summary.latest)}</span></th>` : '') + '</tr></thead>';
@@ -285,7 +287,7 @@
         if (!hits.length) pd = '<td><span class="muted">·</span></td>';
         else {
           const sum = {}; for (const h of hits) for (const [k, v] of Object.entries(h)) if (k !== 'parent') sum[k] = (sum[k] || 0) + v;
-          const bits = [['REMOVED', 'notcov', 'removed'], ['PA_ADDED', 'limited', 'PA added'], ['ST_ADDED', 'limited', 'ST added'], ['QL_ADDED', 'limited', 'QL added'], ['ADDED', 'covered', 'added']].filter(([k]) => sum[k]).map(([k, cls, l]) => `<span class="cell ${cls}">${fmt(sum[k])} <small>plan-events ${l}</small></span>`);
+          const bits = [['REMOVED', 'notcov', 'removed'], ['PA_ADDED', 'limited', 'PA added'], ['ST_ADDED', 'limited', 'ST added'], ['QL_ADDED', 'limited', 'QL added'], ['ADDED', 'covered', 'added']].filter(([k]) => sum[k]).map(([k, cls, l]) => `<span class="cell ${cls}">${fmt(sum[k])} <small>${pdUnit} ${l}</small></span>`);
           pd = `<td>${bits.join('') || '<span class="muted">no coverage events</span>'}</td>`;
         }
       }
@@ -339,7 +341,7 @@
     ['#detSearch', '#detType', '#detParent', '#detExport'].forEach((s) => { $(s).disabled = true; });
     summary = await fetchJson(`${PD}${tag}.summary.json`);
     const s = summary;
-    $('#pdMeta').textContent = `Contract year ${s.contract_year_prev} to ${s.contract_year_latest}${s.new_plan_year ? ' (annual reset)' : ''}; ${fmt(s.plans_matched)} plans matched, ${fmt(s.plans_new)} new, ${fmt(s.plans_gone)} gone; generated ${String(s.generated_at).slice(0, 10)}.`;
+    $('#pdMeta').textContent = `Contract year ${s.contract_year_prev} to ${s.contract_year_latest}${s.new_plan_year ? ' (annual reset)' : ''}; ${fmt(s.plans_matched)} plans matched, ${fmt(s.plans_new)} new, ${fmt(s.plans_gone)} gone${s.enrollment_period ? `; weighted by CMS enrollment for ${s.enrollment_period} (${fmt(s.enrollment_total)} lives)` : ''}; generated ${String(s.generated_at).slice(0, 10)}.`;
     $('#overviewNote').textContent = s.new_plan_year ? 'This comparison crosses a plan-year boundary, so it captures each sponsor\'s annual formulary reset. Formulary IDs change every year; plans are followed from their old formulary to their new one.' : 'This comparison is within a plan year, so every change is a mid-year sponsor decision or a CMS file correction.';
     renderOverview(); renderChanges(); renderNegotiated(); renderPayers(); renderMfr(); renderMatrix();
   }
@@ -359,7 +361,8 @@
     const draw = () => {
       const q = $('#chgSearch').value.trim().toLowerCase(), ty = typeSel.value, pa = parSel.value, hide = $('#chgHideFlag').checked;
       const rows = top.filter((x) => (!hide || x.change !== 'SELECTED_DRUG_FLAG_CHANGED') && (!ty || x.change === ty) && (!pa || (x.parents || []).some((p) => p.startsWith(pa + ' ('))) && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker}`.toLowerCase().includes(q)));
-      renderTable($('#chgTable'), [{ key: 'plans', label: 'Plans', num: true }, { key: 'transitions', label: 'Formularies', num: true }, { key: 'change', label: 'Change', render: tag }, { key: 'drug', label: 'Drug' }, { key: 'tty', label: 'Type' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'parents', label: 'Plan parents', render: (v) => esc((v || []).slice(0, 4).join('; ') + ((v || []).length > 4 ? '; …' : '')) }], rows, { sortKey: 'plans' });
+      const hasLives = rows.some((x) => x.lives);
+      renderTable($('#chgTable'), [{ key: 'lives', label: 'Lives', num: true }, { key: 'plans', label: 'Plans', num: true }, { key: 'transitions', label: 'Formularies', num: true }, { key: 'change', label: 'Change', render: (v, r) => tag(v) + (r.structural && r.structural >= (r.lives || 0) * 0.5 ? ' <span class="muted" title="Most of these lives are on formularies whose tier count changed, so the tier move reflects a new tier structure">structural</span>' : '') }, { key: 'drug', label: 'Drug' }, { key: 'tty', label: 'Type' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'lives_parents', label: 'Lives by parent', render: (v, r) => esc(((v && v.length ? v : r.parents) || []).slice(0, 4).join('; ') + (((v && v.length ? v : r.parents) || []).length > 4 ? '; …' : '')) }], rows, { sortKey: hasLives ? 'lives' : 'plans' });
     };
     ['#chgSearch', '#chgType', '#chgParent', '#chgHideFlag'].forEach((s) => $(s).oninput = draw);
     draw();
@@ -371,12 +374,12 @@
     renderTable($('#negTable'), [{ key: 'ingredient', label: 'Ingredient' }, { key: 'brands', label: 'Brand', render: (v) => esc([...v].join(', ')) }, { key: 'forms', label: 'Products', num: true }, { key: 'plans', label: 'Plans (max)', num: true }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }], [...byIng.values()], { sortKey: 'plans' });
   }
   function renderPayers() {
-    const bp = summary.by_plan_parent_plans_affected || {};
+    const bp = (summary.by_plan_parent_lives_affected && Object.keys(summary.by_plan_parent_lives_affected).length) ? summary.by_plan_parent_lives_affected : (summary.by_plan_parent_plans_affected || {});
     const rows = Object.entries(bp).map(([p, x]) => ({ parent: p, ...x, total: Object.values(x).reduce((a, b) => a + b, 0) }));
     renderTable($('#payerTable'), [{ key: 'parent', label: 'Plan parent' }, { key: 'total', label: 'Total', num: true }].concat(TYPES.filter((t) => rows.some((r) => r[t])).map((t) => ({ key: t, label: t.replace(/_/g, ' ').toLowerCase(), num: true }))), rows, { sortKey: 'total' });
   }
   function renderMfr() {
-    const bm = summary.by_manufacturer_plans_affected || {};
+    const bm = (summary.by_manufacturer_lives_affected && Object.keys(summary.by_manufacturer_lives_affected).length) ? summary.by_manufacturer_lives_affected : (summary.by_manufacturer_plans_affected || {});
     const rows = Object.entries(bm).map(([t, x]) => { const { parent, ...rest } = x; return { ticker: t, parent, ...rest, total: Object.values(rest).reduce((a, b) => a + b, 0) }; });
     renderTable($('#mfrTable'), [{ key: 'ticker', label: 'Ticker' }, { key: 'parent', label: 'Parent' }, { key: 'total', label: 'Total', num: true }].concat(['REMOVED', 'PA_ADDED', 'ST_ADDED', 'QL_ADDED', 'TIER_UP', 'ADDED', 'TIER_DOWN', 'PA_REMOVED', 'SELECTED_DRUG_FLAG_CHANGED'].filter((t) => rows.some((r) => r[t])).map((t) => ({ key: t, label: t.replace(/_/g, ' ').toLowerCase(), num: true }))), rows, { sortKey: 'REMOVED' });
   }
