@@ -1,0 +1,29 @@
+{
+  "docs": {
+    "aetna-acp-2027": "20261022-211806",
+    "esi-npf-changes-jul-2026": "20261022-211455",
+    "esi-npf-changes-jan-2026": "20261022-211455",
+    "esi-npf-flex-changes-jan-2026": "20261022-211456",
+    "optum-formulary-updates-page": "20261112-203728",
+    "optum-pharmacy-passages-sep-2025": "20261022-211456",
+    "optum-pharmacy-passages-direct-september-2026": "20261022-212153",
+    "optum-pharmacy-passages-august-2026": "20261022-212153",
+    "optum-pharmacy-passages-july-2026": "20261022-212154",
+    "optum-pharmacy-passages-direct-umr-june-2026": "20261022-212154",
+    "optum-pharmacy-passages-direct-umr-may-2026": "20261022-212154",
+    "optum-pharmacy-passages-direct-umr-april-2026": "20261022-212154",
+    "optum-pharmacy-passages-ehb-september-2026": "20261022-212154",
+    "optum-pharmacy-passages-ehb-august-2026": "20261022-212154",
+    "optum-pharmacy-passages-ehb-july-2026": "20261022-212155",
+    "optum-pharmacy-passages-ehb-june-2026": "20261022-212155",
+    "optum-pharmacy-passages-ehb-may-2026": "20261022-212155",
+    "optum-pharmacy-passages-ehb-april-2026": "20261022-212155",
+    "aetna-acp-2026": "20261022-212410",
+    "optum-pharmacy-passages-direct-umr-october-2026": "20261103-195602",
+    "optum-pharmacy-passages-ehb-october-2026": "20261103-195603"
+  },
+  "partd": {
+    "last_tag": "20260916_to_20261008"
+  },
+  "last_sent": "2026-11-13T18:30:57.009Z"
+}
