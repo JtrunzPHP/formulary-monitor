@@ -149,6 +149,11 @@ async function processSource(src, index) {
   if (last && last.hash === hash) {
     meta.last_checked = new Date().toISOString();
     writeJson(path.join(dir, 'meta.json'), meta);
+    // Word-coordinate file for the current capture, if it was never produced (older captures predate it).
+    if (src.kind === 'pdf' && /^(optum-|aetna-)/.test(src.id) && !fs.existsSync(path.join(dir, `${last.stamp}.bbox.html`))) {
+      try { execSync(`pdftotext -bbox "${tmp}" "${path.join(dir, `${last.stamp}.bbox.html`)}"`, { stdio: 'pipe' }); log('   wrote word coordinates for the current capture'); }
+      catch (e) { log(`   bbox extraction failed: ${e.message}`); }
+    }
     if (!FORCE) return { id: src.id, status: 'unchanged', found: src.__found || [] };
     // Force on an unchanged document: re-report the watchlist hits in the current text, write nothing.
     let text;
