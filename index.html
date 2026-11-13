@@ -8,169 +8,167 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f5f7f8; --panel: #ffffff; --ink: #16202a; --ink-2: #536270; --line: #dbe1e6; --line-2: #eef1f4;
-    --accent: #0f6e6e; --accent-soft: #e2f0f0;
-    --add: #2f7d4f; --remove: #b23a3a; --restrict: #b7791f; --tier: #4b5fa8; --flag: #7a5aa6;
-    --covered: #e3f1e8; --covered-ink: #1f5c38; --notcov: #f6e2e2; --notcov-ink: #7d2727; --limited: #f7ecd6; --limited-ink: #6d4a0a; --neutral: #eef1f4; --neutral-ink: #3b4752;
-    color-scheme: light;
+    --bg: #f4f6f8; --panel: #ffffff; --ink: #16202a; --ink-2: #5a6774; --ink-3: #8a96a3; --line: #dde3e8; --line-2: #eef1f4;
+    --accent: #0f6e6e; --accent-ink: #ffffff; --accent-soft: #e3f1f0;
+    --good: #2f7d4f; --good-bg: #e4f2e9; --warn: #b7791f; --warn-bg: #f8edd6; --bad: #b23a3a; --bad-bg: #f7e3e3; --info: #4b5fa8; --info-bg: #e7eaf6; --flag: #7a5aa6;
+    --radius: 10px; color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #12181d; --panel: #1a2229; --ink: #e9eef2; --ink-2: #a2afba; --line: #2b3741; --line-2: #222c34;
-      --accent: #5fc1c1; --accent-soft: #1d3636;
-      --add: #6fc48f; --remove: #e07a7a; --restrict: #e0b45a; --tier: #8fa0e0; --flag: #b79ad8;
-      --covered: #1d3a29; --covered-ink: #9fdcb6; --notcov: #432020; --notcov-ink: #f0a1a1; --limited: #3f3217; --limited-ink: #efcf86; --neutral: #263039; --neutral-ink: #c5ced6;
-      color-scheme: dark;
-    }
+    :root { --bg: #11171c; --panel: #1a2229; --ink: #e8edf1; --ink-2: #a6b2bd; --ink-3: #74818d; --line: #2a3640; --line-2: #212b33;
+      --accent: #5fc1c1; --accent-ink: #0f1a1a; --accent-soft: #1b3333;
+      --good: #6fc48f; --good-bg: #1c3728; --warn: #e0b45a; --warn-bg: #3d3117; --bad: #e07a7a; --bad-bg: #432020; --info: #8fa0e0; --info-bg: #232a44; --flag: #b79ad8; color-scheme: dark; }
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 15px; line-height: 1.45; }
-  a { color: var(--accent); }
-  .app { display: grid; grid-template-columns: 220px 1fr; min-height: 100%; }
-  aside { background: var(--panel); border-right: 1px solid var(--line); padding: 22px 16px; position: sticky; top: 0; height: 100vh; display: flex; flex-direction: column; gap: 6px; }
-  aside h1 { font-size: 17px; font-weight: 600; margin: 0 8px 14px; letter-spacing: -0.01em; }
-  aside h1 small { display: block; font-weight: 400; color: var(--ink-2); font-size: 12px; margin-top: 2px; }
-  aside button { font: inherit; text-align: left; color: var(--ink-2); background: none; border: none; border-radius: 6px; padding: 8px 10px; cursor: pointer; width: 100%; }
-  aside button[aria-selected=true] { background: var(--accent-soft); color: var(--ink); font-weight: 500; }
-  aside button:hover { color: var(--ink); }
-  aside button:focus-visible { outline: 2px solid var(--accent); }
-  aside .foot { margin-top: auto; font-size: 12px; color: var(--ink-2); padding: 0 10px; }
-  main { padding: 24px 32px 70px; min-width: 0; }
-  .topbar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 18px; }
-  .topbar h2 { font-size: 22px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
-  .topbar .sub { color: var(--ink-2); font-size: 14px; max-width: 80ch; }
-  .topbar .spacer { flex: 1; }
-  input[type=search], select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; }
-  input[type=search] { min-width: 280px; }
-  input[type=search]:focus, select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--ink); font: 15px/1.5 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+  .app { display: grid; grid-template-columns: 236px 1fr; min-height: 100vh; }
+  nav { position: sticky; top: 0; height: 100vh; background: var(--panel); border-right: 1px solid var(--line); padding: 22px 14px; display: flex; flex-direction: column; gap: 4px; }
+  nav .brand { padding: 0 10px 16px; }
+  nav .brand b { display: block; font-size: 17px; letter-spacing: -0.01em; }
+  nav .brand small { color: var(--ink-2); font-size: 12px; }
+  nav button { font: inherit; text-align: left; color: var(--ink-2); background: none; border: none; border-radius: 8px; padding: 9px 12px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  nav button[aria-selected=true] { background: var(--accent-soft); color: var(--ink); font-weight: 600; }
+  nav button:hover { color: var(--ink); }
+  nav button .n { font: 500 12px "IBM Plex Mono", monospace; color: var(--ink-3); background: var(--line-2); border-radius: 999px; padding: 1px 8px; }
+  nav .foot { margin-top: auto; font-size: 12px; color: var(--ink-3); padding: 0 12px; line-height: 1.5; }
+  main { padding: 26px 36px 80px; min-width: 0; }
+  .head { display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; }
+  .head h2 { margin: 0; font-size: 24px; font-weight: 600; letter-spacing: -0.015em; }
+  .head p { margin: 4px 0 0; color: var(--ink-2); max-width: 78ch; }
+  .head .spacer { flex: 1; }
+  input[type=search], select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+  input[type=search] { min-width: 300px; }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
   .view[hidden] { display: none; }
-  .note { color: var(--ink-2); font-size: 14px; max-width: 82ch; margin: 0 0 14px; }
-  .strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 0 0 20px; }
-  .strip div { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
-  .strip b { display: block; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 22px; font-weight: 500; }
-  .strip span { color: var(--ink-2); font-size: 13px; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 16px; }
-  .card h3 { margin: 0 0 4px; font-size: 15px; font-weight: 600; }
-  .card .meta { color: var(--ink-2); font-size: 13px; margin-bottom: 10px; }
-  table { border-collapse: collapse; width: 100%; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; font-size: 14px; }
-  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line-2); vertical-align: top; }
-  th { font-weight: 600; color: var(--ink-2); font-size: 13px; position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none; white-space: nowrap; z-index: 1; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-bottom: 22px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; min-width: 0; }
+  .card.kpi b { display: block; font: 500 28px/1.1 "IBM Plex Mono", monospace; margin: 2px 0 6px; }
+  .card.kpi .l { color: var(--ink-2); font-size: 13px; }
+  .card.kpi .s { color: var(--ink-3); font-size: 12px; margin-top: 8px; }
+  .card h3 { margin: 0 0 10px; font-size: 15px; font-weight: 600; }
+  .card h3 small { color: var(--ink-3); font-weight: 400; margin-left: 8px; }
+  .two { display: grid; grid-template-columns: 1.4fr 1fr; gap: 14px; }
+  @media (max-width: 1100px) { .two { grid-template-columns: 1fr; } }
+  ul.list { list-style: none; margin: 0; padding: 0; }
+  ul.list li { padding: 8px 0; border-top: 1px solid var(--line-2); display: flex; gap: 10px; align-items: baseline; }
+  ul.list li:first-child { border-top: none; }
+  ul.list .m { color: var(--ink-3); font: 12px "IBM Plex Mono", monospace; white-space: nowrap; }
+  .pill { display: inline-block; font-size: 12px; font-weight: 500; border-radius: 999px; padding: 2px 9px; white-space: nowrap; background: var(--line-2); color: var(--ink-2); }
+  .pill.good { background: var(--good-bg); color: var(--good); } .pill.warn { background: var(--warn-bg); color: var(--warn); } .pill.bad { background: var(--bad-bg); color: var(--bad); } .pill.info { background: var(--info-bg); color: var(--info); }
+  .tk { font: 500 12px "IBM Plex Mono", monospace; color: var(--ink-2); }
+  .toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 0 0 14px; }
+  .toolbar label { color: var(--ink-2); font-size: 13px; display: flex; gap: 6px; align-items: center; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--panel); color: var(--ink-2); border-radius: 999px; padding: 4px 11px; cursor: pointer; }
+  .chip[aria-pressed=true] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line-2); vertical-align: top; }
+  th { font-weight: 600; color: var(--ink-2); font-size: 12.5px; letter-spacing: 0.02em; text-transform: uppercase; position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none; white-space: nowrap; z-index: 1; }
   tr:last-child td { border-bottom: none; }
-  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .wrap { overflow-x: auto; border-radius: 8px; }
-  .tag { display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: 12px; font-weight: 500; border: 1px solid transparent; white-space: nowrap; }
-  .tag.ADDED, .tag.PA_REMOVED, .tag.ST_REMOVED, .tag.QL_REMOVED, .tag.Add { color: var(--add); border-color: currentColor; }
-  .tag.REMOVED, .tag.Remove { color: var(--remove); border-color: currentColor; }
-  .tag.PA_ADDED, .tag.ST_ADDED, .tag.QL_ADDED, .tag.QL_CHANGED, .tag.RESTRICTION_CHANGED { color: var(--restrict); border-color: currentColor; }
-  .tag.TIER_UP, .tag.TIER_DOWN, .tag.TIER_CHANGED { color: var(--tier); border-color: currentColor; }
-  .tag.SELECTED_DRUG_FLAG_CHANGED, .tag.FORMULARY_SPLIT, .tag.PLAN_FORMULARY_SWITCH { color: var(--flag); border-color: currentColor; }
-  /* watchlist matrix */
-  .matrix { border-collapse: separate; border-spacing: 0; }
-  .matrix th.col { writing-mode: horizontal-tb; max-width: 190px; white-space: normal; line-height: 1.25; font-size: 12px; }
-  .matrix td.name { font-weight: 500; white-space: nowrap; }
-  .matrix td.name small { display: block; color: var(--ink-2); font-weight: 400; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 12px; }
-  .cell { display: inline-block; border-radius: 5px; padding: 3px 8px; font-size: 12.5px; font-weight: 500; line-height: 1.3; background: var(--neutral); color: var(--neutral-ink); margin: 1px 4px 1px 0; }
-  .cell.covered { background: var(--covered); color: var(--covered-ink); }
-  .cell.notcov { background: var(--notcov); color: var(--notcov-ink); }
-  .cell.limited { background: var(--limited); color: var(--limited-ink); }
-  .cell small { font-weight: 400; opacity: .85; }
-  .legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--ink-2); font-size: 13px; margin: 8px 0 16px; }
-  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
-  details { margin: 8px 0; }
-  summary { cursor: pointer; color: var(--accent); font-weight: 500; }
-  .mix { display: grid; grid-template-columns: 220px 1fr 90px; gap: 10px 14px; align-items: center; margin-bottom: 8px; }
+  td.num, th.num { text-align: right; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .muted { color: var(--ink-3); }
+  .empty { padding: 36px 20px; text-align: center; color: var(--ink-2); }
+  .empty b { display: block; color: var(--ink); margin-bottom: 6px; }
+  .err { background: var(--bad-bg); color: var(--bad); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; font-size: 13px; }
+  .cell { display: inline-block; border-radius: 6px; padding: 3px 9px; font-size: 12.5px; font-weight: 500; line-height: 1.35; background: var(--line-2); color: var(--ink-2); margin: 1px 4px 1px 0; }
+  .cell.good { background: var(--good-bg); color: var(--good); } .cell.warn { background: var(--warn-bg); color: var(--warn); } .cell.bad { background: var(--bad-bg); color: var(--bad); }
+  .cell small { font-weight: 400; opacity: .85; margin-left: 4px; }
+  .matrix td.name { white-space: nowrap; font-weight: 500; }
+  .matrix td.name small { display: block; color: var(--ink-3); font-weight: 400; }
+  .matrix tr.group td { background: var(--line-2); font: 600 12.5px "IBM Plex Mono", monospace; color: var(--ink-2); letter-spacing: 0.02em; }
+  .tag { display: inline-block; padding: 1px 7px; border-radius: 5px; font-size: 12px; font-weight: 500; border: 1px solid currentColor; white-space: nowrap; }
+  .tag.ADDED, .tag.PA_REMOVED, .tag.ST_REMOVED, .tag.QL_REMOVED, .tag.NOW_COVERED, .tag.Add { color: var(--good); }
+  .tag.REMOVED, .tag.NOW_NOT_COVERED, .tag.Remove { color: var(--bad); }
+  .tag.PA_ADDED, .tag.ST_ADDED, .tag.QL_ADDED, .tag.QL_CHANGED, .tag.RESTRICTION_CHANGED { color: var(--warn); }
+  .tag.TIER_UP, .tag.TIER_DOWN, .tag.TIER_CHANGED { color: var(--info); }
+  .tag.SELECTED_DRUG_FLAG_CHANGED, .tag.FORMULARY_SPLIT, .tag.PLAN_FORMULARY_SWITCH { color: var(--flag); }
+  .mix { display: grid; grid-template-columns: 220px 1fr 90px; gap: 8px 14px; align-items: center; margin-bottom: 8px; }
   .mix .nm { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .mix .bar { display: flex; height: 16px; border-radius: 4px; overflow: hidden; background: var(--line-2); }
+  .mix .bar { display: flex; height: 14px; border-radius: 4px; overflow: hidden; background: var(--line-2); }
   .mix .bar i { display: block; height: 100%; }
-  .mix .tot { font-family: "IBM Plex Mono", ui-monospace, monospace; text-align: right; color: var(--ink-2); font-size: 13px; }
-  .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
-  .filters label { color: var(--ink-2); font-size: 13px; }
-  button.plain { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 7px 12px; cursor: pointer; }
-  button.plain:hover { border-color: var(--accent); }
-  .muted { color: var(--ink-2); }
+  .mix .tot { font: 13px "IBM Plex Mono", monospace; text-align: right; color: var(--ink-2); }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; color: var(--ink-2); font-size: 13px; margin: 6px 0 14px; }
+  .legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+  details { margin: 10px 0; } summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+  button.plain { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; cursor: pointer; }
   .status { font-size: 13px; color: var(--ink-2); margin: 8px 0; }
-  .ok { color: var(--add); } .bad { color: var(--remove); }
-  @media (max-width: 860px) { .app { grid-template-columns: 1fr; } aside { position: static; height: auto; flex-direction: row; flex-wrap: wrap; } aside h1 { width: 100%; } aside button { width: auto; } aside .foot { display: none; } main { padding: 16px; } .mix { grid-template-columns: 120px 1fr 70px; } }
+  section + section { margin-top: 22px; }
+  h3.sec { font-size: 15px; font-weight: 600; margin: 22px 0 10px; }
+  @media (max-width: 860px) { .app { grid-template-columns: 1fr; } nav { position: static; height: auto; flex-direction: row; flex-wrap: wrap; } nav .brand { width: 100%; } nav .foot { display: none; } main { padding: 16px; } .mix { grid-template-columns: 110px 1fr 64px; } }
 </style>
 </head>
 <body>
 <div class="app">
-  <aside>
-    <h1>Formulary Monitor<small>Parkman Healthcare Partners</small></h1>
-    <button data-view="watch" aria-selected="true">Watchlist</button>
-    <button data-view="commercial" aria-selected="false">Commercial changes</button>
+  <nav>
+    <div class="brand"><b>Formulary Monitor</b><small>Parkman Healthcare Partners</small></div>
+    <button data-view="overview" aria-selected="true">Overview</button>
+    <button data-view="watch" aria-selected="false">Watchlist <span class="n" id="nWatch"></span></button>
+    <button data-view="editions" aria-selected="false">Aetna editions <span class="n" id="nEd"></span></button>
+    <button data-view="optum" aria-selected="false">Optum updates <span class="n" id="nOpt"></span></button>
     <button data-view="partd" aria-selected="false">Medicare Part D</button>
-    <button data-view="sources" aria-selected="false">Sources</button>
+    <button data-view="sources" aria-selected="false">Sources <span class="n" id="nSrc"></span></button>
     <div class="foot" id="foot"></div>
-  </aside>
+  </nav>
 
   <main>
-    <!-- Watchlist -->
-    <section class="view" id="view-watch">
-      <div class="topbar">
-        <div><h2>Watchlist across formularies</h2><div class="sub">Each row is a product family you asked to follow; each column is a formulary we track. Cells show the latest status read from that document.</div></div>
-        <div class="spacer"></div>
-        <input type="search" id="watchSearch" placeholder="Filter by product, ticker, formulary">
+    <!-- Overview -->
+    <section class="view" id="view-overview">
+      <div class="head"><div><h2>What changed</h2><p>The findings the monitor has produced so far, with the watchlist first. Each number links to the view that holds the detail.</p></div></div>
+      <div id="ovErr"></div>
+      <div class="cards" id="ovCards"></div>
+      <div class="two">
+        <div class="card"><h3>Watchlist movements <small>coverage changes on the names you follow</small></h3><ul class="list" id="ovWatch"></ul></div>
+        <div class="card"><h3>Latest documents <small>newest captures</small></h3><ul class="list" id="ovDocs"></ul></div>
       </div>
-      <div class="legend">
-        <span><i style="background:var(--covered)"></i>Covered or preferred</span>
-        <span><i style="background:var(--limited)"></i>Covered with restriction or tier move</span>
-        <span><i style="background:var(--notcov)"></i>Not covered or excluded</span>
-        <span><i style="background:var(--neutral)"></i>Mentioned, status not parsed</span>
-      </div>
-      <div class="wrap"><table class="matrix" id="matrix"></table></div>
-      <p class="note" style="margin-top:14px" id="matrixNote"></p>
     </section>
 
-    <!-- Commercial -->
-    <section class="view" id="view-commercial" hidden>
-      <div class="topbar">
-        <div><h2>Commercial formulary changes</h2><div class="sub">Structured rows parsed from each PBM document: Optum Rx monthly update tables, and version-to-version comparisons of the Aetna drug guides.</div></div>
-        <div class="spacer"></div>
-        <input type="search" id="comSearch" placeholder="Filter by drug, class, document">
-      </div>
-      <div class="filters">
-        <label>Source <select id="comSource"><option value="">All</option></select></label>
-        <label>Kind <select id="comKind"><option value="">All</option><option value="tier_change">Tier or UM change</option><option value="add_remove">Add or remove</option><option value="diff">Version comparison</option></select></label>
-        <label><input type="checkbox" id="comWatchOnly"> Watchlist only</label>
-      </div>
-      <div class="wrap"><table id="comTable"></table></div>
+    <!-- Watchlist -->
+    <section class="view" id="view-watch" hidden>
+      <div class="head"><div><h2>Watchlist across formularies</h2><p>One row per product, grouped by ticker. Each column is a formulary document; a cell shows what that document says about the product.</p></div><div class="spacer"></div><input type="search" id="watchSearch" placeholder="Filter by product or ticker"></div>
+      <div class="toolbar"><div class="chips" id="watchChips"></div></div>
+      <div class="legend"><span><i style="background:var(--good-bg)"></i>Covered or preferred</span><span><i style="background:var(--warn-bg)"></i>Covered with restriction, or moved tier</span><span><i style="background:var(--bad-bg)"></i>Not covered or excluded</span><span><i style="background:var(--line-2)"></i>Mentioned, status not read</span></div>
+      <div id="watchErr"></div>
+      <div class="wrap"><table class="matrix" id="matrix"></table></div>
+      <p class="muted" style="font-size:13px;margin-top:12px">Aetna cells show the drug guide tier code (PB preferred brand, PG preferred generic, NP non-preferred, NF not covered) and restrictions (PA, ST, QL, SPC). Optum cells show the Select and Premium formulary status from the Pharmacy Passages issue, with the effective date.</p>
+    </section>
+
+    <!-- Aetna editions -->
+    <section class="view" id="view-editions" hidden>
+      <div class="head"><div><h2>Aetna drug guide, edition to edition</h2><p>Every product whose coverage, tier or restrictions differ between the two plan-year guides. Coverage losses first.</p></div><div class="spacer"></div><input type="search" id="edSearch" placeholder="Filter by product, class or generic"></div>
+      <div class="toolbar"><label>Change <select id="edKind"><option value="">All</option><option value="NOW_NOT_COVERED">Now not covered</option><option value="NOW_COVERED">Now covered</option><option value="TIER_CHANGED">Tier changed</option><option value="RESTRICTION_CHANGED">Restrictions changed</option><option value="ADDED">Added</option><option value="REMOVED">Removed</option></select></label><label><input type="checkbox" id="edWatch"> Watchlist only</label><span class="muted" id="edMeta"></span></div>
+      <div id="edErr"></div>
+      <div class="wrap"><table id="edTable"></table></div>
+    </section>
+
+    <!-- Optum -->
+    <section class="view" id="view-optum" hidden>
+      <div class="head"><div><h2>Optum Rx Pharmacy Passages</h2><p>Every row from the monthly update tables, in Optum's own terms: Select and Premium formulary status (Base and Enhanced for EHB issues), utilization management flags and effective dates.</p></div><div class="spacer"></div><input type="search" id="opSearch" placeholder="Filter by product or class"></div>
+      <div class="toolbar"><label>Issue <select id="opIssue"><option value="">All</option></select></label><label>Kind <select id="opKind"><option value="">All</option><option value="excluded">Excluded on a formulary</option><option value="moved">Tier moved</option><option value="add_remove">Added or removed</option><option value="status">New status or UM</option></select></label><label><input type="checkbox" id="opWatch"> Watchlist only</label></div>
+      <div id="opErr"></div>
+      <div class="wrap"><table id="opTable"></table></div>
     </section>
 
     <!-- Part D -->
     <section class="view" id="view-partd" hidden>
-      <div class="topbar">
-        <div><h2>Medicare Part D</h2><div class="sub" id="pdMeta">Changes between CMS monthly formulary files, matched to manufacturers and plan parents.</div></div>
-        <div class="spacer"></div>
-        <label class="muted">Comparison <select id="diffSel"></select></label>
-      </div>
-      <p class="note" id="overviewNote"></p>
-      <div class="strip" id="strip"></div>
+      <div class="head"><div><h2>Medicare Part D</h2><p id="pdMeta">Changes between CMS monthly formulary files, weighted by covered lives and matched to manufacturers and plan parents.</p></div><div class="spacer"></div><label class="muted">Comparison <select id="diffSel"></select></label></div>
+      <div id="pdErr"></div>
+      <p class="muted" id="overviewNote" style="font-size:13px"></p>
+      <div class="cards" id="strip"></div>
       <details open><summary>Change mix by plan parent</summary>
-        <p class="note">Share of each parent's plan-level change events by type. Across a plan-year boundary tier moves often reflect a changed tier structure rather than individual decisions.</p>
-        <div class="legend"><span><i style="background:var(--remove)"></i>Removed</span><span><i style="background:var(--add)"></i>Added</span><span><i style="background:var(--restrict)"></i>Restriction added</span><span><i style="background:var(--accent)"></i>Restriction removed</span><span><i style="background:var(--tier)"></i>Tier moved</span></div>
+        <p class="muted" style="font-size:13px">Share of each parent's plan-level change events by type. Across a plan-year boundary tier moves often reflect a changed tier structure rather than individual decisions.</p>
+        <div class="legend"><span><i style="background:var(--bad)"></i>Removed</span><span><i style="background:var(--good)"></i>Added</span><span><i style="background:var(--warn)"></i>Restriction added</span><span><i style="background:var(--accent)"></i>Restriction removed</span><span><i style="background:var(--info)"></i>Tier moved</span></div>
         <div id="mix"></div>
       </details>
       <details open><summary>Widest changes</summary>
-        <div class="filters" style="margin-top:8px">
-          <input type="search" id="chgSearch" placeholder="Search drug, ingredient, manufacturer">
-          <label>Type <select id="chgType"><option value="">All</option></select></label>
-          <label>Parent <select id="chgParent"><option value="">All</option></select></label>
-          <label><input type="checkbox" id="chgHideFlag" checked> Hide negotiation-flag rows</label>
-        </div>
+        <div class="toolbar" style="margin-top:8px"><input type="search" id="chgSearch" placeholder="Search drug, ingredient, manufacturer"><label>Type <select id="chgType"><option value="">All</option></select></label><label>Parent <select id="chgParent"><option value="">All</option></select></label><label><input type="checkbox" id="chgHideFlag" checked> Hide file-wide rows</label></div>
         <div class="wrap"><table id="chgTable"></table></div>
       </details>
       <details><summary>Negotiated drugs</summary><div class="wrap" style="margin-top:8px"><table id="negTable"></table></div></details>
       <details><summary>By plan parent</summary><div class="wrap" style="margin-top:8px"><table id="payerTable"></table></div></details>
       <details><summary>By manufacturer</summary><div class="wrap" style="margin-top:8px"><table id="mfrTable"></table></div></details>
       <details><summary>Full detail</summary>
-        <div class="filters" style="margin-top:8px">
-          <button class="plain" id="loadDetail">Load full detail</button>
-          <input type="search" id="detSearch" placeholder="Search" disabled>
-          <label>Type <select id="detType" disabled><option value="">All</option></select></label>
-          <label>Parent contains <input type="search" id="detParent" placeholder="e.g. Humana" disabled style="min-width:160px"></label>
-          <button class="plain" id="detExport" disabled>Download filtered CSV</button>
-        </div>
+        <div class="toolbar" style="margin-top:8px"><button class="plain" id="loadDetail">Load full detail</button><input type="search" id="detSearch" placeholder="Search" disabled><label>Type <select id="detType" disabled><option value="">All</option></select></label><label>Parent contains <input type="search" id="detParent" placeholder="e.g. Humana" disabled style="min-width:160px"></label><button class="plain" id="detExport" disabled>Download filtered CSV</button></div>
         <div class="status" id="detStatus">Not loaded.</div>
         <div class="wrap"><table id="detTable"></table></div>
       </details>
@@ -178,7 +176,8 @@
 
     <!-- Sources -->
     <section class="view" id="view-sources" hidden>
-      <div class="topbar"><div><h2>Sources</h2><div class="sub">Every document the monitor watches, when it was last checked, and when it last changed. Discovered documents were found automatically on an index page.</div></div></div>
+      <div class="head"><div><h2>Sources</h2><p>Every document the monitor watches, with the last check, the last change, and how much the parser read from the latest capture.</p></div></div>
+      <div id="srcErr"></div>
       <div class="wrap"><table id="srcTable"></table></div>
     </section>
   </main>
@@ -192,19 +191,18 @@
   const PD = 'data/partd/diffs/'; const DOCS = 'data/docs/';
   const TYPES = ['REMOVED', 'ADDED', 'PA_ADDED', 'ST_ADDED', 'QL_ADDED', 'QL_CHANGED', 'PA_REMOVED', 'ST_REMOVED', 'QL_REMOVED', 'TIER_UP', 'TIER_DOWN', 'SELECTED_DRUG_FLAG_CHANGED', 'FORMULARY_SPLIT', 'PLAN_FORMULARY_SWITCH'];
   const GROUP = { REMOVED: 'remove', ADDED: 'add', PA_ADDED: 'restrict', ST_ADDED: 'restrict', QL_ADDED: 'restrict', QL_CHANGED: 'restrict', PA_REMOVED: 'loosen', ST_REMOVED: 'loosen', QL_REMOVED: 'loosen', TIER_UP: 'tier', TIER_DOWN: 'tier' };
-  const GCOLOR = { remove: 'var(--remove)', add: 'var(--add)', restrict: 'var(--restrict)', loosen: 'var(--accent)', tier: 'var(--tier)' };
-  const tag = (t) => `<span class="tag ${esc(t)}">${esc(t)}</span>`;
-  const fetchJson = async (u) => { const r = await fetch(u, { cache: 'no-store' }); if (!r.ok) throw new Error(`${u} ${r.status}`); return r.json(); };
+  const GCOLOR = { remove: 'var(--bad)', add: 'var(--good)', restrict: 'var(--warn)', loosen: 'var(--accent)', tier: 'var(--info)' };
+  const tag = (t) => `<span class="tag ${esc(t)}">${esc(String(t).replace(/_/g, ' ').toLowerCase())}</span>`;
+  const fetchJson = async (u) => { const r = await fetch(u, { cache: 'no-store' }); if (!r.ok) throw new Error(`${u} returned ${r.status}`); return r.json(); };
+  const errBox = (sel, msg) => { $(sel).innerHTML = msg ? `<div class="err">${esc(msg)}</div>` : ''; };
+  const emptyRow = (cols, title, body) => `<tr><td colspan="${cols}"><div class="empty"><b>${esc(title)}</b>${esc(body || '')}</div></td></tr>`;
 
-  let structured = null, docsIndex = null, pdIndex = null, summary = null, detail = null;
+  let structured = { sources: {}, comparisons: [] }, docsIndex = { sources: {} }, pdIndex = null, summary = null, detail = null;
 
   // ---------- navigation ----------
-  document.querySelectorAll('aside button').forEach((b) => b.addEventListener('click', () => {
-    document.querySelectorAll('aside button').forEach((x) => x.setAttribute('aria-selected', x === b));
-    document.querySelectorAll('main .view').forEach((v) => { v.hidden = v.id !== 'view-' + b.dataset.view; });
-    location.hash = b.dataset.view;
-  }));
-  const openHash = () => { const h = location.hash.replace('#', ''); const b = document.querySelector(`aside button[data-view="${h}"]`); if (b) b.click(); };
+  const navTo = (v) => { document.querySelectorAll('nav button').forEach((x) => x.setAttribute('aria-selected', x.dataset.view === v)); document.querySelectorAll('main .view').forEach((s) => { s.hidden = s.id !== 'view-' + v; }); if (location.hash !== '#' + v) history.replaceState(null, '', '#' + v); };
+  document.querySelectorAll('nav button').forEach((b) => b.addEventListener('click', () => navTo(b.dataset.view)));
+  document.addEventListener('click', (e) => { const a = e.target.closest('a[data-view]'); if (a) { e.preventDefault(); navTo(a.dataset.view); } });
 
   // ---------- sortable table ----------
   function renderTable(el, cols, rows, opts = {}) {
@@ -212,12 +210,12 @@
     function draw() {
       const sorted = [...rows].sort((a, b) => {
         const x = a[sortKey], y = b[sortKey]; const nx = Number(x), ny = Number(y);
-        if (!Number.isNaN(nx) && !Number.isNaN(ny) && x !== '' && y !== '' && x != null && y != null) return (nx - ny) * sortDir;
+        if (x !== '' && y !== '' && x != null && y != null && !Number.isNaN(nx) && !Number.isNaN(ny)) return (nx - ny) * sortDir;
         return String(x || '').localeCompare(String(y || '')) * sortDir;
       });
       const limit = opts.limit || sorted.length;
       el.innerHTML = '<thead><tr>' + cols.map((c) => `<th class="${c.num ? 'num' : ''}" data-k="${c.key}">${esc(c.label)}${sortKey === c.key ? (sortDir < 0 ? ' ▾' : ' ▴') : ''}</th>`).join('') + '</tr></thead><tbody>' +
-        (sorted.length ? sorted.slice(0, limit).map((r) => '<tr>' + cols.map((c) => `<td class="${c.num ? 'num' : ''}">${c.render ? c.render(r[c.key], r) : (c.num ? fmt(r[c.key]) : esc(r[c.key]))}</td>`).join('') + '</tr>').join('') : `<tr><td colspan="${cols.length}" class="muted">Nothing matches.</td></tr>`) +
+        (sorted.length ? sorted.slice(0, limit).map((r) => '<tr>' + cols.map((c) => `<td class="${c.num ? 'num' : ''}">${c.render ? c.render(r[c.key], r) : (c.num ? fmt(r[c.key]) : esc(r[c.key]))}</td>`).join('') + '</tr>').join('') : emptyRow(cols.length, opts.emptyTitle || 'Nothing matches', opts.emptyBody || 'Try widening the filters.')) +
         '</tbody>' + (sorted.length > limit ? `<tfoot><tr><td colspan="${cols.length}" class="muted">Showing ${fmt(limit)} of ${fmt(sorted.length)} rows.</td></tr></tfoot>` : '');
       el.querySelectorAll('th').forEach((th) => th.addEventListener('click', () => { const k = th.dataset.k; if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = -1; } draw(); }));
     }
@@ -225,144 +223,205 @@
   }
 
   // ---------- status classification ----------
-  function classify(row) {
-    // returns {cls, label}
-    if (row.kind === 'tier_change') {
-      const after = (row.tier_after || '').toUpperCase(); const before = (row.tier_before || '').toUpperCase();
-      const flags = row.flags || {}; const um = ['PA', 'ST', 'QL'].filter((k) => flags[k]);
-      if (/EXC|N\/C/.test(after)) return { cls: 'notcov', label: `Excluded${before && !/EXC/.test(before) ? ` (was ${before})` : ''}` };
-      if (before && after && before !== after) return { cls: 'limited', label: `${before} → ${after}` };
-      if (um.length) return { cls: 'limited', label: `${after || 'Covered'} ${um.join('/')}` };
-      return { cls: 'covered', label: after || 'Covered' };
+  const EXC = /EXC|N\/C|^NC$|NF/i;
+  function statusCell(r) {
+    // returns { cls, label, sub }
+    if (r.kind === 'tier_change') {
+      const cols = r.formulary_columns || ['Select', 'Premium'];
+      const parts = [[cols[0], r.select], [cols[1], r.premium]].filter(([, v]) => v);
+      const um = ['PA', 'ST', 'QL'].filter((k) => r.flags && r.flags[k]);
+      const any = parts.map(([, v]) => v).join(' ');
+      let cls = 'good';
+      if (r.excluded || EXC.test(any)) cls = 'bad'; else if (r.moved || />/.test(any) || um.length) cls = 'warn';
+      const label = parts.length ? parts.map(([k, v]) => `${k} ${v}`).join(' · ') : (r.tier_after || 'listed');
+      return { cls, label: label + (um.length ? ` · ${um.join('/')}` : ''), sub: r.effective ? `eff ${r.effective}` : '' };
     }
-    if (row.kind === 'add_remove') return row.action === 'Remove' ? { cls: 'notcov', label: 'Removed' } : { cls: 'covered', label: 'Added' };
-    // Aetna rows
-    const t = (row.tier || '').toUpperCase();
-    const restr = row.restrictions || [];
-    if (t === 'NF' || row.coverage === 'not covered') return { cls: 'notcov', label: 'NF' };
-    if (!t && row.coverage === 'listed') return { cls: 'covered', label: restr.length ? `Listed, ${restr.join(', ')}` : 'Listed' };
-    if (/^(NP|NB|NPSP)$/.test(t)) return { cls: 'limited', label: t + (restr.length ? ' ' + restr.filter((r) => /^(PA|ST|QL)/.test(r)).map((r) => r.replace(/\s*\(.*$/, '')).join('/') : '') };
-    const um = restr.filter((r) => /^(PA|ST|QL|SPC)/.test(r)).map((r) => r.replace(/\s*\(.*$/, ''));
-    if (um.length) return { cls: 'limited', label: `${t || 'Covered'} ${um.join('/')}` };
-    return { cls: 'covered', label: t || 'Covered' };
+    if (r.kind === 'add_remove') return r.action === 'Remove' ? { cls: 'bad', label: 'Removed', sub: `eff ${r.effective}` } : { cls: 'good', label: 'Added', sub: `eff ${r.effective}` };
+    const t = (r.tier || '').toUpperCase(); const restr = (r.restrictions || []).map((x) => x.replace(/\s*\(.*$/, ''));
+    const um = restr.filter((x) => /^(PA|ST|QL|SPC|N8|AL)$/.test(x));
+    if (t === 'NF') return { cls: 'bad', label: 'NF', sub: 'not covered' };
+    if (/^(NP|NPSP|NB)$/.test(t)) return { cls: 'warn', label: t + (um.length ? ` · ${um.join('/')}` : ''), sub: 'non-preferred' };
+    if (um.length) return { cls: 'warn', label: `${t || 'listed'} · ${um.join('/')}`, sub: '' };
+    return { cls: t ? 'good' : '', label: t || 'listed', sub: '' };
   }
+  const cellHtml = (c, title) => `<span class="cell ${c.cls}" title="${esc(title || '')}">${esc(c.label)}${c.sub ? `<small>${esc(c.sub)}</small>` : ''}</span>`;
 
-  // ---------- watchlist matrix ----------
-  function renderMatrix() {
-    const q = ($('#watchSearch').value || '').trim().toLowerCase();
-    const sources = Object.values((structured || {}).sources || {}).filter((s) => s.parser && s.parser !== 'none');
-    const labels = new Map(); // label -> {tickers:Set, cells: Map(sourceId -> rows[])}
-    for (const s of sources) {
-      for (const r of s.watch_rows || []) for (const lab of r.watch_labels || []) {
-        if (/\(category\)/.test(lab)) continue;
-        let x = labels.get(lab); if (!x) { x = { label: lab, tickers: new Set(), cells: new Map() }; labels.set(lab, x); }
-        (r.watch_tickers || []).forEach((t) => x.tickers.add(t));
-        if (!x.cells.has(s.id)) x.cells.set(s.id, []);
-        x.cells.get(s.id).push(r);
+  // ---------- product normalisation for the matrix ----------
+  const productKey = (r) => {
+    let n = String(r.name || '').toUpperCase();
+    n = n.replace(/\(.*?\)/g, ' ').replace(/\b(SUBCUTANEOUS|ORAL|INJECTION|SOLUTION|SUSPENSION|PEN-INJECTOR|AUTO-INJECTOR|AUTO-|PREFILLED|SYRINGE|TABLET|CAPSULE|CARTRIDGE|DEVICE|KIT|IN VITRO|STRIP|CONTINUOUS|GLUCOSE|BLOOD|TEST|FOR SC|SC|IV|\d+(\.\d+)?\s?(MG|ML|MCG|UNIT|UNITS|%|X|GM|G)(\/[A-Z0-9.]+)?|\d+(\.\d+)?|,|\*|-WEIGHT MANAGEMENT)\b/g, ' ');
+    return n.replace(/[^A-Z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim().split(' ').slice(0, 4).join(' ');
+  };
+
+  // ---------- Watchlist ----------
+  let activeTicker = '';
+  function renderWatch() {
+    try {
+      const q = ($('#watchSearch').value || '').trim().toLowerCase();
+      const sources = Object.values(structured.sources || {}).filter((s) => s.parser && s.parser !== 'none').sort((a, b) => (a.pbm || '').localeCompare(b.pbm || '') || (a.name || '').localeCompare(b.name || ''));
+      // products: key -> { name, tickers, cells: Map(sourceId -> rows[]) }
+      const products = new Map();
+      for (const s of sources) for (const r of s.watch_rows || []) {
+        const k = productKey(r); if (!k) continue;
+        let p = products.get(k); if (!p) { p = { key: k, name: r.name, tickers: new Set(), cells: new Map() }; products.set(k, p); }
+        if (r.name.length < p.name.length) p.name = r.name;
+        (r.watch_tickers || []).forEach((t) => p.tickers.add(t));
+        if (!p.cells.has(s.id)) p.cells.set(s.id, []);
+        p.cells.get(s.id).push(r);
       }
-    }
-    // Part D column: by manufacturer ticker from the latest comparison summary
-    const pdLives = summary && summary.by_manufacturer_lives_affected && Object.keys(summary.by_manufacturer_lives_affected).length;
-    const pdCol = summary ? (pdLives ? summary.by_manufacturer_lives_affected : summary.by_manufacturer_plans_affected) : null;
-    const pdUnit = pdLives ? 'lives' : 'plan-events';
-    const rows = [...labels.values()].sort((a, b) => a.label.localeCompare(b.label)).filter((x) => !q || `${x.label} ${[...x.tickers].join(' ')}`.toLowerCase().includes(q) || sources.some((s) => s.name.toLowerCase().includes(q) && x.cells.has(s.id)));
-    const cols = sources.filter((s) => !q || rows.some((x) => x.cells.has(s.id)) || s.name.toLowerCase().includes(q));
-    const head = '<thead><tr><th>Product family</th>' + cols.map((s) => `<th class="col" title="${esc(s.url || '')}">${esc(s.name)}<br><span class="muted">${esc(s.pbm || '')}</span></th>`).join('') + (pdCol ? `<th class="col">Medicare Part D<br><span class="muted">${esc(summary.prev)} → ${esc(summary.latest)}</span></th>` : '') + '</tr></thead>';
-    const body = rows.map((x) => {
-      const cells = cols.map((s) => {
-        const rs = x.cells.get(s.id);
-        if (!rs) return '<td><span class="muted">·</span></td>';
-        // Aggregate: count statuses
-        const agg = new Map();
-        for (const r of rs) { const c = classify(r); const k = `${c.cls}|${c.label}`; const e = agg.get(k) || { ...c, n: 0, ex: r }; e.n++; agg.set(k, e); }
-        const parts = [...agg.values()].sort((a, b) => b.n - a.n).slice(0, 4).map((e) => {
-          const eff = e.ex.effective ? ` <small>${esc(e.ex.effective)}</small>` : '';
-          return `<span class="cell ${e.cls}" title="${esc(e.ex.name || '')}">${esc(e.label)}${e.n > 1 ? ` <small>×${e.n}</small>` : ''}${eff}</span>`;
-        });
-        return `<td>${parts.join('')}</td>`;
-      }).join('');
-      let pd = '';
-      if (pdCol) {
-        const hits = [...x.tickers].map((t) => pdCol[t]).filter(Boolean);
-        if (!hits.length) pd = '<td><span class="muted">·</span></td>';
-        else {
-          const sum = {}; for (const h of hits) for (const [k, v] of Object.entries(h)) if (k !== 'parent') sum[k] = (sum[k] || 0) + v;
-          const bits = [['REMOVED', 'notcov', 'removed'], ['PA_ADDED', 'limited', 'PA added'], ['ST_ADDED', 'limited', 'ST added'], ['QL_ADDED', 'limited', 'QL added'], ['ADDED', 'covered', 'added']].filter(([k]) => sum[k]).map(([k, cls, l]) => `<span class="cell ${cls}">${fmt(sum[k])} <small>${pdUnit} ${l}</small></span>`);
-          pd = `<td>${bits.join('') || '<span class="muted">no coverage events</span>'}</td>`;
+      const tickers = [...new Set([...products.values()].flatMap((p) => [...p.tickers]))].sort();
+      $('#watchChips').innerHTML = ['', ...tickers].map((t) => `<button class="chip" data-t="${esc(t)}" aria-pressed="${activeTicker === t}">${t || 'All'}</button>`).join('');
+      $('#watchChips').querySelectorAll('.chip').forEach((b) => b.addEventListener('click', () => { activeTicker = b.dataset.t; renderWatch(); }));
+      $('#nWatch').textContent = products.size || '';
+      let list = [...products.values()].filter((p) => (!activeTicker || p.tickers.has(activeTicker)) && (!q || `${p.name} ${[...p.tickers].join(' ')}`.toLowerCase().includes(q)));
+      const cols = sources.filter((s) => list.some((p) => p.cells.has(s.id)));
+      const head = '<thead><tr><th>Product</th>' + cols.map((s) => `<th title="${esc(s.url || '')}">${esc(s.name)}<br><span class="muted" style="text-transform:none;font-weight:400">${esc(s.pbm || '')}</span></th>`).join('') + '</tr></thead>';
+      const byTicker = new Map();
+      for (const p of list) { const t = [...p.tickers].sort().join(' ') || 'private'; if (!byTicker.has(t)) byTicker.set(t, []); byTicker.get(t).push(p); }
+      let body = '';
+      for (const [t, ps] of [...byTicker.entries()].sort()) {
+        body += `<tr class="group"><td colspan="${cols.length + 1}">${esc(t)}</td></tr>`;
+        for (const p of ps.sort((a, b) => a.name.localeCompare(b.name))) {
+          body += `<tr><td class="name">${esc(p.name)}</td>` + cols.map((s) => {
+            const rs = p.cells.get(s.id); if (!rs) return '<td><span class="muted">·</span></td>';
+            const seen = new Map(); for (const r of rs) { const c = statusCell(r); const k = c.cls + c.label; if (!seen.has(k)) seen.set(k, { c, n: 0, r }); seen.get(k).n++; }
+            return `<td>${[...seen.values()].slice(0, 3).map(({ c, n, r }) => cellHtml({ ...c, label: c.label + (n > 1 ? ` ×${n}` : '') }, r.name)).join('')}</td>`;
+          }).join('') + '</tr>';
         }
       }
-      return `<tr><td class="name">${esc(x.label)}<small>${esc([...x.tickers].join(' ') || 'private')}</small></td>${cells}${pd}</tr>`;
-    }).join('');
-    $('#matrix').innerHTML = head + '<tbody>' + (body || `<tr><td class="muted" colspan="${cols.length + 2}">No parsed watchlist rows yet. The commercial collector writes data/docs/structured.json after its first parse.</td></tr>`) + '</tbody>';
-    $('#matrixNote').textContent = 'Cells are read directly from the parsed documents. Aetna cells show the tier code from the drug guide (PB preferred brand, NF not covered, PA/ST/QL restrictions). Optum cells show the change rows from Pharmacy Passages with effective dates. The Part D column counts plan-level events for the manufacturer ticker in the latest monthly comparison, which is a manufacturer-wide figure rather than this product alone.';
+      $('#matrix').innerHTML = head + '<tbody>' + (body || emptyRow(cols.length + 1, 'No watchlist rows yet', 'The commercial document collector writes the parsed rows after its first run.')) + '</tbody>';
+      errBox('#watchErr', '');
+    } catch (e) { errBox('#watchErr', 'The watchlist could not be drawn: ' + e.message); }
   }
 
-  // ---------- commercial feed ----------
-  let comRows = [];
-  function buildCommercial() {
-    comRows = [];
-    for (const s of Object.values((structured || {}).sources || {})) {
-      for (const r of s.changes || []) comRows.push({ source: s.name, sid: s.id, pbm: s.pbm, kind: r.kind, change: r.kind === 'add_remove' ? r.action : (classify(r).label), drug: r.name, cls: r.therapeutic_use || '', before: r.tier_before || '', after: r.tier_after || r.action || '', flags: r.flags ? ['SP', 'PA', 'ST', 'QL'].filter((k) => r.flags[k]).join(' ') : '', effective: r.effective || '', watch: (r.watch_tickers || []).join(' '), sortDate: toSortDate(r.effective) });
-      for (const c of s.latest_changes || []) comRows.push({ source: s.name, sid: s.id, pbm: s.pbm, kind: 'diff', change: c.change, drug: c.name + (c.generic ? ` (${c.generic})` : ''), cls: c.category || '', before: c.tier_before || '', after: c.tier_after || '', flags: (c.restrictions_after || []).join(', '), effective: s.latest_diff ? s.latest_diff.replace(/_to_.*$/, '') + ' → ' + s.latest_stamp : '', watch: (c.watch_tickers || []).join(' '), sortDate: s.latest_stamp || '' });
+  // ---------- Aetna editions ----------
+  function renderEditions() {
+    try {
+      const comps = structured.comparisons || [];
+      $('#nEd').textContent = comps.reduce((n, c) => n + c.changes.length, 0) || '';
+      if (!comps.length) { $('#edTable').innerHTML = emptyRow(7, 'No edition comparison yet', 'Two editions of the same guide have to be parsed before they can be compared.'); return; }
+      const comp = comps[comps.length - 1];
+      $('#edMeta').textContent = `${comp.from_name} (${fmt(comp.rows_from)} products) to ${comp.to_name} (${fmt(comp.rows_to)}): ${Object.entries(comp.counts).map(([k, v]) => `${fmt(v)} ${k.replace(/_/g, ' ').toLowerCase()}`).join(', ')}.`;
+      const q = ($('#edSearch').value || '').trim().toLowerCase(), kind = $('#edKind').value, w = $('#edWatch').checked;
+      const rows = comp.changes.filter((c) => (!kind || c.change === kind) && (!w || c.watch_tickers) && (!q || `${c.name} ${c.generic} ${c.category}`.toLowerCase().includes(q))).map((c, i) => ({ ...c, order: i, watch: (c.watch_tickers || []).join(' ') }));
+      renderTable($('#edTable'), [
+        { key: 'order', label: 'Change', render: (v, r) => tag(r.change) }, { key: 'name', label: 'Product', render: (v, r) => `${esc(v)}${r.generic ? ` <span class="muted">(${esc(r.generic)})</span>` : ''}` }, { key: 'category', label: 'Class' },
+        { key: 'from_tier', label: comp.from_year, render: (v, r) => esc((v || '-') + (r.from_restrictions ? ` · ${r.from_restrictions}` : '')) }, { key: 'to_tier', label: comp.to_year, render: (v, r) => esc((v || '-') + (r.to_restrictions ? ` · ${r.to_restrictions}` : '')) }, { key: 'watch', label: 'Ticker', render: (v) => `<span class="tk">${esc(v)}</span>` },
+      ], rows, { sortKey: 'order', sortDir: 1, limit: 1000 });
+      errBox('#edErr', '');
+    } catch (e) { errBox('#edErr', 'The edition comparison could not be drawn: ' + e.message); }
+  }
+
+  // ---------- Optum ----------
+  let opRows = [];
+  const toSortDate = (d) => { const m = String(d || '').match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/); if (!m) return ''; const y = m[3].length === 2 ? '20' + m[3] : m[3]; return `${y}${m[1].padStart(2, '0')}${m[2].padStart(2, '0')}`; };
+  function buildOptum() {
+    opRows = [];
+    for (const s of Object.values(structured.sources || {})) {
+      if (s.parser !== 'optum-passages') continue;
+      for (const r of s.changes || []) {
+        const name = String(r.name || '').replace(/\*+$/, '').trim(); if (!name || name.length < 4) continue;
+        const cols = r.formulary_columns || ['Select', 'Premium'];
+        const kind = r.kind === 'add_remove' ? 'add_remove' : (r.excluded || EXC.test(`${r.select} ${r.premium}`)) ? 'excluded' : (r.moved || />/.test(`${r.select} ${r.premium}`)) ? 'moved' : 'status';
+        opRows.push({ issue: s.name.replace(/^Optum Rx: /, ''), sid: s.id, kind, name, cls: r.therapeutic_use || '', c1: cols[0], c2: cols[1], select: r.kind === 'add_remove' ? (r.action || '') : (r.select || ''), premium: r.kind === 'add_remove' ? '' : (r.premium || ''), um: r.flags ? ['SP', 'PA', 'ST', 'QL'].filter((k) => r.flags[k]).join(' ') : '', effective: r.effective || '', sortDate: toSortDate(r.effective), watch: (r.watch_tickers || []).join(' '), status: statusCell(r) });
+      }
     }
-    const srcSel = $('#comSource'); srcSel.innerHTML = '<option value="">All</option>' + [...new Set(comRows.map((r) => r.source))].sort().map((n) => `<option>${esc(n)}</option>`).join('');
+    $('#nOpt').textContent = opRows.length || '';
+    $('#opIssue').innerHTML = '<option value="">All</option>' + [...new Set(opRows.map((r) => r.issue))].sort().map((n) => `<option>${esc(n)}</option>`).join('');
   }
-  function toSortDate(d) { const m = String(d || '').match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/); if (!m) return ''; const y = m[3].length === 2 ? '20' + m[3] : m[3]; return `${y}${m[1].padStart(2, '0')}${m[2].padStart(2, '0')}`; }
-  function renderCommercial() {
-    const q = ($('#comSearch').value || '').trim().toLowerCase(), src = $('#comSource').value, kind = $('#comKind').value, w = $('#comWatchOnly').checked;
-    const rows = comRows.filter((r) => (!src || r.source === src) && (!kind || r.kind === kind) && (!w || r.watch) && (!q || `${r.drug} ${r.cls} ${r.source} ${r.watch} ${r.change}`.toLowerCase().includes(q)));
-    renderTable($('#comTable'), [
-      { key: 'sortDate', label: 'Effective', render: (v, r) => esc(r.effective) }, { key: 'source', label: 'Document' }, { key: 'change', label: 'Change', render: (v, r) => r.kind === 'diff' || r.kind === 'add_remove' ? tag(v) : esc(v) },
-      { key: 'drug', label: 'Product' }, { key: 'cls', label: 'Class' }, { key: 'before', label: 'Before' }, { key: 'after', label: 'After' }, { key: 'flags', label: 'Restrictions' }, { key: 'watch', label: 'Watchlist' },
-    ], rows, { sortKey: 'sortDate', limit: 800 });
+  function renderOptum() {
+    try {
+      const q = ($('#opSearch').value || '').trim().toLowerCase(), issue = $('#opIssue').value, kind = $('#opKind').value, w = $('#opWatch').checked;
+      const rows = opRows.filter((r) => (!issue || r.issue === issue) && (!kind || r.kind === kind) && (!w || r.watch) && (!q || `${r.name} ${r.cls}`.toLowerCase().includes(q)));
+      renderTable($('#opTable'), [
+        { key: 'sortDate', label: 'Effective', render: (v, r) => esc(r.effective) }, { key: 'name', label: 'Product', render: (v, r) => `<b>${esc(v)}</b>${r.cls ? `<br><span class="muted">${esc(r.cls)}</span>` : ''}` },
+        { key: 'select', label: 'Select / Base', render: (v, r) => cellHtml({ cls: r.status.cls, label: v || '-', sub: '' }) }, { key: 'premium', label: 'Premium / Enhanced', render: (v, r) => v ? cellHtml({ cls: r.status.cls, label: v, sub: '' }) : '<span class="muted">·</span>' },
+        { key: 'um', label: 'UM' }, { key: 'issue', label: 'Issue' }, { key: 'watch', label: 'Ticker', render: (v) => `<span class="tk">${esc(v)}</span>` },
+      ], rows, { sortKey: 'sortDate', limit: 600, emptyTitle: 'No Optum rows match', emptyBody: 'Optum publishes Pharmacy Passages monthly; new issues are discovered from the Optum index page automatically.' });
+      errBox('#opErr', '');
+    } catch (e) { errBox('#opErr', 'The Optum feed could not be drawn: ' + e.message); }
   }
 
-  // ---------- sources ----------
+  // ---------- Sources ----------
   function renderSources() {
-    const rows = Object.values((docsIndex || {}).sources || {}).map((s) => ({ ...s, parsed: ((structured || {}).sources || {})[s.id] ? (structured.sources[s.id].parser || 'none') : 'none', rows: (((structured || {}).sources || {})[s.id] || {}).versions ? Object.values(structured.sources[s.id].versions).slice(-1)[0].rows : '' }));
-    renderTable($('#srcTable'), [
-      { key: 'pbm', label: 'PBM' }, { key: 'name', label: 'Document', render: (v, r) => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>` : esc(v) },
-      { key: 'status', label: 'Last run', render: (v) => `<span class="${/fail/.test(v) ? 'bad' : 'ok'}">${esc(v)}</span>` },
-      { key: 'last_checked', label: 'Checked', render: (v) => esc(String(v || '').slice(0, 16).replace('T', ' ')) },
-      { key: 'last_change', label: 'Last change', render: (v) => esc(v || '') }, { key: 'cadence', label: 'Cadence' }, { key: 'verified', label: 'URL' }, { key: 'parsed', label: 'Parser' }, { key: 'rows', label: 'Rows', num: true },
-    ], rows, { sortKey: 'pbm', sortDir: 1 });
+    try {
+      const rows = Object.values(docsIndex.sources || {}).map((s) => {
+        const st = (structured.sources || {})[s.id] || {}; const vers = st.versions || {}; const latest = st.latest_stamp ? vers[st.latest_stamp] : null;
+        return { pbm: s.pbm || '', name: s.name || s.id, url: s.url || '', status: s.status || '', last_checked: s.last_checked || '', last_change: s.last_change || '', cadence: s.cadence || '', parser: st.parser || 'none', rows: latest ? latest.rows : '', problems: latest ? latest.problems : '' };
+      });
+      $('#nSrc').textContent = rows.length || '';
+      renderTable($('#srcTable'), [
+        { key: 'pbm', label: 'PBM' }, { key: 'name', label: 'Document', render: (v, r) => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>` : esc(v) },
+        { key: 'status', label: 'Health', render: (v) => `<span class="pill ${/fail/i.test(v) ? 'bad' : v ? 'good' : ''}">${esc(v || 'unknown')}</span>` },
+        { key: 'last_checked', label: 'Checked', render: (v) => esc(String(v).slice(0, 16).replace('T', ' ')) }, { key: 'last_change', label: 'Last change' }, { key: 'cadence', label: 'Cadence' }, { key: 'parser', label: 'Parser' }, { key: 'rows', label: 'Rows read', num: true }, { key: 'problems', label: 'Problems', num: true },
+      ], rows, { sortKey: 'pbm', sortDir: 1, emptyTitle: 'No sources recorded', emptyBody: 'data/docs/index.json is written by the commercial document collector.' });
+      errBox('#srcErr', '');
+    } catch (e) { errBox('#srcErr', 'The sources table could not be drawn: ' + e.message); }
+  }
+
+  // ---------- Overview ----------
+  function renderOverview() {
+    try {
+      const comps = structured.comparisons || []; const comp = comps[comps.length - 1];
+      const optum = Object.values(structured.sources || {}).filter((s) => s.parser === 'optum-passages');
+      const latestOptum = optum.map((s) => ({ s, d: Math.max(0, ...(s.changes || []).map((r) => Number(toSortDate(r.effective)) || 0)) })).sort((a, b) => b.d - a.d)[0];
+      const srcs = Object.values(docsIndex.sources || {}); const failed = srcs.filter((s) => /fail/i.test(s.status || '')).length;
+      const cards = [];
+      if (comp) { const lost = comp.counts.NOW_NOT_COVERED || 0, gained = comp.counts.NOW_COVERED || 0; cards.push(`<a class="card kpi" data-view="editions" href="#editions"><span class="l">Aetna ${esc(comp.from_year)} to ${esc(comp.to_year)}</span><b>${fmt(lost)}</b><span class="l">products no longer covered</span><span class="s">${fmt(gained)} newly covered · ${fmt(comp.counts.TIER_CHANGED || 0)} tier changes · ${fmt(comp.changes.filter((c) => c.watch_tickers).length)} on the watchlist</span></a>`); }
+      cards.push(`<a class="card kpi" data-view="optum" href="#optum"><span class="l">Optum Rx update rows</span><b>${fmt(opRows.length)}</b><span class="l">across ${fmt(optum.length)} Pharmacy Passages issues</span><span class="s">${fmt(opRows.filter((r) => r.kind === 'excluded').length)} exclusions · ${fmt(opRows.filter((r) => r.watch).length)} on the watchlist</span></a>`);
+      if (summary) { const t = summary.by_type || {}; cards.push(`<a class="card kpi" data-view="partd" href="#partd"><span class="l">Medicare Part D ${esc(summary.prev)} to ${esc(summary.latest)}</span><b>${fmt(t.REMOVED)}</b><span class="l">plan-level drug removals</span><span class="s">${fmt(t.PA_ADDED)} PA added · ${fmt(t.ST_ADDED)} ST added · ${fmt(summary.plans_matched)} plans${summary.enrollment_period ? ` · weighted by ${esc(summary.enrollment_period)} enrollment` : ''}</span></a>`); }
+      else cards.push(`<a class="card kpi" data-view="partd" href="#partd"><span class="l">Medicare Part D</span><b>·</b><span class="l">no comparison loaded</span></a>`);
+      cards.push(`<a class="card kpi" data-view="sources" href="#sources"><span class="l">Sources watched</span><b>${fmt(srcs.length)}</b><span class="l">${failed ? `${fmt(failed)} failing` : 'all healthy on the last check'}</span><span class="s">${esc(structured.generated_at ? 'parsed ' + structured.generated_at.slice(0, 16).replace('T', ' ') + ' UTC' : '')}</span></a>`);
+      $('#ovCards').innerHTML = cards.join('');
+      // watchlist movements
+      const items = [];
+      if (comp) for (const c of comp.changes.filter((c) => c.watch_tickers && /NOW_NOT_COVERED|NOW_COVERED|TIER_CHANGED|RESTRICTION_CHANGED/.test(c.change)).slice(0, 14)) items.push(`<li><span class="tk">${esc(c.watch_tickers.join(' '))}</span><span>${tag(c.change)} <b>${esc(c.name)}</b>: ${esc(c.from_tier || '-')} to ${esc(c.to_tier || '-')}</span><span class="m">Aetna ${esc(comp.from_year)}→${esc(comp.to_year)}</span></li>`);
+      for (const r of opRows.filter((r) => r.watch).sort((a, b) => b.sortDate.localeCompare(a.sortDate)).slice(0, 10)) items.push(`<li><span class="tk">${esc(r.watch)}</span><span><b>${esc(r.name)}</b>: ${esc([r.select && `${r.c1} ${r.select}`, r.premium && `${r.c2} ${r.premium}`].filter(Boolean).join(', '))}${r.um ? `, ${esc(r.um)}` : ''}</span><span class="m">Optum ${esc(r.effective)}</span></li>`);
+      $('#ovWatch').innerHTML = items.join('') || '<li class="muted">No watchlist movements recorded yet.</li>';
+      $('#ovDocs').innerHTML = srcs.filter((s) => s.last_change).sort((a, b) => String(b.last_change).localeCompare(String(a.last_change))).slice(0, 10).map((s) => `<li><span>${esc(s.name)}</span><span class="m">${esc(String(s.last_change).slice(0, 8))}</span></li>`).join('') || '<li class="muted">No captures yet.</li>';
+      errBox('#ovErr', '');
+    } catch (e) { errBox('#ovErr', 'The overview could not be drawn: ' + e.message); }
   }
 
   // ---------- Part D ----------
   async function loadPartD() {
-    try { pdIndex = await fetchJson(PD + 'index.json'); } catch { $('#overviewNote').textContent = 'No Part D comparison yet.'; return; }
+    try { pdIndex = await fetchJson(PD + 'index.json'); }
+    catch (e) { errBox('#pdErr', 'No Part D comparison is available yet (' + e.message + ').'); return; }
     const sel = $('#diffSel');
     sel.innerHTML = [...pdIndex.diffs].reverse().map((d) => `<option value="${esc(d.tag)}">${esc(d.prev)} to ${esc(d.latest)} (${fmt(d.total_change_rows)} rows)</option>`).join('');
     sel.addEventListener('change', () => loadSummary(sel.value));
     if (pdIndex.diffs.length) await loadSummary(sel.value);
   }
-  async function loadSummary(tag) {
-    detail = null; $('#detStatus').textContent = 'Not loaded.'; $('#detTable').innerHTML = '';
-    ['#detSearch', '#detType', '#detParent', '#detExport'].forEach((s) => { $(s).disabled = true; });
-    summary = await fetchJson(`${PD}${tag}.summary.json`);
-    const s = summary;
-    $('#pdMeta').textContent = `Contract year ${s.contract_year_prev} to ${s.contract_year_latest}${s.new_plan_year ? ' (annual reset)' : ''}; ${fmt(s.plans_matched)} plans matched, ${fmt(s.plans_new)} new, ${fmt(s.plans_gone)} gone${s.enrollment_period ? `; weighted by CMS enrollment for ${s.enrollment_period} (${fmt(s.enrollment_total)} lives)` : ''}; generated ${String(s.generated_at).slice(0, 10)}.`;
-    $('#overviewNote').textContent = s.new_plan_year ? 'This comparison crosses a plan-year boundary, so it captures each sponsor\'s annual formulary reset. Formulary IDs change every year; plans are followed from their old formulary to their new one.' : 'This comparison is within a plan year, so every change is a mid-year sponsor decision or a CMS file correction.';
-    renderOverview(); renderChanges(); renderNegotiated(); renderPayers(); renderMfr(); renderMatrix();
+  async function loadSummary(tagName) {
+    try {
+      detail = null; $('#detStatus').textContent = 'Not loaded.'; $('#detTable').innerHTML = '';
+      ['#detSearch', '#detType', '#detParent', '#detExport'].forEach((s) => { $(s).disabled = true; });
+      summary = await fetchJson(`${PD}${tagName}.summary.json`);
+      const s = summary;
+      $('#pdMeta').textContent = `Contract year ${s.contract_year_prev} to ${s.contract_year_latest}${s.new_plan_year ? ' (annual reset)' : ''}; ${fmt(s.plans_matched)} plans matched, ${fmt(s.plans_new)} new, ${fmt(s.plans_gone)} gone${s.enrollment_period ? `; weighted by CMS enrollment for ${s.enrollment_period} (${fmt(s.enrollment_total)} lives)` : ''}; generated ${String(s.generated_at).slice(0, 10)}.`;
+      $('#overviewNote').textContent = s.new_plan_year ? 'This comparison crosses a plan-year boundary, so it captures each sponsor\'s annual formulary reset. Formulary IDs change every year; plans are followed from their old formulary to their new one.' : 'This comparison is within a plan year, so every change is a mid-year sponsor decision or a CMS file correction.';
+      renderStrip(); renderChanges(); renderNegotiated(); renderPayers(); renderMfr(); renderOverview();
+      errBox('#pdErr', '');
+    } catch (e) { errBox('#pdErr', 'The Part D comparison could not be loaded: ' + e.message); }
   }
-  function renderOverview() {
+  function renderStrip() {
     const t = summary.by_type || {};
     const cells = [['Change rows', summary.total_change_rows], ['Drugs removed', t.REMOVED], ['Drugs added', t.ADDED], ['Prior auth added', t.PA_ADDED], ['Step therapy added', t.ST_ADDED], ['Quantity limit added', t.QL_ADDED], ['Tier moves', (t.TIER_UP || 0) + (t.TIER_DOWN || 0)], ['Negotiation flag changes', t.SELECTED_DRUG_FLAG_CHANGED]];
-    $('#strip').innerHTML = cells.map(([l, v]) => `<div><b>${fmt(v)}</b><span>${esc(l)}</span></div>`).join('');
+    $('#strip').innerHTML = cells.map(([l, v]) => `<div class="card kpi"><b>${fmt(v)}</b><span class="l">${esc(l)}</span></div>`).join('');
     const bp = summary.by_plan_parent_plans_affected || {};
     const rows = Object.entries(bp).map(([p, x]) => { const g = { remove: 0, add: 0, restrict: 0, loosen: 0, tier: 0 }; for (const [k, v] of Object.entries(x)) if (GROUP[k]) g[GROUP[k]] += v; const tot = Object.values(g).reduce((a, b) => a + b, 0); return { p, g, tot }; }).filter((r) => r.tot > 0).sort((a, b) => b.tot - a.tot).slice(0, 20);
     $('#mix').innerHTML = rows.map((r) => `<div class="mix"><div class="nm" title="${esc(r.p)}">${esc(r.p)}</div><div class="bar">${Object.entries(r.g).map(([k, v]) => `<i style="width:${(100 * v / r.tot).toFixed(2)}%;background:${GCOLOR[k]}" title="${k}: ${fmt(v)}"></i>`).join('')}</div><div class="tot">${fmt(r.tot)}</div></div>`).join('');
   }
   function renderChanges() {
-    const top = summary.top_changes || [];
+    const top = summary.top_changes || []; const matched = summary.plans_matched || 1;
     const typeSel = $('#chgType'); typeSel.innerHTML = '<option value="">All</option>' + TYPES.filter((t) => top.some((x) => x.change === t)).map((t) => `<option>${t}</option>`).join('');
     const parents = new Set(); top.forEach((x) => (x.parents || []).forEach((p) => parents.add(p.replace(/ \(\d+\)$/, ''))));
     const parSel = $('#chgParent'); parSel.innerHTML = '<option value="">All</option>' + [...parents].sort().map((p) => `<option>${esc(p)}</option>`).join('');
     const draw = () => {
       const q = $('#chgSearch').value.trim().toLowerCase(), ty = typeSel.value, pa = parSel.value, hide = $('#chgHideFlag').checked;
-      const rows = top.filter((x) => (!hide || x.change !== 'SELECTED_DRUG_FLAG_CHANGED') && (!ty || x.change === ty) && (!pa || (x.parents || []).some((p) => p.startsWith(pa + ' ('))) && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker}`.toLowerCase().includes(q)));
+      const rows = top.filter((x) => (!hide || (x.change !== 'SELECTED_DRUG_FLAG_CHANGED' && x.plans < matched * 0.95)) && (!ty || x.change === ty) && (!pa || (x.parents || []).some((p) => p.startsWith(pa + ' ('))) && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker}`.toLowerCase().includes(q)));
       const hasLives = rows.some((x) => x.lives);
-      renderTable($('#chgTable'), [{ key: 'lives', label: 'Lives', num: true }, { key: 'plans', label: 'Plans', num: true }, { key: 'transitions', label: 'Formularies', num: true }, { key: 'change', label: 'Change', render: (v, r) => tag(v) + (r.structural && r.structural >= (r.lives || 0) * 0.5 ? ' <span class="muted" title="Most of these lives are on formularies whose tier count changed, so the tier move reflects a new tier structure">structural</span>' : '') }, { key: 'drug', label: 'Drug' }, { key: 'tty', label: 'Type' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'lives_parents', label: 'Lives by parent', render: (v, r) => esc(((v && v.length ? v : r.parents) || []).slice(0, 4).join('; ') + (((v && v.length ? v : r.parents) || []).length > 4 ? '; …' : '')) }], rows, { sortKey: hasLives ? 'lives' : 'plans' });
+      renderTable($('#chgTable'), [{ key: 'lives', label: 'Lives', num: true }, { key: 'plans', label: 'Plans', num: true }, { key: 'transitions', label: 'Formularies', num: true }, { key: 'change', label: 'Change', render: (v, r) => tag(v) + (r.structural && r.structural >= (r.lives || 0) * 0.5 ? ' <span class="muted" title="Most of these lives are on formularies whose tier count changed">structural</span>' : '') }, { key: 'drug', label: 'Drug' }, { key: 'tty', label: 'Type' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker', render: (v) => `<span class="tk">${esc(v)}</span>` }, { key: 'lives_parents', label: 'Lives by parent', render: (v, r) => esc(((v && v.length ? v : r.parents) || []).slice(0, 4).join('; ')) }], rows, { sortKey: hasLives ? 'lives' : 'plans' });
     };
     ['#chgSearch', '#chgType', '#chgParent', '#chgHideFlag'].forEach((s) => $(s).oninput = draw);
     draw();
@@ -402,21 +461,23 @@
     } catch (e) { $('#detStatus').textContent = 'Could not load the detail file: ' + e.message; }
   });
   function filteredDetail() { const q = $('#detSearch').value.trim().toLowerCase(), ty = $('#detType').value, pa = $('#detParent').value.trim().toLowerCase(); return detail.filter((x) => (!ty || x.change === ty) && (!pa || (x.plan_parents || '').toLowerCase().includes(pa)) && (!q || `${x.drug} ${x.ingredients} ${x.labeler} ${x.mfr_ticker} ${x.formulary_id} ${x.prev_formulary_id} ${x.plan_parents}`.toLowerCase().includes(q))); }
-  function drawDetail() { const rows = filteredDetail(); $('#detStatus').textContent = `${fmt(rows.length)} of ${fmt(detail.length)} rows match.`; renderTable($('#detTable'), [{ key: 'plan_count', label: 'Plans', num: true }, { key: 'change', label: 'Change', render: tag }, { key: 'detail', label: 'Detail' }, { key: 'drug', label: 'Drug' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'prev_formulary_id', label: 'From' }, { key: 'formulary_id', label: 'To' }, { key: 'plan_parents', label: 'Plan parents' }], rows, { sortKey: 'plan_count', limit: 500 }); }
+  function drawDetail() { const rows = filteredDetail(); $('#detStatus').textContent = `${fmt(rows.length)} of ${fmt(detail.length)} rows match.`; renderTable($('#detTable'), [{ key: 'lives', label: 'Lives', num: true }, { key: 'plan_count', label: 'Plans', num: true }, { key: 'change', label: 'Change', render: tag }, { key: 'detail', label: 'Detail' }, { key: 'drug', label: 'Drug' }, { key: 'labeler', label: 'Manufacturer' }, { key: 'mfr_ticker', label: 'Ticker' }, { key: 'prev_formulary_id', label: 'From' }, { key: 'formulary_id', label: 'To' }, { key: 'plan_parents', label: 'Plan parents' }], rows, { sortKey: 'lives', limit: 500 }); }
   ['#detSearch', '#detType', '#detParent'].forEach((s) => $(s).addEventListener('input', () => { if (detail) drawDetail(); }));
   $('#detExport').addEventListener('click', () => { if (!detail) return; const rows = filteredDetail(); const cols = Object.keys(rows[0] || detail[0] || {}); const cell = (v) => /[",\n]/.test(String(v ?? '')) ? '"' + String(v).replace(/"/g, '""') + '"' : String(v ?? ''); const blob = new Blob([[cols.join(',')].concat(rows.map((r) => cols.map((c) => cell(r[c])).join(','))).join('\n')], { type: 'text/csv' }); const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `${summary.tag}-filtered.csv`; a.click(); });
 
   // ---------- boot ----------
   async function boot() {
-    try { structured = await fetchJson(DOCS + 'structured.json'); } catch { structured = { sources: {} }; }
-    try { docsIndex = await fetchJson(DOCS + 'index.json'); } catch { docsIndex = { sources: {} }; }
-    buildCommercial(); renderCommercial(); renderSources(); renderMatrix();
-    ['#comSearch', '#comSource', '#comKind', '#comWatchOnly'].forEach((s) => $(s).addEventListener('input', renderCommercial));
-    $('#watchSearch').addEventListener('input', renderMatrix);
-    const nDocs = Object.keys((docsIndex || {}).sources || {}).length; const gen = (structured || {}).generated_at || '';
-    $('#foot').textContent = `${nDocs} documents watched${gen ? `; parsed ${gen.slice(0, 10)}` : ''}`;
+    const h = location.hash.replace('#', ''); if (document.querySelector(`nav button[data-view="${h}"]`)) navTo(h);
+    const errs = [];
+    try { structured = await fetchJson(DOCS + 'structured.json'); } catch (e) { errs.push('structured.json: ' + e.message); }
+    try { docsIndex = await fetchJson(DOCS + 'index.json'); } catch (e) { errs.push('index.json: ' + e.message); }
+    if (errs.length) errBox('#ovErr', 'Some commercial data did not load. ' + errs.join(' '));
+    buildOptum(); renderOptum(); renderSources(); renderWatch(); renderEditions(); renderOverview();
+    ['#opSearch', '#opIssue', '#opKind', '#opWatch'].forEach((s) => $(s).addEventListener('input', renderOptum));
+    ['#edSearch', '#edKind', '#edWatch'].forEach((s) => $(s).addEventListener('input', renderEditions));
+    $('#watchSearch').addEventListener('input', renderWatch);
+    $('#foot').textContent = `${Object.keys(docsIndex.sources || {}).length} documents watched${structured.generated_at ? `; parsed ${structured.generated_at.slice(0, 10)}` : ''}`;
     await loadPartD();
-    openHash();
   }
   boot();
 })();
