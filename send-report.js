@@ -62,6 +62,18 @@ function docEvents(state) {
   return events;
 }
 
+function editionEvents(state) {
+  const structured = readJson(path.join(DOCS, 'structured.json'), { comparisons: [] });
+  const out = [];
+  for (const comp of structured.comparisons || []) {
+    const key = `${comp.from_id}>${comp.to_id}`;
+    const sig = JSON.stringify(comp.counts);
+    if ((state.editions || {})[key] === sig) continue;
+    out.push({ key, sig, comp });
+  }
+  return out;
+}
+
 function partdEvent(state) {
   const index = readJson(path.join(PARTD, 'diffs', 'index.json'), { diffs: [] });
   if (!index.diffs.length) return null;
@@ -106,9 +118,9 @@ function bucket(r) {
     if (r.change === 'TIER_CHANGED') return 'tier';
     return 'other';
   }
-  const a = (r.tier_after || '').toUpperCase(), b = (r.tier_before || '').toUpperCase();
-  if (/EXC|N\/C/.test(a)) return 'exclusion';
-  if (b && a && b !== a) return 'tier';
+  const both = `${r.select || ''} ${r.premium || ''} ${r.tier_after || ''}`.toUpperCase();
+  if (r.excluded || /EXC|N\/C/.test(both)) return 'exclusion';
+  if (r.moved || />/.test(both)) return 'tier';
   if (umList(r).length) return 'restriction';
   return 'added';
 }
@@ -120,11 +132,10 @@ function sentence(r) {
   const cls = r.therapeutic_use || r.category ? ` <span style="color:#536270">(${esc(r.therapeutic_use || r.category)})</span>` : '';
   const eff = r.effective ? `, effective ${esc(r.effective)}` : '';
   if (r.kind === 'tier_change') {
-    const um = umList(r); const a = r.tier_after || '', b = r.tier_before || '';
-    let what;
-    if (/EXC|N\/C/i.test(a)) what = `excluded${b && !/EXC|N\/C/i.test(b) ? ` (was ${esc(b)})` : ''}`;
-    else if (b && a && b !== a) what = `moved from ${esc(b)} to ${esc(a)}`;
-    else what = `${esc(a || b || 'covered')}`;
+    const um = umList(r);
+    const cols = r.formulary_columns || ['Select', 'Premium'];
+    const parts = [[cols[0], r.select], [cols[1], r.premium]].filter(([, v]) => v).map(([k, v]) => `${k} ${esc(v)}`);
+    const what = parts.length ? parts.join(', ') : esc(r.tier_after || r.tier_before || 'covered');
     return `<b>${esc(n)}</b>${cls}: ${what}${um.length ? `, ${um.join(', ')}` : ''}${r.brand_generic ? ` <span style="color:#536270">${esc(r.brand_generic)}</span>` : ''}${eff}`;
   }
   if (r.kind === 'add_remove') return `<b>${esc(n)}</b>${cls}: ${r.action === 'Remove' ? 'removed' : 'added'}${eff}`;
@@ -137,7 +148,7 @@ function sentence(r) {
   return `<b>${esc(n)}</b>: ${esc(r.change || '')}`;
 }
 
-function buildHtml(docEvs, pd, heartbeat) {
+function buildHtml(docEvs, pd, heartbeat, editionEvs) {
   const h = [];
   const style = 'font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5;color:#16202a;max-width:760px;';
   const H2 = (t) => `<h2 style="font-size:16px;margin:22px 0 6px;border-bottom:1px solid #dbe1e6;padding-bottom:4px">${t}</h2>`;
@@ -170,6 +181,19 @@ function buildHtml(docEvs, pd, heartbeat) {
       h.push(H3(`Medicare Part D, ${esc(pd.summary.prev)} to ${esc(pd.summary.latest)} (${pd.unit})`));
       h.push(UL(pd.watchMfr.map((m) => { const keys = ['REMOVED', 'PA_ADDED', 'ST_ADDED', 'QL_ADDED', 'TIER_UP', 'ADDED', 'TIER_DOWN']; const parts = keys.filter((k) => m[k]).map((k) => `${fmt(m[k])} ${k.replace(/_/g, ' ').toLowerCase()}`); return `<b>${esc(m.ticker)}</b> ${esc(m.parent || '')}: ${esc(parts.join('; ') || 'no coverage events')}`; })));
     }
+  }
+
+  // ---- Edition comparisons (Aetna plan-year guides) ----
+  for (const ev of (editionEvs || [])) {
+    const comp = ev.comp;
+    h.push(H2(`${esc(comp.from_name)} to ${esc(comp.to_name)}`));
+    h.push(`<p style="margin:0 0 6px;color:#536270">Product-by-product comparison of the two plan-year guides (${fmt(comp.rows_from)} and ${fmt(comp.rows_to)} products): ${esc(Object.entries(comp.counts).map(([k, v]) => `${fmt(v)} ${k.replace(/_/g, ' ').toLowerCase()}`).join(', '))}.</p>`);
+    const w = comp.changes.filter((c) => c.watch_tickers);
+    if (w.length) h.push(H3(`Watchlist (${fmt(w.length)})`), UL(w.slice(0, 40).map((c) => `<b>${esc(c.watch_tickers.join(' '))}</b> ${esc(c.name)}${c.generic ? ` <span style="color:#536270">(${esc(c.generic)})</span>` : ''}: ${esc(c.from_tier || '-')}${c.from_restrictions ? ` [${esc(c.from_restrictions)}]` : ''} in ${esc(comp.from_year)} to ${esc(c.to_tier || '-')}${c.to_restrictions ? ` [${esc(c.to_restrictions)}]` : ''} in ${esc(comp.to_year)}`)));
+    const lost = comp.changes.filter((c) => !c.watch_tickers && c.change === 'NOW_NOT_COVERED');
+    const gained = comp.changes.filter((c) => !c.watch_tickers && c.change === 'NOW_COVERED');
+    if (lost.length) h.push(H3(`No longer covered in ${esc(comp.to_year)} (${fmt(lost.length)})`), UL(lost.slice(0, 25).map((c) => `<b>${esc(c.name)}</b>${c.generic ? ` <span style="color:#536270">(${esc(c.generic)})</span>` : ''}: was ${esc(c.from_tier)}`).concat(lost.length > 25 ? [`<span style="color:#536270">and ${fmt(lost.length - 25)} more on the site</span>`] : [])));
+    if (gained.length) h.push(H3(`Newly covered in ${esc(comp.to_year)} (${fmt(gained.length)})`), UL(gained.slice(0, 25).map((c) => `<b>${esc(c.name)}</b>${c.generic ? ` <span style="color:#536270">(${esc(c.generic)})</span>` : ''}: now ${esc(c.to_tier)}`).concat(gained.length > 25 ? [`<span style="color:#536270">and ${fmt(gained.length - 25)} more on the site</span>`] : [])));
   }
 
   // ---- Commercial documents, grouped by what the change means ----
@@ -229,7 +253,8 @@ async function main() {
 
   const docEvs = docEvents(state);
   const pd = partdEvent(state);
-  const nothing = !docEvs.length && !pd;
+  const editionEvs = editionEvents(state);
+  const nothing = !docEvs.length && !pd && !editionEvs.length;
   log(`Document events: ${docEvs.length}; Part D new comparison: ${pd ? pd.tag : 'none'}`);
 
   if (nothing) {
@@ -241,14 +266,16 @@ async function main() {
     return;
   }
 
-  const watchCount = docEvs.reduce((n, e) => n + e.watch.filter(usable).length, 0) + (pd && pd.watchMfr.length ? 1 : 0);
+  const watchCount = docEvs.reduce((n, e) => n + e.watch.filter(usable).length, 0) + (pd && pd.watchMfr.length ? 1 : 0) + editionEvs.reduce((n, e) => n + e.comp.changes.filter((c) => c.watch_tickers).length, 0);
   const parts = [];
+  if (editionEvs.length) parts.push(`Aetna ${editionEvs[0].comp.from_year} to ${editionEvs[0].comp.to_year} comparison`);
   if (docEvs.length) parts.push(`${docEvs.length} document${docEvs.length > 1 ? 's' : ''} changed`);
   if (pd) parts.push(`new Part D comparison ${pd.summary.prev} to ${pd.summary.latest}`);
   const subject = `Formulary Monitor: ${watchCount ? `${watchCount} watchlist item${watchCount > 1 ? 's' : ''}, ` : ''}${parts.join(', ')}`;
-  await send(subject, buildHtml(docEvs, pd, false));
+  await send(subject, buildHtml(docEvs, pd, false, editionEvs));
 
   for (const ev of docEvs) state.docs[ev.id] = ev.stamp;
+  state.editions = state.editions || {}; for (const ev of editionEvs) state.editions[ev.key] = ev.sig;
   if (pd) state.partd = { last_tag: pd.tag };
   state.last_sent = new Date().toISOString();
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
