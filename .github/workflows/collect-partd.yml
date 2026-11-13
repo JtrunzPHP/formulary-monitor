@@ -37,6 +37,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Fetch CMS monthly enrollment by plan
+        run: node enrich-enrollment.js
+
       - name: Run collector
         env:
           FORCE: ${{ github.event.inputs.force }}
