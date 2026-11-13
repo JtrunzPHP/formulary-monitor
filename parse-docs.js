@@ -145,7 +145,7 @@ function parseAetnaBooklet(text) {
   }
   let category = ''; let buf = null;
   const isHeader = (t) => t && !/\(/.test(t) && t === t.toUpperCase() && /[A-Z]{3,}/.test(t) && !FORM_WORDS.test(t) && !/-$/.test(t) && t.length < 110 && !BOOKLET_RE.test(' ' + t) && !/\d+ MG|\d+ ML/.test(t);
-  const cont = (t, soFar) => (/^\([a-z]/.test(t) && !hasGeneric(soFar)) || /^[\d.]+ ?(MG|ML|MCG|UNIT|UNT|%|X|GM|G)\b/i.test(t) || /^(MG|ML|MCG|UNIT|GM|G)\b/i.test(t) || (!/\(/.test(t) && /\)\s*$/.test(t)) || /^(INJECTOR|KWIKPEN|SOLOSTAR|FLEXTOUCH|FLEXPEN|PEN-INJECTOR|CARTRIDGE|AUTO-INJECTOR|SYRINGE|THERAPY PACK|PACK|DETERRENT|RELEASE)\b/i.test(t) || (/-$/.test(soFar.trim())) || (/^[a-z]/.test(t) && /^[^A-Z]*\)\s*$/.test(t) && parenBalance(soFar) > 0) || (parenBalance(soFar) > 0 && !/\(/.test(t));
+  const cont = (t, soFar) => (soFar === soFar.toUpperCase() && !hasGeneric(soFar) && /^[A-Z0-9(]/.test(t) && /\([a-z][^()]*(\([^()]*\))?[^()]*\)\s*$/.test(t)) || (/^\([a-z]/.test(t) && !hasGeneric(soFar)) || /^[\d.]+ ?(MG|ML|MCG|UNIT|UNT|%|X|GM|G)\b/i.test(t) || /^(MG|ML|MCG|UNIT|GM|G)\b/i.test(t) || (!/\(/.test(t) && /\)\s*$/.test(t)) || /^(INJECTOR|KWIKPEN|SOLOSTAR|FLEXTOUCH|FLEXPEN|PEN-INJECTOR|CARTRIDGE|AUTO-INJECTOR|SYRINGE|THERAPY PACK|PACK|DETERRENT|RELEASE)\b/i.test(t) || (/-$/.test(soFar.trim())) || (/^[a-z]/.test(t) && /^[^A-Z]*\)\s*$/.test(t) && parenBalance(soFar) > 0) || (parenBalance(soFar) > 0 && !/\(/.test(t));
   const flush = () => {
     if (!buf) return;
     const t = norm(buf.join(' '));
@@ -168,11 +168,14 @@ function parseAetnaBooklet(text) {
     if (generic) { const i = clean.lastIndexOf('(' + generic); if (i > 0) name = clean.slice(0, i); }
     name = norm(name);
     if (!name || !/[A-Za-z]{3,}/.test(name)) return;
+    // A product line carries a strength, a form word, a tier code or a generic; plain sentences do not.
+    if (!generic && !tier && !/\d/.test(name) && !FORM_WORDS.test(name)) return;
     rows.push({ category, name, generic, tier, coverage: tier === 'NF' ? 'not covered' : 'listed', restrictions: restr, text: t });
   };
   for (const rawLine of lines) {
     const t = rawLine.trim();
     if (!t || BOOKLET_SKIP.test(t) || LEGEND_RE.test(t)) continue;
+    if (/formulary is updated|Coverage Requirements|^Limits$|^Prescription Drug Name|^[A-Z0-9]{1,4} = |^Drug Tier|visit the website|member ID card|^Aetna\.com|^©/i.test(t)) continue;
     if (isHeader(t) && (!buf || parenBalance(buf.join(' ')) <= 0)) { flush(); category = t; continue; }
     if (buf && !cont(t, buf.join(' ')) && parenBalance(buf.join(' ')) <= 0) flush();
     if (!buf) buf = [];
@@ -187,21 +190,23 @@ function diffBooklet(prevRows, rows) { return diffAetna(prevRows, rows); }
 function parseAetna(text) {
   const raw = text.split('\n').map((l) => l.replace(/\s+$/, ''));
   // Column offsets from the page header
-  let tierCol = -1, limitsCol = -1;
+  let tierCol = -1, limitsCol = -1, headerCount = 0;
   for (let i = 0; i < raw.length; i++) {
     if (/Prescription Drug Name/.test(raw[i]) && /Drug Tier/.test(raw[i])) {
-      tierCol = raw[i].indexOf('Drug Tier');
-      if (/Limits/.test(raw[i])) limitsCol = raw[i].indexOf('Limits');
-      else for (let j = i + 1; j <= i + 2 && j < raw.length; j++) if (/Limits/.test(raw[j])) { limitsCol = raw[j].indexOf('Limits'); break; }
-      break;
+      headerCount++;
+      if (tierCol < 0) {
+        tierCol = raw[i].indexOf('Drug Tier');
+        if (/Limits/.test(raw[i])) limitsCol = raw[i].indexOf('Limits');
+        else for (let j = i + 1; j <= i + 2 && j < raw.length; j++) if (/Limits/.test(raw[j])) { limitsCol = raw[j].indexOf('Limits'); break; }
+      }
     }
   }
-  const columnMode = tierCol > 10;
-  // Booklet-style guides carry a legend with PSP/NPSP codes; route them to the booklet parser even if a
-  // "Drug Tier" header line appears somewhere in the front matter.
-  if (/NPSP\s*=|PSP\s*=\s*Preferred Specialty/i.test(text) || (!columnMode && /PG\s*=\s*Preferred Generic/i.test(text))) return parseAetnaBooklet(text);
+  // A column-layout guide repeats the "Drug Tier" header on every page; a booklet mentions it once
+  // in its front matter. Route on the count, not on the presence of a legend.
+  const columnMode = tierCol > 10 && headerCount >= 5;
+  if (!columnMode) return parseAetnaBooklet(text);
   if (columnMode && limitsCol <= tierCol) limitsCol = tierCol + 12;
-  const rows = []; const problems = []; const notes = { columnMode, tierCol, limitsCol, unknownTierTokens: {} };
+  const rows = []; const problems = []; const notes = { columnMode, headerCount, tierCol, limitsCol, unknownTierTokens: {} };
   let category = ''; let e = null;
   const start = () => { e = { category, name: [], tier: [], limits: [] }; };
   const flush = () => { if (!e) return; const r = finishAetnaEntry(e); if (r && r.problem) problems.push(r); else if (r) rows.push(r); e = null; };
@@ -379,8 +384,11 @@ function findHeader(line) {
   if (!/Medication/i.test(joined)) return null;
   const col = {};
   const at = (re) => { const w = line.words.find((x) => re.test(x.t)); return w ? w.x0 : null; };
+  const endOf = (re) => { const ws = line.words.filter((x) => re.test(x.t)); return ws.length ? Math.max(...ws.map((x) => x.x1)) : null; };
   col.use = at(/^Therapeutic$/i);
+  col.useEnd = endOf(/^(Therapeutic|use)$/i);
   col.med = at(/^Medication$/i);
+  col.medEnd = endOf(/^(Medication|name)$/i);
   col.bg = at(/^Brand\/Generic$/i);
   const tiers = line.words.filter((x) => /^Tier$/i.test(x.t)).map((x) => x.x0);
   col.tier1 = tiers[0] != null ? tiers[0] : null; col.tier2 = tiers[1] != null ? tiers[1] : null;
@@ -402,9 +410,19 @@ function parseOptumBbox(html) {
     // Build entries: consecutive lines under a header grouped by vertical gap
     let entries = []; let cur = null; let lastY1 = null; const gaps = [];
     const flushEntry = () => { if (cur && cur.lines.length) entries.push(cur); cur = null; };
-    for (const L of lines) {
-      const h = findHeader(L);
-      if (h) { flushEntry(); col = h; headerY = L.y1; notes.tables++; lastY1 = L.y1; continue; }
+    for (let li = 0; li < lines.length; li++) {
+      const L = lines[li];
+      // Table headers can span two or three stacked lines ("Therapeutic / use", "Tier / Base", "Effective / date"):
+      // merge the words of the following lines that sit within 18pt before reading the header.
+      if (/^(Therapeutic|Medication)$/i.test(L.words[0] ? L.words[0].t : '') || L.words.some((w) => /^Medication$/i.test(w.t))) {
+        const merged = { y0: L.y0, y1: L.y1, words: [...L.words] };
+        let k = li + 1;
+        const HEADER_WORD = /^(use|name|Base|Enhanced|date|SP|PA|ST|QL|Tier|Brand\/Generic|Add\/Remove|Effective|Therapeutic|Medication|Generic|Brand|Current|New|Change|Changes|Coverage|Status|Utilization|Management|UM)$/i;
+        while (k < lines.length && lines[k].y0 - merged.y1 < 18 && lines[k].words.length && lines[k].words.every((w) => HEADER_WORD.test(w.t))) { merged.words.push(...lines[k].words); merged.y1 = Math.max(merged.y1, lines[k].y1); k++; }
+        merged.words.sort((a, b) => a.x0 - b.x0);
+        const h = findHeader(merged);
+        if (h) { flushEntry(); col = h; headerY = merged.y1; notes.tables++; lastY1 = merged.y1; li = k - 1; continue; }
+      }
       if (!col) continue;
       const text = L.words.map((w) => w.t).join(' ');
       if (/^(Pharmacy Passages|©|Optum|Page \d|\d+$)/i.test(text) || L.y0 < headerY) { continue; }
@@ -421,8 +439,11 @@ function parseOptumBbox(html) {
     flushEntry();
     for (const e of entries) {
       const c = e.col; const words = e.lines.flatMap((L) => L.words);
-      const xmed = c.med - 6;
-      const xend = (c.bg != null ? c.bg : c.tier1 != null ? c.tier1 : c.base != null ? c.base : c.addrem != null ? c.addrem : c.date != null ? c.date : 9999) - 4;
+      // Column boundaries sit midway between neighbouring headers, so cell text that starts a little left
+      // of its header still lands in the right column.
+      const xmed = c.useEnd != null ? (c.useEnd + c.med) / 2 : c.med - 10;
+      const nextStart = [c.bg, c.tier1, c.base, c.addrem, c.date].filter((x) => x != null).sort((a, b) => a - b)[0];
+      const xend = nextStart == null ? 9999 : nextStart - 6;
       const use = words.filter((w) => w.x0 < xmed).map((w) => w.t).join(' ');
       const nameWords = words.filter((w) => w.x0 >= xmed && w.x0 < xend);
       // keep reading order within the name: by line then x
