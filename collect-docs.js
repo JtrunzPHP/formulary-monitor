@@ -167,7 +167,7 @@ async function processSource(src, index) {
   const prevText = last ? fs.readFileSync(path.join(dir, `${last.stamp}.txt`), 'utf8') : '';
   fs.writeFileSync(path.join(dir, `${st}.txt`), text);
   // Word coordinates for table-style PDFs (Optum issues): lets the parser rebuild rows exactly.
-  if (src.kind === 'pdf' && /^optum-/.test(src.id)) {
+  if (src.kind === 'pdf' && /^(optum-|aetna-)/.test(src.id)) {
     try { execSync(`pdftotext -bbox "${tmp}" "${path.join(dir, `${st}.bbox.html`)}"`, { stdio: 'pipe' }); }
     catch (e) { log(`   bbox extraction failed: ${e.message}`); }
   }
