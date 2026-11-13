@@ -2,9 +2,19 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antidiabetic Agents",
-      "name": "sitagliptin- metformin Janumet XR tablet ER",
+      "therapeutic_use": "",
+      "name": "Janumet XR ER",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -14,54 +24,54 @@
         "QL": false
       },
       "effective": "7/27/2026",
-      "text": "Antidiabetic Agents | sitagliptin- metformin Janumet XR tablet ER | Tier 2 -> Tier 2 | 7/27/2026"
+      "text": " | Janumet XR ER | Base Tier 2; Enhanced Tier 2 | 7/27/2026"
     }
   ],
   "problems": [
     {
       "problem": "row without date",
-      "text": " | Generic Brand Programs"
+      "text": "use | Generic Brand Programs Therapeutic EHB EHB Effective medication medication Base Enhanced date SP PA ST QL"
     },
     {
       "problem": "row without date",
-      "text": "PA | Prior authorization"
+      "text": " | sitagliptin- metformin tablet"
     },
     {
       "problem": "row without date",
-      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+      "text": " | Prior"
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | authorization requires coverage. note there are"
     },
     {
       "problem": "row without date",
-      "text": "QL | Quantity limits"
+      "text": " | authorization"
     },
     {
       "problem": "row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+      "text": " | physicians to provide additional"
     },
     {
       "problem": "row without date",
-      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+      "text": " | no additions or removals of this"
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | a specified timeframe."
     },
     {
       "problem": "row without date",
-      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
+      "text": " | clinical programs)"
     },
     {
       "problem": "row without date",
-      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications without prior notice. Optum is an equal opportunity employer."
+      "text": " | or product names are the property of their reserves the right to change specifications"
     }
   ],
   "notes": {
     "bbox": true,
     "pages": 3,
-    "tables": 3
+    "tables": 4
   }
 }

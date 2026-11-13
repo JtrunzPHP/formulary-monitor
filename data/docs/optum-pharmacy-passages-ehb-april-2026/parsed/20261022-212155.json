@@ -2,9 +2,19 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Immunological Agents",
+      "therapeutic_use": "",
       "name": "Starjemza (ustekinumab- hmny) IV and SC injection",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 4",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 4",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
       "flags": {
@@ -14,15 +24,25 @@
         "QL": true
       },
       "effective": "4/29/26",
-      "text": "Immunological Agents | Starjemza (ustekinumab- hmny) IV and SC injection | Tier 4 -> Tier 4 | 4/29/26"
+      "text": " | Starjemza (ustekinumab- hmny) IV and SC injection | Base Tier 4; Enhanced Tier 4 | 4/29/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Musculoskeletal Agents",
+      "therapeutic_use": "",
       "name": "Avtozma (tocilizumab- anoh) auto-injector and prefilled syringe for SC injection",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 5",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 5",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
-      "tier_after": "Tier 5",
+      "tier_after": "Tier 4",
       "flags": {
         "SP": true,
         "PA": true,
@@ -30,13 +50,23 @@
         "QL": true
       },
       "effective": "3/17/26",
-      "text": "Musculoskeletal Agents | Avtozma (tocilizumab- anoh) auto-injector and prefilled syringe for SC injection | Tier 4 -> Tier 5 | 3/17/26"
+      "text": " | Avtozma (tocilizumab- anoh) auto-injector and prefilled syringe for SC injection | Base Tier 4; Enhanced Tier 5 | 3/17/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antineoplastic Agents Neurological",
-      "name": "pomalidomide Pomalyst capsule milnacipran",
+      "therapeutic_use": "",
+      "name": "Pomalyst",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 4",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 4",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
       "flags": {
@@ -46,13 +76,23 @@
         "QL": true
       },
       "effective": "3/5/26",
-      "text": "Antineoplastic Agents Neurological | pomalidomide Pomalyst capsule milnacipran | Tier 4 -> Tier 4 | 3/5/26"
+      "text": " | Pomalyst | Base Tier 4; Enhanced Tier 4 | 3/5/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents Ophthalmic",
-      "name": "tablet titration Savella pack Bimatoprost",
+      "therapeutic_use": "titration",
+      "name": "Savella",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -62,13 +102,23 @@
         "QL": true
       },
       "effective": "3/31/26",
-      "text": "Agents Ophthalmic | tablet titration Savella pack Bimatoprost | Tier 1 -> Tier 1 | 3/31/26"
+      "text": "titration | Savella | Base Tier 1; Enhanced Tier 1 | 3/31/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents",
-      "name": "ophthalmic Lumigan solution",
+      "therapeutic_use": "",
+      "name": "Lumigan",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -78,46 +128,70 @@
         "QL": true
       },
       "effective": "4/7/26",
-      "text": "Agents | ophthalmic Lumigan solution | Tier 1 -> Tier 1 | 4/7/26"
+      "text": " | Lumigan | Base Tier 1; Enhanced Tier 1 | 4/7/26"
     }
   ],
   "problems": [
     {
       "problem": "row without date",
-      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+      "text": " | Brand Alternatives (ABA), also referred to as Authorized company or another company. Although it does not have"
     },
     {
       "problem": "row without date",
-      "text": " | Generic Generic Programs"
+      "text": "use | Generic Generic Programs Therapeutic EHB EHB Effective medication medication Base Enhanced date SP PA ST QL"
     },
     {
       "problem": "row without date",
-      "text": "PA | Prior authorization"
+      "text": " | pomalidomide capsule milnacipran tablet pack Bimatoprost ophthalmic solution"
     },
     {
       "problem": "row without date",
-      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+      "text": " | Prior"
     },
     {
       "problem": "row without date",
-      "text": "ST | Step therapy"
+      "text": " | authorization requires coverage. note there are"
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | Step"
     },
     {
       "problem": "row without date",
-      "text": "QL | Quantity limits"
+      "text": " | therapy directs be eligible for coverage. note there are"
     },
     {
       "problem": "row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+      "text": " | Quantity"
+    },
+    {
+      "problem": "row without date",
+      "text": " | limits establish note there are"
+    },
+    {
+      "problem": "row without date",
+      "text": " | authorization"
+    },
+    {
+      "problem": "row without date",
+      "text": " | physicians to provide additional"
+    },
+    {
+      "problem": "row without date",
+      "text": " | no additions or removals of this"
+    },
+    {
+      "problem": "row without date",
+      "text": " | therapy"
+    },
+    {
+      "problem": "row without date",
+      "text": " | a specified timeframe."
     }
   ],
   "notes": {
     "bbox": true,
     "pages": 4,
-    "tables": 4
+    "tables": 5
   }
 }

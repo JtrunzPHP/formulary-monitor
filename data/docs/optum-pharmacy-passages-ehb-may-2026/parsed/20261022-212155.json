@@ -2,9 +2,19 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Immunological Agents Musculoskeletal",
+      "therapeutic_use": "",
       "name": "Enoby (denosumab-qbde) prefilled syringe for SC injection Xtrenbo (denosumab-",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 4",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 4",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
       "flags": {
@@ -14,13 +24,23 @@
         "QL": true
       },
       "effective": "7/1/26",
-      "text": "Immunological Agents Musculoskeletal | Enoby (denosumab-qbde) prefilled syringe for SC injection Xtrenbo (denosumab- | Tier 4 -> Tier 4 | 7/1/26"
+      "text": " | Enoby (denosumab-qbde) prefilled syringe for SC injection Xtrenbo (denosumab- | Base Tier 4; Enhanced Tier 4 | 7/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents",
+      "therapeutic_use": "",
       "name": "qbde) SC injection",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 4",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 4",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
       "flags": {
@@ -30,13 +50,23 @@
         "QL": true
       },
       "effective": "7/1/26",
-      "text": "Agents | qbde) SC injection | Tier 4 -> Tier 4 | 7/1/26"
+      "text": " | qbde) SC injection | Base Tier 4; Enhanced Tier 4 | 7/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antidiabetic Agents",
-      "name": "dapagliflozin Farxiga tablet",
+      "therapeutic_use": "",
+      "name": "Farxiga",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -46,13 +76,23 @@
         "QL": false
       },
       "effective": "4/6/26",
-      "text": "Antidiabetic Agents | dapagliflozin Farxiga tablet | Tier 2 -> Tier 2 | 4/6/26"
+      "text": " | Farxiga | Base Tier 2; Enhanced Tier 2 | 4/6/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Neurological Agents",
-      "name": "dapagliflozin- metformin ER Xigduo XR tablet fluticasone",
+      "therapeutic_use": "ER",
+      "name": "Xigduo XR",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -62,13 +102,23 @@
         "QL": false
       },
       "effective": "4/8/26",
-      "text": "Neurological Agents | dapagliflozin- metformin ER Xigduo XR tablet fluticasone | Tier 2 -> Tier 2 | 4/8/26"
+      "text": "ER | Xigduo XR | Base Tier 2; Enhanced Tier 2 | 4/8/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Respiratory Agents",
-      "name": "propionate N/A HFA inhaler ipratropium",
+      "therapeutic_use": "",
+      "name": "N/A inhaler",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -78,13 +128,23 @@
         "QL": true
       },
       "effective": "3/30/26",
-      "text": "Respiratory Agents | propionate N/A HFA inhaler ipratropium | Tier 2 -> Tier 2 | 3/30/26"
+      "text": " | N/A inhaler | Base Tier 2; Enhanced Tier 2 | 3/30/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
-      "name": "Atrovent HFA HFA inhaler",
+      "name": "Atrovent HFA inhaler",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -94,58 +154,90 @@
         "QL": true
       },
       "effective": "3/13/26",
-      "text": " | Atrovent HFA HFA inhaler | Tier 3 -> Tier 3 | 3/13/26"
+      "text": " | Atrovent HFA inhaler | Base Tier 3; Enhanced Tier 3 | 3/13/26"
     }
   ],
   "problems": [
     {
       "problem": "row without date",
-      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+      "text": " | Brand Alternatives (ABA), also referred to as Authorized company or another company. Although it does not have"
     },
     {
       "problem": "row without date",
-      "text": " | New generic launches"
+      "text": " | generic launches"
     },
     {
       "problem": "row without date",
-      "text": " | Generic Brand Programs"
+      "text": "use | Generic Brand Programs Therapeutic EHB EHB Effective medication medication Base Enhanced date SP PA ST QL"
     },
     {
       "problem": "row without date",
-      "text": "PA | Prior authorization"
+      "text": " | dapagliflozin tablet"
     },
     {
       "problem": "row without date",
-      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+      "text": " | dapagliflozin- metformin tablet fluticasone propionate HFA ipratropium HFA"
     },
     {
       "problem": "row without date",
-      "text": "ST | Step therapy"
+      "text": " | Prior"
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | authorization requires coverage. note there are"
     },
     {
       "problem": "row without date",
-      "text": "QL | Quantity limits"
+      "text": " | Step"
     },
     {
       "problem": "row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+      "text": " | therapy directs be eligible for coverage. note there are"
     },
     {
       "problem": "row without date",
-      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+      "text": " | Quantity"
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | limits establish note there are"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Age restrictions"
+    },
+    {
+      "problem": "row without date",
+      "text": " | note there are"
+    },
+    {
+      "problem": "row without date",
+      "text": " | authorization"
+    },
+    {
+      "problem": "row without date",
+      "text": " | physicians to provide additional"
+    },
+    {
+      "problem": "row without date",
+      "text": " | no additions or removals of this"
+    },
+    {
+      "problem": "row without date",
+      "text": " | therapy"
+    },
+    {
+      "problem": "row without date",
+      "text": " | a specified timeframe."
+    },
+    {
+      "problem": "row without date",
+      "text": " | clinical programs)"
     }
   ],
   "notes": {
     "bbox": true,
     "pages": 4,
-    "tables": 5
+    "tables": 7
   }
 }

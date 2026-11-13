@@ -2,66 +2,126 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antiviral Agents",
-      "name": "Biktarvy (bictegravir- emtricitabine-tenofovir Brand alafenamide) tablet Sunlenca (lenacapavir) SC",
-      "brand_generic": "",
-      "tier_before": "3 > 2",
-      "tier_after": "3 > 2",
+      "therapeutic_use": "Agents",
+      "name": "Biktarvy (bictegravir- emtricitabine-tenofovir alafenamide) tablet Sunlenca (lenacapavir) SC",
+      "brand_generic": "Brand",
+      "select": "3 > 2",
+      "premium": "3 > 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "2",
+      "status_premium": "2",
+      "moved": true,
+      "excluded": false,
+      "tier_before": "3",
+      "tier_after": "2",
       "flags": {},
       "effective": "11/1/26",
-      "text": "Antiviral Agents | Biktarvy (bictegravir- emtricitabine-tenofovir Brand alafenamide) tablet Sunlenca (lenacapavir) SC | 3 > 2 -> 3 > 2 | 11/1/26"
-    },
-    {
-      "kind": "tier_change",
-      "therapeutic_use": "Hematological",
-      "name": "injection, tablet, tablet Brand therapy pack Fesilty (fibrinogen human-",
-      "brand_generic": "",
-      "tier_before": "3 > 2",
-      "tier_after": "3 > 2",
-      "flags": {},
-      "effective": "12/1/26",
-      "text": "Hematological | injection, tablet, tablet Brand therapy pack Fesilty (fibrinogen human- | 3 > 2 -> 3 > 2 | 12/1/26"
-    },
-    {
-      "kind": "tier_change",
-      "therapeutic_use": "Agents",
-      "name": "Brand chmt) IV injection Adalimumab-aaty auto-",
-      "brand_generic": "",
-      "tier_before": "3 > 2",
-      "tier_after": "EXC > 2",
-      "flags": {},
-      "effective": "10/28/26",
-      "text": "Agents | Brand chmt) IV injection Adalimumab-aaty auto- | 3 > 2 -> EXC > 2 | 10/28/26"
-    },
-    {
-      "kind": "tier_change",
-      "therapeutic_use": "Immunological Agents",
-      "name": "injector, prefilled syringe for Brand SC injection Adalimumab-adaz prefilled",
-      "brand_generic": "",
-      "tier_before": "3 > 2",
-      "tier_after": "EXC > 2",
-      "flags": {},
-      "effective": "1/1/27",
-      "text": "Immunological Agents | injector, prefilled syringe for Brand SC injection Adalimumab-adaz prefilled | 3 > 2 -> EXC > 2 | 1/1/27"
+      "text": "Agents | Biktarvy (bictegravir- emtricitabine-tenofovir alafenamide) tablet Sunlenca (lenacapavir) SC | Select 3 > 2; Premium 3 > 2 | 11/1/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
-      "name": "syringe for SC injection Brand 10mg/0.1mL",
-      "brand_generic": "",
-      "tier_before": "3 > 2",
-      "tier_after": "EXC > 2",
+      "name": "injection, tablet, tablet therapy pack Fesilty (fibrinogen human-",
+      "brand_generic": "Brand",
+      "select": "3 > 2",
+      "premium": "3 > 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "2",
+      "status_premium": "2",
+      "moved": true,
+      "excluded": false,
+      "tier_before": "3",
+      "tier_after": "2",
+      "flags": {},
+      "effective": "12/1/26",
+      "text": " | injection, tablet, tablet therapy pack Fesilty (fibrinogen human- | Select 3 > 2; Premium 3 > 2 | 12/1/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "chmt) IV injection Adalimumab-aaty auto-",
+      "brand_generic": "Brand",
+      "select": "3 > 2",
+      "premium": "EXC > 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "2",
+      "status_premium": "2",
+      "moved": true,
+      "excluded": false,
+      "tier_before": "3",
+      "tier_after": "2",
+      "flags": {},
+      "effective": "10/28/26",
+      "text": " | chmt) IV injection Adalimumab-aaty auto- | Select 3 > 2; Premium EXC > 2 | 10/28/26"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "injector, prefilled syringe for SC injection Adalimumab-adaz prefilled",
+      "brand_generic": "Brand",
+      "select": "3 > 2",
+      "premium": "EXC > 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "2",
+      "status_premium": "2",
+      "moved": true,
+      "excluded": false,
+      "tier_before": "3",
+      "tier_after": "2",
       "flags": {},
       "effective": "1/1/27",
-      "text": " | syringe for SC injection Brand 10mg/0.1mL | 3 > 2 -> EXC > 2 | 1/1/27"
+      "text": " | injector, prefilled syringe for SC injection Adalimumab-adaz prefilled | Select 3 > 2; Premium EXC > 2 | 1/1/27"
+    },
+    {
+      "kind": "tier_change",
+      "therapeutic_use": "",
+      "name": "syringe for SC injection 10mg/0.1mL",
+      "brand_generic": "Brand",
+      "select": "3 > 2",
+      "premium": "EXC > 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "2",
+      "status_premium": "2",
+      "moved": true,
+      "excluded": false,
+      "tier_before": "3",
+      "tier_after": "2",
+      "flags": {},
+      "effective": "1/1/27",
+      "text": " | syringe for SC injection 10mg/0.1mL | Select 3 > 2; Premium EXC > 2 | 1/1/27"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antidiabetic Agents",
       "name": "Langlara (insulin glargine-aldy) pen- injector for SC injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -69,7 +129,7 @@
         "QL": false
       },
       "effective": "9/3/26",
-      "text": "Antidiabetic Agents | Langlara (insulin glargine-aldy) pen- injector for SC injection* | Tier 3 -> EXC | 9/3/26",
+      "text": "Antidiabetic Agents | Langlara (insulin glargine-aldy) pen- injector for SC injection* | Select Tier 3; Premium EXC | 9/3/26",
       "watch_tickers": [],
       "watch_labels": [
         "Insulin (category)"
@@ -80,8 +140,18 @@
       "therapeutic_use": "Anti-infective Agents",
       "name": "Nuzolvence (zoliflodacin) granules for oral suspension*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -89,15 +159,25 @@
         "QL": false
       },
       "effective": "9/3/26",
-      "text": "Anti-infective Agents | Nuzolvence (zoliflodacin) granules for oral suspension* | Tier 3 -> EXC | 9/3/26"
+      "text": "Anti-infective Agents | Nuzolvence (zoliflodacin) granules for oral suspension* | Select Tier 3; Premium EXC | 9/3/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antineoplastic",
       "name": "Beqalzi (sonrotoclax) tablet & tablet therapy pack* Etcamah",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -105,15 +185,25 @@
         "QL": false
       },
       "effective": "9/10/26",
-      "text": "Antineoplastic | Beqalzi (sonrotoclax) tablet & tablet therapy pack* Etcamah | Tier 3 -> EXC | 9/10/26"
+      "text": "Antineoplastic | Beqalzi (sonrotoclax) tablet & tablet therapy pack* Etcamah | Select Tier 3; Premium EXC | 9/10/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents",
       "name": "(camizestrant) tablet* Mimrylo (rusfertide)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -121,15 +211,25 @@
         "QL": false
       },
       "effective": "9/10/26",
-      "text": "Agents | (camizestrant) tablet* Mimrylo (rusfertide) | Tier 3 -> EXC | 9/10/26"
+      "text": "Agents | (camizestrant) tablet* Mimrylo (rusfertide) | Select Tier 3; Premium EXC | 9/10/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Diabetes",
       "name": "SC injection* Mint insulin infusion",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -137,7 +237,7 @@
         "QL": false
       },
       "effective": "9/8/26",
-      "text": "Diabetes | SC injection* Mint insulin infusion | Tier 3 -> EXC | 9/8/26",
+      "text": "Diabetes | SC injection* Mint insulin infusion | Select Tier 3; Premium EXC | 9/8/26",
       "watch_tickers": [],
       "watch_labels": [
         "Insulin (category)"
@@ -148,8 +248,18 @@
       "therapeutic_use": "Supplies",
       "name": "disposable pump reservoir, kit* Fayuvi (rebisufligene",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -157,15 +267,25 @@
         "QL": false
       },
       "effective": "9/16/26",
-      "text": "Supplies | disposable pump reservoir, kit* Fayuvi (rebisufligene | Tier 3 -> EXC | 9/16/26"
+      "text": "Supplies | disposable pump reservoir, kit* Fayuvi (rebisufligene | Select Tier 3; Premium EXC | 9/16/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Endocrine and Metabolic Agents",
       "name": "etisparvovec-hopf) IV injection* Genglycos (pariglasgene",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -173,15 +293,25 @@
         "QL": false
       },
       "effective": "9/30/26",
-      "text": "Endocrine and Metabolic Agents | etisparvovec-hopf) IV injection* Genglycos (pariglasgene | Tier 3 -> EXC | 9/30/26"
+      "text": "Endocrine and Metabolic Agents | etisparvovec-hopf) IV injection* Genglycos (pariglasgene | Select Tier 3; Premium EXC | 9/30/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "brecaparvovec-opnr) IV injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -189,15 +319,25 @@
         "QL": false
       },
       "effective": "9/3/26",
-      "text": " | brecaparvovec-opnr) IV injection* | Tier 3 -> EXC | 9/3/26"
+      "text": " | brecaparvovec-opnr) IV injection* | Select Tier 3; Premium EXC | 9/3/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Hematological Agents",
       "name": "Kresladi (marnetegragene autotemcel) IV injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -205,15 +345,25 @@
         "QL": false
       },
       "effective": "9/15/26",
-      "text": "Hematological Agents | Kresladi (marnetegragene autotemcel) IV injection* | Tier 3 -> EXC | 9/15/26"
+      "text": "Hematological Agents | Kresladi (marnetegragene autotemcel) IV injection* | Select Tier 3; Premium EXC | 9/15/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Immunological Agents",
       "name": "Joenja (leniolisib) tablet Isembyld",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -221,15 +371,25 @@
         "QL": true
       },
       "effective": "10/6/26",
-      "text": "Immunological Agents | Joenja (leniolisib) tablet Isembyld | Tier 3 -> EXC | 10/6/26"
+      "text": "Immunological Agents | Joenja (leniolisib) tablet Isembyld | Select Tier 3; Premium EXC | 10/6/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Neurological Agents",
       "name": "(apitegromab-mstn) IV injection* Zanvastro",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -237,15 +397,25 @@
         "QL": false
       },
       "effective": "9/21/26",
-      "text": "Neurological Agents | (apitegromab-mstn) IV injection* Zanvastro | Tier 3 -> EXC | 9/21/26"
+      "text": "Neurological Agents | (apitegromab-mstn) IV injection* Zanvastro | Select Tier 3; Premium EXC | 9/21/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "(zilganersen) intrathecal injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -253,13 +423,23 @@
         "QL": false
       },
       "effective": "9/9/26",
-      "text": " | (zilganersen) intrathecal injection* | Tier 3 -> EXC | 9/9/26"
+      "text": " | (zilganersen) intrathecal injection* | Select Tier 3; Premium EXC | 9/9/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Anticonvulsant Agents",
       "name": "clonazepam N/A tablet 0.25mg",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -269,13 +449,23 @@
         "QL": true
       },
       "effective": "9/17/26",
-      "text": "Anticonvulsant Agents | clonazepam N/A tablet 0.25mg | Tier 1 -> Tier 1 | 9/17/26"
+      "text": "Anticonvulsant Agents | clonazepam N/A tablet 0.25mg | Select Tier 1; Premium Tier 1 | 9/17/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antidepressant Agents",
       "name": "trazodone tablet N/A 25mg, 75mg",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -285,13 +475,23 @@
         "QL": false
       },
       "effective": "9/10/26",
-      "text": "Antidepressant Agents | trazodone tablet N/A 25mg, 75mg | Tier 1 -> Tier 1 | 9/10/26"
+      "text": "Antidepressant Agents | trazodone tablet N/A 25mg, 75mg | Select Tier 1; Premium Tier 1 | 9/10/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Genitourinary Agents",
       "name": "dimethyl sulfoxide Rimso-50 intravesical solution",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -301,13 +501,23 @@
         "QL": false
       },
       "effective": "10/2/26",
-      "text": "Genitourinary Agents | dimethyl sulfoxide Rimso-50 intravesical solution | Tier 1 -> Tier 1 | 10/2/26"
+      "text": "Genitourinary Agents | dimethyl sulfoxide Rimso-50 intravesical solution | Select Tier 1; Premium Tier 1 | 10/2/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antilipemic Agents Antineoplastic",
-      "name": "Tryngolza (olezarsen) auto- injector for SC Brand injection 50mg/0.8mL Rasonque",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "Tryngolza (olezarsen) auto- injector for SC injection 50mg/0.8mL Rasonque",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -317,13 +527,23 @@
         "QL": true
       },
       "effective": "11/1/26",
-      "text": "Antilipemic Agents Antineoplastic | Tryngolza (olezarsen) auto- injector for SC Brand injection 50mg/0.8mL Rasonque | Tier 3 -> Tier 3 | 11/1/26"
+      "text": " | Tryngolza (olezarsen) auto- injector for SC injection 50mg/0.8mL Rasonque | Select Tier 3; Premium Tier 3 | 11/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents Hematological",
-      "name": "(daraxonrasib) Brand tablet Fesilty (fibrinogen",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "(daraxonrasib) tablet Fesilty (fibrinogen",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -333,13 +553,23 @@
         "QL": true
       },
       "effective": "10/1/26",
-      "text": "Agents Hematological | (daraxonrasib) Brand tablet Fesilty (fibrinogen | Tier 3 -> Tier 3 | 10/1/26"
+      "text": " | (daraxonrasib) tablet Fesilty (fibrinogen | Select Tier 3; Premium Tier 3 | 10/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents Immunological",
-      "name": "human-chmt) IV Brand injection Saphnelo (anifrolumab-fnia)",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "human-chmt) IV injection Saphnelo (anifrolumab-fnia)",
+      "brand_generic": "Brand",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -349,13 +579,23 @@
         "QL": false
       },
       "effective": "10/28/26",
-      "text": "Agents Immunological | human-chmt) IV Brand injection Saphnelo (anifrolumab-fnia) | Tier 2 -> Tier 2 | 10/28/26"
+      "text": " | human-chmt) IV injection Saphnelo (anifrolumab-fnia) | Select Tier 2; Premium Tier 2 | 10/28/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents",
-      "name": "auto-injector, Brand prefilled syringe for SC injection",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "auto-injector, prefilled syringe for SC injection",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -365,7 +605,7 @@
         "QL": true
       },
       "effective": "10/30/26",
-      "text": "Agents | auto-injector, Brand prefilled syringe for SC injection | Tier 3 -> Tier 3 | 10/30/26"
+      "text": " | auto-injector, prefilled syringe for SC injection | Select Tier 3; Premium Tier 3 | 10/30/26"
     },
     {
       "kind": "add_remove",
@@ -378,10 +618,10 @@
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Antineoplastic Agents",
+      "therapeutic_use": "Agents",
       "name": "Jideytro (zidesamtinib) tablet",
       "effective": "10/1/26",
-      "text": "Antineoplastic Agents | Jideytro (zidesamtinib) tablet | Add 10/1/26"
+      "text": "Agents | Jideytro (zidesamtinib) tablet | Add 10/1/26"
     },
     {
       "kind": "add_remove",
@@ -402,18 +642,18 @@
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Antimigraine Agents",
+      "therapeutic_use": "Agents",
       "name": "Rizafilm (rizatriptan) oral film",
       "effective": "10/1/26",
-      "text": "Antimigraine Agents | Rizafilm (rizatriptan) oral film | Add 10/1/26"
+      "text": "Agents | Rizafilm (rizatriptan) oral film | Add 10/1/26"
     },
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Antineoplastic Agents",
+      "therapeutic_use": "Agents",
       "name": "Jideytro (zidesamtinib) tablet",
       "effective": "10/1/26",
-      "text": "Antineoplastic Agents | Jideytro (zidesamtinib) tablet | Add 10/1/26"
+      "text": "Agents | Jideytro (zidesamtinib) tablet | Add 10/1/26"
     },
     {
       "kind": "add_remove",
@@ -427,11 +667,11 @@
   "problems": [
     {
       "problem": "row without date",
-      "text": "section below. EXC: Excluded | *Medications or products added to the New Drugs to Market exclusion products will be listed in the New Benefit Coverage for Medications"
+      "text": "below. Excluded | or products added to the New Drugs to Market exclusion will be listed in the New Benefit Coverage for Medications"
     },
     {
       "problem": "row without date",
-      "text": " | New generic launches"
+      "text": " | generic launches"
     },
     {
       "problem": "row without date",
@@ -439,27 +679,23 @@
     },
     {
       "problem": "row without date",
-      "text": " | Generic Brand Programs Select Premium"
+      "text": " | Generic Brand Programs Select Premium Therapeutic use medication medicatio Tier Tier"
     },
     {
       "problem": "row without date",
-      "text": "PA | Prior authorization"
+      "text": " | Prior authorization"
     },
     {
       "problem": "row without date",
-      "text": " | Prior authorization requires physicians to provide additional This table only shows prior authorizations that have been such as step therapy and quantity limits may still apply."
+      "text": " | authorization requires physicians to provide additional only shows prior authorizations that have been as step therapy and quantity limits may still apply."
     },
     {
       "problem": "row without date",
-      "text": " | utilization management such as prior authorizations and quantity limits may still apply."
+      "text": " | still apply."
     },
     {
       "problem": "add/remove row without date",
-      "text": "QL | Quantity limits"
-    },
-    {
-      "problem": "add/remove row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a only shows Quantity limits that have been added or removed. Existing utilization authorizations and step therapy may still apply."
+      "text": " | limits establish the maximum quantity of a drug that is covered within a Quantity limits that have been added or removed. Existing utilization and step therapy may still apply."
     },
     {
       "problem": "add/remove row without date",
@@ -467,7 +703,7 @@
     },
     {
       "problem": "add/remove row without date",
-      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves without prior notice. Optum is an equal opportunity employer."
+      "text": " | is a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. All other brand or owners. Because we are continuously improving our products and services, Optum reserves prior notice. Optum is an equal opportunity employer."
     }
   ],
   "notes": {

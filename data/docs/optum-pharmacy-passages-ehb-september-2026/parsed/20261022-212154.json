@@ -2,9 +2,19 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Anitdiabetic Agents Pulmonary",
+      "therapeutic_use": "",
       "name": "Ozempic (semaglutide) tablet Tyvaso (treprostinil) DPI",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -14,7 +24,7 @@
         "QL": true
       },
       "effective": "9/1/26",
-      "text": "Anitdiabetic Agents Pulmonary | Ozempic (semaglutide) tablet Tyvaso (treprostinil) DPI | Tier 2 -> Tier 2 | 9/1/26",
+      "text": " | Ozempic (semaglutide) tablet Tyvaso (treprostinil) DPI | Base Tier 2; Enhanced Tier 2 | 9/1/26",
       "watch_tickers": [
         "NVO"
       ],
@@ -24,11 +34,21 @@
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents",
+      "therapeutic_use": "",
       "name": "Maintenance Kit",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 5",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 5",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
-      "tier_after": "Tier 5",
+      "tier_after": "Tier 4",
       "flags": {
         "SP": false,
         "PA": true,
@@ -36,15 +56,25 @@
         "QL": true
       },
       "effective": "9/1/26",
-      "text": "Agents | Maintenance Kit | Tier 4 -> Tier 5 | 9/1/26"
+      "text": " | Maintenance Kit | Base Tier 4; Enhanced Tier 5 | 9/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antineoplastic Agents Antiviral",
+      "therapeutic_use": "",
       "name": "Rasonque (daraxonrasib) tablet",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 5",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 5",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
-      "tier_after": "Tier 5",
+      "tier_after": "Tier 4",
       "flags": {
         "SP": false,
         "PA": true,
@@ -52,13 +82,23 @@
         "QL": false
       },
       "effective": "11/1/26",
-      "text": "Antineoplastic Agents Antiviral | Rasonque (daraxonrasib) tablet | Tier 4 -> Tier 5 | 11/1/26"
+      "text": " | Rasonque (daraxonrasib) tablet | Base Tier 4; Enhanced Tier 5 | 11/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents",
+      "therapeutic_use": "",
       "name": "Xocova (ensitrelvir) tablet",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -68,25 +108,29 @@
         "QL": true
       },
       "effective": "9/21/26",
-      "text": "Agents | Xocova (ensitrelvir) tablet | Tier 3 -> Tier 3 | 9/21/26"
+      "text": " | Xocova (ensitrelvir) tablet | Base Tier 3; Enhanced Tier 3 | 9/21/26"
     }
   ],
   "problems": [
     {
       "problem": "row without date",
-      "text": "Up-tiers | Medications may move to a higher tier on Jan. 1. Brand Please note there are no new uptiers at this time."
+      "text": " | may move to a higher tier on Jan. 1. Brand there are no new uptiers at this time."
     },
     {
       "problem": "row without date",
-      "text": " | New brand launches and new New brand name medications and new strengths launch medications is determined after thorough review by brand launches may include Authorized Brand Alternatives.*"
+      "text": " | brand launches and new name medications and new strengths launch is determined after thorough review by may include Authorized Brand Alternatives.*"
     },
     {
       "problem": "row without date",
-      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+      "text": " | Medication name"
     },
     {
       "problem": "row without date",
-      "text": " | New generic launches"
+      "text": " | Brand Alternatives (ABA), also referred to as Authorized company or another company. Although it does not have"
+    },
+    {
+      "problem": "row without date",
+      "text": " | generic launches"
     },
     {
       "problem": "row without date",
@@ -94,31 +138,15 @@
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | a specified timeframe."
     },
     {
       "problem": "row without date",
-      "text": "QL | Quantity limits"
+      "text": " | clinical programs)"
     },
     {
       "problem": "row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
-    },
-    {
-      "problem": "row without date",
-      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
-    },
-    {
-      "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
-    },
-    {
-      "problem": "row without date",
-      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
-    },
-    {
-      "problem": "row without date",
-      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications without prior notice. Optum is an equal opportunity employer."
+      "text": " | or product names are the property of their reserves the right to change specifications"
     }
   ],
   "notes": {

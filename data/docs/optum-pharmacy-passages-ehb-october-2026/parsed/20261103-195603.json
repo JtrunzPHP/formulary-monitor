@@ -2,9 +2,19 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Anitdiabetic",
+      "therapeutic_use": "",
       "name": "Cequr Inserter",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -14,15 +24,25 @@
         "QL": false
       },
       "effective": "10/15/26",
-      "text": "Anitdiabetic | Cequr Inserter | Tier 2 -> Tier 2 | 10/15/26"
+      "text": " | Cequr Inserter | Base Tier 2; Enhanced Tier 2 | 10/15/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antilipemic Agents",
+      "therapeutic_use": "",
       "name": "Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL",
       "brand_generic": "",
+      "select": "Tier 4",
+      "premium": "Tier 5",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 4",
+      "status_premium": "Tier 5",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 4",
-      "tier_after": "Tier 5",
+      "tier_after": "Tier 4",
       "flags": {
         "SP": true,
         "PA": true,
@@ -30,25 +50,29 @@
         "QL": true
       },
       "effective": "11/1/26",
-      "text": "Antilipemic Agents | Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL | Tier 4 -> Tier 5 | 11/1/26"
+      "text": " | Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL | Base Tier 4; Enhanced Tier 5 | 11/1/26"
     }
   ],
   "problems": [
     {
       "problem": "row without date",
-      "text": "Up-tiers | Medications may move to a higher tier on Jan. 1. Brand Please note there are no new uptiers at this time."
+      "text": " | may move to a higher tier on Jan. 1. Brand there are no new uptiers at this time."
     },
     {
       "problem": "row without date",
-      "text": " | New brand launches and new New brand name medications and new strengths launch medications is determined after thorough review by brand launches may include Authorized Brand Alternatives.*"
+      "text": " | brand launches and new name medications and new strengths launch is determined after thorough review by may include Authorized Brand Alternatives.*"
     },
     {
       "problem": "row without date",
-      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+      "text": " | Medication name"
     },
     {
       "problem": "row without date",
-      "text": " | New generic launches"
+      "text": " | Brand Alternatives (ABA), also referred to as Authorized company or another company. Although it does not have"
+    },
+    {
+      "problem": "row without date",
+      "text": " | generic launches"
     },
     {
       "problem": "row without date",
@@ -56,31 +80,15 @@
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | a specified timeframe."
     },
     {
       "problem": "row without date",
-      "text": "QL | Quantity limits"
+      "text": " | clinical programs)"
     },
     {
       "problem": "row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
-    },
-    {
-      "problem": "row without date",
-      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
-    },
-    {
-      "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
-    },
-    {
-      "problem": "row without date",
-      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
-    },
-    {
-      "problem": "row without date",
-      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications without prior notice. Optum is an equal opportunity employer."
+      "text": " | or product names are the property of their reserves the right to change specifications"
     }
   ],
   "notes": {

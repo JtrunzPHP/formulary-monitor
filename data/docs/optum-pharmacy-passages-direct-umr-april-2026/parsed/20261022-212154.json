@@ -3,13 +3,23 @@
     {
       "kind": "tier_change",
       "therapeutic_use": "Antidiabetic Agents Anti-infective",
-      "name": "Insulin glargine (ABA of Toujeo) pen-injector for SC Brand injection",
-      "brand_generic": "",
-      "tier_before": "3 > 1",
-      "tier_after": "EXC (N/C)",
+      "name": "Insulin glargine (ABA of Toujeo) pen-injector for SC injection",
+      "brand_generic": "Brand",
+      "select": "3 > 1",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "1",
+      "status_premium": "EXC",
+      "moved": true,
+      "excluded": true,
+      "tier_before": "3",
+      "tier_after": "1",
       "flags": {},
       "effective": "5/1/26",
-      "text": "Antidiabetic Agents Anti-infective | Insulin glargine (ABA of Toujeo) pen-injector for SC Brand injection | 3 > 1 -> EXC (N/C) | 5/1/26",
+      "text": "Antidiabetic Agents Anti-infective | Insulin glargine (ABA of Toujeo) pen-injector for SC injection | Select 3 > 1; Premium EXC | 5/1/26",
       "watch_tickers": [],
       "watch_labels": [
         "Insulin (category)"
@@ -18,43 +28,83 @@
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Dermatological",
-      "name": "Blujepa (gepotidacin) tablet Brand 3 Anzupgo (delgocitinib)",
-      "brand_generic": "",
+      "name": "Blujepa (gepotidacin) tablet 3 Anzupgo (delgocitinib)",
+      "brand_generic": "Brand",
+      "select": "(N/C)",
+      "premium": "EXC > 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "(N/C)",
+      "status_premium": "3",
+      "moved": true,
+      "excluded": true,
       "tier_before": "(N/C)",
-      "tier_after": "EXC > 3",
+      "tier_after": "(N/C)",
       "flags": {},
       "effective": "4/15/26",
-      "text": "Agents Dermatological | Blujepa (gepotidacin) tablet Brand 3 Anzupgo (delgocitinib) | (N/C) -> EXC > 3 | 4/15/26"
+      "text": "Agents Dermatological | Blujepa (gepotidacin) tablet 3 Anzupgo (delgocitinib) | Select (N/C); Premium EXC > 3 | 4/15/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Endocrine and",
-      "name": "Brand 3 cream",
-      "brand_generic": "",
+      "name": "3 cream",
+      "brand_generic": "Brand",
+      "select": "(N/C)",
+      "premium": "EXC > 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "(N/C)",
+      "status_premium": "3",
+      "moved": true,
+      "excluded": true,
       "tier_before": "(N/C)",
-      "tier_after": "EXC > 3",
+      "tier_after": "(N/C)",
       "flags": {},
       "effective": "5/1/26",
-      "text": "Agents Endocrine and | Brand 3 cream | (N/C) -> EXC > 3 | 5/1/26"
+      "text": "Agents Endocrine and | 3 cream | Select (N/C); Premium EXC > 3 | 5/1/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Metabolic Agents",
-      "name": "Veozah (fezolinetant) tablet Brand 3",
-      "brand_generic": "",
+      "name": "Veozah (fezolinetant) tablet 3",
+      "brand_generic": "Brand",
+      "select": "(N/C)",
+      "premium": "EXC > 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "(N/C)",
+      "status_premium": "3",
+      "moved": true,
+      "excluded": true,
       "tier_before": "(N/C)",
-      "tier_after": "EXC > 3",
+      "tier_after": "(N/C)",
       "flags": {},
       "effective": "4/28/26",
-      "text": "Metabolic Agents | Veozah (fezolinetant) tablet Brand 3 | (N/C) -> EXC > 3 | 4/28/26"
+      "text": "Metabolic Agents | Veozah (fezolinetant) tablet 3 | Select (N/C); Premium EXC > 3 | 4/28/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "ADHD Agents",
       "name": "Arynta (lisdexamfetamine) oral solution* Tapentadol ER (ABA",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -62,15 +112,25 @@
         "QL": true
       },
       "effective": "3/17/26",
-      "text": "ADHD Agents | Arynta (lisdexamfetamine) oral solution* Tapentadol ER (ABA | Tier 3 -> EXC | 3/17/26"
+      "text": "ADHD Agents | Arynta (lisdexamfetamine) oral solution* Tapentadol ER (ABA | Select Tier 3; Premium EXC | 3/17/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Analgesic Agents",
       "name": "of Nucynta ER) tablet Tolectin DS (tolmetin)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": true,
@@ -78,15 +138,25 @@
         "QL": true
       },
       "effective": "3/11/26",
-      "text": "Analgesic Agents | of Nucynta ER) tablet Tolectin DS (tolmetin) | Tier 3 -> EXC | 3/11/26"
+      "text": "Analgesic Agents | of Nucynta ER) tablet Tolectin DS (tolmetin) | Select Tier 3; Premium EXC | 3/11/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Anti-infective",
       "name": "capsule 400mg* Contepo (fosfomycin)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -94,15 +164,25 @@
         "QL": false
       },
       "effective": "4/21/26",
-      "text": "Anti-infective | capsule 400mg* Contepo (fosfomycin) | Tier 3 -> EXC | 4/21/26"
+      "text": "Anti-infective | capsule 400mg* Contepo (fosfomycin) | Select Tier 3; Premium EXC | 4/21/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Antilipemic",
       "name": "IV injection* Lerochol",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -110,15 +190,25 @@
         "QL": false
       },
       "effective": "3/24/26",
-      "text": "Agents Antilipemic | IV injection* Lerochol | Tier 3 -> EXC | 3/24/26"
+      "text": "Agents Antilipemic | IV injection* Lerochol | Select Tier 3; Premium EXC | 3/24/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Antimigraine",
       "name": "(lerodalcibep-liga) SC injection* Cafergot (ergotamine-",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -126,13 +216,23 @@
         "QL": false
       },
       "effective": "3/18/26",
-      "text": "Agents Antimigraine | (lerodalcibep-liga) SC injection* Cafergot (ergotamine- | Tier 3 -> EXC | 3/18/26"
+      "text": "Agents Antimigraine | (lerodalcibep-liga) SC injection* Cafergot (ergotamine- | Select Tier 3; Premium EXC | 3/18/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Antineoplastic",
       "name": "caffeine) tablet Lifyorli (relacorilant)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -142,15 +242,25 @@
         "QL": true
       },
       "effective": "3/27/26",
-      "text": "Agents Antineoplastic | caffeine) tablet Lifyorli (relacorilant) | Tier 3 -> Tier 3 | 3/27/26"
+      "text": "Agents Antineoplastic | caffeine) tablet Lifyorli (relacorilant) | Select Tier 3; Premium Tier 3 | 3/27/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Antiobesity",
       "name": "capsule pack* Wegovy HD (semaglutide) SC",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -158,7 +268,7 @@
         "QL": false
       },
       "effective": "3/31/26",
-      "text": "Agents Antiobesity | capsule pack* Wegovy HD (semaglutide) SC | Tier 3 -> EXC | 3/31/26",
+      "text": "Agents Antiobesity | capsule pack* Wegovy HD (semaglutide) SC | Select Tier 3; Premium EXC | 3/31/26",
       "watch_tickers": [
         "NVO"
       ],
@@ -171,6 +281,16 @@
       "therapeutic_use": "Agents",
       "name": "injection 7.2mg/0.75mL Halobetasol (ABA of",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -180,15 +300,25 @@
         "QL": true
       },
       "effective": "4/14/26",
-      "text": "Agents | injection 7.2mg/0.75mL Halobetasol (ABA of | Tier 2 -> Tier 2 | 4/14/26"
+      "text": "Agents | injection 7.2mg/0.75mL Halobetasol (ABA of | Select Tier 2; Premium Tier 2 | 4/14/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Dermatological Agents",
       "name": "Ultravate) lotion* Icotyde (icotrokinra)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -196,15 +326,25 @@
         "QL": false
       },
       "effective": "3/17/26",
-      "text": "Dermatological Agents | Ultravate) lotion* Icotyde (icotrokinra) | Tier 3 -> EXC | 3/17/26"
+      "text": "Dermatological Agents | Ultravate) lotion* Icotyde (icotrokinra) | Select Tier 3; Premium EXC | 3/17/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "tablet* Avlayah (tividenofusp",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -212,15 +352,25 @@
         "QL": true
       },
       "effective": "3/23/26",
-      "text": " | tablet* Avlayah (tividenofusp | Tier 3 -> EXC | 3/23/26"
+      "text": " | tablet* Avlayah (tividenofusp | Select Tier 3; Premium EXC | 3/23/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Endocrine and",
       "name": "alfa-eknm) IV injection* Kygevvi (doxecitine-",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -228,15 +378,25 @@
         "QL": false
       },
       "effective": "3/31/26",
-      "text": "Endocrine and | alfa-eknm) IV injection* Kygevvi (doxecitine- | Tier 3 -> EXC | 3/31/26"
+      "text": "Endocrine and | alfa-eknm) IV injection* Kygevvi (doxecitine- | Select Tier 3; Premium EXC | 3/31/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Metabolic Agents",
       "name": "doxribtimine) oral powder* Yuviwel",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -244,15 +404,25 @@
         "QL": false
       },
       "effective": "3/16/26",
-      "text": "Metabolic Agents | doxribtimine) oral powder* Yuviwel | Tier 3 -> EXC | 3/16/26"
+      "text": "Metabolic Agents | doxribtimine) oral powder* Yuviwel | Select Tier 3; Premium EXC | 3/16/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Hematological",
       "name": "(navepegritide) SC injection* Neulasta",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -260,13 +430,23 @@
         "QL": false
       },
       "effective": "3/3/26",
-      "text": "Hematological | (navepegritide) SC injection* Neulasta | Tier 3 -> EXC | 3/3/26"
+      "text": "Hematological | (navepegritide) SC injection* Neulasta | Select Tier 3; Premium EXC | 3/3/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents",
       "name": "(pegfilgrastim) SC injection 4mg/0.4mL",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -276,15 +456,25 @@
         "QL": false
       },
       "effective": "4/14/26",
-      "text": "Agents | (pegfilgrastim) SC injection 4mg/0.4mL | Tier 3 -> Tier 3 | 4/14/26"
+      "text": "Agents | (pegfilgrastim) SC injection 4mg/0.4mL | Select Tier 3; Premium Tier 3 | 4/14/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Hormonal Agents Immunological",
       "name": "Desmoda (desmopressin) oral solution* Steqeyma (ustekinumab-stba)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -292,15 +482,25 @@
         "QL": false
       },
       "effective": "3/2/26",
-      "text": "Hormonal Agents Immunological | Desmoda (desmopressin) oral solution* Steqeyma (ustekinumab-stba) | Tier 3 -> EXC | 3/2/26"
+      "text": "Hormonal Agents Immunological | Desmoda (desmopressin) oral solution* Steqeyma (ustekinumab-stba) | Select Tier 3; Premium EXC | 3/2/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents",
       "name": "SC injection 45mg/0.5mL Ryaltris (by Glenmark)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -308,15 +508,25 @@
         "QL": true
       },
       "effective": "4/21/26",
-      "text": "Agents | SC injection 45mg/0.5mL Ryaltris (by Glenmark) | Tier 3 -> EXC | 4/21/26"
+      "text": "Agents | SC injection 45mg/0.5mL Ryaltris (by Glenmark) | Select Tier 3; Premium EXC | 4/21/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Nasal Agents Neurological",
       "name": "nasal spray* Relgaabi (gabapentin)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -324,15 +534,25 @@
         "QL": true
       },
       "effective": "3/16/26",
-      "text": "Nasal Agents Neurological | nasal spray* Relgaabi (gabapentin) | Tier 3 -> EXC | 3/16/26"
+      "text": "Nasal Agents Neurological | nasal spray* Relgaabi (gabapentin) | Select Tier 3; Premium EXC | 3/16/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agent Neuromucular",
       "name": "capsule* Spinraza (nusinersen)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -340,15 +560,25 @@
         "QL": false
       },
       "effective": "3/30/26",
-      "text": "Agent Neuromucular | capsule* Spinraza (nusinersen) | Tier 3 -> EXC | 3/30/26"
+      "text": "Agent Neuromucular | capsule* Spinraza (nusinersen) | Select Tier 3; Premium EXC | 3/30/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Ophthalmic",
       "name": "intrathecal injection 26mg/5mL, 50mg/5mL Yuvezzi (carbachol-",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -356,15 +586,25 @@
         "QL": false
       },
       "effective": "4/21/26",
-      "text": "Agents Ophthalmic | intrathecal injection 26mg/5mL, 50mg/5mL Yuvezzi (carbachol- | Tier 3 -> EXC | 4/21/26"
+      "text": "Agents Ophthalmic | intrathecal injection 26mg/5mL, 50mg/5mL Yuvezzi (carbachol- | Select Tier 3; Premium EXC | 4/21/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Respiratory",
       "name": "brimonidine) ophthalmic solution* Beclomethasone",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -372,15 +612,25 @@
         "QL": false
       },
       "effective": "2/27/26",
-      "text": "Agents Respiratory | brimonidine) ophthalmic solution* Beclomethasone | Tier 3 -> EXC | 2/27/26"
+      "text": "Agents Respiratory | brimonidine) ophthalmic solution* Beclomethasone | Select Tier 3; Premium EXC | 2/27/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Skeletal Muscle",
       "name": "aerosol inhalation* Atmeksi",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -388,15 +638,25 @@
         "QL": true
       },
       "effective": "3/19/26",
-      "text": "Agents Skeletal Muscle | aerosol inhalation* Atmeksi | Tier 3 -> EXC | 3/19/26"
+      "text": "Agents Skeletal Muscle | aerosol inhalation* Atmeksi | Select Tier 3; Premium EXC | 3/19/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Relaxants Toxicology",
       "name": "(methocarbamol) oral suspension* Rezenopy (naloxone)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -404,15 +664,25 @@
         "QL": false
       },
       "effective": "3/27/26",
-      "text": "Relaxants Toxicology | (methocarbamol) oral suspension* Rezenopy (naloxone) | Tier 3 -> EXC | 3/27/26"
+      "text": "Relaxants Toxicology | (methocarbamol) oral suspension* Rezenopy (naloxone) | Select Tier 3; Premium EXC | 3/27/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agent",
       "name": "nasal spray*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -420,13 +690,23 @@
         "QL": false
       },
       "effective": "3/4/26",
-      "text": "Agent | nasal spray* | Tier 3 -> EXC | 3/4/26"
+      "text": "Agent | nasal spray* | Select Tier 3; Premium EXC | 3/4/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Anticonvulsant Agents",
-      "name": "brivaracetam tablet and IV Briviact injection",
+      "therapeutic_use": "and IV",
+      "name": "Briviact",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -436,13 +716,23 @@
         "QL": false
       },
       "effective": "3/10/26",
-      "text": "Anticonvulsant Agents | brivaracetam tablet and IV Briviact injection | Tier 1 -> Tier 1 | 3/10/26"
+      "text": "and IV | Briviact | Select Tier 1; Premium Tier 1 | 3/10/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antineoplastic Agents",
-      "name": "pomalidomide Pomalyst capsule",
+      "therapeutic_use": "",
+      "name": "Pomalyst",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -452,13 +742,23 @@
         "QL": false
       },
       "effective": "3/5/26",
-      "text": "Antineoplastic Agents | pomalidomide Pomalyst capsule | Tier 1 -> Tier 1 | 3/5/26"
+      "text": " | Pomalyst | Select Tier 1; Premium Tier 1 | 3/5/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antineoplastic Agents Antiviral",
-      "name": "pralatrexate IV Folotyn injection",
+      "therapeutic_use": "",
+      "name": "IV Folotyn",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -468,13 +768,23 @@
         "QL": false
       },
       "effective": "3/11/26",
-      "text": "Antineoplastic Agents Antiviral | pralatrexate IV Folotyn injection | Tier 1 -> Tier 1 | 3/11/26"
+      "text": " | IV Folotyn | Select Tier 1; Premium Tier 1 | 3/11/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents Neurological",
-      "name": "rilpivirine tablet Edurant milnacipran",
+      "therapeutic_use": "tablet",
+      "name": "Edurant",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -484,13 +794,23 @@
         "QL": false
       },
       "effective": "3/4/26",
-      "text": "Agents Neurological | rilpivirine tablet Edurant milnacipran | Tier 1 -> Tier 1 | 3/4/26"
+      "text": "tablet | Edurant | Select Tier 1; Premium Tier 1 | 3/4/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents Ophthalmic",
-      "name": "tablet titration Savella pack bimatoprost",
+      "therapeutic_use": "titration",
+      "name": "Savella",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -500,13 +820,23 @@
         "QL": true
       },
       "effective": "3/31/26",
-      "text": "Agents Ophthalmic | tablet titration Savella pack bimatoprost | Tier 1 -> Tier 1 | 3/31/26"
+      "text": "titration | Savella | Select Tier 1; Premium Tier 1 | 3/31/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents Respiratory",
-      "name": "ophthalmic Lumigan solution nintedanib",
+      "therapeutic_use": "",
+      "name": "Lumigan",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -516,13 +846,23 @@
         "QL": true
       },
       "effective": "4/7/26",
-      "text": "Agents Respiratory | ophthalmic Lumigan solution nintedanib | Tier 1 -> Tier 1 | 4/7/26"
+      "text": " | Lumigan | Select Tier 1; Premium Tier 1 | 4/7/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents",
-      "name": "Ofev capsule",
+      "therapeutic_use": "",
+      "name": "Ofev",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -532,13 +872,23 @@
         "QL": false
       },
       "effective": "4/9/26",
-      "text": "Agents | Ofev capsule | Tier 1 -> Tier 1 | 4/9/26"
+      "text": " | Ofev | Select Tier 1; Premium Tier 1 | 4/9/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antineoplastic Agents Endocrine",
-      "name": "Komzifti (ziftomenib) Brand capsule Lynkuet",
-      "brand_generic": "",
+      "name": "Komzifti (ziftomenib) capsule Lynkuet",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -548,13 +898,23 @@
         "QL": false
       },
       "effective": "5/19/26",
-      "text": "Antineoplastic Agents Endocrine | Komzifti (ziftomenib) Brand capsule Lynkuet | Tier 3 -> Tier 3 | 5/19/26"
+      "text": "Antineoplastic Agents Endocrine | Komzifti (ziftomenib) capsule Lynkuet | Select Tier 3; Premium Tier 3 | 5/19/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Immunological",
-      "name": "(elinzanetant) Brand capule Starjemza (ustekinumab-",
-      "brand_generic": "",
+      "name": "(elinzanetant) capule Starjemza (ustekinumab-",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -564,13 +924,23 @@
         "QL": true
       },
       "effective": "4/28/26",
-      "text": "Agents Immunological | (elinzanetant) Brand capule Starjemza (ustekinumab- | Tier 3 -> Tier 3 | 4/28/26"
+      "text": "Agents Immunological | (elinzanetant) capule Starjemza (ustekinumab- | Select Tier 3; Premium Tier 3 | 4/28/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents",
-      "name": "Brand hmny) IV and SC injection",
-      "brand_generic": "",
+      "name": "hmny) IV and SC injection",
+      "brand_generic": "Brand",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -580,7 +950,7 @@
         "QL": false
       },
       "effective": "4/29/26",
-      "text": "Agents | Brand hmny) IV and SC injection | Tier 2 -> Tier 2 | 4/29/26"
+      "text": "Agents | hmny) IV and SC injection | Select Tier 2; Premium Tier 2 | 4/29/26"
     },
     {
       "kind": "add_remove",
@@ -678,15 +1048,15 @@
   "problems": [
     {
       "problem": "row without date",
-      "text": "Up-tiers | Medications typically move to a higher tier on Jan. 1 and July 1 to help reduce medications may move to a higher tier at any time when a generic equivalent Please note there are no up-tiers at this time."
+      "text": " | typically move to a higher tier on Jan. 1 and July 1 to help reduce may move to a higher tier at any time when a generic equivalent note there are no up-tiers at this time."
     },
     {
       "problem": "row without date",
-      "text": "section below. EXC: Excluded | *Medications or products added to the New Drugs to Market exclusion products will be listed in the New Benefit Coverage for Medications"
+      "text": "below. Excluded | or products added to the New Drugs to Market exclusion will be listed in the New Benefit Coverage for Medications"
     },
     {
       "problem": "row without date",
-      "text": " | New generic launches"
+      "text": " | generic launches"
     },
     {
       "problem": "row without date",
@@ -694,19 +1064,51 @@
     },
     {
       "problem": "row without date",
-      "text": " | Generic Brand Programs"
+      "text": "Therapeutic use | Generic Brand Programs Select Premium medication medication Tier Tier SP PA ST QL"
     },
     {
       "problem": "row without date",
-      "text": " | * QL applies to 1mg and 2mg strength ^ QL effective July 1, 2026"
+      "text": " | brivaracetam tablet injection pomalidomide capsule"
     },
     {
       "problem": "row without date",
-      "text": " | New benefit coverage for medications New Drugs to Market exclusion list New Drugs to Market updates apply to all plans that have maintained on this list for up to six months. Medications coverage as shown below."
+      "text": " | pralatrexate injection"
     },
     {
       "problem": "row without date",
-      "text": " | *QL applies to subcutaneous route"
+      "text": " | rilpivirine"
+    },
+    {
+      "problem": "row without date",
+      "text": " | milnacipran tablet pack bimatoprost ophthalmic solution nintedanib capsule"
+    },
+    {
+      "problem": "row without date",
+      "text": " | applies to 1mg and 2mg effective July 1, 2026"
+    },
+    {
+      "problem": "row without date",
+      "text": " | benefit coverage Drugs to Drugs to Market updates on this list for as shown below."
+    },
+    {
+      "problem": "row without date",
+      "text": " | Medication use name"
+    },
+    {
+      "problem": "row without date",
+      "text": " | strength"
+    },
+    {
+      "problem": "row without date",
+      "text": " | for medications Market exclusion list apply to all plans that have up to six months. Medications"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Brand/ Generic"
+    },
+    {
+      "problem": "row without date",
+      "text": " | applies to subcutaneous route"
     },
     {
       "problem": "add/remove row without date",
@@ -714,7 +1116,7 @@
     },
     {
       "problem": "row without date",
-      "text": " | utilization management such as prior authorizations and quantity limits may still apply."
+      "text": " | still apply."
     },
     {
       "problem": "add/remove row without date",
@@ -722,12 +1124,12 @@
     },
     {
       "problem": "add/remove row without date",
-      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves without prior notice. Optum is an equal opportunity employer."
+      "text": " | is a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. All other brand or owners. Because we are continuously improving our products and services, Optum reserves prior notice. Optum is an equal opportunity employer. 2026 OptumRx, Inc. All rights reserved. Direct&UMR April 2026 WF21110258_260217"
     }
   ],
   "notes": {
     "bbox": true,
     "pages": 7,
-    "tables": 11
+    "tables": 13
   }
 }

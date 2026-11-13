@@ -2,33 +2,63 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Contraceptive Agents",
-      "name": "Nextstellis (drospirenone- Brand 3 estetrol) tablet Vevye (cyclosporine)",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "Nextstellis (drospirenone- 3 estetrol) tablet Vevye (cyclosporine)",
+      "brand_generic": "Brand",
+      "select": "(N/C)",
+      "premium": "EXC > 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "(N/C)",
+      "status_premium": "3",
+      "moved": true,
+      "excluded": true,
       "tier_before": "(N/C)",
-      "tier_after": "EXC > 3",
+      "tier_after": "(N/C)",
       "flags": {},
       "effective": "8/1/26",
-      "text": "Contraceptive Agents | Nextstellis (drospirenone- Brand 3 estetrol) tablet Vevye (cyclosporine) | (N/C) -> EXC > 3 | 8/1/26"
+      "text": " | Nextstellis (drospirenone- 3 estetrol) tablet Vevye (cyclosporine) | Select (N/C); Premium EXC > 3 | 8/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Ophthalmic Agents",
-      "name": "Brand 3 ophthalmic solution",
-      "brand_generic": "",
+      "therapeutic_use": "Agents",
+      "name": "3 ophthalmic solution",
+      "brand_generic": "Brand",
+      "select": "(N/C)",
+      "premium": "EXC > 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "(N/C)",
+      "status_premium": "3",
+      "moved": true,
+      "excluded": true,
       "tier_before": "(N/C)",
-      "tier_after": "EXC > 3",
+      "tier_after": "(N/C)",
       "flags": {},
       "effective": "8/1/26",
-      "text": "Ophthalmic Agents | Brand 3 ophthalmic solution | (N/C) -> EXC > 3 | 8/1/26"
+      "text": "Agents | 3 ophthalmic solution | Select (N/C); Premium EXC > 3 | 8/1/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "ADHD Agents",
       "name": "Atoncy (atomoxetine) oral solution* Methylphenidate ER",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -36,15 +66,25 @@
         "QL": false
       },
       "effective": "6/2/26",
-      "text": "ADHD Agents | Atoncy (atomoxetine) oral solution* Methylphenidate ER | Tier 3 -> EXC | 6/2/26"
+      "text": "ADHD Agents | Atoncy (atomoxetine) oral solution* Methylphenidate ER | Select Tier 3; Premium EXC | 6/2/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "(ABA of Cotempla XR) disintegrating tablet*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -52,13 +92,23 @@
         "QL": true
       },
       "effective": "6/26/26",
-      "text": " | (ABA of Cotempla XR) disintegrating tablet* | Tier 3 -> EXC | 6/26/26"
+      "text": " | (ABA of Cotempla XR) disintegrating tablet* | Select Tier 3; Premium EXC | 6/26/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antidepressant Agents",
       "name": "Auvelity (dextromethorphan- bupropion ER) tablet titration pack Marplan (isocarboxazid)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -68,15 +118,25 @@
         "QL": true
       },
       "effective": "6/23/26",
-      "text": "Antidepressant Agents | Auvelity (dextromethorphan- bupropion ER) tablet titration pack Marplan (isocarboxazid) | Tier 3 -> Tier 3 | 6/23/26"
+      "text": "Antidepressant Agents | Auvelity (dextromethorphan- bupropion ER) tablet titration pack Marplan (isocarboxazid) | Select Tier 3; Premium Tier 3 | 6/23/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "tablet (by Lifsa)*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -84,15 +144,25 @@
         "QL": false
       },
       "effective": "5/29/26",
-      "text": " | tablet (by Lifsa)* | Tier 3 -> EXC | 5/29/26"
+      "text": " | tablet (by Lifsa)* | Select Tier 3; Premium EXC | 5/29/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antiemetic Agents",
       "name": "Dronabinol (ABA of Syndros) oral solution*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": true,
@@ -100,15 +170,25 @@
         "QL": true
       },
       "effective": "6/5/26",
-      "text": "Antiemetic Agents | Dronabinol (ABA of Syndros) oral solution* | Tier 3 -> EXC | 6/5/26"
+      "text": "Antiemetic Agents | Dronabinol (ABA of Syndros) oral solution* | Select Tier 3; Premium EXC | 6/5/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antilipemic Agents",
       "name": "Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -116,15 +196,25 @@
         "QL": true
       },
       "effective": "6/29/26",
-      "text": "Antilipemic Agents | Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL* | Tier 3 -> EXC | 6/29/26"
+      "text": "Antilipemic Agents | Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL* | Select Tier 3; Premium EXC | 6/29/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "Decnupaz (pivekimab sunirine-pvzy) IV injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -132,15 +222,25 @@
         "QL": false
       },
       "effective": "6/3/26",
-      "text": " | Decnupaz (pivekimab sunirine-pvzy) IV injection* | Tier 3 -> EXC | 6/3/26"
+      "text": " | Decnupaz (pivekimab sunirine-pvzy) IV injection* | Select Tier 3; Premium EXC | 6/3/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antineoplastic Agents",
       "name": "Evdi (trabectedin) IV injection* Romidepsin IV injection",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -148,13 +248,23 @@
         "QL": false
       },
       "effective": "6/1/26",
-      "text": "Antineoplastic Agents | Evdi (trabectedin) IV injection* Romidepsin IV injection | Tier 3 -> EXC | 6/1/26"
+      "text": "Antineoplastic Agents | Evdi (trabectedin) IV injection* Romidepsin IV injection | Select Tier 3; Premium EXC | 6/1/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "27.5mg/5.5mL Veppanu",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -164,15 +274,25 @@
         "QL": false
       },
       "effective": "6/30/26",
-      "text": " | 27.5mg/5.5mL Veppanu | Tier 3 -> Tier 3 | 6/30/26"
+      "text": " | 27.5mg/5.5mL Veppanu | Select Tier 3; Premium Tier 3 | 6/30/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "(vepdegestrant) tablet* Xocova (ensitrelvir)",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -180,15 +300,25 @@
         "QL": false
       },
       "effective": "6/22/26",
-      "text": " | (vepdegestrant) tablet* Xocova (ensitrelvir) | Tier 3 -> EXC | 6/22/26"
+      "text": " | (vepdegestrant) tablet* Xocova (ensitrelvir) | Select Tier 3; Premium EXC | 6/22/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antiviral Agents",
       "name": "tablet*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -196,13 +326,23 @@
         "QL": true
       },
       "effective": "6/8/26",
-      "text": "Antiviral Agents | tablet* | Tier 3 -> EXC | 6/8/26"
+      "text": "Antiviral Agents | tablet* | Select Tier 3; Premium EXC | 6/8/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Cardiovascular Agents",
       "name": "Tyvaso (treprostinil) inhalation powder maintenance kit 112 x 48 mcg & 112 x 80 mcg",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -212,15 +352,25 @@
         "QL": true
       },
       "effective": "6/23/26",
-      "text": "Cardiovascular Agents | Tyvaso (treprostinil) inhalation powder maintenance kit 112 x 48 mcg & 112 x 80 mcg | Tier 3 -> Tier 3 | 6/23/26"
+      "text": "Cardiovascular Agents | Tyvaso (treprostinil) inhalation powder maintenance kit 112 x 48 mcg & 112 x 80 mcg | Select Tier 3; Premium Tier 3 | 6/23/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Dermatological Agents",
       "name": "Pellix (calcipotriene) topical solution*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -228,15 +378,25 @@
         "QL": false
       },
       "effective": "7/1/26",
-      "text": "Dermatological Agents | Pellix (calcipotriene) topical solution* | Tier 3 -> EXC | 7/1/26"
+      "text": "Dermatological Agents | Pellix (calcipotriene) topical solution* | Select Tier 3; Premium EXC | 7/1/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Endocrine Agents",
       "name": "Lumvoa (veligtrotug- vvze) IV injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -244,15 +404,25 @@
         "QL": false
       },
       "effective": "6/30/26",
-      "text": "Endocrine Agents | Lumvoa (veligtrotug- vvze) IV injection* | Tier 3 -> EXC | 6/30/26"
+      "text": "Endocrine Agents | Lumvoa (veligtrotug- vvze) IV injection* | Select Tier 3; Premium EXC | 6/30/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Gastrointestinal Agents",
       "name": "Lynavoy (linerixibat) tablet*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -260,13 +430,23 @@
         "QL": false
       },
       "effective": "6/22/26",
-      "text": "Gastrointestinal Agents | Lynavoy (linerixibat) tablet* | Tier 3 -> EXC | 6/22/26"
+      "text": "Gastrointestinal Agents | Lynavoy (linerixibat) tablet* | Select Tier 3; Premium EXC | 6/22/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Hematological Agents",
       "name": "Hympavzi (marstacimab-hncq) auto-injector for SC injection",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -276,15 +456,25 @@
         "QL": false
       },
       "effective": "7/15/26",
-      "text": "Hematological Agents | Hympavzi (marstacimab-hncq) auto-injector for SC injection | Tier 3 -> Tier 3 | 7/15/26"
+      "text": "Hematological Agents | Hympavzi (marstacimab-hncq) auto-injector for SC injection | Select Tier 3; Premium Tier 3 | 7/15/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Metabolic Agents",
       "name": "Jubereq (denosumab-desu) SC injection* Osvyrti (denosumab- desu) prefilled",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -292,15 +482,25 @@
         "QL": false
       },
       "effective": "6/2/26",
-      "text": "Metabolic Agents | Jubereq (denosumab-desu) SC injection* Osvyrti (denosumab- desu) prefilled | Tier 3 -> EXC | 6/2/26"
+      "text": "Metabolic Agents | Jubereq (denosumab-desu) SC injection* Osvyrti (denosumab- desu) prefilled | Select Tier 3; Premium EXC | 6/2/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "syringe for SC injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -308,15 +508,25 @@
         "QL": true
       },
       "effective": "6/4/26",
-      "text": " | syringe for SC injection* | Tier 3 -> EXC | 6/4/26"
+      "text": " | syringe for SC injection* | Select Tier 3; Premium EXC | 6/4/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Ophthalmic Agents",
       "name": "Nufymco (ranibizumab-leyk) intravitreal injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": true,
@@ -324,15 +534,25 @@
         "QL": false
       },
       "effective": "6/22/26",
-      "text": "Ophthalmic Agents | Nufymco (ranibizumab-leyk) intravitreal injection* | Tier 3 -> EXC | 6/22/26"
+      "text": "Ophthalmic Agents | Nufymco (ranibizumab-leyk) intravitreal injection* | Select Tier 3; Premium EXC | 6/22/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Otic Agents",
       "name": "Otarmeni (lunsotogene parvec- cwha) injection*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": true,
         "PA": false,
@@ -340,13 +560,23 @@
         "QL": false
       },
       "effective": "6/12/26",
-      "text": "Otic Agents | Otarmeni (lunsotogene parvec- cwha) injection* | Tier 3 -> EXC | 6/12/26"
+      "text": "Otic Agents | Otarmeni (lunsotogene parvec- cwha) injection* | Select Tier 3; Premium EXC | 6/12/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Respiratory Agents",
       "name": "Breztri aerosphere (budesonide- glycopyrrolate- formoterol) inhalation 160-18-4.8 mcg/act*",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -356,15 +586,25 @@
         "QL": true
       },
       "effective": "6/30/26",
-      "text": "Respiratory Agents | Breztri aerosphere (budesonide- glycopyrrolate- formoterol) inhalation 160-18-4.8 mcg/act* | Tier 2 -> Tier 2 | 6/30/26"
+      "text": "Respiratory Agents | Breztri aerosphere (budesonide- glycopyrrolate- formoterol) inhalation 160-18-4.8 mcg/act* | Select Tier 2; Premium Tier 2 | 6/30/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Thyroid Agents",
       "name": "Amerithroid (thyroid) tablet*",
       "brand_generic": "",
+      "select": "Tier 3",
+      "premium": "EXC",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "EXC",
+      "moved": false,
+      "excluded": true,
       "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_after": "Tier 3",
       "flags": {
         "SP": false,
         "PA": false,
@@ -372,13 +612,23 @@
         "QL": false
       },
       "effective": "7/1/26",
-      "text": "Thyroid Agents | Amerithroid (thyroid) tablet* | Tier 3 -> EXC | 7/1/26"
+      "text": "Thyroid Agents | Amerithroid (thyroid) tablet* | Select Tier 3; Premium EXC | 7/1/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antianxiety Agents Antidepressant",
       "name": "buspirone tablet N/A 2.5, 12.5mg duloxetine DR",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -388,13 +638,23 @@
         "QL": false
       },
       "effective": "6/8/26",
-      "text": "Antianxiety Agents Antidepressant | buspirone tablet N/A 2.5, 12.5mg duloxetine DR | Tier 1 -> Tier 1 | 6/8/26"
+      "text": "Antianxiety Agents Antidepressant | buspirone tablet N/A 2.5, 12.5mg duloxetine DR | Select Tier 1; Premium Tier 1 | 6/8/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents Antineoplastic",
       "name": "capsule 80, 90, N/A 120mg",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -404,13 +664,23 @@
         "QL": true
       },
       "effective": "6/23/26",
-      "text": "Agents Antineoplastic | capsule 80, 90, N/A 120mg | Tier 1 -> Tier 1 | 6/23/26"
+      "text": "Agents Antineoplastic | capsule 80, 90, N/A 120mg | Select Tier 1; Premium Tier 1 | 6/23/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Agents",
       "name": "bosutinib tablet Bosulif",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -420,13 +690,23 @@
         "QL": false
       },
       "effective": "6/17/26",
-      "text": "Agents | bosutinib tablet Bosulif | Tier 1 -> Tier 1 | 6/17/26"
+      "text": "Agents | bosutinib tablet Bosulif | Select Tier 1; Premium Tier 1 | 6/17/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Antirheumatic Agents",
       "name": "tofacitinib ER Xeljanz XR tablet tofacitinib",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -436,13 +716,23 @@
         "QL": true
       },
       "effective": "6/11/26",
-      "text": "Antirheumatic Agents | tofacitinib ER Xeljanz XR tablet tofacitinib | Tier 1 -> Tier 1 | 6/11/26"
+      "text": "Antirheumatic Agents | tofacitinib ER Xeljanz XR tablet tofacitinib | Select Tier 1; Premium Tier 1 | 6/11/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "Xeljanz solution, tablet",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -452,13 +742,23 @@
         "QL": true
       },
       "effective": "6/11/26",
-      "text": " | Xeljanz solution, tablet | Tier 1 -> Tier 1 | 6/11/26"
+      "text": " | Xeljanz solution, tablet | Select Tier 1; Premium Tier 1 | 6/11/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Cardiovascular Agents",
       "name": "azilsartan tablet Edarbi macitentan",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -468,13 +768,23 @@
         "QL": false
       },
       "effective": "6/19/26",
-      "text": "Cardiovascular Agents | azilsartan tablet Edarbi macitentan | Tier 1 -> Tier 1 | 6/19/26"
+      "text": "Cardiovascular Agents | azilsartan tablet Edarbi macitentan | Select Tier 1; Premium Tier 1 | 6/19/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
       "name": "Opsumit tablet",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -484,13 +794,23 @@
         "QL": true
       },
       "effective": "6/12/26",
-      "text": " | Opsumit tablet | Tier 1 -> Tier 1 | 6/12/26"
+      "text": " | Opsumit tablet | Select Tier 1; Premium Tier 1 | 6/12/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Genitourinary Agents",
       "name": "mirabegron ER granules for oral Myrbetriq suspension",
       "brand_generic": "",
+      "select": "Tier 1",
+      "premium": "Tier 1",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 1",
+      "status_premium": "Tier 1",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
       "flags": {
@@ -500,13 +820,23 @@
         "QL": false
       },
       "effective": "6/19/26",
-      "text": "Genitourinary Agents | mirabegron ER granules for oral Myrbetriq suspension | Tier 1 -> Tier 1 | 6/19/26"
+      "text": "Genitourinary Agents | mirabegron ER granules for oral Myrbetriq suspension | Select Tier 1; Premium Tier 1 | 6/19/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Cardiovascular Agents",
-      "name": "Hemangeol (propranolol) oral Brand solution",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "Hemangeol (propranolol) oral solution",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -516,13 +846,23 @@
         "QL": false
       },
       "effective": "10/24/26",
-      "text": "Cardiovascular Agents | Hemangeol (propranolol) oral Brand solution | Tier 3 -> Tier 3 | 10/24/26"
+      "text": " | Hemangeol (propranolol) oral solution | Select Tier 3; Premium Tier 3 | 10/24/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Metabolic Agents",
-      "name": "Yuviwel (navepegritide) Brand SC injection",
-      "brand_generic": "",
+      "therapeutic_use": "",
+      "name": "Yuviwel (navepegritide) SC injection",
+      "brand_generic": "Brand",
+      "select": "Tier 3",
+      "premium": "Tier 3",
+      "formulary_columns": [
+        "Select",
+        "Premium"
+      ],
+      "status_select": "Tier 3",
+      "status_premium": "Tier 3",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
       "flags": {
@@ -532,23 +872,23 @@
         "QL": true
       },
       "effective": "8/1/26",
-      "text": "Metabolic Agents | Yuviwel (navepegritide) Brand SC injection | Tier 3 -> Tier 3 | 8/1/26"
+      "text": " | Yuviwel (navepegritide) SC injection | Select Tier 3; Premium Tier 3 | 8/1/26"
     },
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Antiemetic Agents",
+      "therapeutic_use": "Agents",
       "name": "Nereus (tradipitant) capsule",
       "effective": "7/1/26",
-      "text": "Antiemetic Agents | Nereus (tradipitant) capsule | Add 7/1/26"
+      "text": "Agents | Nereus (tradipitant) capsule | Add 7/1/26"
     },
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Antineoplastic Agents",
+      "therapeutic_use": "Agents",
       "name": "Imlygic (talimogene laherparepvec) intralesional injection",
       "effective": "7/1/26",
-      "text": "Antineoplastic Agents | Imlygic (talimogene laherparepvec) intralesional injection | Add 7/1/26"
+      "text": "Agents | Imlygic (talimogene laherparepvec) intralesional injection | Add 7/1/26"
     },
     {
       "kind": "add_remove",
@@ -561,18 +901,18 @@
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Immunological Agents",
+      "therapeutic_use": "Agents",
       "name": "Ryoncil (remestemcel-l-rknd) IV infusion kit",
       "effective": "7/1/26",
-      "text": "Immunological Agents | Ryoncil (remestemcel-l-rknd) IV infusion kit | Add 7/1/26"
+      "text": "Agents | Ryoncil (remestemcel-l-rknd) IV infusion kit | Add 7/1/26"
     },
     {
       "kind": "add_remove",
       "action": "Remove",
-      "therapeutic_use": "Anticonvulsant Agents",
+      "therapeutic_use": "Agents",
       "name": "Neurontin (gabapentin) capsule",
       "effective": "7/1/26",
-      "text": "Anticonvulsant Agents | Neurontin (gabapentin) capsule | Remove 7/1/26"
+      "text": "Agents | Neurontin (gabapentin) capsule | Remove 7/1/26"
     },
     {
       "kind": "add_remove",
@@ -585,20 +925,20 @@
     {
       "kind": "add_remove",
       "action": "Add",
-      "therapeutic_use": "Antiemetic Agents",
+      "therapeutic_use": "Agents",
       "name": "Nereus (tradipitant) capsule",
       "effective": "7/1/26",
-      "text": "Antiemetic Agents | Nereus (tradipitant) capsule | Add 7/1/26"
+      "text": "Agents | Nereus (tradipitant) capsule | Add 7/1/26"
     }
   ],
   "problems": [
     {
       "problem": "row without date",
-      "text": "Up-tiers | Medications typically move to a higher tier on Jan. 1 and July 1 to help reduce medications may move to a higher tier at any time when a generic equivalent Please note there are no up-tiers at this time."
+      "text": " | typically move to a higher tier on Jan. 1 and July 1 to help reduce may move to a higher tier at any time when a generic equivalent note there are no up-tiers at this time."
     },
     {
       "problem": "row without date",
-      "text": "section below. EXC: Excluded | *Medications or products added to the New Drugs to Market exclusion products will be listed in the New Benefit Coverage for Medications"
+      "text": "below. Excluded | or products added to the New Drugs to Market exclusion will be listed in the New Benefit Coverage for Medications"
     },
     {
       "problem": "row without date",
@@ -606,27 +946,27 @@
     },
     {
       "problem": "row without date",
-      "text": " | Generic Brand Programs Select Premium"
+      "text": " | Generic Brand Programs Select Premium Therapeutic use medication medication Tier Tier SP PA ST QL"
     },
     {
       "problem": "row without date",
-      "text": " | New benefit coverage for medications New Drugs to Market exclusion list New Drugs to Market updates apply to all plans that have maintained on this list for up to six months. Medications that coverage as shown below."
+      "text": " | benefit coverage for medications Drugs to Market exclusion list Drugs to Market updates apply to all plans that have on this list for up to six months. Medications that as shown below."
     },
     {
       "problem": "row without date",
-      "text": "PA | Prior authorization"
+      "text": "Therapeutic use | Brand/ Select Medication name Generic"
     },
     {
       "problem": "row without date",
-      "text": " | Prior authorization requires physicians to provide additional This table only shows prior authorizations that have been such as step therapy and quantity limits may still apply."
-    },
-    {
-      "problem": "add/remove row without date",
-      "text": "ST | Step therapy"
+      "text": " | Prior authorization"
     },
     {
       "problem": "row without date",
-      "text": " | utilization management such as prior authorizations and quantity limits may still apply."
+      "text": " | requires physicians to provide additional only shows prior authorizations that have been step therapy and quantity limits may still apply."
+    },
+    {
+      "problem": "row without date",
+      "text": " | still apply."
     },
     {
       "problem": "add/remove row without date",
@@ -634,7 +974,7 @@
     },
     {
       "problem": "add/remove row without date",
-      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves without prior notice. Optum is an equal opportunity employer."
+      "text": " | a registered trademark of Optum, Inc. in the U.S. and other jurisdictions. All other brand or owners. Because we are continuously improving our products and services, Optum reserves notice. Optum is an equal opportunity employer. Inc. All rights reserved. WF21110258_260217 DirectandUMRJuly2026"
     }
   ],
   "notes": {

@@ -47,22 +47,6 @@
     },
     {
       "change": "ADDED",
-      "name": "2027 Pharmacy Drug Guide - Advanced Control Plan - Aetna",
-      "generic": "",
-      "category": "MOUTH/THROAT/DENTAL AGENTS",
-      "tier_after": "",
-      "restrictions_after": []
-    },
-    {
-      "change": "ADDED",
-      "name": "01/01/2027",
-      "generic": "",
-      "category": "MOUTH/THROAT/DENTAL AGENTS",
-      "tier_after": "",
-      "restrictions_after": []
-    },
-    {
-      "change": "ADDED",
       "name": "allopurinol oral tablet 100 mg, 300 mg",
       "generic": "",
       "category": "GOUT",

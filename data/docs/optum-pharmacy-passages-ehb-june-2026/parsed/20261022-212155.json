@@ -2,9 +2,19 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antidiabetic Agents",
-      "name": "sitagliptin Januvia tablet sitagliptin-",
+      "therapeutic_use": "",
+      "name": "Januvia",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -14,13 +24,23 @@
         "QL": false
       },
       "effective": "5/28/26",
-      "text": "Antidiabetic Agents | sitagliptin Januvia tablet sitagliptin- | Tier 2 -> Tier 2 | 5/28/26"
+      "text": " | Januvia | Base Tier 2; Enhanced Tier 2 | 5/28/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
-      "name": "metformin Janumet tablet",
+      "name": "Janumet",
       "brand_generic": "",
+      "select": "Tier 2",
+      "premium": "Tier 2",
+      "formulary_columns": [
+        "Base",
+        "Enhanced"
+      ],
+      "status_select": "Tier 2",
+      "status_premium": "Tier 2",
+      "moved": false,
+      "excluded": false,
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
@@ -30,15 +50,15 @@
         "QL": false
       },
       "effective": "5/28/26",
-      "text": " | metformin Janumet tablet | Tier 2 -> Tier 2 | 5/28/26"
+      "text": " | Janumet | Base Tier 2; Enhanced Tier 2 | 5/28/26"
     },
     {
       "kind": "add_remove",
       "action": "Remove",
-      "therapeutic_use": "Respiratory Agents",
+      "therapeutic_use": "Agents",
       "name": "hydrocodone-homatropine oral solution Hydromet (hydrocodone-homatropine)",
       "effective": "7/1/26",
-      "text": "Respiratory Agents | hydrocodone-homatropine oral solution Hydromet (hydrocodone-homatropine) | Remove 7/1/26"
+      "text": "Agents | hydrocodone-homatropine oral solution Hydromet (hydrocodone-homatropine) | Remove 7/1/26"
     },
     {
       "kind": "add_remove",
@@ -52,40 +72,24 @@
   "problems": [
     {
       "problem": "row without date",
-      "text": " | Generic Brand Programs"
-    },
-    {
-      "problem": "add/remove row without date",
-      "text": "ST | Step therapy"
+      "text": "use | Generic Brand Programs Therapeutic EHB EHB Effective medication medication Base Enhanced date SP PA ST QL"
     },
     {
       "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
+      "text": " | sitagliptin tablet sitagliptin- metformin tablet"
     },
     {
       "problem": "row without date",
-      "text": "QL | Quantity limits"
+      "text": " | a specified timeframe."
     },
     {
       "problem": "row without date",
-      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
-    },
-    {
-      "problem": "row without date",
-      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
-    },
-    {
-      "problem": "row without date",
-      "text": " | Please note there are no additions or removals of this restriction at this time."
-    },
-    {
-      "problem": "row without date",
-      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
+      "text": " | clinical programs)"
     }
   ],
   "notes": {
     "bbox": true,
     "pages": 4,
-    "tables": 4
+    "tables": 5
   }
 }
