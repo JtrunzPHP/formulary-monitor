@@ -25,5 +25,8 @@
   "partd": {
     "last_tag": "20260916_to_20261008"
   },
-  "last_sent": "2026-11-13T18:30:57.009Z"
+  "last_sent": "2026-11-13T19:23:46.288Z",
+  "editions": {
+    "aetna-acp-2026>aetna-acp-2027": "{\"NOW_NOT_COVERED\":19,\"REMOVED\":19,\"TIER_CHANGED\":5,\"RESTRICTION_CHANGED\":82,\"NOW_COVERED\":22,\"ADDED\":26}"
+  }
 }
