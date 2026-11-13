@@ -31,6 +31,7 @@ const DATA_DIR = path.join(__dirname, 'data', 'partd');
 const SNAP_DIR = path.join(DATA_DIR, 'snapshots');
 const DIFF_DIR = path.join(DATA_DIR, 'diffs');
 const DRUGS_JSON = path.join(DATA_DIR, 'drugs.json');
+const ENROLL_JSON = path.join(DATA_DIR, 'enrollment.json');
 const INDEX = path.join(DIFF_DIR, 'index.json');
 
 function log(...a) { console.log(new Date().toISOString().slice(11, 19), ...a); }
@@ -97,6 +98,10 @@ async function main() {
   log(`Diffing ${prev} -> ${latest}`);
 
   const drugs = readJson(DRUGS_JSON, {});
+  const enroll = readJson(ENROLL_JSON, null);
+  const livesOf = (p) => { if (!enroll) return 0; const e = enroll.plans[`${p.contract_id}|${String(p.plan_id).padStart(3, '0')}`]; return e ? e.enrollment : 0; };
+  if (enroll) log(`Enrollment weights from CMS Monthly Enrollment by Plan, period ${enroll.period} (${Number(enroll.total_enrollment).toLocaleString()} total)`);
+  else log('No enrollment.json found; lives will be 0 and plan counts are the only weight');
   const plansPrev = readCsv(path.join(SNAP_DIR, prev, 'plans.csv'));
   const plansLatest = readCsv(path.join(SNAP_DIR, latest, 'plans.csv'));
   const formsPrev = readCsv(path.join(SNAP_DIR, prev, 'formularies.csv'));
@@ -118,8 +123,10 @@ async function main() {
     matchedPlans++;
     const k = `${q.formulary_id}|${p.formulary_id}`;
     let t = transitions.get(k);
-    if (!t) { t = { prevF: q.formulary_id, latestF: p.formulary_id, plans: 0, parents: new Map(), tickers: new Set(), examples: [] }; transitions.set(k, t); }
+    if (!t) { t = { prevF: q.formulary_id, latestF: p.formulary_id, plans: 0, lives: 0, seenPlans: new Set(), parents: new Map(), livesByParent: new Map(), tickers: new Set(), examples: [] }; transitions.set(k, t); }
     t.plans++;
+    const cp = `${p.contract_id}|${p.plan_id}`;
+    if (!t.seenPlans.has(cp)) { t.seenPlans.add(cp); const lv = livesOf(p); t.lives += lv; t.livesByParent.set(p.parent, (t.livesByParent.get(p.parent) || 0) + lv); }
     t.parents.set(p.parent, (t.parents.get(p.parent) || 0) + 1);
     if (p.ticker) t.tickers.add(p.ticker);
     if (t.examples.length < 3) t.examples.push(`${p.contract_id}-${p.plan_id} ${p.plan_name}`);
@@ -133,6 +140,14 @@ async function main() {
   const A = await readFormulary(prev);
   const B = await readFormulary(latest);
   log(`Formularies loaded: ${A.size} before, ${B.size} now`);
+  const tierSet = (m) => { const s = new Set(); if (m) for (const v of m.values()) if (v.tier) s.add(v.tier); return s; };
+  for (const t of transitions.values()) {
+    const ta = tierSet(A.get(t.prevF)), tb = tierSet(B.get(t.latestF));
+    t.tiers_before = [...ta].sort().join(' '); t.tiers_after = [...tb].sort().join(' ');
+    t.structure_changed = ta.size !== tb.size;
+  }
+  const structChanged = [...transitions.values()].filter((t) => t.structure_changed).length;
+  log(`Transitions where the number of tiers changed (tier moves are structural there): ${structChanged} of ${transitions.size}`);
 
   const changes = [];
   function push(t, rxcui, type, detail, before, after) {
@@ -142,8 +157,9 @@ async function main() {
       prev_formulary_id: t.prevF, formulary_id: t.latestF, rxcui, change: type, detail, before, after,
       drug: d.name || '', tty: d.tty || '', ingredients: d.ingredients || '', brands: d.brands || '',
       labeler: d.labeler || '', mfr_parent: lab.parent, mfr_ticker: lab.ticker,
-      plan_count: t.plans,
+      plan_count: t.plans, lives: t.lives, tier_structure_changed: t.structure_changed ? 'Y' : 'N',
       plan_parents: [...t.parents.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`).join('; '),
+      lives_by_parent: [...t.livesByParent.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`).join('; '),
       plan_tickers: [...t.tickers].sort().join(' '),
       example_plans: t.examples.join('; '),
     });
@@ -183,7 +199,7 @@ async function main() {
   log(`Transitions compared: ${compared}, skipped (formulary missing from a snapshot): ${skipped}`);
 
   // ---- Write CSV ----
-  const cols = ['prev_formulary_id', 'formulary_id', 'rxcui', 'change', 'detail', 'before', 'after', 'drug', 'tty', 'ingredients', 'brands', 'labeler', 'mfr_parent', 'mfr_ticker', 'plan_count', 'plan_parents', 'plan_tickers', 'example_plans'];
+  const cols = ['prev_formulary_id', 'formulary_id', 'rxcui', 'change', 'detail', 'before', 'after', 'drug', 'tty', 'ingredients', 'brands', 'labeler', 'mfr_parent', 'mfr_ticker', 'plan_count', 'lives', 'tier_structure_changed', 'plan_parents', 'lives_by_parent', 'plan_tickers', 'example_plans'];
   const csv = [cols.join(',')].concat(changes.map((c) => cols.map((k) => csvCell(c[k])).join(',')));
   const gz = zlib.gzipSync(Buffer.from(csv.join('\n') + '\n'), { level: 9 });
   fs.writeFileSync(path.join(DIFF_DIR, `${tag}.csv.gz`), gz);
@@ -200,17 +216,18 @@ async function main() {
   for (const c of changes) {
     if (!c.rxcui) continue;
     const k = `${c.rxcui}|${c.change}`;
-    const x = agg.get(k) || { rxcui: c.rxcui, change: c.change, drug: c.drug, tty: c.tty, ingredients: c.ingredients, labeler: c.labeler, mfr_ticker: c.mfr_ticker, transitions: 0, plans: 0, parents: new Map() };
+    const x = agg.get(k) || { rxcui: c.rxcui, change: c.change, drug: c.drug, tty: c.tty, ingredients: c.ingredients, labeler: c.labeler, mfr_ticker: c.mfr_ticker, transitions: 0, plans: 0, lives: 0, structural: 0, parents: new Map(), lives_parents: new Map() };
     x.transitions++;
     x.plans += Number(c.plan_count) || 0;
-    for (const part of (c.plan_parents || '').split('; ')) {
-      const m = part.match(/^(.*) \((\d+)\)$/);
-      if (m) x.parents.set(m[1], (x.parents.get(m[1]) || 0) + Number(m[2]));
-    }
+    x.lives += Number(c.lives) || 0;
+    if (c.tier_structure_changed === 'Y' && /^TIER_/.test(c.change)) x.structural += Number(c.lives) || 0;
+    for (const part of (c.plan_parents || '').split('; ')) { const m = part.match(/^(.*) \((\d+)\)$/); if (m) x.parents.set(m[1], (x.parents.get(m[1]) || 0) + Number(m[2])); }
+    for (const part of (c.lives_by_parent || '').split('; ')) { const m = part.match(/^(.*) \((\d+)\)$/); if (m) x.lives_parents.set(m[1], (x.lives_parents.get(m[1]) || 0) + Number(m[2])); }
     agg.set(k, x);
   }
-  const top = [...agg.values()].sort((a, b) => b.plans - a.plans).slice(0, 300)
-    .map((x) => ({ ...x, parents: [...x.parents.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`) }));
+  const sortKey = enroll ? 'lives' : 'plans';
+  const top = [...agg.values()].sort((a, b) => b[sortKey] - a[sortKey]).slice(0, 300)
+    .map((x) => ({ ...x, parents: [...x.parents.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`), lives_parents: [...x.lives_parents.entries()].sort((a, b) => b[1] - a[1]).map(([p, n]) => `${p} (${n})`) }));
 
   const byParent = {}; // plan parent -> change type -> plans affected
   for (const c of changes) {
@@ -222,23 +239,31 @@ async function main() {
     }
   }
   const byMfr = {}; // manufacturer ticker -> change type -> plans affected
+  const byMfrLives = {}; const byParentLives = {};
   for (const c of changes) {
+    if (c.rxcui) {
+      for (const part of (c.lives_by_parent || '').split('; ')) { const m = part.match(/^(.*) \((\d+)\)$/); if (!m) continue; const x = byParentLives[m[1]] || (byParentLives[m[1]] = {}); x[c.change] = (x[c.change] || 0) + Number(m[2]); }
+    }
     if (!c.mfr_ticker || !c.rxcui) continue;
     const x = byMfr[c.mfr_ticker] || (byMfr[c.mfr_ticker] = { parent: c.mfr_parent });
     x[c.change] = (x[c.change] || 0) + (Number(c.plan_count) || 0);
+    const y = byMfrLives[c.mfr_ticker] || (byMfrLives[c.mfr_ticker] = { parent: c.mfr_parent });
+    y[c.change] = (y[c.change] || 0) + (Number(c.lives) || 0);
   }
 
   const summary = {
     tag, prev, latest, contract_year_prev: yearPrev, contract_year_latest: yearLatest, new_plan_year: newYear,
     generated_at: new Date().toISOString(), plans_matched: matchedPlans, plans_new: newPlans, plans_gone: goneP,
     transitions: transitions.size, transitions_compared: compared, formulary_switches_within_year: switches, formulary_splits: splits,
-    total_change_rows: changes.length, by_type: byType, by_plan_parent_plans_affected: byParent, by_manufacturer_plans_affected: byMfr, top_changes: top,
+    total_change_rows: changes.length, by_type: byType, by_plan_parent_plans_affected: byParent, by_manufacturer_plans_affected: byMfr,
+    enrollment_period: enroll ? enroll.period : null, enrollment_total: enroll ? enroll.total_enrollment : null,
+    by_plan_parent_lives_affected: byParentLives, by_manufacturer_lives_affected: byMfrLives, transitions_tier_structure_changed: structChanged, top_changes: top,
   };
   fs.writeFileSync(path.join(DIFF_DIR, `${tag}.summary.json`), JSON.stringify(summary, null, 2));
 
   // Small, Excel-friendly file of the most widespread changes (one row per drug and change type)
-  const topCols = ['plans_affected', 'formularies', 'change', 'drug', 'tty', 'ingredients', 'labeler', 'mfr_ticker', 'rxcui', 'plan_parents'];
-  const topCsv = [topCols.join(',')].concat(top.map((x) => [x.plans, x.transitions, x.change, x.drug, x.tty, x.ingredients, x.labeler, x.mfr_ticker, x.rxcui, x.parents.join('; ')].map(csvCell).join(',')));
+  const topCols = ['lives_affected', 'plans_affected', 'formularies', 'change', 'drug', 'tty', 'ingredients', 'labeler', 'mfr_ticker', 'rxcui', 'lives_by_parent', 'plan_parents'];
+  const topCsv = [topCols.join(',')].concat(top.map((x) => [x.lives, x.plans, x.transitions, x.change, x.drug, x.tty, x.ingredients, x.labeler, x.mfr_ticker, x.rxcui, x.lives_parents.join('; '), x.parents.join('; ')].map(csvCell).join(',')));
   fs.writeFileSync(path.join(DIFF_DIR, `${tag}.top.csv`), topCsv.join('\n') + '\n');
 
   index.diffs = index.diffs.filter((d) => d.tag !== tag);
@@ -248,8 +273,8 @@ async function main() {
 
   log(`Change rows: ${changes.length.toLocaleString()}; within-year formulary switches: ${switches}; formulary splits: ${splits}`);
   log(`By type: ${JSON.stringify(byType)}`);
-  log('Top 30 most widespread drug changes (plans affected):');
-  top.slice(0, 30).forEach((x) => log(`   ${String(x.plans).padStart(5)} plans ${String(x.transitions).padStart(4)} formularies  ${x.change.padEnd(10)} ${x.drug} [${x.labeler}] ${x.mfr_ticker}`));
+  log(`Top 30 most widespread drug changes (${enroll ? 'lives' : 'plans'} affected):`);
+  top.slice(0, 30).forEach((x) => log(`   ${String(x.lives.toLocaleString()).padStart(12)} lives ${String(x.plans).padStart(5)} plans ${String(x.transitions).padStart(4)} formularies  ${x.change.padEnd(10)} ${x.drug} [${x.labeler}] ${x.mfr_ticker}`));
   log('Plans affected by change type, by plan parent (top 12 parents):');
   Object.entries(byParent).sort((a, b) => Object.values(b[1]).reduce((s, v) => s + v, 0) - Object.values(a[1]).reduce((s, v) => s + v, 0)).slice(0, 12)
     .forEach(([p, x]) => log(`   ${p}: ${JSON.stringify(x)}`));
