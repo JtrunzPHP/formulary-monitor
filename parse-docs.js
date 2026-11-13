@@ -335,6 +335,136 @@ function parseOptum(text) {
   return { rows, problems, notes };
 }
 
+
+// ---------------------------------------------------------------------------
+// Optum Rx Pharmacy Passages parser from word coordinates (pdftotext -bbox-layout)
+//
+// Rebuilds each table row from word positions: a header line on the page
+// gives the x position of every column (Therapeutic use, Medication name,
+// Brand/Generic, Tier, Tier, SP, PA, ST, QL, Effective date, Add/Remove), and
+// rows are grouped by the vertical gaps between lines. Wrapped names stay in
+// one row because they sit between the same row borders.
+// ---------------------------------------------------------------------------
+
+function parseBboxWords(html) {
+  const pages = [];
+  const pageRe = /<page[^>]*width="([\d.]+)"[^>]*height="([\d.]+)"[^>]*>([\s\S]*?)<\/page>/g;
+  let pm;
+  while ((pm = pageRe.exec(html))) {
+    const words = [];
+    const wordRe = /<word xMin="([\d.]+)" yMin="([\d.]+)" xMax="([\d.]+)" yMax="([\d.]+)">([^<]*)<\/word>/g;
+    let wm;
+    while ((wm = wordRe.exec(pm[3]))) words.push({ x0: +wm[1], y0: +wm[2], x1: +wm[3], y1: +wm[4], t: wm[5].replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'") });
+    pages.push({ w: +pm[1], h: +pm[2], words });
+  }
+  return pages;
+}
+
+function groupLines(words, tol = 2.5) {
+  const sorted = [...words].sort((a, b) => a.y0 - b.y0 || a.x0 - b.x0);
+  const lines = [];
+  for (const w of sorted) {
+    const L = lines[lines.length - 1];
+    if (L && Math.abs(w.y0 - L.y0) <= tol) { L.words.push(w); L.y1 = Math.max(L.y1, w.y1); }
+    else lines.push({ y0: w.y0, y1: w.y1, words: [w] });
+  }
+  for (const L of lines) L.words.sort((a, b) => a.x0 - b.x0);
+  return lines;
+}
+
+function findHeader(line) {
+  // Returns column x positions when this line is a table header, else null.
+  const t = line.words.map((w) => w.t);
+  const joined = t.join(' ');
+  if (!/Medication/i.test(joined)) return null;
+  const col = {};
+  const at = (re) => { const w = line.words.find((x) => re.test(x.t)); return w ? w.x0 : null; };
+  col.use = at(/^Therapeutic$/i);
+  col.med = at(/^Medication$/i);
+  col.bg = at(/^Brand\/Generic$/i);
+  const tiers = line.words.filter((x) => /^Tier$/i.test(x.t)).map((x) => x.x0);
+  col.tier1 = tiers[0] != null ? tiers[0] : null; col.tier2 = tiers[1] != null ? tiers[1] : null;
+  col.base = at(/^Base$/i); col.enh = at(/^Enhanced$/i);
+  col.sp = at(/^SP$/); col.pa = at(/^PA$/); col.st = at(/^ST$/); col.ql = at(/^QL$/);
+  col.addrem = at(/^Add\/Remove$/i);
+  col.date = at(/^(Effective|date)$/i);
+  if (col.med == null) return null;
+  return col;
+}
+
+function parseOptumBbox(html) {
+  const pages = parseBboxWords(html);
+  const rows = []; const problems = []; const notes = { bbox: true, pages: pages.length, tables: 0 };
+  const DATE = /^\d{1,2}\/\d{1,2}\/\d{2,4}$/;
+  for (const page of pages) {
+    const lines = groupLines(page.words);
+    let col = null; let headerY = -1;
+    // Build entries: consecutive lines under a header grouped by vertical gap
+    let entries = []; let cur = null; let lastY1 = null; const gaps = [];
+    const flushEntry = () => { if (cur && cur.lines.length) entries.push(cur); cur = null; };
+    for (const L of lines) {
+      const h = findHeader(L);
+      if (h) { flushEntry(); col = h; headerY = L.y1; notes.tables++; lastY1 = L.y1; continue; }
+      if (!col) continue;
+      const text = L.words.map((w) => w.t).join(' ');
+      if (/^(Pharmacy Passages|©|Optum|Page \d|\d+$)/i.test(text) || L.y0 < headerY) { continue; }
+      const gap = lastY1 == null ? 0 : L.y0 - lastY1;
+      if (lastY1 != null) gaps.push(gap);
+      const lineH = L.y1 - L.y0 || 10;
+      // New entry when the gap between lines is clearly larger than normal line spacing,
+      // or when this line carries a date and the current entry already has one.
+      const hasDate = L.words.some((w) => DATE.test(w.t));
+      if (!cur || gap > lineH * 0.6 || (hasDate && cur.hasDate)) { flushEntry(); cur = { lines: [], col, hasDate: false }; }
+      cur.lines.push(L); if (hasDate) cur.hasDate = true;
+      lastY1 = L.y1;
+    }
+    flushEntry();
+    for (const e of entries) {
+      const c = e.col; const words = e.lines.flatMap((L) => L.words);
+      const xmed = c.med - 6;
+      const xend = (c.bg != null ? c.bg : c.tier1 != null ? c.tier1 : c.base != null ? c.base : c.addrem != null ? c.addrem : c.date != null ? c.date : 9999) - 4;
+      const use = words.filter((w) => w.x0 < xmed).map((w) => w.t).join(' ');
+      const nameWords = words.filter((w) => w.x0 >= xmed && w.x0 < xend);
+      // keep reading order within the name: by line then x
+      const name = norm(e.lines.flatMap((L) => L.words.filter((w) => w.x0 >= xmed && w.x0 < xend)).map((w) => w.t).join(' '));
+      const right = words.filter((w) => w.x0 >= xend);
+      const date = (right.find((w) => DATE.test(w.t)) || {}).t || '';
+      if (!name && !date) continue;
+      if (c.addrem != null) {
+        const ar = (right.find((w) => /^(Add|Remove)$/i.test(w.t)) || {}).t || '';
+        if (!date) { problems.push({ problem: 'add/remove row without date', text: `${use} | ${name}` }); continue; }
+        rows.push({ kind: 'add_remove', action: ar, therapeutic_use: norm(use), name, effective: date, text: `${use} | ${name} | ${ar} ${date}` });
+        continue;
+      }
+      if (!date) { problems.push({ problem: 'row without date', text: `${use} | ${name}` }); continue; }
+      // Assign every word right of the name column to its nearest column anchor.
+      const anchors = Object.entries({ bg: c.bg, tier1: c.tier1, tier2: c.tier2, base: c.base, enh: c.enh, sp: c.sp, pa: c.pa, st: c.st, ql: c.ql, date: c.date }).filter(([, x]) => x != null);
+      const cells = {};
+      // Join "Tier" with the number that follows it so the pair lands in one column.
+      const rightJ = [];
+      for (let i = 0; i < right.length; i++) {
+        const w = right[i]; const n = right[i + 1];
+        if (/^Tier$/i.test(w.t) && n && /^\d$/.test(n.t) && n.x0 - w.x1 < 14 && Math.abs(n.y0 - w.y0) < 3) { rightJ.push({ ...w, t: `Tier ${n.t}`, x1: n.x1 }); i++; }
+        else rightJ.push(w);
+      }
+      for (const w of rightJ) {
+        if (DATE.test(w.t)) continue;
+        let best = null, bd = 1e9;
+        for (const [k, x] of anchors) { const d = Math.abs(w.x0 - x); if (d < bd) { bd = d; best = k; } }
+        if (best && bd < 40) cells[best] = (cells[best] ? cells[best] + ' ' : '') + w.t;
+      }
+      const brandGeneric = cells.bg || '';
+      let tierB = '', tierA = '';
+      if (c.base != null) { tierB = cells.base || ''; tierA = cells.enh || ''; }
+      else { tierB = cells.tier1 || ''; tierA = cells.tier2 || ''; }
+      const flags = {};
+      for (const k of ['sp', 'pa', 'st', 'ql']) if (c[k] != null) flags[k.toUpperCase()] = /^X$/i.test(cells[k] || '');
+      rows.push({ kind: 'tier_change', therapeutic_use: norm(use), name, brand_generic: brandGeneric, tier_before: tierB, tier_after: tierA || tierB, flags, effective: date, text: `${use} | ${name} | ${tierB} -> ${tierA} | ${date}` });
+    }
+  }
+  return { rows, problems, notes };
+}
+
 // ---------------------------------------------------------------------------
 // Driver
 // ---------------------------------------------------------------------------
@@ -346,7 +476,7 @@ function parserFor(id) {
 }
 
 function tagWatch(row) {
-  const h = watchHits(`${row.name || ''} ${row.generic || ''} ${row.category || ''}`);
+  const h = watchHits(`${row.name || ''} ${row.generic || ''}`);
   if (h.length) { row.watch_tickers = [...new Set(h.map((x) => x.ticker).filter(Boolean))]; row.watch_labels = [...new Set(h.map((x) => x.label))]; }
   return row;
 }
@@ -374,11 +504,13 @@ function main() {
       const txt = path.join(DATA_DIR, id, `${v.stamp}.txt`);
       if (!fs.existsSync(txt)) continue;
       const outFile = path.join(pdir, `${v.stamp}.json`);
+      const bbox = path.join(DATA_DIR, id, `${v.stamp}.bbox.html`);
       let parsed;
       if (fs.existsSync(outFile) && !FORCE) parsed = readJson(outFile, null);
       if (!parsed) {
-        log(`Parsing ${id} ${v.stamp} with ${p.name}`);
-        parsed = p.parse(fs.readFileSync(txt, 'utf8'));
+        const useBbox = p.name === 'optum-passages' && fs.existsSync(bbox);
+        log(`Parsing ${id} ${v.stamp} with ${p.name}${useBbox ? ' (word coordinates)' : ''}`);
+        parsed = useBbox ? parseOptumBbox(fs.readFileSync(bbox, 'utf8')) : p.parse(fs.readFileSync(txt, 'utf8'));
         parsed.rows.forEach(tagWatch);
         writeJson(outFile, parsed);
         log(`   rows: ${parsed.rows.length}, problems: ${parsed.problems.length}, watchlist rows: ${parsed.rows.filter((r) => r.watch_tickers).length}; notes ${JSON.stringify(parsed.notes || {})}`);
