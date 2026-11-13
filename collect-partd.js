@@ -26,7 +26,7 @@ const readline = require('readline');
 const { pipeline } = require('stream/promises');
 const { Readable } = require('stream');
 const { execSync } = require('child_process');
-const { mapContract } = require('./parents');
+const { mapContract, mapCmsParent } = require('./parents');
 
 // ---------------------------------------------------------------------------
 // Settings
@@ -190,6 +190,10 @@ async function findLatestZip() {
 
 async function parsePlans(file) {
   log(`Parsing plan information file: ${path.basename(file)}`);
+  const enroll = readJson(path.join(DATA_DIR, 'enrollment.json'), null);
+  if (enroll) log(`Using CMS parent organization from enrollment.json (${enroll.period}) as the primary parent source`);
+  else log('No enrollment.json; parents come from contract-name patterns only');
+  let viaCms = 0, viaName = 0;
   const rl = readline.createInterface({ input: fs.createReadStream(file), crlfDelay: Infinity });
 
   let header = null;
@@ -225,7 +229,9 @@ async function parsePlans(file) {
     const key = `${f[iContract]}|${f[iPlan]}|${iSeg >= 0 ? f[iSeg] : ''}`;
     let p = plans.get(key);
     if (!p) {
-      const m = mapContract(f[iCName]);
+      const er = enroll ? enroll.plans[`${f[iContract]}|${String(f[iPlan]).padStart(3, '0')}`] : null;
+      let m = er && er.cms_parent ? mapCmsParent(er.cms_parent) : null;
+      if (m) viaCms++; else { m = mapContract(f[iCName]); viaName++; }
       p = {
         contract_id: f[iContract],
         plan_id: f[iPlan],
@@ -239,13 +245,14 @@ async function parsePlans(file) {
         parent: m.parent,
         ticker: m.ticker,
         pbm: m.pbm,
+        cms_parent: m.cms_parent || '',
       };
       plans.set(key, p);
     }
     if (iState >= 0 && f[iState]) p.states.add(f[iState]);
   }
 
-  log(`Plan file: ${lines} rows, ${plans.size} distinct plans`);
+  log(`Plan file: ${lines} rows, ${plans.size} distinct plans (parent from CMS field: ${viaCms}; from contract name: ${viaName})`);
   return plans;
 }
 
@@ -338,11 +345,11 @@ function writeSnapshot(dateTag, sourceName, plans, rows, formularyVersions) {
   ensureDir(dir);
 
   // plans.csv
-  const planLines = ['contract_id,plan_id,segment_id,contract_name,plan_name,formulary_id,snp,suppressed,states,parent,ticker,pbm'];
+  const planLines = ['contract_id,plan_id,segment_id,contract_name,plan_name,formulary_id,snp,suppressed,states,parent,ticker,pbm,cms_parent'];
   for (const p of plans.values()) {
     planLines.push([
       p.contract_id, p.plan_id, p.segment_id, p.contract_name, p.plan_name, p.formulary_id,
-      p.snp, p.suppressed, [...p.states].sort().join(' '), p.parent, p.ticker, p.pbm,
+      p.snp, p.suppressed, [...p.states].sort().join(' '), p.parent, p.ticker, p.pbm, p.cms_parent || '',
     ].map(csvCell).join(','));
   }
   fs.writeFileSync(path.join(dir, 'plans.csv'), planLines.join('\n') + '\n');
