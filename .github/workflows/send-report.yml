@@ -1,0 +1,58 @@
+name: Send formulary alerts
+
+on:
+  workflow_run:
+    workflows: ["Collect commercial formulary documents", "Diff Part D snapshots"]
+    types: [completed]
+  schedule:
+    # Monday 13:30 UTC heartbeat: sends a short note only if nothing changed
+    - cron: '30 13 * * 1'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'auto (send only if something changed), heartbeat (send status if nothing changed), test (send a test email)'
+        required: false
+        default: 'auto'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: send-report
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Send
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+          MODE: ${{ github.event_name == 'schedule' && 'heartbeat' || (github.event.inputs.mode || 'auto') }}
+        run: node send-report.js
+
+      - name: Commit alert state
+        run: |
+          git config user.name "formulary-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data/alerts
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Alert state: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase
+            git push
+          fi
