@@ -166,6 +166,11 @@ async function processSource(src, index) {
   if (last && last.stamp === st) st = st + 'b';
   const prevText = last ? fs.readFileSync(path.join(dir, `${last.stamp}.txt`), 'utf8') : '';
   fs.writeFileSync(path.join(dir, `${st}.txt`), text);
+  // Word coordinates for table-style PDFs (Optum issues): lets the parser rebuild rows exactly.
+  if (src.kind === 'pdf' && /^optum-/.test(src.id)) {
+    try { execSync(`pdftotext -bbox-layout "${tmp}" "${path.join(dir, `${st}.bbox.html`)}"`, { stdio: 'pipe' }); }
+    catch (e) { log(`   bbox extraction failed: ${e.message}`); }
+  }
   const lines = normLines(text);
   log(`   text: ${lines.length} non-empty lines`);
 
@@ -190,6 +195,8 @@ async function processSource(src, index) {
     const old = meta.versions.shift();
     const f = path.join(dir, `${old.stamp}.txt`);
     if (fs.existsSync(f)) fs.rmSync(f);
+    const b = path.join(dir, `${old.stamp}.bbox.html`);
+    if (fs.existsSync(b)) fs.rmSync(b);
   }
   writeJson(path.join(dir, 'meta.json'), meta);
   return { id: src.id, status: change.kind, change, found: src.__found || [] };
