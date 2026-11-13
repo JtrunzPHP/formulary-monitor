@@ -2,8 +2,8 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "",
-      "name": "name name sitagliptin- Antidiabetic metformin Janumet XR",
+      "therapeutic_use": "Antidiabetic Agents",
+      "name": "sitagliptin- metformin Janumet XR tablet ER",
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
@@ -14,11 +14,54 @@
         "QL": false
       },
       "effective": "7/27/2026",
-      "text": "metformin           Janumet XR            Tier 2         Tier 2        ---     ---    ---     ---    7/27/2026"
+      "text": "Antidiabetic Agents | sitagliptin- metformin Janumet XR tablet ER | Tier 2 -> Tier 2 | 7/27/2026"
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "problem": "row without date",
+      "text": " | Generic Brand Programs"
+    },
+    {
+      "problem": "row without date",
+      "text": "PA | Prior authorization"
+    },
+    {
+      "problem": "row without date",
+      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "QL | Quantity limits"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
+    },
+    {
+      "problem": "row without date",
+      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications without prior notice. Optum is an equal opportunity employer."
+    }
+  ],
   "notes": {
-    "tables": 0
+    "bbox": true,
+    "pages": 3,
+    "tables": 3
   }
 }

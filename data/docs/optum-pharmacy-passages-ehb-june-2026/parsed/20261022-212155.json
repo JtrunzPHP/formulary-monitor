@@ -2,41 +2,90 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "",
-      "name": "use Base Enhanced SP PA ST QL date name name sitagliptin Januvia",
+      "therapeutic_use": "Antidiabetic Agents",
+      "name": "sitagliptin Januvia tablet sitagliptin-",
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
-        "raw": "--- --- ---"
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
       },
       "effective": "5/28/26",
-      "text": "Januvia                Tier 2         Tier 2         ---    ---      --     ---     5/28/26"
+      "text": "Antidiabetic Agents | sitagliptin Januvia tablet sitagliptin- | Tier 2 -> Tier 2 | 5/28/26"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "",
-      "name": "Antidiabetic Agents sitagliptin- metformin Janumet",
+      "name": "metformin Janumet tablet",
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
       "flags": {
-        "raw": "--- --- ---"
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
       },
       "effective": "5/28/26",
-      "text": "metformin           Janumet                Tier 2         Tier 2         ---    ---      --     ---     5/28/26"
+      "text": " | metformin Janumet tablet | Tier 2 -> Tier 2 | 5/28/26"
     },
     {
       "kind": "add_remove",
-      "action": "",
-      "therapeutic_use": "hydrocodone-homa",
-      "name": "tropine oral solution odone-homatropine)",
+      "action": "Remove",
+      "therapeutic_use": "Respiratory Agents",
+      "name": "hydrocodone-homatropine oral solution Hydromet (hydrocodone-homatropine)",
       "effective": "7/1/26",
-      "text": "Remove               7/1/26"
+      "text": "Respiratory Agents | hydrocodone-homatropine oral solution Hydromet (hydrocodone-homatropine) | Remove 7/1/26"
+    },
+    {
+      "kind": "add_remove",
+      "action": "Remove",
+      "therapeutic_use": "oral solution",
+      "name": "",
+      "effective": "7/1/26",
+      "text": "oral solution |  | Remove 7/1/26"
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "problem": "row without date",
+      "text": " | Generic Brand Programs"
+    },
+    {
+      "problem": "add/remove row without date",
+      "text": "ST | Step therapy"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "QL | Quantity limits"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
+    }
+  ],
   "notes": {
-    "tables": 1
+    "bbox": true,
+    "pages": 4,
+    "tables": 4
   }
 }

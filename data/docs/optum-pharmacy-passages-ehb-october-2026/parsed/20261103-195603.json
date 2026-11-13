@@ -7,26 +7,85 @@
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
-      "flags": {},
+      "flags": {
+        "SP": false,
+        "PA": false,
+        "ST": false,
+        "QL": false
+      },
       "effective": "10/15/26",
-      "text": "Anitdiabetic                  Cequr Inserter                  Tier 2           Tier 2         --      --      --     --      10/15/26"
+      "text": "Anitdiabetic | Cequr Inserter | Tier 2 -> Tier 2 | 10/15/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Tryng",
-      "name": "olza (olezarsen) injector for SC",
+      "therapeutic_use": "Antilipemic Agents",
+      "name": "Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 5",
       "flags": {
-        "raw": "X X X"
+        "SP": true,
+        "PA": true,
+        "ST": false,
+        "QL": true
       },
       "effective": "11/1/26",
-      "text": "auto-injector for SC                   Tier 4           Tier 5         X       X              X        11/1/26"
+      "text": "Antilipemic Agents | Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL | Tier 4 -> Tier 5 | 11/1/26"
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "problem": "row without date",
+      "text": "Up-tiers | Medications may move to a higher tier on Jan. 1. Brand Please note there are no new uptiers at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": " | New brand launches and new New brand name medications and new strengths launch medications is determined after thorough review by brand launches may include Authorized Brand Alternatives.*"
+    },
+    {
+      "problem": "row without date",
+      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+    },
+    {
+      "problem": "row without date",
+      "text": " | New generic launches"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no new generic launches at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "QL | Quantity limits"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
+    },
+    {
+      "problem": "row without date",
+      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications without prior notice. Optum is an equal opportunity employer."
+    }
+  ],
   "notes": {
-    "tables": 2
+    "bbox": true,
+    "pages": 3,
+    "tables": 4
   }
 }

@@ -2,8 +2,8 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Ky",
-      "name": "gevvi Powder M/2GM (doxecitine-",
+      "therapeutic_use": "Miscellaneous Agents",
+      "name": "Kygevvi Powder 2GM/2GM (doxecitine- doxribtimine)",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 5",
@@ -14,122 +14,122 @@
         "QL": false
       },
       "effective": "8/1/2026",
-      "text": "2GM/2GM (doxecitine-             Tier 4          Tier 5   X      X   ---   ---     8/1/2026"
+      "text": "Miscellaneous Agents | Kygevvi Powder 2GM/2GM (doxecitine- doxribtimine) | Tier 4 -> Tier 5 | 8/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Prad",
-      "name": "axa 110mg tablets",
+      "therapeutic_use": "Anticoagulants",
+      "name": "Pradaxa 110mg tablets Tier (dabigatran) Xarelto 2.5mg tablets",
       "brand_generic": "",
-      "tier_before": "Tier 2",
-      "tier_after": "EXC",
+      "tier_before": "2 > EXC",
+      "tier_after": "Tier 2 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+      "text": "Anticoagulants | Pradaxa 110mg tablets Tier (dabigatran) Xarelto 2.5mg tablets | 2 > EXC -> Tier 2 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Xare",
-      "name": "lto 1MG/ML",
+      "therapeutic_use": "Anticonvuslant",
+      "name": "Xarelto 1MG/ML Tier suspension (rivaroxaban) Fycompa tablets",
       "brand_generic": "",
-      "tier_before": "Tier 2",
-      "tier_after": "EXC",
+      "tier_before": "2 > EXC",
+      "tier_after": "Tier 2 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Xarelto 1MG/ML                           Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+      "text": "Anticonvuslant | Xarelto 1MG/ML Tier suspension (rivaroxaban) Fycompa tablets | 2 > EXC -> Tier 2 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents (per",
-      "name": "",
+      "therapeutic_use": "Agents",
+      "name": "Tier (perampanel) Complera tablets",
       "brand_generic": "",
-      "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_before": "3 > EXC",
+      "tier_after": "Tier 3 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Tier 3 > EXC     Tier 3 > EXC          7/1/2026"
+      "text": "Agents | Tier (perampanel) Complera tablets | 3 > EXC -> Tier 3 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antivirals (emt",
-      "name": "icitabine-rilpivirine-",
+      "therapeutic_use": "Antivirals Blood Product",
+      "name": "(emticitabine-rilpivirine- Tier tenofovir DF) Promacta tablets and",
       "brand_generic": "",
-      "tier_before": "Tier 3",
-      "tier_after": "EXC",
+      "tier_before": "3 > EXC",
+      "tier_after": "Tier 3 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Antivirals             (emticitabine-rilpivirine-               Tier 3 > EXC     Tier 3 > EXC          7/1/2026"
+      "text": "Antivirals Blood Product | (emticitabine-rilpivirine- Tier tenofovir DF) Promacta tablets and | 3 > EXC -> Tier 3 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Modifiers powd",
-      "name": "",
+      "therapeutic_use": "Modifiers Cardiovasuclar",
+      "name": "Tier powder (eltrombopag) Entresto tablets (sacubitril-",
       "brand_generic": "",
-      "tier_before": "Tier 4",
-      "tier_after": "EXC",
+      "tier_before": "4 > EXC",
+      "tier_after": "Tier 5 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Tier 4 > EXC     Tier 5 > EXC          7/1/2026"
+      "text": "Modifiers Cardiovasuclar | Tier powder (eltrombopag) Entresto tablets (sacubitril- | 4 > EXC -> Tier 5 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Agents vals",
-      "name": "",
+      "therapeutic_use": "Agents",
+      "name": "Tier valsartan) Premarin tablets (conj.",
       "brand_generic": "",
-      "tier_before": "Tier 2",
-      "tier_after": "EXC",
+      "tier_before": "2 > EXC",
+      "tier_after": "Tier 2 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+      "text": "Agents | Tier valsartan) Premarin tablets (conj. | 2 > EXC -> Tier 2 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
       "therapeutic_use": "Hormonal Agents",
-      "name": "",
+      "name": "Tier estrogen) Tasigna capusles",
       "brand_generic": "",
-      "tier_before": "Tier 2",
-      "tier_after": "EXC",
+      "tier_before": "2 > EXC",
+      "tier_after": "Tier 2 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Hormonal Agents                                                 Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+      "text": "Hormonal Agents | Tier estrogen) Tasigna capusles | 2 > EXC -> Tier 2 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Oncology",
-      "name": "",
+      "therapeutic_use": "Oncology Plalelet Modifiying",
+      "name": "Tier (nilotinib)",
       "brand_generic": "",
-      "tier_before": "Tier 4",
-      "tier_after": "EXC",
+      "tier_before": "4 > EXC",
+      "tier_after": "Tier 5 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Oncology                                                        Tier 4 > EXC     Tier 5 > EXC          7/1/2026"
+      "text": "Oncology Plalelet Modifiying | Tier (nilotinib) | 4 > EXC -> Tier 5 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Bril",
-      "name": "inta tablets (ticagrelor)",
+      "therapeutic_use": "Agents Respiratory",
+      "name": "Brilinta tablets (ticagrelor) Tier Tracleer 32mg tablets",
       "brand_generic": "",
-      "tier_before": "Tier 2",
-      "tier_after": "EXC",
+      "tier_before": "2 > EXC",
+      "tier_after": "Tier 2 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Brilinta tablets (ticagrelor)            Tier 2 > EXC     Tier 2 > EXC          7/1/2026"
+      "text": "Agents Respiratory | Brilinta tablets (ticagrelor) Tier Tracleer 32mg tablets | 2 > EXC -> Tier 2 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Tract/Pulmonary",
-      "name": "",
+      "therapeutic_use": "Tract/Pulmonary Agents .",
+      "name": "Tier (bosentan)",
       "brand_generic": "",
-      "tier_before": "Tier 4",
-      "tier_after": "EXC",
+      "tier_before": "4 > EXC",
+      "tier_after": "Tier 5 > EXC",
       "flags": {},
       "effective": "7/1/2026",
-      "text": "Tract/Pulmonary                                                 Tier 4 > EXC     Tier 5 > EXC          7/1/2026"
+      "text": "Tract/Pulmonary Agents . | Tier (bosentan) | 4 > EXC -> Tier 5 > EXC | 7/1/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Immunological Skyr",
-      "name": "izi Inj 55mg/.37ml",
+      "therapeutic_use": "Immunological Agents",
+      "name": "Skyrizi Inj 55mg/.37ml (risankizumab)",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -140,12 +140,12 @@
         "QL": true
       },
       "effective": "7/28/2026",
-      "text": "Tier 4           Tier 4         X       X      ---     X      7/28/2026"
+      "text": "Immunological Agents | Skyrizi Inj 55mg/.37ml (risankizumab) | Tier 4 -> Tier 4 | 7/28/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Antineoplastic bosu",
-      "name": "tinib Bosulif",
+      "therapeutic_use": "Antineoplastic Agents",
+      "name": "bosutinib Bosulif tablet",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 5",
@@ -156,12 +156,12 @@
         "QL": false
       },
       "effective": "6/17/2026",
-      "text": "Bosulif               Tier 4         Tier 5         X      X      ---     ---    6/17/2026"
+      "text": "Antineoplastic Agents | bosutinib Bosulif tablet | Tier 4 -> Tier 5 | 6/17/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "tofa",
-      "name": "citinib Xeljanz XR",
+      "therapeutic_use": "Antirheumatic Agents",
+      "name": "tofacitinib Xeljanz XR ER tablet tofacitinib",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -172,12 +172,12 @@
         "QL": true
       },
       "effective": "6/11/2026",
-      "text": "Xeljanz XR            Tier 4         Tier 4         X      X      ---     X      6/11/2026"
+      "text": "Antirheumatic Agents | tofacitinib Xeljanz XR ER tablet tofacitinib | Tier 4 -> Tier 4 | 6/11/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "solu",
-      "name": "tion, Xeljanz",
+      "therapeutic_use": "Cardiovascular",
+      "name": "solution, Xeljanz tablet macitentan",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -188,12 +188,12 @@
         "QL": true
       },
       "effective": "6/11/2026",
-      "text": "solution,        Xeljanz               Tier 4         Tier 4         X      X      ---     X      6/11/2026"
+      "text": "Cardiovascular | solution, Xeljanz tablet macitentan | Tier 4 -> Tier 4 | 6/11/2026"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Cardiovascular maci",
-      "name": "tentan Opsumit",
+      "therapeutic_use": "Agents",
+      "name": "Opsumit tablet",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -204,11 +204,66 @@
         "QL": true
       },
       "effective": "6/12/2026",
-      "text": "Opsumit               Tier 4         Tier 4         X      X      ---     X      6/12/2026"
+      "text": "Agents | Opsumit tablet | Tier 4 -> Tier 4 | 6/12/2026"
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "problem": "row without date",
+      "text": "Up-tiers | Medications may move to a higher tier on Jan. 1. Brand"
+    },
+    {
+      "problem": "row without date",
+      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+    },
+    {
+      "problem": "row without date",
+      "text": " | New generic launches"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Generic Brand Programs EHB EHB Effective"
+    },
+    {
+      "problem": "row without date",
+      "text": "PA | Prior authorization"
+    },
+    {
+      "problem": "row without date",
+      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "QL | Quantity limits"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": " | If you would like additional information that is not listed, please contact your Optum Rx representative."
+    },
+    {
+      "problem": "row without date",
+      "text": " | respective owners. Because we are continuously improving our products and services, Optum reserves the right to change specifications without prior notice. Optum is an equal opportunity employer."
+    }
+  ],
   "notes": {
-    "tables": 3
+    "bbox": true,
+    "pages": 4,
+    "tables": 6
   }
 }

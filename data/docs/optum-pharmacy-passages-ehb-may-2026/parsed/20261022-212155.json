@@ -2,8 +2,8 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Enoby",
-      "name": "(denosumab-qbde) lled syringe for SC",
+      "therapeutic_use": "Immunological Agents Musculoskeletal",
+      "name": "Enoby (denosumab-qbde) prefilled syringe for SC injection Xtrenbo (denosumab-",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -14,12 +14,12 @@
         "QL": true
       },
       "effective": "7/1/26",
-      "text": "prefilled syringe for SC               Tier 4           Tier 4         X       X      ---     X        7/1/26"
+      "text": "Immunological Agents Musculoskeletal | Enoby (denosumab-qbde) prefilled syringe for SC injection Xtrenbo (denosumab- | Tier 4 -> Tier 4 | 7/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Musculoskeletal Xtren",
-      "name": "bo (denosumab-",
+      "therapeutic_use": "Agents",
+      "name": "qbde) SC injection",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -30,12 +30,12 @@
         "QL": true
       },
       "effective": "7/1/26",
-      "text": "Tier 4           Tier 4         X       X      ---     X        7/1/26"
+      "text": "Agents | qbde) SC injection | Tier 4 -> Tier 4 | 7/1/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "use",
-      "name": "Base Enhanced SP PA ST QL date name flozin Farxiga",
+      "therapeutic_use": "Antidiabetic Agents",
+      "name": "dapagliflozin Farxiga tablet",
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
@@ -46,12 +46,12 @@
         "QL": false
       },
       "effective": "4/6/26",
-      "text": "Farxiga                Tier 2         Tier 2         ---    ---      X      ---      4/6/26"
+      "text": "Antidiabetic Agents | dapagliflozin Farxiga tablet | Tier 2 -> Tier 2 | 4/6/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "name",
-      "name": "name zin- ER Xigduo XR",
+      "therapeutic_use": "Neurological Agents",
+      "name": "dapagliflozin- metformin ER Xigduo XR tablet fluticasone",
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
@@ -62,12 +62,12 @@
         "QL": false
       },
       "effective": "4/8/26",
-      "text": "metformin ER     Xigduo XR          Tier 2        Tier 2        ---   ---   X      ---    4/8/26"
+      "text": "Neurological Agents | dapagliflozin- metformin ER Xigduo XR tablet fluticasone | Tier 2 -> Tier 2 | 4/8/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "propionate",
-      "name": "N/A",
+      "therapeutic_use": "Respiratory Agents",
+      "name": "propionate N/A HFA inhaler ipratropium",
       "brand_generic": "",
       "tier_before": "Tier 2",
       "tier_after": "Tier 2",
@@ -78,12 +78,12 @@
         "QL": true
       },
       "effective": "3/30/26",
-      "text": "propionate       N/A                Tier 2        Tier 2        ---   ---   ---    X     3/30/26"
+      "text": "Respiratory Agents | propionate N/A HFA inhaler ipratropium | Tier 2 -> Tier 2 | 3/30/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "HFA inhale",
-      "name": "Atrovent HFA",
+      "therapeutic_use": "",
+      "name": "Atrovent HFA HFA inhaler",
       "brand_generic": "",
       "tier_before": "Tier 3",
       "tier_after": "Tier 3",
@@ -94,11 +94,58 @@
         "QL": true
       },
       "effective": "3/13/26",
-      "text": "Atrovent HFA       Tier 3        Tier 3        ---   ---   ---    X     3/13/26"
+      "text": " | Atrovent HFA HFA inhaler | Tier 3 -> Tier 3 | 3/13/26"
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "problem": "row without date",
+      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+    },
+    {
+      "problem": "row without date",
+      "text": " | New generic launches"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Generic Brand Programs"
+    },
+    {
+      "problem": "row without date",
+      "text": "PA | Prior authorization"
+    },
+    {
+      "problem": "row without date",
+      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+    },
+    {
+      "problem": "row without date",
+      "text": "ST | Step therapy"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "QL | Quantity limits"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "AR | Age restrictions (this applies to a limited number of clinical programs)"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    }
+  ],
   "notes": {
-    "tables": 1
+    "bbox": true,
+    "pages": 4,
+    "tables": 5
   }
 }

@@ -2,8 +2,8 @@
   "rows": [
     {
       "kind": "tier_change",
-      "therapeutic_use": "Immunological Starj",
-      "name": "emza (ustekinumab-",
+      "therapeutic_use": "Immunological Agents",
+      "name": "Starjemza (ustekinumab- hmny) IV and SC injection",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -14,12 +14,12 @@
         "QL": true
       },
       "effective": "4/29/26",
-      "text": "Tier 4           Tier 4         X       X      ---     X       4/29/26"
+      "text": "Immunological Agents | Starjemza (ustekinumab- hmny) IV and SC injection | Tier 4 -> Tier 4 | 4/29/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Avtoz",
-      "name": "ma (tocilizumab- auto-injector and",
+      "therapeutic_use": "Musculoskeletal Agents",
+      "name": "Avtozma (tocilizumab- anoh) auto-injector and prefilled syringe for SC injection",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 5",
@@ -30,12 +30,12 @@
         "QL": true
       },
       "effective": "3/17/26",
-      "text": "Tier 4           Tier 5         X       X      ---     X       3/17/26"
+      "text": "Musculoskeletal Agents | Avtozma (tocilizumab- anoh) auto-injector and prefilled syringe for SC injection | Tier 4 -> Tier 5 | 3/17/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "use",
-      "name": "Base Enhanced SP PA ST QL date name de Pomalyst",
+      "therapeutic_use": "Antineoplastic Agents Neurological",
+      "name": "pomalidomide Pomalyst capsule milnacipran",
       "brand_generic": "",
       "tier_before": "Tier 4",
       "tier_after": "Tier 4",
@@ -46,12 +46,12 @@
         "QL": true
       },
       "effective": "3/5/26",
-      "text": "Pomalyst         Tier 4        Tier 4        X      X    ---    X     3/5/26"
+      "text": "Antineoplastic Agents Neurological | pomalidomide Pomalyst capsule milnacipran | Tier 4 -> Tier 4 | 3/5/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "tablet tit",
-      "name": "ration Savella",
+      "therapeutic_use": "Agents Ophthalmic",
+      "name": "tablet titration Savella pack Bimatoprost",
       "brand_generic": "",
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
@@ -62,12 +62,12 @@
         "QL": true
       },
       "effective": "3/31/26",
-      "text": "tablet titration   Savella          Tier 1        Tier 1        ---   ---   ---    X    3/31/26"
+      "text": "Agents Ophthalmic | tablet titration Savella pack Bimatoprost | Tier 1 -> Tier 1 | 3/31/26"
     },
     {
       "kind": "tier_change",
-      "therapeutic_use": "Ophthalmic",
-      "name": "Lumigan",
+      "therapeutic_use": "Agents",
+      "name": "ophthalmic Lumigan solution",
       "brand_generic": "",
       "tier_before": "Tier 1",
       "tier_after": "Tier 1",
@@ -78,11 +78,46 @@
         "QL": true
       },
       "effective": "4/7/26",
-      "text": "ophthalmic         Lumigan          Tier 1        Tier 1        ---   ---   ---    X     4/7/26"
+      "text": "Agents | ophthalmic Lumigan solution | Tier 1 -> Tier 1 | 4/7/26"
     }
   ],
-  "problems": [],
+  "problems": [
+    {
+      "problem": "row without date",
+      "text": "brand product. | * Authorized Brand Alternatives (ABA), also referred to as Authorized the brand company or another company. Although it does not have"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Generic Generic Programs"
+    },
+    {
+      "problem": "row without date",
+      "text": "PA | Prior authorization"
+    },
+    {
+      "problem": "row without date",
+      "text": "benefit coverage. | Prior authorization requires physicians to provide additional Please note there are no additions or removals of this"
+    },
+    {
+      "problem": "row without date",
+      "text": "ST | Step therapy"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Please note there are no additions or removals of this restriction at this time."
+    },
+    {
+      "problem": "row without date",
+      "text": "QL | Quantity limits"
+    },
+    {
+      "problem": "row without date",
+      "text": " | Quantity limits establish the maximum quantity of a drug that is covered within a specified timeframe. Please note there are no additions or removals of this restriction at this time."
+    }
+  ],
   "notes": {
-    "tables": 1
+    "bbox": true,
+    "pages": 4,
+    "tables": 4
   }
 }
