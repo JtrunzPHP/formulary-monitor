@@ -77285,12 +77285,19 @@
   "rxcui": "1550946",
   "updated": "2026-10-22",
   "ndc": "59467031801",
-  "labeler": "",
+  "labeler": "Hikma Specialty USA Inc.",
   "rx_ndcs": [
    "59467031801",
    "59467031810",
    "59467031830"
-  ]
+  ],
+  "fda_brand": "MITIGARE",
+  "fda_generic": "Colchicine",
+  "dosage_form": "CAPSULE",
+  "route": "ORAL",
+  "marketing_category": "NDA",
+  "product_type": "HUMAN PRESCRIPTION DRUG",
+  "fda_source": "cms ndc"
  },
  "1551300": {
   "name": "0.5 ML dulaglutide 1.5 MG/ML Auto-Injector [Trulicity]",
@@ -81490,7 +81497,10 @@
   "route": "TOPICAL",
   "marketing_category": "ANDA",
   "product_type": "HUMAN PRESCRIPTION DRUG",
-  "fda_source": "cms ndc"
+  "fda_source": "cms ndc",
+  "rx_ndcs": [
+   "65649040130"
+  ]
  },
  "1659592": {
   "name": "ampicillin 1000 MG / sulbactam 500 MG Injection",
