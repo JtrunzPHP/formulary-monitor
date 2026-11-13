@@ -1,9 +1,9 @@
 # Formulary monitor: commercial documents report
 
-Generated 2026-11-12T20:37:32.542Z
+Generated 2026-11-13T18:41:22.428Z
 
 ## 2026 Advanced Control Plan, Aetna (aetna-acp-2026)
-Parser: aetna-guide; rows 8259, problems 0, watchlist rows 488
+Parser: aetna-guide; rows 8259, problems 0, watchlist rows 270
 
 Notes: {"booklet":true,"pages":254}
 
@@ -19,7 +19,7 @@ Sample rows (first 10):
 - GOUT | Coverage Requirements and | listed | 
 - GOUT | Limits | listed | 
 
-Watchlist rows (up to 60 of 488):
+Watchlist rows (up to 60 of 270):
 - [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | liraglutide subcutaneous solution pen-injector 18 mg/3ml | listed | 
 - [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | MOUNJARO SUBCUTANEOUS SOLUTION AUTO- INJECTOR 10 MG/0.5ML, 12.5 MG/0.5ML, 15 MG/0.5ML, 2.5 MG/0.5ML, 5 MG/0.5ML, 7.5 MG/0.5ML (tirzepatide) | listed | 
 - [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (0.25 OR 0.5 MG/DOSE) SUBCUTANEOUS | listed | 
@@ -34,90 +34,9 @@ Watchlist rows (up to 60 of 488):
 - [NVO] AGENTS | 100-3.6 UNIT-MG/ML (insulin degludec-liraglutide) | listed | 
 - [] ANTIDIABETICS, INSULIN | ADMELOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | listed | 
 - [] ANTIDIABETICS, INSULIN | ADMELOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | AFREZZA INHALATION POWDER 12 UNIT, 4 UNIT, 60X4 | listed | 
 - [] ANTIDIABETICS, INSULIN | &60X8 & 60X12 UNIT, 8 UNIT, 90 X 4 UNIT & 90X8 UNIT, 90 X 8 UNIT & 90X12 UNIT (insulin regular human) | listed | 
 - [] ANTIDIABETICS, INSULIN | APIDRA INJECTION SOLUTION 100 UNIT/ML (insulin glulisine) | listed | 
 - [] ANTIDIABETICS, INSULIN | APIDRA SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glulisine) | listed | 
-- [] ANTIDIABETICS, INSULIN | BASAGLAR KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | listed | 
-- [] ANTIDIABETICS, INSULIN | FIASP FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
-- [] ANTIDIABETICS, INSULIN | FIASP INJECTION SOLUTION 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
-- [] ANTIDIABETICS, INSULIN | FIASP PENFILL SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
-- [] ANTIDIABETICS, INSULIN | FIASP PUMPCART SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | The formulary is updated the first week of each month | listed | 
-- [] ANTIDIABETICS, INSULIN | Coverage Requirements and | listed | 
-- [] ANTIDIABETICS, INSULIN | Drug Tier | listed | 
-- [] ANTIDIABETICS, INSULIN | Limits | listed | 
-- [] ANTIDIABETICS, INSULIN | ; QL (30 TABLETS per 25 DAYs) | PB | PA, QL
-- [] ANTIDIABETICS, INSULIN | ; QL (30 TABLETS per 25 days) | PB | PA, QL
-- [] ANTIDIABETICS, INSULIN | ; QL (4 PENS per 21 days) | PB | PA, QL
-- [] ANTIDIABETICS, INSULIN | N8 (Listing does not include certain NDCs) | PB | 
-- [] ANTIDIABETICS, INSULIN | Prescription Drug Name | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG JUNIOR KWIKPEN SUBCUTANEOUS | listed | 
-- [] ANTIDIABETICS, INSULIN | SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 50/50 KWIKPEN SUBCUTANEOUS | listed | 
-- [] ANTIDIABETICS, INSULIN | SUSPENSION PEN-INJECTOR (50-50) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 KWIKPEN SUBCUTANEOUS | listed | 
-- [] ANTIDIABETICS, INSULIN | SUSPENSION PEN-INJECTOR (75-25) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 SUBCUTANEOUS SUSPENSION (75- 25) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMALOG SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMULIN 70/30 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (70-30) 100 UNIT/ML (insulin nph isophane & regular) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMULIN 70/30 SUBCUTANEOUS SUSPENSION (70-30) 100 UNIT/ML (insulin nph isophane & regular) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMULIN N KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR 100 UNIT/ML (insulin nph human (isophane)) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMULIN N SUBCUTANEOUS SUSPENSION 100 UNIT/ML (insulin nph human (isophane)) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMULIN R INJECTION SOLUTION 100 UNIT/ML (insulin regular human) | listed | 
-- [] ANTIDIABETICS, INSULIN | HUMULIN R U-500 KWIKPEN SUBCUTANEOUS | listed | 
-- [] ANTIDIABETICS, INSULIN | SOLUTION PEN-INJECTOR 500 UNIT/ML (insulin regular human) | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin asp prot & asp flexpen subcutaneous suspension pen- injector (70-30) 100 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin aspart flexpen subcutaneous solution pen-injector 100 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin aspart injection solution 100 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin degludec flextouch subcutaneous solution pen-injector 100 unit/ml, 200 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin glargine max solostar subcutaneous solution pen-injector 300 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin glargine solostar subcutaneous solution pen-injector 300 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | insulin glargine-yfgn subcutaneous solution 100 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | The formulary is updated the first week of each month | listed | 
-- [] ANTIDIABETICS, INSULIN | Coverage Requirements and | listed | 
-- [] ANTIDIABETICS, INSULIN | Drug Tier | listed | 
-- [] ANTIDIABETICS, INSULIN | Limits | listed | 
-
-## 2027 Advanced Control Plan, Aetna (aetna-acp-2027)
-Parser: aetna-guide; rows 8273, problems 0, watchlist rows 531; latest diff 20261022-211454_to_20261022-211806.diff.json with 0 changes
-
-Notes: {"booklet":true,"pages":255}
-
-Sample rows (first 10):
--  | Prescription Drug Name Drug | listed | 
-- COX-2 INHIBITORS | CELEBREX ORAL CAPSULE 100 MG, 200 MG, 400 MG, 50 | listed | 
-- COX-2 INHIBITORS | celecoxib oral capsule 100 mg, 200 mg, 400 mg | NP | 
-- COX-2 INHIBITORS | celecoxib oral capsule 50 mg | NP | 
-- COX-2 INHIBITORS | ELYXYB ORAL SOLUTION 120 MG/4.8ML (celecoxib (migraine)) | NF | 
-- COX-2 INHIBITORS | VYSCOXA ORAL SUSPENSION 10 MG/ML (celecoxib) | NF | 
-- COX-2 INHIBITORS | The formulary is updated the first week of each month | listed | 
-- COX-2 INHIBITORS | Coverage Requirements and | listed | 
-- COX-2 INHIBITORS | Limits | listed | 
-- COX-2 INHIBITORS | AL = Age Limit | listed | 
-
-Watchlist rows (up to 60 of 531):
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | liraglutide subcutaneous solution pen-injector 18 mg/3ml | listed | 
-- [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | MOUNJARO SUBCUTANEOUS SOLUTION AUTO- INJECTOR 10 MG/0.5ML, 12.5 MG/0.5ML, 15 MG/0.5ML, 2.5 MG/0.5ML, 5 MG/0.5ML, 7.5 MG/0.5ML (tirzepatide) | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (0.25 OR 0.5 MG/DOSE) SUBCUTANEOUS | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | SOLUTION PEN-INJECTOR 2 MG/3ML (semaglutide) | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (1 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 4 MG/3ML (semaglutide) | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (2 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 8 MG/3ML (semaglutide) | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC ORAL TABLET 1.5 MG, 4 MG, 9 MG (semaglutide) | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | RYBELSUS ORAL TABLET 14 MG, 3 MG, 7 MG (semaglutide) | listed | 
-- [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | TRULICITY SUBCUTANEOUS SOLUTION AUTO- INJECTOR 0.75 MG/0.5ML, 1.5 MG/0.5ML, 3 MG/0.5ML, 4.5 MG/0.5ML (dulaglutide) | listed | 
-- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | VICTOZA SUBCUTANEOUS SOLUTION PEN-INJECTOR 18 MG/3ML (liraglutide) | listed | 
-- [] AGENTS | 100-33 UNT-MCG/ML (insulin glargine-lixisenatide) | listed | 
-- [NVO] AGENTS | 100-3.6 UNIT-MG/ML (insulin degludec-liraglutide) | listed | 
-- [] ANTIDIABETICS, INSULIN | ADMELOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | ADMELOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | AFREZZA INHALATION POWDER 12 UNIT, 4 UNIT, 60X4 | listed | 
-- [] ANTIDIABETICS, INSULIN | &60X8 & 60X12 UNIT, 8 UNIT, 90 X 4 UNIT & 90X8 UNIT, 90 X 8 UNIT & 90X12 UNIT (insulin regular human) | listed | 
-- [] ANTIDIABETICS, INSULIN | APIDRA INJECTION SOLUTION 100 UNIT/ML (insulin glulisine) | listed | 
-- [] ANTIDIABETICS, INSULIN | APIDRA SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glulisine) | listed | 
-- [] ANTIDIABETICS, INSULIN | AWIQLI FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 700 UNIT/ML (insulin icodec-abae) | listed | 
 - [] ANTIDIABETICS, INSULIN | BASAGLAR KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | listed | 
 - [] ANTIDIABETICS, INSULIN | FIASP FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
 - [] ANTIDIABETICS, INSULIN | FIASP INJECTION SOLUTION 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
@@ -129,12 +48,6 @@ Watchlist rows (up to 60 of 531):
 - [] ANTIDIABETICS, INSULIN | HUMALOG KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro) | listed | 
 - [] ANTIDIABETICS, INSULIN | HUMALOG MIX 50/50 KWIKPEN SUBCUTANEOUS | listed | 
 - [] ANTIDIABETICS, INSULIN | SUSPENSION PEN-INJECTOR (50-50) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
-- [] ANTIDIABETICS, INSULIN | The formulary is updated the first week of each month | listed | 
-- [] ANTIDIABETICS, INSULIN | Coverage Requirements and | listed | 
-- [] ANTIDIABETICS, INSULIN | Drug Tier | listed | 
-- [] ANTIDIABETICS, INSULIN | Limits | listed | 
-- [] ANTIDIABETICS, INSULIN | N8 (Listing does not include certain NDCs) | PB | 
-- [] ANTIDIABETICS, INSULIN | Prescription Drug Name | listed | 
 - [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 KWIKPEN SUBCUTANEOUS | listed | 
 - [] ANTIDIABETICS, INSULIN | SUSPENSION PEN-INJECTOR (75-25) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
 - [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 SUBCUTANEOUS SUSPENSION (75- 25) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
@@ -156,9 +69,96 @@ Watchlist rows (up to 60 of 531):
 - [] ANTIDIABETICS, INSULIN | insulin glargine-yfgn subcutaneous solution pen-injector 100 unit/ml | listed | 
 - [] ANTIDIABETICS, INSULIN | insulin lispro (1 unit dial) subcutaneous solution pen-injector 100 unit/ml | listed | 
 - [] ANTIDIABETICS, INSULIN | insulin lispro injection solution 100 unit/ml | listed | 
-- [] ANTIDIABETICS, INSULIN | The formulary is updated the first week of each month | listed | 
-- [] ANTIDIABETICS, INSULIN | Coverage Requirements and | listed | 
-- [] ANTIDIABETICS, INSULIN | Drug Tier | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro junior kwikpen subcutaneous solution pen-injector 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro prot & lispro subcutaneous suspension pen-injector | listed | 
+- [] ANTIDIABETICS, INSULIN | KIRSTY INJECTION SOLUTION 100 UNIT/ML (insulin aspart-xjhz) | listed | 
+- [] ANTIDIABETICS, INSULIN | KIRSTY SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin aspart-xjhz) | listed | 
+- [] ANTIDIABETICS, INSULIN | LANTUS SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | listed | 
+- [] ANTIDIABETICS, INSULIN | LANTUS SUBCUTANEOUS SOLUTION 100 UNIT/ML (insulin glargine) | listed | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV INJECTION SOLUTION 100 UNIT/ML (insulin lispro-aabc) | listed | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro-aabc) | listed | 
+- [] ANTIDIABETICS, INSULIN | MERILOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart-szjj) | listed | 
+- [] ANTIDIABETICS, INSULIN | MERILOG SUBCUTANEOUS SOLUTION 100 UNIT/ML (insulin aspart-szjj) | listed | 
+- [] ANTIDIABETICS, INSULIN | NOVOLIN 70/30 FLEXPEN RELION SUBCUTANEOUS | listed | 
+
+## 2027 Advanced Control Plan, Aetna (aetna-acp-2027)
+Parser: aetna-guide; rows 8273, problems 0, watchlist rows 279; latest diff 20261022-211454_to_20261022-211806.diff.json with 0 changes
+
+Notes: {"booklet":true,"pages":255}
+
+Sample rows (first 10):
+-  | Prescription Drug Name Drug | listed | 
+- COX-2 INHIBITORS | CELEBREX ORAL CAPSULE 100 MG, 200 MG, 400 MG, 50 | listed | 
+- COX-2 INHIBITORS | celecoxib oral capsule 100 mg, 200 mg, 400 mg | NP | 
+- COX-2 INHIBITORS | celecoxib oral capsule 50 mg | NP | 
+- COX-2 INHIBITORS | ELYXYB ORAL SOLUTION 120 MG/4.8ML (celecoxib (migraine)) | NF | 
+- COX-2 INHIBITORS | VYSCOXA ORAL SUSPENSION 10 MG/ML (celecoxib) | NF | 
+- COX-2 INHIBITORS | The formulary is updated the first week of each month | listed | 
+- COX-2 INHIBITORS | Coverage Requirements and | listed | 
+- COX-2 INHIBITORS | Limits | listed | 
+- COX-2 INHIBITORS | AL = Age Limit | listed | 
+
+Watchlist rows (up to 60 of 279):
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | liraglutide subcutaneous solution pen-injector 18 mg/3ml | listed | 
+- [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | MOUNJARO SUBCUTANEOUS SOLUTION AUTO- INJECTOR 10 MG/0.5ML, 12.5 MG/0.5ML, 15 MG/0.5ML, 2.5 MG/0.5ML, 5 MG/0.5ML, 7.5 MG/0.5ML (tirzepatide) | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (0.25 OR 0.5 MG/DOSE) SUBCUTANEOUS | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | SOLUTION PEN-INJECTOR 2 MG/3ML (semaglutide) | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (1 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 4 MG/3ML (semaglutide) | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (2 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 8 MG/3ML (semaglutide) | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC ORAL TABLET 1.5 MG, 4 MG, 9 MG (semaglutide) | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | RYBELSUS ORAL TABLET 14 MG, 3 MG, 7 MG (semaglutide) | listed | 
+- [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | TRULICITY SUBCUTANEOUS SOLUTION AUTO- INJECTOR 0.75 MG/0.5ML, 1.5 MG/0.5ML, 3 MG/0.5ML, 4.5 MG/0.5ML (dulaglutide) | listed | 
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | VICTOZA SUBCUTANEOUS SOLUTION PEN-INJECTOR 18 MG/3ML (liraglutide) | listed | 
+- [] AGENTS | 100-33 UNT-MCG/ML (insulin glargine-lixisenatide) | listed | 
+- [NVO] AGENTS | 100-3.6 UNIT-MG/ML (insulin degludec-liraglutide) | listed | 
+- [] ANTIDIABETICS, INSULIN | ADMELOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | ADMELOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | &60X8 & 60X12 UNIT, 8 UNIT, 90 X 4 UNIT & 90X8 UNIT, 90 X 8 UNIT & 90X12 UNIT (insulin regular human) | listed | 
+- [] ANTIDIABETICS, INSULIN | APIDRA INJECTION SOLUTION 100 UNIT/ML (insulin glulisine) | listed | 
+- [] ANTIDIABETICS, INSULIN | APIDRA SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glulisine) | listed | 
+- [] ANTIDIABETICS, INSULIN | AWIQLI FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 700 UNIT/ML (insulin icodec-abae) | listed | 
+- [] ANTIDIABETICS, INSULIN | BASAGLAR KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | listed | 
+- [] ANTIDIABETICS, INSULIN | FIASP FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
+- [] ANTIDIABETICS, INSULIN | FIASP INJECTION SOLUTION 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
+- [] ANTIDIABETICS, INSULIN | FIASP PENFILL SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
+- [] ANTIDIABETICS, INSULIN | FIASP PUMPCART SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG JUNIOR KWIKPEN SUBCUTANEOUS | listed | 
+- [] ANTIDIABETICS, INSULIN | SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 50/50 KWIKPEN SUBCUTANEOUS | listed | 
+- [] ANTIDIABETICS, INSULIN | SUSPENSION PEN-INJECTOR (50-50) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 KWIKPEN SUBCUTANEOUS | listed | 
+- [] ANTIDIABETICS, INSULIN | SUSPENSION PEN-INJECTOR (75-25) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 SUBCUTANEOUS SUSPENSION (75- 25) 100 UNIT/ML (insulin lispro prot & lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin lispro) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN 70/30 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (70-30) 100 UNIT/ML (insulin nph isophane & regular) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN 70/30 SUBCUTANEOUS SUSPENSION (70-30) 100 UNIT/ML (insulin nph isophane & regular) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN N KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR 100 UNIT/ML (insulin nph human (isophane)) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN N SUBCUTANEOUS SUSPENSION 100 UNIT/ML (insulin nph human (isophane)) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN R INJECTION SOLUTION 100 UNIT/ML (insulin regular human) | listed | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN R U-500 KWIKPEN SUBCUTANEOUS | listed | 
+- [] ANTIDIABETICS, INSULIN | SOLUTION PEN-INJECTOR 500 UNIT/ML (insulin regular human) | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin asp prot & asp flexpen subcutaneous suspension pen- injector (70-30) 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin aspart flexpen subcutaneous solution pen-injector 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin aspart injection solution 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin degludec flextouch subcutaneous solution pen-injector 100 unit/ml, 200 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine max solostar subcutaneous solution pen-injector 300 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine solostar subcutaneous solution pen-injector 300 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine-yfgn subcutaneous solution 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine-yfgn subcutaneous solution pen-injector 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro (1 unit dial) subcutaneous solution pen-injector 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro injection solution 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro junior kwikpen subcutaneous solution pen-injector 100 unit/ml | listed | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro prot & lispro subcutaneous suspension pen-injector | listed | 
+- [] ANTIDIABETICS, INSULIN | KIRSTY INJECTION SOLUTION 100 UNIT/ML (insulin aspart-xjhz) | listed | 
+- [] ANTIDIABETICS, INSULIN | KIRSTY SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin aspart-xjhz) | listed | 
+- [] ANTIDIABETICS, INSULIN | LANTUS SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | listed | 
+- [] ANTIDIABETICS, INSULIN | LANTUS SUBCUTANEOUS SOLUTION 100 UNIT/ML (insulin glargine) | listed | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV INJECTION SOLUTION 100 UNIT/ML (insulin lispro-aabc) | listed | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro-aabc) | listed | 
+- [] ANTIDIABETICS, INSULIN | MERILOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart-szjj) | listed | 
+- [] ANTIDIABETICS, INSULIN | MERILOG SUBCUTANEOUS SOLUTION 100 UNIT/ML (insulin aspart-szjj) | listed | 
 
 ## National Preferred Formulary exclusion changes effective January 1, 2026 (esi-npf-changes-jan-2026)
 Parser: none

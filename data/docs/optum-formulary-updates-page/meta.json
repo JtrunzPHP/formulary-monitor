@@ -2,12 +2,6 @@
   "id": "optum-formulary-updates-page",
   "versions": [
     {
-      "stamp": "20261107-175532",
-      "hash": "de58c9b25cdfb48d2cc662e8535116863ca38fa14b640904b171115308756d4e",
-      "size": 127197,
-      "captured_at": "2026-11-07T17:55:32.779Z"
-    },
-    {
       "stamp": "20261108-181140",
       "hash": "6986c8c0a003b08e53212528a0bee4da7897b8c3d0cd89ea995e5f350931979e",
       "size": 128171,
@@ -36,7 +30,13 @@
       "hash": "557dd272c61cec9241c01c301d7f7956c1f978d3ea57e04641d60d5c1c79151f",
       "size": 128776,
       "captured_at": "2026-11-12T20:37:28.633Z"
+    },
+    {
+      "stamp": "20261113-184118",
+      "hash": "8b3aa10bd996ba9feb00204ba9b32f2a30a9ea79ed0627ed4f45fc7e95c3ea1b",
+      "size": 128775,
+      "captured_at": "2026-11-13T18:41:18.521Z"
     }
   ],
-  "last_checked": "2026-11-12T20:37:28.634Z"
+  "last_checked": "2026-11-13T18:41:18.521Z"
 }
