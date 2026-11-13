@@ -373,7 +373,17 @@ function groupLines(words, tol = 2.5) {
     if (L && Math.abs(w.y0 - L.y0) <= tol) { L.words.push(w); L.y1 = Math.max(L.y1, w.y1); }
     else lines.push({ y0: w.y0, y1: w.y1, words: [w] });
   }
-  for (const L of lines) L.words.sort((a, b) => a.x0 - b.x0);
+  for (const L of lines) {
+    L.words.sort((a, b) => a.x0 - b.x0);
+    // Glue fragments the PDF split mid-word (a gap of under a point and a half between them).
+    const glued = [];
+    for (const w of L.words) {
+      const p = glued[glued.length - 1];
+      if (p && w.x0 - p.x1 < 1.5 && w.x0 - p.x1 > -2) { p.t += w.t; p.x1 = Math.max(p.x1, w.x1); }
+      else glued.push({ ...w });
+    }
+    L.words = glued;
+  }
   return lines;
 }
 
@@ -439,15 +449,23 @@ function parseOptumBbox(html) {
     flushEntry();
     for (const e of entries) {
       const c = e.col; const words = e.lines.flatMap((L) => L.words);
-      // Column boundaries sit midway between neighbouring headers, so cell text that starts a little left
-      // of its header still lands in the right column.
-      const xmed = c.useEnd != null ? (c.useEnd + c.med) / 2 : c.med - 10;
       const nextStart = [c.bg, c.tier1, c.base, c.addrem, c.date].filter((x) => x != null).sort((a, b) => a - b)[0];
       const xend = nextStart == null ? 9999 : nextStart - 6;
-      const use = words.filter((w) => w.x0 < xmed).map((w) => w.t).join(' ');
-      const nameWords = words.filter((w) => w.x0 >= xmed && w.x0 < xend);
-      // keep reading order within the name: by line then x
-      const name = norm(e.lines.flatMap((L) => L.words.filter((w) => w.x0 >= xmed && w.x0 < xend)).map((w) => w.t).join(' '));
+      // The therapeutic-use cell and the medication cell are separated by a cell gap (8pt or more);
+      // word spacing inside a cell is far smaller. Split each line at its widest gap left of the tier
+      // columns, provided that gap starts left of the medication header; otherwise the whole line is name.
+      const useParts = [], nameParts = [];
+      for (const L of e.lines) {
+        const left = L.words.filter((w) => w.x0 < xend);
+        if (!left.length) continue;
+        let cut = -1, best = 7;
+        for (let i = 1; i < left.length; i++) { const g = left[i].x0 - left[i - 1].x1; if (g > best && left[i - 1].x1 < c.med + 4) { best = g; cut = i; } }
+        if (cut > 0) { useParts.push(left.slice(0, cut).map((w) => w.t).join(' ')); nameParts.push(left.slice(cut).map((w) => w.t).join(' ')); }
+        else if (left[0].x0 < c.med - 30 && c.use != null && left[left.length - 1].x1 < c.med - 4) useParts.push(left.map((w) => w.t).join(' '));
+        else nameParts.push(left.map((w) => w.t).join(' '));
+      }
+      const use = norm(useParts.join(' '));
+      const name = norm(nameParts.join(' '));
       const right = words.filter((w) => w.x0 >= xend);
       const date = (right.find((w) => DATE.test(w.t)) || {}).t || '';
       if (!name && !date) continue;
@@ -481,6 +499,95 @@ function parseOptumBbox(html) {
       const flags = {};
       for (const k of ['sp', 'pa', 'st', 'ql']) if (c[k] != null) flags[k.toUpperCase()] = /^X$/i.test(cells[k] || '');
       rows.push({ kind: 'tier_change', therapeutic_use: norm(use), name, brand_generic: brandGeneric, tier_before: tierB, tier_after: tierA || tierB, flags, effective: date, text: `${use} | ${name} | ${tierB} -> ${tierA} | ${date}` });
+    }
+  }
+  return { rows, problems, notes };
+}
+
+
+// ---------------------------------------------------------------------------
+// Aetna drug guide parser from word coordinates (pdftotext -bbox)
+//
+// Each page carries one or two column blocks headed "Prescription Drug Name",
+// "Drug Tier" and "Coverage Requirements and Limits". Within a block, product
+// entries are read from the name column (wrapped lines joined), the tier code
+// from the tier column and the restriction codes from the limits column.
+// ---------------------------------------------------------------------------
+
+function parseAetnaBbox(html) {
+  const pages = parseBboxWords(html);
+  const rows = []; const problems = []; const notes = { bbox: true, pages: pages.length, blocks: 0, unknownTier: {} };
+  const TIER_CODE = /^(PB|PG|NP|NPSP|PSP|NF|N8|NB|CE)$/;
+  let category = '';
+  for (const page of pages) {
+    const lines = groupLines(page.words, 2.2);
+    // Header blocks on this page
+    const blocks = [];
+    for (const L of lines) {
+      const t = L.words.map((w) => w.t);
+      const iP = t.findIndex((x) => /^Prescription$/.test(x));
+      const iT = t.findIndex((x, i) => /^Tier$/.test(x) && i > iP);
+      if (iP < 0 || iT < 0) continue;
+      const iD = t.findIndex((x, i) => /^Drug$/.test(x) && i > iP && i < iT + 1 && i === iT - 1);
+      const nameX = L.words[iP].x0;
+      const tierX = L.words[iD >= 0 ? iD : iT].x0;
+      const iC = t.findIndex((x, i) => /^(Coverage|Limits)$/.test(x) && i > iT);
+      const limX = iC >= 0 ? L.words[iC].x0 : tierX + 40;
+      blocks.push({ nameX, tierX, limX, y: L.y1 });
+    }
+    if (!blocks.length) continue;
+    blocks.sort((a, b) => a.nameX - b.nameX);
+    notes.blocks += blocks.length;
+    for (let b = 0; b < blocks.length; b++) {
+      const blk = blocks[b];
+      const xStart = blk.nameX - 8;
+      const xStop = b + 1 < blocks.length ? blocks[b + 1].nameX - 8 : 9999;
+      const tierLeft = blk.tierX - 6, limLeft = blk.limX - 6;
+      // Lines belonging to this block (below its header, inside its x range)
+      const blines = lines.filter((L) => L.y0 > blk.y + 1 && L.words.some((w) => w.x0 >= xStart && w.x0 < xStop))
+        .map((L) => ({ y0: L.y0, words: L.words.filter((w) => w.x0 >= xStart && w.x0 < xStop) }));
+      let buf = null;
+      const flush = () => {
+        if (!buf) return;
+        const nameText = norm(buf.name.join(' '));
+        const tier = buf.tier.find((x) => x !== 'CE') || '';
+        const restr = [];
+        if (buf.tier.includes('CE')) restr.push('CE copay exception');
+        const lim = norm(buf.lim.join(' '));
+        for (const k of ['PA', 'ST', 'QL', 'N8', 'SPC', 'AL']) if (new RegExp(`\\b${k}\\b`).test(lim)) restr.push(k);
+        const parens = [...nameText.matchAll(/\(([^()]*(?:\([^()]*\)[^()]*)*)\)/g)].map((m) => m[1]);
+        let generic = ''; for (const p of parens) if (/^[a-z]/.test(p)) generic = norm(p);
+        let name = nameText; if (generic) { const i = nameText.lastIndexOf('(' + generic); if (i > 0) name = nameText.slice(0, i); }
+        name = norm(name);
+        buf = null;
+        if (!name || name.length > 300) { if (name) problems.push({ problem: 'entry too long', text: name.slice(0, 120) }); return; }
+        if (!generic && !tier && !/\d/.test(name) && !FORM_WORDS.test(name)) return;
+        rows.push({ category, name, generic, tier, coverage: tier === 'NF' ? 'not covered' : 'listed', restrictions: restr, limits_text: lim, text: `${nameText} | ${tier} | ${lim}` });
+      };
+      for (const L of blines) {
+        const nameWords = L.words.filter((w) => w.x0 < tierLeft);
+        const tierWords = L.words.filter((w) => w.x0 >= tierLeft && w.x0 < limLeft);
+        const limWords = L.words.filter((w) => w.x0 >= limLeft);
+        const nameT = nameWords.map((w) => w.t).join(' ').trim();
+        if (!nameT && !tierWords.length && !limWords.length) continue;
+        if (/^(The formulary is updated|Coverage Requirements|Limits$|Aetna\.com|©|[A-Z0-9]{1,4} = )/i.test(nameT) || /^\d+$/.test(nameT)) continue;
+        // Category header: all caps, no strength, no tier, starts at the column edge
+        const isCat = nameT && nameT === nameT.toUpperCase() && /[A-Z]{3,}/.test(nameT) && !/\d+ ?(MG|ML|MCG|UNIT|%)/.test(nameT) && !FORM_WORDS.test(nameT) && !tierWords.length && !/\(/.test(nameT) && nameWords[0].x0 < blk.nameX + 3;
+        if (isCat) { flush(); category = nameT; continue; }
+        // Continuation when the open entry has unbalanced parentheses, lacks its generic and this line supplies it,
+        // or this line starts with a form word or a strength; or when the line is indented past the column edge.
+        const soFar = buf ? buf.name.join(' ') : '';
+        const indented = nameWords.length && nameWords[0].x0 >= blk.nameX + 3;
+        const CONT_START = /^(SOLUTION|SUSPENSION|INJECT|INJECTOR|PEN-INJECTOR|CARTRIDGE|AUTO-INJECTOR|SYRINGE|THERAPY PACK|PACK|DETERRENT|RELEASE|KWIKPEN|SOLOSTAR|FLEXTOUCH|FLEXPEN|RECONSTITUTED|EXTENDED|DELAYED|[\d.]+ ?(MG|ML|MCG|UNIT|UNT|%|X|GM)\b|(MG|ML|MCG|UNIT|GM)\b|\([a-z])/i;
+        const isCont = buf && nameT && (indented || parenBalance(soFar) > 0 || (soFar === soFar.toUpperCase() && !hasGeneric(soFar) && /\([a-z]/.test(nameT)) || (!/\d/.test(soFar) && CONT_START.test(nameT)) || (/^[a-z]/.test(nameT) && /^[a-z]/.test(soFar) && !/\d/.test(soFar)));
+        const startsEntry = nameWords.length && !isCont;
+        if (startsEntry && buf) flush();
+        if (!buf) buf = { name: [], tier: [], lim: [] };
+        if (nameT) buf.name.push(nameT);
+        for (const w of tierWords) { if (TIER_CODE.test(w.t)) buf.tier.push(w.t); else { notes.unknownTier[w.t] = (notes.unknownTier[w.t] || 0) + 1; buf.lim.push(w.t); } }
+        if (limWords.length) buf.lim.push(limWords.map((w) => w.t).join(' '));
+      }
+      flush();
     }
   }
   return { rows, problems, notes };
@@ -529,9 +636,9 @@ function main() {
       let parsed;
       if (fs.existsSync(outFile) && !FORCE) parsed = readJson(outFile, null);
       if (!parsed) {
-        const useBbox = p.name === 'optum-passages' && fs.existsSync(bbox);
+        const useBbox = (p.name === 'optum-passages' || p.name === 'aetna-guide') && fs.existsSync(bbox);
         log(`Parsing ${id} ${v.stamp} with ${p.name}${useBbox ? ' (word coordinates)' : ''}`);
-        parsed = useBbox ? parseOptumBbox(fs.readFileSync(bbox, 'utf8')) : p.parse(fs.readFileSync(txt, 'utf8'));
+        parsed = useBbox ? (p.name === 'aetna-guide' ? parseAetnaBbox(fs.readFileSync(bbox, 'utf8')) : parseOptumBbox(fs.readFileSync(bbox, 'utf8'))) : p.parse(fs.readFileSync(txt, 'utf8'));
         parsed.rows.forEach(tagWatch);
         writeJson(outFile, parsed);
         log(`   rows: ${parsed.rows.length}, problems: ${parsed.problems.length}, watchlist rows: ${parsed.rows.filter((r) => r.watch_tickers).length}; notes ${JSON.stringify(parsed.notes || {})}`);
