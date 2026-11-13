@@ -1,263 +1,263 @@
 formulary_id,contract_year,formulary_version,plan_count,contract_count,parents,tickers
-00027366,2027,6,631,36,Humana; UNMAPPED,HUM
+00027366,2027,6,631,36,Humana,HUM
 00027367,2027,6,47,9,Humana,HUM
-00027151,2027,8,64,29,Centene; UNMAPPED,CNC
+00027151,2027,8,64,29,Centene,CNC
 00027156,2027,7,133,45,Centene; UNMAPPED,CNC
-00027421,2027,4,2,1,UNMAPPED,
+00027421,2027,4,2,1,"Hamaspik of Rockland County, Inc. (per CMS, unmapped ticker)",
 00027213,2027,6,2,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027211,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027085,2027,6,6,1,VIVA Health / UAB (nonprofit),PRIVATE
 00027083,2027,6,2,1,VIVA Health / UAB (nonprofit),PRIVATE
-00027002,2027,8,660,56,UNMAPPED; UnitedHealth Group,UNH
-00027003,2027,8,115,21,UNMAPPED; UnitedHealth Group,UNH
-00027414,2027,5,3,1,"Regional MA plan (private, various)",PRIVATE
+00027002,2027,8,660,56,UnitedHealth Group,UNH
+00027003,2027,8,115,21,UnitedHealth Group,UNH
+00027414,2027,5,3,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027415,2027,5,2,1,"Regional MA plan (private, various)",PRIVATE
-00027279,2027,7,2,1,UNMAPPED,
+00027279,2027,7,2,1,UnitedHealth Group,UNH
 00027157,2027,7,3,2,Centene,CNC
-00027065,2027,7,12,7,Cigna Group,CI
-00027063,2027,7,135,12,Cigna Group,CI
-00027262,2027,6,8,7,UNMAPPED,
+00027065,2027,7,12,7,Health Care Service Corporation (incl. legacy Cigna Medicare); Health Care Service Corporation (legacy Cigna Medicare),PRIVATE
+00027063,2027,7,135,12,Health Care Service Corporation (incl. legacy Cigna Medicare); Health Care Service Corporation (legacy Cigna Medicare),PRIVATE
+00027262,2027,6,8,7,"Longevity Health Founders, LLC (per CMS, unmapped ticker)",
 00027133,2027,6,282,42,Devoted Health (private),PRIVATE
 00027129,2027,6,414,48,Devoted Health (private),PRIVATE
-00027082,2027,6,1,1,UNMAPPED,
-00027081,2027,6,2,1,UNMAPPED,
-00027064,2027,7,39,8,Cigna Group,CI
+00027082,2027,6,1,1,NYC Health + Hospitals / MetroPlus (public),PRIVATE
+00027081,2027,6,2,1,NYC Health + Hospitals / MetroPlus (public),PRIVATE
+00027064,2027,7,39,8,Health Care Service Corporation (incl. legacy Cigna Medicare); Health Care Service Corporation (legacy Cigna Medicare),PRIVATE
 00027198,2027,10,20,3,Blue Shield of California (nonprofit),PRIVATE
 00027013,2027,9,540,43,CVS Health (Aetna / SilverScript),CVS
 00027014,2027,9,73,17,CVS Health (Aetna / SilverScript),CVS
 00027360,2027,7,96,8,Kaiser Permanente (nonprofit),PRIVATE
 00027022,2027,8,34,7,Elevance Health,ELV
-00027020,2027,8,146,31,"Blue Cross Blue Shield affiliate (various); Elevance Health; Humana; Regional MA plan (private, various); UNMAPPED",ELV HUM PRIVATE VARIES
+00027020,2027,8,146,31,"Blue Cross Blue Shield affiliate (various); Elevance Health; Regional MA plan (private, various); UNMAPPED",ELV PRIVATE VARIES
 00027019,2027,8,22,5,Elevance Health,ELV
-00027335,2027,5,4,1,"Regional MA plan (private, various)",PRIVATE
-00027184,2027,6,11,7,UNMAPPED,
-00027380,2027,7,1,1,UNMAPPED,
-00027233,2027,6,10,5,Regional or provider-sponsored plan; UNMAPPED,PRIVATE
+00027335,2027,5,4,1,"Chinese Hospital Association (per CMS, unmapped ticker)",
+00027184,2027,6,11,7,"AmeriHealth Caritas (IBX and BCBS Michigan JV, private); Independence Blue Cross (nonprofit); UNMAPPED",PRIVATE
+00027380,2027,7,1,1,"Mass General Brigham Incorporated (per CMS, unmapped ticker)",
+00027233,2027,6,10,5,"Regional or provider-sponsored plan; Sanford Health (per CMS, unmapped ticker); UNMAPPED",PRIVATE
 00027368,2027,6,65,6,Humana,HUM
 00027384,2027,11,85,8,SCAN Health Plan (nonprofit),PRIVATE
-00027054,2027,7,19,1,"Regional MA plan (private, various)",PRIVATE
+00027054,2027,7,19,1,"Athena Healthcare Holdings, LLC (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
 00027369,2027,6,39,6,Humana,HUM
-00027047,2027,8,30,3,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00027047,2027,8,30,3,GuideWell / Florida Blue (private); GuideWell / Florida Blue / Triple-S (private),PRIVATE
 00027048,2027,6,3,2,GuideWell / Florida Blue / Triple-S (private),PRIVATE
-00027392,2027,10,6,1,CVS Health (Aetna / SilverScript),CVS
-00027352,2027,4,1,1,UNMAPPED,
+00027392,2027,10,6,1,"Health First (Florida, nonprofit)",PRIVATE
+00027352,2027,4,1,1,"The Schroer Group, Inc. (per CMS, unmapped ticker)",
 00027021,2027,7,17,5,Elevance Health,ELV
-00027259,2027,7,1,1,UNMAPPED,
-00027080,2027,6,2,2,Johns Hopkins (nonprofit),PRIVATE
-00027077,2027,6,2,1,Johns Hopkins (nonprofit),PRIVATE
-00027141,2027,7,12,2,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
-00027231,2027,6,6,3,UNMAPPED,
+00027259,2027,7,1,1,L.A. Care (public),PRIVATE
+00027080,2027,6,2,2,"Johns Hopkins Healthcare LLC (per CMS, unmapped ticker)",
+00027077,2027,6,2,1,"Johns Hopkins (nonprofit); Johns Hopkins Healthcare LLC (per CMS, unmapped ticker)",PRIVATE
+00027141,2027,7,12,2,"Blue Cross Blue Shield affiliate (various); Louisiana Health Service & Indemnity Company (per CMS, unmapped ticker)",VARIES
+00027231,2027,6,6,3,"Institutional SNP or regional MA startup (private, various); eternalHealth (private)",PRIVATE
 00027126,2027,6,32,2,Devoted Health (private),PRIVATE
-00027027,2027,7,10,2,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
+00027027,2027,7,10,2,"Gemstone Holdings, Inc. (per CMS, unmapped ticker); Institutional SNP or regional MA startup (private, various)",PRIVATE
 00027276,2027,5,2,1,Regional or provider-sponsored plan,PRIVATE
-00027243,2027,6,1,1,UNMAPPED,
-00027242,2027,6,2,1,UNMAPPED,
-00027067,2027,6,2,2,UNMAPPED,
-00027320,2027,5,12,2,"Regional MA plan (private, various)",PRIVATE
-00027318,2027,4,3,2,"Regional MA plan (private, various)",PRIVATE
-00027350,2027,4,2,1,UNMAPPED,
-00027381,2027,7,1,1,UNMAPPED,
-00027359,2027,7,4,3,Jefferson Health Plans (nonprofit); UNMAPPED,PRIVATE
-00027323,2027,5,1,1,UNMAPPED,
-00027075,2027,6,3,3,CVS Health (Aetna / SilverScript); Regional or provider-sponsored plan,CVS PRIVATE
-00027150,2027,6,43,18,Molina Healthcare; UNMAPPED,MOH
-00027302,2027,30,7,4,UNMAPPED,
-00027100,2027,6,15,4,Trinity Health (nonprofit),PRIVATE
-00027431,2027,9,8,1,"Regional MA plan (private, various)",PRIVATE
-00027009,2027,10,10,1,SelectHealth / Intermountain (nonprofit),PRIVATE
-00027039,2027,6,13,5,Blue Cross Blue Shield affiliate (various),VARIES
-00027191,2027,6,7,2,Regional or provider-sponsored plan,PRIVATE
-00027148,2027,16,1,1,UNMAPPED,
-00027337,2027,5,1,1,UNMAPPED,
-00027090,2027,6,2,2,UNMAPPED,
-00027341,2027,5,2,1,UNMAPPED,
-00027340,2027,6,1,1,UNMAPPED,
-00027237,2027,6,6,6,UNMAPPED,
-00027245,2027,6,6,5,UNMAPPED,
+00027243,2027,6,1,1,"Marquis Companies I, Inc. (per CMS, unmapped ticker)",
+00027242,2027,6,2,1,"Marquis Companies I, Inc. (per CMS, unmapped ticker)",
+00027067,2027,6,2,2,CareSource (nonprofit),PRIVATE
+00027320,2027,5,12,2,"Gold Kidney Health Plan (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
+00027318,2027,4,3,2,"Gold Kidney Health Plan (per CMS, unmapped ticker)",
+00027350,2027,4,2,1,"Select Founders, LLC (per CMS, unmapped ticker)",
+00027381,2027,7,1,1,"Mass General Brigham Incorporated (per CMS, unmapped ticker)",
+00027359,2027,7,4,3,"Provider-sponsored or nonprofit regional plan; Thomas Jefferson University (per CMS, unmapped ticker)",PRIVATE
+00027323,2027,5,1,1,"IMPERIAL COUNTY LOCAL HEALTH AUTHORITY (per CMS, unmapped ticker)",
+00027075,2027,6,3,3,"Healthfirst (nonprofit, NY)",PRIVATE
+00027150,2027,6,43,18,Molina Healthcare,MOH
+00027302,2027,30,7,4,"Centene; Singh Holdings LLC (per CMS, unmapped ticker)",CNC
+00027100,2027,6,15,4,"Trinity Health (nonprofit); Trinity Health Corporation (per CMS, unmapped ticker)",PRIVATE
+00027431,2027,9,8,1,"Astiva Health Holdings Incorporated (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
+00027009,2027,10,10,1,Intermountain / SelectHealth (nonprofit); SelectHealth / Intermountain (nonprofit),PRIVATE
+00027039,2027,6,13,5,"Blue Cross Blue Shield affiliate (various); Cambia Health Solutions, Inc. (per CMS, unmapped ticker)",VARIES
+00027191,2027,6,7,2,"Baylor Scott & White Health (per CMS, unmapped ticker)",
+00027148,2027,16,1,1,CareSource (nonprofit),PRIVATE
+00027337,2027,5,1,1,"Alameda Alliance for Health (per CMS, unmapped ticker)",
+00027090,2027,6,2,2,Neighborhood Health Plan of RI (nonprofit),PRIVATE
+00027341,2027,5,2,1,VillageCare (nonprofit),PRIVATE
+00027340,2027,6,1,1,VillageCare (nonprofit),PRIVATE
+00027237,2027,6,6,6,"Curana Health Holdings, LLC (per CMS, unmapped ticker); Institutional SNP or regional MA startup (private, various)",PRIVATE
+00027245,2027,6,6,5,"Curana Health Holdings, LLC (per CMS, unmapped ticker); Institutional SNP or regional MA startup (private, various)",PRIVATE
 00027094,2027,6,7,2,Blue Cross Blue Shield affiliate (various),VARIES
-00027355,2027,16,2,1,UNMAPPED,
-00027404,2027,6,19,2,Regional or provider-sponsored plan,PRIVATE
-00027271,2027,12,40,3,Regional or provider-sponsored plan,PRIVATE
-00027071,2027,10,12,2,Health Alliance Plan / Henry Ford (nonprofit),PRIVATE
-00027250,2027,6,2,1,UNMAPPED,
-00027349,2027,4,2,1,UNMAPPED,
-00027332,2027,4,2,2,UNMAPPED,
-00027076,2027,6,1,1,Regional or provider-sponsored plan,PRIVATE
-00027418,2027,5,2,2,Regional or provider-sponsored plan,PRIVATE
-00027115,2027,8,7,3,Regional or provider-sponsored plan,PRIVATE
-00027046,2027,6,1,1,UNMAPPED,
-00027424,2027,7,4,1,Regional or provider-sponsored plan,PRIVATE
-00027426,2027,6,1,1,Regional or provider-sponsored plan,PRIVATE
-00027044,2027,6,4,2,Blue Cross Blue Shield affiliate (various),VARIES
-00027045,2027,6,5,2,Blue Cross Blue Shield affiliate (various),VARIES
-00027152,2027,6,5,2,Regional or provider-sponsored plan,PRIVATE
-00027433,2027,8,2,2,Regional or provider-sponsored plan,PRIVATE
-00027130,2027,7,14,2,Regional or provider-sponsored plan,PRIVATE
-00027272,2027,8,4,2,"Regional MA plan (private, various)",PRIVATE
-00027342,2027,5,3,2,UNMAPPED,
-00027344,2027,5,3,2,UNMAPPED,
-00027206,2027,6,6,2,Health New England / Baystate (nonprofit),PRIVATE
+00027355,2027,16,2,1,BayCare (nonprofit),PRIVATE
+00027404,2027,6,19,2,"Point32Health, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027271,2027,12,40,3,Corewell Health / Priority Health (nonprofit); Regional or provider-sponsored plan,PRIVATE
+00027071,2027,10,12,2,"Henry Ford Health System (per CMS, unmapped ticker)",
+00027250,2027,6,2,1,"Kansas Superior Select (per CMS, unmapped ticker)",
+00027349,2027,4,2,1,"BrightSpring Health Services, Inc. (per CMS, unmapped ticker)",
+00027332,2027,4,2,2,"PrimeWest Rural MN Health Care Access Initiative (per CMS, unmapped ticker)",
+00027076,2027,6,1,1,"Itasca County (per CMS, unmapped ticker)",
+00027418,2027,5,2,2,"South Country Health Alliance (per CMS, unmapped ticker)",
+00027115,2027,8,7,3,"HealthPartners, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027046,2027,6,1,1,"Blue Cross Blue Shield of Minnesota (Aware Integrated, nonprofit)",PRIVATE
+00027424,2027,7,4,1,Medica (nonprofit),PRIVATE
+00027426,2027,6,1,1,Medica (nonprofit),PRIVATE
+00027044,2027,6,4,2,"Blue Cross Blue Shield affiliate (various); Blue Cross Blue Shield of Minnesota (Aware Integrated, nonprofit)",PRIVATE VARIES
+00027045,2027,6,5,2,"Blue Cross Blue Shield affiliate (various); Blue Cross Blue Shield of Minnesota (Aware Integrated, nonprofit)",PRIVATE VARIES
+00027152,2027,6,5,2,"Hawaii Medical Service Association (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027433,2027,8,2,2,"Sentara Health Care (SHC) (per CMS, unmapped ticker)",
+00027130,2027,7,14,2,"Lumeris Group Holdings Corporation (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027272,2027,8,4,2,"Regional MA plan (private, various); Risant Health, Inc. (per CMS, unmapped ticker)",PRIVATE
+00027342,2027,5,3,2,"Verda Healthcare, Inc. (per CMS, unmapped ticker)",
+00027344,2027,5,3,2,"Verda Healthcare, Inc. (per CMS, unmapped ticker)",
+00027206,2027,6,6,2,"Baystate Health, Inc. (per CMS, unmapped ticker); Health New England / Baystate (nonprofit)",PRIVATE
 00027265,2027,6,1,1,UNMAPPED,
-00027347,2027,5,3,1,UNMAPPED,
+00027347,2027,5,3,1,"CoxHealth (per CMS, unmapped ticker)",
 00027403,2027,8,3,1,Kaiser Permanente (nonprofit),PRIVATE
-00027410,2027,5,5,1,"Regional MA plan (private, various)",PRIVATE
-00027411,2027,5,9,1,"Regional MA plan (private, various)",PRIVATE
-00027412,2027,5,2,1,"Regional MA plan (private, various)",PRIVATE
-00027217,2027,6,3,1,UNMAPPED,
-00027267,2027,6,2,1,"Regional MA plan (private, various)",PRIVATE
-00027268,2027,6,2,1,"Regional MA plan (private, various)",PRIVATE
-00027135,2027,7,1,1,UNMAPPED,
-00027051,2027,6,3,2,UNMAPPED,
-00027387,2027,9,3,1,Regional or provider-sponsored plan,PRIVATE
-00027015,2027,9,5,1,CVS Health (Aetna / SilverScript),CVS
-00027016,2027,9,2,1,CVS Health (Aetna / SilverScript),CVS
-00027097,2027,8,3,1,UNMAPPED,
-00027249,2027,6,6,2,UNMAPPED,
-00027101,2027,6,6,2,Regional or provider-sponsored plan,PRIVATE
-00027102,2027,6,2,1,Regional or provider-sponsored plan,PRIVATE
-00027043,2027,6,9,2,EmblemHealth (nonprofit),PRIVATE
-00027399,2027,8,3,2,Regional or provider-sponsored plan,PRIVATE
+00027410,2027,5,5,1,"Ultimate Healthcare Holdings, LLC (per CMS, unmapped ticker)",
+00027411,2027,5,9,1,"Regional MA plan (private, various); Ultimate Healthcare Holdings, LLC (per CMS, unmapped ticker)",PRIVATE
+00027412,2027,5,2,1,"Ultimate Healthcare Holdings, LLC (per CMS, unmapped ticker)",
+00027217,2027,6,3,1,Provider-sponsored or nonprofit regional plan,PRIVATE
+00027267,2027,6,2,1,"Chapters CareNu Inc (per CMS, unmapped ticker)",
+00027268,2027,6,2,1,"Chapters CareNu Inc (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
+00027135,2027,7,1,1,"DLP Marquette Health Plan, LLC (per CMS, unmapped ticker)",
+00027051,2027,6,3,2,"Blue Cross Blue Shield affiliate (various); Institutional SNP or regional MA startup (private, various)",PRIVATE VARIES
+00027387,2027,9,3,1,"Presbyterian Healthcare Services (per CMS, unmapped ticker)",
+00027015,2027,9,5,1,Allina Health | Aetna JV,CVS
+00027016,2027,9,2,1,Allina Health | Aetna JV,CVS
+00027097,2027,8,3,1,BCBS Tennessee (nonprofit),PRIVATE
+00027249,2027,6,6,2,"Institutional SNP or regional MA startup (private, various); UNICO Services, Inc. (per CMS, unmapped ticker)",PRIVATE
+00027101,2027,6,6,2,"MVP Health Care, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027102,2027,6,2,1,"MVP Health Care, Inc. (per CMS, unmapped ticker)",
+00027043,2027,6,9,2,"EmblemHealth (nonprofit); EmblemHealth, Inc. (per CMS, unmapped ticker)",PRIVATE
+00027399,2027,8,3,2,"Independent Health Association, Inc. (per CMS, unmapped ticker)",
 00027069,2027,6,3,1,MJHS Elderplan (nonprofit),PRIVATE
 00027070,2027,6,1,1,MJHS Elderplan (nonprofit),PRIVATE
-00027174,2027,7,17,2,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
-00027074,2027,6,2,1,CVS Health (Aetna / SilverScript),CVS
-00027073,2027,6,2,1,CVS Health (Aetna / SilverScript),CVS
-00027072,2027,6,1,1,CVS Health (Aetna / SilverScript),CVS
-00027396,2027,6,2,1,Regional or provider-sponsored plan,PRIVATE
-00027398,2027,6,1,1,Regional or provider-sponsored plan,PRIVATE
-00027204,2027,11,76,5,Highmark / Capital Blue (nonprofit Blues),PRIVATE
-00027310,2027,7,11,2,Blue Cross Blue Shield affiliate (various),VARIES
-00027258,2027,6,4,1,CVS Health (Aetna / SilverScript),CVS
-00027240,2027,6,3,2,"Regional MA plan (private, various)",PRIVATE
-00027247,2027,6,6,2,"Regional MA plan (private, various)",PRIVATE
+00027174,2027,7,17,2,"Blue Cross Blue Shield affiliate (various); Excellus BCBS (Lifetime Healthcare, nonprofit)",PRIVATE VARIES
+00027074,2027,6,2,1,"Healthfirst (nonprofit, NY)",PRIVATE
+00027073,2027,6,2,1,"Healthfirst (nonprofit, NY)",PRIVATE
+00027072,2027,6,1,1,"Healthfirst (nonprofit, NY)",PRIVATE
+00027396,2027,6,2,1,"Independent Health Association, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027398,2027,6,1,1,"Independent Health Association, Inc. (per CMS, unmapped ticker)",
+00027204,2027,11,76,5,Highmark Health (nonprofit),PRIVATE
+00027310,2027,7,11,2,CuraCor Solutions (private),PRIVATE
+00027258,2027,6,4,1,"CVS Health (Aetna / SilverScript); El Paso County Hospital District (per CMS, unmapped ticker)",CVS
+00027240,2027,6,3,2,"Perennial Consortium, LLC (per CMS, unmapped ticker)",
+00027247,2027,6,6,2,"Perennial Consortium, LLC (per CMS, unmapped ticker)",
 00027146,2027,6,77,9,Alignment Healthcare,ALHC
-00027248,2027,6,3,1,UNMAPPED,
-00027339,2027,6,5,1,Regional or provider-sponsored plan,PRIVATE
-00027393,2027,7,3,1,Regional or provider-sponsored plan,PRIVATE
-00027128,2027,7,6,2,Regional or provider-sponsored plan; UNMAPPED,PRIVATE
-00027284,2027,5,6,1,"Regional MA plan (private, various)",PRIVATE
-00027251,2027,6,18,11,UNMAPPED,
-00027389,2027,5,4,2,"Regional MA plan (private, various); UNMAPPED",PRIVATE
+00027248,2027,6,3,1,"First Sacramento Capital Funding LLC (per CMS, unmapped ticker)",
+00027339,2027,6,5,1,"General Catalyst Group Management Holdings LP (per CMS, unmapped ticker)",
+00027393,2027,7,3,1,"Aultman Health Foundation (per CMS, unmapped ticker)",
+00027128,2027,7,6,2,The Health Plan of West Virginia (nonprofit),PRIVATE
+00027284,2027,5,6,1,"MCS / MHH Healthcare (Puerto Rico, private)",PRIVATE
+00027251,2027,6,18,11,"Institutional SNP or regional MA startup (private, various); Mitchell Family Office (per CMS, unmapped ticker); UNMAPPED",PRIVATE
+00027389,2027,5,4,2,"Regional MA plan (private, various); SNP Holdings, LLC (per CMS, unmapped ticker)",PRIVATE
 00027388,2027,5,1,1,"Regional MA plan (private, various)",PRIVATE
-00027253,2027,6,4,1,"Regional MA plan (private, various)",PRIVATE
-00027164,2027,6,14,6,UNMAPPED,
-00027330,2027,4,1,1,UNMAPPED,
-00027413,2027,5,1,1,UNMAPPED,
-00027305,2027,6,11,3,"Regional MA plan (private, various)",PRIVATE
-00027032,2027,6,5,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027195,2027,6,5,1,PacificSource (nonprofit),PRIVATE
-00027079,2027,6,3,1,Johns Hopkins (nonprofit),PRIVATE
-00027137,2027,6,30,4,Centene; Regional or provider-sponsored plan,CNC PRIVATE
+00027253,2027,6,4,1,"St Francis Health System & St John Health System (per CMS, unmapped ticker)",
+00027164,2027,6,14,6,"Institutional SNP or regional MA startup (private, various); Rifkin Managed Care (private)",PRIVATE
+00027330,2027,4,1,1,"AllCare Health, Inc. (per CMS, unmapped ticker)",
+00027413,2027,5,1,1,"Samaritan Health Services, Inc. (per CMS, unmapped ticker)",
+00027305,2027,6,11,3,"ATRIO Health Plans (per CMS, unmapped ticker)",
+00027032,2027,6,5,1,Blue Cross Blue Shield affiliate (various); Health Care Service Corporation (incl. legacy Cigna Medicare),PRIVATE VARIES
+00027195,2027,6,5,1,"PacificSource (nonprofit); PacificSource (per CMS, unmapped ticker)",PRIVATE
+00027079,2027,6,3,1,"Johns Hopkins (nonprofit); Johns Hopkins Healthcare LLC (per CMS, unmapped ticker)",PRIVATE
+00027137,2027,6,30,4,Centene; Regional or provider-sponsored plan; UPMC Health Plan (nonprofit),CNC PRIVATE
 00027278,2027,10,6,2,Independence Blue Cross (nonprofit),PRIVATE
 00027277,2027,9,8,4,Independence Blue Cross (nonprofit); UNMAPPED,PRIVATE
-00027203,2027,11,15,3,Highmark / Capital Blue (nonprofit Blues),PRIVATE
-00027056,2027,6,8,2,Highmark / Capital Blue (nonprofit Blues),PRIVATE
-00027060,2027,6,27,2,Highmark / Capital Blue (nonprofit Blues),PRIVATE
-00027356,2027,7,13,2,Regional or provider-sponsored plan,PRIVATE
+00027203,2027,11,15,3,Highmark Health (nonprofit),PRIVATE
+00027056,2027,6,8,2,Capital Blue Cross (nonprofit),PRIVATE
+00027060,2027,6,27,2,Capital Blue Cross (nonprofit),PRIVATE
+00027356,2027,7,13,2,"Regional or provider-sponsored plan; Risant Health, Inc. (per CMS, unmapped ticker)",PRIVATE
 00027353,2027,9,24,2,Elevance Health,ELV
-00027373,2027,7,8,2,GuideWell / Florida Blue / Triple-S (private),PRIVATE
-00027334,2027,5,1,1,UNMAPPED,
-00027324,2027,5,1,1,UNMAPPED,
-00027269,2027,6,2,1,UNMAPPED,
-00027270,2027,6,1,1,UNMAPPED,
-00027068,2027,14,9,1,"Regional MA plan (private, various)",PRIVATE
+00027373,2027,7,8,2,GuideWell / Florida Blue (private),PRIVATE
+00027334,2027,5,1,1,Santa Clara Family Health Plan (public),PRIVATE
+00027324,2027,5,1,1,"Kern Health Systems (KHS) (per CMS, unmapped ticker)",
+00027269,2027,6,2,1,"Associated Care Ventures, Inc. (per CMS, unmapped ticker)",
+00027270,2027,6,1,1,"Associated Care Ventures, Inc. (per CMS, unmapped ticker)",
+00027068,2027,14,9,1,"DOCTORS HEALTHCARE PLANS, INC. (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
 00027053,2027,6,5,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027246,2027,6,2,1,UNMAPPED,
-00027131,2027,7,1,1,Health Alliance Plan / Henry Ford (nonprofit),PRIVATE
-00027092,2027,7,3,3,Blue Cross Blue Shield affiliate (various),VARIES
-00027420,2027,7,4,1,"Regional MA plan (private, various)",PRIVATE
-00027138,2027,7,16,2,Regional or provider-sponsored plan,PRIVATE
-00027178,2027,6,13,1,Regional or provider-sponsored plan,PRIVATE
-00027176,2027,6,17,1,Regional or provider-sponsored plan,PRIVATE
-00027331,2027,5,2,1,UNMAPPED,
-00027383,2027,5,2,1,UNMAPPED,
-00027308,2027,5,1,1,UNMAPPED,
-00027127,2027,7,2,1,Regional or provider-sponsored plan,PRIVATE
-00027351,2027,4,2,1,UNMAPPED,
+00027246,2027,6,2,1,"Missouri Healthcare Advisors, LLC (per CMS, unmapped ticker)",
+00027131,2027,7,1,1,"Henry Ford Health System (per CMS, unmapped ticker)",
+00027092,2027,7,3,3,"Blue Cross Blue Shield affiliate (various); USAble Mutual Insurance Company (per CMS, unmapped ticker)",VARIES
+00027420,2027,7,4,1,"LMC Family Holdings, LLC (per CMS, unmapped ticker)",
+00027138,2027,7,16,2,"MEDICAL MUTUAL OF OHIO (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027178,2027,6,13,1,"Regional or provider-sponsored plan; Zing Health Consolidator, Inc (per CMS, unmapped ticker)",PRIVATE
+00027176,2027,6,17,1,"Zing Health Consolidator, Inc (per CMS, unmapped ticker)",
+00027331,2027,5,2,1,University of California (public),PRIVATE
+00027383,2027,5,2,1,"Troy Holdings, Inc. (per CMS, unmapped ticker)",
+00027308,2027,5,1,1,Community Health Group (nonprofit),PRIVATE
+00027127,2027,7,2,1,"Banner Health (per CMS, unmapped ticker)",
+00027351,2027,4,2,1,"Regency ISNP Holdings LLC (per CMS, unmapped ticker)",
 00027397,2027,7,13,1,Kaiser Permanente (nonprofit),PRIVATE
-00027321,2027,5,1,1,Regional or provider-sponsored plan,PRIVATE
+00027321,2027,5,1,1,"Contra Costa Health Services (per CMS, unmapped ticker)",
 00027110,2027,10,13,2,Clover Health,CLOV
-00027235,2027,6,4,1,Regional or provider-sponsored plan,PRIVATE
-00027230,2027,10,7,1,Regional or provider-sponsored plan,PRIVATE
-00027354,2027,10,14,2,Regional or provider-sponsored plan,PRIVATE
-00027405,2027,6,4,2,Regional or provider-sponsored plan,PRIVATE
+00027235,2027,6,4,1,"Regional or provider-sponsored plan; Sanford Health (per CMS, unmapped ticker)",PRIVATE
+00027230,2027,10,7,1,"Network Health, Inc. (per CMS, unmapped ticker)",
+00027354,2027,10,14,2,"University of Wisconsin Hospitals and Clincs Autho (per CMS, unmapped ticker)",
+00027405,2027,6,4,2,"Point32Health, Inc. (per CMS, unmapped ticker)",
 00027025,2027,9,29,2,Elevance Health,ELV
 00027024,2027,8,8,2,Elevance Health,ELV
 00027026,2027,8,14,2,Elevance Health,ELV
-00027416,2027,7,1,1,UNMAPPED,
-00027254,2027,6,3,1,CVS Health (Aetna / SilverScript),CVS
-00027430,2027,7,3,1,Regional or provider-sponsored plan,PRIVATE
-00027346,2027,5,2,1,UNMAPPED,
-00027345,2027,5,1,1,UNMAPPED,
-00027286,2027,11,19,1,"MCS (Puerto Rico, private)",PRIVATE
-00027285,2027,11,1,1,"MCS (Puerto Rico, private)",PRIVATE
-00027050,2027,8,3,1,UNMAPPED,
-00027417,2027,5,1,1,UNMAPPED,
-00027274,2027,5,3,1,Regional or provider-sponsored plan,PRIVATE
-00027275,2027,5,3,1,Regional or provider-sponsored plan,PRIVATE
-00027312,2027,6,1,1,Regional or provider-sponsored plan,PRIVATE
-00027314,2027,6,1,1,Regional or provider-sponsored plan,PRIVATE
-00027306,2027,5,1,1,UNMAPPED,
-00027322,2027,5,1,1,UNMAPPED,
-00027325,2027,5,3,1,UNMAPPED,
-00027374,2027,8,9,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
-00027139,2027,7,2,1,UNMAPPED,
-00027132,2027,7,1,1,Regional or provider-sponsored plan,PRIVATE
-00027301,2027,6,1,1,UNMAPPED,
-00027429,2027,13,1,1,UNMAPPED,
-00027419,2027,7,43,4,Blue Cross Blue Shield affiliate (various); UNMAPPED,VARIES
-00027427,2027,8,7,3,Highmark / Capital Blue (nonprofit Blues); UNMAPPED,PRIVATE
-00027041,2027,6,2,1,UNMAPPED,
-00027040,2027,6,2,1,UNMAPPED,
-00027390,2027,7,24,3,Regional or provider-sponsored plan,PRIVATE
-00027391,2027,6,5,3,Regional or provider-sponsored plan,PRIVATE
-00027218,2027,6,1,1,UNMAPPED,
-00027205,2027,21,1,1,UNMAPPED,
-00027333,2027,5,16,2,"Regional MA plan (private, various)",PRIVATE
+00027416,2027,7,1,1,CalOptima (public),PRIVATE
+00027254,2027,6,3,1,"Bexar County Hospital District (per CMS, unmapped ticker); CVS Health (Aetna / SilverScript)",CVS
+00027430,2027,7,3,1,"Imperial Health Plan of California (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027346,2027,5,2,1,VNS Health (nonprofit),PRIVATE
+00027345,2027,5,1,1,VNS Health (nonprofit),PRIVATE
+00027286,2027,11,19,1,"MCS (Puerto Rico, private); MCS / MHH Healthcare (Puerto Rico, private)",PRIVATE
+00027285,2027,11,1,1,"MCS / MHH Healthcare (Puerto Rico, private)",PRIVATE
+00027050,2027,8,3,1,"Mercy Care (nonprofit, AZ)",PRIVATE
+00027417,2027,5,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027274,2027,5,3,1,"Martin's Point Health Care, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027275,2027,5,3,1,"Martin's Point Health Care, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027312,2027,6,1,1,"Denver Health and Hospital Authority (per CMS, unmapped ticker)",
+00027314,2027,6,1,1,"Denver Health and Hospital Authority (per CMS, unmapped ticker)",
+00027306,2027,5,1,1,"SANTA CRUZ MONTEREY MERCED SAN BENITO MARIPOSA MAN (per CMS, unmapped ticker)",
+00027322,2027,5,1,1,"SAN JOAQUIN COUNTY HEALTH COMMISSION (per CMS, unmapped ticker)",
+00027325,2027,5,3,1,"Institutional SNP or regional MA startup (private, various)",PRIVATE
+00027374,2027,8,9,1,GuideWell / Florida Blue (private); GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00027139,2027,7,2,1,Community Health Plan of Washington (nonprofit),PRIVATE
+00027132,2027,7,1,1,"Banner Health (per CMS, unmapped ticker)",
+00027301,2027,6,1,1,"AIDS Healthcare Foundation (per CMS, unmapped ticker)",
+00027429,2027,13,1,1,CareOregon (nonprofit),PRIVATE
+00027419,2027,7,43,4,BCBS Michigan (nonprofit),PRIVATE
+00027427,2027,8,7,3,Highmark Health (nonprofit),PRIVATE
+00027041,2027,6,2,1,GuideWell / Florida Blue (private),PRIVATE
+00027040,2027,6,2,1,GuideWell / Florida Blue (private),PRIVATE
+00027390,2027,7,24,3,"Regional or provider-sponsored plan; Universal Health Services, Inc. (per CMS, unmapped ticker)",PRIVATE
+00027391,2027,6,5,3,"Universal Health Services, Inc. (per CMS, unmapped ticker)",
+00027218,2027,6,1,1,"AlohaCare (per CMS, unmapped ticker)",
+00027205,2027,21,1,1,"Health Plan of San Mateo (per CMS, unmapped ticker)",
+00027333,2027,5,16,2,"Champion Health Plans-USA, LLC. (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
 00027264,2027,6,2,1,UNMAPPED,
-00027309,2027,5,1,1,UNMAPPED,
-00027328,2027,5,3,1,Regional or provider-sponsored plan,PRIVATE
-00027260,2027,6,2,1,UNMAPPED,
-00027261,2027,6,1,1,UNMAPPED,
-00027316,2027,5,2,1,UNMAPPED,
-00027125,2027,7,1,1,Regional or provider-sponsored plan,PRIVATE
-00027338,2027,5,3,2,UNMAPPED,
-00027124,2027,7,2,1,UNMAPPED,
-00027378,2027,7,3,1,UNMAPPED,
-00027179,2027,6,3,1,Regional or provider-sponsored plan,PRIVATE
-00027177,2027,6,3,1,Regional or provider-sponsored plan,PRIVATE
-00027244,2027,6,2,1,UNMAPPED,
+00027309,2027,5,1,1,Community Health Group (nonprofit),PRIVATE
+00027328,2027,5,3,1,"McLaren Health Care Corporation (per CMS, unmapped ticker)",
+00027260,2027,6,2,1,"Liberty Healthcare Insurance (per CMS, unmapped ticker)",
+00027261,2027,6,1,1,"Liberty Healthcare Insurance (per CMS, unmapped ticker)",
+00027316,2027,5,2,1,"Elite Health Systems, Inc. (per CMS, unmapped ticker)",
+00027125,2027,7,1,1,CareSource (nonprofit),PRIVATE
+00027338,2027,5,3,2,SIHO (private),PRIVATE
+00027124,2027,7,2,1,CareSource (nonprofit),PRIVATE
+00027378,2027,7,3,1,"Mass General Brigham Incorporated (per CMS, unmapped ticker); Provider-sponsored or nonprofit regional plan",PRIVATE
+00027179,2027,6,3,1,"Zing Health Consolidator, Inc (per CMS, unmapped ticker)",
+00027177,2027,6,3,1,"Zing Health Consolidator, Inc (per CMS, unmapped ticker)",
+00027244,2027,6,2,1,"ISNP Holdings, LLC (per CMS, unmapped ticker)",
 00027224,2027,6,3,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027167,2027,6,2,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027167,2027,6,2,1,"CareFirst, Inc. (per CMS, unmapped ticker)",
 00027171,2027,6,2,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027175,2027,8,4,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027123,2027,7,2,1,UNMAPPED,
-00027099,2027,6,6,1,"Regional MA plan (private, various)",PRIVATE
-00027307,2027,5,1,1,UNMAPPED,
-00027096,2027,10,19,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027175,2027,8,4,1,"Excellus BCBS (Lifetime Healthcare, nonprofit)",PRIVATE
+00027123,2027,7,2,1,"Group Health Cooperative of Eau Claire (per CMS, unmapped ticker)",
+00027099,2027,6,6,1,"Clever Care Health Plan, Inc. (per CMS, unmapped ticker); Regional MA plan (private, various)",PRIVATE
+00027307,2027,5,1,1,"SANTA BARBARA SAN LUIS OBISPO REGIONAL HEALTH AUTH (per CMS, unmapped ticker)",
+00027096,2027,10,19,1,BCBS Tennessee (nonprofit); Blue Cross Blue Shield affiliate (various),PRIVATE VARIES
 00027329,2027,6,6,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027336,2027,6,1,1,UNMAPPED,
-00027252,2027,6,1,1,UNMAPPED,
-00027190,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027336,2027,6,1,1,"SAN FRANCISCO HEALTH AUTHORITY (per CMS, unmapped ticker)",
+00027252,2027,6,1,1,"Mitchell Family Office (per CMS, unmapped ticker)",
+00027190,2027,6,1,1,"Horizon Mutual Holdings, Inc (per CMS, unmapped ticker)",
 00027189,2027,7,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027154,2027,6,1,1,Regional or provider-sponsored plan,PRIVATE
-00027422,2027,10,4,1,Regional or provider-sponsored plan,PRIVATE
-00027169,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027425,2027,6,22,1,Regional or provider-sponsored plan,PRIVATE
-00027288,2027,4,1,1,Regional or provider-sponsored plan,PRIVATE
-00027181,2027,8,2,1,Regional or provider-sponsored plan,PRIVATE
-00027266,2027,6,9,1,Peak Health / WVU Medicine (nonprofit),PRIVATE
-00027180,2027,8,10,1,Regional or provider-sponsored plan,PRIVATE
-00027348,2027,4,3,1,UNMAPPED,
-00027256,2027,6,4,1,Regional or provider-sponsored plan,PRIVATE
-00027313,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027343,2027,10,3,1,Jefferson Health Plans (nonprofit),PRIVATE
-00027358,2027,7,3,1,Jefferson Health Plans (nonprofit),PRIVATE
-00027108,2027,6,2,1,"Regional MA plan (private, various)",PRIVATE
-00027109,2027,6,4,1,"Regional MA plan (private, various)",PRIVATE
-00027376,2027,5,1,1,UNMAPPED,
-00027255,2027,6,5,1,Community Health Choice / Harris Health (nonprofit),PRIVATE
-00027371,2027,5,5,1,"Regional MA plan (private, various)",PRIVATE
+00027154,2027,6,1,1,"Hawaii Medical Service Association (per CMS, unmapped ticker)",
+00027422,2027,10,4,1,"Montage Health (per CMS, unmapped ticker)",
+00027169,2027,6,1,1,"CareFirst, Inc. (per CMS, unmapped ticker)",
+00027425,2027,6,22,1,Medica (nonprofit); Regional or provider-sponsored plan,PRIVATE
+00027288,2027,4,1,1,"INLAND EMPIRE HEALTH PLAN (per CMS, unmapped ticker)",
+00027181,2027,8,2,1,"Fallon Community Health Plan, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027266,2027,6,9,1,Peak Health / WVU Medicine (nonprofit); WVU Medicine / Peak Health (nonprofit),PRIVATE
+00027180,2027,8,10,1,"Fallon Community Health Plan, Inc. (per CMS, unmapped ticker); Regional or provider-sponsored plan",PRIVATE
+00027348,2027,4,3,1,"VISITING NURSE ASSOCIATION OF CENTRAL NEW YORK (per CMS, unmapped ticker)",
+00027256,2027,6,4,1,Medica (nonprofit),PRIVATE
+00027313,2027,6,1,1,CuraCor Solutions (private),PRIVATE
+00027343,2027,10,3,1,"Thomas Jefferson University (per CMS, unmapped ticker)",
+00027358,2027,7,3,1,"Thomas Jefferson University (per CMS, unmapped ticker)",
+00027108,2027,6,2,1,"LifeBridge Health, Inc. (per CMS, unmapped ticker)",
+00027109,2027,6,4,1,"LifeBridge Health, Inc. (per CMS, unmapped ticker)",
+00027376,2027,5,1,1,"Ventura County Medi-Cal Managed Care Commission (per CMS, unmapped ticker)",
+00027255,2027,6,5,1,"Community Health Choice / Harris Health (nonprofit); Harris County Hospital District (per CMS, unmapped ticker)",PRIVATE
+00027371,2027,5,5,1,"Independent Living Systems, LLC (per CMS, unmapped ticker)",
 00027208,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027207,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027196,2027,12,1,1,Blue Shield of California (nonprofit),PRIVATE
@@ -266,22 +266,22 @@ formulary_id,contract_year,formulary_version,plan_count,contract_count,parents,t
 00027105,2027,6,1,1,Elevance Health,ELV
 00027163,2027,8,34,1,Centene,CNC
 00027165,2027,7,34,1,Centene,CNC
-00027315,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027317,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027315,2027,6,1,1,CuraCor Solutions (private),PRIVATE
+00027317,2027,6,1,1,CuraCor Solutions (private),PRIVATE
 00027011,2027,10,20,1,CVS Health (Aetna / SilverScript),CVS
-00027062,2027,7,5,1,Cigna Group,CI
-00027061,2027,9,35,1,Cigna Group,CI
+00027062,2027,7,5,1,Health Care Service Corporation (incl. legacy Cigna Medicare); Health Care Service Corporation (legacy Cigna Medicare),PRIVATE
+00027061,2027,9,35,1,Health Care Service Corporation (incl. legacy Cigna Medicare); Health Care Service Corporation (legacy Cigna Medicare),PRIVATE
 00027221,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027223,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027222,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
 00027147,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027145,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027093,2027,7,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027145,2027,6,1,1,"USAble Mutual Insurance Company (per CMS, unmapped ticker)",
+00027093,2027,7,1,1,"USAble Mutual Insurance Company (per CMS, unmapped ticker)",
 00027000,2027,8,39,2,UnitedHealth Group,UNH
 00027362,2027,7,34,1,Humana,HUM
 00027365,2027,6,34,1,Humana,HUM
 00027364,2027,6,34,1,Humana,HUM
-00027049,2027,7,1,1,GuideWell / Florida Blue / Triple-S (private),PRIVATE
+00027049,2027,7,1,1,GuideWell / Florida Blue (private),PRIVATE
 00027001,2027,8,34,1,UnitedHealth Group,UNH
-00027185,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
-00027186,2027,6,1,1,Blue Cross Blue Shield affiliate (various),VARIES
+00027185,2027,6,1,1,"Horizon Mutual Holdings, Inc (per CMS, unmapped ticker)",
+00027186,2027,6,1,1,"Horizon Mutual Holdings, Inc (per CMS, unmapped ticker)",
