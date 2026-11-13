@@ -399,7 +399,7 @@ function findHeader(line) {
   col.useEnd = endOf(/^(Therapeutic|use)$/i);
   col.med = at(/^Medication$/i);
   col.medEnd = endOf(/^(Medication|name)$/i);
-  col.bg = at(/^Brand\/Generic$/i);
+  col.bg = at(/^Brand\/(Generic)?$/i);
   const tiers = line.words.filter((x) => /^Tier$/i.test(x.t)).map((x) => x.x0);
   col.tier1 = tiers[0] != null ? tiers[0] : null; col.tier2 = tiers[1] != null ? tiers[1] : null;
   col.base = at(/^Base$/i); col.enh = at(/^Enhanced$/i);
@@ -410,95 +410,119 @@ function findHeader(line) {
   return col;
 }
 
+// Optum tier cells read "Tier 2", "3 > 2", "EXC", "(N/C) > EXC", "---". Two tier columns are the Select
+// and Premium formularies (or Base and Enhanced for EHB issues), not before and after.
+const TIER_TOKEN = /^(Tier\s?\d|\d|EXC\^?|\(N\/C\)|N\/C|---|N\/A|NC)$/i;
+function parseTierTokens(tokens) {
+  const segs = [];
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i];
+    if (!TIER_TOKEN.test(t)) continue;
+    if (tokens[i + 1] === '>' && tokens[i + 2] && TIER_TOKEN.test(tokens[i + 2])) { segs.push({ from: t, to: tokens[i + 2] }); i += 2; }
+    else segs.push({ status: t });
+  }
+  return segs;
+}
+const segText = (g) => (!g ? '' : g.from != null ? `${g.from} > ${g.to}` : g.status);
+
 function parseOptumBbox(html) {
   const pages = parseBboxWords(html);
   const rows = []; const problems = []; const notes = { bbox: true, pages: pages.length, tables: 0 };
   const DATE = /^\d{1,2}\/\d{1,2}\/\d{2,4}$/;
+  const HEADER_WORD = /^(use|name|Base|Enhanced|date|SP|PA|ST|QL|Tier|Brand\/|Brand\/Generic|Generic|Add\/Remove|Effective|Therapeutic|Medication|Brand|Current|New|Change|Changes|Coverage|Status|Utilization|Management|UM|Select|Premium|Formulary|EHB)$/i;
   for (const page of pages) {
     const lines = groupLines(page.words);
-    let col = null; let headerY = -1;
-    // Build entries: consecutive lines under a header grouped by vertical gap
-    let entries = []; let cur = null; let lastY1 = null; const gaps = [];
-    const flushEntry = () => { if (cur && cur.lines.length) entries.push(cur); cur = null; };
+    // 1. Find table headers. A page may carry two tables side by side, so a header line can hold
+    //    two "Medication" words; each one defines a table region by x.
+    const tables = [];
     for (let li = 0; li < lines.length; li++) {
       const L = lines[li];
-      // Table headers can span two or three stacked lines ("Therapeutic / use", "Tier / Base", "Effective / date"):
-      // merge the words of the following lines that sit within 18pt before reading the header.
-      if (/^(Therapeutic|Medication)$/i.test(L.words[0] ? L.words[0].t : '') || L.words.some((w) => /^Medication$/i.test(w.t))) {
-        const merged = { y0: L.y0, y1: L.y1, words: [...L.words] };
-        let k = li + 1;
-        const HEADER_WORD = /^(use|name|Base|Enhanced|date|SP|PA|ST|QL|Tier|Brand\/Generic|Add\/Remove|Effective|Therapeutic|Medication|Generic|Brand|Current|New|Change|Changes|Coverage|Status|Utilization|Management|UM)$/i;
-        while (k < lines.length && lines[k].y0 - merged.y1 < 18 && lines[k].words.length && lines[k].words.every((w) => HEADER_WORD.test(w.t))) { merged.words.push(...lines[k].words); merged.y1 = Math.max(merged.y1, lines[k].y1); k++; }
-        merged.words.sort((a, b) => a.x0 - b.x0);
-        const h = findHeader(merged);
-        if (h) { flushEntry(); col = h; headerY = merged.y1; notes.tables++; lastY1 = merged.y1; li = k - 1; continue; }
+      if (!L.words.some((w) => /^Medication$/i.test(w.t))) continue;
+      const merged = { y0: L.y0, y1: L.y1, words: [...L.words] };
+      let k = li + 1;
+      while (k < lines.length && lines[k].y0 - merged.y1 < 18 && lines[k].words.length && lines[k].words.every((w) => HEADER_WORD.test(w.t))) { merged.words.push(...lines[k].words); merged.y1 = Math.max(merged.y1, lines[k].y1); k++; }
+      merged.words.sort((a, b) => a.x0 - b.x0);
+      const meds = merged.words.filter((w) => /^Medication$/i.test(w.t));
+      const starts = meds.map((m) => { const th = merged.words.filter((w) => /^Therapeutic$/i.test(w.t) && w.x0 < m.x0).pop(); return th ? th.x0 - 4 : m.x0 - 70; });
+      for (let i = 0; i < meds.length; i++) {
+        const x0 = starts[i], x1 = i + 1 < starts.length ? starts[i + 1] - 1 : 9999;
+        const col = findHeader({ words: merged.words.filter((w) => w.x0 >= x0 && w.x0 < x1) });
+        if (col) tables.push({ col, x0, x1, yTop: merged.y1, yBottom: 9999 });
       }
-      if (!col) continue;
-      const text = L.words.map((w) => w.t).join(' ');
-      if (/^(Pharmacy Passages|©|Optum|Page \d|\d+$)/i.test(text) || L.y0 < headerY) { continue; }
-      const gap = lastY1 == null ? 0 : L.y0 - lastY1;
-      if (lastY1 != null) gaps.push(gap);
-      const lineH = L.y1 - L.y0 || 10;
-      // New entry when the gap between lines is clearly larger than normal line spacing,
-      // or when this line carries a date and the current entry already has one.
-      const hasDate = L.words.some((w) => DATE.test(w.t));
-      if (!cur || gap > lineH * 0.6 || (hasDate && cur.hasDate)) { flushEntry(); cur = { lines: [], col, hasDate: false }; }
-      cur.lines.push(L); if (hasDate) cur.hasDate = true;
-      lastY1 = L.y1;
+      li = k - 1;
     }
-    flushEntry();
-    for (const e of entries) {
-      const c = e.col; const words = e.lines.flatMap((L) => L.words);
-      const nextStart = [c.bg, c.tier1, c.base, c.addrem, c.date].filter((x) => x != null).sort((a, b) => a - b)[0];
-      const xend = nextStart == null ? 9999 : nextStart - 6;
-      // The therapeutic-use cell and the medication cell are separated by a cell gap (8pt or more);
-      // word spacing inside a cell is far smaller. Split each line at its widest gap left of the tier
-      // columns, provided that gap starts left of the medication header; otherwise the whole line is name.
-      const useParts = [], nameParts = [];
-      for (const L of e.lines) {
-        const left = L.words.filter((w) => w.x0 < xend);
-        if (!left.length) continue;
-        let cut = -1, best = 7;
-        for (let i = 1; i < left.length; i++) { const g = left[i].x0 - left[i - 1].x1; if (g > best && left[i - 1].x1 < c.med + 4) { best = g; cut = i; } }
-        if (cut > 0) { useParts.push(left.slice(0, cut).map((w) => w.t).join(' ')); nameParts.push(left.slice(cut).map((w) => w.t).join(' ')); }
-        else if (left[0].x0 < c.med - 30 && c.use != null && left[left.length - 1].x1 < c.med - 4) useParts.push(left.map((w) => w.t).join(' '));
-        else nameParts.push(left.map((w) => w.t).join(' '));
+    if (!tables.length) continue;
+    notes.tables += tables.length;
+    for (const t of tables) for (const u of tables) if (u !== t && u.yTop > t.yTop && u.x0 < t.x1 && u.x1 > t.x0) t.yBottom = Math.min(t.yBottom, u.yTop - 2);
+    // 2. For each table, group its lines into entries and read the cells.
+    for (const tb of tables) {
+      const c = tb.col;
+      const tl = lines.map((L) => ({ y0: L.y0, y1: L.y1, words: L.words.filter((w) => w.x0 >= tb.x0 && w.x0 < tb.x1) })).filter((L) => L.words.length && L.y0 > tb.yTop + 1 && L.y1 < tb.yBottom);
+      const entries = []; let cur = null; let lastY1 = null;
+      const flushEntry = () => { if (cur && cur.lines.length) entries.push(cur); cur = null; };
+      for (const L of tl) {
+        const text = L.words.map((w) => w.t).join(' ');
+        if (/^(Pharmacy Passages|©|Optum|Page \d|\d+$)/i.test(text)) continue;
+        const gap = lastY1 == null ? 0 : L.y0 - lastY1;
+        const lineH = L.y1 - L.y0 || 10;
+        const hasDate = L.words.some((w) => DATE.test(w.t));
+        if (!cur || gap > lineH * 0.6 || (hasDate && cur.hasDate)) { flushEntry(); cur = { lines: [], hasDate: false }; }
+        cur.lines.push(L); if (hasDate) cur.hasDate = true;
+        lastY1 = L.y1;
       }
-      const use = norm(useParts.join(' '));
-      const name = norm(nameParts.join(' '));
-      const right = words.filter((w) => w.x0 >= xend);
-      const date = (right.find((w) => DATE.test(w.t)) || {}).t || '';
-      if (!name && !date) continue;
-      if (c.addrem != null) {
-        const ar = (right.find((w) => /^(Add|Remove)$/i.test(w.t)) || {}).t || '';
-        if (!date) { problems.push({ problem: 'add/remove row without date', text: `${use} | ${name}` }); continue; }
-        rows.push({ kind: 'add_remove', action: ar, therapeutic_use: norm(use), name, effective: date, text: `${use} | ${name} | ${ar} ${date}` });
-        continue;
+      flushEntry();
+      for (const e of entries) {
+        const words = e.lines.flatMap((L) => L.words);
+        const nextStart = [c.bg, c.tier1, c.base, c.addrem, c.date].filter((x) => x != null).sort((a, b) => a - b)[0];
+        const xend = nextStart == null ? 9999 : nextStart - 6;
+        const useParts = [], nameParts = [];
+        for (const L of e.lines) {
+          const left = L.words.filter((w) => w.x0 < xend);
+          if (!left.length) continue;
+          let cut = -1, best = 7;
+          for (let i = 1; i < left.length; i++) { const g = left[i].x0 - left[i - 1].x1; if (g > best && left[i - 1].x1 < c.med + 4) { best = g; cut = i; } }
+          if (cut > 0) { useParts.push(left.slice(0, cut).map((w) => w.t).join(' ')); nameParts.push(left.slice(cut).map((w) => w.t).join(' ')); }
+          else if (left[0].x0 < c.med - 30 && c.use != null && left[left.length - 1].x1 < c.med - 4) useParts.push(left.map((w) => w.t).join(' '));
+          else nameParts.push(left.map((w) => w.t).join(' '));
+        }
+        let use = norm(useParts.join(' '));
+        let name = norm(nameParts.join(' '));
+        const right = words.filter((w) => w.x0 >= xend).sort((a, b) => a.y0 - b.y0 || a.x0 - b.x0);
+        const date = (right.find((w) => DATE.test(w.t)) || {}).t || '';
+        if (!name && !date) continue;
+        if (c.addrem != null) {
+          const ar = (right.find((w) => /^(Add|Remove)$/i.test(w.t)) || {}).t || '';
+          if (!date) { problems.push({ problem: 'add/remove row without date', text: `${use} | ${name}` }); continue; }
+          rows.push({ kind: 'add_remove', action: ar, therapeutic_use: use, name, effective: date, text: `${use} | ${name} | ${ar} ${date}` });
+          continue;
+        }
+        if (!date) { if (name.length > 3) problems.push({ problem: 'row without date', text: `${use} | ${name}` }); continue; }
+        // Cells right of the name: brand/generic, tier statuses, flags.
+        const tokens = right.filter((w) => !DATE.test(w.t)).map((w) => w.t);
+        let brandGeneric = tokens.find((t) => /^(Brand|Generic)$/i.test(t)) || '';
+        if (!brandGeneric) { const m = name.match(/\b(Brand|Generic)\b/); if (m) { brandGeneric = m[1]; name = norm(name.replace(/\b(Brand|Generic)\b/, ' ')); } }
+        // Flag columns by anchor (an X under SP, PA, ST or QL)
+        const flags = {};
+        for (const k of ['sp', 'pa', 'st', 'ql']) if (c[k] != null) flags[k.toUpperCase()] = right.some((w) => /^X$/i.test(w.t) && Math.abs(w.x0 - c[k]) < 14);
+        // Tier tokens in reading order, "Tier" joined to its number
+        const tt = [];
+        for (let i = 0; i < tokens.length; i++) { if (/^Tier$/i.test(tokens[i]) && /^\d$/.test(tokens[i + 1] || '')) { tt.push(`Tier ${tokens[i + 1]}`); i++; } else tt.push(tokens[i]); }
+        const segs = parseTierTokens(tt.filter((t) => !/^(Brand|Generic|X)$/i.test(t)));
+        const twoCols = (c.tier1 != null && c.tier2 != null) || (c.base != null && c.enh != null);
+        const select = segs[0] || null; const premium = twoCols ? (segs[1] || segs[0] || null) : null;
+        const colNames = c.base != null ? ['Base', 'Enhanced'] : ['Select', 'Premium'];
+        const statusOf = (g) => (!g ? '' : g.to != null ? g.to : g.status);
+        const excluded = [select, premium].some((g) => g && /EXC|N\/C|NC/i.test(statusOf(g)));
+        const moved = [select, premium].some((g) => g && g.from != null && g.from !== g.to);
+        const summary = [select ? `${colNames[0]} ${segText(select)}` : '', premium ? `${colNames[1]} ${segText(premium)}` : ''].filter(Boolean).join('; ');
+        rows.push({
+          kind: 'tier_change', therapeutic_use: use, name, brand_generic: brandGeneric,
+          select: select ? segText(select) : '', premium: premium ? segText(premium) : '', formulary_columns: colNames,
+          status_select: statusOf(select), status_premium: statusOf(premium), moved, excluded,
+          tier_before: select ? (select.from != null ? select.from : select.status) : '', tier_after: statusOf(select),
+          flags, effective: date, text: `${use} | ${name} | ${summary} | ${date}`,
+        });
       }
-      if (!date) { problems.push({ problem: 'row without date', text: `${use} | ${name}` }); continue; }
-      // Assign every word right of the name column to its nearest column anchor.
-      const anchors = Object.entries({ bg: c.bg, tier1: c.tier1, tier2: c.tier2, base: c.base, enh: c.enh, sp: c.sp, pa: c.pa, st: c.st, ql: c.ql, date: c.date }).filter(([, x]) => x != null);
-      const cells = {};
-      // Join "Tier" with the number that follows it so the pair lands in one column.
-      const rightJ = [];
-      for (let i = 0; i < right.length; i++) {
-        const w = right[i]; const n = right[i + 1];
-        if (/^Tier$/i.test(w.t) && n && /^\d$/.test(n.t) && n.x0 - w.x1 < 14 && Math.abs(n.y0 - w.y0) < 3) { rightJ.push({ ...w, t: `Tier ${n.t}`, x1: n.x1 }); i++; }
-        else rightJ.push(w);
-      }
-      for (const w of rightJ) {
-        if (DATE.test(w.t)) continue;
-        let best = null, bd = 1e9;
-        for (const [k, x] of anchors) { const d = Math.abs(w.x0 - x); if (d < bd) { bd = d; best = k; } }
-        if (best && bd < 40) cells[best] = (cells[best] ? cells[best] + ' ' : '') + w.t;
-      }
-      const brandGeneric = cells.bg || '';
-      let tierB = '', tierA = '';
-      if (c.base != null) { tierB = cells.base || ''; tierA = cells.enh || ''; }
-      else { tierB = cells.tier1 || ''; tierA = cells.tier2 || ''; }
-      const flags = {};
-      for (const k of ['sp', 'pa', 'st', 'ql']) if (c[k] != null) flags[k.toUpperCase()] = /^X$/i.test(cells[k] || '');
-      rows.push({ kind: 'tier_change', therapeutic_use: norm(use), name, brand_generic: brandGeneric, tier_before: tierB, tier_after: tierA || tierB, flags, effective: date, text: `${use} | ${name} | ${tierB} -> ${tierA} | ${date}` });
     }
   }
   return { rows, problems, notes };
@@ -562,7 +586,9 @@ function parseAetnaBbox(html) {
         buf = null;
         if (!name || name.length > 300) { if (name) problems.push({ problem: 'entry too long', text: name.slice(0, 120) }); return; }
         if (!generic && !tier && !/\d/.test(name) && !FORM_WORDS.test(name)) return;
-        rows.push({ category, name, generic, tier, coverage: tier === 'NF' ? 'not covered' : 'listed', restrictions: restr, limits_text: lim, text: `${nameText} | ${tier} | ${lim}` });
+        if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(name) || /Pharmacy Drug Guide|Advanced Control Plan|^Aetna\b/i.test(name)) return;
+        const limClean = norm(lim.replace(/\(?Listing does not include certain NDCs\)?/gi, ' ').replace(/^certain NDCs\)/i, ' ').replace(/N8 \(?$/, 'N8'));
+        rows.push({ category, name, generic, tier, coverage: tier === 'NF' ? 'not covered' : 'listed', restrictions: restr, limits_text: limClean, text: `${nameText} | ${tier} | ${limClean}` });
       };
       for (const L of blines) {
         const nameWords = L.words.filter((w) => w.x0 < tierLeft);
@@ -672,6 +698,42 @@ function main() {
     structured.sources[id] = entry;
   }
 
+  // Edition comparisons: sources whose ids differ only by a year (aetna-acp-2026 vs aetna-acp-2027)
+  // are compared product by product, so a coverage swap between plan years is produced here.
+  structured.comparisons = [];
+  const families = {};
+  for (const e of Object.values(structured.sources)) { const m = e.id.match(/^(.*)-(20\d\d)$/); if (m && e.parser === 'aetna-guide') (families[m[1]] = families[m[1]] || []).push({ year: m[2], e }); }
+  for (const [fam, list] of Object.entries(families)) {
+    list.sort((a, b) => a.year.localeCompare(b.year));
+    for (let i = 0; i + 1 < list.length; i++) {
+      const A = list[i], B = list[i + 1];
+      const ra = readJson(path.join(DATA_DIR, A.e.id, 'parsed', `${A.e.latest_stamp}.json`), { rows: [] }).rows;
+      const rb = readJson(path.join(DATA_DIR, B.e.id, 'parsed', `${B.e.latest_stamp}.json`), { rows: [] }).rows;
+      const key = (r) => `${norm(r.name).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()}|${(r.generic || '').toLowerCase()}`;
+      const ma = new Map(ra.map((r) => [key(r), r])), mb = new Map(rb.map((r) => [key(r), r]));
+      const changes = [];
+      const restrOf = (r) => (r.restrictions || []).map((x) => x.replace(/\s*\(.*$/, '')).sort().join(', ');
+      for (const [k, b] of mb) {
+        const a = ma.get(k);
+        const base = { category: b.category, name: b.name, generic: b.generic, from_tier: a ? a.tier : '', to_tier: b.tier, from_restrictions: a ? restrOf(a) : '', to_restrictions: restrOf(b) };
+        if (!a) { changes.push({ change: 'ADDED', ...base }); continue; }
+        if (a.tier === 'NF' && b.tier && b.tier !== 'NF') changes.push({ change: 'NOW_COVERED', ...base });
+        else if (b.tier === 'NF' && a.tier && a.tier !== 'NF') changes.push({ change: 'NOW_NOT_COVERED', ...base });
+        else if ((a.tier || '') !== (b.tier || '')) changes.push({ change: 'TIER_CHANGED', ...base });
+        else if (restrOf(a) !== restrOf(b)) changes.push({ change: 'RESTRICTION_CHANGED', ...base });
+      }
+      for (const [k, a] of ma) if (!mb.has(k)) changes.push({ change: 'REMOVED', category: a.category, name: a.name, generic: a.generic, from_tier: a.tier, to_tier: '', from_restrictions: restrOf(a), to_restrictions: '' });
+      for (const ch of changes) tagWatch(ch);
+      const order = { NOW_NOT_COVERED: 0, REMOVED: 1, TIER_CHANGED: 2, RESTRICTION_CHANGED: 3, NOW_COVERED: 4, ADDED: 5 };
+      changes.sort((x, y) => (order[x.change] - order[y.change]) || ((y.watch_tickers ? 1 : 0) - (x.watch_tickers ? 1 : 0)) || x.name.localeCompare(y.name));
+      const comp = { family: fam, from_id: A.e.id, to_id: B.e.id, from_name: A.e.name, to_name: B.e.name, from_year: A.year, to_year: B.year, rows_from: ra.length, rows_to: rb.length, counts: {}, changes };
+      for (const ch of changes) comp.counts[ch.change] = (comp.counts[ch.change] || 0) + 1;
+      structured.comparisons.push(comp);
+      log(`Edition comparison ${A.e.id} -> ${B.e.id}: ${JSON.stringify(comp.counts)}; watchlist changes: ${changes.filter((c) => c.watch_tickers).length}`);
+      changes.filter((c) => c.watch_tickers).slice(0, 40).forEach((c) => log(`   ${c.change.padEnd(18)} [${c.watch_tickers.join(' ')}] ${c.name}${c.generic ? ` (${c.generic})` : ''}: ${c.from_tier || '-'} ${c.from_restrictions ? `[${c.from_restrictions}] ` : ''}-> ${c.to_tier || '-'} ${c.to_restrictions ? `[${c.to_restrictions}]` : ''}`));
+    }
+  }
+
   structured.generated_at = new Date().toISOString();
   writeJson(OUT, structured);
   log(`Wrote ${OUT}`);
@@ -690,6 +752,13 @@ function main() {
     if (e.watch_rows && e.watch_rows.length) { lines.push(`Watchlist rows (up to 60 of ${e.watch_rows.length}):`); e.watch_rows.slice(0, 60).forEach((r) => lines.push(`- [${(r.watch_tickers || []).join(' ')}] ${rowLine(r)}`)); lines.push(''); }
     if (e.latest_changes && e.latest_changes.length) { lines.push(`Structured changes vs previous version (watchlist first, up to 60):`); const w = e.latest_changes.filter((c) => c.watch_tickers); const o = e.latest_changes.filter((c) => !c.watch_tickers); w.concat(o).slice(0, 60).forEach((c) => lines.push(`- ${c.change} ${c.name}${c.generic ? ` (${c.generic})` : ''}: ${c.tier_before || '-'} -> ${c.tier_after || '-'}${c.restrictions_after ? ` [${c.restrictions_after.join(', ')}]` : ''}`)); lines.push(''); }
   }
+  for (const comp of structured.comparisons || []) {
+    lines.push(`## Edition comparison: ${comp.from_name} -> ${comp.to_name}`, `Rows ${comp.rows_from} -> ${comp.rows_to}; changes ${JSON.stringify(comp.counts)}`, ``);
+    const w = comp.changes.filter((c) => c.watch_tickers);
+    if (w.length) { lines.push(`Watchlist changes (${w.length}):`); w.slice(0, 80).forEach((c) => lines.push(`- ${c.change} [${c.watch_tickers.join(' ')}] ${c.name}${c.generic ? ` (${c.generic})` : ''}: ${c.from_tier || '-'}${c.from_restrictions ? ` [${c.from_restrictions}]` : ''} -> ${c.to_tier || '-'}${c.to_restrictions ? ` [${c.to_restrictions}]` : ''}`)); lines.push(''); }
+    const o = comp.changes.filter((c) => !c.watch_tickers && /NOW_NOT_COVERED|NOW_COVERED/.test(c.change));
+    if (o.length) { lines.push(`Other coverage changes (first 40 of ${o.length}):`); o.slice(0, 40).forEach((c) => lines.push(`- ${c.change} ${c.name}${c.generic ? ` (${c.generic})` : ''}: ${c.from_tier || '-'} -> ${c.to_tier || '-'}`)); lines.push(''); }
+  }
   fs.writeFileSync(path.join(DATA_DIR, 'report.md'), lines.join('\n'));
   log('Wrote data/docs/report.md');
 }
@@ -697,7 +766,7 @@ function main() {
 function rowLine(r) {
   const cut = (v, n = 160) => { const t = String(v == null ? '' : v); return t.length > n ? t.slice(0, n) + '…' : t; };
   if (r.name && String(r.name).length > 200) return `(oversized row, ${String(r.name).length} chars) ${cut(r.name)}`;
-  if (r.kind === 'tier_change') return `${r.therapeutic_use ? r.therapeutic_use + ' | ' : ''}${r.name} | ${r.tier_before} -> ${r.tier_after}${r.brand_generic ? ' | ' + r.brand_generic : ''} | ${JSON.stringify(r.flags)} | eff ${r.effective}`;
+  if (r.kind === 'tier_change') return `${r.therapeutic_use ? r.therapeutic_use + ' | ' : ''}${r.name} | ${r.select != null ? `${(r.formulary_columns || ['Select', 'Premium'])[0]} ${r.select || '-'}; ${(r.formulary_columns || ['Select', 'Premium'])[1]} ${r.premium || '-'}` : `${r.tier_before} -> ${r.tier_after}`}${r.brand_generic ? ' | ' + r.brand_generic : ''} | ${Object.entries(r.flags || {}).filter(([, v]) => v).map(([k]) => k).join('/') || 'no flags'} | eff ${r.effective}`;
   if (r.kind === 'add_remove') return `${r.action} ${r.name} | eff ${r.effective}`;
   return `${r.category} | ${r.name}${r.generic ? ' (' + r.generic + ')' : ''} | ${r.tier || (r.coverage || '')} | ${(r.restrictions || []).join(', ')}`;
 }
