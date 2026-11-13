@@ -193,7 +193,14 @@ async function parsePlans(file) {
   const enroll = readJson(path.join(DATA_DIR, 'enrollment.json'), null);
   if (enroll) log(`Using CMS parent organization from enrollment.json (${enroll.period}) as the primary parent source`);
   else log('No enrollment.json; parents come from contract-name patterns only');
-  let viaCms = 0, viaName = 0;
+  // Contract-level CMS parent (most common parent among the contract's plans), for plans with no enrollment row.
+  const contractParent = new Map();
+  if (enroll) {
+    const tally = new Map();
+    for (const e of Object.values(enroll.plans)) { if (!e.cms_parent) continue; const t = tally.get(e.contract_id) || new Map(); t.set(e.cms_parent, (t.get(e.cms_parent) || 0) + 1); tally.set(e.contract_id, t); }
+    for (const [cid, t] of tally) contractParent.set(cid, [...t.entries()].sort((a, b) => b[1] - a[1])[0][0]);
+  }
+  let viaCms = 0, viaContract = 0, viaName = 0;
   const rl = readline.createInterface({ input: fs.createReadStream(file), crlfDelay: Infinity });
 
   let header = null;
@@ -231,7 +238,9 @@ async function parsePlans(file) {
     if (!p) {
       const er = enroll ? enroll.plans[`${f[iContract]}|${String(f[iPlan]).padStart(3, '0')}`] : null;
       let m = er && er.cms_parent ? mapCmsParent(er.cms_parent) : null;
-      if (m) viaCms++; else { m = mapContract(f[iCName]); viaName++; }
+      if (m) viaCms++;
+      else if (contractParent.has(f[iContract])) { m = mapCmsParent(contractParent.get(f[iContract])); viaContract++; }
+      else { m = mapContract(f[iCName]); viaName++; }
       p = {
         contract_id: f[iContract],
         plan_id: f[iPlan],
@@ -252,7 +261,7 @@ async function parsePlans(file) {
     if (iState >= 0 && f[iState]) p.states.add(f[iState]);
   }
 
-  log(`Plan file: ${lines} rows, ${plans.size} distinct plans (parent from CMS field: ${viaCms}; from contract name: ${viaName})`);
+  log(`Plan file: ${lines} rows, ${plans.size} distinct plans (parent from CMS plan row: ${viaCms}; from CMS contract: ${viaContract}; from contract name: ${viaName})`);
   return plans;
 }
 
