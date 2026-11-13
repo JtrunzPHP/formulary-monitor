@@ -168,7 +168,7 @@ async function processSource(src, index) {
   fs.writeFileSync(path.join(dir, `${st}.txt`), text);
   // Word coordinates for table-style PDFs (Optum issues): lets the parser rebuild rows exactly.
   if (src.kind === 'pdf' && /^optum-/.test(src.id)) {
-    try { execSync(`pdftotext -bbox-layout "${tmp}" "${path.join(dir, `${st}.bbox.html`)}"`, { stdio: 'pipe' }); }
+    try { execSync(`pdftotext -bbox "${tmp}" "${path.join(dir, `${st}.bbox.html`)}"`, { stdio: 'pipe' }); }
     catch (e) { log(`   bbox extraction failed: ${e.message}`); }
   }
   const lines = normLines(text);
