@@ -135,6 +135,11 @@ async function main() {
   }
   const goneP = plansPrev.filter((q) => !latestKeys.has(planKey(q))).length;
   log(`Plans: ${plansPrev.length} before, ${plansLatest.length} now; ${matchedPlans} matched, ${newPlans} new, ${goneP} gone`);
+  if (enroll) {
+    const seen = new Set(); let noEnroll = 0;
+    for (const p of plansLatest) { const cp = `${p.contract_id}|${p.plan_id}`; if (seen.has(cp)) continue; seen.add(cp); if (!livesOf(p)) noEnroll++; }
+    log(`Enrollment match: ${seen.size - noEnroll} of ${seen.size} distinct contract-plans in the latest file have enrollment for ${enroll.period}; ${noEnroll} have none (new plans or masked under 11)`);
+  }
   log(`Distinct formulary transitions to compare: ${transitions.size}`);
 
   const A = await readFormulary(prev);
