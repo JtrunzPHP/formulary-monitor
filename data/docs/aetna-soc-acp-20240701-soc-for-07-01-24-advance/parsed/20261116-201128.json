@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEMSER",
       "change_text": "Moving to non-preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day",
       "change": "TIER_UP",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DIVIGEL",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "eluryng",
       "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days",
       "change": "ADDED",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "EMVERM",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "enilloring",
       "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days",
       "change": "ADDED",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "etonogestrel / ethinyl",
       "change_text": "Drug list addition (preferred generic); Quantity limits apply.",
       "change": "ADDED",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "estradiol",
       "change_text": "Covered up to 13 units every 300 days",
       "change": "OTHER",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "EXELON",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FABRAZYME",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FORTEO",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GALAFOLD",
       "change_text": "Moving to preferred specialty tier; Quantity limits removed",
       "change": "TIER_DOWN",
@@ -101,6 +112,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "haloette",
       "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days",
       "change": "ADDED",
@@ -110,6 +122,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "icosapent ethyl",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -119,6 +132,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "memantine hcl titration pak",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -128,6 +142,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "memantine hydrochloride",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -137,6 +152,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "memantine hydrochloride er",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -146,6 +162,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "metyrosine",
       "change_text": "Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day",
       "change": "TIER_DOWN",
@@ -155,6 +172,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NAMENDA",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -164,6 +182,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NAMENDA TITRATION PAK",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -173,6 +192,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NAMZARIC",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -182,6 +202,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NUVARING",
       "change_text": "Non-formulary; not covered. Generic version of drug covered",
       "change": "NOT_COVERED",
@@ -191,6 +212,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "RADICAVA ORS",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -200,6 +222,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "RADICAVA ORS STARTER KIT",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -209,6 +232,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "rivastigmine tartrate",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -218,6 +242,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "rivastigmine transdermal",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -227,6 +252,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "system tramadol hcl tab 100mg",
       "change_text": "Non-formulary; not covered. Covered options include: tramadol (except tramadol 100mg), tramadol ext-rel",
       "change": "NOT_COVERED",
@@ -236,6 +262,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TROKENDI XR",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -245,6 +272,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VASCEPA",
       "change_text": "Non-formulary; not covered. Generic version of drug covered",
       "change": "NOT_COVERED",
@@ -254,6 +282,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VERSACLOZ",
       "change_text": "Preauthorization removed",
       "change": "RESTRICTION",
@@ -263,6 +292,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VPRIV",
       "change_text": "Non-formulary; not covered. Covered options include: CERDELGA, CEREZYME",
       "change": "NOT_COVERED",
@@ -272,6 +302,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XALKORI CAP 150MG",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 180 caps every 30 days",
       "change": "ADDED",
@@ -281,6 +312,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XALKORI CAP 20MG",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
       "change": "ADDED",
@@ -290,6 +322,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XALKORI CAP 50MG",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
       "change": "ADDED",
@@ -299,6 +332,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XYOSTED",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -308,6 +342,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZORYVE",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",

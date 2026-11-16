@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics",
       "name": "orphenadrine-aspirin-caffeine",
       "alternatives": "orphenadrine citrate er",
@@ -10,6 +11,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics",
       "name": "NORGESIC",
       "alternatives": "orphenadrine citrate er",
@@ -18,6 +20,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics",
       "name": "NORGESIC FORTE",
       "alternatives": "orphenadrine citrate er",
@@ -26,6 +29,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Tricyclic Antidepressants",
       "name": "protriptyline1",
       "alternatives": "desipramine, nortriptyline",
@@ -34,6 +38,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
       "name": "fluvastatin, fluvastatin er",
       "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
@@ -42,6 +47,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
       "name": "ALTOPREV",
       "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
@@ -50,6 +56,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
       "name": "ATORVALIQ",
       "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
@@ -58,6 +65,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
       "name": "LESCOL XL",
       "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
@@ -66,6 +74,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
       "name": "BOMYNTRA",
       "alternatives": "BILPREVDA, XTRENBO",
@@ -74,6 +83,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
       "name": "OSENVELT",
       "alternatives": "BILPREVDA, XTRENBO",
@@ -82,6 +92,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
       "name": "WYOST",
       "alternatives": "BILPREVDA, XTRENBO",
@@ -90,6 +101,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
       "name": "XGEVA",
       "alternatives": "BILPREVDA, XTRENBO",
@@ -98,6 +110,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Primary Biliary Cholangitis Agents",
       "name": "LIVDELZI",
       "alternatives": "IQIRVO",
@@ -106,6 +119,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "ADALIMUMAB-AACF",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
@@ -114,6 +128,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "IDACIO ADALIMUMAB-AATY",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
@@ -122,6 +137,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "YUFLYMA ADALIMUMAB-BWWD ADALIMUMAB-FKJP",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
@@ -130,6 +146,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "HULIO ADALIMUMAB-RYVK (by Teva) ABRILADA AMJEVITA CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY ACTEMRA SC",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
@@ -138,6 +155,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "OTULFI SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -146,6 +164,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "PYZCHIVA SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -154,6 +173,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "STARJEMZA SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -162,6 +182,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "STELARA SC2",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -170,6 +191,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "STEQEYMA SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -178,6 +200,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "USTEKINUMAB SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -186,6 +209,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "USTEKINUMAB-AAUZ SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -194,6 +218,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "USTEKINUMAB- AEKN SC",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -202,6 +227,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "WEZLANA SC KINERET",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
@@ -210,6 +236,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "SILIQ",
       "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",

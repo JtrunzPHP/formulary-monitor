@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ACCU-CHEK SAFE-T-PRO",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -17,6 +18,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FULPHILA",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 2 syringes every 28 days",
       "change": "ADDED",
@@ -26,6 +28,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FYLNETRA",
       "change_text": "Non-formulary; not covered. Covered options include: FULPHILA",
       "change": "NOT_COVERED",
@@ -35,6 +38,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GLASSIA",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -44,6 +48,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HYRIMOZ (by Sandoz)",
       "change_text": "Non-formulary; not covered. Covered options include:Ankylosing Spondylitis: ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, AVSOLA, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), REMICADE IV, RINVOQ Crohn’s Disease: ADALIMUMAB-ADAZ, ADALIMUMAB- FKJP, AVSOLA, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis & Sandoz), REMICADE IV, RINVOQ, SKYRIZI SC, STELARA SC, TREMFYA SC, YESINTEK SC Hidradenitis Suppurativa: ADALIMUMAB-ADAZ, ADALIMUAMB-FKJP, COSENTYX SC, Hyrimoz (by Cordavis) Non-Radiographic Axial Spondyloarthritis: CIMZIA SC, COSENTYX SC, RINVOQ Psoriasis: ADALIMUMAB- ADAZ, ADALIMUMAB-FKJP, AVSOLA, BIMZELX, HYRIMOZ (by Cordavis), OTEZLA, PYZCHIVA SC (by Cordavis & Sandoz), REMICADE IV, SKYRIZI SC, SOTYKTU, STELARA SC, TREMFYA SC, YESINTEK SC Psoriatic Arthritis: ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, AVSOLA, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, PYZCHIVA SC (by Cordavis & Sandoz), REMICADE IV, RINVOQ, SKYRIZI SC, STELARA SC, TREMFYA SC, YESINTEK SC Rheumatoid Arthritis: ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, AVSOLA, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, REMICADE IV, RINVOQ, XELJANZ, XELJANZ XR Ulcerative Colitis: ADALIMUMAB- ADAZ, ADALIMUMAB-FKJP, AVSOLA, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis & Sandoz), REMICADE IV, RINVOQ, SKYRIZI SC, STELARA SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA All other conditions: ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis)",
       "change": "NOT_COVERED",
@@ -53,6 +58,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "icosapent ethyl",
       "change_text": "Non-formulary; not covered. Covered options include: VASCEPA",
       "change": "NOT_COVERED",
@@ -62,6 +68,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "IQIRVO",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
       "change": "ADDED",
@@ -71,6 +78,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ivermectin cream",
       "change_text": "Drug list addition (preferred generic); Preauthorization required",
       "change": "ADDED",
@@ -80,6 +88,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JATENZO",
       "change_text": "Non-formulary; not covered. Covered options include: testosterone gel (except authorized generics for TESTIM and VOGELXO), testosterone solution, NATESTO",
       "change": "NOT_COVERED",
@@ -89,6 +98,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LIBERVANT",
       "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 10 pouches every 25 days",
       "change": "ADDED",
@@ -98,6 +108,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "mifepristone 300 mg",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 tabs every 30 days",
       "change": "ADDED",
@@ -107,6 +118,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NYVEPRIA",
       "change_text": "Non-formulary; not covered. Covered options include: FULPHILA",
       "change": "NOT_COVERED",
@@ -116,6 +128,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OCALIVA",
       "change_text": "Non-formulary; not covered. Covered options include: IQIRVO",
       "change": "NOT_COVERED",
@@ -125,6 +138,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OCREVUS INJ 300 / 10ML",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 2 vials every 168 days",
       "change": "ADDED",
@@ -134,6 +148,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OCREVUS INJ ZUNOVO",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 vial every 168 days",
       "change": "ADDED",
@@ -143,6 +158,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ONETOUCH ULTRA",
       "change_text": "Non-formulary; not covered. Covered options include: ACCU-CHEK",
       "change": "NOT_COVERED",
@@ -158,6 +174,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "STRIPS, ONETOUCH",
       "change_text": "AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK",
       "change": "OTHER",
@@ -173,6 +190,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "VERIO STRIPS,",
       "change_text": "SMARTVIEW STRIPS, ACCU-CHEK LANCETS & LANCING DEVICES",
       "change": "OTHER",
@@ -182,6 +200,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ONETOUCH LANCETS & LANCING DEVICES OTREXUP",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 injections every 28 days",
       "change": "ADDED",
@@ -198,6 +217,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PROLASTIN-C",
       "change_text": "Non-formulary; not covered. Covered options include: ARALAST NP, GLASSIA, ZEMAIRA",
       "change": "NOT_COVERED",
@@ -207,6 +227,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PYZCHIVA INJ 45 / 0.5ML",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 84 days",
       "change": "ADDED",
@@ -216,6 +237,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PYZCHIVA INJ 90MG / ML",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 56 days",
       "change": "ADDED",
@@ -225,6 +247,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "RASUVO",
       "change_text": "Non-formulary; not covered. Covered options include: methotrexate, OTREXUP",
       "change": "NOT_COVERED",
@@ -234,6 +257,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SIMPONI ARIA",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -243,6 +267,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SOOLANTRA",
       "change_text": "Non-formulary; not covered. Generic version of drug covered",
       "change": "NOT_COVERED",
@@ -252,6 +277,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SYNAGIS",
       "change_text": "Non-formulary; not covered",
       "change": "NOT_COVERED",
@@ -261,6 +287,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TEZSPIRE",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 28 days",
       "change": "ADDED",
@@ -270,6 +297,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "tiopronin dr",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -279,6 +307,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VASCEPA",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -288,6 +317,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "venxxiva",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -297,6 +327,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "WILATE",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -306,6 +337,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XHANCE",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -315,6 +347,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XYOSTED",
       "change_text": "Non-formulary; not covered. Covered options include: testosterone gel (except authorized generics for TESTIM and VOGELXO), testosterone solution, NATESTO",
       "change": "NOT_COVERED",
@@ -324,6 +357,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YESINTEK INJ 45 / 0.5ML",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required;",
       "change": "ADDED",
@@ -333,6 +367,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SYRINGE",
       "change_text": "Quantity limits apply. Covered up to 1 syringe every 84 days",
       "change": "RESTRICTION",
@@ -342,6 +377,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YESINTEK INJ 45 / 0.5ML",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required;",
       "change": "ADDED",
@@ -351,6 +387,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VIAL",
       "change_text": "Quantity limits apply. Covered up to 1 vial every 84 days",
       "change": "RESTRICTION",
@@ -360,6 +397,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YESINTEK INJ 90MG / ML",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 56 days",
       "change": "ADDED",
@@ -369,6 +407,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZEMAIRA",
       "change_text": "Moving to preferred specialty tier; Preauthorization required",
       "change": "TIER_DOWN",
@@ -378,6 +417,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZEPBOUND",
       "change_text": "Non-formulary; not covered. Covered options include: orlistat, QSYMIA, SAXENDA, WEGOVY",
       "change": "NOT_COVERED",

@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ABILIFY ASIMTUFII",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ACTEMRA",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ALTUVIIIO",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ASMANEX HFA",
       "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 1 package every 25 days",
       "change": "ADDED",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BAFIERTAM",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
       "change": "ADDED",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BENEFIX",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "breyna",
       "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 3 packages every 25 days",
       "change": "ADDED",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BRIVIACT",
       "change_text": "Moving to preferred brand tier; Preauthorization removed",
       "change": "TIER_DOWN",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "budesonide / formoterol fumarate",
       "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 3",
       "change": "ADDED",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "dihydrate",
       "change_text": "packages every 25 days",
       "change": "OTHER",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "CHORIONIC GONADOTROPIN",
       "change_text": "Non-formulary; not covered. Covered options include: PREGNYL",
       "change": "NOT_COVERED",
@@ -101,6 +112,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "(NDC 63323003011 only) DAXXIFY",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -110,6 +122,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DULERA",
       "change_text": "Non-formulary; not covered. Covered options include: budesonide- formoterol, fluticasone-salmeterol (except certain NDCs), Breyna, Wixela Inhub, BREO ELLIPTA (except certain NDCs)",
       "change": "NOT_COVERED",
@@ -119,6 +132,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DYSPORT",
       "change_text": "Non-formulary; not covered. Covered options include: DAXXIFY, XEOMIN",
       "change": "NOT_COVERED",
@@ -128,6 +142,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ELFABRIO",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -137,6 +152,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "EMTRIVA",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -146,6 +162,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FLOVENT HFA",
       "change_text": "Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER",
       "change": "NOT_COVERED",
@@ -155,6 +172,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "fluticasone propionate hf",
       "change_text": "Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER",
       "change": "NOT_COVERED",
@@ -164,6 +182,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FUZEON",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -173,6 +192,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "INSULIN GLARGINE-YFGN",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -186,6 +206,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JANUMET",
       "change_text": "Non-formulary; not covered. Covered options include: ZITUVIMET, ZITUVIMET XR",
       "change": "NOT_COVERED",
@@ -195,6 +216,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JANUMET XR",
       "change_text": "Non-formulary; not covered. Covered options include: ZITUVIMET, ZITUVIMET XR",
       "change": "NOT_COVERED",
@@ -204,6 +226,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JANUVIA",
       "change_text": "Non-formulary; not covered. Covered options include: ZITUVIO",
       "change": "NOT_COVERED",
@@ -213,6 +236,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LEUKERAN",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -222,6 +246,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LITFULO",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -231,6 +256,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LORBRENA TAB 100MG",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
       "change": "ADDED",
@@ -240,6 +266,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LORBRENA TAB 25MG",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 90 tabs every 30 days",
       "change": "ADDED",
@@ -249,6 +276,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LUMIZYME",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -258,6 +286,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LUPRON DEPOT-PED (6-MONTH)",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -267,6 +296,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LYSODREN",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -276,6 +306,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MATULANE",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -285,6 +316,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MULPLETA",
       "change_text": "Non-formulary; not covered. Covered options include: DOPTELET",
       "change": "NOT_COVERED",
@@ -294,6 +326,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MYLERAN",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -303,6 +336,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NOVAREL",
       "change_text": "Drug list addition (non-preferred)",
       "change": "ADDED",
@@ -312,6 +346,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OMNIPOD GO 20 UNITS / DAY",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
       "change": "NOT_COVERED",
@@ -327,6 +362,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OMNIPOD GO 30 UNITS / DAY",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
       "change": "NOT_COVERED",
@@ -342,6 +378,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OMNIPOD GO 40 UNITS / DAY",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
       "change": "NOT_COVERED",
@@ -357,6 +394,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OVIDREL",
       "change_text": "Non-formulary; not covered. Covered options include: PREGNYL",
       "change": "NOT_COVERED",
@@ -366,6 +404,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PREGNYL",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -375,6 +414,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PROMACTA",
       "change_text": "Non-formulary; not covered. Covered options include: ALVAIZ, DOPTELET",
       "change": "NOT_COVERED",
@@ -384,6 +424,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "QVAR REDIHALER",
       "change_text": "Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER",
       "change": "NOT_COVERED",
@@ -393,6 +434,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SEMGLEE",
       "change_text": "Non-formulary; not covered. Covered options include: INSULIN GLARGINE-YFGN",
       "change": "NOT_COVERED",
@@ -406,6 +448,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SITAGLIPTIN",
       "change_text": "Non-formulary; not covered",
       "change": "NOT_COVERED",
@@ -415,6 +458,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SOLIRIS",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -424,6 +468,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SPIRIVA HANDIHALER",
       "change_text": "Covered at preferred generic cost share",
       "change": "OTHER",
@@ -433,6 +478,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TABLOID",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -442,6 +488,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TALTZ",
       "change_text": "Non-formulary; not covered. Covered options include: For Psoriasis: ADALIMUMAB-ADAZ, BIMZELX, HYRIMOZ, OTEZLA, SKYRIZI SUBCUTANEOUS, SOTYKTU, STELARA SUBCUTANEOUS, TREMFYA",
       "change": "NOT_COVERED",
@@ -451,6 +498,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TAVALISSE",
       "change_text": "Non-formulary; not covered. Covered options include: ALVAIZ, DOPTELET",
       "change": "NOT_COVERED",
@@ -460,6 +508,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "tiotropium bromide",
       "change_text": "Non-formulary; not covered. Brand name version of drug covered at preferred generic cost share",
       "change": "NOT_COVERED",
@@ -469,6 +518,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TOFIDENCE",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -478,6 +528,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TREXALL",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -487,6 +538,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRIPTODUR",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -496,6 +548,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "true folic acid",
       "change_text": "Non-formulary; not covered. Covered options include: folic acid 400",
       "change": "NOT_COVERED",
@@ -505,6 +558,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "(ndc 83035182401 only)",
       "change_text": "mcg (except certain NDCs)",
       "change": "OTHER",
@@ -514,6 +568,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRUXIMA",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -523,6 +578,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TWIIST REFILL KIT / INFUSION",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -532,6 +588,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "(NDC 98617090100 only) TWIIST REFILL KIT",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -541,6 +598,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "(NDC 98617090400 only) TYENNE",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -550,6 +608,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "V-GO 20",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
       "change": "NOT_COVERED",
@@ -559,6 +618,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "V-GO 30",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
       "change": "NOT_COVERED",
@@ -568,6 +628,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "V-GO 40",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
       "change": "NOT_COVERED",
@@ -577,6 +638,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VICTOZA",
       "change_text": "Non-formulary; not covered. Covered options include: liraglutide, MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
       "change": "NOT_COVERED",
@@ -592,6 +654,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZITUVIMET",
       "change_text": "Drug list addition (preferred); Step therapy required",
       "change": "ADDED",
@@ -601,6 +664,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZITUVIMET XR",
       "change_text": "Drug list addition (preferred); Step therapy required",
       "change": "ADDED",
@@ -610,6 +674,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZITUVIO",
       "change_text": "Drug list addition (preferred); Step therapy required",
       "change": "ADDED",
@@ -619,6 +684,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZOLINZA",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -628,6 +694,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "zomig",
       "change_text": "Non-formulary; not covered",
       "change": "NOT_COVERED",

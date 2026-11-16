@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BELSOMRA",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VYVANSE",
       "change_text": "Non-formulary; not covered. Covered options include: amphetamine-dextroamphetamine mixed salts ext-rel, dexmethylphenidate ext-rel, dextroamphetamine ext-rel, lisdexamfetamine, methylphenidate ext-rel, Azstarys",
       "change": "NOT_COVERED",

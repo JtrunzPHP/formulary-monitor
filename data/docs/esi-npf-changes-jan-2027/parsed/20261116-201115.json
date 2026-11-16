@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
       "name": "zolmitriptan 5mg nasal",
       "alternatives": "sumatriptan nasal",
@@ -10,6 +11,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
       "name": "ONZETRA XSAIL",
       "alternatives": "sumatriptan nasal",
@@ -18,6 +20,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
       "name": "ZOLMITRIPTAN 2.5MG NASAL",
       "alternatives": "sumatriptan nasal",
@@ -26,6 +29,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
       "name": "ZOMIG NASAL",
       "alternatives": "sumatriptan nasal",
@@ -34,6 +38,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "HEMANGEOL diltiazem er tablets",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -42,6 +47,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "CARDIZEM LA nisoldipine",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -50,6 +56,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "SULAR verapamil er pm (100 mg",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -58,6 +65,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "200mg",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -66,6 +74,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "300mg) fenofibrate capsules (130mg), fenofibrate tablets (40mg",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -74,6 +83,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "120mg)",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -82,6 +92,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "FENOFIBRATE CAPSULES (50MG",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -90,6 +101,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "150MG)",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -98,6 +110,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "LIPOFEN fluvastatin, fluvastatin er",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -106,6 +119,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "ALTOPREV",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -114,6 +128,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "ATORVALIQ",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -122,6 +137,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "LESCOL XL",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -130,6 +146,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
       "name": "ZYPITAMAG MYQORZO",
       "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
@@ -138,6 +155,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "WINREVAIR ZTLIDO metformin 625mg",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -146,6 +164,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "750mg tablets; METFORMIN 625MG TABLETS U-100: ADMELOG",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -158,6 +177,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "APIDRA",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -166,6 +186,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "FIASP",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -178,6 +199,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "HUMALOG VIAL",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -190,6 +212,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "INSULIN ASPART",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -202,6 +225,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "KIRSTY",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -210,6 +234,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "LYUMJEV",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -222,6 +247,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "NOVOLOG",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -234,6 +260,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "RELION NOVOLOG U-200: LYUMJEV Inhalation: AFREZZA sucralfate suspension",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -246,6 +273,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents",
       "name": "CARAFATE",
       "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets U-100: HUMALOG (CARTRIDGE, KWIKPEN, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG U-200: HUMALOG KWIKPEN sucralfate tablets",
@@ -254,6 +282,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "All trademarks are the property of their respective",
       "name": "owners",
       "alternatives": "",
@@ -262,6 +291,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "GLOPERBA BRUKINSA",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -270,6 +300,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "JAYPIRCA BYOOVIZ",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -278,6 +309,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "LUCENTIS BYQLOVI",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -286,6 +318,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "CLOBETASOL DROPS",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -294,6 +327,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "FLAREX",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -302,6 +336,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "FML FORTE",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -310,6 +345,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "LOTEMAX OINTMENT",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -318,6 +354,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "LOTEMAX SM",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -326,6 +363,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "MAXIDEX",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -334,6 +372,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "PRED MILD ACUVAIL",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -342,6 +381,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "ILEVRO",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -350,6 +390,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
       "name": "NEVANAC",
       "alternatives": "colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions. CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
@@ -358,6 +399,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "MISCELLANEOUS AGENTS Cardiomyopathy & Polyneuropathy of Hereditary Transthyretin-Mediated Amyloidosis",
       "name": "AMVUTTRA ATTRUBY",
       "alternatives": "HTTR-C: VYNDAMAX Coverage may be approved for treatment of Polyneuropathy of Hereditary Transthyretin-Mediated Amyloidosis (hATTR) under certain conditions. VYNDAMAX",
@@ -366,6 +408,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Hypoactive Sexual Desire Disorder Agents",
       "name": "ADDYI",
       "alternatives": "VYLESSI",
@@ -374,6 +417,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "GAMMAKED",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -382,6 +426,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "GAMMAPLEX",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -390,6 +435,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "PANZYGA",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -398,6 +444,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "QIVIGY",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -406,6 +453,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "YIMMUGO OTULFI IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -414,6 +462,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "PYZCHIVA IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -422,6 +471,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "SELARSDI IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -430,6 +480,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "STARJEMZA IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -438,6 +489,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "STELARA IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -446,6 +498,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "STEQEYMA IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -454,6 +507,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "USTEKINUMAB IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -462,6 +516,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
       "name": "WEZLANA IV",
       "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
@@ -470,6 +525,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "ADALIMUMAB-AACF",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
@@ -478,6 +534,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "IDACIO ADALIMUMAB-AATY",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
@@ -486,6 +543,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "YUFLYMA ADALIMUMAB-BWW ADADALIMUMAB-FKJP",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
@@ -494,6 +552,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "HULIO ADALIMUMAB-RYVK (by Teva) ABRILADA AMJEVITA CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY ACTEMRA SC",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
@@ -502,6 +561,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
       "name": "AVTOZMA SC",
       "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
@@ -510,6 +570,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "All trademarks are the property of their respective",
       "name": "owners",
       "alternatives": "",
@@ -518,6 +579,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "OTULFI SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -526,6 +588,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "PYZCHIVA SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -534,6 +597,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "SELARSDI SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -542,6 +606,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "STARJEMZA SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -550,6 +615,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "STELARA SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -558,6 +624,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "STEQEYMA SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -566,6 +633,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "USTEKINUMAB SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -574,6 +642,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "USTEKINUMAB-AAUZ SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -582,6 +651,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "USTEKINUMAB-AEKN SC",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -590,6 +660,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "WEZLANA SC KINERET",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -598,6 +669,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
       "name": "SILIQ",
       "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
@@ -606,6 +678,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "DRUG CLASS",
       "name": "OTHER MEDICATIONS",
       "alternatives": "PREFERRED ALTERNATIVES",
@@ -614,6 +687,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Inflammatory Conditions‡",
       "name": "All other Brand Name medications for Inflammatory Conditions may require a trial of one or more Preferred medications as part of the Formulary exceptions process.",
       "alternatives": "Preferred: ADALIMUMAB-ADAZ, ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent), COSENTYX SC, ENBREL, ICOTYDE, IMULDOSA SC, OMVOH SC, OTEZLA, OTEZLA XR, RINVOQ ER, RINVOQ LQ, SIMLANDI, SKYRIZI SC, SOTYKTU, TALTZ, TREMFYA SC, tofacitinib, tofacitinib er, USTEKINUMAB-TTWE SC (by Quallent), VELSIPITY, YESINTEK SC, ZYMFENTRA Preferred for Non-Radiographic Axial Spondyloarthritis (nr-axSpA) only: CIMZIA, COSENTYX SC, TALTZ **Preferred after use of one Preferred Medication: CIMZIA(for Crohn’s Disease only), SIMPONI 100MG, TYENNE SC",
@@ -622,6 +696,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Multi-source brand exclusions The generic equivalents of the following FDA-approved generic medications meet corresponding brand-name medications,",
       "name": "brand-name medications are covered on strict standards and contain the same although they may have a different appearance.",
       "alternatives": "the National Preferred Formulary active ingredients as their",
@@ -630,6 +705,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for 01/01/2027 ‡ Please note that PDL and product placement for Value (IACCV) Program are subject to change throughout biosimilar and new product launches.",
       "name": "treatment of Inflammatory and Atopic Conditions in the year based upon changes in market dynamics,",
       "alternatives": "the Inflammatory and Atopic Conditions Care new indications for existing products,",
@@ -638,6 +714,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "All trademarks are the property of their respective",
       "name": "owners",
       "alternatives": "",

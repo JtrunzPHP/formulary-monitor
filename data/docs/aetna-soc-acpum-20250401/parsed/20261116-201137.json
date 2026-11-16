@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ADALIMUMAB-FKJP AUTO-INJECTOR",
       "change_text": "Drug list addition (preferred specialty);",
       "change": "ADDED",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "KIT 40 MG / 0.8ML",
       "change_text": "Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days",
       "change": "RESTRICTION",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ADALIMUMAB-FKJP PREFILLED",
       "change_text": "Drug list addition (preferred specialty);",
       "change": "ADDED",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SYRINGE KIT 20 MG / 0.4ML",
       "change_text": "Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days",
       "change": "RESTRICTION",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ADALIMUMAB-FKJP PREFILLED",
       "change_text": "Drug list addition (preferred specialty);",
       "change": "ADDED",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SYRINGE KIT 40 MG / 0.8ML",
       "change_text": "Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days",
       "change": "RESTRICTION",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "budesonide",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "CORLANOR",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "COTELLIC",
       "change_text": "Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI",
       "change": "NOT_COVERED",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "dabigatran cap 110mg (except NDC",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "dabigatran cap 150mg (NDC",
       "change_text": "Non-formulary; not covered. Covered options",
       "change": "NOT_COVERED",
@@ -101,6 +112,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZELBORAF",
       "change_text": "Non-formulary; not covered. Covered options include: BRAFTOVI, TAFINLAR",
       "change": "NOT_COVERED",

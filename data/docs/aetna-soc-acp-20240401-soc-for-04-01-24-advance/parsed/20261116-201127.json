@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ADIPEX-P",
       "change_text": "Quantity limits apply. Covered up to 30 units every 25 days",
       "change": "RESTRICTION",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "albuterol sulfate hfa (NDC* 00093317431 only)",
       "change_text": "Non-formulary drug (Other NDCs covered)",
       "change": "NOT_COVERED",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "benzphetamine hcl",
       "change_text": "Quantity limits apply. Covered up to 90 tabs every 25 days",
       "change": "RESTRICTION",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BIDIL",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "diethylprop tab 25mg",
       "change_text": "Quantity limits apply. Covered up to 90 tabs every 25 days",
       "change": "RESTRICTION",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "diethylprop tab 75mg er",
       "change_text": "Quantity limits apply. Covered up to 30 tabs every 25 days",
       "change": "RESTRICTION",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "EVAMIST",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FENSOLVI",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HUMIRA",
       "change_text": "Non-formulary; not covered.",
       "change": "NOT_COVERED",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HUMIRA PEDIATRIC CROHNS DISEASE STARTER PACK",
       "change_text": "Covered options include: For Ankylosing Spondylitis: Adalimumab-ADAZ, Cosentyx,",
       "change": "OTHER",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "HUMIRA PEN",
       "change_text": "Enbrel, Hyrimoz, Rinvoq",
       "change": "OTHER",
@@ -101,6 +112,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "HUMIRA PEN-CD / UC / HS STARTER HUMIRA PEN-PEDIATRIC UC STARTER PAC",
       "change_text": "For Crohn’s Disease: Adalimumab-ADAZ, Hyrimoz, Skyrizi",
       "change": "OTHER",
@@ -110,6 +122,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "HUMIRA PEN PS / UV STARTER",
       "change_text": "subcutaneous, Stelara subcutaneous, Rinvoq For Psoriasis: Adalimumab-ADAZ, Hyrimoz, Otezla, Skyrizi subcutaneous, Sotyktu, Stelara subcutaneous, Taltz, Tremfya For Psoriatic Arthritis: Adalimumab-ADAZ, Cosentyx, Enbrel, Hyrimoz, Otezla, Rinvoq, Skyrizi subcutaneous, Stelara subcutaneous, Tremfya For Rheumatoid Arthritis: Adalimumab-ADAZ, Enbrel, Hyrimoz, Kevzara, Orencia Clickject, Orencia subcutaneous, Rinvoq, Xeljanz, Xeljanz XR For Ulcerative Colitis: Adalimumab-ADAZ, Hyrimoz, Rinvoq, Stelara subcutaneous, Xeljanz, Xeljanz XR, Zeposia For All Other Conditions: Adalimumab-ADAZ, Enbrel, Hyrimoz",
       "change": "OTHER",
@@ -119,6 +132,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "IMBRUVICA",
       "change_text": "Non-formulary; not covered. Covered options include: Brukinsa, Calquence",
       "change": "NOT_COVERED",
@@ -128,6 +142,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "orlistat",
       "change_text": "Quantity limits apply. Covered up to 90 caps every 25 days",
       "change": "RESTRICTION",
@@ -137,6 +152,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "phendimetrazine tartrate",
       "change_text": "Quantity limits apply. Covered up to 180 tabs every 25 days",
       "change": "RESTRICTION",
@@ -146,6 +162,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "phentermine cap 15mg",
       "change_text": "Quantity limits apply. Covered up to 60 caps every 25 days",
       "change": "RESTRICTION",
@@ -155,6 +172,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "phentermine cap 30mg",
       "change_text": "Quantity limits apply. Covered up to 30 caps every 25 days",
       "change": "RESTRICTION",
@@ -164,6 +182,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "phentermine cap 37.5mg",
       "change_text": "Quantity limits apply. Covered up to 30 units every 25 days",
       "change": "RESTRICTION",
@@ -173,6 +192,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "phentermine tab 37.5mg",
       "change_text": "Quantity limits apply. Covered up to 30 units every 25 days",
       "change": "RESTRICTION",
@@ -182,6 +202,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PYLERA",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -191,6 +212,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "QSYMIA",
       "change_text": "Preauthorization required; Quantity limits apply. Covered up to 30 caps every 25 days",
       "change": "RESTRICTION",
@@ -200,6 +222,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SAXENDA",
       "change_text": "Quantity limits apply. Covered up to 5 pens every 25 days",
       "change": "RESTRICTION",
@@ -215,6 +238,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SUNLENCA",
       "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
       "change": "NOT_COVERED",
@@ -224,6 +248,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VELPHORO",
       "change_text": "Non-formulary; not covered. Covered options include: calcium acetate, sevelamer carbonate, sevelamer hydrochloride, Auryxia",
       "change": "NOT_COVERED",
@@ -233,6 +258,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "WEGOVY",
       "change_text": "Quantity limits apply. Covered up to 4 pens every 21 days",
       "change": "RESTRICTION",

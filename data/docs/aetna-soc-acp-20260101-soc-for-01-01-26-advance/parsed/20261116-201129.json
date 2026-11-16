@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ADBRY",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ALPROLIX",
       "change_text": "Non-formulary; not covered. Covered options include: BENEFIX, REBINYN",
       "change": "NOT_COVERED",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "APTIOM",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUSTEDO XR",
       "change_text": "Non-formulary; not covered. Covered options include: tetrabenazine, AUSTEDO, INGREZZA",
       "change": "NOT_COVERED",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUSTEDO XR PATIENT TITRATION KIT",
       "change_text": "Non-formulary; not covered. Covered options include: tetrabenazine, AUSTEDO, INGREZZA",
       "change": "NOT_COVERED",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT 30 INFUSION",
       "change_text": "Non-formulary; not covered. Covered options include:",
       "change": "NOT_COVERED",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "SET/23\"/13MM",
       "change_text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "OTHER",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT 30 INFUSION",
       "change_text": "Non-formulary; not covered. Covered options include:",
       "change": "NOT_COVERED",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "SET/43\"/13MM",
       "change_text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "OTHER",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT 90 INFUSION SET/23\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT 90 INFUSION SET/23\"/9MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -101,6 +112,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT 90 INFUSION SET/43\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -110,6 +122,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT 90 INFUSION SET/43\"/9MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -119,6 +132,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT XC INFUSION SET/23\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -128,6 +142,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT XC INFUSION SET/23\"/9MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -137,6 +152,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT XC INFUSION SET/32\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -146,6 +162,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT XC INFUSION SET/43\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -155,6 +172,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUTOSOFT XC INFUSION SET/43\"/9MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -164,6 +182,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "CIMERLI",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -173,6 +192,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "colchicine 0.6 mg",
       "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 60 caps every 25 days",
       "change": "ADDED",
@@ -182,6 +202,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "COPIKTRA",
       "change_text": "Non-formulary; not covered. Covered options include: BRUKINSA, CALQUENCE",
       "change": "NOT_COVERED",
@@ -191,6 +212,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DYSPORT",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -200,6 +222,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ENTRESTO",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -209,6 +232,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ENTYVIO",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 vial every 56 days",
       "change": "ADDED",
@@ -218,6 +242,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ENTYVIO PEN",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 2 pens every 28 days",
       "change": "ADDED",
@@ -227,6 +252,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FILSPARI TAB 200MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 60 tabs every 30 days",
       "change": "ADDED",
@@ -236,6 +262,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FILSPARI TAB 400MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
       "change": "ADDED",
@@ -245,6 +272,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FYCOMPA",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -254,6 +282,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "IBTROZI",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -263,6 +292,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JAKAFI",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -272,6 +302,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MENOPUR",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -281,6 +312,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MITIGARE",
       "change_text": "Non-formulary; not covered. Generic version of drug covered",
       "change": "NOT_COVERED",
@@ -290,6 +322,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MOBI 2ML CARTRIDGE",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -305,6 +338,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ODACTRA",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -314,6 +348,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OLUMIANT",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
       "change": "ADDED",
@@ -323,6 +358,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ONZETRA XSAIL",
       "change_text": "Non-formulary; not covered. Covered options include: naratriptan, rizatriptan, sumatriptan, zolmitriptan, NURTEC ODT, TOSYMRA, UBRELVY",
       "change": "NOT_COVERED",
@@ -332,6 +368,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ORTHOVISC",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -341,6 +378,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OSENVELT",
       "change_text": "Drug list addition: Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 1 vial every 28 days",
       "change": "ADDED",
@@ -350,6 +388,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OTREXUP",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -359,6 +398,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "REVLIMID",
       "change_text": "Non-formulary; not covered. Covered options include: lenalidomide",
       "change": "NOT_COVERED",
@@ -368,6 +408,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SUPARTZ FX",
       "change_text": "Non-formulary; not covered. Covered options include: DUROLANE, EUFLEXXA, GELSYN-3, ORTHOVISC",
       "change": "NOT_COVERED",
@@ -377,6 +418,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "T:FLEX T:LOCK INSULIN CARTRIDGE",
       "change_text": "Non-formulary; not covered. Covered options include:",
       "change": "NOT_COVERED",
@@ -390,6 +432,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": true,
       "name": "4.8ML",
       "change_text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "OTHER",
@@ -399,6 +442,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "T:SLIM X2 3 ML CARTRIDGE",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -414,6 +458,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "T:SLIM X2 3ML CARTRIDGE",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -429,6 +474,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TACLONEX",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -438,6 +484,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TANDEM T:SLIM ASFT 30 PK10 23\"",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -453,6 +500,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TANDEM T:SLIM ASFT 30 PK14 23\"",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -468,6 +516,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TANDEM T:SLIM ASFT XC PK10 23\"",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -483,6 +532,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TANDEM T:SLIM ASFT XC PK14 23\"",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -498,6 +548,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TANDEM T:SLIM TRUSTL PK10 23\"",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -513,6 +564,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TEGSEDI",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -522,6 +574,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TOSYMRA",
       "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 18 units every 25 days",
       "change": "ADDED",
@@ -531,6 +584,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRUSTEEL INFUSION SET/23\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -540,6 +594,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRUSTEEL INFUSION SET/23\"/8MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -549,6 +604,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRUSTEEL INFUSION SET/32\"/6MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -558,6 +614,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRUSTEEL INFUSION SET/32\"/8MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -567,6 +624,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TURALIO",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
       "change": "ADDED",
@@ -576,6 +634,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VANRAFIA",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
       "change": "ADDED",
@@ -585,6 +644,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VARISOFT INFUSION SET/23\"/13MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -594,6 +654,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VARISOFT INFUSION SET/23\"/17MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -603,6 +664,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VARISOFT INFUSION SET/32\"/13MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -612,6 +674,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VARISOFT INFUSION SET/43\"/17MM",
       "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES",
       "change": "NOT_COVERED",
@@ -621,6 +684,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VEMLIDY",
       "change_text": "Non-formulary; not covered. Covered options include: entecavir, lamivudine, tenofovir disoproxil fumarate",
       "change": "NOT_COVERED",
@@ -630,6 +694,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VEVYE",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -639,6 +704,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VYNDAMAX",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -648,6 +714,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XDEMVY",
       "change_text": "Preauthorization required; Quantity limits apply. Covered up to 10ml every 6 weeks",
       "change": "RESTRICTION",
@@ -657,6 +724,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XEMBIFY",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -666,6 +734,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XGEVA",
       "change_text": "Non-formulary; not covered. Covered options include: pamidronate 30 mg/10 mL and 90 mg/10 mL, zoledronic acid 4mg/5mL, OSENVELT",
       "change": "NOT_COVERED",
@@ -675,6 +744,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XIIDRA",
       "change_text": "Non-formulary; not covered. Covered options include: RESTASIS, VEVYE",
       "change": "NOT_COVERED",
@@ -684,6 +754,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YUTREPIA",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 140 capsules every 28 days",
       "change": "ADDED",
@@ -693,6 +764,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZYDELIG",
       "change_text": "Non-formulary; not covered. Covered options include: BRUKINSA, CALQUENCE",
       "change": "NOT_COVERED",

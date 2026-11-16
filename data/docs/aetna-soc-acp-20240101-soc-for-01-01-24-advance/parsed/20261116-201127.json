@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ACCU-CHEK FASTCLIX LANCETDEVICE",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -18,6 +19,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "KIT (NDC* 65702048110 only) ACCU-CHEK FASTCLIX LANCETS",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -34,6 +36,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "(NDC* 65702028810 only) ACCU-CHEK SAFE-T-PRO LANCETS",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -50,6 +53,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "(NDC* 50924095120 only) ACCU-CHEK SOFTCLIX (NDC*",
       "change_text": "Moving to preferred brand tier",
       "change": "TIER_DOWN",
@@ -65,6 +69,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BASAGLAR KWIKPEN",
       "change_text": "Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar",
       "change": "NOT_COVERED",
@@ -78,6 +83,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BASAGLAR TEMPO PEN",
       "change_text": "Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar",
       "change": "NOT_COVERED",
@@ -91,6 +97,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BESREMI",
       "change_text": "Drug list addition (preferred specialty)",
       "change": "ADDED",
@@ -100,6 +107,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BYOOVIZ",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -109,6 +117,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "CETROTIDE",
       "change_text": "Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)",
       "change": "NOT_COVERED",
@@ -118,6 +127,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "CIMERLI",
       "change_text": "Moving to preferred specialty tier; Preauthorization required",
       "change": "TIER_DOWN",
@@ -127,6 +137,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "COPAXONE",
       "change_text": "Non-formulary; not covered. Covered options include: glatiramer, Copaxone 40 mg,dimethyl fumarate DR, fingolimod, teriflunomide, Avonex, Betaseron, Kesimpta, Mayzent, Rebif, Tysabri, Vumerity, Zeposia",
       "change": "NOT_COVERED",
@@ -136,6 +147,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DULERA",
       "change_text": "Drug list addition (non-preferred); Quantity limits apply. Covered up to 1 package every 25 days",
       "change": "ADDED",
@@ -145,6 +157,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DYSPORT",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -154,6 +167,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "EDURANT",
       "change_text": "Non-formulary; not covered. Covered options include: etravirine",
       "change": "NOT_COVERED",
@@ -163,6 +177,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "epinephrine auto injectors (NDC*",
       "change_text": "Non-formulary drug (Other NDCs covered)",
       "change": "NOT_COVERED",
@@ -172,6 +187,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "fluticasone propionate / salmeterol",
       "change_text": "Non-formulary drug (Other NDCs covered)",
       "change": "NOT_COVERED",
@@ -181,6 +197,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "diskus (NDC* 66993058497 only) fluticasone propionate / salmeterol",
       "change_text": "Non-formulary drug (Other NDCs covered)",
       "change": "NOT_COVERED",
@@ -190,6 +207,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "diskus (NDC* 66993058597 only) fluticasone propionate / salmeterol",
       "change_text": "Non-formulary drug (Other NDCs covered)",
       "change": "NOT_COVERED",
@@ -199,6 +217,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "diskus (NDC* 66993058697 only) FOLLISTIM AQ",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -208,6 +227,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "fyremadel",
       "change_text": "Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)",
       "change": "NOT_COVERED",
@@ -217,6 +237,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GAMMAGARD LIQUID",
       "change_text": "Preauthorization required",
       "change": "RESTRICTION",
@@ -226,6 +247,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GAMMAKED",
       "change_text": "Preauthorization required",
       "change": "RESTRICTION",
@@ -235,6 +257,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GAMUNEX-C",
       "change_text": "Preauthorization required",
       "change": "RESTRICTION",
@@ -244,6 +267,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GANIRELIX ACETATE",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -253,6 +277,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ganirelix acetate generic",
       "change_text": "Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)",
       "change": "NOT_COVERED",
@@ -262,6 +287,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GENOTROPIN",
       "change_text": "Non-formulary; not covered. Covered options include: Humatrope, Norditropin",
       "change": "NOT_COVERED",
@@ -271,6 +297,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GENOTROPIN MINIQUICK",
       "change_text": "Non-formulary; not covered. Covered options include: Humatrope, Norditropin",
       "change": "NOT_COVERED",
@@ -280,6 +307,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GONAL-F",
       "change_text": "Non-formulary; not covered. Covered options include: Follistim AQ",
       "change": "NOT_COVERED",
@@ -289,6 +317,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GONAL-F RFF",
       "change_text": "Non-formulary; not covered. Covered options include: Follistim AQ",
       "change": "NOT_COVERED",
@@ -298,6 +327,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GONAL-F RFF REDIJECT",
       "change_text": "Non-formulary; not covered. Covered options include: Follistim AQ",
       "change": "NOT_COVERED",
@@ -307,6 +337,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HUMATROPE",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -316,6 +347,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ILARIS",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -325,6 +357,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "INTELENCE",
       "change_text": "Non-formulary; not covered. Covered options include: etravirine",
       "change": "NOT_COVERED",
@@ -334,6 +367,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "IRESSA",
       "change_text": "Non-formulary; not covered. Covered options include: gefitinib, erlotinib",
       "change": "NOT_COVERED",
@@ -343,6 +377,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "isotretinoin cap 25mg",
       "change_text": "Non-formulary; not covered. Covered options include: isotretinoin 20mg, 30mg, 40mg",
       "change": "NOT_COVERED",
@@ -352,6 +387,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "isotretinoin cap 35mg",
       "change_text": "Non-formulary; not covered. Covered options include: isotretinoin 20mg, 30mg, 40mg",
       "change": "NOT_COVERED",
@@ -361,6 +397,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JANUMET",
       "change_text": "Drug list addition (preferred); Step therapy required",
       "change": "ADDED",
@@ -370,6 +407,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JANUMET XR",
       "change_text": "Drug list addition (preferred); Step therapy required",
       "change": "ADDED",
@@ -379,6 +417,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JANUVIA",
       "change_text": "Drug list addition (preferred); Step therapy required",
       "change": "ADDED",
@@ -388,6 +427,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JENTADUETO",
       "change_text": "Non-formulary; not covered. Covered options include: Janumet, Janumet XR",
       "change": "NOT_COVERED",
@@ -397,6 +437,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "JENTADUETO XR",
       "change_text": "Non-formulary; not covered. Covered options include: Janumet, Janumet XR",
       "change": "NOT_COVERED",
@@ -406,6 +447,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "KALETRA",
       "change_text": "Non-formulary; not covered. Covered options include: atazanvir, darunavir, lopinavir-ritonavir",
       "change": "NOT_COVERED",
@@ -415,6 +457,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "KRAZATI",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -424,6 +467,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LANTUS (NDC* 00088222033 only)",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -437,6 +481,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LANTUS SOLOSTAR (NDC*",
       "change_text": "Drug list addition (preferred)",
       "change": "ADDED",
@@ -450,6 +495,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "REYATAZ",
       "change_text": "Non-formulary; not covered. Covered options include: atazanavir, darunavir",
       "change": "NOT_COVERED",
@@ -459,6 +505,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SYMBICORT",
       "change_text": "Non-formulary; not covered. Covered options include: fluticasone propionate/salmeterol (except certain NDCs), Wixela Inhub, Breo Ellipta",
       "change": "NOT_COVERED",
@@ -468,6 +515,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TADLIQ",
       "change_text": "Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 300mL every 30 days",
       "change": "TIER_DOWN",
@@ -477,6 +525,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRADJENTA",
       "change_text": "Non-formulary; not covered. Covered options include: Januvia",
       "change": "NOT_COVERED",
@@ -486,6 +535,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "tretinoin microsphere",
       "change_text": "Non-formulary; not covered. Covered options include: adapalene 0.1% gel, adapalene-benzoyl peroxide, benzoyl peroxide-erythromycin, clindamycin 1% swab, clindamycin- benzoyl peroxide 1.2%/2.5%, dapsone, ery pad, erythromycin, sulfacetamide, tretinoin cream, tretinoin 0.01% and 0.025% gel, tretinoin microsphere gel, Aklief, Differin 1% gel, Epiduo, Epiduo Forte, Onexton, Twyneo, Winlevi",
       "change": "NOT_COVERED",
@@ -495,6 +545,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRIPTODUR",
       "change_text": "Non-formulary; not covered. Covered options include: Fensolvi, LUPRON DEPOT PED",
       "change": "NOT_COVERED",
@@ -504,6 +555,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "WELLBUTRIN XL",
       "change_text": "Non-formulary; not covered. Covered options include: bupropion, bupropion ER (except 450 mg tab)",
       "change": "NOT_COVERED",
@@ -513,6 +565,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "wixela inhub",
       "change_text": "Quantity limits apply. Covered up to 1 package every 25 days",
       "change": "RESTRICTION",
@@ -522,6 +575,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XEMBIFY",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required",
       "change": "ADDED",
@@ -531,6 +585,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XEOMIN",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -540,6 +595,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XTAMPZA ER",
       "change_text": "Non-formulary; not covered. Covered options include: fentanyl transdermal, methadone (except oral concentrate), morphine ER, oxycodone ER",
       "change": "NOT_COVERED",
@@ -549,6 +605,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "XYREM",
       "change_text": "Non-formulary; not covered. Covered options include: Lumryz, Xywav, Wakix",
       "change": "NOT_COVERED",
@@ -558,6 +615,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZIEXTENZO INJ 6/0.6M",
       "change_text": "Non-formulary; not covered. Covered options include: FYLNETRA, NYVEPRIA",
       "change": "NOT_COVERED",
@@ -567,6 +625,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZIOPTAN",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",

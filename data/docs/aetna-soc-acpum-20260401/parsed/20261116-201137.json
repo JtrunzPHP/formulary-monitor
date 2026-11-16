@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ARMOUR THYROID",
       "change_text": "Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine",
       "change": "NOT_COVERED",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BONSITY",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 pen every 28 days",
       "change": "ADDED",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BRILINTA",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "COPAXONE",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DIFICID",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FORTEO",
       "change_text": "Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
       "change": "NOT_COVERED",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "hydrocodone",
       "change_text": "Moving to non-preferred generic tier",
       "change": "TIER_UP",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "bitartrate/homatropine methylbromide hydromet",
       "change_text": "Moving to non-preferred generic tier",
       "change": "TIER_UP",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "NP THYROID",
       "change_text": "Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine",
       "change": "NOT_COVERED",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OSPOMYV",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 6 months",
       "change": "ADDED",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PROLIA",
       "change_text": "Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
       "change": "NOT_COVERED",
@@ -101,6 +112,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SAXENDA",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -116,6 +128,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "STOBOCLO",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 6 months",
       "change": "ADDED",
@@ -125,6 +138,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VTAMA",
       "change_text": "Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days",
       "change": "RESTRICTION",
@@ -134,6 +148,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ZORYVE",
       "change_text": "Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days",
       "change": "RESTRICTION",

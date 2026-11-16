@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ALPHAGAN P",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -11,6 +12,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUVELITY",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -20,6 +22,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "AUVELITY TITRATION PACK",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -29,6 +32,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BENLYSTA",
       "change_text": "Moving to preferred specialty tier",
       "change": "TIER_DOWN",
@@ -38,6 +42,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BILPREVDA",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 vial every 28 days",
       "change": "ADDED",
@@ -47,6 +52,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "BOSULIF",
       "change_text": "Non-formulary; not covered. Covered options include: bosutinib, dasatinib, imatinib mesylate, nilotinib, SCEMBLIX",
       "change": "NOT_COVERED",
@@ -56,6 +62,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "budesonide tab er 9mg",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -65,6 +72,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "CORLANOR",
       "change_text": "Non-formulary; not covered. Covered options include: ivabradine",
       "change": "NOT_COVERED",
@@ -74,6 +82,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "cyclosporine 0.05%",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -83,6 +92,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ophthalmic emulsion DESCOVY",
       "change_text": "Moving to non-preferred brand tier",
       "change": "TIER_UP",
@@ -92,6 +102,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEXCOM G6 RECEIVER",
       "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
       "change": "NOT_COVERED",
@@ -107,6 +118,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEXCOM G6 SENSOR",
       "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
       "change": "NOT_COVERED",
@@ -122,6 +134,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEXCOM G6 TRANSMITTER",
       "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
       "change": "NOT_COVERED",
@@ -137,6 +150,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEXCOM G7 15 DAY SENSOR",
       "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
       "change": "NOT_COVERED",
@@ -152,6 +166,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEXCOM G7 RECEIVER",
       "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
       "change": "NOT_COVERED",
@@ -167,6 +182,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "DEXCOM G7 SENSOR",
       "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
       "change": "NOT_COVERED",
@@ -182,6 +198,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "doxycycline cap 40mg",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -191,6 +208,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ENTRESTO",
       "change_text": "Non-formulary; not covered. Covered options include: sacubitril-valsartan",
       "change": "NOT_COVERED",
@@ -200,6 +218,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "EPCLUSA",
       "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
       "change": "NOT_COVERED",
@@ -209,6 +228,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "estradiol vaginal tab",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -218,6 +238,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "fluticasone furoate ellipta",
       "change_text": "Non-formulary; not covered. Covered options include: beclomethasone dipropionate HFA, ASMANEX HFA, PULMICORT FLEXHALER",
       "change": "NOT_COVERED",
@@ -227,6 +248,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FREESTYLE LIBRE 2",
       "change_text": "Drug list addition (preferred brand); Quantity limits",
       "change": "ADDED",
@@ -242,6 +264,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PLUS/SENSOR/FLASH",
       "change_text": "apply. Covered up to 2 sensors every 25 days",
       "change": "OTHER",
@@ -251,6 +274,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "GLUCOSE MONITOR SYSTEM FREESTYLE LIBRE 3",
       "change_text": "Drug list addition (preferred brand); Quantity limits",
       "change": "ADDED",
@@ -267,6 +291,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PLUS/SENSOR/GLUCOSE",
       "change_text": "apply. Covered up to 2 sensors every 25 days",
       "change": "OTHER",
@@ -276,6 +301,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MONITORING SYSTEM FREESTYLE LIBRE KIT",
       "change_text": "Drug list addition (preferred brand); Quantity limits",
       "change": "ADDED",
@@ -291,6 +317,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "14D/SENSOR",
       "change_text": "apply. Covered up to 2 sensors every 21 days",
       "change": "OTHER",
@@ -300,6 +327,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FREESTYLE LIBRE KIT",
       "change_text": "Drug list addition (preferred brand); Quantity limits",
       "change": "ADDED",
@@ -315,6 +343,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "2/SENSOR",
       "change_text": "apply. Covered up to 2 sensors every 21 days",
       "change": "OTHER",
@@ -324,6 +353,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FREESTYLE LIBRE KIT",
       "change_text": "Drug list addition (preferred brand); Quantity limits",
       "change": "ADDED",
@@ -339,6 +369,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "3/SENSOR",
       "change_text": "apply. Covered up to 2 sensors every 21 days",
       "change": "OTHER",
@@ -348,6 +379,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "FREESTYLE LIBRE MIS",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -363,6 +395,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "14D/READER FREESTYLE LIBRE MIS",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -378,6 +411,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "2/READER FREESTYLE LIBRE MIS",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -393,6 +427,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "3/READER FREESTYLE",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -402,6 +437,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HARVONI",
       "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
       "change": "NOT_COVERED",
@@ -411,6 +447,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HUMATROPE",
       "change_text": "Moving to non-preferred specialty tier",
       "change": "TIER_UP",
@@ -420,6 +457,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "HYMPAVZI",
       "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 8 pens every 28 days",
       "change": "ADDED",
@@ -429,6 +467,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "icosapent ethyl",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -438,6 +477,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "INFLIXIMAB",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 5 vials every 42 days",
       "change": "ADDED",
@@ -447,6 +487,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LEDIPASVIR/SOFOSBUVIR",
       "change_text": "Drug list addition (non-preferred specialty)",
       "change": "ADDED",
@@ -456,6 +497,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "LIPFENDRA",
       "change_text": "Drug list addition (preferred brand); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
       "change": "ADDED",
@@ -465,6 +507,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MAVYRET PAK 50-20MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 140 packets every 28 days",
       "change": "ADDED",
@@ -474,6 +517,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MAVYRET TAB 100-40MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 84 tabs every 28 days",
       "change": "ADDED",
@@ -483,6 +527,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "MIEBO",
       "change_text": "Drug list addition (preferred brand)",
       "change": "ADDED",
@@ -492,6 +537,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "OPSUMIT",
       "change_text": "Non-formulary; not covered. Covered options include: ambrisentan, bosentan, macitentan",
       "change": "NOT_COVERED",
@@ -501,6 +547,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "ORACEA",
       "change_text": "Non-formulary; not covered. Covered options include: doxycycline monohydrate delayed-rel capsule",
       "change": "NOT_COVERED",
@@ -510,6 +557,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "POMALYST",
       "change_text": "Non-formulary; not covered. Covered options include: pomalidomide",
       "change": "NOT_COVERED",
@@ -519,6 +567,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "PONVORY",
       "change_text": "Non-formulary; not covered. Covered options include: cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA",
       "change": "NOT_COVERED",
@@ -528,6 +577,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "RESTASIS SINGLE-DOSE",
       "change_text": "Non-formulary; not covered. Covered options include: cyclosporine ophthalmic emulsion, MIEBO, RESTASIS MULTIDOSE, VEVYE",
       "change": "NOT_COVERED",
@@ -537,6 +587,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SOFOSBUVIR/VELPATASVIR",
       "change_text": "Drug list addition (non-preferred specialty)",
       "change": "ADDED",
@@ -546,6 +597,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "SOVALDI",
       "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
       "change": "NOT_COVERED",
@@ -555,6 +607,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TRULANCE",
       "change_text": "Non-formulary; not covered. Covered options include: lubiprostone, LINZESS",
       "change": "NOT_COVERED",
@@ -564,6 +617,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "TYSABRI",
       "change_text": "Non-formulary; not covered. Covered options include: cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA",
       "change": "NOT_COVERED",
@@ -573,6 +627,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "UCERIS",
       "change_text": "Non-formulary; not covered. Covered options include: budesonide ext-rel tablets, balsalazide, mesalamine delayed-rel, mesalamine ext-rel, sulfasalazine, sulfasalazine delayed-rel",
       "change": "NOT_COVERED",
@@ -582,6 +637,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VAGIFEM",
       "change_text": "Non-formulary; not covered. Covered options include: estradiol vaginal cream, estradiol vaginal tab, yuvafem, IMVEXXY",
       "change": "NOT_COVERED",
@@ -591,6 +647,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VASCEPA",
       "change_text": "Non-formulary; not covered. Covered options include: icosapent ethyl, omega-3 acid ethyl esters",
       "change": "NOT_COVERED",
@@ -600,6 +657,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VELSIPITY",
       "change_text": "Non-formulary; not covered. Covered options include: tofacitinib, tofacitinib ER, ADALIMUMAB­ ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC, ZEPOSIA",
       "change": "NOT_COVERED",
@@ -609,6 +667,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VEOZAH",
       "change_text": "Preauthorization required",
       "change": "RESTRICTION",
@@ -618,6 +677,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VERQUVO",
       "change_text": "Non-formulary; not covered. Covered options include: dapagliflozin, ivabradine, sacubitril­ valsartan, JARDIANCE, KERENDIA",
       "change": "NOT_COVERED",
@@ -627,6 +687,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "VOSEVI",
       "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
       "change": "NOT_COVERED",
@@ -636,6 +697,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "yuvafem",
       "change_text": "Drug list addition (preferred generic)",
       "change": "ADDED",
@@ -645,6 +707,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YUVIWEL INJ 1.3MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 vials every 28 days",
       "change": "ADDED",
@@ -654,6 +717,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YUVIWEL INJ 2.8MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 vials every 28 days",
       "change": "ADDED",
@@ -663,6 +727,7 @@
     },
     {
       "kind": "soc_change",
+      "suspect": false,
       "name": "YUVIWEL INJ 5.5MG",
       "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 8 vials every 28 days",
       "change": "ADDED",

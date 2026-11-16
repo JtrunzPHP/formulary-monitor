@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections",
       "name": "nitrofurantoin sulfamethoxazole/trimethoprim,",
       "alternatives": "macro, nitrofurantoin mono/macro, trimethoprim",
@@ -10,6 +11,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Antivirals penciclovir",
       "name": "cream",
       "alternatives": "or cream, famciclovir, valacyclovir",
@@ -18,6 +20,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Antivirals penciclovir",
       "name": "DENAVIR",
       "alternatives": "or cream, famciclovir, valacyclovir",
@@ -26,6 +29,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Antivirals penciclovir",
       "name": "XERESE acyclovir oral",
       "alternatives": "or cream, famciclovir, valacyclovir",
@@ -34,6 +38,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents",
       "name": "cabergoline, ropinirole",
       "alternatives": "entacapone, pramipexole, rasagiline,",
@@ -42,6 +47,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA",
       "name": "risperidone INVEGA SUSTENNA",
       "alternatives": "er, ABILIFY ASIMTUFII, ABILIFY MAINTENA, ARISTADA INITIO, ERZOFRI, RYKINDO ER,",
@@ -50,6 +56,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA",
       "name": "ARISTADA",
       "alternatives": "er, ABILIFY ASIMTUFII, ABILIFY MAINTENA, ARISTADA INITIO, ERZOFRI, RYKINDO ER,",
@@ -58,6 +65,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA",
       "name": "UZEDY ER",
       "alternatives": "er, ABILIFY ASIMTUFII, ABILIFY MAINTENA, ARISTADA INITIO, ERZOFRI, RYKINDO ER,",
@@ -66,6 +74,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Movement Disorders Therapy AUSTEDO,",
       "name": "AUSTEDO XR INGREZZA,",
       "alternatives": "INGREZZA SPRINKLE",
@@ -74,6 +83,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "NUCYNTA Narcotic Analgesics & Combinations XTAMPZA",
       "name": "OXYCODONE ER",
       "alternatives": "bitartrate er, hydromorphone er, er, oxymorphone hcl er, HYSINGLA ER",
@@ -82,6 +92,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "NUCYNTA Narcotic Analgesics & Combinations XTAMPZA",
       "name": "OXYCONTIN, hydrocodone ER morphine sulfate",
       "alternatives": "bitartrate er, hydromorphone er, er, oxymorphone hcl er, HYSINGLA ER",
@@ -90,6 +101,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations",
       "name": "amlodipine/olmesartan,",
       "alternatives": "amlodipine/valsartan",
@@ -98,6 +110,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Diuretics triamterene,",
       "name": "DYRENIUM amiloride hcl,",
       "alternatives": "eplerenone, spironolactone",
@@ -106,6 +119,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical)",
       "name": "azelaic acid",
       "alternatives": "ivermectin topical, metronidazole topical, FINACEA FOAM",
@@ -114,6 +128,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical)",
       "name": "ZILXI sodium sulfacetamide/sulfur,",
       "alternatives": "ivermectin topical, metronidazole topical, FINACEA FOAM",
@@ -122,6 +137,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Topical Agents for Acne CABTREO,",
       "name": "adapalene",
       "alternatives": "adapalene/benzoyl peroxide, gel, clindamycin topical, peroxide, tretinoin, tretinoin micro",
@@ -130,6 +146,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Topical Agents for Acne CABTREO,",
       "name": "TWYNEO benzoyl peroxide clindamycin/benzoyl",
       "alternatives": "adapalene/benzoyl peroxide, gel, clindamycin topical, peroxide, tretinoin, tretinoin micro",
@@ -138,6 +155,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE,",
       "name": "ECOZA",
       "alternatives": "econazole, ketoconazole",
@@ -146,6 +164,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE,",
       "name": "ERTACZO",
       "alternatives": "econazole, ketoconazole",
@@ -154,6 +173,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE,",
       "name": "LUZU",
       "alternatives": "econazole, ketoconazole",
@@ -162,6 +182,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE,",
       "name": "NAFTIN",
       "alternatives": "econazole, ketoconazole",
@@ -170,6 +191,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE,",
       "name": "OXISTAT LOTION, ciclopirox, clotrimazole",
       "alternatives": "econazole, ketoconazole",
@@ -178,6 +200,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE,",
       "name": "XOLEGEL",
       "alternatives": "econazole, ketoconazole",
@@ -186,6 +209,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ciclopirox",
       "name": "8% treatment kit ciclopirox 8%",
       "alternatives": "topical solution, tavaborole topical solution",
@@ -194,6 +218,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Miscellaneous crotamiton Topical Dermatological Agents",
       "name": "permethrin",
       "alternatives": "",
@@ -202,6 +227,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "April 1",
       "alternatives": "(continued) Conditions Care Value (IACCV) Program and new product launches.",
@@ -210,6 +236,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "2026 utilizers January 1",
       "alternatives": "(continued) Conditions Care Value (IACCV) Program and new product launches.",
@@ -218,6 +245,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "2026 of Inflammatory andAtopic Conditions in the Inflammatory andAtopic in market dynamics, new indications for existing products, biosimilar",
       "alternatives": "(continued) Conditions Care Value (IACCV) Program and new product launches.",
@@ -226,6 +254,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE",
       "name": "ABBOTT FREESTYLE (FREESTYLE (CONTOUR) FREESTYLE ABBOTT FREESTYLE (ONETOUCH SOLUTIONS STARTER, (FREESTYLE",
       "alternatives": "KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULINX, LITE, FREESTYLE PRECISION NEO) XTRA METERS, TEST STRIPS (TRUE METRIX AIR, TRUE METRIX, GO) STRIPS (TRUE METRIX, TRUETRACK)",
@@ -240,6 +269,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE",
       "name": "VERIO",
       "alternatives": "KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULINX, LITE, FREESTYLE PRECISION NEO) XTRA METERS, TEST STRIPS (TRUE METRIX AIR, TRUE METRIX, GO) STRIPS (TRUE METRIX, TRUETRACK)",
@@ -248,6 +278,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE",
       "name": "VERIO FLEX)3 FREESTYLE ABBOTT PRECISION METERS & TEST STRIPS TRIVIDIA METERS NOT LISTED AS PREFERRED TRUE METRIX TRIVIDIA TEST",
       "alternatives": "KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULINX, LITE, FREESTYLE PRECISION NEO) XTRA METERS, TEST STRIPS (TRUE METRIX AIR, TRUE METRIX, GO) STRIPS (TRUE METRIX, TRUETRACK)",
@@ -260,6 +291,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products",
       "name": "DYMISTA azelastine nasal",
       "alternatives": "plus fluticasone nasal",
@@ -268,6 +300,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "GASTROINTESTINAL opium tincture, Antidiarrheal Agents",
       "name": "MYTESI diphenoxylate/atropine,",
       "alternatives": "loperamide",
@@ -276,6 +309,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX,",
       "name": "DICLOFENAC 35MG CAPSULES",
       "alternatives": "nonsteroidal anti-inflammatory drugs",
@@ -284,6 +318,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX,",
       "name": "FENOPROFEN 200MG CAPSULES",
       "alternatives": "nonsteroidal anti-inflammatory drugs",
@@ -292,6 +327,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX,",
       "name": "KETOROLAC NASAL SPRAY, generic oral 300 MG CAPSULES",
       "alternatives": "nonsteroidal anti-inflammatory drugs",
@@ -300,6 +336,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX,",
       "name": "RELAFEN DS",
       "alternatives": "nonsteroidal anti-inflammatory drugs",
@@ -308,6 +345,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX,",
       "name": "ZORVOLEX",
       "alternatives": "nonsteroidal anti-inflammatory drugs",
@@ -316,6 +354,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents",
       "name": "mesylate paroxetine hcl,",
       "alternatives": "paroxetine hcl ext-release",
@@ -324,6 +363,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI,",
       "name": "HERCEPTIN HYLECTA",
       "alternatives": "OGIVRI",
@@ -332,6 +372,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI,",
       "name": "HERZUMA",
       "alternatives": "OGIVRI",
@@ -340,6 +381,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI,",
       "name": "HERCESSI",
       "alternatives": "OGIVRI",
@@ -348,6 +390,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI,",
       "name": "ONTRUZANT",
       "alternatives": "OGIVRI",
@@ -356,6 +399,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI,",
       "name": "TRAZIMERA",
       "alternatives": "OGIVRI",
@@ -364,6 +408,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS,",
       "name": "drops, travoprost drops",
       "alternatives": "drops, latanoprost drops",
@@ -372,6 +417,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS,",
       "name": "DURYSTA",
       "alternatives": "drops, latanoprost drops",
@@ -380,6 +426,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS,",
       "name": "IYUZEH",
       "alternatives": "drops, latanoprost drops",
@@ -388,6 +435,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS,",
       "name": "LUMIGAN",
       "alternatives": "drops, latanoprost drops",
@@ -396,6 +444,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS,",
       "name": "TRAVATAN Z",
       "alternatives": "drops, latanoprost drops",
@@ -404,6 +453,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS,",
       "name": "VYZULTA, bimatoprost ZIOPTAN",
       "alternatives": "drops, latanoprost drops",
@@ -412,6 +462,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "RENAL FERRIC CITRATE, Phosphate Binders VELPHORO,",
       "name": "FOSRENOL POWDER PACKETS, calcium acetate",
       "alternatives": "lanthanum, sevelamer carbonate,",
@@ -420,6 +471,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "RENAL FERRIC CITRATE, Phosphate Binders VELPHORO,",
       "name": "XPHOZAH sevelamer hcl",
       "alternatives": "lanthanum, sevelamer carbonate,",
@@ -428,6 +480,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT",
       "name": "ARMONAIR DIGIHALER",
       "alternatives": "HFA, ASMANEX TWISTHALER,",
@@ -436,6 +489,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT",
       "name": "FLOVENT DISKUS",
       "alternatives": "HFA, ASMANEX TWISTHALER,",
@@ -444,6 +498,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT",
       "name": "FLOVENT HFA",
       "alternatives": "HFA, ASMANEX TWISTHALER,",
@@ -452,6 +507,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT",
       "name": "ASMANEX PROPIONATE DISKUS",
       "alternatives": "HFA, ASMANEX TWISTHALER,",
@@ -460,6 +516,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT",
       "name": "QVAR REDIHALER PROPIONATE HFA",
       "alternatives": "HFA, ASMANEX TWISTHALER,",
@@ -468,6 +525,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT",
       "name": "FLEXHALER",
       "alternatives": "HFA, ASMANEX TWISTHALER,",
@@ -476,6 +534,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors",
       "name": "SOLIRIS",
       "alternatives": "EPYSQLI",
@@ -484,6 +543,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors",
       "name": "ULTOMIRIS ENSPRYNG,",
       "alternatives": "EPYSQLI",
@@ -492,6 +552,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Immune Globulins CUTAQUIG,",
       "name": "HYQVIA SC: GAMMAGARD",
       "alternatives": "LIQUID, GAMUNEX-C, XEMBIFY",
@@ -500,6 +561,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "JYLAMVO, Immunosuppressant Agents OTREXUP,",
       "name": "TREXALL",
       "alternatives": "tablets injection",
@@ -508,6 +570,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "JYLAMVO, Immunosuppressant Agents OTREXUP,",
       "name": "XATMEP methotrexate RASUVO methotrexate",
       "alternatives": "tablets injection",
@@ -516,6 +579,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Infused TNF Antagonists INFLECTRA,",
       "name": "REMICADE",
       "alternatives": "",
@@ -524,6 +588,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Infused TNF Antagonists INFLECTRA,",
       "name": "RENFLEXIS AVSOLA",
       "alternatives": "",
@@ -532,6 +597,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Infused TNF Antagonists INFLECTRA,",
       "name": "INFLIXIMAB",
       "alternatives": "",
@@ -540,6 +606,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents",
       "name": "TOFIDENCE IV TYENNE IV",
       "alternatives": "",
@@ -548,6 +615,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Weight Loss SAXENDA,",
       "name": "ZEPBOUND VIALS WEGOVY",
       "alternatives": "PENS",
@@ -564,6 +632,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": false,
       "drug_class": "Weight Loss SAXENDA,",
       "name": "ZEPBOUND",
       "alternatives": "PENS",
@@ -578,6 +647,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "April 1",
       "alternatives": "(continued) Conditions Care Value (IACCV) Program and new product launches.",
@@ -586,6 +656,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "2026 utilizers January 1",
       "alternatives": "(continued) Conditions Care Value (IACCV) Program and new product launches.",
@@ -594,6 +665,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "2026 of Inflammatory andAtopic Conditions in the Inflammatory andAtopic in market dynamics, new indications for existing products, biosimilar",
       "alternatives": "(continued) Conditions Care Value (IACCV) Program and new product launches.",
@@ -602,6 +674,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "IDACIO YUFLYMA HULIO ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer ADALIMUMAB-RYVK SC TYENNE SC PYZCHIVA SC",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -610,6 +683,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "STELARA SC",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -618,6 +692,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "SELARSDI SC",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -626,6 +701,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "USTEKINUMAB SC",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -634,6 +710,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "YESINTEK SC",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -642,6 +719,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "WEZLANA SC See below for Other Medications ADALIMUMAB-ADAZ, (by Boehringer ADALIMUMAB-RYVK OMVOH SC",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -650,6 +728,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "SELARSDI Name medications for Inflammatory TREMFYA SC, may require a trial of one or more Preferred VELSIPITY, as part of the Formulary exceptions process. XELJANZ XR",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -658,6 +737,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "ADALIMUMAB-AACF, ADALIMUMAB-AATY, ADALIMUMAB-FKJP, ABRILADA Adalimumab Products for AMJEVITA Inflammatory Conditions‡ CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY Tocilizumab Products for ACTEMRA Inflammatory Conditions‡ OTULFI SC, Ustekinumab Products for STEQEYMA Inflammatory Conditions‡ USTEKINUMAB-AEKN Referenced excluded medications for KINERET, SILIQ Inflammatory Conditions‡ as indicated Drug Class All other Brand Inflammatory Conditions‡ Conditions medications",
       "name": "Preferred for (nr-axSpA) Preferred after (for Crohn’s",
       "alternatives": "Ingelheim & Quallent) (by Quallent), SIMLANDI SC, USTEKINUMAB-TTWE SC (by Quallent), SC Preferred Alternatives Preferred Alternatives ADALIMUMAB-ADBM Ingelheim & Quallent), (by Quallent), ENBREL, OTEZLA, RINVOQ, RINVOQ LQ, SC, SIMLANDI, SKYRIZI, SOTYKTU, TALTZ, USTEKINUMAB-TTWE SC (by Quallent), XELJANZ, XELJANZ SOLUTION, YESINTEK SC, ZYMFENTRA Non-Radiographic Axial Spondyloarthritis only: CIMZIA, TALTZ use of one Preferred Medication: CIMZIA Disease only), SIMPONI 100MG, TYENNE SC",
@@ -666,6 +746,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Multi-Source Brand Exclusions The generic equivalents of the following brand-name medications meet strict standards and contain the same a different appearance. BRILINTA PROMACTA ENDARI REVLIMID1 OXTELLAR XR SYMBICORT PROLENSA TASIGNA Excluded to Preferred AVSOLA INFLIXIMAB HERCESSI OGIVRI Non-Preferred to Preferred INGREZZA, INGREZZA SPRINKLE Preferred to Non-Preferred IXCHIQ ONE",
       "name": "medications are covered on the National Preferred Formulary. active ingredients as their corresponding brand-name THIOLA VYVANSE2 TOUCH CONTROL SOLUTION",
       "alternatives": "FDA-approved generic medications, although they may have EC",
@@ -674,6 +755,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "April 1",
       "alternatives": "Conditions Care Value (IACCV) Program and new product launches.",
@@ -682,6 +764,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "2026 utilizers January 1",
       "alternatives": "Conditions Care Value (IACCV) Program and new product launches.",
@@ -690,6 +773,7 @@
     },
     {
       "kind": "exclusion",
+      "suspect": true,
       "drug_class": "Bolded Excluded Medications are new for January 1, 2026 1 Exclusion impacts new starts January 1, 2026 and existing utilizers 2 Pending generic availability 3 Exclusion impacts new starts October 13, 2025 and existing ‡ Please note that formulary and product placement for treatment are subject to change throughout the year based upon changes",
       "name": "2026 of Inflammatory andAtopic Conditions in the Inflammatory andAtopic in market dynamics, new indications for existing products, biosimilar",
       "alternatives": "Conditions Care Value (IACCV) Program and new product launches.",
