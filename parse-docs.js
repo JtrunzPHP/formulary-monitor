@@ -516,8 +516,13 @@ function parseOptumBbox(html) {
         const excluded = [select, premium].some((g) => g && /EXC|N\/C|NC/i.test(statusOf(g)));
         const moved = [select, premium].some((g) => g && g.from != null && g.from !== g.to);
         const summary = [select ? `${colNames[0]} ${segText(select)}` : '', premium ? `${colNames[1]} ${segText(premium)}` : ''].filter(Boolean).join('; ');
+        // A name that holds two parenthetical generics, or a second capitalised brand after a lowercase run,
+        // is almost certainly two table rows stitched together; keep it but mark it suspect.
+        const parens = (name.match(/\([a-z][^()]*\)/g) || []).length;
+        const secondBrand = /[a-z\)\*]\s+[A-Z][a-z]{3,}\s*\(/.test(name) && parens >= 1 && /\)\s+\S.*\(/.test(name);
+        const suspect = parens >= 2 || secondBrand || name.length > 110;
         rows.push({
-          kind: 'tier_change', therapeutic_use: use, name, brand_generic: brandGeneric,
+          kind: 'tier_change', suspect, therapeutic_use: use, name, brand_generic: brandGeneric,
           select: select ? segText(select) : '', premium: premium ? segText(premium) : '', formulary_columns: colNames,
           status_select: statusOf(select), status_premium: statusOf(premium), moved, excluded,
           tier_before: select ? (select.from != null ? select.from : select.status) : '', tier_after: statusOf(select),
@@ -802,7 +807,7 @@ function main() {
     }
     // Latest watchlist rows and (for Optum) latest changes, for the cross-book view
     entry.latest_stamp = prevStamp;
-    entry.watch_rows = (prevRows || []).filter((r) => r.watch_tickers).map((r) => ({ ...r, text: undefined }));
+    entry.watch_rows = (prevRows || []).filter((r) => r.watch_tickers && !r.suspect).map((r) => ({ ...r, text: undefined }));
     if (p.name === 'optum-passages' || p.name === 'aetna-soc' || p.name === 'esi-exclusions') entry.changes = (prevRows || []).map((r) => ({ ...r, text: undefined }));
     entry.family = src.family || entry.family || ''; entry.effective = src.effective || (prevRows && prevRows[0] && prevRows[0].effective) || '';
     if (entry.latest_diff) entry.latest_changes = readJson(path.join(pdir, entry.latest_diff), { changes: [] }).changes;
