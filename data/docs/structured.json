@@ -2403,7 +2403,9 @@
             "Diabetic supplies (category)"
           ]
         }
-      ]
+      ],
+      "family": "",
+      "effective": ""
     },
     "aetna-acp-2027": {
       "id": "aetna-acp-2027",
@@ -46040,31 +46042,48 @@
           "tier_after": "NF",
           "restrictions_after": []
         }
-      ]
+      ],
+      "family": "",
+      "effective": ""
     },
     "esi-npf-changes-jan-2026": {
       "id": "esi-npf-changes-jan-2026",
       "pbm": "Express Scripts",
       "name": "National Preferred Formulary exclusion changes effective January 1, 2026",
-      "parser": "none",
+      "parser": "esi-exclusions",
       "versions": {},
-      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Changes.250806.pdf?version=0"
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Changes.250806.pdf?version=0",
+      "latest_stamp": null,
+      "watch_rows": [],
+      "changes": [],
+      "family": "",
+      "effective": ""
     },
     "esi-npf-changes-jul-2026": {
       "id": "esi-npf-changes-jul-2026",
       "pbm": "Express Scripts",
       "name": "National Preferred Formulary exclusion changes effective July 1, 2026",
-      "parser": "none",
+      "parser": "esi-exclusions",
       "versions": {},
-      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/NPF%207.1.26%20Changes.pdf?version=0"
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/NPF%207.1.26%20Changes.pdf?version=0",
+      "latest_stamp": null,
+      "watch_rows": [],
+      "changes": [],
+      "family": "",
+      "effective": ""
     },
     "esi-npf-flex-changes-jan-2026": {
       "id": "esi-npf-flex-changes-jan-2026",
       "pbm": "Express Scripts",
       "name": "National Preferred Flex Formulary exclusion changes effective January 1, 2026",
-      "parser": "none",
+      "parser": "esi-exclusions",
       "versions": {},
-      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Flex%20Changes.250806.pdf?version=0"
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Flex%20Changes.250806.pdf?version=0",
+      "latest_stamp": null,
+      "watch_rows": [],
+      "changes": [],
+      "family": "",
+      "effective": ""
     },
     "optum-formulary-updates-page": {
       "id": "optum-formulary-updates-page",
@@ -47023,7 +47042,9 @@
           "name": "Zolymbus (bimatoprost PF) opthalmic gel",
           "effective": "8/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "9/1/26"
     },
     "optum-pharmacy-passages-direct-september-2026": {
       "id": "optum-pharmacy-passages-direct-september-2026",
@@ -47945,7 +47966,9 @@
           "name": "Trutakna (atacicept-vymj) auto-injector for SC",
           "effective": "9/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "9/21/26"
     },
     "optum-pharmacy-passages-direct-umr-april-2026": {
       "id": "optum-pharmacy-passages-direct-umr-april-2026",
@@ -49026,7 +49049,9 @@
           "name": "Myqorzo (aficamten) tablet",
           "effective": "4/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "5/1/26"
     },
     "optum-pharmacy-passages-direct-umr-june-2026": {
       "id": "optum-pharmacy-passages-direct-umr-june-2026",
@@ -50024,7 +50049,9 @@
           "name": "Yuviwel (navepegritide) SC injection",
           "effective": "6/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "7/1/26"
     },
     "optum-pharmacy-passages-direct-umr-may-2026": {
       "id": "optum-pharmacy-passages-direct-umr-may-2026",
@@ -51095,7 +51122,9 @@
           "name": "Zycubo (copper histidinate) SC injection",
           "effective": "4/28/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "6/1/26"
     },
     "optum-pharmacy-passages-ehb-april-2026": {
       "id": "optum-pharmacy-passages-ehb-april-2026",
@@ -51238,7 +51267,9 @@
           },
           "effective": "4/7/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "4/29/26"
     },
     "optum-pharmacy-passages-ehb-august-2026": {
       "id": "optum-pharmacy-passages-ehb-august-2026",
@@ -51281,7 +51312,9 @@
           },
           "effective": "7/27/2026"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "7/27/2026"
     },
     "optum-pharmacy-passages-ehb-july-2026": {
       "id": "optum-pharmacy-passages-ehb-july-2026",
@@ -51649,7 +51682,9 @@
           },
           "effective": "6/12/2026"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "8/1/2026"
     },
     "optum-pharmacy-passages-ehb-june-2026": {
       "id": "optum-pharmacy-passages-ehb-june-2026",
@@ -51731,7 +51766,9 @@
           "name": "",
           "effective": "7/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "5/28/26"
     },
     "optum-pharmacy-passages-ehb-may-2026": {
       "id": "optum-pharmacy-passages-ehb-may-2026",
@@ -51899,7 +51936,9 @@
           },
           "effective": "3/13/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "7/1/26"
     },
     "optum-pharmacy-passages-ehb-september-2026": {
       "id": "optum-pharmacy-passages-ehb-september-2026",
@@ -52055,7 +52094,9 @@
           },
           "effective": "9/21/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "9/1/26"
     },
     "optum-pharmacy-passages-july-2026": {
       "id": "optum-pharmacy-passages-july-2026",
@@ -52962,7 +53003,9 @@
           "name": "Nereus (tradipitant) capsule",
           "effective": "7/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "8/1/26"
     },
     "optum-pharmacy-passages-sep-2025": {
       "id": "optum-pharmacy-passages-sep-2025",
@@ -54102,7 +54145,9 @@
           "name": "Tryptyr (acoltremon) ophthalmic solution",
           "effective": "9/1/25"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "9/15/25"
     },
     "optum-pharmacy-passages-direct-umr-october-2026": {
       "id": "optum-pharmacy-passages-direct-umr-october-2026",
@@ -54811,7 +54856,9 @@
           "name": "Rasonque (daraxonrasib) tablet",
           "effective": "10/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "11/1/26"
     },
     "optum-pharmacy-passages-ehb-october-2026": {
       "id": "optum-pharmacy-passages-ehb-october-2026",
@@ -54879,10 +54926,12 @@
           },
           "effective": "11/1/26"
         }
-      ]
+      ],
+      "family": "",
+      "effective": "10/15/26"
     }
   },
-  "generated_at": "2026-11-15T19:13:17.259Z",
+  "generated_at": "2026-11-16T19:43:15.327Z",
   "comparisons": [
     {
       "family": "aetna-acp",
@@ -56749,6 +56798,152 @@
           "to_restrictions": "PA, QL"
         }
       ]
+    }
+  ],
+  "checks": [
+    {
+      "source": "aetna-acp-2027",
+      "product": "DEXCOM G7 SENSOR",
+      "expect": {
+        "tier": "NF"
+      },
+      "note": "2027 guide, DIABETIC SUPPLIES",
+      "result": "pass",
+      "found": "DEXCOM G7 SENSOR"
+    },
+    {
+      "source": "aetna-acp-2027",
+      "product": "FREESTYLE LIBRE 3 PLUS SENSOR",
+      "expect": {
+        "tier": "PB"
+      },
+      "note": "2027 guide, DIABETIC SUPPLIES",
+      "result": "pass",
+      "found": "FREESTYLE LIBRE 3 PLUS SENSOR"
+    },
+    {
+      "source": "aetna-acp-2027",
+      "product": "OZEMPIC (1 MG/DOSE)",
+      "expect": {
+        "tier": "PB"
+      },
+      "note": "2027 guide, INCRETIN MIMETICS",
+      "result": "pass",
+      "found": "OZEMPIC (1 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 4 MG/3ML"
+    },
+    {
+      "source": "aetna-acp-2027",
+      "product": "VICTOZA",
+      "expect": {
+        "tier": "NF"
+      },
+      "note": "2027 guide, INCRETIN MIMETICS",
+      "result": "pass",
+      "found": "VICTOZA SUBCUTANEOUS SOLUTION PEN-INJECTOR 18 MG/3ML"
+    },
+    {
+      "source": "aetna-acp-2026",
+      "product": "DEXCOM G7 SENSOR",
+      "expect": {
+        "tier": "PB"
+      },
+      "note": "2026 guide, DIABETIC SUPPLIES",
+      "result": "pass",
+      "found": "DEXCOM G7 SENSOR"
+    },
+    {
+      "source": "aetna-acp-2026",
+      "product": "FREESTYLE LIBRE 3 PLUS SENSOR",
+      "expect": {
+        "tier": "NF"
+      },
+      "note": "2026 guide, DIABETIC SUPPLIES",
+      "result": "pass",
+      "found": "FREESTYLE LIBRE 3 PLUS SENSOR"
+    },
+    {
+      "source": "aetna-acp-2026",
+      "product": "ACCU-CHEK GUIDE TEST",
+      "expect": {
+        "tier": "PB"
+      },
+      "note": "2026 guide, DIABETIC SUPPLIES",
+      "result": "pass",
+      "found": "ACCU-CHEK GUIDE TEST IN VITRO STRIP"
+    },
+    {
+      "source": "optum-pharmacy-passages-sep-2025",
+      "product": "Dexcom G7 15-day",
+      "expect": {
+        "select": "Tier 2",
+        "premium": "Tier 2",
+        "flags": {
+          "PA": true
+        }
+      },
+      "note": "Sept 2025 issue, new brand coverage table",
+      "result": "pass",
+      "found": "Dexcom G7 15-day continuous glucose monitor sensor MODD1 insulin disposable infusion"
+    },
+    {
+      "source": "optum-pharmacy-passages-sep-2025",
+      "product": "Freestyle glucose blood test strips",
+      "expect": {
+        "kind": "tier_change"
+      },
+      "note": "Sept 2025 issue, exclusions table, Brand 3>2 EXC 9/15/25",
+      "result": "pass",
+      "found": "Freestyle glucose blood test strips and blood glucose monitoring kits Precision glucose blood test strips and"
+    },
+    {
+      "source": "optum-pharmacy-passages-direct-umr-april-2026",
+      "product": "Insulin glargine (ABA of Toujeo)",
+      "expect": {
+        "kind": "tier_change"
+      },
+      "note": "April 2026 Direct UMR issue, effective 5/1/26",
+      "result": "pass",
+      "found": "Insulin glargine (ABA of Toujeo) pen-injector for SC injection"
+    },
+    {
+      "source": "aetna-soc-acp-20260101",
+      "product": "MOBI 2ML CARTRIDGE",
+      "expect": {
+        "change": "NOT_COVERED"
+      },
+      "note": "SOC for 01.01.26 Advanced Control: Non-formulary; covered options Omnipod 5/Dash, Twiist",
+      "result": "skipped",
+      "reason": "document not parsed"
+    },
+    {
+      "source": "aetna-soc-acp-20260101",
+      "product": "AUTOSOFT",
+      "expect": {
+        "change": "NOT_COVERED"
+      },
+      "note": "SOC for 01.01.26 Advanced Control",
+      "result": "skipped",
+      "reason": "document not parsed"
+    },
+    {
+      "source": "aetna-soc-acp-20260101",
+      "product": "MITIGARE",
+      "expect": {
+        "change": "NOT_COVERED"
+      },
+      "note": "SOC for 01.01.26 Advanced Control",
+      "result": "skipped",
+      "reason": "document not parsed"
+    },
+    {
+      "source": "esi-npf-changes-jan-2026",
+      "product": "ONETOUCH",
+      "expect": {
+        "kind": "exclusion"
+      },
+      "note": "2026 NPF exclusion changes: OneTouch supplies removed (per the notice; confirm the product line)",
+      "result": "skipped",
+      "reason": "document not parsed"
     }
   ]
 }

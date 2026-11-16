@@ -1,6 +1,8 @@
+Known-answer checks: 10 passed, 0 failed, 4 skipped
+
 # Formulary monitor: commercial documents report
 
-Generated 2026-11-15T19:13:17.259Z
+Generated 2026-11-16T19:43:15.327Z
 
 ## 2026 Advanced Control Plan, Aetna (aetna-acp-2026)
 Parser: aetna-guide; rows 4551, problems 0, watchlist rows 164
@@ -223,16 +225,13 @@ Structured changes vs previous version (watchlist first, up to 60):
 - ADDED NOVOLIN 70/30 SUBCUTANEOUS SUSPENSION (70-30) 100 UNIT/ML (insulin nph isophane & regular): - -> PB []
 
 ## National Preferred Formulary exclusion changes effective January 1, 2026 (esi-npf-changes-jan-2026)
-Parser: none
-
+Parser: esi-exclusions
 
 ## National Preferred Formulary exclusion changes effective July 1, 2026 (esi-npf-changes-jul-2026)
-Parser: none
-
+Parser: esi-exclusions
 
 ## National Preferred Flex Formulary exclusion changes effective January 1, 2026 (esi-npf-flex-changes-jan-2026)
-Parser: none
-
+Parser: esi-exclusions
 
 ## Optum Rx formulary and UM updates page (Pharmacy Passages index) (optum-formulary-updates-page)
 Parser: none
