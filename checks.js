@@ -36,7 +36,15 @@ const CHECKS = [
   { source: 'aetna-soc-acp-20260101', product: 'MITIGARE', expect: { change: 'NOT_COVERED' }, note: 'SOC for 01.01.26 Advanced Control' },
 
   // ---- Express Scripts exclusion lists ----
-  { source: 'esi-npf-changes-jan-2026', product: 'ONETOUCH', expect: { kind: 'exclusion' }, note: '2026 NPF exclusion changes: OneTouch supplies removed (per the notice; confirm the product line)' },
+  // ---- Aetna 2027 notice: the CGM swap in Aetna's own words ----
+  { source: 'aetna-soc-acp-20270101', product: 'DEXCOM G7 SENSOR', expect: { change: 'NOT_COVERED', alternatives: 'FREESTYLE LIBRE' }, note: 'SOC for 01.01.27 Advanced Control' },
+  { source: 'aetna-soc-acp-20270101', product: 'FREESTYLE LIBRE 2', expect: { change: 'ADDED' }, note: 'SOC for 01.01.27 Advanced Control' },
+  { source: 'aetna-soc-acp-20250101', product: 'OMNIPOD GO', expect: { change: 'NOT_COVERED' }, note: 'SOC for 01.01.25 Advanced Control' },
+  { source: 'aetna-soc-acp-20250701', product: 'ZEPBOUND', expect: { change: 'NOT_COVERED' }, note: 'SOC for 07.01.25 Advanced Control' },
+
+  // ---- Express Scripts change notices ----
+  { source: 'esi-npf-changes-jul-2026', product: 'NORGESIC FORTE', expect: { kind: 'exclusion', alternatives: 'orphenadrine' }, note: 'NPF 7.1.26 changes, Orphenadrine-Containing Analgesics' },
+  { source: 'esi-npf-changes-jan-2027', product: 'ZOMIG NASAL', expect: { kind: 'exclusion', alternatives: 'sumatriptan nasal' }, note: '2027 NPF Exclusion Changes, Antimigraine Agents' },
 ];
 
 module.exports = { CHECKS };
