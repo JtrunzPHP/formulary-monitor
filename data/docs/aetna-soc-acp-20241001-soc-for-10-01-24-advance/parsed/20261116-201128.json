@@ -1,0 +1,173 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "AGRYLIN",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "AGRYLIN | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "anagrelide hydrochloride",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "anagrelide hydrochloride | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "aspirin / dipyridamole",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "aspirin / dipyridamole | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BRILINTA",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "BRILINTA | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "cilostazol",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "cilostazol | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "clovique",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "clovique | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEPEN TITRATABS",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "DEPEN TITRATABS | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DIPENTUM",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "DIPENTUM | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "dipyridamole",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "dipyridamole | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EFFIENT",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "EFFIENT | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EXELDERM",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "EXELDERM | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "gentamicin sulfate",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "gentamicin sulfate | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "KETO-DIASTIX (NDC 00193288221,",
+      "change_text": "Non-formulary; not covered",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "KETO-DIASTIX (NDC 00193288221, | Non-formulary; not covered"
+    },
+    {
+      "kind": "soc_change",
+      "name": "sulconazole nitrate",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "sulconazole nitrate | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TAFINLAR",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 840 tabs every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "TAFINLAR | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 840 tabs every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "trientine hydrochloride",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "trientine hydrochloride | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TRUDHESA",
+      "change_text": "Non-formulary; not covered. Covered options include: naratriptan, rizatriptan, sumatriptan, zolmitriptan, NURTEC ODT, UBRELVY",
+      "change": "NOT_COVERED",
+      "alternatives": "naratriptan, rizatriptan, sumatriptan, zolmitriptan, NURTEC ODT, UBRELVY",
+      "effective": "October 1, 2024",
+      "text": "TRUDHESA | Non-formulary; not covered. Covered options include: naratriptan, rizatriptan, sumatriptan, zolmitriptan, NURTEC ODT, UBRELVY"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VANDAZOLE",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "October 1, 2024",
+      "text": "VANDAZOLE | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 8,
+    "tables": 2,
+    "effective": "October 1, 2024"
+  }
+}

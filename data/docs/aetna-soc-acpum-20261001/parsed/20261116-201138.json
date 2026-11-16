@@ -1,0 +1,119 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "BRIVIACT (oral tab, oral solution)",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "BRIVIACT (oral tab, oral solution) | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "clotrimazole troche",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "clotrimazole troche | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FARXIGA",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "FARXIGA | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "KOSELUGO ORAL GRANULES",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "KOSELUGO ORAL GRANULES | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "tetracycline hydrochloride",
+      "change_text": "Quantity limits removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "tetracycline hydrochloride | Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "vilazodone hydrochloride",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "vilazodone hydrochloride | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XELJANZ SOL 1MG/ML",
+      "change_text": "Non-formulary; not covered. Covered options include: Psoriatic Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC",
+      "change": "NOT_COVERED",
+      "alternatives": "Psoriatic Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC",
+      "effective": "October 1, 2026",
+      "text": "XELJANZ SOL 1MG/ML | Non-formulary; not covered. Covered options include: Psoriatic Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XELJANZ TAB 10MG",
+      "change_text": "Non-formulary; not covered. Covered options include: Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "effective": "October 1, 2026",
+      "text": "XELJANZ TAB 10MG | Non-formulary; not covered. Covered options include: Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XELJANZ TAB 5MG",
+      "change_text": "Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), RINVOQ; Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC; Rheumatoid Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, RINVOQ; Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), RINVOQ; Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC; Rheumatoid Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, RINVOQ; Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "effective": "October 1, 2026",
+      "text": "XELJANZ TAB 5MG | Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), RINVOQ; Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC; Rheumatoid Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, RINVOQ; Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XELJANZ XR TAB 11MG",
+      "change_text": "Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), RINVOQ; Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC; Rheumatoid Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, RINVOQ; Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), RINVOQ; Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC; Rheumatoid Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, RINVOQ; Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "effective": "October 1, 2026",
+      "text": "XELJANZ XR TAB 11MG | Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), RINVOQ; Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, COSENTYX SC, ENBREL, HYRIMOZ (by Cordavis), OTEZLA, OTEZLA XR, PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC; Rheumatoid Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENBREL, HYRIMOZ (by Cordavis), KEVZARA, ORENCIA CLICKJECT, ORENCIA SC, RINVOQ; Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XELJANZ XR TAB 22MG",
+      "change_text": "Non-formulary; not covered. Covered options include: Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA",
+      "effective": "October 1, 2026",
+      "text": "XELJANZ XR TAB 22MG | Non-formulary; not covered. Covered options include: Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA SC (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, VELSIPITY, YESINTEK SC, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XIGDUO XR (except 2.5-1000mg)",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "October 1, 2026",
+      "text": "XIGDUO XR (except 2.5-1000mg) | Moving to non-preferred brand tier"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 14,
+    "tables": 3,
+    "effective": "October 1, 2026"
+  }
+}

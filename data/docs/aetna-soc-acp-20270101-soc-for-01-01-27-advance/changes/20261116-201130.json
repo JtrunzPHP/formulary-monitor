@@ -1,0 +1,364 @@
+{
+  "id": "aetna-soc-acp-20270101-soc-for-01-01-27-advance",
+  "stamp": "20261116-201130",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 497,
+  "watchlist_in_document": [
+    {
+      "line": 56,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G6 RECEIVER Non-formulary; not covered. Covered options",
+      "context": [
+        "ophthalmic emulsion",
+        "DESCOVY Moving to non-preferred brand tier",
+        "DEXCOM G6 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 SENSOR Non-formulary; not covered. Covered options"
+      ]
+    },
+    {
+      "line": 57,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "include: FREESTYLE LIBRE",
+      "context": [
+        "DESCOVY Moving to non-preferred brand tier",
+        "DEXCOM G6 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE"
+      ]
+    },
+    {
+      "line": 58,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G6 SENSOR Non-formulary; not covered. Covered options",
+      "context": [
+        "DEXCOM G6 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 TRANSMITTER Non-formulary; not covered. Covered options"
+      ]
+    },
+    {
+      "line": 59,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "include: FREESTYLE LIBRE",
+      "context": [
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 TRANSMITTER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE"
+      ]
+    },
+    {
+      "line": 60,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G6 TRANSMITTER Non-formulary; not covered. Covered options",
+      "context": [
+        "DEXCOM G6 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 TRANSMITTER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "1981703-01-16 (01/27) ©2026 Aetna Inc."
+      ]
+    },
+    {
+      "line": 61,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "include: FREESTYLE LIBRE",
+      "context": [
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G6 TRANSMITTER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "1981703-01-16 (01/27) ©2026 Aetna Inc.",
+        "DRUG NAME CHANGES"
+      ]
+    },
+    {
+      "line": 64,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 15 DAY SENSOR Non-formulary; not covered. Covered options",
+      "context": [
+        "1981703-01-16 (01/27) ©2026 Aetna Inc.",
+        "DRUG NAME CHANGES",
+        "DEXCOM G7 15 DAY SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 RECEIVER Non-formulary; not covered. Covered options"
+      ]
+    },
+    {
+      "line": 65,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "include: FREESTYLE LIBRE",
+      "context": [
+        "DRUG NAME CHANGES",
+        "DEXCOM G7 15 DAY SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE"
+      ]
+    },
+    {
+      "line": 66,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 RECEIVER Non-formulary; not covered. Covered options",
+      "context": [
+        "DEXCOM G7 15 DAY SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 SENSOR Non-formulary; not covered. Covered options"
+      ]
+    },
+    {
+      "line": 67,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "include: FREESTYLE LIBRE",
+      "context": [
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE"
+      ]
+    },
+    {
+      "line": 68,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 SENSOR Non-formulary; not covered. Covered options",
+      "context": [
+        "DEXCOM G7 RECEIVER Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "doxycycline cap 40mg Drug list addition (preferred generic)"
+      ]
+    },
+    {
+      "line": 69,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "include: FREESTYLE LIBRE",
+      "context": [
+        "include: FREESTYLE LIBRE",
+        "DEXCOM G7 SENSOR Non-formulary; not covered. Covered options",
+        "include: FREESTYLE LIBRE",
+        "doxycycline cap 40mg Drug list addition (preferred generic)",
+        "ENTRESTO Non-formulary; not covered. Covered options"
+      ]
+    },
+    {
+      "line": 79,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 2 Drug list addition (preferred brand); Quantity limits",
+      "context": [
+        "include: beclomethasone dipropionate HFA,",
+        "ASMANEX HFA, PULMICORT FLEXHALER",
+        "FREESTYLE LIBRE 2 Drug list addition (preferred brand); Quantity limits",
+        "PLUS/SENSOR/FLASH apply. Covered up to 2 sensors every 25 days",
+        "GLUCOSE MONITOR SYSTEM"
+      ]
+    },
+    {
+      "line": 81,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "GLUCOSE MONITOR SYSTEM",
+      "context": [
+        "FREESTYLE LIBRE 2 Drug list addition (preferred brand); Quantity limits",
+        "PLUS/SENSOR/FLASH apply. Covered up to 2 sensors every 25 days",
+        "GLUCOSE MONITOR SYSTEM",
+        "FREESTYLE LIBRE 3 Drug list addition (preferred brand); Quantity limits",
+        "PLUS/SENSOR/GLUCOSE apply. Covered up to 2 sensors every 25 days"
+      ]
+    },
+    {
+      "line": 82,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 3 Drug list addition (preferred brand); Quantity limits",
+      "context": [
+        "PLUS/SENSOR/FLASH apply. Covered up to 2 sensors every 25 days",
+        "GLUCOSE MONITOR SYSTEM",
+        "FREESTYLE LIBRE 3 Drug list addition (preferred brand); Quantity limits",
+        "PLUS/SENSOR/GLUCOSE apply. Covered up to 2 sensors every 25 days",
+        "MONITORING SYSTEM"
+      ]
+    },
+    {
+      "line": 85,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+      "context": [
+        "PLUS/SENSOR/GLUCOSE apply. Covered up to 2 sensors every 25 days",
+        "MONITORING SYSTEM",
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+        "14D/SENSOR apply. Covered up to 2 sensors every 21 days",
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits"
+      ]
+    },
+    {
+      "line": 87,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+      "context": [
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+        "14D/SENSOR apply. Covered up to 2 sensors every 21 days",
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+        "2/SENSOR apply. Covered up to 2 sensors every 21 days",
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits"
+      ]
+    },
+    {
+      "line": 89,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+      "context": [
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+        "2/SENSOR apply. Covered up to 2 sensors every 21 days",
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+        "3/SENSOR apply. Covered up to 2 sensors every 21 days",
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)"
+      ]
+    },
+    {
+      "line": 91,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+      "context": [
+        "FREESTYLE LIBRE KIT Drug list addition (preferred brand); Quantity limits",
+        "3/SENSOR apply. Covered up to 2 sensors every 21 days",
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+        "14D/READER",
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)"
+      ]
+    },
+    {
+      "line": 93,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+      "context": [
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+        "14D/READER",
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+        "2/READER",
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)"
+      ]
+    },
+    {
+      "line": 95,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+      "context": [
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+        "2/READER",
+        "FREESTYLE LIBRE MIS Drug list addition (preferred brand)",
+        "3/READER",
+        "FREESTYLE Drug list addition (preferred brand)"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Starjemza (ustekinumab- hmny) IV and SC injection",
       "brand_generic": "",
@@ -28,6 +29,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Avtozma (tocilizumab- anoh) auto-injector and prefilled syringe for SC injection",
       "brand_generic": "",
@@ -54,6 +56,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Pomalyst",
       "brand_generic": "",
@@ -80,6 +83,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "titration",
       "name": "Savella",
       "brand_generic": "",
@@ -106,6 +110,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Lumigan",
       "brand_generic": "",

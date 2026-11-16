@@ -1,0 +1,41 @@
+{
+  "id": "esi-basic-hpf-changes-jan-2027",
+  "stamp": "20261116-201115",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 28,
+  "watchlist_in_document": [
+    {
+      "line": 3,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "BYOOVIZ HEMANGEOL ZEPBOUND KWIKPEN",
+      "context": [
+        "Preferred-to-Non-Preferred",
+        "effective January 1, 2027",
+        "BYOOVIZ HEMANGEOL ZEPBOUND KWIKPEN",
+        "FLECTOR SELARSDI IV/SC ZTLIDO",
+        "Basic Formulary"
+      ]
+    },
+    {
+      "line": 12,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ATTRUBY LYUMJEV TALZENNA*",
+      "context": [
+        "Formulary-to-Non-Formulary Changes",
+        "effective January 1, 2027",
+        "ATTRUBY LYUMJEV TALZENNA*",
+        "BRUKINSA* metformin 625 mg, 750mg tablets TRIJARDY XR",
+        "BYOOVIZ MYQORZO verapamil er pm (100mg,"
+      ]
+    }
+  ]
+}

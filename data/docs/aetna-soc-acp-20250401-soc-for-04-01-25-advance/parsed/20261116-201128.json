@@ -1,0 +1,110 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ADALIMUMAB-FKJP AUTO-",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "ADALIMUMAB-FKJP AUTO- | Drug list addition (preferred specialty); Preauthorization"
+    },
+    {
+      "kind": "soc_change",
+      "name": "INJECTOR KIT 40 MG / 0.8ML",
+      "change_text": "required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "INJECTOR KIT 40 MG / 0.8ML | required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ADALIMUMAB-FKJP PREFILLED",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty); Preauthorization"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SYRINGE KIT 20 MG / 0.4ML",
+      "change_text": "required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "SYRINGE KIT 20 MG / 0.4ML | required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ADALIMUMAB-FKJP PREFILLED",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty); Preauthorization"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SYRINGE KIT 40 MG / 0.8ML",
+      "change_text": "required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "SYRINGE KIT 40 MG / 0.8ML | required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "budesonide",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "budesonide | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "CORLANOR",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "CORLANOR | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "COTELLIC",
+      "change_text": "Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI",
+      "change": "NOT_COVERED",
+      "alternatives": "MEKINIST, MEKTOVI",
+      "effective": "April 1, 2025",
+      "text": "COTELLIC | Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI"
+    },
+    {
+      "kind": "soc_change",
+      "name": "dabigatran cap 110mg (except NDC",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "dabigatran cap 110mg (except NDC | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "dabigatran cap 75mg (except NDC",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "dabigatran cap 75mg (except NDC | Drug list addition (preferred)"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 8,
+    "tables": 2,
+    "effective": "April 1, 2025"
+  }
+}

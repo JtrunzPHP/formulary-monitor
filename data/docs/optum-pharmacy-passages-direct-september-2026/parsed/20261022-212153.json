@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents",
       "name": "Xocova (ensitrelvir) tablet Jubereq (denosumab-desu)",
       "brand_generic": "Brand",
@@ -23,6 +24,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "SC injection Osvyrti (denosumab-desu)",
       "brand_generic": "Brand",
@@ -44,6 +46,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "SC injection",
       "brand_generic": "Brand",
@@ -65,6 +68,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antimigraine Agents",
       "name": "Rizafilm (rizatriptan) oral film* Rasonque",
       "brand_generic": "",
@@ -91,6 +95,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "(daraxonrasib) tablet* Revtorpyk",
       "brand_generic": "",
@@ -117,6 +122,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Antineoplastic Agents",
       "name": "(gedatolisib) IV injection* Tepadina (thiotepa",
       "brand_generic": "",
@@ -143,6 +149,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "and sodium chloride) IV injection",
       "brand_generic": "",
@@ -169,6 +176,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antineoplastic Agents",
       "name": "Tudriqev (vusolimogene oderparepvec-wtypg) intralesional injection* Zenbexus",
       "brand_generic": "",
@@ -195,6 +203,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "(iberdomide) capsule* Bixlenvo (bictegravir-",
       "brand_generic": "",
@@ -221,6 +230,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Antiviral Agents Cardiovascular",
       "name": "lenacapavir) tablet* Furoscix (furosemide)",
       "brand_generic": "",
@@ -247,6 +257,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Contraceptive",
       "name": "auto-injector for SC injection* Gwyn Lo (norelgestromin-",
       "brand_generic": "",
@@ -273,6 +284,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Corticosteroid",
       "name": "ethinyl estradiol) patch* Prednisone tablet 5mg",
       "brand_generic": "",
@@ -299,6 +311,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents",
       "name": "(by Dr. Reddy) Adquey (difamilast)",
       "brand_generic": "",
@@ -325,6 +338,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Dermatological Agents",
       "name": "ointment* Lisraya (brepocitinib)",
       "brand_generic": "",
@@ -351,6 +365,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Diabetes",
       "name": "tablet* MOBI Connect blood",
       "brand_generic": "",
@@ -383,6 +398,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Supplies Hematological",
       "name": "glucose monitoring kit* Waskyra (etuvetidigene",
       "brand_generic": "",
@@ -413,6 +429,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents Immunological",
       "name": "autotemcel) IV injection* Niktimvo (axatilimab- csfr) IV injection",
       "brand_generic": "",
@@ -439,6 +456,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Metabolic",
       "name": "9mg/0.9mL, 22mg/2.2mL Pasatru (garetosmab-",
       "brand_generic": "",
@@ -465,6 +483,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents",
       "name": "grts) IV injection* Clotic (clotrimazole)",
       "brand_generic": "",
@@ -491,6 +510,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Otic Agents Respiratory",
       "name": "otic solution* Omlyclo (omalizumab-",
       "brand_generic": "",
@@ -517,6 +537,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "igec) prefilled syringe for SC injection*",
       "brand_generic": "",
@@ -543,6 +564,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Orudis",
       "brand_generic": "",
@@ -569,6 +591,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tigan injection",
       "brand_generic": "",
@@ -595,6 +618,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "citrate Auryxia",
       "brand_generic": "",
@@ -621,6 +645,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Contepo (fosfomycin) IV injection",
       "brand_generic": "Brand",
@@ -647,6 +672,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Lifyorli (relacorilant) capsule therapy pack",
       "brand_generic": "Brand",
@@ -673,6 +699,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "Xocova (ensitrelvir) tablet and Avlayah (tividenofusp",
       "brand_generic": "Brand",
@@ -699,6 +726,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "alfa-eknm)",
       "brand_generic": "Brand",
@@ -725,6 +753,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Jubereq (denosumab- desu) SC injection",
       "brand_generic": "Brand",
@@ -751,6 +780,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Osvyrti (denosumab- desu) SC injection",
       "brand_generic": "Brand",

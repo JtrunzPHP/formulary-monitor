@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Cequr Inserter",
       "brand_generic": "",
@@ -28,6 +29,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL",
       "brand_generic": "",

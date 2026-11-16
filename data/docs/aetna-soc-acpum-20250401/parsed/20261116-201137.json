@@ -1,0 +1,119 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ADALIMUMAB-FKJP AUTO-INJECTOR",
+      "change_text": "Drug list addition (preferred specialty);",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "ADALIMUMAB-FKJP AUTO-INJECTOR | Drug list addition (preferred specialty);"
+    },
+    {
+      "kind": "soc_change",
+      "name": "KIT 40 MG / 0.8ML",
+      "change_text": "Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "KIT 40 MG / 0.8ML | Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ADALIMUMAB-FKJP PREFILLED",
+      "change_text": "Drug list addition (preferred specialty);",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty);"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SYRINGE KIT 20 MG / 0.4ML",
+      "change_text": "Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "SYRINGE KIT 20 MG / 0.4ML | Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ADALIMUMAB-FKJP PREFILLED",
+      "change_text": "Drug list addition (preferred specialty);",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty);"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SYRINGE KIT 40 MG / 0.8ML",
+      "change_text": "Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "SYRINGE KIT 40 MG / 0.8ML | Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "budesonide",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "budesonide | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "CORLANOR",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "CORLANOR | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "COTELLIC",
+      "change_text": "Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI",
+      "change": "NOT_COVERED",
+      "alternatives": "MEKINIST, MEKTOVI",
+      "effective": "April 1, 2025",
+      "text": "COTELLIC | Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI"
+    },
+    {
+      "kind": "soc_change",
+      "name": "dabigatran cap 110mg (except NDC",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "dabigatran cap 110mg (except NDC | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "dabigatran cap 150mg (NDC",
+      "change_text": "Non-formulary; not covered. Covered options",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "April 1, 2025",
+      "text": "dabigatran cap 150mg (NDC | Non-formulary; not covered. Covered options"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZELBORAF",
+      "change_text": "Non-formulary; not covered. Covered options include: BRAFTOVI, TAFINLAR",
+      "change": "NOT_COVERED",
+      "alternatives": "BRAFTOVI, TAFINLAR",
+      "effective": "April 1, 2025",
+      "text": "ZELBORAF | Non-formulary; not covered. Covered options include: BRAFTOVI, TAFINLAR"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 9,
+    "tables": 3,
+    "effective": "April 1, 2025"
+  }
+}

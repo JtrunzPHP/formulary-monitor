@@ -1,0 +1,114 @@
+{
+  "id": "aetna-soc-scc-20250101",
+  "stamp": "20261116-201134",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 225,
+  "watchlist_in_document": [
+    {
+      "line": 35,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)",
+        "Insulin (category)"
+      ],
+      "text": "Endocrine and Metabolic, Diabetic Supplies* TWIIST INSULIN PUMP AND SUPPLIES^",
+      "context": [
+        "Central Nervous System, Multiple Sclerosis Agents* BAFIERTAM^",
+        "Endocrine and Metabolic, Central Precocious Puberty TRIPTODUR",
+        "Endocrine and Metabolic, Diabetic Supplies* TWIIST INSULIN PUMP AND SUPPLIES^",
+        "Endocrine and Metabolic, Fertility Regulators* PREGNYL",
+        "Hematologic, Hemophilia Agents* ALTUVIIIO^, BENEFIX"
+      ]
+    },
+    {
+      "line": 49,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide",
+        "Novo liraglutide"
+      ],
+      "text": "Antidiabetics, Incretin Mimetic VICTOZA** liraglutide, MOUNJARO, OZEMPIC, RYBELSUS,",
+      "context": [
+        "Peptidase-4 (DPP-4) Inhibitors* ZITUVIMET XR",
+        "JANUVIA saxagliptin, ZITUVIO",
+        "Antidiabetics, Incretin Mimetic VICTOZA** liraglutide, MOUNJARO, OZEMPIC, RYBELSUS,",
+        "Agents* TRULICITY",
+        "Formulary removals (continued)"
+      ]
+    },
+    {
+      "line": 50,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "Agents* TRULICITY",
+      "context": [
+        "JANUVIA saxagliptin, ZITUVIO",
+        "Antidiabetics, Incretin Mimetic VICTOZA** liraglutide, MOUNJARO, OZEMPIC, RYBELSUS,",
+        "Agents* TRULICITY",
+        "Formulary removals (continued)",
+        "Drug Class Removed products Formulary options"
+      ]
+    },
+    {
+      "line": 55,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "Endocrine and Metabolic, V-GO INSULIN INFUSION OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD",
+      "context": [
+        "Central Nervous System, DYSPORT DAXXIFY, XEOMIN",
+        "Botulinum Toxins*",
+        "Endocrine and Metabolic, V-GO INSULIN INFUSION OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD",
+        "Diabetic Supplies* PUMP DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN",
+        "INFUSION PUMP, TWIIST INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 56,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Diabetic supplies (category)",
+        "Insulin (category)"
+      ],
+      "text": "Diabetic Supplies* PUMP DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN",
+      "context": [
+        "Botulinum Toxins*",
+        "Endocrine and Metabolic, V-GO INSULIN INFUSION OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD",
+        "Diabetic Supplies* PUMP DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN",
+        "INFUSION PUMP, TWIIST INSULIN INFUSION PUMP",
+        "Endocrine and Metabolic, OVIDREL PREGNYL"
+      ]
+    },
+    {
+      "line": 57,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INFUSION PUMP, TWIIST INSULIN INFUSION PUMP",
+      "context": [
+        "Endocrine and Metabolic, V-GO INSULIN INFUSION OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD",
+        "Diabetic Supplies* PUMP DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN",
+        "INFUSION PUMP, TWIIST INSULIN INFUSION PUMP",
+        "Endocrine and Metabolic, OVIDREL PREGNYL",
+        "Fertility Regulators*"
+      ]
+    }
+  ]
+}

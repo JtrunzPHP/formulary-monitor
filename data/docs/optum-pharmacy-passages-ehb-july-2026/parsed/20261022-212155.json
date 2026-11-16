@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Kygevvi Powder 2GM/2GM (doxecitine- doxribtimine)",
       "brand_generic": "",
@@ -28,6 +29,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Pradaxa 110mg tablets Tier (dabigatran) Xarelto 2.5mg tablets",
       "brand_generic": "",
@@ -49,6 +51,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Xarelto 1MG/ML Tier suspension (rivaroxaban) Fycompa tablets",
       "brand_generic": "",
@@ -70,6 +73,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tier (perampanel) Complera tablets",
       "brand_generic": "",
@@ -91,6 +95,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Product",
       "name": "(emticitabine-rilpivirine- Tier tenofovir DF) Promacta tablets and",
       "brand_generic": "",
@@ -112,6 +117,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tier powder (eltrombopag) Entresto tablets (sacubitril-",
       "brand_generic": "",
@@ -133,6 +139,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tier valsartan) Premarin tablets (conj.",
       "brand_generic": "",
@@ -154,6 +161,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "Tier estrogen) Tasigna capusles",
       "brand_generic": "",
@@ -175,6 +183,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Modifiying",
       "name": "Tier (nilotinib)",
       "brand_generic": "",
@@ -196,6 +205,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Brilinta tablets (ticagrelor) Tier",
       "brand_generic": "",
@@ -217,6 +227,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tracleer 32mg tablets Tier (bosentan)",
       "brand_generic": "",
@@ -238,6 +249,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Immunological Agents",
       "name": "Skyrizi Inj 55mg/.37ml (risankizumab)",
       "brand_generic": "",
@@ -264,6 +276,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antineoplastic Agents",
       "name": "bosutinib Bosulif tablet",
       "brand_generic": "",
@@ -290,6 +303,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antirheumatic Agents",
       "name": "tofacitinib Xeljanz XR ER tablet tofacitinib",
       "brand_generic": "",
@@ -316,6 +330,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Cardiovascular",
       "name": "solution, Xeljanz tablet macitentan",
       "brand_generic": "",
@@ -342,6 +357,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "Opsumit tablet",
       "brand_generic": "",

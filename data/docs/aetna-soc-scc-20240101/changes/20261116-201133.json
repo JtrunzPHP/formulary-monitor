@@ -1,0 +1,110 @@
+{
+  "id": "aetna-soc-scc-20240101",
+  "stamp": "20261116-201133",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 314,
+  "watchlist_in_document": [
+    {
+      "line": 43,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supplies LANCET/LANCET DEVICES FOR ACCU-CHEK, ONETOUCH",
+      "context": [
+        "Botulinum Toxins* DYSPORT, XEOMIN",
+        "Dermatology, Eczema Agents OPZELURA",
+        "Diabetic Supplies LANCET/LANCET DEVICES FOR ACCU-CHEK, ONETOUCH",
+        "Narcolepsy Agents LUMRYZ",
+        "Polycythemia Vera Agents BESREMI"
+      ]
+    },
+    {
+      "line": 103,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Diabetes, Insulin, Long-Acting* LEVEMIR BASAGLAR",
+      "context": [
+        "Dermatology, Acne* isotretinoin capsules 25mg & isotretinoin capsule 20 mg, 30 mg, 40 mg",
+        "35mg",
+        "Diabetes, Insulin, Long-Acting* LEVEMIR BASAGLAR",
+        "Diabetes, Insulin, Rapid-Acting* NOVOLOG FIASP",
+        "Fertility Regulators, GONAL-F FOLLISTIM AQ"
+      ]
+    },
+    {
+      "line": 104,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Diabetes, Insulin, Rapid-Acting* NOVOLOG FIASP",
+      "context": [
+        "35mg",
+        "Diabetes, Insulin, Long-Acting* LEVEMIR BASAGLAR",
+        "Diabetes, Insulin, Rapid-Acting* NOVOLOG FIASP",
+        "Fertility Regulators, GONAL-F FOLLISTIM AQ",
+        "Follicle Stimulating Hormones*"
+      ]
+    },
+    {
+      "line": 147,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)",
+        "Insulin (category)"
+      ],
+      "text": "Diabetic Supplies BD PrecisionGlide™ syringe BD ULTRAFINE INSULIN SYRINGES, BD ULTRAFINE",
+      "context": [
+        "Dermatology, Rosacea RHOFADE azelaic acid gel, brimonidine gel, metronidazole,",
+        "FINACEA FOAM, SOOLANTRA",
+        "Diabetic Supplies BD PrecisionGlide™ syringe BD ULTRAFINE INSULIN SYRINGES, BD ULTRAFINE",
+        "NEEDLES",
+        "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICES"
+      ]
+    },
+    {
+      "line": 149,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Diabetic supplies (category)"
+      ],
+      "text": "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICES",
+      "context": [
+        "Diabetic Supplies BD PrecisionGlide™ syringe BD ULTRAFINE INSULIN SYRINGES, BD ULTRAFINE",
+        "NEEDLES",
+        "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICES",
+        "not OneTouch",
+        "Gastrointestinal, Antispasmodic ANASPAZ** dicyclomine, hyoscyamine sulfate, hyoscyamine"
+      ]
+    },
+    {
+      "line": 150,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "not OneTouch",
+      "context": [
+        "NEEDLES",
+        "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICES",
+        "not OneTouch",
+        "Gastrointestinal, Antispasmodic ANASPAZ** dicyclomine, hyoscyamine sulfate, hyoscyamine",
+        "Agents sulfate orally disintegrating tabs"
+      ]
+    }
+  ]
+}

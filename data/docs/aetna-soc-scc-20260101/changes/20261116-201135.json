@@ -1,0 +1,54 @@
+{
+  "id": "aetna-soc-scc-20260101",
+  "stamp": "20261116-201135",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 369,
+  "watchlist_in_document": [
+    {
+      "line": 39,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Endocrine and Metabolic, Antidiabetics, Insulin NOVOLOG",
+      "context": [
+        "Central Nervous System, Botulinum Toxins DYSPORT†",
+        "Central Nervous System, Migraine TOSYMRA^",
+        "Endocrine and Metabolic, Antidiabetics, Insulin NOVOLOG",
+        "Endocrine and Metabolic, Calcium Regulators, OSENVELT^",
+        "Miscellaneous"
+      ]
+    },
+    {
+      "line": 68,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Endocrine and Metabolic, TRESIBA TOUJEO",
+      "context": [
+        "Central Nervous System, AUSTEDO XR tetrabenazine, AUSTEDO, INGREZZA",
+        "Movement Disorders*",
+        "Endocrine and Metabolic, TRESIBA TOUJEO",
+        "Antidiabetics, Insulin*",
+        "Endocrine and Metabolic, XGEVA OSENVELT"
+      ]
+    },
+    {
+      "line": 69,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Antidiabetics, Insulin*",
+      "context": [
+        "Movement Disorders*",
+        "Endocrine and Metabolic, TRESIBA TOUJEO",
+        "Antidiabetics, Insulin*",
+        "Endocrine and Metabolic, XGEVA OSENVELT",
+        "Calcium Regulators*"
+      ]
+    }
+  ]
+}

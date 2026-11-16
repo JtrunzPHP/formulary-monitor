@@ -1,0 +1,170 @@
+      EXPRESS SCRIPTS PHARMACY BENEFIT SERVICES
+
+      2027 National Preferred Formulary
+      Exclusion list changes coming January 1, 2027
+
+
+
+This is not an all-inclusive list of exclusions for the Express Scripts® Pharmacy Benefit Services National Preferred Formulary.
+The excluded medications shown below are not covered on the Express Scripts National Preferred Formulary beginning
+January 1, 2027 unless otherwise noted. If there is a clinical reason, identified by your doctor, that requires you to continue
+taking your current medication, your doctor can request a coverage review by visiting the Express Scripts online portal
+at esrx.com/PA.
+
+Single-source brand and generic exclusions
+
+ DRUG CLASS                                        EXCLUDED MEDICATIONS                                PREFERRED ALTERNATIVES
+
+ AUTONOMIC AND CENTRAL NERVOUS SYSTEM              zolmitriptan 5mg nasal, ONZETRA XSAIL,              sumatriptan nasal
+ Antimigraine Agents                               ZOLMITRIPTAN 2.5MG NASAL, ZOMIG NASAL
+
+ CARDIOVASCULAR                                    HEMANGEOL                                           propranolol solution
+ Beta Blockers & Combinations
+ Calcium Channel Blockers                          diltiazem er tablets, CARDIZEM LA                   diltiazem er capsules
+                                                   nisoldipine, SULAR                                  amlodipine, felodipine er
+                                                   verapamil er pm (100 mg, 200mg, 300mg)              verapamil er (120mg, 180mg, 240mg, 360mg)
+ Fenofibrates                                      fenofibrate capsules (130mg), fenofibrate tablets   fenofibrate capsules (43mg, 67mg,134mg, 200mg),
+                                                   (40mg, 120mg), FENOFIBRATE CAPSULES                 fenofibrate tablets (48mg, 54mg, 145mg, 160mg),
+                                                   (50MG, 150MG), LIPOFEN                              fenofibric acid dr
+ HMG & Cholesterol Inhibitor Combinations          fluvastatin, fluvastatin er, ALTOPREV, ATORVALIQ,   atorvastatin, lovastatin, pitavastatin, pravastatin,
+                                                   LESCOL XL, ZYPITAMAG                                rosuvastatin, simvastatin
+ Obstructive Hypertrophic Cardiomyopathy Agents    MYQORZO                                             CAMZYOS
+
+ Pulmonary Arterial Hypertension (PAH) Agents      WINREVAIR                                           Coverage may be approved for the treatment
+                                                                                                       of Pulmonary Arterial Hypertension (PAH)
+                                                                                                       under certain conditions.
+ DERMATOLOGICAL                                    ZTLIDO                                              lidocaine 5% patch
+ Miscellaneous Topical Dermatological Agents
+ DIABETES                                          metformin 625mg, 750mg tablets;                     metformin 500mg, 850mg or 1,000mg tablets
+ Biguanide Agents                                  METFORMIN 625MG TABLETS
+ Insulins                                          U-100: ADMELOG, APIDRA, FIASP,                      U-100: HUMALOG (CARTRIDGE, KWIKPEN,
+                                                   HUMALOG VIAL, INSULIN ASPART, KIRSTY,               JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG
+                                                   LYUMJEV, NOVOLOG, RELION NOVOLOG                    U-200: HUMALOG KWIKPEN
+                                                   U-200: LYUMJEV
+                                                   Inhalation: AFREZZA
+ GASTROINTESTINAL                                  sucralfate suspension, CARAFATE                     sucralfate tablets
+ Anti-Ulcer Agents
+
+
+
+
+© 2026 Evernorth Health Services. All rights reserved.
+All trademarks are the property of their respective owners
+Single-source brand and generic exclusions (continued)
+
+ DRUG CLASS                                          EXCLUDED MEDICATIONS                     PREFERRED ALTERNATIVES
+
+ MUSCULOSKELETAL & RHEUMATOLOGY                      GLOPERBA                                 colchicine, MITIGARE
+ Gout Therapy
+ ONCOLOGY                                            BRUKINSA, JAYPIRCA                       For Mantle Cell Lymphoma: CALQUENCE
+ Bruton Tyrosine Kinase Inhibitors                                                            For Chronic Lymphocytic Leukemia, Small
+                                                                                              Lymphocytic Lymphoma: CALQUENCE,
+                                                                                              IMBRUVICA
+                                                                                              For BRUKINSA only: Coverage may be approved
+                                                                                              for treatment of Waldenström’s Macroglobulinemia
+                                                                                              under certain conditions.
+ OPHTHALMIC                                          BYOOVIZ, LUCENTIS                        CIMERLI
+ Ophthalmic Agents
+ (Vascular Endothelial Growth Inhibitors)
+ Ophthalmic Anti-Inflammatory                        BYQLOVI, CLOBETASOL DROPS, FLAREX, FML   dexamethasone drops, difluprednate drops,
+                                                     FORTE, LOTEMAX OINTMENT, LOTEMAX SM,     fluorometholone drops, loteprednol 0.5% drops,
+                                                     MAXIDEX, PRED MILD                       prednisolone drops
+ Ophthalmic Non-Steroidal                            ACUVAIL, ILEVRO, NEVANAC                 bromfenac drops, diclofenac drops, ketorolac drops
+ Anti-Inflammatory Drugs (NSAIDs)
+
+ MISCELLANEOUS AGENTS                                AMVUTTRA                                 HTTR-C: VYNDAMAX
+ Cardiomyopathy & Polyneuropathy of Hereditary                                                Coverage may be approved for treatment of
+ Transthyretin-Mediated Amyloidosis                                                           Polyneuropathy of Hereditary Transthyretin-Mediated
+                                                                                              Amyloidosis (hATTR) under certain conditions.
+                                                     ATTRUBY                                  VYNDAMAX
+
+ Hypoactive Sexual Desire Disorder Agents            ADDYI                                    VYLESSI
+
+ Immune Globulins                                    GAMMAKED, GAMMAPLEX, PANZYGA, QIVIGY,    IV: GAMMAGARD LIQUID, GAMMAGARD
+                                                     YIMMUGO                                  LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C
+                                                                                              SC: GAMMAGARD LIQUID, GAMMAGARD
+                                                                                              LIQUID ERC, GAMUNEX-C, XEMBIFY
+ Infused Non-TNF Biologics - Ustekinumab Agents      OTULFI IV, PYZCHIVA IV, SELARSDI IV,     IMULDOSA IV, USTEKINUMAB-TTWE IV (by
+                                                     STARJEMZA IV, STELARA IV, STEQEYMA IV,   Quallent), YESINTEK IV, ENTYVIO IV, OMVOH,
+                                                     USTEKINUMAB IV, WEZLANA IV               SKYRIZI, TREMFYA
+
+
+Indication-based management
+
+ DRUG CLASS                                          EXCLUDED MEDICATIONS                     PREFERRED ALTERNATIVES
+
+ Adalimumab Products for Inflammatory Conditions‡    ADALIMUMAB-AACF, IDACIO                  ADALIMUMAB-ADAZ
+                                                     ADALIMUMAB-AATY, YUFLYMA                 ADALIMUMAB-ADBM (by Boehringer Ingelheim
+                                                     ADALIMUMAB-BWW                           & Quallent)
+                                                     ADADALIMUMAB-FKJP, HULIO                 SIMLANDI
+                                                     ADALIMUMAB-RYVK (by Teva)
+                                                     ABRILADA
+                                                     AMJEVITA
+                                                     CYLTEZO
+                                                     HADLIMA
+                                                     HUMIRA
+                                                     HYRIMOZ
+                                                     YUSIMRY
+ Tocilizumab Products for Inflammatory Conditions‡   ACTEMRA SC, AVTOZMA SC                   TYENNE SC**
+
+
+
+
+© 2026 Evernorth Health Services. All rights reserved.
+All trademarks are the property of their respective owners
+Indication-based management (continued)
+
+ DRUG CLASS                                          EXCLUDED MEDICATIONS                                PREFERRED ALTERNATIVES
+
+ Ustekinumab Products for Inflammatory Conditions‡   OTULFI SC, PYZCHIVA SC, SELARSDI SC,                IMULDOSA SC, USTEKINUMAB-TTWE SC
+                                                     STARJEMZA SC, STELARA SC, STEQEYMA SC,              (by Quallent), YESINTEK SC
+                                                     USTEKINUMAB SC, USTEKINUMAB-AAUZ SC,
+                                                     USTEKINUMAB-AEKN SC, WEZLANA SC
+ Referenced excluded medications for Inflammatory    KINERET, SILIQ                                      See below for Preferred Alternatives
+ Conditions‡ as indicated
+
+ DRUG CLASS                                          OTHER MEDICATIONS                                   PREFERRED ALTERNATIVES
+
+ Inflammatory Conditions‡                            All other Brand Name medications for Inflammatory   Preferred: ADALIMUMAB-ADAZ,
+                                                     Conditions may require a trial of one or more       ADALIMUMAB-ADBM (by Boehringer Ingelheim
+                                                     Preferred medications as part of the Formulary      & Quallent), COSENTYX SC, ENBREL, ICOTYDE,
+                                                     exceptions process.                                 IMULDOSA SC, OMVOH SC, OTEZLA, OTEZLA
+                                                                                                         XR, RINVOQ ER, RINVOQ LQ, SIMLANDI,
+                                                                                                         SKYRIZI SC, SOTYKTU, TALTZ, TREMFYA SC,
+                                                                                                         tofacitinib, tofacitinib er, USTEKINUMAB-TTWE
+                                                                                                         SC (by Quallent), VELSIPITY, YESINTEK SC,
+                                                                                                         ZYMFENTRA
+                                                                                                         Preferred for Non-Radiographic Axial
+                                                                                                         Spondyloarthritis (nr-axSpA) only: CIMZIA,
+                                                                                                         COSENTYX SC, TALTZ
+                                                                                                         **Preferred after use of one Preferred Medication:
+                                                                                                         CIMZIA (for Crohn’s Disease only), SIMPONI 100MG,
+                                                                                                         TYENNE SC
+
+
+Multi-source brand exclusions
+The generic equivalents of the following brand-name medications are covered on the National Preferred Formulary
+FDA-approved generic medications meet strict standards and contain the same active ingredients as their
+corresponding brand-name medications, although they may have a different appearance.
+ XELJANZ
+ XELJANZ XR
+
+
+Excluded to Preferred
+ LEDIPASVIR-SOFOSBUVIR
+ SOFOSBUVIR/VELPATASVIR
+
+
+
+
+Bolded Excluded Medications are new for 01/01/2027
+‡ Please note that PDL and product placement for treatment of Inflammatory and Atopic Conditions in the Inflammatory and Atopic Conditions Care
+Value (IACCV) Program are subject to change throughout the year based upon changes in market dynamics, new indications for existing products,
+biosimilar and new product launches.
+
+
+
+
+© 2026 Evernorth Health Services. All rights reserved.
+All trademarks are the property of their respective owners
+

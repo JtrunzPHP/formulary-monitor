@@ -1,0 +1,227 @@
+{
+  "rows": [
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics",
+      "name": "orphenadrine-aspirin-caffeine",
+      "alternatives": "orphenadrine citrate er",
+      "effective": "July 1, 2026",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics | orphenadrine-aspirin-caffeine | orphenadrine citrate er"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics",
+      "name": "NORGESIC",
+      "alternatives": "orphenadrine citrate er",
+      "effective": "July 1, 2026",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics | NORGESIC | orphenadrine citrate er"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics",
+      "name": "NORGESIC FORTE",
+      "alternatives": "orphenadrine citrate er",
+      "effective": "July 1, 2026",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics | NORGESIC FORTE | orphenadrine citrate er"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Tricyclic Antidepressants",
+      "name": "protriptyline1",
+      "alternatives": "desipramine, nortriptyline",
+      "effective": "July 1, 2026",
+      "text": "Tricyclic Antidepressants | protriptyline1 | desipramine, nortriptyline"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
+      "name": "fluvastatin, fluvastatin er",
+      "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
+      "effective": "July 1, 2026",
+      "text": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | fluvastatin, fluvastatin er | atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
+      "name": "ALTOPREV",
+      "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
+      "effective": "July 1, 2026",
+      "text": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | ALTOPREV | atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
+      "name": "ATORVALIQ",
+      "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
+      "effective": "July 1, 2026",
+      "text": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | ATORVALIQ | atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations",
+      "name": "LESCOL XL",
+      "alternatives": "atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin",
+      "effective": "July 1, 2026",
+      "text": "CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | LESCOL XL | atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
+      "name": "BOMYNTRA",
+      "alternatives": "BILPREVDA, XTRENBO",
+      "effective": "July 1, 2026",
+      "text": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents | BOMYNTRA | BILPREVDA, XTRENBO"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
+      "name": "OSENVELT",
+      "alternatives": "BILPREVDA, XTRENBO",
+      "effective": "July 1, 2026",
+      "text": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents | OSENVELT | BILPREVDA, XTRENBO"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
+      "name": "WYOST",
+      "alternatives": "BILPREVDA, XTRENBO",
+      "effective": "July 1, 2026",
+      "text": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents | WYOST | BILPREVDA, XTRENBO"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents",
+      "name": "XGEVA",
+      "alternatives": "BILPREVDA, XTRENBO",
+      "effective": "July 1, 2026",
+      "text": "MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents | XGEVA | BILPREVDA, XTRENBO"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Primary Biliary Cholangitis Agents",
+      "name": "LIVDELZI",
+      "alternatives": "IQIRVO",
+      "effective": "July 1, 2026",
+      "text": "Primary Biliary Cholangitis Agents | LIVDELZI | IQIRVO"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "ADALIMUMAB-AACF",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
+      "effective": "July 1, 2026",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | ADALIMUMAB-AACF | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "IDACIO ADALIMUMAB-AATY",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
+      "effective": "July 1, 2026",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | IDACIO ADALIMUMAB-AATY | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "YUFLYMA ADALIMUMAB-BWWD ADALIMUMAB-FKJP",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
+      "effective": "July 1, 2026",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | YUFLYMA ADALIMUMAB-BWWD ADALIMUMAB-FKJP | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "HULIO ADALIMUMAB-RYVK (by Teva) ABRILADA AMJEVITA CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY ACTEMRA SC",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**",
+      "effective": "July 1, 2026",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | HULIO ADALIMUMAB-RYVK (by Teva) ABRILADA AMJEVITA CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY ACTEMRA SC | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) ADALIMUMAB-RYVK (by Quallent), SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "OTULFI SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | OTULFI SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "PYZCHIVA SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | PYZCHIVA SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "STARJEMZA SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | STARJEMZA SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "STELARA SC2",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | STELARA SC2 | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "STEQEYMA SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | STEQEYMA SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "USTEKINUMAB SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | USTEKINUMAB SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "USTEKINUMAB-AAUZ SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | USTEKINUMAB-AAUZ SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "USTEKINUMAB- AEKN SC",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | USTEKINUMAB- AEKN SC | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "WEZLANA SC KINERET",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | WEZLANA SC KINERET | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "SILIQ",
+      "alternatives": "IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives",
+      "effective": "July 1, 2026",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | SILIQ | IMULDOSA SC, SELARSDI SC, USTEKINUMAB- TTWE SC (by Quallent), YESINTEK SC See next page for Preferred Alternatives"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 2,
+    "tables": 2,
+    "effective": "July 1, 2026"
+  }
+}

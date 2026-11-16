@@ -1,0 +1,110 @@
+{
+  "id": "aetna-soc-sc-20240101",
+  "stamp": "20261116-201130",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 298,
+  "watchlist_in_document": [
+    {
+      "line": 31,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Diabetes, Insulin, Long-Acting* LANTUS",
+      "context": [
+        "Antiarrhythmics* MULTAQ",
+        "Autoimmune Agents* AVSOLA",
+        "Diabetes, Insulin, Long-Acting* LANTUS",
+        "Fertility Regulators, Follicle Stimulating Hormones* FOLLISTIM AQ",
+        "Human Growth Hormone* HUMATROPE"
+      ]
+    },
+    {
+      "line": 44,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supplies LANCET NEEDLES/DEVICES FOR ACCU-CHEK, ONE TOUCH",
+      "context": [
+        "Botulinum Toxin* DYSPORT, XEOMIN",
+        "Dermatology, Eczema Agents OPZELURA",
+        "Diabetic Supplies LANCET NEEDLES/DEVICES FOR ACCU-CHEK, ONE TOUCH",
+        "Narcolepsy Agents LUMRYZ",
+        "Polycythemia Vera Agents BESREMI"
+      ]
+    },
+    {
+      "line": 82,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Diabetes, Insulin, Long-Acting* BASAGLAR, LEVEMIR LANTUS",
+      "context": [
+        "isotretinoin capsules 25mg & isotretinoin capsule 20 mg, 30 mg, 40 mg",
+        "35mg",
+        "Diabetes, Insulin, Long-Acting* BASAGLAR, LEVEMIR LANTUS",
+        "Fertility Regulators, Follicle GONAL-F FOLLISTIM AQ",
+        "Stimulating Hormones*"
+      ]
+    },
+    {
+      "line": 129,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)",
+        "Insulin (category)"
+      ],
+      "text": "Diabetic Supplies BD PrecisionGlide™ syringe BD ULTRAFINE INSULIN SYRINGES, BD ULTRAFINE",
+      "context": [
+        "Dermatology, Rosacea RHOFADE azelaic acid gel, brimonidine gel, metronidazole,",
+        "FINACEA FOAM, SOOLANTRA",
+        "Diabetic Supplies BD PrecisionGlide™ syringe BD ULTRAFINE INSULIN SYRINGES, BD ULTRAFINE",
+        "NEEDLES",
+        "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICE"
+      ]
+    },
+    {
+      "line": 131,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Diabetic supplies (category)"
+      ],
+      "text": "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICE",
+      "context": [
+        "Diabetic Supplies BD PrecisionGlide™ syringe BD ULTRAFINE INSULIN SYRINGES, BD ULTRAFINE",
+        "NEEDLES",
+        "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICE",
+        "not OneTouch",
+        "Gastrointestinal, Antispasmodic ANASPAZ** dicyclomine, hyoscyamine sulfate, hyoscyamine"
+      ]
+    },
+    {
+      "line": 132,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "not OneTouch",
+      "context": [
+        "NEEDLES",
+        "All lancets/lancing devices ONETOUCH LANCETS/LANCING DEVICE",
+        "not OneTouch",
+        "Gastrointestinal, Antispasmodic ANASPAZ** dicyclomine, hyoscyamine sulfate, hyoscyamine",
+        "Agents sulfate orally disintegrating tabs"
+      ]
+    }
+  ]
+}

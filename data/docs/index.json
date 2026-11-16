@@ -7,10 +7,12 @@
       "name": "2027 Advanced Control Plan, Aetna",
       "url": "https://fm.formularynavigator.com/FBO/41/2027_Advanced_Control_Plan_Aetna.pdf",
       "kind": "pdf",
-      "cadence": "updated the first week of each month (per the document)",
+      "family": "aetna-acp",
+      "parser": "aetna-guide",
+      "cadence": "updated the first week of each month",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:11.427Z",
+      "last_checked": "2026-11-16T20:10:38.138Z",
       "last_change": "20261022-211806",
       "error": null
     },
@@ -21,10 +23,11 @@
       "name": "National Preferred Formulary exclusion changes effective July 1, 2026",
       "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/NPF%207.1.26%20Changes.pdf?version=0",
       "kind": "pdf",
+      "parser": "esi-exclusions",
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:12.630Z",
+      "last_checked": "2026-11-16T20:11:15.896Z",
       "last_change": "20261022-211455",
       "error": null
     },
@@ -35,10 +38,11 @@
       "name": "National Preferred Formulary exclusion changes effective January 1, 2026",
       "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Changes.250806.pdf?version=0",
       "kind": "pdf",
+      "parser": "esi-exclusions",
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:12.684Z",
+      "last_checked": "2026-11-16T20:11:15.974Z",
       "last_change": "20261022-211455",
       "error": null
     },
@@ -49,10 +53,11 @@
       "name": "National Preferred Flex Formulary exclusion changes effective January 1, 2026",
       "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20NPF%20Flex%20Changes.250806.pdf?version=0",
       "kind": "pdf",
+      "parser": "esi-exclusions",
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:12.733Z",
+      "last_checked": "2026-11-16T20:11:16.058Z",
       "last_change": "20261022-211456",
       "error": null
     },
@@ -63,11 +68,12 @@
       "name": "Optum Rx formulary and UM updates page (Pharmacy Passages index)",
       "url": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "kind": "html",
+      "parser": "none",
       "cadence": "monthly",
       "verified": "yes",
       "status": "update",
-      "last_checked": "2026-11-16T19:46:13.394Z",
-      "last_change": "20261116-194613",
+      "last_checked": "2026-11-16T20:11:16.431Z",
+      "last_change": "20261116-201116",
       "error": null
     },
     "optum-pharmacy-passages-mar-2026": {
@@ -91,10 +97,11 @@
       "name": "Pharmacy Passages, September 2025 (Jan 2026 cycle)",
       "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/forms/PharmacyPassages-September-2025.pdf",
       "kind": "pdf",
+      "parser": "optum-passages",
       "cadence": "monthly",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:13.648Z",
+      "last_checked": "2026-11-16T20:11:16.768Z",
       "last_change": "20261022-211456",
       "error": null
     },
@@ -110,7 +117,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.267Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:13.876Z",
+      "last_checked": "2026-11-16T20:11:23.358Z",
       "last_change": "20261022-212153",
       "error": null
     },
@@ -126,7 +133,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:14.160Z",
+      "last_checked": "2026-11-16T20:11:23.672Z",
       "last_change": "20261022-212153",
       "error": null
     },
@@ -142,7 +149,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:14.399Z",
+      "last_checked": "2026-11-16T20:11:23.954Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -158,7 +165,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:14.632Z",
+      "last_checked": "2026-11-16T20:11:24.239Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -174,7 +181,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:14.882Z",
+      "last_checked": "2026-11-16T20:11:24.586Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -190,7 +197,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:15.113Z",
+      "last_checked": "2026-11-16T20:11:24.934Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -206,7 +213,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:15.333Z",
+      "last_checked": "2026-11-16T20:11:25.175Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -222,7 +229,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:15.606Z",
+      "last_checked": "2026-11-16T20:11:25.479Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -238,7 +245,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:15.840Z",
+      "last_checked": "2026-11-16T20:11:25.811Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -254,7 +261,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:16.095Z",
+      "last_checked": "2026-11-16T20:11:26.105Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -270,7 +277,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:16.359Z",
+      "last_checked": "2026-11-16T20:11:26.561Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -286,7 +293,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:16.576Z",
+      "last_checked": "2026-11-16T20:11:26.835Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -297,10 +304,12 @@
       "name": "2026 Advanced Control Plan, Aetna",
       "url": "https://fm.formularynavigator.com/FBO/41/2026_Advanced_Control_Plan_Aetna.pdf",
       "kind": "pdf",
+      "family": "aetna-acp",
+      "parser": "aetna-guide",
       "cadence": "monthly",
       "verified": "inferred",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:12.159Z",
+      "last_checked": "2026-11-16T20:10:40.332Z",
       "last_change": "20261022-212410",
       "error": null
     },
@@ -316,7 +325,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-11-03T19:56:00.227Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:16.841Z",
+      "last_checked": "2026-11-16T20:11:27.091Z",
       "last_change": "20261103-195602",
       "error": null
     },
@@ -332,8 +341,1292 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-11-03T19:56:00.227Z",
       "status": "unchanged",
-      "last_checked": "2026-11-16T19:46:17.085Z",
+      "last_checked": "2026-11-16T20:11:27.437Z",
       "last_change": "20261103-195603",
+      "error": null
+    },
+    "aetna-acp-official-2027": {
+      "id": "aetna-acp-official-2027",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "2027 Advanced Control Plan drug guide (aetna.com)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/2027_Drug_guide_Advanced_Control.pdf",
+      "kind": "pdf",
+      "family": "aetna-acp-official",
+      "parser": "aetna-guide",
+      "cadence": "monthly",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:10:41.257Z",
+      "last_change": "20261116-201041",
+      "error": null
+    },
+    "aetna-acp-official-2026": {
+      "id": "aetna-acp-official-2026",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "2026 Advanced Control Plan drug guide (aetna.com)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/2026_Advanced_Control_Plan_Aetna_01012026.pdf",
+      "kind": "pdf",
+      "family": "aetna-acp-official",
+      "parser": "aetna-guide",
+      "cadence": "monthly",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:10:42.364Z",
+      "last_change": "20261116-201041",
+      "error": null
+    },
+    "aetna-scc-exclusions-2026": {
+      "id": "aetna-scc-exclusions-2026",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "2026 Formulary Exclusions, Standard Control Choice with ACSF",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/2026-exclusions-drug-list-standard-control-choice-wACSF.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "cadence": "quarterly",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:10:42.942Z",
+      "last_change": "20261116-201042",
+      "error": null
+    },
+    "aetna-soc-advanced-control": {
+      "id": "aetna-soc-advanced-control",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "Aetna Advanced Control: Summary of Changes",
+      "kind": "probe",
+      "cadence": "quarterly",
+      "status": "probe: 25 documents",
+      "last_checked": "2026-11-16T20:10:58.344Z",
+      "last_change": null
+    },
+    "aetna-soc-standard-control": {
+      "id": "aetna-soc-standard-control",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "Aetna Standard Control: Summary of Changes",
+      "kind": "probe",
+      "cadence": "quarterly",
+      "status": "probe: 12 documents",
+      "last_checked": "2026-11-16T20:11:02.806Z",
+      "last_change": null
+    },
+    "aetna-soc-standard-control-choice": {
+      "id": "aetna-soc-standard-control-choice",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "Aetna Standard Control Choice with ACSF: Summary of Changes",
+      "kind": "probe",
+      "cadence": "quarterly",
+      "status": "probe: 12 documents",
+      "last_checked": "2026-11-16T20:11:06.799Z",
+      "last_change": null
+    },
+    "aetna-soc-advanced-control-modified-um": {
+      "id": "aetna-soc-advanced-control-modified-um",
+      "pbm": "CVS Caremark",
+      "owner": "aetna.com document library",
+      "name": "Aetna Advanced Control (Modified PA and ST): Summary of Changes",
+      "kind": "probe",
+      "cadence": "quarterly",
+      "status": "probe: 8 documents",
+      "last_checked": "2026-11-16T20:11:10.055Z",
+      "last_change": null
+    },
+    "esi-npf-exclusions-2026": {
+      "id": "esi-npf-exclusions-2026",
+      "pbm": "Express Scripts",
+      "owner": "express-scripts.com",
+      "name": "2026 National Preferred Formulary exclusions (full list)",
+      "url": "https://express-scripts.com/2026drugs",
+      "kind": "pdf",
+      "family": "esi-npf-exclusions",
+      "parser": "esi-exclusions",
+      "cadence": "updated through the year",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:11.997Z",
+      "last_change": "20261116-201111",
+      "error": null
+    },
+    "esi-npf-flex-exclusions-2026": {
+      "id": "esi-npf-flex-exclusions-2026",
+      "pbm": "Express Scripts",
+      "owner": "express-scripts.com",
+      "name": "2026 National Preferred Flex Formulary exclusions (full list)",
+      "url": "https://express-scripts.com/2026flex",
+      "kind": "pdf",
+      "family": "esi-flex-exclusions",
+      "parser": "esi-exclusions",
+      "cadence": "updated through the year",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:12.706Z",
+      "last_change": "20261116-201112",
+      "error": null
+    },
+    "esi-npf-exclusions-2027": {
+      "id": "esi-npf-exclusions-2027",
+      "pbm": "Express Scripts",
+      "owner": "express-scripts.com",
+      "name": "2027 National Preferred Formulary exclusions (full list)",
+      "url": "https://express-scripts.com/2027drugs",
+      "kind": "pdf",
+      "family": "esi-npf-exclusions",
+      "parser": "esi-exclusions",
+      "cadence": "posted around year end",
+      "verified": "inferred",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:13.760Z",
+      "last_change": "20261116-201113",
+      "error": null
+    },
+    "esi-npf-flex-exclusions-2027": {
+      "id": "esi-npf-flex-exclusions-2027",
+      "pbm": "Express Scripts",
+      "owner": "express-scripts.com",
+      "name": "2027 National Preferred Flex Formulary exclusions (full list)",
+      "url": "https://express-scripts.com/2027flex",
+      "kind": "pdf",
+      "family": "esi-flex-exclusions",
+      "parser": "esi-exclusions",
+      "cadence": "posted around year end",
+      "verified": "inferred",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:14.509Z",
+      "last_change": "20261116-201114",
+      "error": null
+    },
+    "esi-npf-changes-jan-2027": {
+      "id": "esi-npf-changes-jan-2027",
+      "pbm": "Express Scripts",
+      "owner": "Evernorth",
+      "name": "National Preferred Formulary exclusion changes effective January 1, 2027",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2027%20NPF%20Exclusion%20Changes.pdf?version=0",
+      "kind": "pdf",
+      "parser": "esi-exclusions",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:15.155Z",
+      "last_change": "20261116-201115",
+      "error": null
+    },
+    "esi-flex-changes-jan-2027": {
+      "id": "esi-flex-changes-jan-2027",
+      "pbm": "Express Scripts",
+      "owner": "Evernorth",
+      "name": "National Preferred Flex Formulary exclusion changes effective January 1, 2027",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2027%20Flex%20Exclusion%20Changes.pdf?version=0",
+      "kind": "pdf",
+      "parser": "esi-exclusions",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:15.541Z",
+      "last_change": "20261116-201115",
+      "error": null
+    },
+    "esi-basic-hpf-changes-jan-2027": {
+      "id": "esi-basic-hpf-changes-jan-2027",
+      "pbm": "Express Scripts",
+      "owner": "Evernorth",
+      "name": "Basic and High Performance Formulary status updates effective January 1, 2027",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2027%20Basic%20and%20HPF%20changes%20for%20early%20send.pdf?version=0",
+      "kind": "pdf",
+      "parser": "none",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:15.820Z",
+      "last_change": "20261116-201115",
+      "error": null
+    },
+    "esi-consultant-updates-page": {
+      "id": "esi-consultant-updates-page",
+      "pbm": "Express Scripts",
+      "owner": "evernorth.com",
+      "name": "Evernorth formulary updates page (consultant)",
+      "url": "https://www.evernorth.com/consultant-2026-annualformularyupdates",
+      "kind": "html",
+      "parser": "none",
+      "cadence": "January and July",
+      "verified": "yes",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:16.376Z",
+      "last_change": "20261116-201116",
+      "error": null
+    },
+    "optum-premium-um-lists": {
+      "id": "optum-premium-um-lists",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium formulary UM lists (ST, PA, QL) by cycle",
+      "kind": "probe",
+      "cadence": "January and July",
+      "status": "probe: 9 documents",
+      "last_checked": "2026-11-16T20:11:22.252Z",
+      "last_change": null
+    },
+    "optum-premium-standard-formulary-jul-2026": {
+      "id": "optum-premium-standard-formulary-jul-2026",
+      "pbm": "Optum Rx",
+      "owner": "hr.brown.edu (client copy)",
+      "name": "Optum Rx Premium Standard Formulary, July 2026 cycle (client copy)",
+      "url": "https://hr.brown.edu/sites/default/files/health-wellness/prescriptions/July%202026%20B2C%20Cycle%20Premium%20Formulary%20Booklet_Standard_Abridged_508.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "cadence": "January and July",
+      "verified": "client copy",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:23.057Z",
+      "last_change": "20261116-201123",
+      "error": null
+    },
+    "aetna-soc-acp-20240101-soc-for-01-01-24-advance": {
+      "id": "aetna-soc-acp-20240101-soc-for-01-01-24-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2024-01-01 (SOC-for-01.01.24-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.24-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2024-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:27.619Z",
+      "last_change": "20261116-201127",
+      "error": null
+    },
+    "aetna-soc-acp-20240401-soc-for-04-01-24-advance": {
+      "id": "aetna-soc-acp-20240401-soc-for-04-01-24-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2024-04-01 (SOC-for-04.01.24-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.24-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2024-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:28.002Z",
+      "last_change": "20261116-201127",
+      "error": null
+    },
+    "aetna-soc-acp-20240701-soc-for-07-01-24-advance": {
+      "id": "aetna-soc-acp-20240701-soc-for-07-01-24-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2024-07-01 (SOC-for-07.01.24-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.24-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2024-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:28.238Z",
+      "last_change": "20261116-201128",
+      "error": null
+    },
+    "aetna-soc-acp-20241001-soc-for-10-01-24-advance": {
+      "id": "aetna-soc-acp-20241001-soc-for-10-01-24-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2024-10-01 (SOC-for-10.01.24-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.24-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2024-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:28.469Z",
+      "last_change": "20261116-201128",
+      "error": null
+    },
+    "aetna-soc-acp-20250101-soc-for-01-01-25-advance": {
+      "id": "aetna-soc-acp-20250101-soc-for-01-01-25-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2025-01-01 (SOC-for-01.01.25-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.25-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2025-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:28.769Z",
+      "last_change": "20261116-201128",
+      "error": null
+    },
+    "aetna-soc-acp-20250401-soc-for-04-01-25-advance": {
+      "id": "aetna-soc-acp-20250401-soc-for-04-01-25-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2025-04-01 (SOC-for-04.01.25-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.25-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2025-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:28.876Z",
+      "last_change": "20261116-201128",
+      "error": null
+    },
+    "aetna-soc-acp-20250701-soc-for-07-01-25-advance": {
+      "id": "aetna-soc-acp-20250701-soc-for-07-01-25-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2025-07-01 (SOC-for-07.01.25-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.25-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2025-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:29.110Z",
+      "last_change": "20261116-201129",
+      "error": null
+    },
+    "aetna-soc-acp-20251001-soc-for-10-01-25-advance": {
+      "id": "aetna-soc-acp-20251001-soc-for-10-01-25-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2025-10-01 (SOC-for-10.01.25-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.25-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2025-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:29.213Z",
+      "last_change": "20261116-201129",
+      "error": null
+    },
+    "aetna-soc-acp-20260101-soc-for-01-01-26-advance": {
+      "id": "aetna-soc-acp-20260101-soc-for-01-01-26-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2026-01-01 (SOC-for-01.01.26-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.26-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2026-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:29.274Z",
+      "last_change": "20261116-201129",
+      "error": null
+    },
+    "aetna-soc-acp-20260401-soc-for-04-01-26-advance": {
+      "id": "aetna-soc-acp-20260401-soc-for-04-01-26-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2026-04-01 (SOC-for-04.01.26-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.26-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2026-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:29.379Z",
+      "last_change": "20261116-201129",
+      "error": null
+    },
+    "aetna-soc-acp-20260701-soc-for-07-01-26-advance": {
+      "id": "aetna-soc-acp-20260701-soc-for-07-01-26-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2026-07-01 (SOC-for-07.01.26-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.26-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2026-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:29.547Z",
+      "last_change": "20261116-201129",
+      "error": null
+    },
+    "aetna-soc-acp-20261001-soc-for-10-01-26-advance": {
+      "id": "aetna-soc-acp-20261001-soc-for-10-01-26-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2026-10-01 (SOC-for-10.01.26-Advanced-Control-Aetna.pdf)",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.26-Advanced-Control-Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2026-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:29.695Z",
+      "last_change": "20261116-201129",
+      "error": null
+    },
+    "aetna-soc-acp-20270101-soc-for-01-01-27-advance": {
+      "id": "aetna-soc-acp-20270101-soc-for-01-01-27-advance",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control changes effective 2027-01-01 (SOC_for_01_01_27_Advanced_Control_Aetna.pdf)",
+      "url": "https://www.aetna.com/pharmacy/JAN27QNOC_SOCs/SOC_for_01_01_27_Advanced_Control_Aetna.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control",
+      "effective": "2027-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control",
+      "found_at": "2026-11-16T20:10:58.344Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:30.381Z",
+      "last_change": "20261116-201130",
+      "error": null
+    },
+    "aetna-soc-sc-20240101": {
+      "id": "aetna-soc-sc-20240101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2024-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.24-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2024-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:30.839Z",
+      "last_change": "20261116-201130",
+      "error": null
+    },
+    "aetna-soc-sc-20240401": {
+      "id": "aetna-soc-sc-20240401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2024-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.24-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2024-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:31.024Z",
+      "last_change": "20261116-201130",
+      "error": null
+    },
+    "aetna-soc-sc-20240701": {
+      "id": "aetna-soc-sc-20240701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2024-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.24-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2024-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:31.354Z",
+      "last_change": "20261116-201131",
+      "error": null
+    },
+    "aetna-soc-sc-20241001": {
+      "id": "aetna-soc-sc-20241001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2024-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.24-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2024-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:31.725Z",
+      "last_change": "20261116-201131",
+      "error": null
+    },
+    "aetna-soc-sc-20250101": {
+      "id": "aetna-soc-sc-20250101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2025-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.25-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2025-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:31.889Z",
+      "last_change": "20261116-201131",
+      "error": null
+    },
+    "aetna-soc-sc-20250401": {
+      "id": "aetna-soc-sc-20250401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2025-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.25-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2025-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:32.371Z",
+      "last_change": "20261116-201132",
+      "error": null
+    },
+    "aetna-soc-sc-20250701": {
+      "id": "aetna-soc-sc-20250701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2025-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.25-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2025-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:32.590Z",
+      "last_change": "20261116-201132",
+      "error": null
+    },
+    "aetna-soc-sc-20251001": {
+      "id": "aetna-soc-sc-20251001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2025-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.25-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2025-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:32.709Z",
+      "last_change": "20261116-201132",
+      "error": null
+    },
+    "aetna-soc-sc-20260101": {
+      "id": "aetna-soc-sc-20260101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2026-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.26-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2026-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:32.880Z",
+      "last_change": "20261116-201132",
+      "error": null
+    },
+    "aetna-soc-sc-20260401": {
+      "id": "aetna-soc-sc-20260401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2026-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.26-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2026-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:33.048Z",
+      "last_change": "20261116-201133",
+      "error": null
+    },
+    "aetna-soc-sc-20260701": {
+      "id": "aetna-soc-sc-20260701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2026-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.26-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2026-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:33.319Z",
+      "last_change": "20261116-201133",
+      "error": null
+    },
+    "aetna-soc-sc-20261001": {
+      "id": "aetna-soc-sc-20261001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control changes effective 2026-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.26-Standard-Control.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control",
+      "effective": "2026-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control",
+      "found_at": "2026-11-16T20:11:02.806Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:33.520Z",
+      "last_change": "20261116-201133",
+      "error": null
+    },
+    "aetna-soc-scc-20240101": {
+      "id": "aetna-soc-scc-20240101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2024-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.24-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2024-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:33.864Z",
+      "last_change": "20261116-201133",
+      "error": null
+    },
+    "aetna-soc-scc-20240401": {
+      "id": "aetna-soc-scc-20240401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2024-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.24-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2024-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:33.976Z",
+      "last_change": "20261116-201133",
+      "error": null
+    },
+    "aetna-soc-scc-20240701": {
+      "id": "aetna-soc-scc-20240701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2024-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.24-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2024-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:34.297Z",
+      "last_change": "20261116-201134",
+      "error": null
+    },
+    "aetna-soc-scc-20241001": {
+      "id": "aetna-soc-scc-20241001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2024-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.24-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2024-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:34.685Z",
+      "last_change": "20261116-201134",
+      "error": null
+    },
+    "aetna-soc-scc-20250101": {
+      "id": "aetna-soc-scc-20250101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2025-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.25-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2025-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:35.050Z",
+      "last_change": "20261116-201134",
+      "error": null
+    },
+    "aetna-soc-scc-20250401": {
+      "id": "aetna-soc-scc-20250401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2025-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.25-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2025-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:35.607Z",
+      "last_change": "20261116-201135",
+      "error": null
+    },
+    "aetna-soc-scc-20250701": {
+      "id": "aetna-soc-scc-20250701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2025-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.25-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2025-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:35.733Z",
+      "last_change": "20261116-201135",
+      "error": null
+    },
+    "aetna-soc-scc-20251001": {
+      "id": "aetna-soc-scc-20251001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2025-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.25-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2025-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:35.860Z",
+      "last_change": "20261116-201135",
+      "error": null
+    },
+    "aetna-soc-scc-20260101": {
+      "id": "aetna-soc-scc-20260101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2026-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.26-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2026-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:36.028Z",
+      "last_change": "20261116-201135",
+      "error": null
+    },
+    "aetna-soc-scc-20260401": {
+      "id": "aetna-soc-scc-20260401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2026-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.26-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2026-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:36.166Z",
+      "last_change": "20261116-201136",
+      "error": null
+    },
+    "aetna-soc-scc-20260701": {
+      "id": "aetna-soc-scc-20260701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2026-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.26-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2026-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:36.460Z",
+      "last_change": "20261116-201136",
+      "error": null
+    },
+    "aetna-soc-scc-20261001": {
+      "id": "aetna-soc-scc-20261001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Standard Control Choice changes effective 2026-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.26-Standard-Control-Choice-with-ACSF.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-standard-control-choice",
+      "effective": "2026-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-standard-control-choice",
+      "found_at": "2026-11-16T20:11:06.799Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:36.596Z",
+      "last_change": "20261116-201136",
+      "error": null
+    },
+    "aetna-soc-acpum-20250101": {
+      "id": "aetna-soc-acpum-20250101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2025-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.25-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2025-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:36.910Z",
+      "last_change": "20261116-201136",
+      "error": null
+    },
+    "aetna-soc-acpum-20250401": {
+      "id": "aetna-soc-acpum-20250401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2025-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.25-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2025-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:37.055Z",
+      "last_change": "20261116-201137",
+      "error": null
+    },
+    "aetna-soc-acpum-20250701": {
+      "id": "aetna-soc-acpum-20250701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2025-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.25-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2025-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:37.334Z",
+      "last_change": "20261116-201137",
+      "error": null
+    },
+    "aetna-soc-acpum-20251001": {
+      "id": "aetna-soc-acpum-20251001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2025-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.25-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2025-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:37.668Z",
+      "last_change": "20261116-201137",
+      "error": null
+    },
+    "aetna-soc-acpum-20260101": {
+      "id": "aetna-soc-acpum-20260101",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2026-01-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-01.01.26-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2026-01-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:37.744Z",
+      "last_change": "20261116-201137",
+      "error": null
+    },
+    "aetna-soc-acpum-20260401": {
+      "id": "aetna-soc-acpum-20260401",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2026-04-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-04.01.26-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2026-04-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:37.884Z",
+      "last_change": "20261116-201137",
+      "error": null
+    },
+    "aetna-soc-acpum-20260701": {
+      "id": "aetna-soc-acpum-20260701",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2026-07-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-07.01.26-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2026-07-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:38.038Z",
+      "last_change": "20261116-201137",
+      "error": null
+    },
+    "aetna-soc-acpum-20261001": {
+      "id": "aetna-soc-acpum-20261001",
+      "pbm": "CVS Caremark",
+      "owner": "www.aetna.com",
+      "name": "Aetna Advanced Control (Modified UM) changes effective 2026-10-01",
+      "url": "https://www.aetna.com/content/dam/aetna/pdfs/aetnacom/individuals-families-health-insurance/document-library/pharmacy/SOC-for-10.01.26-Advanced-Control-Modified-Prior-Authorization-and-Step-therapy.pdf",
+      "kind": "pdf",
+      "parser": "aetna-soc",
+      "family": "aetna-soc-advanced-control-modified-um",
+      "effective": "2026-10-01",
+      "cadence": "quarterly",
+      "verified": "probed",
+      "discovered_from": "aetna-soc-advanced-control-modified-um",
+      "found_at": "2026-11-16T20:11:10.055Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:38.220Z",
+      "last_change": "20261116-201138",
+      "error": null
+    },
+    "esi-2026-20basic-20and-20hpf-20changes-20for-20hp-20early-20send": {
+      "id": "esi-2026-20basic-20and-20hpf-20changes-20for-20hp-20early-20send",
+      "pbm": "Express Scripts",
+      "owner": "my.comms.evernorth.com",
+      "name": "Express Scripts: 2026%20Basic%20and%20HPF%20changes%20for%20HP%20early%20send.pdf",
+      "url": "https://my.comms.evernorth.com/rs/190-RZO-340/images/2026%20Basic%20and%20HPF%20changes%20for%20HP%20early%20send.pdf?version=0&mkt_tok=MTkwLVJaTy0zNDAAAAGgczm74GmR6-DtO-1kgieziQLBAyeR1rjRA5L_OV3hAodWLqHL5pPqnsUVh1_KeqGnI-hKQx9D7IPqpYrKdw",
+      "kind": "pdf",
+      "parser": "esi-exclusions",
+      "cadence": "January and July",
+      "verified": "discovered",
+      "discovered_from": "https://www.evernorth.com/consultant-2026-annualformularyupdates",
+      "found_at": "2026-11-16T20:11:16.376Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:38.506Z",
+      "last_change": "20261116-201138",
+      "error": null
+    },
+    "optum-um-20260101-st-premium-um-drug-list-": {
+      "id": "optum-um-20260101-st-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2026-01-01 (st-premium-um-drug-list-010126.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/st-premium-um-drug-list-010126.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2026-01-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.251Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:38.806Z",
+      "last_change": "20261116-201138",
+      "error": null
+    },
+    "optum-um-20260101-pa-premium-um-drug-list-": {
+      "id": "optum-um-20260101-pa-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2026-01-01 (pa-premium-um-drug-list-010126.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/pa-premium-um-drug-list-010126.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2026-01-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.251Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:39.214Z",
+      "last_change": "20261116-201139",
+      "error": null
+    },
+    "optum-um-20260101-ql-premium-um-drug-list-": {
+      "id": "optum-um-20260101-ql-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2026-01-01 (ql-premium-um-drug-list-010126.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/ql-premium-um-drug-list-010126.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2026-01-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.251Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:39.594Z",
+      "last_change": "20261116-201139",
+      "error": null
+    },
+    "optum-um-20260701-st-premium-um-drug-list-": {
+      "id": "optum-um-20260701-st-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2026-07-01 (st-premium-um-drug-list-070126.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/st-premium-um-drug-list-070126.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2026-07-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.252Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:39.964Z",
+      "last_change": "20261116-201139",
+      "error": null
+    },
+    "optum-um-20260701-pa-premium-um-drug-list-": {
+      "id": "optum-um-20260701-pa-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2026-07-01 (pa-premium-um-drug-list-070126.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/pa-premium-um-drug-list-070126.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2026-07-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.252Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:40.177Z",
+      "last_change": "20261116-201140",
+      "error": null
+    },
+    "optum-um-20260701-ql-premium-um-drug-list-": {
+      "id": "optum-um-20260701-ql-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2026-07-01 (ql-premium-um-drug-list-070126.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/ql-premium-um-drug-list-070126.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2026-07-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.252Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:40.518Z",
+      "last_change": "20261116-201140",
+      "error": null
+    },
+    "optum-um-20270101-st-premium-um-drug-list-": {
+      "id": "optum-um-20270101-st-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2027-01-01 (st-premium-um-drug-list-010127.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/st-premium-um-drug-list-010127.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2027-01-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.252Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:40.974Z",
+      "last_change": "20261116-201140",
+      "error": null
+    },
+    "optum-um-20270101-pa-premium-um-drug-list-": {
+      "id": "optum-um-20270101-pa-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2027-01-01 (pa-premium-um-drug-list-010127.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/pa-premium-um-drug-list-010127.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2027-01-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.252Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:41.313Z",
+      "last_change": "20261116-201141",
+      "error": null
+    },
+    "optum-um-20270101-ql-premium-um-drug-list-": {
+      "id": "optum-um-20270101-ql-premium-um-drug-list-",
+      "pbm": "Optum Rx",
+      "owner": "business.optum.com",
+      "name": "Optum Rx Premium UM list 2027-01-01 (ql-premium-um-drug-list-010127.pdf)",
+      "url": "https://business.optum.com/content/dam/noindex-resources/consumers/pdfs/guides/ql-premium-um-drug-list-010127.pdf",
+      "kind": "pdf",
+      "parser": "none",
+      "family": "optum-premium-um-lists",
+      "effective": "2027-01-01",
+      "cadence": "January and July",
+      "verified": "probed",
+      "discovered_from": "optum-premium-um-lists",
+      "found_at": "2026-11-16T20:11:22.252Z",
+      "status": "baseline",
+      "last_checked": "2026-11-16T20:11:41.722Z",
+      "last_change": "20261116-201141",
       "error": null
     }
   },
@@ -3458,6 +4751,363 @@
         {
           "id": "optum-pharmacy-passages-ehb-october-2026",
           "status": "unchanged"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-16T20:11:41.722Z",
+      "results": [
+        {
+          "id": "aetna-acp-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-acp-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-acp-official-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-acp-official-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-scc-exclusions-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-exclusions-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-flex-exclusions-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-exclusions-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-flex-exclusions-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-changes-jan-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-flex-changes-jan-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-basic-hpf-changes-jan-2027",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-npf-changes-jul-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-changes-jan-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-flex-changes-jan-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-consultant-updates-page",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-formulary-updates-page",
+          "status": "update"
+        },
+        {
+          "id": "optum-pharmacy-passages-sep-2025",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-premium-standard-formulary-jul-2026",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-september-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-august-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-july-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-june-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-may-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-april-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-september-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-august-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-july-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-june-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-may-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-april-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-october-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-october-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20240101-soc-for-01-01-24-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20240401-soc-for-04-01-24-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20240701-soc-for-07-01-24-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20241001-soc-for-10-01-24-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20250101-soc-for-01-01-25-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20250401-soc-for-04-01-25-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20250701-soc-for-07-01-25-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20251001-soc-for-10-01-25-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20260101-soc-for-01-01-26-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20260401-soc-for-04-01-26-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20260701-soc-for-07-01-26-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20261001-soc-for-10-01-26-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acp-20270101-soc-for-01-01-27-advance",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20240101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20240401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20240701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20241001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20250101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20250401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20250701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20251001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20260101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20260401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20260701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-sc-20261001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20240101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20240401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20240701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20241001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20250101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20250401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20250701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20251001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20260101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20260401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20260701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-scc-20261001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20250101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20250401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20250701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20251001",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20260101",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20260401",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20260701",
+          "status": "baseline"
+        },
+        {
+          "id": "aetna-soc-acpum-20261001",
+          "status": "baseline"
+        },
+        {
+          "id": "esi-2026-20basic-20and-20hpf-20changes-20for-20hp-20early-20send",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20260101-st-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20260101-pa-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20260101-ql-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20260701-st-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20260701-pa-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20260701-ql-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20270101-st-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20270101-pa-premium-um-drug-list-",
+          "status": "baseline"
+        },
+        {
+          "id": "optum-um-20270101-ql-premium-um-drug-list-",
+          "status": "baseline"
         }
       ]
     }

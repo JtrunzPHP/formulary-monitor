@@ -1,0 +1,681 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ALPHAGAN P",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "ALPHAGAN P | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "AUVELITY",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "AUVELITY | Drug list addition (preferred brand)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "AUVELITY TITRATION PACK",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "AUVELITY TITRATION PACK | Drug list addition (preferred brand)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BENLYSTA",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "BENLYSTA | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BILPREVDA",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 vial every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "BILPREVDA | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 vial every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BOSULIF",
+      "change_text": "Non-formulary; not covered. Covered options include: bosutinib, dasatinib, imatinib mesylate, nilotinib, SCEMBLIX",
+      "change": "NOT_COVERED",
+      "alternatives": "bosutinib, dasatinib, imatinib mesylate, nilotinib, SCEMBLIX",
+      "effective": "January 1, 2027",
+      "text": "BOSULIF | Non-formulary; not covered. Covered options include: bosutinib, dasatinib, imatinib mesylate, nilotinib, SCEMBLIX"
+    },
+    {
+      "kind": "soc_change",
+      "name": "budesonide tab er 9mg",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "budesonide tab er 9mg | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "CORLANOR",
+      "change_text": "Non-formulary; not covered. Covered options include: ivabradine",
+      "change": "NOT_COVERED",
+      "alternatives": "ivabradine",
+      "effective": "January 1, 2027",
+      "text": "CORLANOR | Non-formulary; not covered. Covered options include: ivabradine"
+    },
+    {
+      "kind": "soc_change",
+      "name": "cyclosporine 0.05%",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "cyclosporine 0.05% | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ophthalmic emulsion DESCOVY",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "ophthalmic emulsion DESCOVY | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEXCOM G6 RECEIVER",
+      "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "change": "NOT_COVERED",
+      "alternatives": "FREESTYLE LIBRE",
+      "effective": "January 1, 2027",
+      "text": "DEXCOM G6 RECEIVER | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "watch_tickers": [
+        "DXCM"
+      ],
+      "watch_labels": [
+        "Dexcom CGM"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEXCOM G6 SENSOR",
+      "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "change": "NOT_COVERED",
+      "alternatives": "FREESTYLE LIBRE",
+      "effective": "January 1, 2027",
+      "text": "DEXCOM G6 SENSOR | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "watch_tickers": [
+        "DXCM"
+      ],
+      "watch_labels": [
+        "Dexcom CGM"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEXCOM G6 TRANSMITTER",
+      "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "change": "NOT_COVERED",
+      "alternatives": "FREESTYLE LIBRE",
+      "effective": "January 1, 2027",
+      "text": "DEXCOM G6 TRANSMITTER | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "watch_tickers": [
+        "DXCM"
+      ],
+      "watch_labels": [
+        "Dexcom CGM"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEXCOM G7 15 DAY SENSOR",
+      "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "change": "NOT_COVERED",
+      "alternatives": "FREESTYLE LIBRE",
+      "effective": "January 1, 2027",
+      "text": "DEXCOM G7 15 DAY SENSOR | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "watch_tickers": [
+        "DXCM"
+      ],
+      "watch_labels": [
+        "Dexcom CGM"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEXCOM G7 RECEIVER",
+      "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "change": "NOT_COVERED",
+      "alternatives": "FREESTYLE LIBRE",
+      "effective": "January 1, 2027",
+      "text": "DEXCOM G7 RECEIVER | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "watch_tickers": [
+        "DXCM"
+      ],
+      "watch_labels": [
+        "Dexcom CGM"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "DEXCOM G7 SENSOR",
+      "change_text": "Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "change": "NOT_COVERED",
+      "alternatives": "FREESTYLE LIBRE",
+      "effective": "January 1, 2027",
+      "text": "DEXCOM G7 SENSOR | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE",
+      "watch_tickers": [
+        "DXCM"
+      ],
+      "watch_labels": [
+        "Dexcom CGM"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "doxycycline cap 40mg",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "doxycycline cap 40mg | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ENTRESTO",
+      "change_text": "Non-formulary; not covered. Covered options include: sacubitril-valsartan",
+      "change": "NOT_COVERED",
+      "alternatives": "sacubitril-valsartan",
+      "effective": "January 1, 2027",
+      "text": "ENTRESTO | Non-formulary; not covered. Covered options include: sacubitril-valsartan"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EPCLUSA",
+      "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
+      "change": "NOT_COVERED",
+      "alternatives": "MAVYRET",
+      "effective": "January 1, 2027",
+      "text": "EPCLUSA | Non-formulary; not covered. Covered options include: MAVYRET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "estradiol vaginal tab",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "estradiol vaginal tab | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "fluticasone furoate ellipta",
+      "change_text": "Non-formulary; not covered. Covered options include: beclomethasone dipropionate HFA, ASMANEX HFA, PULMICORT FLEXHALER",
+      "change": "NOT_COVERED",
+      "alternatives": "beclomethasone dipropionate HFA, ASMANEX HFA, PULMICORT FLEXHALER",
+      "effective": "January 1, 2027",
+      "text": "fluticasone furoate ellipta | Non-formulary; not covered. Covered options include: beclomethasone dipropionate HFA, ASMANEX HFA, PULMICORT FLEXHALER"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FREESTYLE LIBRE 2",
+      "change_text": "Drug list addition (preferred brand); Quantity limits",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "FREESTYLE LIBRE 2 | Drug list addition (preferred brand); Quantity limits",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "PLUS/SENSOR/FLASH",
+      "change_text": "apply. Covered up to 2 sensors every 25 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "PLUS/SENSOR/FLASH | apply. Covered up to 2 sensors every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GLUCOSE MONITOR SYSTEM FREESTYLE LIBRE 3",
+      "change_text": "Drug list addition (preferred brand); Quantity limits",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "GLUCOSE MONITOR SYSTEM FREESTYLE LIBRE 3 | Drug list addition (preferred brand); Quantity limits",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre",
+        "Diabetic supplies (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "PLUS/SENSOR/GLUCOSE",
+      "change_text": "apply. Covered up to 2 sensors every 25 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "PLUS/SENSOR/GLUCOSE | apply. Covered up to 2 sensors every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MONITORING SYSTEM FREESTYLE LIBRE KIT",
+      "change_text": "Drug list addition (preferred brand); Quantity limits",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "MONITORING SYSTEM FREESTYLE LIBRE KIT | Drug list addition (preferred brand); Quantity limits",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "14D/SENSOR",
+      "change_text": "apply. Covered up to 2 sensors every 21 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "14D/SENSOR | apply. Covered up to 2 sensors every 21 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FREESTYLE LIBRE KIT",
+      "change_text": "Drug list addition (preferred brand); Quantity limits",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "FREESTYLE LIBRE KIT | Drug list addition (preferred brand); Quantity limits",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "2/SENSOR",
+      "change_text": "apply. Covered up to 2 sensors every 21 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "2/SENSOR | apply. Covered up to 2 sensors every 21 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FREESTYLE LIBRE KIT",
+      "change_text": "Drug list addition (preferred brand); Quantity limits",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "FREESTYLE LIBRE KIT | Drug list addition (preferred brand); Quantity limits",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "3/SENSOR",
+      "change_text": "apply. Covered up to 2 sensors every 21 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "3/SENSOR | apply. Covered up to 2 sensors every 21 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FREESTYLE LIBRE MIS",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "FREESTYLE LIBRE MIS | Drug list addition (preferred brand)",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "14D/READER FREESTYLE LIBRE MIS",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "14D/READER FREESTYLE LIBRE MIS | Drug list addition (preferred brand)",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "2/READER FREESTYLE LIBRE MIS",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "2/READER FREESTYLE LIBRE MIS | Drug list addition (preferred brand)",
+      "watch_tickers": [
+        "ABT"
+      ],
+      "watch_labels": [
+        "Abbott FreeStyle Libre"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "3/READER FREESTYLE",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "3/READER FREESTYLE | Drug list addition (preferred brand)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HARVONI",
+      "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
+      "change": "NOT_COVERED",
+      "alternatives": "MAVYRET",
+      "effective": "January 1, 2027",
+      "text": "HARVONI | Non-formulary; not covered. Covered options include: MAVYRET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMATROPE",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "HUMATROPE | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HYMPAVZI",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 8 pens every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "HYMPAVZI | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 8 pens every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "icosapent ethyl",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "icosapent ethyl | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "INFLIXIMAB",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 5 vials every 42 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "INFLIXIMAB | Drug list addition (preferred specialty); Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 5 vials every 42 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LEDIPASVIR/SOFOSBUVIR",
+      "change_text": "Drug list addition (non-preferred specialty)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "LEDIPASVIR/SOFOSBUVIR | Drug list addition (non-preferred specialty)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LIPFENDRA",
+      "change_text": "Drug list addition (preferred brand); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "LIPFENDRA | Drug list addition (preferred brand); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MAVYRET PAK 50-20MG",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 140 packets every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "MAVYRET PAK 50-20MG | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 140 packets every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MAVYRET TAB 100-40MG",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 84 tabs every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "MAVYRET TAB 100-40MG | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 84 tabs every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MIEBO",
+      "change_text": "Drug list addition (preferred brand)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "MIEBO | Drug list addition (preferred brand)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "OPSUMIT",
+      "change_text": "Non-formulary; not covered. Covered options include: ambrisentan, bosentan, macitentan",
+      "change": "NOT_COVERED",
+      "alternatives": "ambrisentan, bosentan, macitentan",
+      "effective": "January 1, 2027",
+      "text": "OPSUMIT | Non-formulary; not covered. Covered options include: ambrisentan, bosentan, macitentan"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ORACEA",
+      "change_text": "Non-formulary; not covered. Covered options include: doxycycline monohydrate delayed-rel capsule",
+      "change": "NOT_COVERED",
+      "alternatives": "doxycycline monohydrate delayed-rel capsule",
+      "effective": "January 1, 2027",
+      "text": "ORACEA | Non-formulary; not covered. Covered options include: doxycycline monohydrate delayed-rel capsule"
+    },
+    {
+      "kind": "soc_change",
+      "name": "POMALYST",
+      "change_text": "Non-formulary; not covered. Covered options include: pomalidomide",
+      "change": "NOT_COVERED",
+      "alternatives": "pomalidomide",
+      "effective": "January 1, 2027",
+      "text": "POMALYST | Non-formulary; not covered. Covered options include: pomalidomide"
+    },
+    {
+      "kind": "soc_change",
+      "name": "PONVORY",
+      "change_text": "Non-formulary; not covered. Covered options include: cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA",
+      "effective": "January 1, 2027",
+      "text": "PONVORY | Non-formulary; not covered. Covered options include: cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "RESTASIS SINGLE-DOSE",
+      "change_text": "Non-formulary; not covered. Covered options include: cyclosporine ophthalmic emulsion, MIEBO, RESTASIS MULTIDOSE, VEVYE",
+      "change": "NOT_COVERED",
+      "alternatives": "cyclosporine ophthalmic emulsion, MIEBO, RESTASIS MULTIDOSE, VEVYE",
+      "effective": "January 1, 2027",
+      "text": "RESTASIS SINGLE-DOSE | Non-formulary; not covered. Covered options include: cyclosporine ophthalmic emulsion, MIEBO, RESTASIS MULTIDOSE, VEVYE"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SOFOSBUVIR/VELPATASVIR",
+      "change_text": "Drug list addition (non-preferred specialty)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "SOFOSBUVIR/VELPATASVIR | Drug list addition (non-preferred specialty)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SOVALDI",
+      "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
+      "change": "NOT_COVERED",
+      "alternatives": "MAVYRET",
+      "effective": "January 1, 2027",
+      "text": "SOVALDI | Non-formulary; not covered. Covered options include: MAVYRET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TRULANCE",
+      "change_text": "Non-formulary; not covered. Covered options include: lubiprostone, LINZESS",
+      "change": "NOT_COVERED",
+      "alternatives": "lubiprostone, LINZESS",
+      "effective": "January 1, 2027",
+      "text": "TRULANCE | Non-formulary; not covered. Covered options include: lubiprostone, LINZESS"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TYSABRI",
+      "change_text": "Non-formulary; not covered. Covered options include: cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA",
+      "effective": "January 1, 2027",
+      "text": "TYSABRI | Non-formulary; not covered. Covered options include: cladribine, dimethyl fumarate delayed-rel, fingolimod, glatiramer, glatopa, teriflunomide, AVONEX, BAFIERTAM, BETASERON, BRIUMVI, KESIMPTA, MAYZENT, OCREVUS, OCREVUS ZUNOVO, REBIF, TYRUKO, VUMERITY, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "UCERIS",
+      "change_text": "Non-formulary; not covered. Covered options include: budesonide ext-rel tablets, balsalazide, mesalamine delayed-rel, mesalamine ext-rel, sulfasalazine, sulfasalazine delayed-rel",
+      "change": "NOT_COVERED",
+      "alternatives": "budesonide ext-rel tablets, balsalazide, mesalamine delayed-rel, mesalamine ext-rel, sulfasalazine, sulfasalazine delayed-rel",
+      "effective": "January 1, 2027",
+      "text": "UCERIS | Non-formulary; not covered. Covered options include: budesonide ext-rel tablets, balsalazide, mesalamine delayed-rel, mesalamine ext-rel, sulfasalazine, sulfasalazine delayed-rel"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VAGIFEM",
+      "change_text": "Non-formulary; not covered. Covered options include: estradiol vaginal cream, estradiol vaginal tab, yuvafem, IMVEXXY",
+      "change": "NOT_COVERED",
+      "alternatives": "estradiol vaginal cream, estradiol vaginal tab, yuvafem, IMVEXXY",
+      "effective": "January 1, 2027",
+      "text": "VAGIFEM | Non-formulary; not covered. Covered options include: estradiol vaginal cream, estradiol vaginal tab, yuvafem, IMVEXXY"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VASCEPA",
+      "change_text": "Non-formulary; not covered. Covered options include: icosapent ethyl, omega-3 acid ethyl esters",
+      "change": "NOT_COVERED",
+      "alternatives": "icosapent ethyl, omega-3 acid ethyl esters",
+      "effective": "January 1, 2027",
+      "text": "VASCEPA | Non-formulary; not covered. Covered options include: icosapent ethyl, omega-3 acid ethyl esters"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VELSIPITY",
+      "change_text": "Non-formulary; not covered. Covered options include: tofacitinib, tofacitinib ER, ADALIMUMAB­ ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC, ZEPOSIA",
+      "change": "NOT_COVERED",
+      "alternatives": "tofacitinib, tofacitinib ER, ADALIMUMAB­ ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC, ZEPOSIA",
+      "effective": "January 1, 2027",
+      "text": "VELSIPITY | Non-formulary; not covered. Covered options include: tofacitinib, tofacitinib ER, ADALIMUMAB­ ADAZ, ADALIMUMAB-FKJP, ENTYVIO SC, HYRIMOZ (by Cordavis), PYZCHIVA (by Cordavis), RINVOQ, SKYRIZI SC, TREMFYA SC, YESINTEK SC, ZEPOSIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VEOZAH",
+      "change_text": "Preauthorization required",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "VEOZAH | Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VERQUVO",
+      "change_text": "Non-formulary; not covered. Covered options include: dapagliflozin, ivabradine, sacubitril­ valsartan, JARDIANCE, KERENDIA",
+      "change": "NOT_COVERED",
+      "alternatives": "dapagliflozin, ivabradine, sacubitril­ valsartan, JARDIANCE, KERENDIA",
+      "effective": "January 1, 2027",
+      "text": "VERQUVO | Non-formulary; not covered. Covered options include: dapagliflozin, ivabradine, sacubitril­ valsartan, JARDIANCE, KERENDIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VOSEVI",
+      "change_text": "Non-formulary; not covered. Covered options include: MAVYRET",
+      "change": "NOT_COVERED",
+      "alternatives": "MAVYRET",
+      "effective": "January 1, 2027",
+      "text": "VOSEVI | Non-formulary; not covered. Covered options include: MAVYRET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "yuvafem",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "yuvafem | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "YUVIWEL INJ 1.3MG",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 vials every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "YUVIWEL INJ 1.3MG | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 vials every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "YUVIWEL INJ 2.8MG",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 vials every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "YUVIWEL INJ 2.8MG | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 vials every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "YUVIWEL INJ 5.5MG",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 8 vials every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "YUVIWEL INJ 5.5MG | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 8 vials every 28 days"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 17,
+    "tables": 5,
+    "effective": "January 1, 2027"
+  }
+}

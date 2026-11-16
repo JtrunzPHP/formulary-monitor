@@ -1,0 +1,27 @@
+{
+  "id": "aetna-soc-scc-20260401",
+  "stamp": "20261116-201136",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 318,
+  "watchlist_in_document": [
+    {
+      "line": 46,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Novo liraglutide"
+      ],
+      "text": "Endocrine and Metabolic, Antiobesity SAXENDA** liraglutide, orlistat, QSYMIA, WEGOVY",
+      "context": [
+        "MAYZENT, OCREVUS, REBIF, TYSABRI,",
+        "VUMERITY, ZEPOSIA",
+        "Endocrine and Metabolic, Antiobesity SAXENDA** liraglutide, orlistat, QSYMIA, WEGOVY",
+        "Hematologic, Platelet Aggregation BRILINTA** clopidogrel, prasugrel, ticagrelor",
+        "Inhibitors"
+      ]
+    }
+  ]
+}

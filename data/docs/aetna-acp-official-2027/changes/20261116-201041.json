@@ -1,0 +1,2479 @@
+{
+  "id": "aetna-acp-official-2027",
+  "stamp": "20261116-201041",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 7465,
+  "watchlist_in_document": [
+    {
+      "line": 752,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug ANDROGENS ANTIDIABETICS, INSULIN CALCIUM REGULATORS,",
+      "context": [
+        "Geneircdrug fluphenazine ext-rel Geneircdrug glatiramer",
+        "teriflunomide",
+        "Geneircdrug ANDROGENS ANTIDIABETICS, INSULIN CALCIUM REGULATORS,",
+        "AVONEX",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 765,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ANTIDIABETICS, INSULIN",
+      "context": [
+        "Branddrug",
+        "and VOGELXO) BILPREVDA",
+        "ANTIDIABETICS, INSULIN",
+        "Branddrug",
+        "BRIUMVI"
+      ]
+    },
+    {
+      "line": 790,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TYRUKO ANTIDIABETICS, INSULIN PARATHYROID HORMONES",
+      "context": [
+        "Branddrug",
+        "GLUCOSIDASE INHIBITORS CALCIUM REGULATORS,",
+        "TYRUKO ANTIDIABETICS, INSULIN PARATHYROID HORMONES",
+        "Branddrug",
+        "Geneircdrug acarbose"
+      ]
+    },
+    {
+      "line": 906,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "liraglutide ethinyl estradiol-norelgestromin",
+      "context": [
+        "Branddrug",
+        "ANTIDIABETICS, SULFONYLUREA iron",
+        "liraglutide ethinyl estradiol-norelgestromin",
+        "SUNOSI",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 911,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "MOUNJARO glimepiride ethinyl estradiol-norethindrone",
+      "context": [
+        "Geneircdrug",
+        "Branddrug",
+        "MOUNJARO glimepiride ethinyl estradiol-norethindrone",
+        "WAKIX",
+        "Branddrug Geneircdrug"
+      ]
+    },
+    {
+      "line": 916,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "OZEMPIC glipizide acetate-iron",
+      "context": [
+        "Geneircdrug",
+        "Branddrug",
+        "OZEMPIC glipizide acetate-iron",
+        "XYWAV",
+        "Branddrug Geneircdrug"
+      ]
+    },
+    {
+      "line": 920,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "RYBELSUS",
+      "context": [
+        "Branddrug Geneircdrug",
+        "Branddrug",
+        "RYBELSUS",
+        "Branddrug Geneircdrug glipizide ext-rel ethinyl estradiol-norgestimate",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 923,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "OPIOID AGONIST/ANTAGONIST TRULICITY",
+      "context": [
+        "Branddrug Geneircdrug glipizide ext-rel ethinyl estradiol-norgestimate",
+        "Geneircdrug",
+        "OPIOID AGONIST/ANTAGONIST TRULICITY",
+        "Branddrug",
+        "medroxyprogesterone acetate 150"
+      ]
+    },
+    {
+      "line": 928,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "liraglutide",
+      "context": [
+        "ANTIOBESITY Geneircdrug",
+        "buprenorphine-naloxone ANTIDIABETICS, INCRETIN mg/ml",
+        "liraglutide",
+        "Geneircdrug",
+        "sublingual"
+      ]
+    },
+    {
+      "line": 949,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug naloxone ANTIDIABETICS, INSULIN",
+      "context": [
+        "QSYMIA",
+        "Branddrug",
+        "Geneircdrug naloxone ANTIDIABETICS, INSULIN",
+        "Branddrug",
+        "NATAZIA"
+      ]
+    },
+    {
+      "line": 952,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY",
+      "context": [
+        "Branddrug",
+        "NATAZIA",
+        "WEGOVY",
+        "Branddrug",
+        "Geneircdrug naltrexone Branddrug"
+      ]
+    },
+    {
+      "line": 958,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY HD",
+      "context": [
+        "AWIQLI",
+        "Branddrug",
+        "WEGOVY HD",
+        "Branddrug",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 961,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "POSTHERPETIC NEURALGIA (PHN) FIASP",
+      "context": [
+        "Branddrug",
+        "Branddrug",
+        "POSTHERPETIC NEURALGIA (PHN) FIASP",
+        "Branddrug",
+        "ZEPBOUND"
+      ]
+    },
+    {
+      "line": 963,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND",
+      "context": [
+        "POSTHERPETIC NEURALGIA (PHN) FIASP",
+        "Branddrug",
+        "ZEPBOUND",
+        "Branddrug",
+        "DIABETIC SUPPLIES"
+      ]
+    },
+    {
+      "line": 965,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "DIABETIC SUPPLIES",
+      "context": [
+        "ZEPBOUND",
+        "Branddrug",
+        "DIABETIC SUPPLIES",
+        "gabapentin HUMULIN R U-500",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 966,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "gabapentin HUMULIN R U-500",
+      "context": [
+        "Branddrug",
+        "DIABETIC SUPPLIES",
+        "gabapentin HUMULIN R U-500",
+        "Branddrug",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 969,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "CALCIUM RECEPTOR AGONISTS ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "Branddrug",
+        "Geneircdrug",
+        "CALCIUM RECEPTOR AGONISTS ACCU-CHEK AVIVA PLUS STRIPS",
+        "INSULIN GLARGINE-YFGN",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 970,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN GLARGINE-YFGN",
+      "context": [
+        "Geneircdrug",
+        "CALCIUM RECEPTOR AGONISTS ACCU-CHEK AVIVA PLUS STRIPS",
+        "INSULIN GLARGINE-YFGN",
+        "Branddrug",
+        "GRALISE"
+      ]
+    },
+    {
+      "line": 976,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS cinacalcet",
+      "context": [
+        "Branddrug",
+        "AND KITS",
+        "LANTUS cinacalcet",
+        "ACCU-CHEK GUIDE STRIPS AND",
+        "Branddrug Geneircdrug"
+      ]
+    },
+    {
+      "line": 977,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK GUIDE STRIPS AND",
+      "context": [
+        "AND KITS",
+        "LANTUS cinacalcet",
+        "ACCU-CHEK GUIDE STRIPS AND",
+        "Branddrug Geneircdrug",
+        "NOVOLIN 70/30"
+      ]
+    },
+    {
+      "line": 979,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN 70/30",
+      "context": [
+        "ACCU-CHEK GUIDE STRIPS AND",
+        "Branddrug Geneircdrug",
+        "NOVOLIN 70/30",
+        "Branddrug",
+        "ENDOCRINE AND METABOLIC Branddrug"
+      ]
+    },
+    {
+      "line": 983,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN N",
+      "context": [
+        "ENDOCRINE AND METABOLIC Branddrug",
+        "CALCIUM REGULATORS, KITS",
+        "NOVOLIN N",
+        "ACCU-CHEK LANCETS / LANCING",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 984,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK LANCETS / LANCING",
+      "context": [
+        "CALCIUM REGULATORS, KITS",
+        "NOVOLIN N",
+        "ACCU-CHEK LANCETS / LANCING",
+        "Branddrug",
+        "BISPHOSPHONATES"
+      ]
+    },
+    {
+      "line": 987,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN R",
+      "context": [
+        "Branddrug",
+        "BISPHOSPHONATES",
+        "NOVOLIN R",
+        "Branddrug",
+        "ACROMEGALY"
+      ]
+    },
+    {
+      "line": 992,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG",
+      "context": [
+        "Branddrug",
+        "alendronate DEVICES",
+        "NOVOLOG",
+        "Branddrug",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 995,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "octreotide acetate kit ibandronate ACCU-CHEK SMARTVIEW STRIPS",
+      "context": [
+        "Branddrug",
+        "Geneircdrug",
+        "octreotide acetate kit ibandronate ACCU-CHEK SMARTVIEW STRIPS",
+        "NOVOLOG MIX 70/30",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 996,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30",
+      "context": [
+        "Geneircdrug",
+        "octreotide acetate kit ibandronate ACCU-CHEK SMARTVIEW STRIPS",
+        "NOVOLOG MIX 70/30",
+        "Branddrug",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 1003,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TOUJEO",
+      "context": [
+        "SOMATULINE DEPOT risedronate AND KITS",
+        "Branddrug",
+        "TOUJEO",
+        "Branddrug",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 1006,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "zoledronic acid BD ULTRAFINE INSULIN SYRINGES",
+      "context": [
+        "Branddrug",
+        "Geneircdrug",
+        "zoledronic acid BD ULTRAFINE INSULIN SYRINGES",
+        "TRESIBA",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 1007,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TRESIBA",
+      "context": [
+        "Geneircdrug",
+        "zoledronic acid BD ULTRAFINE INSULIN SYRINGES",
+        "TRESIBA",
+        "Branddrug",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 1013,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "EMBECTA ULTRAFINE INSULIN",
+      "context": [
+        "BD ULTRAFINE NEEDLES",
+        "Branddrug",
+        "EMBECTA ULTRAFINE INSULIN",
+        "Branddrug LYSOSOMAL STORAGE DISORDERS Geneircdrug paricalcitol MISCELLANEOUS",
+        "SYRINGES (except certain NDCs) - GAUCHER DISEASE misoprostol"
+      ]
+    },
+    {
+      "line": 1026,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "Branddrug sucralfate tablet",
+        "Geneircdrug",
+        "FREESTYLE LIBRE CONTINUOUS",
+        "Branddrug",
+        "ANTICHOLINERGICS ursodiol"
+      ]
+    },
+    {
+      "line": 1031,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "GLUCOSE MONITORING SYSTEM IQIRVO",
+      "context": [
+        "MENOPAUSAL SYMPTOM AGENTS",
+        "Geneircdrug",
+        "GLUCOSE MONITORING SYSTEM IQIRVO",
+        "dicyclomine Branddrug",
+        "OMNIPOD 5 INSULIN INFUSION"
+      ]
+    },
+    {
+      "line": 1033,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5 INSULIN INFUSION",
+      "context": [
+        "GLUCOSE MONITORING SYSTEM IQIRVO",
+        "dicyclomine Branddrug",
+        "OMNIPOD 5 INSULIN INFUSION",
+        "Geneircdrug",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 1043,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD DASH INSULIN estradiol vaginal cream PANCREATIC ENZYMES",
+      "context": [
+        "Geneircdrug",
+        "ANTIDIARRHEALS",
+        "OMNIPOD DASH INSULIN estradiol vaginal cream PANCREATIC ENZYMES",
+        "Branddrug",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 1051,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION",
+      "context": [
+        "Geneircdrug loperamide CREON",
+        "Branddrug",
+        "OMNIPOD INSULIN INFUSION",
+        "Branddrug",
+        "estradiol-norethindrone"
+      ]
+    },
+    {
+      "line": 1065,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "TRUEPLUS LANCETS PROTON PUMP INHIBITORS",
+      "context": [
+        "Branddrug aprepitant",
+        "Geneircdrug",
+        "TRUEPLUS LANCETS PROTON PUMP INHIBITORS",
+        "Branddrug",
+        "COMBIPATCH"
+      ]
+    },
+    {
+      "line": 1070,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TWIIST INSULIN INFUSION PUMP",
+      "context": [
+        "Branddrug doxylamine-pyridoxine delayed-rel",
+        "Geneircdrug",
+        "TWIIST INSULIN INFUSION PUMP",
+        "Branddrug",
+        "IMVEXXY"
+      ]
+    },
+    {
+      "line": 1913,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "Geneircdrug 66993001968) dextroamphetamine mixed AVONEX",
+        "Branddrug",
+        "ACCU-CHEK AVIVA PLUS STRIPS",
+        "Branddrug ALECENSA",
+        "Branddrug salts AVSOLA"
+      ]
+    },
+    {
+      "line": 1921,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK GUIDE STRIPS AND",
+      "context": [
+        "Geneircdrug AWIQLI",
+        "Branddrug",
+        "ACCU-CHEK GUIDE STRIPS AND",
+        "Branddrug alfuzosin ext-rel",
+        "Geneircdrug dextroamphetamine mixed azathioprine"
+      ]
+    },
+    {
+      "line": 1928,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK LANCETS / LANCING",
+      "context": [
+        "Geneircdrug salts ext-rel azelaic acid gel",
+        "Geneircdrug",
+        "ACCU-CHEK LANCETS / LANCING",
+        "Branddrug allopurinol",
+        "Geneircdrug anagrelide"
+      ]
+    },
+    {
+      "line": 1937,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK SMARTVIEW STRIPS",
+      "context": [
+        "Geneircdrug azelastine",
+        "Geneircdrug",
+        "ACCU-CHEK SMARTVIEW STRIPS",
+        "Branddrug",
+        "alprazolam"
+      ]
+    },
+    {
+      "line": 1995,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BD ULTRAFINE INSULIN",
+      "context": [
+        "Geneircdrug ASMANEX HFA",
+        "Branddrug",
+        "BD ULTRAFINE INSULIN",
+        "Branddrug",
+        "pad) amlodipine-atorvastatin"
+      ]
+    },
+    {
+      "line": 2290,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug EMBECTA ULTRAFINE INSULIN",
+      "context": [
+        "Geneircdrug",
+        "dextromethorphan-",
+        "Geneircdrug EMBECTA ULTRAFINE INSULIN",
+        "Branddrug",
+        "CABOMETYX"
+      ]
+    },
+    {
+      "line": 2417,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FIASP",
+      "context": [
+        "ENTYVIO SUBCUTANEOUS",
+        "Branddrug",
+        "FIASP",
+        "Branddrug",
+        "granisetron"
+      ]
+    },
+    {
+      "line": 2477,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "fluocinonide cream 0.1%) HUMULIN R U-500",
+      "context": [
+        "erlotinib",
+        "Geneircdrug",
+        "fluocinonide cream 0.1%) HUMULIN R U-500",
+        "Branddrug JAKAFI XR",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 2600,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "ethinyl estradiol-levonorgestrel",
+        "Geneircdrug",
+        "FREESTYLE LIBRE CONTINUOUS",
+        "Branddrug",
+        "ethinyl estradiol-levonorgestrel-"
+      ]
+    },
+    {
+      "line": 2604,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "GLUCOSE MONITORING ibandronate",
+      "context": [
+        "ethinyl estradiol-levonorgestrel-",
+        "Geneircdrug",
+        "GLUCOSE MONITORING ibandronate",
+        "Geneircdrug lacosamide",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 2664,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS",
+      "context": [
+        "imipramine hcl",
+        "Geneircdrug",
+        "LANTUS",
+        "Branddrug",
+        "everolimus"
+      ]
+    },
+    {
+      "line": 2709,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN GLARGINE-YFGN",
+      "context": [
+        "gentamicin",
+        "Geneircdrug",
+        "INSULIN GLARGINE-YFGN",
+        "Branddrug",
+        "leuprolide acetate"
+      ]
+    },
+    {
+      "line": 2740,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "Branddrug OMNIPOD 5 INSULIN INFUSION",
+      "context": [
+        "Geneircdrug mesalamine ext-rel",
+        "Geneircdrug NATESTO",
+        "Branddrug OMNIPOD 5 INSULIN INFUSION",
+        "Branddrug",
+        "levofloxacin"
+      ]
+    },
+    {
+      "line": 2749,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug OMNIPOD DASH INSULIN",
+      "context": [
+        "Geneircdrug metaxalone 800 mg",
+        "Geneircdrug nebivolol",
+        "Geneircdrug OMNIPOD DASH INSULIN",
+        "Branddrug",
+        "levothyroxine"
+      ]
+    },
+    {
+      "line": 2758,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug OMNIPOD INSULIN INFUSION",
+      "context": [
+        "Geneircdrug metformin ext-rel (except",
+        "Geneircdrug neomycin-polymyxin b-",
+        "Geneircdrug OMNIPOD INSULIN INFUSION",
+        "Branddrug",
+        "lidocaine viscous"
+      ]
+    },
+    {
+      "line": 2783,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "liraglutide",
+      "context": [
+        "Branddrug ORENCIA CLICKJECT",
+        "Branddrug",
+        "liraglutide",
+        "Geneircdrug methotrexate",
+        "Geneircdrug nevirapine"
+      ]
+    },
+    {
+      "line": 2868,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug NOVOLIN 70/30",
+      "context": [
+        "loteprednol",
+        "Geneircdrug minocycline",
+        "Geneircdrug NOVOLIN 70/30",
+        "Branddrug 00168035830, 51672135902)",
+        "loteprednol"
+      ]
+    },
+    {
+      "line": 2872,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug NOVOLIN N",
+      "context": [
+        "loteprednol",
+        "Geneircdrug mirabegron ext-rel",
+        "Geneircdrug NOVOLIN N",
+        "Branddrug OXTELLAR XR",
+        "Branddrug"
+      ]
+    },
+    {
+      "line": 2877,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Branddrug NOVOLIN R",
+      "context": [
+        "loteprednol-tobramycin",
+        "Geneircdrug MIRENA",
+        "Branddrug NOVOLIN R",
+        "Branddrug oxybutynin ext-rel",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 2882,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug NOVOLOG",
+      "context": [
+        "lovastatin",
+        "Geneircdrug mirtazapine",
+        "Geneircdrug NOVOLOG",
+        "Branddrug oxycodone",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 2887,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug NOVOLOG MIX 70/30",
+      "context": [
+        "lubiprostone",
+        "Geneircdrug misoprostol",
+        "Geneircdrug NOVOLOG MIX 70/30",
+        "Branddrug oxycodone-acetaminophen",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 2893,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "Branddrug OZEMPIC",
+      "context": [
+        "Branddrug modafinil",
+        "Geneircdrug NOVOSEVEN RT",
+        "Branddrug OZEMPIC",
+        "Branddrug",
+        "LUMRYZ"
+      ]
+    },
+    {
+      "line": 2920,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "__________________________ MOUNJARO",
+      "context": [
+        "paroxetine hcl",
+        "Geneircdrug",
+        "__________________________ MOUNJARO",
+        "Branddrug nystatin",
+        "Geneircdrug"
+      ]
+    },
+    {
+      "line": 3115,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Branddrug TOUJEO",
+      "context": [
+        "Branddrug rosuvastatin",
+        "Geneircdrug SUNOSI",
+        "Branddrug TOUJEO",
+        "Branddrug",
+        "Prenatal Vitamins"
+      ]
+    },
+    {
+      "line": 3132,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "Geneircdrug RYBELSUS",
+      "context": [
+        "Geneircdrug",
+        "prochlorperazine",
+        "Geneircdrug RYBELSUS",
+        "Branddrug SYMTUZA",
+        "Branddrug travoprost"
+      ]
+    },
+    {
+      "line": 3169,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Geneircdrug TRESIBA",
+      "context": [
+        "Geneircdrug SAPHNELO SUBCUTANEOUS",
+        "Branddrug tadalafil",
+        "Geneircdrug TRESIBA",
+        "Branddrug",
+        "prucalopride"
+      ]
+    },
+    {
+      "line": 3286,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Geneircdrug TRUEPLUS LANCETS",
+      "context": [
+        "SKYRIZI INTRAVENOUS",
+        "Branddrug testosterone gel (except",
+        "Geneircdrug TRUEPLUS LANCETS",
+        "Branddrug",
+        "RAGWITEK"
+      ]
+    },
+    {
+      "line": 3291,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "Branddrug authorized generics for TRULICITY",
+      "context": [
+        "Branddrug",
+        "SKYRIZI SUBCUTANEOUS",
+        "Branddrug authorized generics for TRULICITY",
+        "Branddrug",
+        "raloxifene"
+      ]
+    },
+    {
+      "line": 3314,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TWIIST INSULIN INFUSION PUMP",
+      "context": [
+        "Geneircdrug sulfate-magnesium sulfate tetracycline",
+        "Geneircdrug",
+        "TWIIST INSULIN INFUSION PUMP",
+        "Branddrug",
+        "rasagiline"
+      ]
+    },
+    {
+      "line": 3346,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "Branddrug ZEPBOUND",
+      "context": [
+        "__________________________ VISTOGARD",
+        "Branddrug XIFAXAN 550 MG",
+        "Branddrug ZEPBOUND",
+        "Branddrug",
+        "U VITRAKVI"
+      ]
+    },
+    {
+      "line": 3405,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY",
+      "context": [
+        "VALTOCO",
+        "Branddrug",
+        "WEGOVY",
+        "Branddrug YEZTUGO",
+        "Branddrug zonisamide"
+      ]
+    },
+    {
+      "line": 3411,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY HD",
+      "context": [
+        "vancomycin capsule",
+        "Geneircdrug",
+        "WEGOVY HD",
+        "Branddrug YONSA",
+        "Branddrug ZORYVE CREAM"
+      ]
+    },
+    {
+      "line": 3571,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "B FIASP, NOVOLOG",
+      "context": [
+        "APIDRA",
+        "rgan",
+        "B FIASP, NOVOLOG",
+        "rsgan",
+        "ADVAIR DISKUS, ADVAIR HFA"
+      ]
+    },
+    {
+      "line": 3640,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ALLISON MEDICAL INSULIN BD ULTRAFINE INSULIN SYRINGES,",
+      "context": [
+        "rgan Gircgen",
+        "ARMOUR THYROID levothyroxine, liothyronine",
+        "ALLISON MEDICAL INSULIN BD ULTRAFINE INSULIN SYRINGES,",
+        "rgan",
+        "u Girscgen"
+      ]
+    },
+    {
+      "line": 3645,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SYRINGES EMBECTA ULTRAFINE INSULIN ARNUITY ELLIPTA",
+      "context": [
+        "rgan B",
+        "rsgan",
+        "SYRINGES EMBECTA ULTRAFINE INSULIN ARNUITY ELLIPTA",
+        "rgan ASMANEX HFA, PULMICORT",
+        "rsgan"
+      ]
+    },
+    {
+      "line": 3675,
+      "tickers": [
+        "ROG SW",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "ASCENSIA STRIPS AND KITS ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "pantoprazole delayed-rel tablet",
+        "AMITIZA lubiprostone, prucalopride,",
+        "ASCENSIA STRIPS AND KITS ACCU-CHEK AVIVA PLUS STRIPS",
+        "rgan",
+        "d Girscgen"
+      ]
+    },
+    {
+      "line": 3683,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "AND KITS, ACCU-CHEK GUIDE",
+      "context": [
+        "rgan",
+        "B rsgan",
+        "AND KITS, ACCU-CHEK GUIDE",
+        "AMRIX",
+        "rgan"
+      ]
+    },
+    {
+      "line": 3688,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS AND KITS, ACCU-CHEK",
+      "context": [
+        "d carisoprodol 350 mg,",
+        "Girscgen",
+        "STRIPS AND KITS, ACCU-CHEK",
+        "chlorzoxazone 500 mg, SMARTVIEW STRIPS AND KITS,",
+        "cyclobenzaprine (except TRUE METRIX STRIPS AND KITS"
+      ]
+    },
+    {
+      "line": 3733,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR INSULIN GLARGINE-YFGN, LANTUS",
+      "context": [
+        "rgan adapalene (except adapalene",
+        "Girscgen",
+        "BASAGLAR INSULIN GLARGINE-YFGN, LANTUS",
+        "pad), benzoyl peroxide,",
+        "rgan"
+      ]
+    },
+    {
+      "line": 4117,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "CONTOUR NEXT STRIPS AND KITS",
+      "context": [
+        "clindamycin gel (except NDC AZSTARYS",
+        "68682046275), clindamycin",
+        "CONTOUR NEXT STRIPS AND KITS",
+        "rgan ACCU-CHEK AVIVA PLUS STRIPS",
+        "rsgan"
+      ]
+    },
+    {
+      "line": 4118,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "rgan ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "68682046275), clindamycin",
+        "CONTOUR NEXT STRIPS AND KITS",
+        "rgan ACCU-CHEK AVIVA PLUS STRIPS",
+        "rsgan",
+        "solution, clindamycin-benzoyl"
+      ]
+    },
+    {
+      "line": 4121,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "AND KITS, ACCU-CHEK GUIDE",
+      "context": [
+        "rsgan",
+        "solution, clindamycin-benzoyl",
+        "AND KITS, ACCU-CHEK GUIDE",
+        "peroxide, dapsone, erythromycin",
+        "STRIPS AND KITS, ACCU-CHEK"
+      ]
+    },
+    {
+      "line": 4123,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS AND KITS, ACCU-CHEK",
+      "context": [
+        "AND KITS, ACCU-CHEK GUIDE",
+        "peroxide, dapsone, erythromycin",
+        "STRIPS AND KITS, ACCU-CHEK",
+        "solution, erythromycin-benzoyl",
+        "SMARTVIEW STRIPS AND KITS,"
+      ]
+    },
+    {
+      "line": 4130,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "CONTOUR STRIPS AND KITS ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "rsgan",
+        "AKLIEF, EPIDUO, WINLEVI",
+        "CONTOUR STRIPS AND KITS ACCU-CHEK AVIVA PLUS STRIPS",
+        "clobetasol emollient foam clobetasol cream, clobetasol foam",
+        "rgan"
+      ]
+    },
+    {
+      "line": 4135,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "AND KITS, ACCU-CHEK GUIDE",
+      "context": [
+        "B B",
+        "rsgan",
+        "AND KITS, ACCU-CHEK GUIDE",
+        "Gircgen",
+        "u Girscgen"
+      ]
+    },
+    {
+      "line": 4139,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS AND KITS, ACCU-CHEK",
+      "context": [
+        "u Girscgen",
+        "(except clobetasol emollient",
+        "STRIPS AND KITS, ACCU-CHEK",
+        "foam), clobetasol gel, clobetasol",
+        "SMARTVIEW STRIPS AND KITS,"
+      ]
+    },
+    {
+      "line": 4146,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "rgan liraglutide, orlistat, phentermine-",
+      "context": [
+        "halobetasol cream, halobetasol",
+        "ointment CONTRAVE",
+        "rgan liraglutide, orlistat, phentermine-",
+        "Girscgen",
+        "topiramate, FOUNDAYO, QSYMIA,"
+      ]
+    },
+    {
+      "line": 4151,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY, WEGOVY HD,",
+      "context": [
+        "clobetasol spray clobetasol cream, clobetasol foam",
+        "rsgan",
+        "WEGOVY, WEGOVY HD,",
+        "Gircgen",
+        "d Girscgen"
+      ]
+    },
+    {
+      "line": 4155,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND",
+      "context": [
+        "d Girscgen",
+        "(except clobetasol emollient",
+        "ZEPBOUND",
+        "foam), clobetasol gel, clobetasol",
+        "lotion, clobetasol ointment, COPAXONE 20 MG/ML"
+      ]
+    },
+    {
+      "line": 4260,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Diabetic supplies (category)"
+      ],
+      "text": "DEXCOM CONTINUOUS GLUCOSE",
+      "context": [
+        "u carisoprodol 350 mg,",
+        "Girscgen",
+        "DEXCOM CONTINUOUS GLUCOSE",
+        "rgan",
+        "B FREESTYLE LIBRE CONTINUOUS"
+      ]
+    },
+    {
+      "line": 4262,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "B FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "DEXCOM CONTINUOUS GLUCOSE",
+        "rgan",
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "cyclobenzaprine tablet 7.5 mg chlorzoxazone 500 mg, MONITORING SYSTEM GLUCOSE MONITORING SYSTEM"
+      ]
+    },
+    {
+      "line": 4264,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "cyclobenzaprine tablet 7.5 mg chlorzoxazone 500 mg, MONITORING SYSTEM GLUCOSE MONITORING SYSTEM",
+      "context": [
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "cyclobenzaprine tablet 7.5 mg chlorzoxazone 500 mg, MONITORING SYSTEM GLUCOSE MONITORING SYSTEM",
+        "cyclobenzaprine (except",
+        "cyclobenzaprine tablet 7.5 mg), DEXIFOL"
+      ]
+    },
+    {
+      "line": 4561,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "ENLITE CONTINUOUS GLUCOSE",
+      "context": [
+        "rgan deferasirox, deferiprone,",
+        "Girscgen",
+        "ENLITE CONTINUOUS GLUCOSE",
+        "rgan FREESTYLE LIBRE CONTINUOUS",
+        "rgan"
+      ]
+    },
+    {
+      "line": 4562,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "rgan FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "Girscgen",
+        "ENLITE CONTINUOUS GLUCOSE",
+        "rgan FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "deferoxamine"
+      ]
+    },
+    {
+      "line": 4565,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "MONITORING SYSTEM GLUCOSE MONITORING SYSTEM",
+      "context": [
+        "rgan",
+        "deferoxamine",
+        "MONITORING SYSTEM GLUCOSE MONITORING SYSTEM",
+        "EYLEA",
+        "rgan"
+      ]
+    },
+    {
+      "line": 4704,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "B FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "EVERSENSE CONTINUOUS",
+        "rgan",
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "metaxalone 800 mg,"
+      ]
+    },
+    {
+      "line": 4707,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "GLUCOSE MONITORING SYSTEM GLUCOSE MONITORING SYSTEM methocarbamol (except NDC",
+      "context": [
+        "rgan",
+        "metaxalone 800 mg,",
+        "GLUCOSE MONITORING SYSTEM GLUCOSE MONITORING SYSTEM methocarbamol (except NDC",
+        "70868090190)",
+        "Evesse"
+      ]
+    },
+    {
+      "line": 4751,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "FREESTYLE STRIPS AND KITS ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "1%",
+        "rgan Girscgen",
+        "FREESTYLE STRIPS AND KITS ACCU-CHEK AVIVA PLUS STRIPS",
+        "FLECTOR diclofenac sodium, diclofenac",
+        "rgan"
+      ]
+    },
+    {
+      "line": 4755,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "AND KITS, ACCU-CHEK GUIDE",
+      "context": [
+        "rgan",
+        "B rsgan",
+        "AND KITS, ACCU-CHEK GUIDE",
+        "rgan",
+        "u Girscgen"
+      ]
+    },
+    {
+      "line": 4759,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS AND KITS, ACCU-CHEK",
+      "context": [
+        "u Girscgen",
+        "sodium gel 1%, diclofenac sodium",
+        "STRIPS AND KITS, ACCU-CHEK",
+        "solution 1.5%, ibuprofen,",
+        "SMARTVIEW STRIPS AND KITS,"
+      ]
+    },
+    {
+      "line": 4881,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "B FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "ext-rel, dexmethylphenidate ext- GUARDIAN CONNECT",
+        "rgan",
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "rel, dextroamphetamine ext-rel, CONTINUOUS GLUCOSE GLUCOSE MONITORING SYSTEM"
+      ]
+    },
+    {
+      "line": 4883,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "rel, dextroamphetamine ext-rel, CONTINUOUS GLUCOSE GLUCOSE MONITORING SYSTEM",
+      "context": [
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "rel, dextroamphetamine ext-rel, CONTINUOUS GLUCOSE GLUCOSE MONITORING SYSTEM",
+        "lisdexamfetamine, MONITORING SYSTEM",
+        "methylphenidate ext-rel, rgan"
+      ]
+    },
+    {
+      "line": 4888,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "B FREESTYLE LIBRE CONTINUOUS",
+      "context": [
+        "GUARDIAN REAL-TIME",
+        "rgan",
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "AZSTARYS CONTINUOUS GLUCOSE GLUCOSE MONITORING SYSTEM"
+      ]
+    },
+    {
+      "line": 4890,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "AZSTARYS CONTINUOUS GLUCOSE GLUCOSE MONITORING SYSTEM",
+      "context": [
+        "B FREESTYLE LIBRE CONTINUOUS",
+        "rgan",
+        "AZSTARYS CONTINUOUS GLUCOSE GLUCOSE MONITORING SYSTEM",
+        "FORTEO",
+        "rgan teriparatide 560mcg/2.24ml, MONITORING SYSTEM"
+      ]
+    },
+    {
+      "line": 4960,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMALOG FIASP, NOVOLOG",
+      "context": [
+        "rgan diclofenac sodium, diclofenac",
+        "Girscgen",
+        "HUMALOG FIASP, NOVOLOG",
+        "sodium gel 1%, diclofenac sodium",
+        "rgan B"
+      ]
+    },
+    {
+      "line": 4964,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMALOG MIX 50/50",
+      "context": [
+        "rgan B",
+        "rsgan",
+        "HUMALOG MIX 50/50",
+        "rgan",
+        "d NOVOLOG MIX 70/30"
+      ]
+    },
+    {
+      "line": 4966,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "d NOVOLOG MIX 70/30",
+      "context": [
+        "HUMALOG MIX 50/50",
+        "rgan",
+        "d NOVOLOG MIX 70/30",
+        "rgan",
+        "solution 1.5%, ibuprofen,"
+      ]
+    },
+    {
+      "line": 4970,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMALOG MIX 75/25",
+      "context": [
+        "solution 1.5%, ibuprofen,",
+        "meloxicam tablet, naproxen",
+        "HUMALOG MIX 75/25",
+        "rgan",
+        "B NOVOLOG MIX 70/30"
+      ]
+    },
+    {
+      "line": 4972,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "B NOVOLOG MIX 70/30",
+      "context": [
+        "HUMALOG MIX 75/25",
+        "rgan",
+        "B NOVOLOG MIX 70/30",
+        "rgan",
+        "(except naproxen cr or naproxen"
+      ]
+    },
+    {
+      "line": 4975,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN 70/30",
+      "context": [
+        "rgan",
+        "(except naproxen cr or naproxen",
+        "HUMULIN 70/30",
+        "rgan NOVOLIN 70/30",
+        "rgan"
+      ]
+    },
+    {
+      "line": 4976,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "rgan NOVOLIN 70/30",
+      "context": [
+        "(except naproxen cr or naproxen",
+        "HUMULIN 70/30",
+        "rgan NOVOLIN 70/30",
+        "rgan",
+        "suspension)"
+      ]
+    },
+    {
+      "line": 4979,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN N",
+      "context": [
+        "rgan",
+        "suspension)",
+        "HUMULIN N",
+        "rgan",
+        "B NOVOLIN N"
+      ]
+    },
+    {
+      "line": 4981,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "B NOVOLIN N",
+      "context": [
+        "HUMULIN N",
+        "rgan",
+        "B NOVOLIN N",
+        "rgan",
+        "INFLECTRA"
+      ]
+    },
+    {
+      "line": 4988,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN R",
+      "context": [
+        "rsgan",
+        "PYZCHIVA INTRAVENOUS,",
+        "HUMULIN R",
+        "rgan",
+        "d NOVOLIN R"
+      ]
+    },
+    {
+      "line": 4990,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "d NOVOLIN R",
+      "context": [
+        "HUMULIN R",
+        "rgan",
+        "d NOVOLIN R",
+        "rgan",
+        "REMICADE, SIMPONI ARIA, SKYRIZI"
+      ]
+    },
+    {
+      "line": 5667,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Diabetic supplies (category)"
+      ],
+      "text": "cyclobenzaprine tablet 7.5 mg), ONETOUCH LANCETS / LANCING",
+      "context": [
+        "d B",
+        "rsgan",
+        "cyclobenzaprine tablet 7.5 mg), ONETOUCH LANCETS / LANCING",
+        "rgan",
+        "B ACCU-CHEK LANCETS / LANCING"
+      ]
+    },
+    {
+      "line": 5669,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "B ACCU-CHEK LANCETS / LANCING",
+      "context": [
+        "cyclobenzaprine tablet 7.5 mg), ONETOUCH LANCETS / LANCING",
+        "rgan",
+        "B ACCU-CHEK LANCETS / LANCING",
+        "rsgan",
+        "metaxalone 800 mg, DEVICES DEVICES, TRUEPLUS LANCETS"
+      ]
+    },
+    {
+      "line": 5671,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "metaxalone 800 mg, DEVICES DEVICES, TRUEPLUS LANCETS",
+      "context": [
+        "B ACCU-CHEK LANCETS / LANCING",
+        "rsgan",
+        "metaxalone 800 mg, DEVICES DEVICES, TRUEPLUS LANCETS",
+        "methocarbamol (except NDC",
+        "ONETOUCH ULTRA STRIPS AND ACCU-CHEK AVIVA PLUS STRIPS"
+      ]
+    },
+    {
+      "line": 5673,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "ONETOUCH ULTRA STRIPS AND ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "metaxalone 800 mg, DEVICES DEVICES, TRUEPLUS LANCETS",
+        "methocarbamol (except NDC",
+        "ONETOUCH ULTRA STRIPS AND ACCU-CHEK AVIVA PLUS STRIPS",
+        "70868090190)",
+        "rgan"
+      ]
+    },
+    {
+      "line": 5678,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "KITS, ONETOUCH VERIO STRIPS AND KITS, ACCU-CHEK GUIDE",
+      "context": [
+        "u B",
+        "rsgan",
+        "KITS, ONETOUCH VERIO STRIPS AND KITS, ACCU-CHEK GUIDE",
+        "NORITATE",
+        "rgan"
+      ]
+    },
+    {
+      "line": 5683,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "d AND KITS STRIPS AND KITS, ACCU-CHEK",
+      "context": [
+        "d azelaic acid gel, brimonidine gel,",
+        "Girscgen",
+        "d AND KITS STRIPS AND KITS, ACCU-CHEK",
+        "ivermectin cream, metronidazole, rgan",
+        "B SMARTVIEW STRIPS AND KITS,"
+      ]
+    },
+    {
+      "line": 5897,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "B ACCU-CHEK AVIVA PLUS STRIPS",
+      "context": [
+        "PRECISION XTRA STRIPS AND KITS",
+        "rgan",
+        "B ACCU-CHEK AVIVA PLUS STRIPS",
+        "rsgan",
+        "AND KITS, ACCU-CHEK GUIDE"
+      ]
+    },
+    {
+      "line": 5899,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "AND KITS, ACCU-CHEK GUIDE",
+      "context": [
+        "B ACCU-CHEK AVIVA PLUS STRIPS",
+        "rsgan",
+        "AND KITS, ACCU-CHEK GUIDE",
+        "pantoprazole delayed-rel",
+        "Gircgen"
+      ]
+    },
+    {
+      "line": 5904,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS AND KITS, ACCU-CHEK",
+      "context": [
+        "u esomeprazole delayed-rel,",
+        "Girscgen",
+        "STRIPS AND KITS, ACCU-CHEK",
+        "suspension lansoprazole delayed-rel capsule, SMARTVIEW STRIPS AND KITS,",
+        "omeprazole delayed-rel, TRUE METRIX STRIPS AND KITS"
+      ]
+    },
+    {
+      "line": 6058,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "d teriparatide 560mcg/2.24ml, RELION INSULIN",
+      "context": [
+        "PROLIA",
+        "rgan",
+        "d teriparatide 560mcg/2.24ml, RELION INSULIN",
+        "rgan NOVOLIN INSULIN",
+        "zoledronic acid, BONSITY, RELISTOR"
+      ]
+    },
+    {
+      "line": 6059,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "rgan NOVOLIN INSULIN",
+      "context": [
+        "rgan",
+        "d teriparatide 560mcg/2.24ml, RELION INSULIN",
+        "rgan NOVOLIN INSULIN",
+        "zoledronic acid, BONSITY, RELISTOR",
+        "rgan lubiprostone, SYMPROIC"
+      ]
+    },
+    {
+      "line": 6445,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump",
+        "Insulin (category)"
+      ],
+      "text": "TANDEM INSULIN INFUSION PUMP",
+      "context": [
+        "pregabalin, primidone, tiagabine,",
+        "topiramate, topiramate ext-rel,",
+        "TANDEM INSULIN INFUSION PUMP",
+        "rgan",
+        "B OMNIPOD 5 INSULIN INFUSION"
+      ]
+    },
+    {
+      "line": 6447,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "B OMNIPOD 5 INSULIN INFUSION",
+      "context": [
+        "TANDEM INSULIN INFUSION PUMP",
+        "rgan",
+        "B OMNIPOD 5 INSULIN INFUSION",
+        "rsgan",
+        "valproic acid, zonisamide, B"
+      ]
+    },
+    {
+      "line": 6451,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "AND SUPPLIES (except certain PUMP, OMNIPOD DASH INSULIN OXTELLAR XR, XCOPRI",
+      "context": [
+        "valproic acid, zonisamide, B",
+        "rsgan",
+        "AND SUPPLIES (except certain PUMP, OMNIPOD DASH INSULIN OXTELLAR XR, XCOPRI",
+        "NDCs) INFUSION PUMP, OMNIPOD",
+        "INSULIN INFUSION PUMP, TWIIST TESTIM"
+      ]
+    },
+    {
+      "line": 6452,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "NDCs) INFUSION PUMP, OMNIPOD",
+      "context": [
+        "rsgan",
+        "AND SUPPLIES (except certain PUMP, OMNIPOD DASH INSULIN OXTELLAR XR, XCOPRI",
+        "NDCs) INFUSION PUMP, OMNIPOD",
+        "INSULIN INFUSION PUMP, TWIIST TESTIM",
+        "rgan testosterone gel (except"
+      ]
+    },
+    {
+      "line": 6453,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, TWIIST TESTIM",
+      "context": [
+        "AND SUPPLIES (except certain PUMP, OMNIPOD DASH INSULIN OXTELLAR XR, XCOPRI",
+        "NDCs) INFUSION PUMP, OMNIPOD",
+        "INSULIN INFUSION PUMP, TWIIST TESTIM",
+        "rgan testosterone gel (except",
+        "Girscgen"
+      ]
+    },
+    {
+      "line": 6456,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP AND authorized generics for TESTIM",
+      "context": [
+        "rgan testosterone gel (except",
+        "Girscgen",
+        "INSULIN INFUSION PUMP AND authorized generics for TESTIM",
+        "SUPPLIES and VOGELXO), testosterone",
+        "solution, NATESTO"
+      ]
+    },
+    {
+      "line": 6615,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TRIVIDIA INSULIN SYRINGES BD ULTRAFINE INSULIN SYRINGES,",
+      "context": [
+        "ext-rel, mirabegron ext-rel, OXTELLAR XR, XCOPRI",
+        "oxybutynin ext-rel, solifenacin,",
+        "TRIVIDIA INSULIN SYRINGES BD ULTRAFINE INSULIN SYRINGES,",
+        "tolterodine, tolterodine ext-rel,",
+        "rgan d"
+      ]
+    },
+    {
+      "line": 6619,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "EMBECTA ULTRAFINE INSULIN",
+      "context": [
+        "rgan d",
+        "rsgan",
+        "EMBECTA ULTRAFINE INSULIN",
+        "trospium, trospium ext-rel, rgan",
+        "SYRINGES (except certain NDCs)"
+      ]
+    },
+    {
+      "line": 6747,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ULTIMED INSULIN SYRINGES",
+      "context": [
+        "u VTAMA, ZORYVE CREAM, ZORYVE",
+        "FOAM",
+        "ULTIMED INSULIN SYRINGES",
+        "rgan BD ULTRAFINE INSULIN SYRINGES,",
+        "rsgan"
+      ]
+    },
+    {
+      "line": 6748,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "rgan BD ULTRAFINE INSULIN SYRINGES,",
+      "context": [
+        "FOAM",
+        "ULTIMED INSULIN SYRINGES",
+        "rgan BD ULTRAFINE INSULIN SYRINGES,",
+        "rsgan",
+        "EMBECTA ULTRAFINE INSULIN VELPHORO"
+      ]
+    },
+    {
+      "line": 6750,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "EMBECTA ULTRAFINE INSULIN VELPHORO",
+      "context": [
+        "rgan BD ULTRAFINE INSULIN SYRINGES,",
+        "rsgan",
+        "EMBECTA ULTRAFINE INSULIN VELPHORO",
+        "rgan calcium acetate, ferric citrate,",
+        "Girscgen"
+      ]
+    },
+    {
+      "line": 6802,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "V-GO INSULIN INFUSION PUMP",
+      "context": [
+        "rgan Girscgen",
+        "ext-rel, mirabegron ext-rel,",
+        "V-GO INSULIN INFUSION PUMP",
+        "rgan OMNIPOD 5 INSULIN INFUSION",
+        "rsgan"
+      ]
+    },
+    {
+      "line": 6803,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "rgan OMNIPOD 5 INSULIN INFUSION",
+      "context": [
+        "ext-rel, mirabegron ext-rel,",
+        "V-GO INSULIN INFUSION PUMP",
+        "rgan OMNIPOD 5 INSULIN INFUSION",
+        "rsgan",
+        "u oxybutynin ext-rel, solifenacin,"
+      ]
+    },
+    {
+      "line": 6806,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "PUMP, OMNIPOD DASH INSULIN tolterodine, tolterodine ext-rel,",
+      "context": [
+        "rsgan",
+        "u oxybutynin ext-rel, solifenacin,",
+        "PUMP, OMNIPOD DASH INSULIN tolterodine, tolterodine ext-rel,",
+        "INFUSION PUMP, OMNIPOD trospium, trospium ext-rel, rgan",
+        "INSULIN INFUSION PUMP, TWIIST GEMTESA"
+      ]
+    },
+    {
+      "line": 6807,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "INFUSION PUMP, OMNIPOD trospium, trospium ext-rel, rgan",
+      "context": [
+        "u oxybutynin ext-rel, solifenacin,",
+        "PUMP, OMNIPOD DASH INSULIN tolterodine, tolterodine ext-rel,",
+        "INFUSION PUMP, OMNIPOD trospium, trospium ext-rel, rgan",
+        "INSULIN INFUSION PUMP, TWIIST GEMTESA",
+        "INSULIN INFUSION PUMP AND"
+      ]
+    },
+    {
+      "line": 6808,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, TWIIST GEMTESA",
+      "context": [
+        "PUMP, OMNIPOD DASH INSULIN tolterodine, tolterodine ext-rel,",
+        "INFUSION PUMP, OMNIPOD trospium, trospium ext-rel, rgan",
+        "INSULIN INFUSION PUMP, TWIIST GEMTESA",
+        "INSULIN INFUSION PUMP AND",
+        "VIAGRA avanafil, sildenafil, tadalafil,"
+      ]
+    },
+    {
+      "line": 6809,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP AND",
+      "context": [
+        "INFUSION PUMP, OMNIPOD trospium, trospium ext-rel, rgan",
+        "INSULIN INFUSION PUMP, TWIIST GEMTESA",
+        "INSULIN INFUSION PUMP AND",
+        "VIAGRA avanafil, sildenafil, tadalafil,",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 6817,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide",
+        "Novo liraglutide"
+      ],
+      "text": "VICTOZA liraglutide, MOUNJARO, OZEMPIC,",
+      "context": [
+        "rgan estradiol vaginal cream, estradiol",
+        "Girscgen",
+        "VICTOZA liraglutide, MOUNJARO, OZEMPIC,",
+        "vaginal tablet, Yuvafem, IMVEXXY",
+        "rgan"
+      ]
+    },
+    {
+      "line": 6824,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly dulaglutide"
+      ],
+      "text": "RYBELSUS, TRULICITY",
+      "context": [
+        "rsgan",
+        "rgan",
+        "RYBELSUS, TRULICITY",
+        "VALCYTE",
+        "rgan valganciclovir"
+      ]
+    },
+    {
+      "line": 7013,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "rgan liraglutide, orlistat, phentermine-",
+      "context": [
+        "Gircgen",
+        "XENICAL",
+        "rgan liraglutide, orlistat, phentermine-",
+        "Girscgen",
+        "ZIANA"
+      ]
+    },
+    {
+      "line": 7022,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY, WEGOVY HD, clindamycin gel (except NDC",
+      "context": [
+        "rsgan",
+        "pad), benzoyl peroxide,",
+        "WEGOVY, WEGOVY HD, clindamycin gel (except NDC",
+        "ZEPBOUND 68682046275), clindamycin",
+        "34"
+      ]
+    },
+    {
+      "line": 7023,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND 68682046275), clindamycin",
+      "context": [
+        "pad), benzoyl peroxide,",
+        "WEGOVY, WEGOVY HD, clindamycin gel (except NDC",
+        "ZEPBOUND 68682046275), clindamycin",
+        "34",
+        "EXCLUDED DRUG NAME(S) PREFERRED OPTION(S) EXCLUDED DRUG NAME(S) PREFERRED OPTION(S)"
+      ]
+    },
+    {
+      "line": 7219,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "An ACCU-CHEK or TRUE METRIX blood glucose meter may be provided at no charge by the manufacturer to those",
+      "context": [
+        "manufacturer, strength, dosage form, formulation and package size.",
+        "Some listings do not include certain NDCs as noted above.",
+        "An ACCU-CHEK or TRUE METRIX blood glucose meter may be provided at no charge by the manufacturer to those",
+        "individuals currently using a meter other than ACCU-CHEK or TRUE METRIX. For more information on how to obtain a blood",
+        "glucose meter, call: 1-877-418-4746."
+      ]
+    },
+    {
+      "line": 7220,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "individuals currently using a meter other than ACCU-CHEK or TRUE METRIX. For more information on how to obtain a blood",
+      "context": [
+        "Some listings do not include certain NDCs as noted above.",
+        "An ACCU-CHEK or TRUE METRIX blood glucose meter may be provided at no charge by the manufacturer to those",
+        "individuals currently using a meter other than ACCU-CHEK or TRUE METRIX. For more information on how to obtain a blood",
+        "glucose meter, call: 1-877-418-4746.",
+        "BD ULTRAFINE or EMBECTA ULTRAFINE (except certain NDCs) syringes and needles are the only preferred options."
+      ]
+    },
+    {
+      "line": 7221,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "glucose meter, call: 1-877-418-4746.",
+      "context": [
+        "An ACCU-CHEK or TRUE METRIX blood glucose meter may be provided at no charge by the manufacturer to those",
+        "individuals currently using a meter other than ACCU-CHEK or TRUE METRIX. For more information on how to obtain a blood",
+        "glucose meter, call: 1-877-418-4746.",
+        "BD ULTRAFINE or EMBECTA ULTRAFINE (except certain NDCs) syringes and needles are the only preferred options.",
+        "ACCU-CHEK or TRUE METRIX (Trividia manufactured NDCs) brand test strips are the only preferred options."
+      ]
+    },
+    {
+      "line": 7223,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK or TRUE METRIX (Trividia manufactured NDCs) brand test strips are the only preferred options.",
+      "context": [
+        "glucose meter, call: 1-877-418-4746.",
+        "BD ULTRAFINE or EMBECTA ULTRAFINE (except certain NDCs) syringes and needles are the only preferred options.",
+        "ACCU-CHEK or TRUE METRIX (Trividia manufactured NDCs) brand test strips are the only preferred options.",
+        "ACCU-CHEK lancing devices are the only preferred options.",
+        "ACCU-CHEK or TRUEPLUS (only certain NDCs) lancets are the only preferred options."
+      ]
+    },
+    {
+      "line": 7224,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK lancing devices are the only preferred options.",
+      "context": [
+        "BD ULTRAFINE or EMBECTA ULTRAFINE (except certain NDCs) syringes and needles are the only preferred options.",
+        "ACCU-CHEK or TRUE METRIX (Trividia manufactured NDCs) brand test strips are the only preferred options.",
+        "ACCU-CHEK lancing devices are the only preferred options.",
+        "ACCU-CHEK or TRUEPLUS (only certain NDCs) lancets are the only preferred options.",
+        "For HYRIMOZ and PYZCHIVA SUBCUTANEOUS listings above: Sandoz manufactured NDCs (61314-XXXX-XX) are excluded."
+      ]
+    },
+    {
+      "line": 7225,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK or TRUEPLUS (only certain NDCs) lancets are the only preferred options.",
+      "context": [
+        "ACCU-CHEK or TRUE METRIX (Trividia manufactured NDCs) brand test strips are the only preferred options.",
+        "ACCU-CHEK lancing devices are the only preferred options.",
+        "ACCU-CHEK or TRUEPLUS (only certain NDCs) lancets are the only preferred options.",
+        "For HYRIMOZ and PYZCHIVA SUBCUTANEOUS listings above: Sandoz manufactured NDCs (61314-XXXX-XX) are excluded.",
+        "Cordavis manufactured NDCs are preferred."
+      ]
+    }
+  ]
+}

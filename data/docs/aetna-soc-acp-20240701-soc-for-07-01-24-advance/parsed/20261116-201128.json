@@ -1,0 +1,326 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "DEMSER",
+      "change_text": "Moving to non-preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "DEMSER | Moving to non-preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DIVIGEL",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "DIVIGEL | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "eluryng",
+      "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "eluryng | Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EMVERM",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "EMVERM | Moving to preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "enilloring",
+      "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "enilloring | Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "etonogestrel / ethinyl",
+      "change_text": "Drug list addition (preferred generic); Quantity limits apply.",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "etonogestrel / ethinyl | Drug list addition (preferred generic); Quantity limits apply."
+    },
+    {
+      "kind": "soc_change",
+      "name": "estradiol",
+      "change_text": "Covered up to 13 units every 300 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "estradiol | Covered up to 13 units every 300 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EXELON",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "EXELON | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FABRAZYME",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "FABRAZYME | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FORTEO",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "FORTEO | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GALAFOLD",
+      "change_text": "Moving to preferred specialty tier; Quantity limits removed",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "GALAFOLD | Moving to preferred specialty tier; Quantity limits removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "haloette",
+      "change_text": "Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "haloette | Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "icosapent ethyl",
+      "change_text": "Drug list addition (preferred generic)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "icosapent ethyl | Drug list addition (preferred generic)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "memantine hcl titration pak",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "memantine hcl titration pak | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "memantine hydrochloride",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "memantine hydrochloride | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "memantine hydrochloride er",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "memantine hydrochloride er | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "metyrosine",
+      "change_text": "Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "metyrosine | Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day"
+    },
+    {
+      "kind": "soc_change",
+      "name": "NAMENDA",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "NAMENDA | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "NAMENDA TITRATION PAK",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "NAMENDA TITRATION PAK | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "NAMZARIC",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "NAMZARIC | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "NUVARING",
+      "change_text": "Non-formulary; not covered. Generic version of drug covered",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "NUVARING | Non-formulary; not covered. Generic version of drug covered"
+    },
+    {
+      "kind": "soc_change",
+      "name": "RADICAVA ORS",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "RADICAVA ORS | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "RADICAVA ORS STARTER KIT",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "RADICAVA ORS STARTER KIT | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "rivastigmine tartrate",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "rivastigmine tartrate | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "rivastigmine transdermal",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "rivastigmine transdermal | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "system tramadol hcl tab 100mg",
+      "change_text": "Non-formulary; not covered. Covered options include: tramadol (except tramadol 100mg), tramadol ext-rel",
+      "change": "NOT_COVERED",
+      "alternatives": "tramadol (except tramadol 100mg), tramadol ext-rel",
+      "effective": "July 1, 2024",
+      "text": "system tramadol hcl tab 100mg | Non-formulary; not covered. Covered options include: tramadol (except tramadol 100mg), tramadol ext-rel"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TROKENDI XR",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "TROKENDI XR | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VASCEPA",
+      "change_text": "Non-formulary; not covered. Generic version of drug covered",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "VASCEPA | Non-formulary; not covered. Generic version of drug covered"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VERSACLOZ",
+      "change_text": "Preauthorization removed",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "VERSACLOZ | Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VPRIV",
+      "change_text": "Non-formulary; not covered. Covered options include: CERDELGA, CEREZYME",
+      "change": "NOT_COVERED",
+      "alternatives": "CERDELGA, CEREZYME",
+      "effective": "July 1, 2024",
+      "text": "VPRIV | Non-formulary; not covered. Covered options include: CERDELGA, CEREZYME"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XALKORI CAP 150MG",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 180 caps every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "XALKORI CAP 150MG | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 180 caps every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XALKORI CAP 20MG",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "XALKORI CAP 20MG | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XALKORI CAP 50MG",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "XALKORI CAP 50MG | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XYOSTED",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "XYOSTED | Moving to preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZORYVE",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "July 1, 2024",
+      "text": "ZORYVE | Moving to preferred brand tier"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 8,
+    "tables": 2,
+    "effective": "July 1, 2024"
+  }
+}

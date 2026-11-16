@@ -1,0 +1,167 @@
+{
+  "id": "aetna-soc-sc-20250701",
+  "stamp": "20261116-201132",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 287,
+  "watchlist_in_document": [
+    {
+      "line": 32,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Endocrine and Metabolic, Diabetic Supplies* TRUE METRIX KIT AND TEST STRIPS",
+      "context": [
+        "Cardiovascular, Antilipemics, Omega-3 Fatty Acids* VASCEPA**",
+        "Central Nervous System, Antiseizure Agents* LIBERVANT^",
+        "Endocrine and Metabolic, Diabetic Supplies* TRUE METRIX KIT AND TEST STRIPS",
+        "Gastrointestinal, Miscellaneous* IQIRVO^",
+        "Respiratory, Alpha-1 Antitrypsin Deficiency Agents* ARALAST NP, GLASSIA"
+      ]
+    },
+    {
+      "line": 39,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "Endocrine and Metabolic, Diabetic Supplies* ACCU-CHEK SAFE-T-PRO LANCETS, ACCU-CHEK SAFE-T­",
+      "context": [
+        "Drug Class Drug name",
+        "Central Nervous System, Antiparkinsonian Agents* CREXONT",
+        "Endocrine and Metabolic, Diabetic Supplies* ACCU-CHEK SAFE-T-PRO LANCETS, ACCU-CHEK SAFE-T­",
+        "PRO PLUS LANCETS",
+        "Hematologic, Bleeding Disorders Agents* WILATE"
+      ]
+    },
+    {
+      "line": 40,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "PRO PLUS LANCETS",
+      "context": [
+        "Central Nervous System, Antiparkinsonian Agents* CREXONT",
+        "Endocrine and Metabolic, Diabetic Supplies* ACCU-CHEK SAFE-T-PRO LANCETS, ACCU-CHEK SAFE-T­",
+        "PRO PLUS LANCETS",
+        "Hematologic, Bleeding Disorders Agents* WILATE",
+        "Immunologic Agents, Disease-Modifying Anti-Rheumatic OTREXUP"
+      ]
+    },
+    {
+      "line": 65,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide",
+        "Novo liraglutide"
+      ],
+      "text": "Endocrine and Metabolic, ZEPBOUND orlistat, QSYMIA, SAXENDA, WEGOVY",
+      "context": [
+        "Endocrine and Metabolic, KORLYM** mifepristone",
+        "Antidiabetics, Miscellaneous*",
+        "Endocrine and Metabolic, ZEPBOUND orlistat, QSYMIA, SAXENDA, WEGOVY",
+        "Antiobesity*",
+        "Endocrine and Metabolic, Diabetic ONETOUCH ULTRA STRIPS & ACCU-CHEK AVIVA PLUS STRIPS AND KITS,"
+      ]
+    },
+    {
+      "line": 67,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "Endocrine and Metabolic, Diabetic ONETOUCH ULTRA STRIPS & ACCU-CHEK AVIVA PLUS STRIPS AND KITS,",
+      "context": [
+        "Endocrine and Metabolic, ZEPBOUND orlistat, QSYMIA, SAXENDA, WEGOVY",
+        "Antiobesity*",
+        "Endocrine and Metabolic, Diabetic ONETOUCH ULTRA STRIPS & ACCU-CHEK AVIVA PLUS STRIPS AND KITS,",
+        "Supplies* KITS, ONETOUCH VERIO ACCU-CHEK GUIDE STRIPS AND KITS,",
+        "STRIPS & KITS, ONETOUCH ACCU-CHEK SMARTVIEW STRIPS AND KITS,"
+      ]
+    },
+    {
+      "line": 68,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "Supplies* KITS, ONETOUCH VERIO ACCU-CHEK GUIDE STRIPS AND KITS,",
+      "context": [
+        "Antiobesity*",
+        "Endocrine and Metabolic, Diabetic ONETOUCH ULTRA STRIPS & ACCU-CHEK AVIVA PLUS STRIPS AND KITS,",
+        "Supplies* KITS, ONETOUCH VERIO ACCU-CHEK GUIDE STRIPS AND KITS,",
+        "STRIPS & KITS, ONETOUCH ACCU-CHEK SMARTVIEW STRIPS AND KITS,",
+        "LANCETS & LANCING ACCU-CHEK LANCETS AND LANCING DEVICES,"
+      ]
+    },
+    {
+      "line": 69,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS & KITS, ONETOUCH ACCU-CHEK SMARTVIEW STRIPS AND KITS,",
+      "context": [
+        "Endocrine and Metabolic, Diabetic ONETOUCH ULTRA STRIPS & ACCU-CHEK AVIVA PLUS STRIPS AND KITS,",
+        "Supplies* KITS, ONETOUCH VERIO ACCU-CHEK GUIDE STRIPS AND KITS,",
+        "STRIPS & KITS, ONETOUCH ACCU-CHEK SMARTVIEW STRIPS AND KITS,",
+        "LANCETS & LANCING ACCU-CHEK LANCETS AND LANCING DEVICES,",
+        "DEVICES TRUE METRIX KIT AND TEST STRIPS"
+      ]
+    },
+    {
+      "line": 70,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "LANCETS & LANCING ACCU-CHEK LANCETS AND LANCING DEVICES,",
+      "context": [
+        "Supplies* KITS, ONETOUCH VERIO ACCU-CHEK GUIDE STRIPS AND KITS,",
+        "STRIPS & KITS, ONETOUCH ACCU-CHEK SMARTVIEW STRIPS AND KITS,",
+        "LANCETS & LANCING ACCU-CHEK LANCETS AND LANCING DEVICES,",
+        "DEVICES TRUE METRIX KIT AND TEST STRIPS",
+        "Endocrine and Metabolic,"
+      ]
+    },
+    {
+      "line": 71,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "DEVICES TRUE METRIX KIT AND TEST STRIPS",
+      "context": [
+        "STRIPS & KITS, ONETOUCH ACCU-CHEK SMARTVIEW STRIPS AND KITS,",
+        "LANCETS & LANCING ACCU-CHEK LANCETS AND LANCING DEVICES,",
+        "DEVICES TRUE METRIX KIT AND TEST STRIPS",
+        "Endocrine and Metabolic,",
+        "CLIMARA PRO COMBIPATCH"
+      ]
+    }
+  ]
+}

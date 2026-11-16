@@ -1,0 +1,150 @@
+{
+  "id": "aetna-soc-acpum-20250701",
+  "stamp": "20261116-201137",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 334,
+  "watchlist_in_document": [
+    {
+      "line": 35,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK SAFE-T-PRO Moving to preferred brand tier",
+      "context": [
+        "UPPER CASE = brand-name drug lower case = generic drug",
+        "Drug Name Change(s)",
+        "ACCU-CHEK SAFE-T-PRO Moving to preferred brand tier",
+        "PLUSLANCETS (NDC",
+        "50924007920 only)"
+      ]
+    },
+    {
+      "line": 36,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "PLUSLANCETS (NDC",
+      "context": [
+        "Drug Name Change(s)",
+        "ACCU-CHEK SAFE-T-PRO Moving to preferred brand tier",
+        "PLUSLANCETS (NDC",
+        "50924007920 only)",
+        "ADALIMUMAB-ADAZ Moving to preferred specialty tier"
+      ]
+    },
+    {
+      "line": 113,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "ONETOUCH ULTRA Non-formulary; not covered. Covered options include: ACCU-CHEK",
+      "context": [
+        "OCREVUS INJ ZUNOVO Drug list addition (preferred specialty); Preauthorization required;",
+        "Quantity limits apply. Covered up to 1 vial every 168 days",
+        "ONETOUCH ULTRA Non-formulary; not covered. Covered options include: ACCU-CHEK",
+        "STRIPS, ONETOUCH AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK",
+        "VERIO STRIPS, SMARTVIEW STRIPS, ACCU-CHEK LANCETS & LANCING DEVICES"
+      ]
+    },
+    {
+      "line": 114,
+      "tickers": [
+        "PRIVATE",
+        "ROG SW"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Roche Accu-Chek"
+      ],
+      "text": "STRIPS, ONETOUCH AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK",
+      "context": [
+        "Quantity limits apply. Covered up to 1 vial every 168 days",
+        "ONETOUCH ULTRA Non-formulary; not covered. Covered options include: ACCU-CHEK",
+        "STRIPS, ONETOUCH AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK",
+        "VERIO STRIPS, SMARTVIEW STRIPS, ACCU-CHEK LANCETS & LANCING DEVICES",
+        "ONETOUCH LANCETS &"
+      ]
+    },
+    {
+      "line": 115,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "VERIO STRIPS, SMARTVIEW STRIPS, ACCU-CHEK LANCETS & LANCING DEVICES",
+      "context": [
+        "ONETOUCH ULTRA Non-formulary; not covered. Covered options include: ACCU-CHEK",
+        "STRIPS, ONETOUCH AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK",
+        "VERIO STRIPS, SMARTVIEW STRIPS, ACCU-CHEK LANCETS & LANCING DEVICES",
+        "ONETOUCH LANCETS &",
+        "LANCING DEVICES"
+      ]
+    },
+    {
+      "line": 116,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ONETOUCH LANCETS &",
+      "context": [
+        "STRIPS, ONETOUCH AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK",
+        "VERIO STRIPS, SMARTVIEW STRIPS, ACCU-CHEK LANCETS & LANCING DEVICES",
+        "ONETOUCH LANCETS &",
+        "LANCING DEVICES",
+        "OTREXUP Drug list addition (preferred specialty); Preauthorization required;"
+      ]
+    },
+    {
+      "line": 152,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND Non-formulary; not covered. Covered options include: orlistat,",
+      "context": [
+        "Quantity limits apply. Covered up to 1 syringe every 56 days",
+        "ZEMAIRA Moving to preferred specialty tier; Preauthorization required",
+        "ZEPBOUND Non-formulary; not covered. Covered options include: orlistat,",
+        "QSYMIA, SAXENDA, WEGOVY",
+        "2588551-01-08 (7/25) ©2025 Aetna Inc."
+      ]
+    },
+    {
+      "line": 153,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Novo liraglutide"
+      ],
+      "text": "QSYMIA, SAXENDA, WEGOVY",
+      "context": [
+        "ZEMAIRA Moving to preferred specialty tier; Preauthorization required",
+        "ZEPBOUND Non-formulary; not covered. Covered options include: orlistat,",
+        "QSYMIA, SAXENDA, WEGOVY",
+        "2588551-01-08 (7/25) ©2025 Aetna Inc.",
+        "101_AdvancedCtrlModifiedUM"
+      ]
+    }
+  ]
+}

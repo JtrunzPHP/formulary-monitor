@@ -1,0 +1,69 @@
+{
+  "id": "esi-npf-changes-jan-2027",
+  "stamp": "20261116-201115",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 127,
+  "watchlist_in_document": [
+    {
+      "line": 30,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Insulins U-100: ADMELOG, APIDRA, FIASP, U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+      "context": [
+        "DIABETES metformin 625mg, 750mg tablets; metformin 500mg, 850mg or 1,000mg tablets",
+        "Biguanide Agents METFORMIN 625MG TABLETS",
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "HUMALOG VIAL, INSULIN ASPART, KIRSTY, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "LYUMJEV, NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN"
+      ]
+    },
+    {
+      "line": 31,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMALOG VIAL, INSULIN ASPART, KIRSTY, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+      "context": [
+        "Biguanide Agents METFORMIN 625MG TABLETS",
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "HUMALOG VIAL, INSULIN ASPART, KIRSTY, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "LYUMJEV, NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+        "U-200: LYUMJEV"
+      ]
+    },
+    {
+      "line": 32,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV, NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+      "context": [
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "HUMALOG VIAL, INSULIN ASPART, KIRSTY, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "LYUMJEV, NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+        "U-200: LYUMJEV",
+        "Inhalation: AFREZZA"
+      ]
+    },
+    {
+      "line": 33,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-200: LYUMJEV",
+      "context": [
+        "HUMALOG VIAL, INSULIN ASPART, KIRSTY, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "LYUMJEV, NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+        "U-200: LYUMJEV",
+        "Inhalation: AFREZZA",
+        "GASTROINTESTINAL sucralfate suspension, CARAFATE sucralfate tablets"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "optum-um-20270101-ql-premium-um-drug-list-",
+  "stamp": "20261116-201141",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 1179,
+  "watchlist_in_document": [
+    {
+      "line": 671,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "liraglutide inj 5 syringes per 30 days",
+      "context": [
+        "Toxicology LUCEMYRA TAB 16 tablets per day, up to a 14 day supply",
+        "Weight Loss FOUNDAYO TAB 1 tablet per day",
+        "liraglutide inj 5 syringes per 30 days",
+        "WEGOVY HD INJ 7.2 MG/0.75 ML 4 syringes per 28 days",
+        "WEGOVY INJ 4 syringes per 28 days"
+      ]
+    },
+    {
+      "line": 672,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY HD INJ 7.2 MG/0.75 ML 4 syringes per 28 days",
+      "context": [
+        "Weight Loss FOUNDAYO TAB 1 tablet per day",
+        "liraglutide inj 5 syringes per 30 days",
+        "WEGOVY HD INJ 7.2 MG/0.75 ML 4 syringes per 28 days",
+        "WEGOVY INJ 4 syringes per 28 days",
+        "WEGOVY TAB 1 tablet per day"
+      ]
+    },
+    {
+      "line": 673,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY INJ 4 syringes per 28 days",
+      "context": [
+        "liraglutide inj 5 syringes per 30 days",
+        "WEGOVY HD INJ 7.2 MG/0.75 ML 4 syringes per 28 days",
+        "WEGOVY INJ 4 syringes per 28 days",
+        "WEGOVY TAB 1 tablet per day",
+        "ZEPBOUND 4 syringes per 28 days"
+      ]
+    },
+    {
+      "line": 674,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY TAB 1 tablet per day",
+      "context": [
+        "WEGOVY HD INJ 7.2 MG/0.75 ML 4 syringes per 28 days",
+        "WEGOVY INJ 4 syringes per 28 days",
+        "WEGOVY TAB 1 tablet per day",
+        "ZEPBOUND 4 syringes per 28 days",
+        "Dermatology"
+      ]
+    },
+    {
+      "line": 675,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND 4 syringes per 28 days",
+      "context": [
+        "WEGOVY INJ 4 syringes per 28 days",
+        "WEGOVY TAB 1 tablet per day",
+        "ZEPBOUND 4 syringes per 28 days",
+        "Dermatology",
+        "Anti-Inflammatory diclofenac gel 300 gm per 30 days"
+      ]
+    },
+    {
+      "line": 708,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supplies glucose test strip 100 strips per 30 days",
+      "context": [
+        "testosterone soln 30 mg/act 2 bottles per 30 days",
+        "testosterone gel pump 1% 4 bottles (75 gm/each) per 30 days",
+        "Diabetic Supplies glucose test strip 100 strips per 30 days",
+        "MODD1 SUPPLY KIT, TWIIST REFILL KIT/INFUSION 1 kit per 30 days",
+        "SET"
+      ]
+    },
+    {
+      "line": 711,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "OMNIPOD PODS 10 pods per 30 days",
+      "context": [
+        "MODD1 SUPPLY KIT, TWIIST REFILL KIT/INFUSION 1 kit per 30 days",
+        "SET",
+        "OMNIPOD PODS 10 pods per 30 days",
+        "TWIIST REFILL KIT 1 kit per 30 days",
+        "Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol). 16"
+      ]
+    },
+    {
+      "line": 718,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "liraglutide inj 3 syringes per 30 days",
+      "context": [
+        "GLP-1 Agonists BYDUREON BCISE 4 syringes per 28 days",
+        "BYETTA INJ 1 syringe per 30 days",
+        "liraglutide inj 3 syringes per 30 days",
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days"
+      ]
+    },
+    {
+      "line": 719,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "MOUNJARO INJ 4 syringes per 28 days",
+      "context": [
+        "BYETTA INJ 1 syringe per 30 days",
+        "liraglutide inj 3 syringes per 30 days",
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 3 MG 2 starter packs per 365 days"
+      ]
+    },
+    {
+      "line": 720,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "OZEMPIC INJ 1 syringe per 28 days",
+      "context": [
+        "liraglutide inj 3 syringes per 30 days",
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 3 MG 2 starter packs per 365 days",
+        "TRULICITY INJ 4 syringes per 28 days"
+      ]
+    },
+    {
+      "line": 721,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "RYBELSUS TAB 3 MG 2 starter packs per 365 days",
+      "context": [
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 3 MG 2 starter packs per 365 days",
+        "TRULICITY INJ 4 syringes per 28 days",
+        "Gonadotropins MYFEMBREE TAB 1 tablet per day"
+      ]
+    },
+    {
+      "line": 722,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "TRULICITY INJ 4 syringes per 28 days",
+      "context": [
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 3 MG 2 starter packs per 365 days",
+        "TRULICITY INJ 4 syringes per 28 days",
+        "Gonadotropins MYFEMBREE TAB 1 tablet per day",
+        "ORIAHNN CAP 2 capsules per day"
+      ]
+    }
+  ]
+}

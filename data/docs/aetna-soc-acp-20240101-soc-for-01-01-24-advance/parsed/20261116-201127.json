@@ -1,0 +1,585 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ACCU-CHEK FASTCLIX LANCETDEVICE",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "ACCU-CHEK FASTCLIX LANCETDEVICE | Moving to preferred brand tier",
+      "watch_tickers": [
+        "ROG SW"
+      ],
+      "watch_labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "KIT (NDC* 65702048110 only) ACCU-CHEK FASTCLIX LANCETS",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "KIT (NDC* 65702048110 only) ACCU-CHEK FASTCLIX LANCETS | Moving to preferred brand tier",
+      "watch_tickers": [
+        "ROG SW"
+      ],
+      "watch_labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "(NDC* 65702028810 only) ACCU-CHEK SAFE-T-PRO LANCETS",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "(NDC* 65702028810 only) ACCU-CHEK SAFE-T-PRO LANCETS | Moving to preferred brand tier",
+      "watch_tickers": [
+        "ROG SW"
+      ],
+      "watch_labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "(NDC* 50924095120 only) ACCU-CHEK SOFTCLIX (NDC*",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "(NDC* 50924095120 only) ACCU-CHEK SOFTCLIX (NDC* | Moving to preferred brand tier",
+      "watch_tickers": [
+        "ROG SW"
+      ],
+      "watch_labels": [
+        "Roche Accu-Chek"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "BASAGLAR KWIKPEN",
+      "change_text": "Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar",
+      "change": "NOT_COVERED",
+      "alternatives": "Lantus, Lantus Solostar",
+      "effective": "January 1, 2024",
+      "text": "BASAGLAR KWIKPEN | Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "BASAGLAR TEMPO PEN",
+      "change_text": "Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar",
+      "change": "NOT_COVERED",
+      "alternatives": "Lantus, Lantus Solostar",
+      "effective": "January 1, 2024",
+      "text": "BASAGLAR TEMPO PEN | Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "BESREMI",
+      "change_text": "Drug list addition (preferred specialty)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "BESREMI | Drug list addition (preferred specialty)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BYOOVIZ",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "BYOOVIZ | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "CETROTIDE",
+      "change_text": "Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)",
+      "change": "NOT_COVERED",
+      "alternatives": "brand Ganirelix (NDC 78206-0138-xx)",
+      "effective": "January 1, 2024",
+      "text": "CETROTIDE | Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "CIMERLI",
+      "change_text": "Moving to preferred specialty tier; Preauthorization required",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "CIMERLI | Moving to preferred specialty tier; Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "COPAXONE",
+      "change_text": "Non-formulary; not covered. Covered options include: glatiramer, Copaxone 40 mg,dimethyl fumarate DR, fingolimod, teriflunomide, Avonex, Betaseron, Kesimpta, Mayzent, Rebif, Tysabri, Vumerity, Zeposia",
+      "change": "NOT_COVERED",
+      "alternatives": "glatiramer, Copaxone 40 mg,dimethyl fumarate DR, fingolimod, teriflunomide, Avonex, Betaseron, Kesimpta, Mayzent, Rebif, Tysabri, Vumerity, Zeposia",
+      "effective": "January 1, 2024",
+      "text": "COPAXONE | Non-formulary; not covered. Covered options include: glatiramer, Copaxone 40 mg,dimethyl fumarate DR, fingolimod, teriflunomide, Avonex, Betaseron, Kesimpta, Mayzent, Rebif, Tysabri, Vumerity, Zeposia"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DULERA",
+      "change_text": "Drug list addition (non-preferred); Quantity limits apply. Covered up to 1 package every 25 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "DULERA | Drug list addition (non-preferred); Quantity limits apply. Covered up to 1 package every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DYSPORT",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "DYSPORT | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EDURANT",
+      "change_text": "Non-formulary; not covered. Covered options include: etravirine",
+      "change": "NOT_COVERED",
+      "alternatives": "etravirine",
+      "effective": "January 1, 2024",
+      "text": "EDURANT | Non-formulary; not covered. Covered options include: etravirine"
+    },
+    {
+      "kind": "soc_change",
+      "name": "epinephrine auto injectors (NDC*",
+      "change_text": "Non-formulary drug (Other NDCs covered)",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "epinephrine auto injectors (NDC* | Non-formulary drug (Other NDCs covered)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "fluticasone propionate / salmeterol",
+      "change_text": "Non-formulary drug (Other NDCs covered)",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "fluticasone propionate / salmeterol | Non-formulary drug (Other NDCs covered)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "diskus (NDC* 66993058497 only) fluticasone propionate / salmeterol",
+      "change_text": "Non-formulary drug (Other NDCs covered)",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "diskus (NDC* 66993058497 only) fluticasone propionate / salmeterol | Non-formulary drug (Other NDCs covered)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "diskus (NDC* 66993058597 only) fluticasone propionate / salmeterol",
+      "change_text": "Non-formulary drug (Other NDCs covered)",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "diskus (NDC* 66993058597 only) fluticasone propionate / salmeterol | Non-formulary drug (Other NDCs covered)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "diskus (NDC* 66993058697 only) FOLLISTIM AQ",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "diskus (NDC* 66993058697 only) FOLLISTIM AQ | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "fyremadel",
+      "change_text": "Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)",
+      "change": "NOT_COVERED",
+      "alternatives": "brand Ganirelix (NDC 78206-0138-xx)",
+      "effective": "January 1, 2024",
+      "text": "fyremadel | Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GAMMAGARD LIQUID",
+      "change_text": "Preauthorization required",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "GAMMAGARD LIQUID | Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GAMMAKED",
+      "change_text": "Preauthorization required",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "GAMMAKED | Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GAMUNEX-C",
+      "change_text": "Preauthorization required",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "GAMUNEX-C | Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GANIRELIX ACETATE",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "GANIRELIX ACETATE | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ganirelix acetate generic",
+      "change_text": "Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)",
+      "change": "NOT_COVERED",
+      "alternatives": "brand Ganirelix (NDC 78206-0138-xx)",
+      "effective": "January 1, 2024",
+      "text": "ganirelix acetate generic | Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GENOTROPIN",
+      "change_text": "Non-formulary; not covered. Covered options include: Humatrope, Norditropin",
+      "change": "NOT_COVERED",
+      "alternatives": "Humatrope, Norditropin",
+      "effective": "January 1, 2024",
+      "text": "GENOTROPIN | Non-formulary; not covered. Covered options include: Humatrope, Norditropin"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GENOTROPIN MINIQUICK",
+      "change_text": "Non-formulary; not covered. Covered options include: Humatrope, Norditropin",
+      "change": "NOT_COVERED",
+      "alternatives": "Humatrope, Norditropin",
+      "effective": "January 1, 2024",
+      "text": "GENOTROPIN MINIQUICK | Non-formulary; not covered. Covered options include: Humatrope, Norditropin"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GONAL-F",
+      "change_text": "Non-formulary; not covered. Covered options include: Follistim AQ",
+      "change": "NOT_COVERED",
+      "alternatives": "Follistim AQ",
+      "effective": "January 1, 2024",
+      "text": "GONAL-F | Non-formulary; not covered. Covered options include: Follistim AQ"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GONAL-F RFF",
+      "change_text": "Non-formulary; not covered. Covered options include: Follistim AQ",
+      "change": "NOT_COVERED",
+      "alternatives": "Follistim AQ",
+      "effective": "January 1, 2024",
+      "text": "GONAL-F RFF | Non-formulary; not covered. Covered options include: Follistim AQ"
+    },
+    {
+      "kind": "soc_change",
+      "name": "GONAL-F RFF REDIJECT",
+      "change_text": "Non-formulary; not covered. Covered options include: Follistim AQ",
+      "change": "NOT_COVERED",
+      "alternatives": "Follistim AQ",
+      "effective": "January 1, 2024",
+      "text": "GONAL-F RFF REDIJECT | Non-formulary; not covered. Covered options include: Follistim AQ"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMATROPE",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "HUMATROPE | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ILARIS",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "ILARIS | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "INTELENCE",
+      "change_text": "Non-formulary; not covered. Covered options include: etravirine",
+      "change": "NOT_COVERED",
+      "alternatives": "etravirine",
+      "effective": "January 1, 2024",
+      "text": "INTELENCE | Non-formulary; not covered. Covered options include: etravirine"
+    },
+    {
+      "kind": "soc_change",
+      "name": "IRESSA",
+      "change_text": "Non-formulary; not covered. Covered options include: gefitinib, erlotinib",
+      "change": "NOT_COVERED",
+      "alternatives": "gefitinib, erlotinib",
+      "effective": "January 1, 2024",
+      "text": "IRESSA | Non-formulary; not covered. Covered options include: gefitinib, erlotinib"
+    },
+    {
+      "kind": "soc_change",
+      "name": "isotretinoin cap 25mg",
+      "change_text": "Non-formulary; not covered. Covered options include: isotretinoin 20mg, 30mg, 40mg",
+      "change": "NOT_COVERED",
+      "alternatives": "isotretinoin 20mg, 30mg, 40mg",
+      "effective": "January 1, 2024",
+      "text": "isotretinoin cap 25mg | Non-formulary; not covered. Covered options include: isotretinoin 20mg, 30mg, 40mg"
+    },
+    {
+      "kind": "soc_change",
+      "name": "isotretinoin cap 35mg",
+      "change_text": "Non-formulary; not covered. Covered options include: isotretinoin 20mg, 30mg, 40mg",
+      "change": "NOT_COVERED",
+      "alternatives": "isotretinoin 20mg, 30mg, 40mg",
+      "effective": "January 1, 2024",
+      "text": "isotretinoin cap 35mg | Non-formulary; not covered. Covered options include: isotretinoin 20mg, 30mg, 40mg"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JANUMET",
+      "change_text": "Drug list addition (preferred); Step therapy required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "JANUMET | Drug list addition (preferred); Step therapy required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JANUMET XR",
+      "change_text": "Drug list addition (preferred); Step therapy required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "JANUMET XR | Drug list addition (preferred); Step therapy required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JANUVIA",
+      "change_text": "Drug list addition (preferred); Step therapy required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "JANUVIA | Drug list addition (preferred); Step therapy required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JENTADUETO",
+      "change_text": "Non-formulary; not covered. Covered options include: Janumet, Janumet XR",
+      "change": "NOT_COVERED",
+      "alternatives": "Janumet, Janumet XR",
+      "effective": "January 1, 2024",
+      "text": "JENTADUETO | Non-formulary; not covered. Covered options include: Janumet, Janumet XR"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JENTADUETO XR",
+      "change_text": "Non-formulary; not covered. Covered options include: Janumet, Janumet XR",
+      "change": "NOT_COVERED",
+      "alternatives": "Janumet, Janumet XR",
+      "effective": "January 1, 2024",
+      "text": "JENTADUETO XR | Non-formulary; not covered. Covered options include: Janumet, Janumet XR"
+    },
+    {
+      "kind": "soc_change",
+      "name": "KALETRA",
+      "change_text": "Non-formulary; not covered. Covered options include: atazanvir, darunavir, lopinavir-ritonavir",
+      "change": "NOT_COVERED",
+      "alternatives": "atazanvir, darunavir, lopinavir-ritonavir",
+      "effective": "January 1, 2024",
+      "text": "KALETRA | Non-formulary; not covered. Covered options include: atazanvir, darunavir, lopinavir-ritonavir"
+    },
+    {
+      "kind": "soc_change",
+      "name": "KRAZATI",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "KRAZATI | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LANTUS (NDC* 00088222033 only)",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "LANTUS (NDC* 00088222033 only) | Drug list addition (preferred)",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "LANTUS SOLOSTAR (NDC*",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "LANTUS SOLOSTAR (NDC* | Drug list addition (preferred)",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "REYATAZ",
+      "change_text": "Non-formulary; not covered. Covered options include: atazanavir, darunavir",
+      "change": "NOT_COVERED",
+      "alternatives": "atazanavir, darunavir",
+      "effective": "January 1, 2024",
+      "text": "REYATAZ | Non-formulary; not covered. Covered options include: atazanavir, darunavir"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SYMBICORT",
+      "change_text": "Non-formulary; not covered. Covered options include: fluticasone propionate/salmeterol (except certain NDCs), Wixela Inhub, Breo Ellipta",
+      "change": "NOT_COVERED",
+      "alternatives": "fluticasone propionate/salmeterol (except certain NDCs), Wixela Inhub, Breo Ellipta",
+      "effective": "January 1, 2024",
+      "text": "SYMBICORT | Non-formulary; not covered. Covered options include: fluticasone propionate/salmeterol (except certain NDCs), Wixela Inhub, Breo Ellipta"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TADLIQ",
+      "change_text": "Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 300mL every 30 days",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "TADLIQ | Moving to preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 300mL every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TRADJENTA",
+      "change_text": "Non-formulary; not covered. Covered options include: Januvia",
+      "change": "NOT_COVERED",
+      "alternatives": "Januvia",
+      "effective": "January 1, 2024",
+      "text": "TRADJENTA | Non-formulary; not covered. Covered options include: Januvia"
+    },
+    {
+      "kind": "soc_change",
+      "name": "tretinoin microsphere",
+      "change_text": "Non-formulary; not covered. Covered options include: adapalene 0.1% gel, adapalene-benzoyl peroxide, benzoyl peroxide-erythromycin, clindamycin 1% swab, clindamycin- benzoyl peroxide 1.2%/2.5%, dapsone, ery pad, erythromycin, sulfacetamide, tretinoin cream, tretinoin 0.01% and 0.025% gel, tretinoin microsphere gel, Aklief, Differin 1% gel, Epiduo, Epiduo Forte, Onexton, Twyneo, Winlevi",
+      "change": "NOT_COVERED",
+      "alternatives": "adapalene 0.1% gel, adapalene-benzoyl peroxide, benzoyl peroxide-erythromycin, clindamycin 1% swab, clindamycin- benzoyl peroxide 1.2%/2.5%, dapsone, ery pad, erythromycin, sulfacetamide, tretinoin cream, tretinoin 0.01% and 0.025% gel, tretinoin microsphere gel, Aklief, Differin 1% gel, Epiduo, Epiduo Forte, Onexton, Twyneo, Winlevi",
+      "effective": "January 1, 2024",
+      "text": "tretinoin microsphere | Non-formulary; not covered. Covered options include: adapalene 0.1% gel, adapalene-benzoyl peroxide, benzoyl peroxide-erythromycin, clindamycin 1% swab, clindamycin- benzoyl peroxide 1.2%/2.5%, dapsone, ery pad, erythromycin, sulfacetamide, tretinoin cream, tretinoin 0.01% and 0.025% gel, tretinoin microsphere gel, Aklief, Differin 1% gel, Epiduo, Epiduo Forte, Onexton, Twyneo, Winlevi"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TRIPTODUR",
+      "change_text": "Non-formulary; not covered. Covered options include: Fensolvi, LUPRON DEPOT PED",
+      "change": "NOT_COVERED",
+      "alternatives": "Fensolvi, LUPRON DEPOT PED",
+      "effective": "January 1, 2024",
+      "text": "TRIPTODUR | Non-formulary; not covered. Covered options include: Fensolvi, LUPRON DEPOT PED"
+    },
+    {
+      "kind": "soc_change",
+      "name": "WELLBUTRIN XL",
+      "change_text": "Non-formulary; not covered. Covered options include: bupropion, bupropion ER (except 450 mg tab)",
+      "change": "NOT_COVERED",
+      "alternatives": "bupropion, bupropion ER (except 450 mg tab)",
+      "effective": "January 1, 2024",
+      "text": "WELLBUTRIN XL | Non-formulary; not covered. Covered options include: bupropion, bupropion ER (except 450 mg tab)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "wixela inhub",
+      "change_text": "Quantity limits apply. Covered up to 1 package every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "wixela inhub | Quantity limits apply. Covered up to 1 package every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XEMBIFY",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "XEMBIFY | Drug list addition (non-preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XEOMIN",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "XEOMIN | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XTAMPZA ER",
+      "change_text": "Non-formulary; not covered. Covered options include: fentanyl transdermal, methadone (except oral concentrate), morphine ER, oxycodone ER",
+      "change": "NOT_COVERED",
+      "alternatives": "fentanyl transdermal, methadone (except oral concentrate), morphine ER, oxycodone ER",
+      "effective": "January 1, 2024",
+      "text": "XTAMPZA ER | Non-formulary; not covered. Covered options include: fentanyl transdermal, methadone (except oral concentrate), morphine ER, oxycodone ER"
+    },
+    {
+      "kind": "soc_change",
+      "name": "XYREM",
+      "change_text": "Non-formulary; not covered. Covered options include: Lumryz, Xywav, Wakix",
+      "change": "NOT_COVERED",
+      "alternatives": "Lumryz, Xywav, Wakix",
+      "effective": "January 1, 2024",
+      "text": "XYREM | Non-formulary; not covered. Covered options include: Lumryz, Xywav, Wakix"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZIEXTENZO INJ 6/0.6M",
+      "change_text": "Non-formulary; not covered. Covered options include: FYLNETRA, NYVEPRIA",
+      "change": "NOT_COVERED",
+      "alternatives": "FYLNETRA, NYVEPRIA",
+      "effective": "January 1, 2024",
+      "text": "ZIEXTENZO INJ 6/0.6M | Non-formulary; not covered. Covered options include: FYLNETRA, NYVEPRIA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZIOPTAN",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2024",
+      "text": "ZIOPTAN | Moving to non-preferred brand tier"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 11,
+    "tables": 5,
+    "effective": "January 1, 2024"
+  }
+}

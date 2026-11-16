@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents",
       "name": "Biktarvy (bictegravir- emtricitabine-tenofovir alafenamide) tablet Sunlenca (lenacapavir) SC",
       "brand_generic": "Brand",
@@ -23,6 +24,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "injection, tablet, tablet therapy pack Fesilty (fibrinogen human-",
       "brand_generic": "Brand",
@@ -44,6 +46,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "chmt) IV injection Adalimumab-aaty auto-",
       "brand_generic": "Brand",
@@ -65,6 +68,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "injector, prefilled syringe for SC injection Adalimumab-adaz prefilled",
       "brand_generic": "Brand",
@@ -86,6 +90,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "syringe for SC injection 10mg/0.1mL",
       "brand_generic": "Brand",
@@ -107,6 +112,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antidiabetic Agents",
       "name": "Langlara (insulin glargine-aldy) pen- injector for SC injection*",
       "brand_generic": "",
@@ -137,6 +143,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Anti-infective Agents",
       "name": "Nuzolvence (zoliflodacin) granules for oral suspension*",
       "brand_generic": "",
@@ -163,6 +170,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antineoplastic",
       "name": "Beqalzi (sonrotoclax) tablet & tablet therapy pack* Etcamah",
       "brand_generic": "",
@@ -189,6 +197,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents",
       "name": "(camizestrant) tablet* Mimrylo (rusfertide)",
       "brand_generic": "",
@@ -215,6 +224,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Diabetes",
       "name": "SC injection* Mint insulin infusion",
       "brand_generic": "",
@@ -245,6 +255,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Supplies",
       "name": "disposable pump reservoir, kit* Fayuvi (rebisufligene",
       "brand_generic": "",
@@ -271,6 +282,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Endocrine and Metabolic Agents",
       "name": "etisparvovec-hopf) IV injection* Genglycos (pariglasgene",
       "brand_generic": "",
@@ -297,6 +309,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "brecaparvovec-opnr) IV injection*",
       "brand_generic": "",
@@ -323,6 +336,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Hematological Agents",
       "name": "Kresladi (marnetegragene autotemcel) IV injection*",
       "brand_generic": "",
@@ -349,6 +363,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Immunological Agents",
       "name": "Joenja (leniolisib) tablet Isembyld",
       "brand_generic": "",
@@ -375,6 +390,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Neurological Agents",
       "name": "(apitegromab-mstn) IV injection* Zanvastro",
       "brand_generic": "",
@@ -401,6 +417,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "(zilganersen) intrathecal injection*",
       "brand_generic": "",
@@ -427,6 +444,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Anticonvulsant Agents",
       "name": "clonazepam N/A tablet 0.25mg",
       "brand_generic": "",
@@ -453,6 +471,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antidepressant Agents",
       "name": "trazodone tablet N/A 25mg, 75mg",
       "brand_generic": "",
@@ -479,6 +498,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Genitourinary Agents",
       "name": "dimethyl sulfoxide Rimso-50 intravesical solution",
       "brand_generic": "",
@@ -505,6 +525,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Tryngolza (olezarsen) auto- injector for SC injection 50mg/0.8mL Rasonque",
       "brand_generic": "Brand",
@@ -531,6 +552,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "(daraxonrasib) tablet Fesilty (fibrinogen",
       "brand_generic": "Brand",
@@ -557,6 +579,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "human-chmt) IV injection Saphnelo (anifrolumab-fnia)",
       "brand_generic": "Brand",
@@ -583,6 +606,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "auto-injector, prefilled syringe for SC injection",
       "brand_generic": "Brand",

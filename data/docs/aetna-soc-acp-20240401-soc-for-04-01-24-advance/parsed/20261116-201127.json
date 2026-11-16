@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ADIPEX-P",
+      "change_text": "Quantity limits apply. Covered up to 30 units every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "ADIPEX-P | Quantity limits apply. Covered up to 30 units every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "albuterol sulfate hfa (NDC* 00093317431 only)",
+      "change_text": "Non-formulary drug (Other NDCs covered)",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "albuterol sulfate hfa (NDC* 00093317431 only) | Non-formulary drug (Other NDCs covered)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "benzphetamine hcl",
+      "change_text": "Quantity limits apply. Covered up to 90 tabs every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "benzphetamine hcl | Quantity limits apply. Covered up to 90 tabs every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BIDIL",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "BIDIL | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "diethylprop tab 25mg",
+      "change_text": "Quantity limits apply. Covered up to 90 tabs every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "diethylprop tab 25mg | Quantity limits apply. Covered up to 90 tabs every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "diethylprop tab 75mg er",
+      "change_text": "Quantity limits apply. Covered up to 30 tabs every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "diethylprop tab 75mg er | Quantity limits apply. Covered up to 30 tabs every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EVAMIST",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "EVAMIST | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FENSOLVI",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "FENSOLVI | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMIRA",
+      "change_text": "Non-formulary; not covered.",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "HUMIRA | Non-formulary; not covered."
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMIRA PEDIATRIC CROHNS DISEASE STARTER PACK",
+      "change_text": "Covered options include: For Ankylosing Spondylitis: Adalimumab-ADAZ, Cosentyx,",
+      "change": "OTHER",
+      "alternatives": "For Ankylosing Spondylitis: Adalimumab-ADAZ, Cosentyx,",
+      "effective": "April 1, 2024",
+      "text": "HUMIRA PEDIATRIC CROHNS DISEASE STARTER PACK | Covered options include: For Ankylosing Spondylitis: Adalimumab-ADAZ, Cosentyx,"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMIRA PEN",
+      "change_text": "Enbrel, Hyrimoz, Rinvoq",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "HUMIRA PEN | Enbrel, Hyrimoz, Rinvoq"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMIRA PEN-CD / UC / HS STARTER HUMIRA PEN-PEDIATRIC UC STARTER PAC",
+      "change_text": "For Crohn’s Disease: Adalimumab-ADAZ, Hyrimoz, Skyrizi",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "HUMIRA PEN-CD / UC / HS STARTER HUMIRA PEN-PEDIATRIC UC STARTER PAC | For Crohn’s Disease: Adalimumab-ADAZ, Hyrimoz, Skyrizi"
+    },
+    {
+      "kind": "soc_change",
+      "name": "HUMIRA PEN PS / UV STARTER",
+      "change_text": "subcutaneous, Stelara subcutaneous, Rinvoq For Psoriasis: Adalimumab-ADAZ, Hyrimoz, Otezla, Skyrizi subcutaneous, Sotyktu, Stelara subcutaneous, Taltz, Tremfya For Psoriatic Arthritis: Adalimumab-ADAZ, Cosentyx, Enbrel, Hyrimoz, Otezla, Rinvoq, Skyrizi subcutaneous, Stelara subcutaneous, Tremfya For Rheumatoid Arthritis: Adalimumab-ADAZ, Enbrel, Hyrimoz, Kevzara, Orencia Clickject, Orencia subcutaneous, Rinvoq, Xeljanz, Xeljanz XR For Ulcerative Colitis: Adalimumab-ADAZ, Hyrimoz, Rinvoq, Stelara subcutaneous, Xeljanz, Xeljanz XR, Zeposia For All Other Conditions: Adalimumab-ADAZ, Enbrel, Hyrimoz",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "HUMIRA PEN PS / UV STARTER | subcutaneous, Stelara subcutaneous, Rinvoq For Psoriasis: Adalimumab-ADAZ, Hyrimoz, Otezla, Skyrizi subcutaneous, Sotyktu, Stelara subcutaneous, Taltz, Tremfya For Psoriatic Arthritis: Adalimumab-ADAZ, Cosentyx, Enbrel, Hyrimoz, Otezla, Rinvoq, Skyrizi subcutaneous, Stelara subcutaneous, Tremfya For Rheumatoid Arthritis: Adalimumab-ADAZ, Enbrel, Hyrimoz, Kevzara, Orencia Clickject, Orencia subcutaneous, Rinvoq, Xeljanz, Xeljanz XR For Ulcerative Colitis: Adalimumab-ADAZ, Hyrimoz, Rinvoq, Stelara subcutaneous, Xeljanz, Xeljanz XR, Zeposia For All Other Conditions: Adalimumab-ADAZ, Enbrel, Hyrimoz"
+    },
+    {
+      "kind": "soc_change",
+      "name": "IMBRUVICA",
+      "change_text": "Non-formulary; not covered. Covered options include: Brukinsa, Calquence",
+      "change": "NOT_COVERED",
+      "alternatives": "Brukinsa, Calquence",
+      "effective": "April 1, 2024",
+      "text": "IMBRUVICA | Non-formulary; not covered. Covered options include: Brukinsa, Calquence"
+    },
+    {
+      "kind": "soc_change",
+      "name": "orlistat",
+      "change_text": "Quantity limits apply. Covered up to 90 caps every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "orlistat | Quantity limits apply. Covered up to 90 caps every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "phendimetrazine tartrate",
+      "change_text": "Quantity limits apply. Covered up to 180 tabs every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "phendimetrazine tartrate | Quantity limits apply. Covered up to 180 tabs every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "phentermine cap 15mg",
+      "change_text": "Quantity limits apply. Covered up to 60 caps every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "phentermine cap 15mg | Quantity limits apply. Covered up to 60 caps every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "phentermine cap 30mg",
+      "change_text": "Quantity limits apply. Covered up to 30 caps every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "phentermine cap 30mg | Quantity limits apply. Covered up to 30 caps every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "phentermine cap 37.5mg",
+      "change_text": "Quantity limits apply. Covered up to 30 units every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "phentermine cap 37.5mg | Quantity limits apply. Covered up to 30 units every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "phentermine tab 37.5mg",
+      "change_text": "Quantity limits apply. Covered up to 30 units every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "phentermine tab 37.5mg | Quantity limits apply. Covered up to 30 units every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "PYLERA",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "PYLERA | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "QSYMIA",
+      "change_text": "Preauthorization required; Quantity limits apply. Covered up to 30 caps every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "QSYMIA | Preauthorization required; Quantity limits apply. Covered up to 30 caps every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SAXENDA",
+      "change_text": "Quantity limits apply. Covered up to 5 pens every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "SAXENDA | Quantity limits apply. Covered up to 5 pens every 25 days",
+      "watch_tickers": [
+        "NVO"
+      ],
+      "watch_labels": [
+        "Novo liraglutide"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "SUNLENCA",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "SUNLENCA | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VELPHORO",
+      "change_text": "Non-formulary; not covered. Covered options include: calcium acetate, sevelamer carbonate, sevelamer hydrochloride, Auryxia",
+      "change": "NOT_COVERED",
+      "alternatives": "calcium acetate, sevelamer carbonate, sevelamer hydrochloride, Auryxia",
+      "effective": "April 1, 2024",
+      "text": "VELPHORO | Non-formulary; not covered. Covered options include: calcium acetate, sevelamer carbonate, sevelamer hydrochloride, Auryxia"
+    },
+    {
+      "kind": "soc_change",
+      "name": "WEGOVY",
+      "change_text": "Quantity limits apply. Covered up to 4 pens every 21 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2024",
+      "text": "WEGOVY | Quantity limits apply. Covered up to 4 pens every 21 days",
+      "watch_tickers": [
+        "NVO"
+      ],
+      "watch_labels": [
+        "Novo semaglutide"
+      ]
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 8,
+    "tables": 2,
+    "effective": "April 1, 2024"
+  }
+}

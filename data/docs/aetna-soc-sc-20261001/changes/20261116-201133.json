@@ -1,0 +1,26 @@
+{
+  "id": "aetna-soc-sc-20261001",
+  "stamp": "20261116-201133",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 322,
+  "watchlist_in_document": [
+    {
+      "line": 8,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "Endocrine and Metabolic, Antiobesity ZEPBOUND",
+      "context": [
+        "Formulary Additions",
+        "Drug Class Product(s) Added",
+        "Endocrine and Metabolic, Antiobesity ZEPBOUND",
+        "These products will move from non-preferred to preferred:",
+        "Tier Changes: Non-Preferred to Preferred"
+      ]
+    }
+  ]
+}

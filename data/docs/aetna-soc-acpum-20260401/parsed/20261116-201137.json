@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ARMOUR THYROID",
+      "change_text": "Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine",
+      "change": "NOT_COVERED",
+      "alternatives": "levothyroxine tabs, liothyronine",
+      "effective": "April 1, 2026",
+      "text": "ARMOUR THYROID | Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BONSITY",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 pen every 28 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "BONSITY | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 pen every 28 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BRILINTA",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "BRILINTA | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "COPAXONE",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "COPAXONE | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DIFICID",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "DIFICID | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FORTEO",
+      "change_text": "Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
+      "change": "NOT_COVERED",
+      "alternatives": "teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
+      "effective": "April 1, 2026",
+      "text": "FORTEO | Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS"
+    },
+    {
+      "kind": "soc_change",
+      "name": "hydrocodone",
+      "change_text": "Moving to non-preferred generic tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "hydrocodone | Moving to non-preferred generic tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "bitartrate/homatropine methylbromide hydromet",
+      "change_text": "Moving to non-preferred generic tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "bitartrate/homatropine methylbromide hydromet | Moving to non-preferred generic tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "NP THYROID",
+      "change_text": "Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine",
+      "change": "NOT_COVERED",
+      "alternatives": "levothyroxine tabs, liothyronine",
+      "effective": "April 1, 2026",
+      "text": "NP THYROID | Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine"
+    },
+    {
+      "kind": "soc_change",
+      "name": "OSPOMYV",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 6 months",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "OSPOMYV | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 6 months"
+    },
+    {
+      "kind": "soc_change",
+      "name": "PROLIA",
+      "change_text": "Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
+      "change": "NOT_COVERED",
+      "alternatives": "teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
+      "effective": "April 1, 2026",
+      "text": "PROLIA | Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SAXENDA",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "SAXENDA | Moving to non-preferred brand tier",
+      "watch_tickers": [
+        "NVO"
+      ],
+      "watch_labels": [
+        "Novo liraglutide"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "STOBOCLO",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 6 months",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "STOBOCLO | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe every 6 months"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VTAMA",
+      "change_text": "Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "VTAMA | Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZORYVE",
+      "change_text": "Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days",
+      "change": "RESTRICTION",
+      "alternatives": "",
+      "effective": "April 1, 2026",
+      "text": "ZORYVE | Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 12,
+    "tables": 1,
+    "effective": "April 1, 2026"
+  }
+}

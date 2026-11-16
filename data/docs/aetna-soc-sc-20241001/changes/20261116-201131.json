@@ -1,0 +1,24 @@
+{
+  "id": "aetna-soc-sc-20241001",
+  "stamp": "20261116-201131",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 232,
+  "watchlist_in_document": [
+    {
+      "line": 40,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supplies* KETO-DIASTIX, KETOSTIX Talk to your doctor",
+      "context": [
+        "Formulary exclusions",
+        "Drug Class Drug name(s) Alternative(s)",
+        "Diabetic Supplies* KETO-DIASTIX, KETOSTIX Talk to your doctor",
+        "Migraine* TRUDHESA eletriptan, naratriptan, rizatriptan, sumatriptan,",
+        "zolmitriptan, NURTEC ODT, ONZETRA XSAIL,"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "ABILIFY ASIMTUFII",
+      "change_text": "Moving to preferred brand tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ABILIFY ASIMTUFII | Moving to preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ACTEMRA",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ACTEMRA | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ALTUVIIIO",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ALTUVIIIO | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ASMANEX HFA",
+      "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 1 package every 25 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ASMANEX HFA | Drug list addition (preferred); Quantity limits apply. Covered up to 1 package every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BAFIERTAM",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "BAFIERTAM | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BENEFIX",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "BENEFIX | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "breyna",
+      "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 3 packages every 25 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "breyna | Drug list addition (preferred); Quantity limits apply. Covered up to 3 packages every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "BRIVIACT",
+      "change_text": "Moving to preferred brand tier; Preauthorization removed",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "BRIVIACT | Moving to preferred brand tier; Preauthorization removed"
+    },
+    {
+      "kind": "soc_change",
+      "name": "budesonide / formoterol fumarate",
+      "change_text": "Drug list addition (preferred); Quantity limits apply. Covered up to 3",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "budesonide / formoterol fumarate | Drug list addition (preferred); Quantity limits apply. Covered up to 3"
+    },
+    {
+      "kind": "soc_change",
+      "name": "dihydrate",
+      "change_text": "packages every 25 days",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "dihydrate | packages every 25 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "CHORIONIC GONADOTROPIN",
+      "change_text": "Non-formulary; not covered. Covered options include: PREGNYL",
+      "change": "NOT_COVERED",
+      "alternatives": "PREGNYL",
+      "effective": "January 1, 2025",
+      "text": "CHORIONIC GONADOTROPIN | Non-formulary; not covered. Covered options include: PREGNYL"
+    },
+    {
+      "kind": "soc_change",
+      "name": "(NDC 63323003011 only) DAXXIFY",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "(NDC 63323003011 only) DAXXIFY | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DULERA",
+      "change_text": "Non-formulary; not covered. Covered options include: budesonide- formoterol, fluticasone-salmeterol (except certain NDCs), Breyna, Wixela Inhub, BREO ELLIPTA (except certain NDCs)",
+      "change": "NOT_COVERED",
+      "alternatives": "budesonide- formoterol, fluticasone-salmeterol (except certain NDCs), Breyna, Wixela Inhub, BREO ELLIPTA (except certain NDCs)",
+      "effective": "January 1, 2025",
+      "text": "DULERA | Non-formulary; not covered. Covered options include: budesonide- formoterol, fluticasone-salmeterol (except certain NDCs), Breyna, Wixela Inhub, BREO ELLIPTA (except certain NDCs)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "DYSPORT",
+      "change_text": "Non-formulary; not covered. Covered options include: DAXXIFY, XEOMIN",
+      "change": "NOT_COVERED",
+      "alternatives": "DAXXIFY, XEOMIN",
+      "effective": "January 1, 2025",
+      "text": "DYSPORT | Non-formulary; not covered. Covered options include: DAXXIFY, XEOMIN"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ELFABRIO",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ELFABRIO | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "EMTRIVA",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "EMTRIVA | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FLOVENT HFA",
+      "change_text": "Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER",
+      "change": "NOT_COVERED",
+      "alternatives": "ASMANEX HFA, PULMICORT FLEXHALER",
+      "effective": "January 1, 2025",
+      "text": "FLOVENT HFA | Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER"
+    },
+    {
+      "kind": "soc_change",
+      "name": "fluticasone propionate hf",
+      "change_text": "Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER",
+      "change": "NOT_COVERED",
+      "alternatives": "ASMANEX HFA, PULMICORT FLEXHALER",
+      "effective": "January 1, 2025",
+      "text": "fluticasone propionate hf | Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER"
+    },
+    {
+      "kind": "soc_change",
+      "name": "FUZEON",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "FUZEON | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "INSULIN GLARGINE-YFGN",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "INSULIN GLARGINE-YFGN | Drug list addition (preferred)",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "JANUMET",
+      "change_text": "Non-formulary; not covered. Covered options include: ZITUVIMET, ZITUVIMET XR",
+      "change": "NOT_COVERED",
+      "alternatives": "ZITUVIMET, ZITUVIMET XR",
+      "effective": "January 1, 2025",
+      "text": "JANUMET | Non-formulary; not covered. Covered options include: ZITUVIMET, ZITUVIMET XR"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JANUMET XR",
+      "change_text": "Non-formulary; not covered. Covered options include: ZITUVIMET, ZITUVIMET XR",
+      "change": "NOT_COVERED",
+      "alternatives": "ZITUVIMET, ZITUVIMET XR",
+      "effective": "January 1, 2025",
+      "text": "JANUMET XR | Non-formulary; not covered. Covered options include: ZITUVIMET, ZITUVIMET XR"
+    },
+    {
+      "kind": "soc_change",
+      "name": "JANUVIA",
+      "change_text": "Non-formulary; not covered. Covered options include: ZITUVIO",
+      "change": "NOT_COVERED",
+      "alternatives": "ZITUVIO",
+      "effective": "January 1, 2025",
+      "text": "JANUVIA | Non-formulary; not covered. Covered options include: ZITUVIO"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LEUKERAN",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LEUKERAN | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LITFULO",
+      "change_text": "Moving to preferred specialty tier",
+      "change": "TIER_DOWN",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LITFULO | Moving to preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LORBRENA TAB 100MG",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LORBRENA TAB 100MG | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LORBRENA TAB 25MG",
+      "change_text": "Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 90 tabs every 30 days",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LORBRENA TAB 25MG | Drug list addition (non-preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 90 tabs every 30 days"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LUMIZYME",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LUMIZYME | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LUPRON DEPOT-PED (6-MONTH)",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LUPRON DEPOT-PED (6-MONTH) | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "LYSODREN",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "LYSODREN | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MATULANE",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "MATULANE | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MULPLETA",
+      "change_text": "Non-formulary; not covered. Covered options include: DOPTELET",
+      "change": "NOT_COVERED",
+      "alternatives": "DOPTELET",
+      "effective": "January 1, 2025",
+      "text": "MULPLETA | Non-formulary; not covered. Covered options include: DOPTELET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "MYLERAN",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "MYLERAN | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "NOVAREL",
+      "change_text": "Drug list addition (non-preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "NOVAREL | Drug list addition (non-preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "OMNIPOD GO 20 UNITS / DAY",
+      "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "change": "NOT_COVERED",
+      "alternatives": "OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "effective": "January 1, 2025",
+      "text": "OMNIPOD GO 20 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "watch_tickers": [
+        "PODD"
+      ],
+      "watch_labels": [
+        "Insulet Omnipod"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "OMNIPOD GO 30 UNITS / DAY",
+      "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "change": "NOT_COVERED",
+      "alternatives": "OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "effective": "January 1, 2025",
+      "text": "OMNIPOD GO 30 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "watch_tickers": [
+        "PODD"
+      ],
+      "watch_labels": [
+        "Insulet Omnipod"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "OMNIPOD GO 40 UNITS / DAY",
+      "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "change": "NOT_COVERED",
+      "alternatives": "OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "effective": "January 1, 2025",
+      "text": "OMNIPOD GO 40 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "watch_tickers": [
+        "PODD"
+      ],
+      "watch_labels": [
+        "Insulet Omnipod"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "OVIDREL",
+      "change_text": "Non-formulary; not covered. Covered options include: PREGNYL",
+      "change": "NOT_COVERED",
+      "alternatives": "PREGNYL",
+      "effective": "January 1, 2025",
+      "text": "OVIDREL | Non-formulary; not covered. Covered options include: PREGNYL"
+    },
+    {
+      "kind": "soc_change",
+      "name": "PREGNYL",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "PREGNYL | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "PROMACTA",
+      "change_text": "Non-formulary; not covered. Covered options include: ALVAIZ, DOPTELET",
+      "change": "NOT_COVERED",
+      "alternatives": "ALVAIZ, DOPTELET",
+      "effective": "January 1, 2025",
+      "text": "PROMACTA | Non-formulary; not covered. Covered options include: ALVAIZ, DOPTELET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "QVAR REDIHALER",
+      "change_text": "Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER",
+      "change": "NOT_COVERED",
+      "alternatives": "ASMANEX HFA, PULMICORT FLEXHALER",
+      "effective": "January 1, 2025",
+      "text": "QVAR REDIHALER | Non-formulary; not covered. Covered options include: ASMANEX HFA, PULMICORT FLEXHALER"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SEMGLEE",
+      "change_text": "Non-formulary; not covered. Covered options include: INSULIN GLARGINE-YFGN",
+      "change": "NOT_COVERED",
+      "alternatives": "INSULIN GLARGINE-YFGN",
+      "effective": "January 1, 2025",
+      "text": "SEMGLEE | Non-formulary; not covered. Covered options include: INSULIN GLARGINE-YFGN",
+      "watch_tickers": [],
+      "watch_labels": [
+        "Insulin (category)"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "SITAGLIPTIN",
+      "change_text": "Non-formulary; not covered",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "SITAGLIPTIN | Non-formulary; not covered"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SOLIRIS",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "SOLIRIS | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "SPIRIVA HANDIHALER",
+      "change_text": "Covered at preferred generic cost share",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "SPIRIVA HANDIHALER | Covered at preferred generic cost share"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TABLOID",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "TABLOID | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TALTZ",
+      "change_text": "Non-formulary; not covered. Covered options include: For Psoriasis: ADALIMUMAB-ADAZ, BIMZELX, HYRIMOZ, OTEZLA, SKYRIZI SUBCUTANEOUS, SOTYKTU, STELARA SUBCUTANEOUS, TREMFYA",
+      "change": "NOT_COVERED",
+      "alternatives": "For Psoriasis: ADALIMUMAB-ADAZ, BIMZELX, HYRIMOZ, OTEZLA, SKYRIZI SUBCUTANEOUS, SOTYKTU, STELARA SUBCUTANEOUS, TREMFYA",
+      "effective": "January 1, 2025",
+      "text": "TALTZ | Non-formulary; not covered. Covered options include: For Psoriasis: ADALIMUMAB-ADAZ, BIMZELX, HYRIMOZ, OTEZLA, SKYRIZI SUBCUTANEOUS, SOTYKTU, STELARA SUBCUTANEOUS, TREMFYA"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TAVALISSE",
+      "change_text": "Non-formulary; not covered. Covered options include: ALVAIZ, DOPTELET",
+      "change": "NOT_COVERED",
+      "alternatives": "ALVAIZ, DOPTELET",
+      "effective": "January 1, 2025",
+      "text": "TAVALISSE | Non-formulary; not covered. Covered options include: ALVAIZ, DOPTELET"
+    },
+    {
+      "kind": "soc_change",
+      "name": "tiotropium bromide",
+      "change_text": "Non-formulary; not covered. Brand name version of drug covered at preferred generic cost share",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "tiotropium bromide | Non-formulary; not covered. Brand name version of drug covered at preferred generic cost share"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TOFIDENCE",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "TOFIDENCE | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TREXALL",
+      "change_text": "Moving to non-preferred brand tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "TREXALL | Moving to non-preferred brand tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TRIPTODUR",
+      "change_text": "Drug list addition (preferred specialty); Preauthorization required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "TRIPTODUR | Drug list addition (preferred specialty); Preauthorization required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "true folic acid",
+      "change_text": "Non-formulary; not covered. Covered options include: folic acid 400",
+      "change": "NOT_COVERED",
+      "alternatives": "folic acid 400",
+      "effective": "January 1, 2025",
+      "text": "true folic acid | Non-formulary; not covered. Covered options include: folic acid 400"
+    },
+    {
+      "kind": "soc_change",
+      "name": "(ndc 83035182401 only)",
+      "change_text": "mcg (except certain NDCs)",
+      "change": "OTHER",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "(ndc 83035182401 only) | mcg (except certain NDCs)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TRUXIMA",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "TRUXIMA | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "TWIIST REFILL KIT / INFUSION",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "TWIIST REFILL KIT / INFUSION | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "(NDC 98617090100 only) TWIIST REFILL KIT",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "(NDC 98617090100 only) TWIIST REFILL KIT | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "(NDC 98617090400 only) TYENNE",
+      "change_text": "Not covered under pharmacy benefit. May be covered under the medical benefit",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "(NDC 98617090400 only) TYENNE | Not covered under pharmacy benefit. May be covered under the medical benefit"
+    },
+    {
+      "kind": "soc_change",
+      "name": "V-GO 20",
+      "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "change": "NOT_COVERED",
+      "alternatives": "OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "effective": "January 1, 2025",
+      "text": "V-GO 20 | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP"
+    },
+    {
+      "kind": "soc_change",
+      "name": "V-GO 30",
+      "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "change": "NOT_COVERED",
+      "alternatives": "OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "effective": "January 1, 2025",
+      "text": "V-GO 30 | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP"
+    },
+    {
+      "kind": "soc_change",
+      "name": "V-GO 40",
+      "change_text": "Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "change": "NOT_COVERED",
+      "alternatives": "OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP",
+      "effective": "January 1, 2025",
+      "text": "V-GO 40 | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP, OMNIPOD INSULIN INFUSION PUMP"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VICTOZA",
+      "change_text": "Non-formulary; not covered. Covered options include: liraglutide, MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
+      "change": "NOT_COVERED",
+      "alternatives": "liraglutide, MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
+      "effective": "January 1, 2025",
+      "text": "VICTOZA | Non-formulary; not covered. Covered options include: liraglutide, MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
+      "watch_tickers": [
+        "NVO"
+      ],
+      "watch_labels": [
+        "Novo liraglutide"
+      ]
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZITUVIMET",
+      "change_text": "Drug list addition (preferred); Step therapy required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ZITUVIMET | Drug list addition (preferred); Step therapy required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZITUVIMET XR",
+      "change_text": "Drug list addition (preferred); Step therapy required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ZITUVIMET XR | Drug list addition (preferred); Step therapy required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZITUVIO",
+      "change_text": "Drug list addition (preferred); Step therapy required",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ZITUVIO | Drug list addition (preferred); Step therapy required"
+    },
+    {
+      "kind": "soc_change",
+      "name": "ZOLINZA",
+      "change_text": "Moving to non-preferred specialty tier",
+      "change": "TIER_UP",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "ZOLINZA | Moving to non-preferred specialty tier"
+    },
+    {
+      "kind": "soc_change",
+      "name": "zomig",
+      "change_text": "Non-formulary; not covered",
+      "change": "NOT_COVERED",
+      "alternatives": "",
+      "effective": "January 1, 2025",
+      "text": "zomig | Non-formulary; not covered"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 9,
+    "tables": 3,
+    "effective": "January 1, 2025"
+  }
+}

@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "Nextstellis (drospirenone- 3 estetrol) tablet Vevye (cyclosporine)",
       "brand_generic": "Brand",
@@ -23,6 +24,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "3 ophthalmic solution",
       "brand_generic": "Brand",
@@ -44,6 +46,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "ADHD Agents",
       "name": "Atoncy (atomoxetine) oral solution* Methylphenidate ER",
       "brand_generic": "",
@@ -70,6 +73,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "(ABA of Cotempla XR) disintegrating tablet*",
       "brand_generic": "",
@@ -96,6 +100,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Antidepressant Agents",
       "name": "Auvelity (dextromethorphan- bupropion ER) tablet titration pack Marplan (isocarboxazid)",
       "brand_generic": "",
@@ -122,6 +127,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "tablet (by Lifsa)*",
       "brand_generic": "",
@@ -148,6 +154,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antiemetic Agents",
       "name": "Dronabinol (ABA of Syndros) oral solution*",
       "brand_generic": "",
@@ -174,6 +181,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antilipemic Agents",
       "name": "Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL*",
       "brand_generic": "",
@@ -200,6 +208,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Decnupaz (pivekimab sunirine-pvzy) IV injection*",
       "brand_generic": "",
@@ -226,6 +235,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antineoplastic Agents",
       "name": "Evdi (trabectedin) IV injection* Romidepsin IV injection",
       "brand_generic": "",
@@ -252,6 +262,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "27.5mg/5.5mL Veppanu",
       "brand_generic": "",
@@ -278,6 +289,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "(vepdegestrant) tablet* Xocova (ensitrelvir)",
       "brand_generic": "",
@@ -304,6 +316,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antiviral Agents",
       "name": "tablet*",
       "brand_generic": "",
@@ -330,6 +343,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Cardiovascular Agents",
       "name": "Tyvaso (treprostinil) inhalation powder maintenance kit 112 x 48 mcg & 112 x 80 mcg",
       "brand_generic": "",
@@ -356,6 +370,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Dermatological Agents",
       "name": "Pellix (calcipotriene) topical solution*",
       "brand_generic": "",
@@ -382,6 +397,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Endocrine Agents",
       "name": "Lumvoa (veligtrotug- vvze) IV injection*",
       "brand_generic": "",
@@ -408,6 +424,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Gastrointestinal Agents",
       "name": "Lynavoy (linerixibat) tablet*",
       "brand_generic": "",
@@ -434,6 +451,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Hematological Agents",
       "name": "Hympavzi (marstacimab-hncq) auto-injector for SC injection",
       "brand_generic": "",
@@ -460,6 +478,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Metabolic Agents",
       "name": "Jubereq (denosumab-desu) SC injection* Osvyrti (denosumab- desu) prefilled",
       "brand_generic": "",
@@ -486,6 +505,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "syringe for SC injection*",
       "brand_generic": "",
@@ -512,6 +532,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Ophthalmic Agents",
       "name": "Nufymco (ranibizumab-leyk) intravitreal injection*",
       "brand_generic": "",
@@ -538,6 +559,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Otic Agents",
       "name": "Otarmeni (lunsotogene parvec- cwha) injection*",
       "brand_generic": "",
@@ -564,6 +586,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Respiratory Agents",
       "name": "Breztri aerosphere (budesonide- glycopyrrolate- formoterol) inhalation 160-18-4.8 mcg/act*",
       "brand_generic": "",
@@ -590,6 +613,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Thyroid Agents",
       "name": "Amerithroid (thyroid) tablet*",
       "brand_generic": "",
@@ -616,6 +640,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antianxiety Agents Antidepressant",
       "name": "buspirone tablet N/A 2.5, 12.5mg duloxetine DR",
       "brand_generic": "",
@@ -642,6 +667,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Antineoplastic",
       "name": "capsule 80, 90, N/A 120mg",
       "brand_generic": "",
@@ -668,6 +694,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "bosutinib tablet Bosulif",
       "brand_generic": "",
@@ -694,6 +721,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antirheumatic Agents",
       "name": "tofacitinib ER Xeljanz XR tablet tofacitinib",
       "brand_generic": "",
@@ -720,6 +748,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Xeljanz solution, tablet",
       "brand_generic": "",
@@ -746,6 +775,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Cardiovascular Agents",
       "name": "azilsartan tablet Edarbi macitentan",
       "brand_generic": "",
@@ -772,6 +802,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Opsumit tablet",
       "brand_generic": "",
@@ -798,6 +829,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Genitourinary Agents",
       "name": "mirabegron ER granules for oral Myrbetriq suspension",
       "brand_generic": "",
@@ -824,6 +856,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Hemangeol (propranolol) oral solution",
       "brand_generic": "Brand",
@@ -850,6 +883,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Yuviwel (navepegritide) SC injection",
       "brand_generic": "Brand",

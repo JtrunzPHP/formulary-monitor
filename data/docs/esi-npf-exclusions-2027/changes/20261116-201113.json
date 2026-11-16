@@ -1,0 +1,739 @@
+{
+  "id": "esi-npf-exclusions-2027",
+  "stamp": "20261116-201113",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 1186,
+  "watchlist_in_document": [
+    {
+      "line": 265,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)",
+        "Diabetic supplies (category)"
+      ],
+      "text": "Blood Glucose Meters and Test Strips ASCENSIA (CONTOUR) ABBOTT FREESTYLE KITS/METERS",
+      "context": [
+        "DIABETES metformin 625mg, 750mg tablets; METFORMIN metformin 500mg, 850mg or 1,000mg tablets",
+        "Biguanide Agents 625MG TABLETS",
+        "Blood Glucose Meters and Test Strips ASCENSIA (CONTOUR) ABBOTT FREESTYLE KITS/METERS",
+        "ELI LILLY (TEMPO) (FREESTYLE FREEDOM, FREESTYLE FREEDOM",
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER, LITE,FREESTYLE INSULINX, FREESTYLE LITE)"
+      ]
+    },
+    {
+      "line": 267,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Insulin (category)"
+      ],
+      "text": "LIFESCAN (ONETOUCH SOLUTIONS STARTER, LITE,FREESTYLE INSULINX, FREESTYLE LITE)",
+      "context": [
+        "Blood Glucose Meters and Test Strips ASCENSIA (CONTOUR) ABBOTT FREESTYLE KITS/METERS",
+        "ELI LILLY (TEMPO) (FREESTYLE FREEDOM, FREESTYLE FREEDOM",
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER, LITE,FREESTYLE INSULINX, FREESTYLE LITE)",
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX) ABBOTT FREESTYLE TEST STRIPS",
+        "ROCHE (ACCU-CHEK) (FREESTYLE, FREESTYLE INSULINX,"
+      ]
+    },
+    {
+      "line": 268,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "ULTRA, ULTRA2, VERIO, VERIO FLEX) ABBOTT FREESTYLE TEST STRIPS",
+      "context": [
+        "ELI LILLY (TEMPO) (FREESTYLE FREEDOM, FREESTYLE FREEDOM",
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER, LITE,FREESTYLE INSULINX, FREESTYLE LITE)",
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX) ABBOTT FREESTYLE TEST STRIPS",
+        "ROCHE (ACCU-CHEK) (FREESTYLE, FREESTYLE INSULINX,",
+        "ALL OTHER METERS AND TEST STRIPS THAT FREESTYLE LITE, FREESTYLE PRECISION NEO)"
+      ]
+    },
+    {
+      "line": 269,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Insulin (category)"
+      ],
+      "text": "ROCHE (ACCU-CHEK) (FREESTYLE, FREESTYLE INSULINX,",
+      "context": [
+        "LIFESCAN (ONETOUCH SOLUTIONS STARTER, LITE,FREESTYLE INSULINX, FREESTYLE LITE)",
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX) ABBOTT FREESTYLE TEST STRIPS",
+        "ROCHE (ACCU-CHEK) (FREESTYLE, FREESTYLE INSULINX,",
+        "ALL OTHER METERS AND TEST STRIPS THAT FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+        "ARE NOT LISTED AS PREFERRED ABBOTT PRECISION XTRA METERS,"
+      ]
+    },
+    {
+      "line": 270,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "ALL OTHER METERS AND TEST STRIPS THAT FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+      "context": [
+        "ULTRA, ULTRA2, VERIO, VERIO FLEX) ABBOTT FREESTYLE TEST STRIPS",
+        "ROCHE (ACCU-CHEK) (FREESTYLE, FREESTYLE INSULINX,",
+        "ALL OTHER METERS AND TEST STRIPS THAT FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+        "ARE NOT LISTED AS PREFERRED ABBOTT PRECISION XTRA METERS,",
+        "TEST STRIPS"
+      ]
+    },
+    {
+      "line": 272,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "TEST STRIPS",
+      "context": [
+        "ALL OTHER METERS AND TEST STRIPS THAT FREESTYLE LITE, FREESTYLE PRECISION NEO)",
+        "ARE NOT LISTED AS PREFERRED ABBOTT PRECISION XTRA METERS,",
+        "TEST STRIPS",
+        "TRIVIDIA METERS (TRUE METRIX AIR, TRUE",
+        "METRIX, TRUE METRIX GO, TRUENESS)"
+      ]
+    },
+    {
+      "line": 275,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "TRIVIDIA TEST STRIPS (TRUE METRIX,",
+      "context": [
+        "TRIVIDIA METERS (TRUE METRIX AIR, TRUE",
+        "METRIX, TRUE METRIX GO, TRUENESS)",
+        "TRIVIDIA TEST STRIPS (TRUE METRIX,",
+        "TRUENESS)",
+        "Continuous Glucose Monitoring Systems EVERSENSE 365: SENSOR, TRANSMITTER DEXCOM G6: RECEIVER, SENSOR,"
+      ]
+    },
+    {
+      "line": 277,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Diabetic supplies (category)"
+      ],
+      "text": "Continuous Glucose Monitoring Systems EVERSENSE 365: SENSOR, TRANSMITTER DEXCOM G6: RECEIVER, SENSOR,",
+      "context": [
+        "TRIVIDIA TEST STRIPS (TRUE METRIX,",
+        "TRUENESS)",
+        "Continuous Glucose Monitoring Systems EVERSENSE 365: SENSOR, TRANSMITTER DEXCOM G6: RECEIVER, SENSOR,",
+        "TRANSMITTER",
+        "DEXCOM G7: RECEIVER, SENSOR FREESTYLE"
+      ]
+    },
+    {
+      "line": 279,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7: RECEIVER, SENSOR FREESTYLE",
+      "context": [
+        "Continuous Glucose Monitoring Systems EVERSENSE 365: SENSOR, TRANSMITTER DEXCOM G6: RECEIVER, SENSOR,",
+        "TRANSMITTER",
+        "DEXCOM G7: RECEIVER, SENSOR FREESTYLE",
+        "LIBRE: READER, SENSOR",
+        "© 2026 Evernorth Health Services. All rights reserved. All trademarks are the property"
+      ]
+    },
+    {
+      "line": 298,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supply Kits BIGFOOT UNITY PROGRAM KIT DEXCOM G6: RECEIVER, SENSOR,",
+      "context": [
+        "AND SYRINGES",
+        "THAT ARE NOT LISTED AS PREFERRED",
+        "Diabetic Supply Kits BIGFOOT UNITY PROGRAM KIT DEXCOM G6: RECEIVER, SENSOR,",
+        "TRANSMITTER",
+        "DEXCOM G7: RECEIVER, SENSOR FREESTYLE"
+      ]
+    },
+    {
+      "line": 300,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7: RECEIVER, SENSOR FREESTYLE",
+      "context": [
+        "Diabetic Supply Kits BIGFOOT UNITY PROGRAM KIT DEXCOM G6: RECEIVER, SENSOR,",
+        "TRANSMITTER",
+        "DEXCOM G7: RECEIVER, SENSOR FREESTYLE",
+        "LIBRE: READER, SENSOR",
+        "Dipeptidyl Peptidase-4 (DPP-4) Inhibitors ALOGLIPTIN, BRYNOVIN, NESINA, SITAGLIPTIN, saxagliptin, sitagliptin phosphate"
+      ]
+    },
+    {
+      "line": 314,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- XULTOPHY SOLIQUA",
+      "context": [
+        "Glucose-Elevating Drugs GLUCAGON EMERGENCY KIT (by Fresenius), glucagon emergency kit (all manufacturers covered",
+        "ZEGALOGUE except Fresenius), BAQSIMI, GVOKE",
+        "Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- XULTOPHY SOLIQUA",
+        "1) Agonist Combinations",
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, HUMALOG U-100: HUMALOG (CARTRIDGE, KWIKPEN,"
+      ]
+    },
+    {
+      "line": 316,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Insulins U-100: ADMELOG, APIDRA, FIASP, HUMALOG U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+      "context": [
+        "Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- XULTOPHY SOLIQUA",
+        "1) Agonist Combinations",
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, HUMALOG U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "VIAL, INSULIN ASPART, KIRSTY, LYUMJEV, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN"
+      ]
+    },
+    {
+      "line": 317,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "VIAL, INSULIN ASPART, KIRSTY, LYUMJEV, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+      "context": [
+        "1) Agonist Combinations",
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, HUMALOG U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "VIAL, INSULIN ASPART, KIRSTY, LYUMJEV, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+        "U-200: LYUMJEV"
+      ]
+    },
+    {
+      "line": 318,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+      "context": [
+        "Insulins U-100: ADMELOG, APIDRA, FIASP, HUMALOG U-100: HUMALOG (CARTRIDGE, KWIKPEN,",
+        "VIAL, INSULIN ASPART, KIRSTY, LYUMJEV, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+        "U-200: LYUMJEV",
+        "Inhalation: AFREZZA"
+      ]
+    },
+    {
+      "line": 319,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-200: LYUMJEV",
+      "context": [
+        "VIAL, INSULIN ASPART, KIRSTY, LYUMJEV, JUNIOR KWIKPEN), INSULIN LISPRO, MERILOG",
+        "NOVOLOG, RELION NOVOLOG U-200: HUMALOG KWIKPEN",
+        "U-200: LYUMJEV",
+        "Inhalation: AFREZZA",
+        "U-100: BASAGLAR, BASAGLAR TEMPO, INSULIN U-100: INSULIN GLARGINE-YFGN (by Biocon),"
+      ]
+    },
+    {
+      "line": 321,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-100: BASAGLAR, BASAGLAR TEMPO, INSULIN U-100: INSULIN GLARGINE-YFGN (by Biocon),",
+      "context": [
+        "U-200: LYUMJEV",
+        "Inhalation: AFREZZA",
+        "U-100: BASAGLAR, BASAGLAR TEMPO, INSULIN U-100: INSULIN GLARGINE-YFGN (by Biocon),",
+        "DEGLUDEC, INSULIN GLARGINE-YFGN (by LANTUS, SEMGLEE (YFGN), TRESIBA",
+        "Civica), LEVEMIR, REZVOGLAR U-200: TRESIBA"
+      ]
+    },
+    {
+      "line": 322,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "DEGLUDEC, INSULIN GLARGINE-YFGN (by LANTUS, SEMGLEE (YFGN), TRESIBA",
+      "context": [
+        "Inhalation: AFREZZA",
+        "U-100: BASAGLAR, BASAGLAR TEMPO, INSULIN U-100: INSULIN GLARGINE-YFGN (by Biocon),",
+        "DEGLUDEC, INSULIN GLARGINE-YFGN (by LANTUS, SEMGLEE (YFGN), TRESIBA",
+        "Civica), LEVEMIR, REZVOGLAR U-200: TRESIBA",
+        "U-200: INSULIN DEGLUDEC U-300: INSULIN GLARGINE, TOUJEO"
+      ]
+    },
+    {
+      "line": 323,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Civica), LEVEMIR, REZVOGLAR U-200: TRESIBA",
+      "context": [
+        "U-100: BASAGLAR, BASAGLAR TEMPO, INSULIN U-100: INSULIN GLARGINE-YFGN (by Biocon),",
+        "DEGLUDEC, INSULIN GLARGINE-YFGN (by LANTUS, SEMGLEE (YFGN), TRESIBA",
+        "Civica), LEVEMIR, REZVOGLAR U-200: TRESIBA",
+        "U-200: INSULIN DEGLUDEC U-300: INSULIN GLARGINE, TOUJEO",
+        "INSULIN ASPART PROTAMINE, NOVOLOG MIX, HUMALOG MIX, INSULIN LISPRO PROTAMINE"
+      ]
+    },
+    {
+      "line": 324,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "U-200: INSULIN DEGLUDEC U-300: INSULIN GLARGINE, TOUJEO",
+      "context": [
+        "DEGLUDEC, INSULIN GLARGINE-YFGN (by LANTUS, SEMGLEE (YFGN), TRESIBA",
+        "Civica), LEVEMIR, REZVOGLAR U-200: TRESIBA",
+        "U-200: INSULIN DEGLUDEC U-300: INSULIN GLARGINE, TOUJEO",
+        "INSULIN ASPART PROTAMINE, NOVOLOG MIX, HUMALOG MIX, INSULIN LISPRO PROTAMINE",
+        "RELION NOVOLOG MIX MIX"
+      ]
+    },
+    {
+      "line": 325,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN ASPART PROTAMINE, NOVOLOG MIX, HUMALOG MIX, INSULIN LISPRO PROTAMINE",
+      "context": [
+        "Civica), LEVEMIR, REZVOGLAR U-200: TRESIBA",
+        "U-200: INSULIN DEGLUDEC U-300: INSULIN GLARGINE, TOUJEO",
+        "INSULIN ASPART PROTAMINE, NOVOLOG MIX, HUMALOG MIX, INSULIN LISPRO PROTAMINE",
+        "RELION NOVOLOG MIX MIX",
+        "NOVOLIN, NOVOLIN MIX, HUMULIN, HUMULIN MIX"
+      ]
+    },
+    {
+      "line": 326,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "RELION NOVOLOG MIX MIX",
+      "context": [
+        "U-200: INSULIN DEGLUDEC U-300: INSULIN GLARGINE, TOUJEO",
+        "INSULIN ASPART PROTAMINE, NOVOLOG MIX, HUMALOG MIX, INSULIN LISPRO PROTAMINE",
+        "RELION NOVOLOG MIX MIX",
+        "NOVOLIN, NOVOLIN MIX, HUMULIN, HUMULIN MIX",
+        "RELION NOVOLIN, RELION NOVOLIN MIX"
+      ]
+    },
+    {
+      "line": 327,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN, NOVOLIN MIX, HUMULIN, HUMULIN MIX",
+      "context": [
+        "INSULIN ASPART PROTAMINE, NOVOLOG MIX, HUMALOG MIX, INSULIN LISPRO PROTAMINE",
+        "RELION NOVOLOG MIX MIX",
+        "NOVOLIN, NOVOLIN MIX, HUMULIN, HUMULIN MIX",
+        "RELION NOVOLIN, RELION NOVOLIN MIX",
+        "Sodium Glucose Co-Transporter-2 (SGLT-2) BRENZAVVY, INVOKANA, STEGLATRO dapagliflozin, JARDIANCE"
+      ]
+    },
+    {
+      "line": 328,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "RELION NOVOLIN, RELION NOVOLIN MIX",
+      "context": [
+        "RELION NOVOLOG MIX MIX",
+        "NOVOLIN, NOVOLIN MIX, HUMULIN, HUMULIN MIX",
+        "RELION NOVOLIN, RELION NOVOLIN MIX",
+        "Sodium Glucose Co-Transporter-2 (SGLT-2) BRENZAVVY, INVOKANA, STEGLATRO dapagliflozin, JARDIANCE",
+        "Inhibitors and Combinations INVOKAMET, INVOKAMET XR, SEGLUROMET dapagliflozin/metformin ext-release, SYNJARDY,"
+      ]
+    },
+    {
+      "line": 736,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide",
+        "Novo liraglutide"
+      ],
+      "text": "Weight Loss ZEPBOUND KWIKPENS, ZEPBOUND VIALS liraglutide, FOUNDAYO, WEGOVY HD, WEGOVY",
+      "context": [
+        "of Thymidine Kinase 2 Deficiency under",
+        "certain conditions.",
+        "Weight Loss ZEPBOUND KWIKPENS, ZEPBOUND VIALS liraglutide, FOUNDAYO, WEGOVY HD, WEGOVY",
+        "PENS, WEGOVY TABLETS, ZEPBOUND PENS",
+        "Wilson’s Disease Agents CUVRIOR, TRIENTINE 500MG CAPSULES trientine 250mg capsules"
+      ]
+    },
+    {
+      "line": 737,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide"
+      ],
+      "text": "PENS, WEGOVY TABLETS, ZEPBOUND PENS",
+      "context": [
+        "certain conditions.",
+        "Weight Loss ZEPBOUND KWIKPENS, ZEPBOUND VIALS liraglutide, FOUNDAYO, WEGOVY HD, WEGOVY",
+        "PENS, WEGOVY TABLETS, ZEPBOUND PENS",
+        "Wilson’s Disease Agents CUVRIOR, TRIENTINE 500MG CAPSULES trientine 250mg capsules",
+        "© 2026 Evernorth Health Services. All rights reserved. All trademarks are the property"
+      ]
+    },
+    {
+      "line": 791,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "ACTEMRA IV*, ACTEMRA SC* ASCENSIA (CONTOUR) BREKIYA*",
+      "context": [
+        "ACANYA^ ARNUITY ELLIPTA BOSAYA*",
+        "ACIPHEX^ ARYNTA BOTOX*",
+        "ACTEMRA IV*, ACTEMRA SC* ASCENSIA (CONTOUR) BREKIYA*",
+        "ACUVAIL ATACAND^, ATACAND HCT^ BRENZAVVY",
+        "ADALIMUMAB-AACF* ATMEKSI BRILINTA^"
+      ]
+    },
+    {
+      "line": 801,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ADMELOG AUKELSO* BUTRANS^",
+      "context": [
+        "ADDERALL^, ADDERALL XR^ ATTRUBY* BUPROPION XL 450MG",
+        "ADDYI AUBAGIO*^ BUSPIRONE 2.5MG AND 12.5MG",
+        "ADMELOG AUKELSO* BUTRANS^",
+        "ADTHYZA 16.25MG, 32.5MG, 65MG, AUSTEDO*, AUSTEDO XR* BYNFEZIA*",
+        "97.5MG, 130MG AVALIDE^, AVAPRO^ BYOOVIZ*"
+      ]
+    },
+    {
+      "line": 822,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ALYMSYS* BASAGLAR, BASAGLAR TEMPO CELEXA^",
+      "context": [
+        "ALVAIZ* BANZEL^ CAROSPIR^",
+        "ALVESCO BARACLUDE TABLETS^ CELEBREX^",
+        "ALYMSYS* BASAGLAR, BASAGLAR TEMPO CELEXA^",
+        "AMBIEN^, AMBIEN CR^ BEIZRAY*^ CETRAXAL",
+        "AMITIZA^ BEIZRAY/ALBUMIN* CHORIONIC GONADOTROPIN 10,000"
+      ]
+    },
+    {
+      "line": 877,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "CYSTADANE*^ ELESTRIN FIASP",
+      "context": [
+        "CYLTEZO* EKTERLY* FERAHEME^",
+        "CYMBALTA^ ELELYSO* FERRIC CITRATE",
+        "CYSTADANE*^ ELESTRIN FIASP",
+        "CYSTADROPS* ELEVIDYS* FILKRI*",
+        "CYTOMEL^ ELI LILLY (TEMPO) FINTEPLA*"
+      ]
+    },
+    {
+      "line": 929,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GLUCAGON EMERGENCY KIT (by INSULIN ASPART, INSULIN ASPART LATUDA^",
+      "context": [
+        "GLIPIZIDE 2.5MG AND 15MG TABLETS INQOVI* LANREOTIDE*",
+        "GLOPERBA INREBIC* LASIX ONYU",
+        "GLUCAGON EMERGENCY KIT (by INSULIN ASPART, INSULIN ASPART LATUDA^",
+        "Fresenius) PROTAMINE LEQEMBI*, LEQEMBI IQLIK*",
+        "GLUMETZA^ INSULIN DEGLUDEC LEQVIO*"
+      ]
+    },
+    {
+      "line": 931,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GLUMETZA^ INSULIN DEGLUDEC LEQVIO*",
+      "context": [
+        "GLUCAGON EMERGENCY KIT (by INSULIN ASPART, INSULIN ASPART LATUDA^",
+        "Fresenius) PROTAMINE LEQEMBI*, LEQEMBI IQLIK*",
+        "GLUMETZA^ INSULIN DEGLUDEC LEQVIO*",
+        "GOCOVRI ER* INSULIN GLARGINE-YFGN (by Civica) LEROCHOL",
+        "GRAFAPEX INTRAROSA LESCOL XL"
+      ]
+    },
+    {
+      "line": 932,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GOCOVRI ER* INSULIN GLARGINE-YFGN (by Civica) LEROCHOL",
+      "context": [
+        "Fresenius) PROTAMINE LEQEMBI*, LEQEMBI IQLIK*",
+        "GLUMETZA^ INSULIN DEGLUDEC LEQVIO*",
+        "GOCOVRI ER* INSULIN GLARGINE-YFGN (by Civica) LEROCHOL",
+        "GRAFAPEX INTRAROSA LESCOL XL",
+        "GRANISOL INTUNIV^ LETAIRIS*^"
+      ]
+    },
+    {
+      "line": 938,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ISTURISA* LEVEMIR",
+      "context": [
+        "INZIRQO LEVALBUTEROL HFA",
+        "H ISTALOL^ LEVAMLODIPINE",
+        "ISTURISA* LEVEMIR",
+        "HADLIMA* ITOVEBI* LEVETIRACETAM ODT",
+        "halcinonide IVRA levorphanol"
+      ]
+    },
+    {
+      "line": 947,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "HERNEXEOS* JADENU*^, JADENU SPRINKLE*^ LIFESCAN (ONETOUCH SOLUTIONS",
+      "context": [
+        "HEMICLOR J LIBRAX^",
+        "HERCEPTIN*, HERCEPTIN HYLECTA* LIDODERM^",
+        "HERNEXEOS* JADENU*^, JADENU SPRINKLE*^ LIFESCAN (ONETOUCH SOLUTIONS",
+        "HERZUMA* JAVADIN STARTER, ULTRA, ULTRA2, VERIO,",
+        "HOME AIDE DIAGNOSTICS PEN NEEDLES JAYPIRCA* VERIO FLEX)"
+      ]
+    },
+    {
+      "line": 954,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMALOG VIAL",
+      "context": [
+        "SYRINGES JUBBONTI* LIPITOR^",
+        "HULIO* JYLAMVO LIPOFEN",
+        "HUMALOG VIAL",
+        "© 2026 Evernorth Health Services. All rights reserved. All trademarks are the property",
+        "of their respective owners. CRP1584203A 204612 NP Excl (08/01/2026)"
+      ]
+    },
+    {
+      "line": 983,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV NEXIUM^ OWEN MUMFORD PEN NEEDLES",
+      "context": [
+        "LYMPHIR* NEVANAC OSPOMYV (by Cordavis)*",
+        "LYRICA^, LYRICA CR^ NEXICLON XR OTULFI IV*, OTULFI SC*",
+        "LYUMJEV NEXIUM^ OWEN MUMFORD PEN NEEDLES",
+        "LYVISPAH NEXTSTELLIS OXAPROZIN 300MG CAPSULES",
+        "NIKTIMVO* oxiconazole"
+      ]
+    },
+    {
+      "line": 1000,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "METOPROLOL TARTRATE 12.5MG NOVOLIN, NOVOLIN MIX, RELION penciclovir cream",
+      "context": [
+        "METHOCARBAMOL 1,000MG TABLETS NOVAREL* PANZYGA*",
+        "METHYLPHENIDATE ER 45MG AND 63MG NOVO NORDISK PEN NEEDLES paroxetine mesylate",
+        "METOPROLOL TARTRATE 12.5MG NOVOLIN, NOVOLIN MIX, RELION penciclovir cream",
+        "TABLETS NOVOLIN, RELION NOVOLIN MIX PERCOCET^",
+        "METRONIDAZOLE 125MG TABLETS NOVOLOG, NOVOLOG MIX, RELION PERFOROMIST^"
+      ]
+    },
+    {
+      "line": 1001,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TABLETS NOVOLIN, RELION NOVOLIN MIX PERCOCET^",
+      "context": [
+        "METHYLPHENIDATE ER 45MG AND 63MG NOVO NORDISK PEN NEEDLES paroxetine mesylate",
+        "METOPROLOL TARTRATE 12.5MG NOVOLIN, NOVOLIN MIX, RELION penciclovir cream",
+        "TABLETS NOVOLIN, RELION NOVOLIN MIX PERCOCET^",
+        "METRONIDAZOLE 125MG TABLETS NOVOLOG, NOVOLOG MIX, RELION PERFOROMIST^",
+        "MICARDIS HCT^ NOVOLOG, RELION NOVOLOG MIX PERTZYE"
+      ]
+    },
+    {
+      "line": 1002,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "METRONIDAZOLE 125MG TABLETS NOVOLOG, NOVOLOG MIX, RELION PERFOROMIST^",
+      "context": [
+        "METOPROLOL TARTRATE 12.5MG NOVOLIN, NOVOLIN MIX, RELION penciclovir cream",
+        "TABLETS NOVOLIN, RELION NOVOLIN MIX PERCOCET^",
+        "METRONIDAZOLE 125MG TABLETS NOVOLOG, NOVOLOG MIX, RELION PERFOROMIST^",
+        "MICARDIS HCT^ NOVOLOG, RELION NOVOLOG MIX PERTZYE",
+        "MICONAZOLE/ZINC OXIDE/PETROLATUM NOVOSEVEN RT* PHEXX"
+      ]
+    },
+    {
+      "line": 1003,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "MICARDIS HCT^ NOVOLOG, RELION NOVOLOG MIX PERTZYE",
+      "context": [
+        "TABLETS NOVOLIN, RELION NOVOLIN MIX PERCOCET^",
+        "METRONIDAZOLE 125MG TABLETS NOVOLOG, NOVOLOG MIX, RELION PERFOROMIST^",
+        "MICARDIS HCT^ NOVOLOG, RELION NOVOLOG MIX PERTZYE",
+        "MICONAZOLE/ZINC OXIDE/PETROLATUM NOVOSEVEN RT* PHEXX",
+        "MICORT HC NUCYNTA, NUCYNTA ER PHYRAGO*"
+      ]
+    },
+    {
+      "line": 1034,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "PROCTOFOAM-HC REZVOGLAR SPRYCEL*^",
+      "context": [
+        "PRISTIQ^ REVLIMID*^ SOVUNA",
+        "PROAIR RESPICLICK REZLIDHIA* SPRIX",
+        "PROCTOFOAM-HC REZVOGLAR SPRYCEL*^",
+        "PROCYSBI* RIABNI* STARJEMZA IV*, STARJEMZA SC*",
+        "PRODIGY DIABETES CARE RITALIN^, RITALIN LA^ STEGLATRO"
+      ]
+    },
+    {
+      "line": 1040,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "PROMACTA*^ ROCHE (ACCU-CHEK) STIMUFEND*",
+      "context": [
+        "PROLENSA^ RIVFLOZA* STELARA SC*, STELARA IV*",
+        "PROLIA* RIXUBIS* STEQEYMA IV*, STEQEYMA SC*",
+        "PROMACTA*^ ROCHE (ACCU-CHEK) STIMUFEND*",
+        "PROTONIX^ ROLVEDON* STOBOCLO*",
+        "protriptyline ROSUVASTATIN/EZETIMIBE STRATTERA^"
+      ]
+    },
+    {
+      "line": 1059,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "QLOSI SAXENDA^ SYNOJOYNT*",
+      "context": [
+        "QINLOCK* SAPHRIS^ SUTAB",
+        "QIVIGY* SAVAYSA SYMBICORT^",
+        "QLOSI SAXENDA^ SYNOJOYNT*",
+        "QNASL SDAMLO SYNTHROID^",
+        "QTERN SEGLUROMET SYNVISC*, SYNVISC-ONE*"
+      ]
+    },
+    {
+      "line": 1123,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "TRIVISC* VICTOZA^ XPOVIO*",
+      "context": [
+        "TRIVIDIA (NIPRO DIAGNOSTICS) PEN VESICARE^ XOPENEX HFA",
+        "NEEDLES AND SYRINGES VIAGRA^ XPHOZAH",
+        "TRIVISC* VICTOZA^ XPOVIO*",
+        "TRUDHESA VIGAFYDE* XROMI",
+        "TRUVADA*^ VIIBRYD^ XTAMPZA ER"
+      ]
+    },
+    {
+      "line": 1148,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND KWIKPENS, ZEPBOUND VIALS",
+      "context": [
+        "ZEJULA*",
+        "ZELAPAR",
+        "ZEPBOUND KWIKPENS, ZEPBOUND VIALS",
+        "ZERVIATE",
+        "ZETIA^"
+      ]
+    }
+  ]
+}

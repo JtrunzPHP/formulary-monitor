@@ -1,0 +1,394 @@
+{
+  "id": "aetna-soc-acp-20250101-soc-for-01-01-25-advance",
+  "stamp": "20261116-201128",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 317,
+  "watchlist_in_document": [
+    {
+      "line": 61,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN GLARGINE-YFGN Drug list addition (preferred)",
+      "context": [
+        "PULMICORT FLEXHALER",
+        "FUZEON Moving to non-preferred specialty tier",
+        "INSULIN GLARGINE-YFGN Drug list addition (preferred)",
+        "JANUMET Non-formulary; not covered. Covered options include: ZITUVIMET,",
+        "ZITUVIMET XR"
+      ]
+    },
+    {
+      "line": 84,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "OMNIPOD GO 20 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+      "context": [
+        "MYLERAN Moving to non-preferred brand tier",
+        "NOVAREL Drug list addition (non-preferred)",
+        "OMNIPOD GO 20 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 85,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+      "context": [
+        "NOVAREL Drug list addition (non-preferred)",
+        "OMNIPOD GO 20 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 30 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5"
+      ]
+    },
+    {
+      "line": 86,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION PUMP",
+      "context": [
+        "OMNIPOD GO 20 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 30 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,"
+      ]
+    },
+    {
+      "line": 87,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "OMNIPOD GO 30 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+      "context": [
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 30 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 88,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+      "context": [
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 30 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 40 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5"
+      ]
+    },
+    {
+      "line": 89,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION PUMP",
+      "context": [
+        "OMNIPOD GO 30 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 40 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,"
+      ]
+    },
+    {
+      "line": 90,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "OMNIPOD GO 40 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+      "context": [
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 40 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 91,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+      "context": [
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OMNIPOD GO 40 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OVIDREL Non-formulary; not covered. Covered options include: PREGNYL"
+      ]
+    },
+    {
+      "line": 92,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION PUMP",
+      "context": [
+        "OMNIPOD GO 40 UNITS / DAY Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "OVIDREL Non-formulary; not covered. Covered options include: PREGNYL",
+        "PREGNYL Drug list addition (preferred specialty); Preauthorization required"
+      ]
+    },
+    {
+      "line": 99,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SEMGLEE Non-formulary; not covered. Covered options include: INSULIN",
+      "context": [
+        "QVAR REDIHALER Non-formulary; not covered. Covered options include: ASMANEX HFA,",
+        "PULMICORT FLEXHALER",
+        "SEMGLEE Non-formulary; not covered. Covered options include: INSULIN",
+        "GLARGINE-YFGN",
+        "SITAGLIPTIN Non-formulary; not covered"
+      ]
+    },
+    {
+      "line": 130,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "V-GO 20 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+      "context": [
+        "TYENNE Not covered under pharmacy benefit. May be covered under the",
+        "medical benefit",
+        "V-GO 20 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 131,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+      "context": [
+        "medical benefit",
+        "V-GO 20 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 30 Non-formulary; not covered. Covered options include: OMNIPOD 5"
+      ]
+    },
+    {
+      "line": 132,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION PUMP",
+      "context": [
+        "V-GO 20 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 30 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,"
+      ]
+    },
+    {
+      "line": 133,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "V-GO 30 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+      "context": [
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 30 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 134,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+      "context": [
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 30 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 40 Non-formulary; not covered. Covered options include: OMNIPOD 5"
+      ]
+    },
+    {
+      "line": 135,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION PUMP",
+      "context": [
+        "V-GO 30 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 40 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,"
+      ]
+    },
+    {
+      "line": 136,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "V-GO 40 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+      "context": [
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 40 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP"
+      ]
+    },
+    {
+      "line": 137,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+      "context": [
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "V-GO 40 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "VICTOZA Non-formulary; not covered. Covered options include: liraglutide,"
+      ]
+    },
+    {
+      "line": 138,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD INSULIN INFUSION PUMP",
+      "context": [
+        "V-GO 40 Non-formulary; not covered. Covered options include: OMNIPOD 5",
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "VICTOZA Non-formulary; not covered. Covered options include: liraglutide,",
+        "MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY"
+      ]
+    },
+    {
+      "line": 139,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "VICTOZA Non-formulary; not covered. Covered options include: liraglutide,",
+      "context": [
+        "INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP,",
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "VICTOZA Non-formulary; not covered. Covered options include: liraglutide,",
+        "MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
+        "ZITUVIMET Drug list addition (preferred); Step therapy required"
+      ]
+    },
+    {
+      "line": 140,
+      "tickers": [
+        "NVO",
+        "LLY"
+      ],
+      "labels": [
+        "Novo semaglutide",
+        "Lilly tirzepatide",
+        "Lilly dulaglutide"
+      ],
+      "text": "MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
+      "context": [
+        "OMNIPOD INSULIN INFUSION PUMP",
+        "VICTOZA Non-formulary; not covered. Covered options include: liraglutide,",
+        "MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY",
+        "ZITUVIMET Drug list addition (preferred); Step therapy required",
+        "ZITUVIMET XR Drug list addition (preferred); Step therapy required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1424 @@
+Prior Authorization
+Premium Formulary
+Utilization Management
+January 1, 2027
+
+
+
+
+Prior authorization (PA) requires your doctor to tell us why you are taking a medication to determine if it
+will be covered under your pharmacy benefit. Some medications must be reviewed because they may:
+• Only be approved or effective for safely treating specific conditions.
+• Cost more than other medications used to treat the same or similar conditions.
+
+The following medications require a PA for coverage
+This means we need more information from your doctor to see if you can get coverage for
+your medication.
+
+Getting a short-term supply
+If you must take a medication that requires prior authorization right away, there are two options that
+may work for you. First, ask your doctor if a sample is available. Or, check with your pharmacy to request
+a short-term supply of 5 days or less. Keep in mind, you will be responsible for the full cost at that time.
+If the prior authorization request is approved, then your pharmacist can fill the rest of your prescription.
+If you see your medication listed, we encourage you to talk with your doctor about your treatment
+and medication options. If you have questions about the PA process, call the phone number on your
+member ID card.
+Premium Non-Specialty Prior Authorization List
+
+ Therapy class                         Medication name                                          Quantity limit
+ Anti-infectives
+ Anthelmintics                         albendazole tab 200 mg                                   120 tablets per 180 days
+ Antibiotics                           AEMCOLO TAB                                              None
+                                       XIFAXAN TAB 550 MG                                       None
+                                       ZINPLAVA IV SOLN                                         None
+ Antifungals                           CICLOPIROX KIT                                           None
+                                       CRESEMBA CAP                                             None
+                                       NOXAFIL PACKET                                           None
+                                       NOXAFIL SUSP                                             None
+                                       NOXAFIL TAB                                              None
+                                       SPORANOX                                                 None
+                                       tavaborole soln                                          None
+                                       VFEND SUSP                                               None
+                                       VFEND TAB                                                None
+ Antimalarial                          QUALAQUIN CAP                                            None
+ Antiretrovirals, HIV                  DESCOVY TAB 200-25 MG                                    None
+                                       SELZENTRY                                                None
+                                       SUNLENCA SOLN 463.5 MG/1.5 ML                            9 mL per 365 days
+                                       SUNLENCA TAB 300 MG                                      2 packs per 365 days
+                                       SUNLENCA TAB THERAPY PACK                                2 packs per 365 days
+ Cardiology
+ Antihypertensive Agents               TRYVIO TAB                                               1 tablet per day
+ Antilipemic                           NEXLETOL TAB                                             1 tablet per day
+                                       NEXLIZET TAB                                             1 tablet per day
+                                       VASCEPA CAP                                              None
+ Heart Failure                         VERQUVO TAB                                              1 tablet per day
+ Miscellaneous                         DEMSER CAP 250 MG                                        16 capsules per day
+                                       DIBENZYLINE CAP                                          None
+ Central Nervous System
+ Analgesics (Cough Opioid)             CAPCOF SYRUP 5-2-10 MG/5 ML             240 mL per fill, 2 fills per 60 days
+                                       CODITUSSIN AC LIQUID 200-10 MG/5 ML     240 mL per fill, 2 fills per 60 days
+                                       CODITUSSIN DAC LIQUID 30-10-200 MG/5 ML 240 mL per fill, 2 fills per 60 days
+                                       GUAIFENESIN-CODEINE SOLN 100-10 MG/5 ML 240 mL per fill, 2 fills per 60 days
+                                       HYCODAN SYRUP 5-1.5 MG/5 ML             240 mL per fill, 2 fills per 60 days
+                                       HYCODAN TAB 5-1.5 MG                    6 tabs per day, 7 day supply, 2 fills per 60 days
+                                       HYD POL/CPM SUSP 10-8 MG/5 ML           240 mL per fill, 2 fills per 60 days
+                                       MAR-COF CG LIQUID 225-7.5 MG/5 ML       240 mL per fill, 2 fills per 60 days
+                                       MAXI-TUSS CD LIQUID 10-4-10 MG/5 ML     240 mL per fill, 2 fills per 60 days
+                                       NINJACOF-XG LIQUID 200-8 MG/5 ML        240 mL per fill, 2 fills per 60 days
+                                       POLY-TUSSIN AC LIQUID 10-4-10 MG/5 ML   240 mL per fill, 2 fills per 60 days
+                                       PROMETHAZINE/CODEINE SYRUP 6.25-10 MG/5 240 mL per fill, 2 fills per 60 days
+                                       ML
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   2
+ Therapy class                         Medication name                                          Quantity limit
+                                       PRO-RED AC SYRUP 5-1-9 MG/5 ML                           240 mL per fill, 2 fills per 60 days
+                                       RYDEX LIQUID 10-1.33-6.33 MG/5 ML                        240 mL per fill, 2 fills per 60 days
+                                       TUXARIN ER TAB                                           2 tablets per day, 7 day supply, 2 fills per 60 days
+ Analgesics (Non-Opioid)               diclofenac soln                                          None
+                                       QUTENZA PATCH KIT                                        4 patches per 90 days
+ Analgesics (Opioid)                   acetaminophen/codeine soln 120-12 mg/5 mL                If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 136 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to
+                                                                                                166.5 mL/day.
+                                       acetaminophen/codeine tab 300-15 mg                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 13 tabs/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 13
+                                                                                                tabs/day.
+                                       acetaminophen/codeine tab 300-30 mg                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 10 tabs/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 13
+                                                                                                tabs/day.
+                                       acetaminophen/codeine tab 300-60 mg                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 5 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 10
+                                                                                                tabs/day.
+                                       ACTIQ LOZENGE                                            4 lozenges per day
+                                       BELBUCA FILM                                             2 films per day
+                                       buprenorphine patch                                      4 patches per 28 days
+                                       butorphonal nasal spray 10 mg/mL                         1 bottle per fill, 2 fills per 60 days
+                                       codeine tab 15 mg                                        If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 21 tabs/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 40
+                                                                                                tabs/day.
+                                       codeine tab 30 mg                                        If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 10 tabs/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 20
+                                                                                                tabs/day.
+                                       codeine tab 60 mg                                        If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 5 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 10
+                                                                                                tabs/day.
+                                       fentanyl patch                                           15 patches per 30 days
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).                3
+ Therapy class                         Medication name                             Quantity limit
+                                       fentanyl patch 75 mcg/hr                    1 patch per day
+                                       fentanyl patch 100 mcg/hr                   1 patch per day
+                                       hydrocodone ER cap                          2 capsules per day
+                                       hydrocodone ER cap 50 MG                    4 capsules per day
+                                       hydrocodone ER tab                          1 tablet per day
+                                       hydrocodone/acetaminophen soln 7.5-325      If you are new to opioid treatment, your
+                                       mg/15 mL                                    prescription will be limited to 98 mL/day for
+                                                                                   up to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to
+                                                                                   180 mL/day.
+                                       hydrocodone/acetaminophen soln 10-300       If you are new to opioid treatment, your
+                                       mg/15 mL                                    prescription will be limited to 73.5 mL/day for
+                                                                                   up to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to
+                                                                                   135 mL/day.
+                                       hydrocodone/acetaminophen soln 10-325 mg/15 If you are new to opioid treatment, your
+                                       mL                                          prescription will be limited to 73.5 mL/day for
+                                                                                   up to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to
+                                                                                   135 mL/day.
+                                       hydrocodone/acetaminophen tab 7.5-300 mg    If you are new to opioid treatment, your
+                                                                                   prescription will be limited to 6 tabs/day for up
+                                                                                   to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to 12
+                                                                                   tabs/day.
+                                       hydrocodone/acetaminophen tab 10-300 mg     If you are new to opioid treatment, your
+                                                                                   prescription will be limited to 4 tabs/day for up
+                                                                                   to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to 9
+                                                                                   tabs/day.
+                                       hydrocodone/acetaminophen tab 2.5-325 mg    If you are new to opioid treatment, your
+                                                                                   prescription will be limited to 12 tabs/day for
+                                                                                   up to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to 12
+                                                                                   tabs/day.
+                                       hydrocodone/acetaminophen tab 5-325 mg      If you are new to opioid treatment, your
+                                                                                   prescription will be limited to 9 tabs/day for up
+                                                                                   to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to 12
+                                                                                   tabs/day.
+                                       hydrocodone/acetaminophen tab 7.5-325 mg    If you are new to opioid treatment, your
+                                                                                   prescription will be limited to 6 tabs/day for up
+                                                                                   to 7 days. If you are experienced with opioid
+                                                                                   treatment, your prescription will be limited to 12
+                                                                                   tabs/day.
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).     4
+ Therapy class                         Medication name                                          Quantity limit
+                                       hydrocodone/acetaminophen tab 10-325 mg                  If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 4 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 9
+                                                                                                tabs/day.
+                                       hydrocodone/ibuprofen tab 5-200 mg                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 9 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 16
+                                                                                                tabs/day.
+                                       hydrocodone/ibuprofen tab 7.5-200 mg                     If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 6 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 12
+                                                                                                tabs/day.
+                                       hydrocodone/ibuprofen tab 10-200 mg                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 4 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 9
+                                                                                                tabs/day.
+                                       hydromorphone ER tab                                     2 tablets per day
+                                       hydromorphone liquid 1 mg/ml                             If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 10 mL/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 18
+                                                                                                mL/day.
+                                       hydromorphone tab 2 mg                                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 5 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 9
+                                                                                                tabs/day.
+                                       hydromorphone tab 4 mg                                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 2 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 4
+                                                                                                tabs/day.
+                                       hydromorphone tab 8 mg                                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1 tab/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 2
+                                                                                                tabs/day.
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).                  5
+ Therapy class                         Medication name                                          Quantity limit
+                                       hydromorphone supp 3 mg                                  If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 3 supps/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 6
+                                                                                                supps/day.
+                                       levorphanol tab 2 mg                                     If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 2 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 4
+                                                                                                tabs/day.
+                                       levorphanol tab 3 mg                                     If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1 tab/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 2
+                                                                                                tabs/day.
+                                       meperidine soln 50 mg/5 mL                               If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 49 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 90
+                                                                                                mL/day.
+                                       meperidine tab 50 mg                                     If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 9 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 18
+                                                                                                tabs/day.
+                                       methadone soln 5 mg/5 mL                                 None
+                                       methadone soln 10 mg/5 mL                                None
+                                       methadone tab                                            None
+                                       morphine ER beads cap                                    1 capsule per day
+                                       morphine ER beads cap 120 mg                             2 capsules per day
+                                       morphine ER cap                                          2 capsules per day
+                                       morphine ER tab                                          3 tablets per day
+                                       morphine soln 10 mg/5 mL                                 If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 24.5 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 45
+                                                                                                mL/day.
+                                       morphine soln 20 mg/5 mL                                 If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 12.25 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to
+                                                                                                22.5 mL/day.
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).              6
+ Therapy class                         Medication name                                          Quantity limit
+                                       morphine soln 100 mg/5 mL                                If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 2.4 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to
+                                                                                                4.5 mL/day.
+                                       morphine supp 5 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 9 supps/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 18
+                                                                                                supps/day.
+                                       morphine supp 10 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 4 supps/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 9
+                                                                                                supps/day.
+                                       morphine supp 20 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 2 supps/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 4
+                                                                                                supps/day.
+                                       morphine supp 30 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1 supp/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 3
+                                                                                                supps/day.
+                                       morphine tab 15 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 3 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 6
+                                                                                                tabs/day.
+                                       morphine tab 30 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1 tab/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 3
+                                                                                                tabs/day.
+                                       NALOCET TAB 2.5-300 MG                                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 13 tabs/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 13
+                                                                                                tabs/day.
+                                       oxycodone cap 5 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 6 caps/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 12
+                                                                                                caps/day.
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).                  7
+ Therapy class                         Medication name                                          Quantity limit
+                                       oxycodone tab 5 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 6 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 12
+                                                                                                tabs/day.
+                                       oxycodone conc 100 mg/5 mL                               If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1.6 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 3
+                                                                                                mL/day.
+                                       oxycodone soln 5 mg/5 mL                                 If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 32.6 mL/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 60
+                                                                                                mL/day.
+                                       oxycodone tab 10 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 3 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 6
+                                                                                                tabs/day.
+                                       oxycodone tab 15 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 2 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 4
+                                                                                                tabs/day.
+                                       oxycodone tab 30 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1 tab/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 2
+                                                                                                tabs/day.
+                                       oxycodone tab 20 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 1 tab/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 3
+                                                                                                tabs/day.
+                                       oxycodone/acetaminophen tab 2.5-325 mg                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 12 tabs/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 12
+                                                                                                tabs/day.
+                                       oxycodone/acetaminophen tab 5-325 mg                     If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 6 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 12
+                                                                                                tabs/day.
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).              8
+ Therapy class                         Medication name                            Quantity limit
+                                       oxycodone/acetaminophen tab 7.5-325 mg     If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 4 tabs/day for up
+                                                                                  to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 8
+                                                                                  tabs/day.
+                                       oxycodone/acetaminophen tab 10-325 mg      If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 3 tabs/day for up
+                                                                                  to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 6
+                                                                                  tabs/day.
+                                       oxycodone/acetaminophen soln 5-325 mg/5 mL If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 32.6 mL/day for
+                                                                                  up to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 60
+                                                                                  mL/day.
+                                       oxymorphone ER tab                         4 tablets per day
+                                       oxymorphone tab 5 mg                       If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 3 tabs/day for up
+                                                                                  to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 6
+                                                                                  tabs/day.
+                                       oxymorphone tab 10 mg                      If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 1 tab/day for up
+                                                                                  to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 3
+                                                                                  tabs/day.
+                                       pentazocine/naloxone tab 50-0.5 mg         If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 5 tabs/day for up
+                                                                                  to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 10
+                                                                                  tabs/day.
+                                       PROLATE SOLN 10-300 MG/5 ML                If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 16.3 mL/day for
+                                                                                  up to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 30
+                                                                                  mL/day.
+                                       PROLATE TAB 5-300 MG                       If you are new to opioid treatment, your
+                                                                                  prescription will be limited to 6 tabs/day for up
+                                                                                  to 7 days. If you are experienced with opioid
+                                                                                  treatment, your prescription will be limited to 12
+                                                                                  tabs/day.
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   9
+ Therapy class                         Medication name                                          Quantity limit
+                                       PROLATE TAB 7.5-300 MG                                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 4 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 8
+                                                                                                tabs/day.
+                                       PROLATE TAB 10-300 MG                                    If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 3 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 6
+                                                                                                tabs/day.
+                                       tramadol ER tab                                          1 tablet per day
+                                       tramadol tab 25 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 8 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 8
+                                                                                                tabs/day.
+                                       tramadol tab 50 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 5 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 8
+                                                                                                tabs/day.
+                                       tramadol tab 75 mg                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 3 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 6
+                                                                                                tabs/day.
+                                       tramadol tab 100 mg                                      If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 2 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 4
+                                                                                                tabs/day.
+                                       tramadol/acetaminophen tab 37.5-325 mg                   If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 6 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 8
+                                                                                                tabs/day.
+                                       TREZIX CAP 320.5-30-16 MG                                If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 10 caps/day for
+                                                                                                up to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 10
+                                                                                                caps/day.
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).             10
+ Therapy class                         Medication name                                          Quantity limit
+                                       XODOL TAB 5-300 MG                                       If you are new to opioid treatment, your
+                                                                                                prescription will be limited to 9 tabs/day for up
+                                                                                                to 7 days. If you are experienced with opioid
+                                                                                                treatment, your prescription will be limited to 13
+                                                                                                tabs/day.
+                                       XTAMPZA ER CAP                                           4 capsules per day
+ Analgesics Gastroprotective           naproxen/esomeprazole tab                                2 tablets per day
+ Agents
+ Anticonvulsants                       BANZEL                                                   None
+                                       HORIZANT                                                 2 tablets per day
+ Antipsychotics                        ADASUVE INHALER 10 MG                                    None
+                                       IGALMI FILM                                              None
+ Benzodiazepines                       clobazam, SYMPAZAN                                       None
+ Hypoactive Sexual Desire              ADDYI TAB                                                1 tablet per day
+ Disorder                              VYLEESI INJ 1.75 MG/0.3 ML                               6 syringes per 30 days
+ Migraine                              AIMOVIG INJ                                              2 syringes per 28 days
+                                       AIMOVIG INJ 140 MG/ML                                    1 syringe per 28 days
+                                       dihydroergotamine inj 1 mg/mL                            24 ampules per 28 days
+                                       EMGALITY INJ 100MG/ML                                    3 syringes per 28 days
+                                       EMGALITY INJ 120 MG/ML                                   1 syringe per 28 days
+                                       ERGOMAR SL TAB 2 MG                                      20 tablets per 28 days
+                                       ergotamine/caffeine tab 1-100 mg                         24 tablets per 28 days
+                                       MIGERGOT SUPP 2-100 MG                                   20 suppositories per 28 days
+                                       MIGRANAL NASAL SPRAY 4 MG/ML                             8 vials per 30 days
+                                       NURTEC ODT                                               16 tablets per 30 days
+                                       QULIPTA TAB                                              1 tablet per day
+                                       UBRELVY TAB                                              16 tablets per 30 days
+                                       VYEPTI IV SOLN                                           3 vials per 84 days
+                                       ZAVZPRET NASAL SPRAY 10 MG/ACT                           6 devices per 30 days
+ Miscellaneous                         NUEDEXTA CAP                                             None
+                                       RILUTEK TAB (Brand only)                                 2 tablets per day
+ Neurotoxins                           BOTOX COSMETIC INJ                                       None
+                                       BOTOX INJ                                                None
+                                       DAXXIFY INJ                                              None
+                                       DYSPORT INJ                                              None
+                                       MYOBLOC INJ                                              None
+                                       XEOMIN INJ                                               None
+ Parkinson's Agents                    DUOPA SUSP 4.63-20 MG/ML                                 None
+                                       NUPLAZID CAP                                             None
+                                       NUPLAZID TAB                                             None
+ Sedative Hypnotics                    flurazepam cap                                           1 capsule per day
+ Stimulants                            armodafinil tab                                          1 tablet per day
+                                       armodafinil tab 50 mg                                    2 tablets per day
+                                       modafinil tab                                            1 tablet per day
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).              11
+ Therapy class                         Medication name                                          Quantity limit
+                                       SUNOSI TAB                                               1 tablet per day
+ Weight Loss                           FOUNDAYO TAB                                             1 tablet per day
+                                       liraglutide inj                                          5 syringes per 30 days
+                                       LOMAIRA TAB 8 MG                                         None
+                                       QSYMIA CAP                                               None
+                                       WEGOVY HD INJ 7.2 MG/0.75 ML                             4 syringes per 28 days
+                                       WEGOVY INJ                                               4 syringes per 28 days
+                                       WEGOVY TAB                                               1 tablet per day
+                                       XENICAL CAP 120 MG                                       None
+                                       ZEPBOUND                                                 4 syringes per 28 days
+ Dermatology
+ Acne (Oral)                           ABSORICA LD CAP                                          None
+ Acne (Topical)                        AKLIEF CREAM                                             None
+                                       ALTRENO, ATRALIN, tretinoin                              None
+                                       tazarotene                                               None
+ Beta-Blocker                          HEMANGEOL SOLN 4.28 MG/ML                                None
+ Molluscum Contagiosum                 YCANTH SOLN 0.7%                                         None
+ Agents                                ZELSUVMI GEL 10.3%                                       None
+ Electrolyte & Renal Agents
+ Vasopressin Analog                    NOCDURNA SL TAB                                          None
+ Endocrinology & Metabolism
+ Aldosterone Antagonist         KERENDIA TAB                                                    1 tablet per day
+ Androgens, Testosterone        TESTONE CIK KIT 200 MG/ML                                       4 kits per 28 days
+ (Injectable)                   testosterone cypionate inj                                      1 vial (10mL) per 28 days
+                                TESTOSTERONE CYPIONATE INJ 200 MG/ML                            4 vials (1mL/each) per 28 days
+                                testosterone enanthate inj 200 mg/mL                            1 vial (5 mL) per 28 days
+                                testosterone pellets                                            None
+ Androgens, Testosterone (Oral) KYZATREX CAP                                                    4 capsules per day
+                                KYZATREX CAP 100 MG                                             7 capsules per day
+                                METHITEST TAB 10 MG                                             20 tablets per day
+                                methyltestosterone cap 10 mg                                    20 capsules per day
+ Androgens, Testosterone        testosterone gel pump 1.62%                                     2 bottles (75 gm/each) per 30 days
+ (Topical)                      testosterone gel pump 10 mg/act                                 2 bottles (60 gm/each) per 30 days
+                                testosterone gel 1% (25 mg)                                     4 packets per day
+                                testosterone gel 1% (50 mg)                                     2 packets per day
+                                testosterone gel 1.62% (20.25 mg)                               4 packets per day
+                                testosterone gel 1.62% (40.5 mg)                                2 packets per day
+                                testosterone soln 30 mg/act                                     2 bottles (90 mL/each) per 30 days
+                                testosterone gel pump 1%                                        4 bottles (75 gm/each) per 30 days
+ Antidiabetic Agents            AFREZZA INHALATION POWDER                                       None
+                                SYMLINPEN INJ                                                   None
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   12
+ Therapy class                         Medication name                                          Quantity limit
+ Diabetic Supplies                     CONTINUOUS BLOOD GLUCOSE SYSTEM                          None
+                                       RECEIVER
+                                       CONTINUOUS BLOOD GLUCOSE SYSTEM                          None
+                                       SENSOR
+                                       CONTINUOUS BLOOD GLUCOSE SYSTEM                          None
+                                       TRANSMITTER
+ GLP-1 Agonists                        BYDUREON BCISE                                           4 syringes per 28 days
+                                       BYETTA INJ                                               1 syringe per 30 days
+                                       liraglutide                                              3 syringes per 30 days
+                                       MOUNJARO INJ                                             4 syringes per 28 days
+                                       OZEMPIC INJ                                              1 syringe per 28 days
+                                       OZEMPIC, RYBELSUS TAB                                    1 tablet per day
+                                       RYBELSUS TAB 3 MG                                        2 starter packs per 365 days
+                                       TRULICITY INJ                                            4 syringes per 28 days
+ Gonadotropins                         MYFEMBREE TAB                                            1 tablet per day
+                                       ORIAHNN CAP                                              2 capsules per day
+                                       ORILISSA TAB 150 MG                                      1 tablet per day
+                                       ORILISSA TAB 200 MG                                      2 tablets per day
+ Gastroenterology
+ Antiemetics                           BONJESTA TAB 20-20 MG                                    2 tablets per day
+                                       DICLEGIS TAB 10-10 MG                                    4 tablets per day
+                                       MARINOL CAP                                              2 capsules per day
+                                       SYNDROS SOLN                                             4 mL per day
+ Corticosteroid                        EOHILIA SUSP 2 MG/10 ML                                  20 mL per day
+ Hepatic Agents                        REZDIFFRA TAB                                            1 tablet per day
+ Irritable Bowel Syndrome              LOTRONEX TAB                                             None
+                                       VIBERZI TAB                                              2 tablets per day
+ Hematology
+ Sickle Cell Disease                   glutamine powder pack                                    None
+                                       SIKLOS TAB                                               None
+                                       XROMI SOLN                                               None
+ Immunology
+ Allergen Extracts                     GRASTEK SL TAB                                           1 tablet per day
+                                       ODACTRA SL TAB 12 SQ-HDM                                 1 tablet per day
+                                       ORALAIR SL TAB 100 IR                                    2 packs per 365 days
+                                       ORALAIR SL TAB 300 IR                                    1 tablet per day
+                                       RAGWITEK SL TAB                                          1 tablet per day
+ Immune Globulins                      VARIZIG                                                  None
+ Miscellaneous
+ Anticholinergic                       CUVPOSA SOLN 1 MG/5 ML                                   None
+                                       GLYCATE TAB 1.5 MG                                       6 tablets per day
+                                       GLYCOPYRROLATE INJ                                       None
+                                       ROBINUL FORTE TAB 2 MG (Brand only)                      4 tablets per day
+                                       ROBINUL TAB 1 MG (Brand only)                            4 tablets per day
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   13
+ Therapy class                         Medication name                                          Quantity limit
+ Calcium Modifier                      cinacalcet tab                                           None
+ Methotrexate Auto-Injectors           RASUVO INJ                                               4 syringes per 28 days
+ Movement Disorder Agents              NOURIANZ TAB                                             None
+ Toxicology                            EXJADE, JADENU                                           None
+                                       FERRIPROX SOLN 100 MG/ML                                 None
+                                       FERRIPROX TAB                                            None
+                                       PEDMARK INJ 12.5 GM                                      None
+ Viscosupplements                      DUROLANE INJ 60 MG/3 ML                                  2 syringes per 180 days
+                                       EUFLEXXA 20 mg/2 ml                                      6 syringes per 180 days
+                                       GELSYN-3 INJ 16.8 MG/2 ML                                6 syringes per 180 days
+ Wound Care                            REGRANEX GEL                                             None
+ Non-Solid Oral Dosage Forms
+ Analgesics (Non-Opioid)     meloxicam susp 7.5 mg/5 ml                                         None
+ Antidepressants             RALDESY SOLN 10 MG/ML                                              None
+ Antihypertensive Agents     ARBLI SUSP 10 MG/ML                                                None
+                             LOPRESSOR SOLN 10 MG/ML                                            None
+                             NORLIQVA SOLN 1 MG/ML (Brand only)                                 None
+ Oncology (Oral)             JYLAMVO SOLN 2 MG/ML                                               None
+                             XATMEP SOLN 2.5 MG/ML                                              None
+ Ophthalmology
+ Dry Eye                     CEQUA SOLN 0.09%                                                   2 vials per day
+                             EYSUVIS SUSP 0.25%                                                 1 bottle per 30 days
+                             MIEBO SOLN 1.3 GM/ML                                               3 mL per 30 day
+                             RESTASIS EMULSION 0.05%                                            2 vials per day or 1 bottle per 30 days
+                             TRYPTYR SOLN 0.003%                                                2 vials per day
+                             TYRVAYA NASAL SPRAY                                                2 bottles per 30 days
+                             VEVYE SOLN 0.1%                                                    1 bottle per 30 days
+                             XIIDRA SOLN 5%                                                     2 vials per day
+ Miscellaneous               XIPERE SUSP 40 MG/ML                                               None
+ Prostaglandins              IDOSE TR IMPLANT                                                   None
+ Vasoconstrictor             UPNEEQ SOLN                                                        None
+ Respiratory
+ Asthma/COPD                 DALIRESP TAB                                                       None
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).       14
+Premium Specialty Prior Authorization List
+ Therapy class                         Medication name                                          Quantity limit
+ Anti-infectives
+ Antibiotics                           ARIKAYCE SUSP 590 MG/8.4 ML                              None
+                                       REBYOTA SUSP                                             None
+ Antifungals                           REZZAYO IV SOLN                                          None
+ Antiprotozoal                         DARAPRIM TAB                                             None
+ Antivirals                            LIVTENCITY TAB                                           None
+ Cardiology
+ Antilipemic                  EVKEEZA IV SOLN                                                   None
+                              JUXTAPID CAP 2MG                                                  112 capsules per 365 days
+                              JUXTAPID CAP 5 MG                                                 56 capsules per 365 days
+                              JUXTAPID CAP 10 MG                                                56 capsules per 365 days
+                              JUXTAPID CAP 20 MG                                                2 capsules per day
+                              JUXTAPID CAP 30 MG                                                2 capsules per day
+                              TRYNGOLZA INJ                                                     1 syringe per 28 days
+ Hereditary Angioedema Agents ANDEMBRY INJ 200 MG/1.2 ML                                        1 syringe per 28 days
+                              BERINERT INJ                                                      10 vials per 30 days
+                              DAWNZERA INJ 80 MG/0.8 ML                                         1 syringe per 28 days
+                              HAEGARDA INJ 2000 UNIT                                            24 vials per 28 days
+                              HAEGARDA INJ 3000 UNIT                                            16 vials per 28 days
+                              icatibant inj                                                     6 syringes per 30 days
+                              KALBITOR INJ 10 MG/ML                                             12 vials per 30 days
+                              ORLADEYO CAP                                                      1 capsule per day
+                              ORLADEYO PELLETS                                                  1 packet per day
+                              RUCONEST INJ 2100 UNIT                                            8 vials per 30 days
+                              TAKHZYRO INJ                                                      2 syringes/vials per 28 days
+ Pulmonary Arterial           ADEMPAS TAB                                                       3 tablets per day
+ Hypertension                 ambrisentan tab                                                   1 tablet per day
+                              bosentan tab                                                      2 tablets per day
+                              FLOLAN, VELETRI                                                   None
+                              macitentan                                                        1 tablet per day
+                              ORENITRAM TAB                                                     None
+                              ORENITRAM TITRATION KIT                                           2 starter kits per 365 days
+                              treprostinil                                                      None
+                              sildenafil iv sol                                                 None
+                              sildenafil susp                                                   2 bottles per 30 days
+                              sildenafil tab                                                    3 tablets per day
+                              tadalafil tab                                                     2 tablets per day
+                              TRACLEER TAB FOR ORAL SUSP                                        4 tablets per day
+                              TYVASO DPI MAINTENANCE KIT                                        4 cartridges per day
+                              TYVASO DPI MAINTENANCE KIT 32-64 MCG                              8 cartridges per day
+                              TYVASO DPI MAINTENANCE KIT 48-64 MCG                              8 cartridges per day
+                              TYVASO DPI TITRATION KIT                                          2 starter kits per 365 days
+                              TYVASO SOLN 0.6 MG/ML                                             1 ampule per day
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   15
+ Therapy class                  Medication name                                                 Quantity limit
+                                UPTRAVI IV SOLN                                                 None
+                                UPTRAVI TAB                                                     2 tablets per day
+                                UPTRAVI TITRATION PACK 200-800 MCG                              2 starter packs per 365 days
+                                VENTAVIS SOLN                                                   9 ampules per day
+                                WINREVAIR INJ                                                   1 kit per 21 days
+                                YUTREPIA CAP                                                    5 capsules per day
+                                YUTREPIA CAP 106 MCG                                            8 capsules per day
+                                YUTREPIA CAP 79.5 MCG                                           10 capsules per day
+ Transthyretin Stabilizers      VYNDAMAX CAP                                                    1 capsule per day
+                                VYNDAQEL CAP                                                    4 capsules per day
+ Vasopressors                   NORTHERA CAP                                                    None
+ von Willebrand Factor-Directed CABLIVI KIT                                                     1 kit per day
+ Antibody
+ Central Nervous System
+ Anticonvulsants                DIACOMIT                                                        None
+                                EPIDIOLEX SOLN                                                  None
+                                FINTEPLA SOLN                                                   None
+                                vigabatrin, VIGAFYDE                                            None
+                                ZTALMY                                                          None
+ Antidepressants                SPRAVATO NASAL SPRAY                                            None
+                                ZULRESSO IV SOLN                                                None
+ Antipruritic                   KORSUVA INJ 50 MCG/ML                                           None
+ Depressant                     sodium oxybate soln                                             18 mL per day
+                                XYWAV SOLN                                                      18 mL per day
+ Gene Therapy                   KEBILIDI                                                        None
+                                LENMELDY                                                        None
+                                SKYSONA                                                         None
+ Miscellaneous                  QALSODY SOLN                                                    None
+                                RADICAVA                                                        None
+                                RELYVRIO PAK 3-1 GM                                             2 packets per day
+ Muscular Dystrophy             AGAMREE                                                         None
+                                deflazacort                                                     None
+ Neurological Agents            AMVUTTRA INJ                                                    1 syringe per 90 days
+                                ONPATTRO IV SOLN                                                None
+                                SKYCLARYS CAP 50 MG                                             3 capsules per day
+                                TEGSEDI INJ                                                     4 syringes per 28 days
+                                WAINUA INJ                                                      1 syringe per 28 days
+ Parkinson's Agents             APOKYN INJ                                                      30 cartridges per 30 days
+                                INBRIJA CAP                                                     None
+                                ONAPGO INJ 98 MG/20 ML                                          20 mL per day
+                                VYALEV INJ                                                      None
+ Sleep Disorder                 tasimelteon cap                                                 1 capsule per day
+                                WAKIX TAB                                                       2 tablets per day
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   16
+ Therapy class                         Medication name                                          Quantity limit
+ Dermatology
+ Alkylating Agents                     VALCHLOR GEL                                             None
+ Alpha-Melanocyte Stimulating          SCENESSE IMPLANT                                         None
+ Hormone Analog
+ Epidermolysis Bullosa Agent           VYJUVEK GEL                                              10 mL per 28 days
+ Electrolyte & Renal Agents
+ Diuretics                             KEVEYIS, ORMALVI TAB                                     4 tablets per day
+ Endocrinology & Metabolism
+ Antidiabetic Agents                   LANTIDRA IV SUSP                                         None
+ Congenital Adrenal Hyperplasia        CRENESSITY CAP                                           3 capsules per day
+ Agent                                 CRENESSITY CAP 100 MG                                    4 capsules per day
+                                       CRENESSITY SOLN 50 MG/ML                                 8 mL per day
+ Copper Replacement Agents             ZYCUBO INJ 2.9 MG                                        1 vial per day
+ C-type Natriuretic Peptide            VOXZOGO INJ                                              1 vial per day
+ Cyclic Pyranopterin                   NULIBRY IV SOLN                                          None
+ Monophosphate (cPMP)
+ Substrate Replacement
+ Therapy
+ Endothelin Receptor                   VANRAFIA TAB                                             1 tablet per day
+ Antagonist                            VOYXACT INJ 400 MG/2 ML                                  1 syringe per 28 days
+ Farnesyltransferase Inhibitor         ZOKINVY CAP                                              4 capsules per day
+ Gonadotropins                         CAMCEVI INJ 42 MG                                        1 injection per 168 days
+                                       ELIGARD INJ 7.5 MG                                       1 injection per 28 days
+                                       ELIGARD INJ 22.5 MG                                      1 injection per 84 days
+                                       ELIGARD INJ 30 MG                                        1 injection per 112 days
+                                       ELIGARD INJ 45 MG                                        1 injection per 168 days
+                                       FENSOLVI INJ 45 MG                                       1 injection per 168 days
+                                       FIRMAGON INJ 80 MG                                       1 vial per 28 days
+                                       FIRMAGON INJ 120 MG                                      2 vials per 365 days
+                                       leuprolide inj 1 mg/0.2 mL                               None
+                                       LEUPROLIDE INJ 22.5 MG                                   1 injection per 84 days
+                                       LUPRON DEPOT INJ                                         None
+                                       LUPRON DEPOT-PED (3-MONTH)                               1 syringe per 84 days
+                                       LUPRON DEPOT-PED (6 MONTH) 45 MG INJ                     1 syringe per 168 days
+                                       LUPRON DEPOT-PED                                         1 syringe per 28 days
+                                       ORGOVYX TAB                                              None
+                                       SUPPRELIN LA IMPLANT KIT                                 1 kit per 365 days
+                                       TRELSTAR MIX INJ 3.75 MG                                 1 injection per 28 days
+                                       TRELSTAR MIX INJ 11.25 MG                                1 injection per 84 days
+                                       TRELSTAR MIX INJ 22.5 MG                                 1 injection per 168 days
+                                       TRIPTODUR INJ                                            1 injection per 168 days
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   17
+ Therapy class                Medication name                                                   Quantity limit
+ Growth Hormones and Related  EGRIFTA SV INJ 2 MG                                               1 vial per day
+ Therapy                      EGRIFTA WR KIT 11.6 MG                                            1 kit per 28 days
+                              NORDITROPIN, NUTROPIN AQ, OMNITROPE                               None
+                              NGENLA                                                            None
+                              SEROSTIM INJ                                                      None
+                              SKYTROFA INJ                                                      None
+                              SOGROYA INJ                                                       None
+                              ZORBTIVE INJ                                                      None
+ Growth Hormones and Related INCRELEX                                                           None
+ Therapy (Acromegaly)         SOMAVERT                                                          None
+ Hormone Modifiers            MYALEPT INJ                                                       None
+ Hyperammonemia Agents        CARBAGLU TAB 200 MG                                               None
+ Hypoparathyroidism Agent     YORVIPATH INJ                                                     2 syringes per 28 days
+ Miscellaneous                ACTHAR, CORTROPHIN INJ GEL                                        None
+                              KORLYM TAB                                                        4 tablets per day
+ Monoclonal Antibody          TEPEZZA IV SOLN                                                   None
+ Osteoporosis                 BILDYOS INJ 60 MG/ML                                              2 syringes per 365 days
+                              BONSITY, TERIPARATIDE                                             None
+                              ENOBY SOLN 60 MG/ML                                               2 syringes per 365 days
+                              EVENITY INJ                                                       2 syringes per 28 days
+                              STOBOCLO INJ 60 MG/ML                                             2 syringes per 365 days
+                              TYMLOS INJ                                                        None
+ Prader-Willi Syndrome Agent  VYKAT XR TAB 25 MG                                                4 tablets per day
+                              VYKAT XR TAB 75 MG                                                7 tablets per day
+                              VYKAT XR TAB 100 MG                                               3 tablets per day
+ Retinoic Acid Receptor Gamma SOHONOS CAP 1 MG                                                  20 capsules per day
+ Agonist                      SOHONOS CAP 1.5 MG                                                13 capsules per day
+                              SOHONOS CAP 2.5 MG                                                8 capsules per day
+                              SOHONOS CAP 5 MG                                                  4 capsules per day
+                              SOHONOS CAP 10 MG                                                 2 capsules per day
+ Somatostatins                octreotide inj                                                    None
+                              SANDOSTATIN LAR INJ                                               None
+                              SIGNIFOR LAR INJ                                                  1 vial per 28 days
+                              SOMATULINE INJ                                                    None
+ Vasopressin Antagonist       tolvaptan tab                                                     2 tablets per day
+                              tolvaptan therapy pack                                            2 tablets per day
+                              SAMSCA TAB                                                        2 tablets per day
+ Enzyme-Related
+ Alpha-1 Proteinase Inhibitor ARALAST NP, PROLASTIN-C, ZEMAIRA INJ                              None
+                              GLASSIA, PROLASTIN-C INJ                                          None
+ Cystine-Depleting Agents     PROCYSBI CAP                                                      None
+                              PROCYSBI GRANULES PACKET                                          None
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   18
+ Therapy class                         Medication name                                          Quantity limit
+ Enzyme Replacement                    ADZYNMA KIT                                              None
+                                       ALDURAZYME INJ                                           None
+                                       AQNEURSA POWDER PACKET                                   4 packets per day
+                                       BRINEURA KIT                                             None
+                                       CERDELGA CAP                                             None
+                                       CEREZYME INJ                                             None
+                                       ELAPRASE                                                 None
+                                       ELELYSO INJ                                              None
+                                       FABRAZYME IV SOLN                                        None
+                                       GALAFOLD CAP                                             14 capsules per 28 days
+                                       KANUMA IV SOLN                                           None
+                                       LAMZEDE IV SOLN 10 MG                                    None
+                                       LUMIZYME IV SOLN                                         None
+                                       MEPSEVII IV SOLN                                         None
+                                       MIPLYFFA CAP                                             3 capsules per day
+                                       NAGLAZYME IV SOLN                                        None
+                                       NEXVIAZYME IV SOLN 100 MG                                None
+                                       OPFOLDA CAP 65 MG                                        8 capsules per 28 days
+                                       PHEBURANE PELLETS                                        None
+                                       POMBILITI                                                None
+                                       REVCOVI INJ                                              None
+                                       sodium phenylbutyrate powder 3 gm/                       None
+                                       teaspoonful
+                                       sodium phenylbutyrate tab 500 mg                         None
+                                       STRENSIQ INJ                                             None
+                                       SUCRAID SOLN 8500 UNIT/ML                                None
+                                       VIMIZIM INJ                                              None
+                                       VPRIV INJ                                                None
+                                       XENPOZYME                                                None
+                                       XURIDEN GRANULES PACKET                                  4 packets per day
+                                       ZAVESCA CAP                                              None
+ Enzyme, Gout                          KRYSTEXXA INJ                                            None
+ Metabolic Agents                      nitisinone cap                                           None
+                                       NITYR TAB                                                None
+                                       ORFADIN SUSP                                             None
+ Phenylketonuria Treatment             sapropterin powder packet                                None
+ Agents                                sapropterin tab                                          None
+ Thymidine Kinase 2 Deficiency         KYGEVVI POWDER PACK 2 GM/2 GM                            None
+ Agents
+ Gastroenterology
+ Acute Hepatic Porphyria Agents GIVLAARI INJ                                                    None
+ Bile Acid Agents               CHENODAL TAB                                                    None
+                                CHOLBAM CAP                                                     None
+                                CTEXLI TAB                                                      None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   19
+ Therapy class                         Medication name                                          Quantity limit
+ Diarrhea                              XERMELO                                                  3 tablets per day
+ Hepatic Agents                        IQIRVO TAB                                               1 tablet per day
+                                       LIVDELZI CAP                                             1 capsule per day
+                                       OCALIVA TAB                                              1 tablet per day
+ Ileal Bile Acid Transporter           BYLVAY                                                   None
+ Inhibitor
+ Short Bowel Syndrome                  GATTEX KIT                                               None
+ Hematology
+ Gene Therapy                          OMISIRGE                                                 None
+ Hemolytic Anemia                      PYRUKYND TAB                                             2 tablets per day
+                                       PYRUKYND THERAPY PACK                                    1 tablet per day
+ Hemophilia Agents                     HEMGENIX                                                 None
+                                       QFITLIA                                                  None
+                                       ROCTAVIAN INJ                                            None
+ Sickle Cell Disease                   ADAKVEO INJ                                              None
+                                       CASGEVY                                                  None
+                                       LYFGENIA                                                 None
+                                       ZYNTEGLO INJ                                             None
+ Immunology
+ Atopic Dermatitis                     ADBRY INJ                                                4 syringes per 28 days
+                                       ADBRY INJ 300 MG/2 ML                                    2 syringes per 28 days
+                                       DUPIXENT INJ                                             4 syringes per 28 days
+                                       EBGLYSS INJ                                              2 syringes per 28 days
+ Bruton Tyrosine Kinase                RHAPSIDO TAB 25 MG                                       2 tablets per day
+ Inhibitor
+ Complement Inhibitor                  ENJAYMO IV SOLN                                          None
+                                       VEOPOZ INJ 400 MG/2 ML                                   None
+                                       ZILBRYSQ                                                 None
+ Graft Versus Host Agents              RYONCIL                                                  None
+ Hematopoietic Agents                  ARANESP                                                  None
+                                       BKEMV INJ                                                None
+                                       EMPAVELI INJ                                             None
+                                       ENSPRYNG INJ                                             None
+                                       EPYSQLI INJ                                              None
+                                       FABHALTA CAP 200 MG                                      2 capsules per day
+                                       LEUKINE                                                  None
+                                       MIRCERA INJ                                              None
+                                       NEULASTA                                                 None
+                                       NIVESTYM                                                 None
+                                       PROCRIT INJ                                              None
+                                       REBLOZYL INJ                                             None
+                                       RETACRIT INJ                                             None
+                                       SOLIRIS IV SOLN                                          None
+                                       TAVALISSE TAB                                            None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   20
+ Therapy class                         Medication name                                          Quantity limit
+                                       UDENYCA INJ                                              None
+                                       ULTOMIRIS IV SOLN                                        None
+                                       UPLIZNA IV SOLN                                          None
+                                       VOYDEYA                                                  6 tablets per day
+                                       ZARXIO INJ                                               None
+ Hepatitis C Agents                    MAVYRET                                                  3 tablets per day
+                                       MAVYRET PELLET PACK 50-20 MG                             5 packs per day
+                                       PEGASYS                                                  None
+                                       VOSEVI                                                   1 tablet per day
+                                       ZEPATIER                                                 1 tablet per day
+ Immune Globulins                      BIVIGAM, FLEBOGAMMA, GAMMAPLEX,                          None
+                                       OCTAGAM, PRIVIGEN INJ
+                                       CUTAQUIG INJ                                             None
+                                       CUVITRU, HIZENTRA INJ                                    None
+                                       CYTOGAM                                                  None
+                                       GAMASTAN INJ                                             None
+                                       GAMMAGARD SD INJ                                         None
+                                       GAMMAGARD, GAMMAKED, GAMUNEX-C INJ                       None
+                                       HIZENTRA INJ                                             None
+                                       HYQVIA                                                   None
+                                       PANZYGA INJ                                              None
+                                       XEMBIFY INJ                                              None
+ Immunomodulators                      ACTEMRA INJ                                              4 syringes per 28 days
+                                       ACTEMRA IV SOLN                                          None
+                                       AMJEVITA INJ 10 MG/0.2 ML                                2 syringes per 28 days
+                                       AMJEVITA INJ                                             4 syringes per 28 days
+                                       AMJEVITA INJ 80 MG/0.8 ML                                2 syringes per 28 days
+                                       AVSOLA IV SOLN                                           None
+                                       AVTOZMA INJ                                              4 syringes per 28 days
+                                       AVTOZMA IV SOLN                                          None
+                                       BIMZELX INJ                                              1 syringe per 28 days
+                                       CIBINQO TAB                                              1 tablet per day
+                                       CIMZIA KIT 200 MG                                        4 syringes per 28 days
+                                       CIMZIA PREFL KIT 200 MG/ML                               4 syringes per 28 days
+                                       ENBREL INJ 25 MG/0.5 ML                                  8 vials/syringes per 28 days
+                                       ENBREL INJ 50 MG/ML                                      4 syringes per 28 days
+                                       ENBREL MINI INJ 50 MG/ML                                 4 cartridges per 28 days
+                                       ENBREL SRCLK INJ 50 MG/ML                                4 syringes per 28 days
+                                       ENTYVIO INJ 108 MG/0.68 ML                               2 syringes per 28 days
+                                       ENTYVIO IV SOLN                                          None
+                                       ICOTYDE TAB 200 MG                                       1 tablet per day
+                                       ILUMYA INJ 100 MG/ML                                     1 syringe per 84 days
+                                       INFLECTRA IV SOLN                                        None
+                                       KEVZARA INJ                                              2 syringes per 28 days
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   21
+ Therapy class                         Medication name                                          Quantity limit
+                                       KINERET INJ                                              None
+                                       LEQSELVI TAB 8 MG                                        2 tablets per day
+                                       LITFULO CAP                                              1 capsule per day
+                                       OLUMIANT TAB                                             1 tablet per day
+                                       OMVOH INJ 100 MG/ML                                      2 syringes per 28 days
+                                       OMVOH INJ 100/200 MG/ML                                  1 package per 28 days
+                                       OMVOH INJ 200 MG/2 ML                                    1 syringe per 28 days
+                                       OMVOH IV SOLN 300 MG/15 ML                               45 mL per 365 days
+                                       ORENCIA INJ                                              4 syringes per 28 days
+                                       ORENCIA IV SOLN                                          None
+                                       OTEZLA STARTER PACK                                      1 starter pack per 365 days
+                                       OTEZLA TAB                                               2 tablets per day
+                                       OTEZLA XR TAB 75 MG                                      1 tablet per day
+                                       RINVOQ LQ SOLN 1 MG/ML                                   12 mL per day
+                                       RINVOQ TAB                                               1 tablet per day
+                                       RINVOQ TAB 45 MG                                         1 tablet per day, 84 tablets per 365 days
+                                       SILIQ INJ 210 MG/1.5 ML                                  2 syringes per 28 days
+                                       SIMPONI ARIA IV SOLN                                     None
+                                       SIMPONI INJ                                              1 syringe per 28 days
+                                       SKYRIZI INJ 55 MG/0.37 ML                                1 syringe per 84 days
+                                       SKYRIZI INJ 150 MG/ML                                    1 syringe per 84 days
+                                       SKYRIZI PEN INJ 150 MG/ML                                1 syringe per 84 days
+                                       SKYRIZI INJ 180 MG/1.2 ML                                1 syringe per 56 days
+                                       SKYRIZI INJ 360 MG/2.4 ML                                1 syringe per 56 days
+                                       SKYRIZI IV SOLN                                          None
+                                       STARJEMZA INJ 45 MG/0.5 ML                               1 vial per 56 days
+                                       STARJEMZA INJ 45 MG/0.5 ML                               1 syringe per 56 days
+                                       STARJEMZA INJ 90 MG/ML                                   1 syringe per 56 days
+                                       STARJEMZA INJ 130 MG/26 ML                               None
+                                       TALTZ INJ                                                1 syringe per 28 days
+                                       tofacitinib soln                                         10 mL per day
+                                       tofacitinib tab                                          2 tablets per day
+                                       tofacitinib xr tab                                       1 tablet per day
+                                       TREMFYA INJ 100 MG/ML                                    1 syringe per 56 days
+                                       TREMFYA INJ 200 MG/2 ML                                  1 syringe per 28 days
+                                       TREMFYA IV SOLN 200 MG/20 ML                             None
+                                       VELSIPITY TAB                                            1 tablet per day
+                                       WEZLANA INJ 45 MG/0.5 ML                                 1 syringe/vial per 56 days
+                                       WEZLANA INJ 90 MG/ML                                     1 syringe per 56 days
+                                       WEZLANA IV SOLN                                          None
+                                       YESINTEK INJ                                             1 syringe per 56 days
+                                       YESINTEK IV SOLN                                         None
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).         22
+ Therapy class                         Medication name                                          Quantity limit
+ Interleukins                          ARCALYST                                                 None
+                                       ILARIS                                                   2 vials per 28 days
+                                       SPEVIGO INJ 150 MG/1 ML                                  2 syringes per 28 days
+                                       SPEVIGO INJ 300 MG/2 ML                                  1 syringe per 28 days
+                                       SPEVIGO IV SOLN                                          30 mL per 84 days
+ Miscellaneous                         ACTIMMUNE INJ                                            None
+                                       BENLYSTA                                                 None
+                                       CRYSVITA INJ                                             None
+                                       SAPHNELO INJ                                             4 syringes per 28 days
+                                       SAPHNELO IV SOLN 300 MG/2 ML                             None
+ Monoclonal Antibody                   CINQAIR IV SOLN                                          None
+                                       DUPIXENT INJ                                             4 syringes per 28 days
+                                       FASENRA INJ 10 MG/0.5 ML                                 1 syringe per 56 days
+                                       FASENRA INJ 30 MG/ML                                     1 syringe per 28 days
+                                       FASENRA PEN INJ 30 MG/ML                                 1 syringe per 28 days
+                                       GAMIFANT IV SOLN                                         None
+                                       NUCALA                                                   3 vials/syringes per 28 days
+                                       NUCALA INJ 40 MG/0.4 ML                                  1 syringe per 28 days
+                                       TEZSPIRE                                                 1 syringe per 28 days
+                                       XOLAIR                                                   None
+                                       XOLAIR INJ 75 MG/0.5 ML                                  2 syringes per 28 days
+                                       XOLAIR INJ 150 MG/ML                                     2 syringes per 28 days
+                                       XOLAIR INJ 300 MG/2 ML                                   4 syringes per 28 days
+ Multiple Sclerosis                    AVONEX INJ 30 MCG/0.5 ML                                 1 kit per 28 days
+                                       BAFIERTAM CAP                                            4 capsules per day
+                                       BETASERON INJ                                            1 package per 28 days
+                                       BRIUMVI INJ 150 MG/6 ML                                  None
+                                       cladribine                                               4 cycles per lifetime
+                                       dalfampridine tab                                        2 tablets per day
+                                       dimethyl fumarate cap                                    2 capsules per day
+                                       dimethyl fumarate starter pack                           2 starter packs per 365 days
+                                       glatiramer inj 20 mg/ml                                  1 syringe per day
+                                       glatiramer inj 40 mg/ml                                  12 syringes per 28 days
+                                       fingolimod, GILENYA CAP 0.25 MG                          1 capsule per day
+                                       KESIMPTA INJ 20 MG/0.4 ML                                1 syringe per 28 days
+                                       LEMTRADA                                                 3.6 mL per 365 days
+                                       MAYZENT STARTER PACK                                     2 starter packs per 365 days
+                                       MAYZENT TAB 0.25 MG                                      4 tablets per day
+                                       MAYZENT TAB                                              1 tablet per day
+                                       mitoxantrone inj                                         None
+                                       OCREVUS IV SOLN                                          None
+                                       OCREVUS ZUNOVO INJ                                       1 syringe per 180 days
+                                       teriflunomide tab                                        1 tablet per day
+                                       TYRUKO INJ 300 MG/15 ML                                  1 vial per 28 days
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   23
+ Therapy class                         Medication name                                          Quantity limit
+                                       TYSABRI INJ 300 MG/15 ML                                 1 vial per 28 days
+                                       VUMERITY CAP                                             4 capsules per day
+                                       ZEPOSIA CAP                                              1 capsule per day
+                                       ZEPOSIA STARTER PACK                                     2 starter packs per 365 days
+ Neonatal Fc Receptor                  RYSTIGGO INJ 280 MG/3ML                                  6 vials per 28 days
+ Antagonist                            RYSTIGGO INJ                                             4 vials per 28 days
+                                       VYVGART HYTRULO INJ                                      None
+                                       VYVGART HYTRULO INJ 1000 MG/10000                        4 syringes per 28 days
+                                       UNIT/5 ML
+                                       VYVGART IV SOLN                                          None
+ Prurigo Nodularis Agent               NEMLUVIO INJ 30 MG                                       2 syringes per 28 days
+ Thrombopoietin Receptor               ALVAIZ                                                   None
+ Agonists                              DOPTELET SPRINKLE CAP 10 MG                              2 capsules per day
+                                       DOPTELET TAB                                             None
+                                       MULPLETA TAB                                             None
+                                       NPLATE                                                   None
+ WHIM Syndrome                         XOLREMDI CAP                                             4 capsules per day
+ Miscellaneous
+ Barth Syndrome Agents                 FORZINITY INJ 280 MG/3.5 ML                              14 mL per 28 days
+ Blood Modifier                        RYPLAZIM IV SOLN                                         None
+ Collagenase                           XIAFLEX INJ                                              None
+ Diagnostic                            THYROGEN INJ                                             None
+ Movement Disorder Agents              AUSTEDO TAB                                              4 tablets per day
+                                       AUSTEDO TITRATION KIT                                    2 starter packs per 365 days
+                                       AUSTEDO XR TAB                                           1 tablet per day
+                                       AUSTEDO XR TITRATION KIT                                 2 starter packs per 365 days
+                                       INGREZZA CAP                                             1 capsule per day
+                                       INGREZZA SPRINKLE CAP                                    1 capsule per day
+                                       INGREZZA THERAPY PACK                                    2 starter packs per 365 days
+                                       XENAZINE TAB                                             None
+ Musculoskeletal Agents                ITVISMA INJ                                              None
+                                       SPINRAZA INJ                                             None
+                                       ZOLGENSMA INJ                                            None
+ Toxicology                            DEPEN TAB 250 MG                                         None
+                                       SYPRINE CAP                                              None
+ Obstetrics & Gynecology
+ Fertility Agents                      cetrorelix inj                                           None
+                                       CHORIONIC GONADOTROPIN, NOVAREL,                         None
+                                       PREGNYL INJ
+                                       FOLLISTIM AQ INJ                                         None
+                                       FYREMADEL INJ                                            None
+                                       MENOPUR INJ                                              None
+                                       OVIDREL INJ 250 MCG/0.5 ML                               None
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   24
+ Therapy class                         Medication name                                          Quantity limit
+ Oncology (Injectable)
+ Alkylating Agents                     bendamustine iv soln                                     None
+                                       BENDEKA                                                  None
+                                       ZEPZELCA IV SOLN                                         None
+ Antibiotics                           ZUSDURI INJ 80 MG                                        None
+ Antifolate                            FOLOTYN IV SOLN                                          None
+                                       TECENTRIQ HYBREZA INJ 1875-30000 MG-                     None
+                                       UNIT/15ML
+                                       TECENTRIQ IV SOLN                                        None
+ Antimicrotubular                      HALAVEN IV SOLN                                          None
+                                       JEVTANA IV SOLN                                          None
+ Bispecific Antibody                   BIZENGRI                                                 None
+ CAR-T Therapy                         ABECMA IV SUSP                                           None
+                                       AUCATZYL                                                 None
+                                       BREYANZI IV SUSP                                         None
+                                       CARVYKTI IV SUSP                                         None
+                                       KYMRIAH IV SUSP                                          None
+                                       TECARTUS IV SUSP                                         None
+                                       YESCARTA IV SUSP                                         None
+ Gene Therapy                          ADSTILADRIN SUSP                                         None
+                                       IMLYGIC                                                  None
+                                       TECELRA SUSP                                             None
+ Interferons                           BESREMI INJ                                              None
+ Interleukins                          ELZONRIS IV SOLN                                         None
+ Kinase and Molecular Target           ALIQOPA IV SOLN                                          None
+ Inhibitors                            BESPONSA IV SOLN                                         None
+                                       BORUZU, VELCADE                                          None
+                                       FYARRO IV SUSP                                           None
+                                       KYPROLIS IV SOLN                                         None
+                                       PORTRAZZA IV SOLN                                        None
+                                       VYXEOS                                                   None
+                                       ZALTRAP IV SOLN                                          None
+ Miscellaneous                         BELEODAQ IV SOLN                                         None
+                                       ISTODAX IV SOLN                                          None
+                                       PROVENGE IV SUSP                                         None
+ Monoclonal Antibody                   ADCETRIS IV SOLN                                         None
+                                       ARZERRA IV SOLN                                          None
+                                       BAVENCIO IV SOLN                                         None
+                                       BILPREVDA INJ 120 MG/1.7 ML                              None
+                                       BLINCYTO IV SOLN                                         None
+                                       COLUMVI IV SOLN                                          None
+                                       CYRAMZA IV SOLN                                          None
+                                       DANYELZA IV SOLN                                         None
+                                       DARZALEX IV SOLN                                         None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   25
+ Therapy class                         Medication name                                          Quantity limit
+                                       DATROWAY IV SOLN                                         None
+                                       ELAHERE IV SOLN                                          None
+                                       ELREXFIO INJ                                             None
+                                       EMPLICITI IV SOLN                                        None
+                                       EMRELIS INJ                                              None
+                                       ENHERTU IV SOLN                                          None
+                                       EPKINLY INJ                                              None
+                                       ERBITUX IV SOLN                                          None
+                                       GAZYVA IV SOLN                                           None
+                                       HERCEPTIN HYLECTA INJ                                    None
+                                       HERCEPTIN IV SOLN                                        None
+                                       IMDELLTRA IV SOLN                                        None
+                                       IMFINZI IV SOLN                                          None
+                                       IMJUDO IV SOLN                                           None
+                                       JEMPERLI IV SOLN                                         None
+                                       KADCYLA IV SOLN                                          None
+                                       KANJINTI IV SOLN                                         None
+                                       KEYTRUDA IV SOLN                                         None
+                                       LIBTAYO IV SOLN                                          None
+                                       LOQTORZI IV SOLN                                         None
+                                       LUNSUMIO IV                                              None
+                                       LYNOZYFIC IV SOLN                                        None
+                                       MARGENZA IV SOLN                                         None
+                                       MONJUVI IV SOLN                                          None
+                                       MYLOTARG IV SOLN                                         None
+                                       OPDIVO IV SOLN                                           None
+                                       OPDIVO QVANTIG INJ                                       None
+                                       OPDUALAG IV SOLN 240-80 MG/20 ML                         None
+                                       OSENVELT INJ 120 MG/1.7 ML                               None
+                                       PADCEV IV SOLN                                           None
+                                       PERJETA IV SOLN                                          None
+                                       PHESGO INJ                                               None
+                                       POLIVY IV SOLN                                           None
+                                       POTELIGEO IV SOLN                                        None
+                                       RITUXAN HYCELA INJ                                       None
+                                       RITUXAN IV SOLN                                          None
+                                       RUXIENCE IV SOLN                                         None
+                                       RYBREVANT IV SOLN                                        None
+                                       SARCLISA IV SOLN                                         None
+                                       SYLVANT IV SOLN                                          None
+                                       TALVEY INJ                                               None
+                                       TECVAYLI INJ                                             None
+                                       TEVIMBRA INJ                                             None
+                                       TIVDAK IV SOLN                                           None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   26
+ Therapy class                         Medication name                                          Quantity limit
+                                       TRAZIMERA IV SOLN                                        None
+                                       TRODELVY IV SOLN                                         None
+                                       UNITUXIN IV SOLN                                         None
+                                       VYLOY INJ                                                None
+                                       XTRENBO SOLN 120 MG/1.7 ML                               None
+                                       YERVOY IV SOLN                                           None
+                                       ZIIHERA                                                  None
+                                       ZYNLONTA IV SOLN                                         None
+                                       ZYNYZ IV SOLN                                            None
+ T-Cell Receptor                       KIMMTRAK IV SOLN                                         None
+ Vascular Endothelial Growth           AVASTIN IV SOLN                                          None
+ Factor (VEGF) Inhibitor               MVASI IV SOLN                                            None
+                                       ZIRABEV IV SOLN                                          None
+ Oncology (Oral)
+ Alkylating Agents                     temozolomide cap                                         None
+ Antiandrogen                          abiraterone                                              None
+                                       BRUKINSA                                                 None
+                                       ERLEADA CAP                                              None
+                                       INREBIC TAB                                              None
+                                       NUBEQA TAB                                               None
+                                       ROZLYTREK                                                None
+                                       XTANDI                                                   None
+ Estrogen Receptor Antagonist          INLURIYO TAB 200 MG                                      None
+ Gamma Secretase Inhibitor             OGSIVEO TAB                                              None
+ Kinase and Molecular Target           ALECENSA CAP                                             None
+ Inhibitors                            ALUNBRIG STARTER PACK                                    1 starter pack per 365 days
+                                       ALUNBRIG TAB                                             1 tablet per day
+                                       ALUNBRIG TAB 30 MG                                       4 tablets per day
+                                       AUGTYRO CAP                                              None
+                                       AVMAPKI FAKZYNJA PAK                                     None
+                                       AYVAKIT TAB                                              1 tablet per day
+                                       BALVERSA TAB                                             None
+                                       BOSULIF                                                  None
+                                       BRAFTOVI CAP                                             None
+                                       CABOMETYX TAB                                            None
+                                       CABOMETYX TAB 20 MG                                      1 tablet per day
+                                       CALQUENCE                                                None
+                                       CAPRELSA TAB                                             None
+                                       CAPRELSA TAB 100 MG                                      2 tablets per day
+                                       COMETRIQ KIT                                             None
+                                       COPIKTRA CAP                                             2 capsules per day
+                                       COTELLIC TAB                                             None
+                                       DANZITEN TAB                                             None
+                                       DAURISMO TAB                                             None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   27
+ Therapy class                         Medication name                                          Quantity limit
+                                       dasatinib                                                None
+                                       ENSACOVE CAP                                             None
+                                       ERIVEDGE CAP                                             None
+                                       everolimus disperz tab for oral susp                     None
+                                       everolimus tab                                           1 tablet per day
+                                       FRUZAQLA CAP                                             None
+                                       GAVRETO CAP                                              None
+                                       GILOTRIF TAB                                             1 tablet per day
+                                       GOMEKLI                                                  None
+                                       HERNEXEOS TAB 60 MG                                      None
+                                       HYRNUO TAB                                               None
+                                       IBRANCE                                                  None
+                                       IBTROZI CAP                                              None
+                                       ICLUSIG TAB 10 MG                                        1 tablet per day
+                                       ICLUSIG TAB 15 MG                                        1 tablet per day
+                                       ICLUSIG TAB 30 MG                                        None
+                                       ICLUSIG TAB 45 MG                                        None
+                                       IDHIFA TAB                                               1 tablet per day
+                                       imatinib, IMKELDI                                        None
+                                       IMBRUVICA CAP                                            1 capsule per day
+                                       IMBRUVICA CAP 140 MG                                     3 capsules per day
+                                       IMBRUVICA SUSP 70 MG/ML                                  None
+                                       IMBRUVICA TAB 420 MG, 560 MG                             1 tablet per day
+                                       INLYTA TAB                                               None
+                                       IRESSA TAB                                               None
+                                       ITOVEBI TAB 3 MG                                         2 tablets per day
+                                       ITOVEBI TAB 9 MG                                         1 tablet per day
+                                       JAKAFI TAB                                               None
+                                       JAKAFI TAB 5 MG                                          2 tablets per day
+                                       JAKAFI TAB 10 MG                                         2 tablets per day
+                                       JAYPIRCA TAB 50 MG                                       1 tablet per day
+                                       JAYPIRCA TAB 100 MG                                      None
+                                       KOSELUGO                                                 None
+                                       KRAZATI TAB                                              None
+                                       LAZCLUZE TAB                                             None
+                                       LAZCLUZE TAB 80 MG                                       2 tablets per day
+                                       LENVIMA THERAPY PACK                                     None
+                                       LORBRENA TAB                                             None
+                                       LUMAKRAS TAB                                             None
+                                       LYNPARZA TAB                                             None
+                                       LYTGOBI THERAPY PACK                                     None
+                                       MEKINIST                                                 None
+                                       MEKTOVI TAB                                              None
+                                       NERLYNX TAB                                              6 tablets per day
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   28
+ Therapy class                         Medication name                                          Quantity limit
+                                       NEXAVAR                                                  None
+                                       nilotinib cap                                            None
+                                       NINLARO CAP                                              None
+                                       ODOMZO CAP                                               None
+                                       pazopanib tab 400MG                                      None
+                                       PIQRAY 200 MG THERAPY PACK                               1 tablet per day
+                                       PIQRAY THERAPY PACK                                      2 tablets per day
+                                       QINLOCK TAB                                              None
+                                       RETEVMO                                                  None
+                                       RETEVMO TAB 40 MG                                        3 tablets per day
+                                       RETEVMO TAB 80 MG                                        2 tablets per day
+                                       REVUFORJ TAB                                             None
+                                       ROMVIMZA                                                 None
+                                       RYDAPT CAP                                               None
+                                       SCEMBLIX TAB                                             None
+                                       SCEMBLIX TAB 20 MG                                       2 tablets per day
+                                       SCEMBLIX TAB 40 MG                                       8 tablets per day
+                                       STIVARGA TAB 40 MG                                       None
+                                       sunitinib                                                None
+                                       TABRECTA TAB                                             None
+                                       TAFINLAR                                                 None
+                                       TAGRISSO TAB                                             None
+                                       TAGRISSO TAB 40 MG                                       1 tablet per day
+                                       TARCEVA TAB                                              None
+                                       TARCEVA TAB 25 MG                                        3 tablets per day
+                                       TEPMETKO TAB                                             None
+                                       TRUQAP PAK                                               None
+                                       TRUQAP TAB                                               None
+                                       TUKYSA TAB                                               None
+                                       TURALIO CAP                                              None
+                                       TYKERB                                                   None
+                                       VANFLYTA TAB                                             None
+                                       VENCLEXTA                                                None
+                                       VERZENIO TAB                                             None
+                                       VIJOICE GRANULES 50 MG                                   1 packet per day
+                                       VIJOICE PAK                                              1 tablet per day
+                                       VIJOICE PAK 250 MG                                       2 tablets per day
+                                       VITRAKVI                                                 None
+                                       VIZIMPRO TAB                                             None
+                                       VIZIMPRO TAB 15 MG                                       1 tablet per day
+                                       VONJO CAP 100 MG                                         None
+                                       VORANIGO TAB                                             None
+                                       VORANIGO TAB 10 MG                                       2 tablets per day
+                                       VOTRIENT TAB 200 MG                                      None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   29
+ Therapy class                         Medication name                                          Quantity limit
+                                       XOSPATA TAB                                              None
+                                       ZEJULA                                                   None
+                                       ZEJULA TAB 100 MG                                        1 tablet per day
+                                       ZELBORAF TAB                                             None
+                                       ZYDELIG TAB                                              2 tablets per day
+                                       ZYKADIA                                                  None
+ Miscellaneous                         bexarotene cap                                           None
+                                       KISQALI FEMARA                                           None
+                                       KISQALI PAK                                              None
+                                       LONSURF TAB                                              None
+                                       MODEYSO CAP 125 MG                                       None
+                                       ONUREG TAB                                               None
+                                       ORSERDU TAB                                              None
+                                       TARGRETIN GEL                                            None
+                                       TIBSOVO CAP                                              None
+                                       WELIREG CAP                                              None
+                                       XPOVIO PAK                                               None
+                                       ZOLINZA CAP                                              None
+ Ornithine Decarboxylase               IWILFIN TAB                                              None
+ Inhibitor
+ Thalidomide-Related Agents            lenalidomide cap                                         None
+                                       pomalidomide cap                                         None
+                                       pomalidomide cap 1 mg                                    1 capsule per day
+                                       pomalidomide cap 2 mg                                    1 capsule per day
+                                       THALOMID CAP                                             None
+ Ophthalmology
+ Complement Inhibitor                  IZERVAY SOLN 2 MG/0.1 ML                                 None
+                                       SYFOVRE INJ 15 MG/0.1 ML                                 None
+ Miscellaneous                         LUXTURNA SUSP                                            None
+                                       OXERVATE SOLN                                            2 mL per day, 112 mL per lifetime
+ Vascular Endothelial Growth           CIMERLI                                                  None
+ Factor (VEGF) Inhibitor               EYLEA, EYLEA HD                                          None
+                                       PAVBLU                                                   None
+                                       SUSVIMO                                                  None
+                                       SUSVIMO IMPLANT                                          None
+                                       VABYSMO INJ                                              None
+ Respiratory
+ Cystic Fibrosis                       ALYFTREK TAB 10-50-125 MG                                2 tablets per day
+                                       ALYFTREK TAB 4-20-50 MG                                  3 tablets per day
+                                       KALYDECO PAK                                             2 packets per day
+                                       KALYDECO TAB                                             None
+                                       ORKAMBI GRANULES PACKET                                  2 packets per day
+                                       ORKAMBI TAB 100-125 MG                                   4 tablets per day
+                                       ORKAMBI TAB 200-125 MG                                   4 tablets per day
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   30
+ Therapy class                           Medication name                                               Quantity limit
+                                         PULMOZYME SOLN                                                None
+                                         SYMDEKO TAB                                                   2 tablets per day
+                                         TRIKAFTA GRANULES PACKET                                      2 packets per day
+                                         TRIKAFTA TAB                                                  3 tablets per day
+ Pulmonary Fibrosis                      pirfenidone cap 267 mg                                        9 capsules per day
+                                         pirfenidone tab 267 mg                                        9 tablets per day
+                                         pirfenidone tab 801 mg                                        3 tablets per day
+                                         nintedanib cap                                                2 capsules per day
+ Urology
+ Primary Hyperoxaluria Type 1            OXLUMO INJ                                                    None
+                                         RIVFLOZA INJ                                                  1 syringe per 28 days
+                                         RIVFLOZA INJ 80 MG/0.5 ML                                     2 vials per 28 days
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).
+
+* Preferred NDCs
+
+Note: PA applies to both brand and generic unless otherwise noted. If a strength is not listed then QL
+will apply to all strengths. When differences between this list and your benefit plan documents exist,
+please refer to the information included in your benefit plan documents. Please review your benefit plan
+documents for full details on what medications are covered by your plan.
+PLEASE NOTE: This drug list may have regular updates and may not include all medications. Drugs in this
+list include brand and generic and all dosage types unless noted. If a new drug is approved and falls into
+one of the targeted PA categories, the new drug may be automatically added to this list.
+
+
+
+
+All Optum trademarks and logos are owned by Optum, Inc. in the U.S. and other jurisdictions. All other trademarks are the property of their respective owners.
+© 2027 OptumRx, Inc. All rights reserved. WF22773114-B PA.PREMIUM 01012027                                                                               Premium
+

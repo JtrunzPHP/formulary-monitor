@@ -1,0 +1,177 @@
+{
+  "id": "optum-um-20260101-pa-premium-um-drug-list-",
+  "stamp": "20261116-201139",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 948,
+  "watchlist_in_document": [
+    {
+      "line": 138,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "SAXENDA INJ 5 syringes per 30 days",
+      "context": [
+        "Weight Loss LOMAIRA TAB 8 MG None",
+        "QSYMIA CAP None",
+        "SAXENDA INJ 5 syringes per 30 days",
+        "WEGOVY INJ 4 syringes per 28 days",
+        "XENICAL CAP 120 MG None"
+      ]
+    },
+    {
+      "line": 139,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY INJ 4 syringes per 28 days",
+      "context": [
+        "QSYMIA CAP None",
+        "SAXENDA INJ 5 syringes per 30 days",
+        "WEGOVY INJ 4 syringes per 28 days",
+        "XENICAL CAP 120 MG None",
+        "ZEPBOUND INJ 4 syringes per 28 days"
+      ]
+    },
+    {
+      "line": 141,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND INJ 4 syringes per 28 days",
+      "context": [
+        "WEGOVY INJ 4 syringes per 28 days",
+        "XENICAL CAP 120 MG None",
+        "ZEPBOUND INJ 4 syringes per 28 days",
+        "Dermatology",
+        "Acne (Oral) ABSORICA LD CAP None"
+      ]
+    },
+    {
+      "line": 175,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supplies CONTINUOUS BLOOD GLUCOSE SYSTEM None",
+      "context": [
+        "Antidiabetic Agents AFREZZA INHALATION POWDER None",
+        "SYMLINPEN INJ None",
+        "Diabetic Supplies CONTINUOUS BLOOD GLUCOSE SYSTEM None",
+        "RECEIVER*",
+        "CONTINUOUS BLOOD GLUCOSE SYSTEM None"
+      ]
+    },
+    {
+      "line": 183,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "liraglutide 3 syringes per 30 days",
+      "context": [
+        "GLP-1 Agonists BYDUREON BCISE 4 syringes per 28 days",
+        "BYETTA INJ 1 syringe per 30 days",
+        "liraglutide 3 syringes per 30 days",
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days"
+      ]
+    },
+    {
+      "line": 184,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "MOUNJARO INJ 4 syringes per 28 days",
+      "context": [
+        "BYETTA INJ 1 syringe per 30 days",
+        "liraglutide 3 syringes per 30 days",
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 1 tablet per day"
+      ]
+    },
+    {
+      "line": 185,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "OZEMPIC INJ 1 syringe per 28 days",
+      "context": [
+        "liraglutide 3 syringes per 30 days",
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 1 tablet per day",
+        "RYBELSUS TAB PACK 2 starter packs per 365 days"
+      ]
+    },
+    {
+      "line": 186,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "RYBELSUS TAB 1 tablet per day",
+      "context": [
+        "MOUNJARO INJ 4 syringes per 28 days",
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 1 tablet per day",
+        "RYBELSUS TAB PACK 2 starter packs per 365 days",
+        "TRULICITY INJ 4 syringes per 28 days"
+      ]
+    },
+    {
+      "line": 187,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "RYBELSUS TAB PACK 2 starter packs per 365 days",
+      "context": [
+        "OZEMPIC INJ 1 syringe per 28 days",
+        "RYBELSUS TAB 1 tablet per day",
+        "RYBELSUS TAB PACK 2 starter packs per 365 days",
+        "TRULICITY INJ 4 syringes per 28 days",
+        "Gonadotropins MYFEMBREE TAB 1 tablet per day"
+      ]
+    },
+    {
+      "line": 188,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "TRULICITY INJ 4 syringes per 28 days",
+      "context": [
+        "RYBELSUS TAB 1 tablet per day",
+        "RYBELSUS TAB PACK 2 starter packs per 365 days",
+        "TRULICITY INJ 4 syringes per 28 days",
+        "Gonadotropins MYFEMBREE TAB 1 tablet per day",
+        "ORIAHNN CAP 2 capsules per day"
+      ]
+    }
+  ]
+}

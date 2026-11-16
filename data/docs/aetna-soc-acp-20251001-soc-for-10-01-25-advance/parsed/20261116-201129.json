@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "kind": "soc_change",
+      "name": "BELSOMRA",
+      "change_text": "Drug list addition (preferred)",
+      "change": "ADDED",
+      "alternatives": "",
+      "effective": "October 1, 2025",
+      "text": "BELSOMRA | Drug list addition (preferred)"
+    },
+    {
+      "kind": "soc_change",
+      "name": "VYVANSE",
+      "change_text": "Non-formulary; not covered. Covered options include: amphetamine-dextroamphetamine mixed salts ext-rel, dexmethylphenidate ext-rel, dextroamphetamine ext-rel, lisdexamfetamine, methylphenidate ext-rel, Azstarys",
+      "change": "NOT_COVERED",
+      "alternatives": "amphetamine-dextroamphetamine mixed salts ext-rel, dexmethylphenidate ext-rel, dextroamphetamine ext-rel, lisdexamfetamine, methylphenidate ext-rel, Azstarys",
+      "effective": "October 1, 2025",
+      "text": "VYVANSE | Non-formulary; not covered. Covered options include: amphetamine-dextroamphetamine mixed salts ext-rel, dexmethylphenidate ext-rel, dextroamphetamine ext-rel, lisdexamfetamine, methylphenidate ext-rel, Azstarys"
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 12,
+    "tables": 1,
+    "effective": "October 1, 2025"
+  }
+}

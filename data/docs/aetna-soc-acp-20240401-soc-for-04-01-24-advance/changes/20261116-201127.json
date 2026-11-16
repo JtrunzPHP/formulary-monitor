@@ -1,0 +1,43 @@
+{
+  "id": "aetna-soc-acp-20240401-soc-for-04-01-24-advance",
+  "stamp": "20261116-201127",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 249,
+  "watchlist_in_document": [
+    {
+      "line": 72,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "SAXENDA Quantity limits apply. Covered up to 5 pens every 25 days",
+      "context": [
+        "QSYMIA Preauthorization required; Quantity limits apply. Covered up to 30",
+        "caps every 25 days",
+        "SAXENDA Quantity limits apply. Covered up to 5 pens every 25 days",
+        "SUNLENCA Not covered under pharmacy benefit. May be covered under the",
+        "medical benefit"
+      ]
+    },
+    {
+      "line": 77,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY Quantity limits apply. Covered up to 4 pens every 21 days",
+      "context": [
+        "VELPHORO Non-formulary; not covered. Covered options include: calcium",
+        "acetate, sevelamer carbonate, sevelamer hydrochloride, Auryxia",
+        "WEGOVY Quantity limits apply. Covered up to 4 pens every 21 days",
+        "1981703-01-04 (4/24) ©2023 Aetna Inc.",
+        "100_AdvancedCtrl"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "rows": [
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
+      "name": "zolmitriptan 5mg nasal",
+      "alternatives": "sumatriptan nasal",
+      "effective": "January 1, 2027",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | zolmitriptan 5mg nasal | sumatriptan nasal"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
+      "name": "ONZETRA XSAIL",
+      "alternatives": "sumatriptan nasal",
+      "effective": "January 1, 2027",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ONZETRA XSAIL | sumatriptan nasal"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
+      "name": "ZOLMITRIPTAN 2.5MG NASAL",
+      "alternatives": "sumatriptan nasal",
+      "effective": "January 1, 2027",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ZOLMITRIPTAN 2.5MG NASAL | sumatriptan nasal"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents",
+      "name": "ZOMIG NASAL",
+      "alternatives": "sumatriptan nasal",
+      "effective": "January 1, 2027",
+      "text": "AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ZOMIG NASAL | sumatriptan nasal"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "HEMANGEOL diltiazem er tablets",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | HEMANGEOL diltiazem er tablets | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "CARDIZEM LA nisoldipine",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | CARDIZEM LA nisoldipine | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "SULAR verapamil er pm (100 mg",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | SULAR verapamil er pm (100 mg | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "200mg",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 200mg | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "300mg) fenofibrate capsules (130mg), fenofibrate tablets (40mg",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 300mg) fenofibrate capsules (130mg), fenofibrate tablets (40mg | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "120mg)",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 120mg) | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "FENOFIBRATE CAPSULES (50MG",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | FENOFIBRATE CAPSULES (50MG | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "150MG)",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 150MG) | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "LIPOFEN fluvastatin, fluvastatin er",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | LIPOFEN fluvastatin, fluvastatin er | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "ALTOPREV",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | ALTOPREV | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "ATORVALIQ",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | ATORVALIQ | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "LESCOL XL",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | LESCOL XL | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents",
+      "name": "ZYPITAMAG MYQORZO",
+      "alternatives": "propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS",
+      "effective": "January 1, 2027",
+      "text": "CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | ZYPITAMAG MYQORZO | propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240mg, 360mg) fenofibrate capsules (43mg, 67mg,134mg, 200mg), fenofibrate tablets (48mg, 54mg, 145mg, 160mg), fenofibric acid dr atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin CAMZYOS"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors",
+      "name": "WINREVAIR ZTLIDO metformin 625mg",
+      "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions.",
+      "effective": "January 1, 2027",
+      "text": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors | WINREVAIR ZTLIDO metformin 625mg | Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions."
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors",
+      "name": "750mg tablets; METFORMIN 625MG TABLETS sucralfate suspension",
+      "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions.",
+      "effective": "January 1, 2027",
+      "text": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors | 750mg tablets; METFORMIN 625MG TABLETS sucralfate suspension | Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions."
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors",
+      "name": "CARAFATE GLOPERBA BRUKINSA",
+      "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions.",
+      "effective": "January 1, 2027",
+      "text": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors | CARAFATE GLOPERBA BRUKINSA | Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions."
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors",
+      "name": "JAYPIRCA",
+      "alternatives": "Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions.",
+      "effective": "January 1, 2027",
+      "text": "Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents GASTROINTESTINAL Anti-Ulcer Agents MUSCULOSKELETAL & RHEUMATOLOGY Gout Therapy ONCOLOGY Bruton Tyrosine Kinase Inhibitors | JAYPIRCA | Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain conditions. lidocaine 5% patch metformin 500mg, 850mg or 1,000mg tablets sucralfate tablets colchicine, MITIGARE For Mantle Cell Lymphoma: CALQUENCE For Chronic Lymphocytic Leukemia, Small Lymphocytic Lymphoma: CALQUENCE, IMBRUVICA For BRUKINSA only: Coverage may be approved for treatment of Waldenström’s Macroglobulinemia under certain conditions."
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "All trademarks are the property of their respective",
+      "name": "owners",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "All trademarks are the property of their respective | owners | "
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "BYOOVIZ",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | BYOOVIZ | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "LUCENTIS BYQLOVI",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | LUCENTIS BYQLOVI | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "CLOBETASOL DROPS",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | CLOBETASOL DROPS | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "FLAREX",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | FLAREX | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "FML FORTE",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | FML FORTE | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "LOTEMAX OINTMENT",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | LOTEMAX OINTMENT | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "LOTEMAX SM",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | LOTEMAX SM | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "MAXIDEX",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | MAXIDEX | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "PRED MILD ACUVAIL",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | PRED MILD ACUVAIL | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "ILEVRO",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | ILEVRO | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)",
+      "name": "NEVANAC",
+      "alternatives": "CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops",
+      "effective": "January 1, 2027",
+      "text": "OPHTHALMIC Ophthalmic Agents (Vascular Endothelial Growth Inhibitors) Ophthalmic Anti-Inflammatory Ophthalmic Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) | NEVANAC | CIMERLI dexamethasone drops, difluprednate drops, fluorometholone drops, loteprednol 0.5% drops, prednisolone drops bromfenac drops, diclofenac drops, ketorolac drops"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "MISCELLANEOUS AGENTS Cardiomyopathy & Polyneuropathy of Hereditary Transthyretin-Mediated Amyloidosis",
+      "name": "AMVUTTRA ATTRUBY",
+      "alternatives": "HTTR-C: VYNDAMAX Coverage may be approved for treatment of Polyneuropathy of Hereditary Transthyretin-Mediated Amyloidosis (hATTR) under certain conditions. VYNDAMAX",
+      "effective": "January 1, 2027",
+      "text": "MISCELLANEOUS AGENTS Cardiomyopathy & Polyneuropathy of Hereditary Transthyretin-Mediated Amyloidosis | AMVUTTRA ATTRUBY | HTTR-C: VYNDAMAX Coverage may be approved for treatment of Polyneuropathy of Hereditary Transthyretin-Mediated Amyloidosis (hATTR) under certain conditions. VYNDAMAX"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Hypoactive Sexual Desire Disorder Agents",
+      "name": "ADDYI",
+      "alternatives": "VYLESSI",
+      "effective": "January 1, 2027",
+      "text": "Hypoactive Sexual Desire Disorder Agents | ADDYI | VYLESSI"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "GAMMAKED",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | GAMMAKED | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "GAMMAPLEX",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | GAMMAPLEX | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "PANZYGA",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | PANZYGA | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "QIVIGY",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | QIVIGY | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "YIMMUGO OTULFI IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | YIMMUGO OTULFI IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "PYZCHIVA IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | PYZCHIVA IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "SELARSDI IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | SELARSDI IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "STARJEMZA IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | STARJEMZA IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "STELARA IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | STELARA IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "STEQEYMA IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | STEQEYMA IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "USTEKINUMAB IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | USTEKINUMAB IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents",
+      "name": "WEZLANA IV",
+      "alternatives": "IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA",
+      "effective": "January 1, 2027",
+      "text": "Immune Globulins Infused Non-TNF Biologics - Ustekinumab Agents | WEZLANA IV | IV: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMMAGARD S-D, GAMUNEX-C SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IMULDOSA IV, USTEKINUMAB-TTWE IV (by Quallent), YESINTEK IV, ENTYVIO IV, OMVOH, SKYRIZI, TREMFYA"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "ADALIMUMAB-AACF",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
+      "effective": "January 1, 2027",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | ADALIMUMAB-AACF | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "IDACIO ADALIMUMAB-AATY",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
+      "effective": "January 1, 2027",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | IDACIO ADALIMUMAB-AATY | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "YUFLYMA ADALIMUMAB-BWW ADADALIMUMAB-FKJP",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
+      "effective": "January 1, 2027",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | YUFLYMA ADALIMUMAB-BWW ADADALIMUMAB-FKJP | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "HULIO ADALIMUMAB-RYVK (by Teva) ABRILADA AMJEVITA CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY ACTEMRA SC",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
+      "effective": "January 1, 2027",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | HULIO ADALIMUMAB-RYVK (by Teva) ABRILADA AMJEVITA CYLTEZO HADLIMA HUMIRA HYRIMOZ YUSIMRY ACTEMRA SC | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡",
+      "name": "AVTOZMA SC",
+      "alternatives": "ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**",
+      "effective": "January 1, 2027",
+      "text": "Adalimumab Products for Inflammatory Conditions‡ Tocilizumab Products for Inflammatory Conditions‡ | AVTOZMA SC | ADALIMUMAB-ADAZ ADALIMUMAB-ADBM (by Boehringer Ingelheim & Quallent) SIMLANDI TYENNE SC**"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "OTULFI SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | OTULFI SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "PYZCHIVA SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | PYZCHIVA SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "SELARSDI SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | SELARSDI SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "STARJEMZA SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | STARJEMZA SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "STELARA SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | STELARA SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "STEQEYMA SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | STEQEYMA SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "USTEKINUMAB SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | USTEKINUMAB SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "USTEKINUMAB-AAUZ SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | USTEKINUMAB-AAUZ SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "USTEKINUMAB-AEKN SC",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | USTEKINUMAB-AEKN SC | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "WEZLANA SC KINERET",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | WEZLANA SC KINERET | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated",
+      "name": "SILIQ",
+      "alternatives": "IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives",
+      "effective": "January 1, 2027",
+      "text": "Ustekinumab Products for Inflammatory Conditions‡ Referenced excluded medications for Inflammatory Conditions‡ as indicated | SILIQ | IMULDOSA SC, USTEKINUMAB-TTWE SC (by Quallent), YESINTEK SC See below for Preferred Alternatives"
+    },
+    {
+      "kind": "exclusion",
+      "drug_class": "All trademarks are the property of their respective",
+      "name": "owners",
+      "alternatives": "",
+      "effective": "January 1, 2027",
+      "text": "All trademarks are the property of their respective | owners | "
+    }
+  ],
+  "problems": [],
+  "notes": {
+    "bbox": true,
+    "pages": 3,
+    "tables": 3,
+    "effective": "January 1, 2027"
+  }
+}

@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antidiabetic Agents Anti-infective",
       "name": "Insulin glargine (ABA of Toujeo) pen-injector for SC injection",
       "brand_generic": "Brand",
@@ -27,6 +28,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents Dermatological",
       "name": "Blujepa (gepotidacin) tablet 3 Anzupgo (delgocitinib)",
       "brand_generic": "Brand",
@@ -48,6 +50,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Endocrine and",
       "name": "3 cream",
       "brand_generic": "Brand",
@@ -69,6 +72,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Metabolic Agents",
       "name": "Veozah (fezolinetant) tablet 3",
       "brand_generic": "Brand",
@@ -90,6 +94,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "ADHD Agents",
       "name": "Arynta (lisdexamfetamine) oral solution* Tapentadol ER (ABA",
       "brand_generic": "",
@@ -116,6 +121,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Analgesic Agents",
       "name": "of Nucynta ER) tablet Tolectin DS (tolmetin)",
       "brand_generic": "",
@@ -142,6 +148,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Anti-infective",
       "name": "capsule 400mg* Contepo (fosfomycin)",
       "brand_generic": "",
@@ -168,6 +175,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Antilipemic",
       "name": "IV injection* Lerochol",
       "brand_generic": "",
@@ -194,6 +202,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents Antimigraine",
       "name": "(lerodalcibep-liga) SC injection* Cafergot (ergotamine-",
       "brand_generic": "",
@@ -220,6 +229,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents Antineoplastic",
       "name": "caffeine) tablet Lifyorli (relacorilant)",
       "brand_generic": "",
@@ -246,6 +256,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Antiobesity",
       "name": "capsule pack* Wegovy HD (semaglutide) SC",
       "brand_generic": "",
@@ -278,6 +289,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "injection 7.2mg/0.75mL Halobetasol (ABA of",
       "brand_generic": "",
@@ -304,6 +316,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Dermatological Agents",
       "name": "Ultravate) lotion* Icotyde (icotrokinra)",
       "brand_generic": "",
@@ -330,6 +343,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "tablet* Avlayah (tividenofusp",
       "brand_generic": "",
@@ -356,6 +370,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Endocrine and",
       "name": "alfa-eknm) IV injection* Kygevvi (doxecitine-",
       "brand_generic": "",
@@ -382,6 +397,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Metabolic Agents",
       "name": "doxribtimine) oral powder* Yuviwel",
       "brand_generic": "",
@@ -408,6 +424,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Hematological",
       "name": "(navepegritide) SC injection* Neulasta",
       "brand_generic": "",
@@ -434,6 +451,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "(pegfilgrastim) SC injection 4mg/0.4mL",
       "brand_generic": "",
@@ -460,6 +478,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Hormonal Agents Immunological",
       "name": "Desmoda (desmopressin) oral solution* Steqeyma (ustekinumab-stba)",
       "brand_generic": "",
@@ -486,6 +505,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "SC injection 45mg/0.5mL Ryaltris (by Glenmark)",
       "brand_generic": "",
@@ -512,6 +532,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Nasal Agents Neurological",
       "name": "nasal spray* Relgaabi (gabapentin)",
       "brand_generic": "",
@@ -538,6 +559,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agent Neuromucular",
       "name": "capsule* Spinraza (nusinersen)",
       "brand_generic": "",
@@ -564,6 +586,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Ophthalmic",
       "name": "intrathecal injection 26mg/5mL, 50mg/5mL Yuvezzi (carbachol-",
       "brand_generic": "",
@@ -590,6 +613,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Respiratory",
       "name": "brimonidine) ophthalmic solution* Beclomethasone",
       "brand_generic": "",
@@ -616,6 +640,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Skeletal Muscle",
       "name": "aerosol inhalation* Atmeksi",
       "brand_generic": "",
@@ -642,6 +667,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Relaxants Toxicology",
       "name": "(methocarbamol) oral suspension* Rezenopy (naloxone)",
       "brand_generic": "",
@@ -668,6 +694,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agent",
       "name": "nasal spray*",
       "brand_generic": "",
@@ -694,6 +721,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "and IV",
       "name": "Briviact",
       "brand_generic": "",
@@ -720,6 +748,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Pomalyst",
       "brand_generic": "",
@@ -746,6 +775,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "IV Folotyn",
       "brand_generic": "",
@@ -772,6 +802,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "tablet",
       "name": "Edurant",
       "brand_generic": "",
@@ -798,6 +829,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "titration",
       "name": "Savella",
       "brand_generic": "",
@@ -824,6 +856,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Lumigan",
       "brand_generic": "",
@@ -850,6 +883,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Ofev",
       "brand_generic": "",
@@ -876,6 +910,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antineoplastic Agents Endocrine",
       "name": "Komzifti (ziftomenib) capsule Lynkuet",
       "brand_generic": "Brand",
@@ -902,6 +937,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Agents Immunological",
       "name": "(elinzanetant) capule Starjemza (ustekinumab-",
       "brand_generic": "Brand",
@@ -928,6 +964,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "hmny) IV and SC injection",
       "brand_generic": "Brand",

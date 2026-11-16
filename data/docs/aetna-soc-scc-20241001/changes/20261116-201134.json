@@ -1,0 +1,24 @@
+{
+  "id": "aetna-soc-scc-20241001",
+  "stamp": "20261116-201134",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 220,
+  "watchlist_in_document": [
+    {
+      "line": 42,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetic Supplies* KETO-DIASTIX, KETOSTIX Talk to your doctor",
+      "context": [
+        "zolmitriptan, NURTEC ODT, ONZETRA XSAIL,",
+        "UBRELVY, ZEMBRACE SYMTOUCH",
+        "Diabetic Supplies* KETO-DIASTIX, KETOSTIX Talk to your doctor",
+        "Preferred to non-preferred",
+        "Drug Class Drug name(s) Alternative(s)"
+      ]
+    }
+  ]
+}

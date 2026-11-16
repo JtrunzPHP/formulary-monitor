@@ -1,0 +1,4350 @@
+{
+  "id": "optum-premium-standard-formulary-jul-2026",
+  "stamp": "20261116-201123",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 3312,
+  "watchlist_in_document": [
+    {
+      "line": 132,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "Diabetes - Glucose Monitoring.......................................................................................................................... 26",
+      "context": [
+        "Dermatological Agents - Drugs for Skin Conditions.......................................................................................... 23",
+        "Diabetes - Antidiabetic Agents.......................................................................................................................... 25",
+        "Diabetes - Glucose Monitoring.......................................................................................................................... 26",
+        "Diabetes - Glycemic Agents.............................................................................................................................. 28",
+        "Diabetes - Insulins.............................................................................................................................................28"
+      ]
+    },
+    {
+      "line": 134,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Diabetes - Insulins.............................................................................................................................................28",
+      "context": [
+        "Diabetes - Glucose Monitoring.......................................................................................................................... 26",
+        "Diabetes - Glycemic Agents.............................................................................................................................. 28",
+        "Diabetes - Insulins.............................................................................................................................................28",
+        "Electrolytes / Minerals / Metals / Vitamins.........................................................................................................30",
+        "Gastrointestinal Agents - Drugs for Acid Reflux and Ulcer................................................................................30"
+      ]
+    },
+    {
+      "line": 1020,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "SAXENDA 2 PA; ++; QL",
+      "context": [
+        "STARTER KIT",
+        "PONVORY E SP",
+        "SAXENDA 2 PA; ++; QL",
+        "For more information regarding the tiers and designations in this drug list, please see the Reading your",
+        "formulary section of this booklet."
+      ]
+    },
+    {
+      "line": 1028,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "WEGOVY 2 PA; ++; QL betamethasone",
+      "context": [
+        "VYLEESI 3 PA; ++; QL azelaic acid external 1",
+        "WAINUA 3 PA; SP; QL BENZAMYCIN E",
+        "WEGOVY 2 PA; ++; QL betamethasone",
+        "ZEPBOUND KWIKPEN E dipropionate external",
+        "ZEPBOUND CABTREO E"
+      ]
+    },
+    {
+      "line": 1029,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND KWIKPEN E dipropionate external",
+      "context": [
+        "WAINUA 3 PA; SP; QL BENZAMYCIN E",
+        "WEGOVY 2 PA; ++; QL betamethasone",
+        "ZEPBOUND KWIKPEN E dipropionate external",
+        "ZEPBOUND CABTREO E",
+        "SUBCUTANEOUS E CALCIPOTRIENE"
+      ]
+    },
+    {
+      "line": 1030,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND CABTREO E",
+      "context": [
+        "WEGOVY 2 PA; ++; QL betamethasone",
+        "ZEPBOUND KWIKPEN E dipropionate external",
+        "ZEPBOUND CABTREO E",
+        "SUBCUTANEOUS E CALCIPOTRIENE",
+        "E M"
+      ]
+    },
+    {
+      "line": 1034,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND CIBINQO 2 PA; SP; QL",
+      "context": [
+        "E M",
+        "SOLUTION EXTERNAL FOAM",
+        "ZEPBOUND CIBINQO 2 PA; SP; QL",
+        "SUBCUTANEOUS claravis 1",
+        "2 PA; ++; QL"
+      ]
+    },
+    {
+      "line": 1180,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "INVOKAMET E TRULICITY 2 PA; QL",
+      "context": [
+        "glipizide ir 1 TRADJENTA 2",
+        "GLYXAMBI 2 TRIJARDY XR 2",
+        "INVOKAMET E TRULICITY 2 PA; QL",
+        "INVOKAMET XR E TZIELD E",
+        "INVOKANA E VICTOZA E"
+      ]
+    },
+    {
+      "line": 1182,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "INVOKANA E VICTOZA E",
+      "context": [
+        "INVOKAMET E TRULICITY 2 PA; QL",
+        "INVOKAMET XR E TZIELD E",
+        "INVOKANA E VICTOZA E",
+        "JANUMET 2 XIGDUO XR 2",
+        "JANUMET XR 2 ZITUVIMET E"
+      ]
+    },
+    {
+      "line": 1189,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "metformin hcl er 1 ACCU-CHEK",
+      "context": [
+        "JENTADUETO 2 Diabetes - Glucose",
+        "JENTADUETO XR 2 Monitoring",
+        "metformin hcl er 1 ACCU-CHEK",
+        "FASTCLIX LANCET 2 ++",
+        "metformin hcl er (mod) E KIT"
+      ]
+    },
+    {
+      "line": 1190,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "FASTCLIX LANCET 2 ++",
+      "context": [
+        "JENTADUETO XR 2 Monitoring",
+        "metformin hcl er 1 ACCU-CHEK",
+        "FASTCLIX LANCET 2 ++",
+        "metformin hcl er (mod) E KIT",
+        "metformin hcl er (osm) E ACCU-CHEK"
+      ]
+    },
+    {
+      "line": 1192,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "metformin hcl er (osm) E ACCU-CHEK",
+      "context": [
+        "FASTCLIX LANCET 2 ++",
+        "metformin hcl er (mod) E KIT",
+        "metformin hcl er (osm) E ACCU-CHEK",
+        "metformin hcl oral SOFTCLIX LANCET 2 ++",
+        "tablet 1000 mg, 500 1 DEVICE KIT"
+      ]
+    },
+    {
+      "line": 1193,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "metformin hcl oral SOFTCLIX LANCET 2 ++",
+      "context": [
+        "metformin hcl er (mod) E KIT",
+        "metformin hcl er (osm) E ACCU-CHEK",
+        "metformin hcl oral SOFTCLIX LANCET 2 ++",
+        "tablet 1000 mg, 500 1 DEVICE KIT",
+        "mg, 750 mg, 850 mg CEQUR SIMPLICITY"
+      ]
+    },
+    {
+      "line": 1198,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "tablet 625 mg CONTOUR NEXT EZ",
+      "context": [
+        "2 ++",
+        "metformin hcl oral 2U 10PK",
+        "tablet 625 mg CONTOUR NEXT EZ",
+        "2 ++",
+        "MOUNJARO 2 PA; QL KIT W/DEVICE"
+      ]
+    },
+    {
+      "line": 1200,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "MOUNJARO 2 PA; QL KIT W/DEVICE",
+      "context": [
+        "tablet 625 mg CONTOUR NEXT EZ",
+        "2 ++",
+        "MOUNJARO 2 PA; QL KIT W/DEVICE",
+        "ONGLYZA E CONTOUR NEXT GEN",
+        "OZEMPIC 2 PA; QL MONITOR KIT 2 ++"
+      ]
+    },
+    {
+      "line": 1201,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "ONGLYZA E CONTOUR NEXT GEN",
+      "context": [
+        "2 ++",
+        "MOUNJARO 2 PA; QL KIT W/DEVICE",
+        "ONGLYZA E CONTOUR NEXT GEN",
+        "OZEMPIC 2 PA; QL MONITOR KIT 2 ++",
+        "W/DEVICE"
+      ]
+    },
+    {
+      "line": 1202,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "OZEMPIC 2 PA; QL MONITOR KIT 2 ++",
+      "context": [
+        "MOUNJARO 2 PA; QL KIT W/DEVICE",
+        "ONGLYZA E CONTOUR NEXT GEN",
+        "OZEMPIC 2 PA; QL MONITOR KIT 2 ++",
+        "W/DEVICE",
+        "pioglitazone hcl 1"
+      ]
+    },
+    {
+      "line": 1205,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "CONTOUR NEXT",
+      "context": [
+        "W/DEVICE",
+        "pioglitazone hcl 1",
+        "CONTOUR NEXT",
+        "RYBELSUS 2 PA; QL MONITOR KIT 2 ++",
+        "SEGLUROMET E W/DEVICE"
+      ]
+    },
+    {
+      "line": 1206,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "RYBELSUS 2 PA; QL MONITOR KIT 2 ++",
+      "context": [
+        "pioglitazone hcl 1",
+        "CONTOUR NEXT",
+        "RYBELSUS 2 PA; QL MONITOR KIT 2 ++",
+        "SEGLUROMET E W/DEVICE",
+        "SITAGLIPT BASE- CONTOUR NEXT ONE"
+      ]
+    },
+    {
+      "line": 1208,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "SITAGLIPT BASE- CONTOUR NEXT ONE",
+      "context": [
+        "RYBELSUS 2 PA; QL MONITOR KIT 2 ++",
+        "SEGLUROMET E W/DEVICE",
+        "SITAGLIPT BASE- CONTOUR NEXT ONE",
+        "E 2 ++",
+        "METFORM HCL ER KIT"
+      ]
+    },
+    {
+      "line": 1211,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "SITAGLIPTIN E M CONTOUR NEXT GEN",
+      "context": [
+        "E 2 ++",
+        "METFORM HCL ER KIT",
+        "SITAGLIPTIN E M CONTOUR NEXT GEN",
+        "2 ++; QL",
+        "SITAGLIPTIN BASE- TEST STRIPS"
+      ]
+    },
+    {
+      "line": 1213,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "SITAGLIPTIN BASE- TEST STRIPS",
+      "context": [
+        "SITAGLIPTIN E M CONTOUR NEXT GEN",
+        "2 ++; QL",
+        "SITAGLIPTIN BASE- TEST STRIPS",
+        "METFORMIN HCL CONTOUR PLUS",
+        "2 ++"
+      ]
+    },
+    {
+      "line": 1219,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "TEST STRIP",
+      "context": [
+        "STEGLATRO E CONTOUR PLUS",
+        "2 ++; QL",
+        "TEST STRIP",
+        "STEGLUJAN E",
+        "CONTOUR TEST"
+      ]
+    },
+    {
+      "line": 1229,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G6 GUARDIAN 4",
+      "context": [
+        "26",
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "DEXCOM G6 GUARDIAN 4",
+        "2 PA; ++ 3 PA; ++",
+        "RECEIVER TRANSMITTER"
+      ]
+    },
+    {
+      "line": 1232,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G6 SENSOR 2 PA; ++ GUARDIAN LINK 3",
+      "context": [
+        "2 PA; ++ 3 PA; ++",
+        "RECEIVER TRANSMITTER",
+        "DEXCOM G6 SENSOR 2 PA; ++ GUARDIAN LINK 3",
+        "3 PA; ++",
+        "DEXCOM G6 TRANSMITTER"
+      ]
+    },
+    {
+      "line": 1234,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G6 TRANSMITTER",
+      "context": [
+        "DEXCOM G6 SENSOR 2 PA; ++ GUARDIAN LINK 3",
+        "3 PA; ++",
+        "DEXCOM G6 TRANSMITTER",
+        "2 PA; ++",
+        "TRANSMITTER GUARDIAN REAL-"
+      ]
+    },
+    {
+      "line": 1238,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 15 DAY TIME CHARGER",
+      "context": [
+        "TRANSMITTER GUARDIAN REAL-",
+        "3 ++",
+        "DEXCOM G7 15 DAY TIME CHARGER",
+        "2 PA; ++",
+        "SENSOR GUARDIAN REAL-"
+      ]
+    },
+    {
+      "line": 1242,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 TIME TEST PLUG",
+      "context": [
+        "SENSOR GUARDIAN REAL-",
+        "3 ++",
+        "DEXCOM G7 TIME TEST PLUG",
+        "2 PA; ++",
+        "RECEIVER GUARDIAN SENSOR"
+      ]
+    },
+    {
+      "line": 1244,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes"
+      ],
+      "text": "RECEIVER GUARDIAN SENSOR",
+      "context": [
+        "DEXCOM G7 TIME TEST PLUG",
+        "2 PA; ++",
+        "RECEIVER GUARDIAN SENSOR",
+        "3 PA; ++",
+        "DEXCOM G7 SENSOR 2 PA; ++ 3"
+      ]
+    },
+    {
+      "line": 1246,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 SENSOR 2 PA; ++ 3",
+      "context": [
+        "RECEIVER GUARDIAN SENSOR",
+        "3 PA; ++",
+        "DEXCOM G7 SENSOR 2 PA; ++ 3",
+        "ENLITE GLUCOSE INPEN 100-BLUE-",
+        "3 PA; ++ 3 ++"
+      ]
+    },
+    {
+      "line": 1249,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SENSOR LILLY-HUMALOG",
+      "context": [
+        "ENLITE GLUCOSE INPEN 100-BLUE-",
+        "3 PA; ++ 3 ++",
+        "SENSOR LILLY-HUMALOG",
+        "EVERSENSE 365 INPEN 100-BLUE-",
+        "E 3 ++"
+      ]
+    },
+    {
+      "line": 1252,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SENSOR/HOLDER NOVOLOG-FIASP",
+      "context": [
+        "EVERSENSE 365 INPEN 100-BLUE-",
+        "E 3 ++",
+        "SENSOR/HOLDER NOVOLOG-FIASP",
+        "EVERSENSE 365 INPEN 100-GREY-",
+        "E 3 ++"
+      ]
+    },
+    {
+      "line": 1255,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SMART TRANSMIT LILLY-HUMALOG",
+      "context": [
+        "EVERSENSE 365 INPEN 100-GREY-",
+        "E 3 ++",
+        "SMART TRANSMIT LILLY-HUMALOG",
+        "EVERSENSE INPEN 100-GREY-",
+        "E 3 ++"
+      ]
+    },
+    {
+      "line": 1258,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SENSOR/HOLDER NOVOLOG-FIASP",
+      "context": [
+        "EVERSENSE INPEN 100-GREY-",
+        "E 3 ++",
+        "SENSOR/HOLDER NOVOLOG-FIASP",
+        "EVERSENSE SMART INPEN 100-PINK-",
+        "E 3 ++"
+      ]
+    },
+    {
+      "line": 1261,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TRANSMITTER LILLY-HUMALOG",
+      "context": [
+        "EVERSENSE SMART INPEN 100-PINK-",
+        "E 3 ++",
+        "TRANSMITTER LILLY-HUMALOG",
+        "FREESTYLE LIBRE 14 INPEN 100-PINK-",
+        "E 3 ++"
+      ]
+    },
+    {
+      "line": 1262,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 14 INPEN 100-PINK-",
+      "context": [
+        "E 3 ++",
+        "TRANSMITTER LILLY-HUMALOG",
+        "FREESTYLE LIBRE 14 INPEN 100-PINK-",
+        "E 3 ++",
+        "DAY READER NOVOLOG-FIASP"
+      ]
+    },
+    {
+      "line": 1264,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "DAY READER NOVOLOG-FIASP",
+      "context": [
+        "FREESTYLE LIBRE 14 INPEN 100-PINK-",
+        "E 3 ++",
+        "DAY READER NOVOLOG-FIASP",
+        "FREESTYLE LIBRE 14 MINIMED INSTINCT",
+        "E 3 PA; ++"
+      ]
+    },
+    {
+      "line": 1265,
+      "tickers": [
+        "ABT",
+        "MDT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "Medtronic diabetes"
+      ],
+      "text": "FREESTYLE LIBRE 14 MINIMED INSTINCT",
+      "context": [
+        "E 3 ++",
+        "DAY READER NOVOLOG-FIASP",
+        "FREESTYLE LIBRE 14 MINIMED INSTINCT",
+        "E 3 PA; ++",
+        "DAY SENSOR GLUC SENSOR"
+      ]
+    },
+    {
+      "line": 1268,
+      "tickers": [
+        "ABT",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "FREESTYLE LIBRE 2 ONETOUCH ULTRA",
+      "context": [
+        "E 3 PA; ++",
+        "DAY SENSOR GLUC SENSOR",
+        "FREESTYLE LIBRE 2 ONETOUCH ULTRA",
+        "E E",
+        "PLUS SENSOR TEST STRIPS"
+      ]
+    },
+    {
+      "line": 1270,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "PLUS SENSOR TEST STRIPS",
+      "context": [
+        "FREESTYLE LIBRE 2 ONETOUCH ULTRA",
+        "E E",
+        "PLUS SENSOR TEST STRIPS",
+        "FREESTYLE LIBRE 2 ONETOUCH ULTRA 2",
+        "E E"
+      ]
+    },
+    {
+      "line": 1271,
+      "tickers": [
+        "ABT",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "FREESTYLE LIBRE 2 ONETOUCH ULTRA 2",
+      "context": [
+        "E E",
+        "PLUS SENSOR TEST STRIPS",
+        "FREESTYLE LIBRE 2 ONETOUCH ULTRA 2",
+        "E E",
+        "READER KIT W/DEVICE"
+      ]
+    },
+    {
+      "line": 1274,
+      "tickers": [
+        "ABT",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "FREESTYLE LIBRE 2 ONETOUCH ULTRA",
+      "context": [
+        "E E",
+        "READER KIT W/DEVICE",
+        "FREESTYLE LIBRE 2 ONETOUCH ULTRA",
+        "E E",
+        "SENSOR BLUE TEST"
+      ]
+    },
+    {
+      "line": 1277,
+      "tickers": [
+        "ABT",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "FREESTYLE LIBRE 3 ONETOUCH ULTRA",
+      "context": [
+        "E E",
+        "SENSOR BLUE TEST",
+        "FREESTYLE LIBRE 3 ONETOUCH ULTRA",
+        "E E",
+        "PLUS SENSOR TEST STRIPS"
+      ]
+    },
+    {
+      "line": 1279,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "PLUS SENSOR TEST STRIPS",
+      "context": [
+        "FREESTYLE LIBRE 3 ONETOUCH ULTRA",
+        "E E",
+        "PLUS SENSOR TEST STRIPS",
+        "FREESTYLE LIBRE 3 ONETOUCH VERIO",
+        "E E"
+      ]
+    },
+    {
+      "line": 1280,
+      "tickers": [
+        "ABT",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "FREESTYLE LIBRE 3 ONETOUCH VERIO",
+      "context": [
+        "E E",
+        "PLUS SENSOR TEST STRIPS",
+        "FREESTYLE LIBRE 3 ONETOUCH VERIO",
+        "E E",
+        "READER KIT W/DEVICE"
+      ]
+    },
+    {
+      "line": 1283,
+      "tickers": [
+        "ABT",
+        "PRIVATE"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "FREESTYLE LIBRE 3 ONETOUCH VERIO",
+      "context": [
+        "E E",
+        "READER KIT W/DEVICE",
+        "FREESTYLE LIBRE 3 ONETOUCH VERIO",
+        "E E",
+        "SENSOR FLEX SYSTEM"
+      ]
+    },
+    {
+      "line": 1286,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "GUARDIAN 4 ONETOUCH VERIO",
+      "context": [
+        "E E",
+        "SENSOR FLEX SYSTEM",
+        "GUARDIAN 4 ONETOUCH VERIO",
+        "3 PA; ++ REFLECT KIT E",
+        "GLUCOSE SENSOR"
+      ]
+    },
+    {
+      "line": 1294,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes"
+      ],
+      "text": "SIMPLERA SENSOR 3 PA; ++ BD ULTRA-FINE",
+      "context": [
+        "27",
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "SIMPLERA SENSOR 3 PA; ++ BD ULTRA-FINE",
+        "SIMPLERA SYNC INSULIN SYRINGES",
+        "3 PA; ++ 30G X 1/2\" 0.3 ML,"
+      ]
+    },
+    {
+      "line": 1295,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes",
+        "Insulin (category)"
+      ],
+      "text": "SIMPLERA SYNC INSULIN SYRINGES",
+      "context": [
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "SIMPLERA SENSOR 3 PA; ++ BD ULTRA-FINE",
+        "SIMPLERA SYNC INSULIN SYRINGES",
+        "3 PA; ++ 30G X 1/2\" 0.3 ML,",
+        "SENSOR"
+      ]
+    },
+    {
+      "line": 1299,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes"
+      ],
+      "text": "SIMPLERA SYSTEM 3 PA; ++ 2 ++",
+      "context": [
+        "SENSOR",
+        "30G X 1/2\" 0.5 ML,",
+        "SIMPLERA SYSTEM 3 PA; ++ 2 ++",
+        "30G X 1/2\" 1 ML, 31G",
+        "TEMPO SMART X 5/16\" 0.3 ML, 31G X"
+      ]
+    },
+    {
+      "line": 1304,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Agents BD VEO INSULIN SYR",
+      "context": [
+        "BUTTON 5/16\" 0.5 ML, 31G X",
+        "Diabetes - Glycemic 5/16\" 1 ML",
+        "Agents BD VEO INSULIN SYR",
+        "BAQSIMI ONE PACK 2 ++ ULTRAFINE 31G X 2 ++",
+        "15/64\" 1 ML"
+      ]
+    },
+    {
+      "line": 1308,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FIASP 1 ++",
+      "context": [
+        "15/64\" 1 ML",
+        "BAQSIMI TWO PACK 2 ++",
+        "FIASP 1 ++",
+        "Made by",
+        "GLUCAGON FIASP FLEXTOUCH 1 ++"
+      ]
+    },
+    {
+      "line": 1310,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GLUCAGON FIASP FLEXTOUCH 1 ++",
+      "context": [
+        "FIASP 1 ++",
+        "Made by",
+        "GLUCAGON FIASP FLEXTOUCH 1 ++",
+        "2 Fresenius",
+        "EMERGENCY KIT"
+      ]
+    },
+    {
+      "line": 1313,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Kabi; ++ FIASP PENFILL 1 ++",
+      "context": [
+        "2 Fresenius",
+        "EMERGENCY KIT",
+        "Kabi; ++ FIASP PENFILL 1 ++",
+        "GVOKE HYPOPEN 1- FIASP PUMPCART 1 ++",
+        "2 ++"
+      ]
+    },
+    {
+      "line": 1314,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GVOKE HYPOPEN 1- FIASP PUMPCART 1 ++",
+      "context": [
+        "EMERGENCY KIT",
+        "Kabi; ++ FIASP PENFILL 1 ++",
+        "GVOKE HYPOPEN 1- FIASP PUMPCART 1 ++",
+        "2 ++",
+        "PACK HUMALOG 1 ++"
+      ]
+    },
+    {
+      "line": 1316,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "PACK HUMALOG 1 ++",
+      "context": [
+        "GVOKE HYPOPEN 1- FIASP PUMPCART 1 ++",
+        "2 ++",
+        "PACK HUMALOG 1 ++",
+        "GVOKE HYPOPEN 2- HUMALOG KWIKPEN 1 ++",
+        "2 ++"
+      ]
+    },
+    {
+      "line": 1317,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GVOKE HYPOPEN 2- HUMALOG KWIKPEN 1 ++",
+      "context": [
+        "2 ++",
+        "PACK HUMALOG 1 ++",
+        "GVOKE HYPOPEN 2- HUMALOG KWIKPEN 1 ++",
+        "2 ++",
+        "PACK"
+      ]
+    },
+    {
+      "line": 1320,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMALOG MIX 50/50",
+      "context": [
+        "2 ++",
+        "PACK",
+        "HUMALOG MIX 50/50",
+        "GVOKE KIT 2 ++ 1 ++",
+        "KWIKPEN"
+      ]
+    },
+    {
+      "line": 1323,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "GVOKE PFS 2 ++ HUMALOG MIX 75/25",
+      "context": [
+        "GVOKE KIT 2 ++ 1 ++",
+        "KWIKPEN",
+        "GVOKE PFS 2 ++ HUMALOG MIX 75/25",
+        "1 ++",
+        "Diabetes - Insulins KWIKPEN"
+      ]
+    },
+    {
+      "line": 1325,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Diabetes - Insulins KWIKPEN",
+      "context": [
+        "GVOKE PFS 2 ++ HUMALOG MIX 75/25",
+        "1 ++",
+        "Diabetes - Insulins KWIKPEN",
+        "ADMELOG 1 ++ HUMALOG MIX 75/25",
+        "1 ++"
+      ]
+    },
+    {
+      "line": 1326,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ADMELOG 1 ++ HUMALOG MIX 75/25",
+      "context": [
+        "1 ++",
+        "Diabetes - Insulins KWIKPEN",
+        "ADMELOG 1 ++ HUMALOG MIX 75/25",
+        "1 ++",
+        "ADMELOG VIAL"
+      ]
+    },
+    {
+      "line": 1328,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ADMELOG VIAL",
+      "context": [
+        "ADMELOG 1 ++ HUMALOG MIX 75/25",
+        "1 ++",
+        "ADMELOG VIAL",
+        "1 ++",
+        "SOLOSTAR HUMALOG TEMPO"
+      ]
+    },
+    {
+      "line": 1330,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SOLOSTAR HUMALOG TEMPO",
+      "context": [
+        "ADMELOG VIAL",
+        "1 ++",
+        "SOLOSTAR HUMALOG TEMPO",
+        "APIDRA SOLOSTAR 1 ++ PEN",
+        "APIDRA VIAL 1 ++ HUMALOG U-100"
+      ]
+    },
+    {
+      "line": 1332,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "APIDRA VIAL 1 ++ HUMALOG U-100",
+      "context": [
+        "SOLOSTAR HUMALOG TEMPO",
+        "APIDRA SOLOSTAR 1 ++ PEN",
+        "APIDRA VIAL 1 ++ HUMALOG U-100",
+        "1 ++",
+        "JUNIOR KWIKPEN"
+      ]
+    },
+    {
+      "line": 1335,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR KWIKPEN 1 ++",
+      "context": [
+        "1 ++",
+        "JUNIOR KWIKPEN",
+        "BASAGLAR KWIKPEN 1 ++",
+        "HUMULIN 70/30",
+        "BASAGLAR TEMPO 1 ++"
+      ]
+    },
+    {
+      "line": 1336,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN 70/30",
+      "context": [
+        "JUNIOR KWIKPEN",
+        "BASAGLAR KWIKPEN 1 ++",
+        "HUMULIN 70/30",
+        "BASAGLAR TEMPO 1 ++",
+        "KWIKPEN"
+      ]
+    },
+    {
+      "line": 1337,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR TEMPO 1 ++",
+      "context": [
+        "BASAGLAR KWIKPEN 1 ++",
+        "HUMULIN 70/30",
+        "BASAGLAR TEMPO 1 ++",
+        "KWIKPEN",
+        "PEN"
+      ]
+    },
+    {
+      "line": 1340,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SUBCUTANEOUS HUMULIN 70/30 VIAL 1 ++",
+      "context": [
+        "KWIKPEN",
+        "PEN",
+        "SUBCUTANEOUS HUMULIN 70/30 VIAL 1 ++",
+        "SOLUTION PEN- HUMULIN N KWIKPEN 1 ++",
+        "INJECTOR 100 HUMULIN N VIAL 1 ++"
+      ]
+    },
+    {
+      "line": 1341,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SOLUTION PEN- HUMULIN N KWIKPEN 1 ++",
+      "context": [
+        "PEN",
+        "SUBCUTANEOUS HUMULIN 70/30 VIAL 1 ++",
+        "SOLUTION PEN- HUMULIN N KWIKPEN 1 ++",
+        "INJECTOR 100 HUMULIN N VIAL 1 ++",
+        "UNIT/ML"
+      ]
+    },
+    {
+      "line": 1342,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INJECTOR 100 HUMULIN N VIAL 1 ++",
+      "context": [
+        "SUBCUTANEOUS HUMULIN 70/30 VIAL 1 ++",
+        "SOLUTION PEN- HUMULIN N KWIKPEN 1 ++",
+        "INJECTOR 100 HUMULIN N VIAL 1 ++",
+        "UNIT/ML",
+        "HUMULIN R U-500"
+      ]
+    },
+    {
+      "line": 1344,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN R U-500",
+      "context": [
+        "INJECTOR 100 HUMULIN N VIAL 1 ++",
+        "UNIT/ML",
+        "HUMULIN R U-500",
+        "1 ++",
+        "KWIKPEN"
+      ]
+    },
+    {
+      "line": 1347,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN R VIAL 1 ++",
+      "context": [
+        "1 ++",
+        "KWIKPEN",
+        "HUMULIN R VIAL 1 ++",
+        "INSULIN ASP PROT &",
+        "ASP FLEXPEN"
+      ]
+    },
+    {
+      "line": 1348,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN ASP PROT &",
+      "context": [
+        "KWIKPEN",
+        "HUMULIN R VIAL 1 ++",
+        "INSULIN ASP PROT &",
+        "ASP FLEXPEN",
+        "INSULIN ASPART E"
+      ]
+    },
+    {
+      "line": 1350,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN ASPART E",
+      "context": [
+        "INSULIN ASP PROT &",
+        "ASP FLEXPEN",
+        "INSULIN ASPART E",
+        "For more information regarding the tiers and designations in this drug list, please see the Reading your",
+        "formulary section of this booklet."
+      ]
+    },
+    {
+      "line": 1355,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN ASPART MERILOG SOLOSTAR 1 ++",
+      "context": [
+        "28",
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "INSULIN ASPART MERILOG SOLOSTAR 1 ++",
+        "FLEXPEN NOVOLIN 70/30",
+        "1 ++"
+      ]
+    },
+    {
+      "line": 1356,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FLEXPEN NOVOLIN 70/30",
+      "context": [
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "INSULIN ASPART MERILOG SOLOSTAR 1 ++",
+        "FLEXPEN NOVOLIN 70/30",
+        "1 ++",
+        "INSULIN ASPART FLEXPEN"
+      ]
+    },
+    {
+      "line": 1358,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN ASPART FLEXPEN",
+      "context": [
+        "FLEXPEN NOVOLIN 70/30",
+        "1 ++",
+        "INSULIN ASPART FLEXPEN",
+        "PENFILL NOVOLIN 70/30",
+        "SUBCUTANEOUS E"
+      ]
+    },
+    {
+      "line": 1359,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "PENFILL NOVOLIN 70/30",
+      "context": [
+        "1 ++",
+        "INSULIN ASPART FLEXPEN",
+        "PENFILL NOVOLIN 70/30",
+        "SUBCUTANEOUS E",
+        "E FLEXPEN RELION"
+      ]
+    },
+    {
+      "line": 1363,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "CARTRIDGE 100 NOVOLIN 70/30",
+      "context": [
+        "E FLEXPEN RELION",
+        "SOLUTION",
+        "CARTRIDGE 100 NOVOLIN 70/30",
+        "UNIT/ML RELION",
+        "INSULIN ASPART NOVOLIN 70/30 VIAL 1 ++"
+      ]
+    },
+    {
+      "line": 1365,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN ASPART NOVOLIN 70/30 VIAL 1 ++",
+      "context": [
+        "CARTRIDGE 100 NOVOLIN 70/30",
+        "UNIT/ML RELION",
+        "INSULIN ASPART NOVOLIN 70/30 VIAL 1 ++",
+        "PROT & ASPART NOVOLIN N FLEXPEN 1 ++",
+        "SUBCUTANEOUS E NOVOLIN N FLEXPEN"
+      ]
+    },
+    {
+      "line": 1366,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "PROT & ASPART NOVOLIN N FLEXPEN 1 ++",
+      "context": [
+        "UNIT/ML RELION",
+        "INSULIN ASPART NOVOLIN 70/30 VIAL 1 ++",
+        "PROT & ASPART NOVOLIN N FLEXPEN 1 ++",
+        "SUBCUTANEOUS E NOVOLIN N FLEXPEN",
+        "SUSPENSION (70-30) E"
+      ]
+    },
+    {
+      "line": 1367,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SUBCUTANEOUS E NOVOLIN N FLEXPEN",
+      "context": [
+        "INSULIN ASPART NOVOLIN 70/30 VIAL 1 ++",
+        "PROT & ASPART NOVOLIN N FLEXPEN 1 ++",
+        "SUBCUTANEOUS E NOVOLIN N FLEXPEN",
+        "SUSPENSION (70-30) E",
+        "RELION"
+      ]
+    },
+    {
+      "line": 1371,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN N RELION E",
+      "context": [
+        "RELION",
+        "100 UNIT/ML",
+        "NOVOLIN N RELION E",
+        "INSULIN DEGLUDEC",
+        "E NOVOLIN N VIAL 1 ++"
+      ]
+    },
+    {
+      "line": 1372,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN DEGLUDEC",
+      "context": [
+        "100 UNIT/ML",
+        "NOVOLIN N RELION E",
+        "INSULIN DEGLUDEC",
+        "E NOVOLIN N VIAL 1 ++",
+        "FLEXTOUCH"
+      ]
+    },
+    {
+      "line": 1373,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "E NOVOLIN N VIAL 1 ++",
+      "context": [
+        "NOVOLIN N RELION E",
+        "INSULIN DEGLUDEC",
+        "E NOVOLIN N VIAL 1 ++",
+        "FLEXTOUCH",
+        "INSULIN DEGLUDEC NOVOLIN R FLEXPEN 1 ++"
+      ]
+    },
+    {
+      "line": 1375,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN DEGLUDEC NOVOLIN R FLEXPEN 1 ++",
+      "context": [
+        "E NOVOLIN N VIAL 1 ++",
+        "FLEXTOUCH",
+        "INSULIN DEGLUDEC NOVOLIN R FLEXPEN 1 ++",
+        "SUBCUTANEOUS NOVOLIN R FLEXPEN",
+        "E E"
+      ]
+    },
+    {
+      "line": 1376,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SUBCUTANEOUS NOVOLIN R FLEXPEN",
+      "context": [
+        "FLEXTOUCH",
+        "INSULIN DEGLUDEC NOVOLIN R FLEXPEN 1 ++",
+        "SUBCUTANEOUS NOVOLIN R FLEXPEN",
+        "E E",
+        "SOLUTION 100 RELION"
+      ]
+    },
+    {
+      "line": 1379,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "UNIT/ML NOVOLIN R RELION E",
+      "context": [
+        "E E",
+        "SOLUTION 100 RELION",
+        "UNIT/ML NOVOLIN R RELION E",
+        "INSULIN GLARGINE NOVOLIN R VIAL 1 ++",
+        "MAX SOLOSTAR"
+      ]
+    },
+    {
+      "line": 1380,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN GLARGINE NOVOLIN R VIAL 1 ++",
+      "context": [
+        "SOLUTION 100 RELION",
+        "UNIT/ML NOVOLIN R RELION E",
+        "INSULIN GLARGINE NOVOLIN R VIAL 1 ++",
+        "MAX SOLOSTAR",
+        "NOVOLOG 70/30"
+      ]
+    },
+    {
+      "line": 1382,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG 70/30",
+      "context": [
+        "INSULIN GLARGINE NOVOLIN R VIAL 1 ++",
+        "MAX SOLOSTAR",
+        "NOVOLOG 70/30",
+        "INSULIN GLARGINE E",
+        "E FLEXPEN RELION"
+      ]
+    },
+    {
+      "line": 1383,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN GLARGINE E",
+      "context": [
+        "MAX SOLOSTAR",
+        "NOVOLOG 70/30",
+        "INSULIN GLARGINE E",
+        "E FLEXPEN RELION",
+        "SOLOSTAR"
+      ]
+    },
+    {
+      "line": 1386,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG FLEXPEN 1 ++",
+      "context": [
+        "E FLEXPEN RELION",
+        "SOLOSTAR",
+        "NOVOLOG FLEXPEN 1 ++",
+        "INSULIN GLARGINE-",
+        "E NOVOLOG FLEXPEN"
+      ]
+    },
+    {
+      "line": 1387,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN GLARGINE-",
+      "context": [
+        "SOLOSTAR",
+        "NOVOLOG FLEXPEN 1 ++",
+        "INSULIN GLARGINE-",
+        "E NOVOLOG FLEXPEN",
+        "YFGN E"
+      ]
+    },
+    {
+      "line": 1388,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "E NOVOLOG FLEXPEN",
+      "context": [
+        "NOVOLOG FLEXPEN 1 ++",
+        "INSULIN GLARGINE-",
+        "E NOVOLOG FLEXPEN",
+        "YFGN E",
+        "RELION"
+      ]
+    },
+    {
+      "line": 1391,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN LISPRO 1 ++",
+      "context": [
+        "YFGN E",
+        "RELION",
+        "INSULIN LISPRO 1 ++",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO (1 1 ++"
+      ]
+    },
+    {
+      "line": 1392,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30",
+      "context": [
+        "RELION",
+        "INSULIN LISPRO 1 ++",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO (1 1 ++",
+        "1 ++ FLEXPEN"
+      ]
+    },
+    {
+      "line": 1393,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN LISPRO (1 1 ++",
+      "context": [
+        "INSULIN LISPRO 1 ++",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO (1 1 ++",
+        "1 ++ FLEXPEN",
+        "UNIT DIAL)"
+      ]
+    },
+    {
+      "line": 1396,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30",
+      "context": [
+        "1 ++ FLEXPEN",
+        "UNIT DIAL)",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO E",
+        "1 ++ RELION"
+      ]
+    },
+    {
+      "line": 1397,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN LISPRO E",
+      "context": [
+        "UNIT DIAL)",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO E",
+        "1 ++ RELION",
+        "JUNIOR KWIKPEN"
+      ]
+    },
+    {
+      "line": 1400,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30",
+      "context": [
+        "1 ++ RELION",
+        "JUNIOR KWIKPEN",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO 1 ++",
+        "1 ++ VIAL"
+      ]
+    },
+    {
+      "line": 1401,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "INSULIN LISPRO 1 ++",
+      "context": [
+        "JUNIOR KWIKPEN",
+        "NOVOLOG MIX 70/30",
+        "INSULIN LISPRO 1 ++",
+        "1 ++ VIAL",
+        "PROT & LISPRO"
+      ]
+    },
+    {
+      "line": 1404,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG PENFILL 1 ++",
+      "context": [
+        "1 ++ VIAL",
+        "PROT & LISPRO",
+        "NOVOLOG PENFILL 1 ++",
+        "LANTUS SOLOSTAR 1 ++",
+        "NOVOLOG RELION E"
+      ]
+    },
+    {
+      "line": 1405,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS SOLOSTAR 1 ++",
+      "context": [
+        "PROT & LISPRO",
+        "NOVOLOG PENFILL 1 ++",
+        "LANTUS SOLOSTAR 1 ++",
+        "NOVOLOG RELION E",
+        "LANTUS U-100 VIAL 1 ++"
+      ]
+    },
+    {
+      "line": 1406,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG RELION E",
+      "context": [
+        "NOVOLOG PENFILL 1 ++",
+        "LANTUS SOLOSTAR 1 ++",
+        "NOVOLOG RELION E",
+        "LANTUS U-100 VIAL 1 ++",
+        "NOVOLOG U-100 VIAL 1 ++"
+      ]
+    },
+    {
+      "line": 1407,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS U-100 VIAL 1 ++",
+      "context": [
+        "LANTUS SOLOSTAR 1 ++",
+        "NOVOLOG RELION E",
+        "LANTUS U-100 VIAL 1 ++",
+        "NOVOLOG U-100 VIAL 1 ++",
+        "LYUMJEV KWIKPEN 1 ++"
+      ]
+    },
+    {
+      "line": 1408,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG U-100 VIAL 1 ++",
+      "context": [
+        "NOVOLOG RELION E",
+        "LANTUS U-100 VIAL 1 ++",
+        "NOVOLOG U-100 VIAL 1 ++",
+        "LYUMJEV KWIKPEN 1 ++",
+        "REZVOGLAR"
+      ]
+    },
+    {
+      "line": 1409,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV KWIKPEN 1 ++",
+      "context": [
+        "LANTUS U-100 VIAL 1 ++",
+        "NOVOLOG U-100 VIAL 1 ++",
+        "LYUMJEV KWIKPEN 1 ++",
+        "REZVOGLAR",
+        "LYUMJEV TEMPO 1 ++"
+      ]
+    },
+    {
+      "line": 1410,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "REZVOGLAR",
+      "context": [
+        "NOVOLOG U-100 VIAL 1 ++",
+        "LYUMJEV KWIKPEN 1 ++",
+        "REZVOGLAR",
+        "LYUMJEV TEMPO 1 ++",
+        "E KWIKPEN"
+      ]
+    },
+    {
+      "line": 1411,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV TEMPO 1 ++",
+      "context": [
+        "LYUMJEV KWIKPEN 1 ++",
+        "REZVOGLAR",
+        "LYUMJEV TEMPO 1 ++",
+        "E KWIKPEN",
+        "PEN"
+      ]
+    },
+    {
+      "line": 1414,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SEMGLEE (YFGN) E",
+      "context": [
+        "E KWIKPEN",
+        "PEN",
+        "SEMGLEE (YFGN) E",
+        "LYUMJEV VIAL 1 ++",
+        "TOUJEO MAX"
+      ]
+    },
+    {
+      "line": 1415,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV VIAL 1 ++",
+      "context": [
+        "PEN",
+        "SEMGLEE (YFGN) E",
+        "LYUMJEV VIAL 1 ++",
+        "TOUJEO MAX",
+        "MERILOG 1 ++ 1 ++"
+      ]
+    },
+    {
+      "line": 1416,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TOUJEO MAX",
+      "context": [
+        "SEMGLEE (YFGN) E",
+        "LYUMJEV VIAL 1 ++",
+        "TOUJEO MAX",
+        "MERILOG 1 ++ 1 ++",
+        "SOLOSTAR"
+      ]
+    },
+    {
+      "line": 1423,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TOUJEO SOLOSTAR 1 ++ VELTASSA 3",
+      "context": [
+        "29",
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "TOUJEO SOLOSTAR 1 ++ VELTASSA 3",
+        "TRESIBA E vitamin d",
+        "TRESIBA (ergocalciferol) oral"
+      ]
+    },
+    {
+      "line": 1424,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TRESIBA E vitamin d",
+      "context": [
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "TOUJEO SOLOSTAR 1 ++ VELTASSA 3",
+        "TRESIBA E vitamin d",
+        "TRESIBA (ergocalciferol) oral",
+        "E 1 ++"
+      ]
+    },
+    {
+      "line": 1425,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TRESIBA (ergocalciferol) oral",
+      "context": [
+        "TOUJEO SOLOSTAR 1 ++ VELTASSA 3",
+        "TRESIBA E vitamin d",
+        "TRESIBA (ergocalciferol) oral",
+        "E 1 ++",
+        "FLEXTOUCH capsule 1.25 mg"
+      ]
+    },
+    {
+      "line": 2075,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BD PEN NEEDLE INSULIN PEN",
+      "context": [
+        "41",
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "BD PEN NEEDLE INSULIN PEN",
+        "2 ++",
+        "NANO ULTRAFINE NEEDLES 29G X"
+      ]
+    },
+    {
+      "line": 2098,
+      "tickers": [
+        "DXCM",
+        "PODD"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Insulet Omnipod"
+      ],
+      "text": "ENDARI 3 PA OMNIPOD 5 DEXCOM",
+      "context": [
+        "DYSPORT 2 PA 2 ++",
+        "NEEDLE",
+        "ENDARI 3 PA OMNIPOD 5 DEXCOM",
+        "2 ++",
+        "EUFLEXXA 2 PA; ++; QL INTRO KIT"
+      ]
+    },
+    {
+      "line": 2101,
+      "tickers": [
+        "DXCM",
+        "PODD"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Insulet Omnipod"
+      ],
+      "text": "FIRDAPSE E SP OMNIPOD 5 DEXCOM",
+      "context": [
+        "2 ++",
+        "EUFLEXXA 2 PA; ++; QL INTRO KIT",
+        "FIRDAPSE E SP OMNIPOD 5 DEXCOM",
+        "2 ++",
+        "GEL-ONE E PODS"
+      ]
+    },
+    {
+      "line": 2104,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "GELSYN-3 2 PA; ++; QL OMNIPOD 5 LIBRE2",
+      "context": [
+        "2 ++",
+        "GEL-ONE E PODS",
+        "GELSYN-3 2 PA; ++; QL OMNIPOD 5 LIBRE2",
+        "2 ++",
+        "G6 INTRO GEN5"
+      ]
+    },
+    {
+      "line": 2106,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "G6 INTRO GEN5",
+      "context": [
+        "GELSYN-3 2 PA; ++; QL OMNIPOD 5 LIBRE2",
+        "2 ++",
+        "G6 INTRO GEN5",
+        "GENVISC 850 E",
+        "OMNIPOD 5 LIBRE"
+      ]
+    },
+    {
+      "line": 2108,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "OMNIPOD 5 LIBRE",
+      "context": [
+        "G6 INTRO GEN5",
+        "GENVISC 850 E",
+        "OMNIPOD 5 LIBRE",
+        "GIVLAARI 3 PA; SP 2 ++",
+        "PODS"
+      ]
+    },
+    {
+      "line": 2111,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "HYALGAN E OMNIPOD DASH",
+      "context": [
+        "GIVLAARI 3 PA; SP 2 ++",
+        "PODS",
+        "HYALGAN E OMNIPOD DASH",
+        "2 ++",
+        "HYMOVIS E INTRO KIT"
+      ]
+    },
+    {
+      "line": 2114,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "HYMOVIS ONE E OMNIPOD DASH",
+      "context": [
+        "2 ++",
+        "HYMOVIS E INTRO KIT",
+        "HYMOVIS ONE E OMNIPOD DASH",
+        "2 ++",
+        "ILET CONTACT PODS"
+      ]
+    },
+    {
+      "line": 2125,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ILET INSULIN PUMP 3 ++ DOSE 1-3YRS",
+      "context": [
+        "3 ++",
+        "32\" 6MM PALFORZIA INITIAL",
+        "ILET INSULIN PUMP 3 ++ DOSE 1-3YRS",
+        "ILET STARTER - PALFORZIA INITIAL",
+        "3 ++ E"
+      ]
+    },
+    {
+      "line": 2140,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "SYNVISC ONE E TANDEM T:SLIM ASFT",
+      "context": [
+        "42",
+        "Drug Name Drug Tier Notes Drug Name Drug Tier Notes",
+        "SYNVISC ONE E TANDEM T:SLIM ASFT",
+        "3 ++",
+        "T:SLIM X2 3ML XC PK14 23\""
+      ]
+    },
+    {
+      "line": 2142,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2 3ML XC PK14 23\"",
+      "context": [
+        "SYNVISC ONE E TANDEM T:SLIM ASFT",
+        "3 ++",
+        "T:SLIM X2 3ML XC PK14 23\"",
+        "3 ++",
+        "CARTRIDGE TANDEM T:SLIM"
+      ]
+    },
+    {
+      "line": 2144,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "CARTRIDGE TANDEM T:SLIM",
+      "context": [
+        "T:SLIM X2 3ML XC PK14 23\"",
+        "3 ++",
+        "CARTRIDGE TANDEM T:SLIM",
+        "3 ++",
+        "T:SLIM X2 BASAL-IQ TRUSTL PK10 23\""
+      ]
+    },
+    {
+      "line": 2146,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2 BASAL-IQ TRUSTL PK10 23\"",
+      "context": [
+        "CARTRIDGE TANDEM T:SLIM",
+        "3 ++",
+        "T:SLIM X2 BASAL-IQ TRUSTL PK10 23\"",
+        "3 ++",
+        "PUMP DEVICE TAVNEOS E SP"
+      ]
+    },
+    {
+      "line": 2149,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2 CONTROL- TRILURON E",
+      "context": [
+        "3 ++",
+        "PUMP DEVICE TAVNEOS E SP",
+        "T:SLIM X2 CONTROL- TRILURON E",
+        "3 ++",
+        "IQ 7.7 PUMP DEVICE TRIVISC E"
+      ]
+    },
+    {
+      "line": 2152,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2 CONTROL- TWIIST REFILL KIT 2 ++",
+      "context": [
+        "3 ++",
+        "IQ 7.7 PUMP DEVICE TRIVISC E",
+        "T:SLIM X2 CONTROL- TWIIST REFILL KIT 2 ++",
+        "3 ++",
+        "IQ 7.8 PUMP DEVICE"
+      ]
+    },
+    {
+      "line": 2156,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump",
+        "Insulin (category)"
+      ],
+      "text": "T:SLIM X2 INSULIN 2 ++",
+      "context": [
+        "IQ 7.8 PUMP DEVICE",
+        "TWIIST REFILL",
+        "T:SLIM X2 INSULIN 2 ++",
+        "KIT/INFUSION SET",
+        "PMP BASAL6.4 3 ++"
+      ]
+    },
+    {
+      "line": 2160,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump",
+        "Insulin (category)"
+      ],
+      "text": "T:SLIM X2 INSULIN VEOZAH E",
+      "context": [
+        "PMP BASAL6.4 3 ++",
+        "DEVICE TWIIST STARTER KIT 2 ++",
+        "T:SLIM X2 INSULIN VEOZAH E",
+        "3 ++",
+        "PUMP VISCO-3 E"
+      ]
+    },
+    {
+      "line": 2163,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2/BASAL- XEOMIN 2 PA",
+      "context": [
+        "3 ++",
+        "PUMP VISCO-3 E",
+        "T:SLIM X2/BASAL- XEOMIN 2 PA",
+        "3 ++",
+        "IQ/ACC/INSTR XPHOZAH E"
+      ]
+    },
+    {
+      "line": 2166,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2/CONTROL- YORVIPATH 3 PA; SP; QL",
+      "context": [
+        "3 ++",
+        "IQ/ACC/INSTR XPHOZAH E",
+        "T:SLIM X2/CONTROL- YORVIPATH 3 PA; SP; QL",
+        "3 ++",
+        "IQ/ACC/INSTR"
+      ]
+    },
+    {
+      "line": 2170,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI Drugs for Eye Allergy,",
+      "context": [
+        "IQ/ACC/INSTR",
+        "Ophthalmic Agents -",
+        "TANDEM MOBI Drugs for Eye Allergy,",
+        "3 ++",
+        "AUTOSOFT 30 KIT Infection and"
+      ]
+    },
+    {
+      "line": 2173,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI Inflammation",
+      "context": [
+        "3 ++",
+        "AUTOSOFT 30 KIT Infection and",
+        "TANDEM MOBI Inflammation",
+        "3 ++",
+        "AUTOSOFT XC KIT AZASITE 3"
+      ]
+    },
+    {
+      "line": 2176,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI azelastine hcl",
+      "context": [
+        "3 ++",
+        "AUTOSOFT XC KIT AZASITE 3",
+        "TANDEM MOBI azelastine hcl",
+        "AUTOSOFT30 3 ++ 1",
+        "ophthalmic"
+      ]
+    },
+    {
+      "line": 2181,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI",
+      "context": [
+        "14PK23\"",
+        "BEPREVE E",
+        "TANDEM MOBI",
+        "AUTOSOFTXC 3 ++ BESIVANCE 3",
+        "14PK23\" BROMSITE E"
+      ]
+    },
+    {
+      "line": 2184,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI ciprofloxacin hcl",
+      "context": [
+        "AUTOSOFTXC 3 ++ BESIVANCE 3",
+        "14PK23\" BROMSITE E",
+        "TANDEM MOBI ciprofloxacin hcl",
+        "3 ++ 1",
+        "AUTOSOFTXC 14PK5\" ophthalmic"
+      ]
+    },
+    {
+      "line": 2187,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI diclofenac sodium",
+      "context": [
+        "3 ++ 1",
+        "AUTOSOFTXC 14PK5\" ophthalmic",
+        "TANDEM MOBI diclofenac sodium",
+        "3 ++ 1",
+        "TRUSTEEL SUPP KIT ophthalmic"
+      ]
+    },
+    {
+      "line": 2190,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT erythromycin",
+      "context": [
+        "3 ++ 1",
+        "TRUSTEEL SUPP KIT ophthalmic",
+        "TANDEM T:SLIM ASFT erythromycin",
+        "3 ++ 1",
+        "30 PK10 23\" ophthalmic"
+      ]
+    },
+    {
+      "line": 2193,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT EYSUVIS 3 PA; QL",
+      "context": [
+        "3 ++ 1",
+        "30 PK10 23\" ophthalmic",
+        "TANDEM T:SLIM ASFT EYSUVIS 3 PA; QL",
+        "3 ++",
+        "30 PK14 23\" FLAREX 3"
+      ]
+    },
+    {
+      "line": 2196,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT ILEVRO E",
+      "context": [
+        "3 ++",
+        "30 PK14 23\" FLAREX 3",
+        "TANDEM T:SLIM ASFT ILEVRO E",
+        "3 ++",
+        "XC PK10 23\""
+      ]
+    },
+    {
+      "line": 2491,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ABILIFY MAINTENA................. 16 ADMELOG................................ 28 amoxicillin-potassium",
+      "context": [
+        "ABILIFY.....................................16 ADDERALL XR......................... 21 AMONDYS 45...........................31",
+        "ABILIFY ASIMTUFII..................16 ADEMPAS................................ 47 amoxicillin................................... 8",
+        "ABILIFY MAINTENA................. 16 ADMELOG................................ 28 amoxicillin-potassium",
+        "abiraterone acetate................... 13 ADMELOG SOLOSTAR........... 28 clavulanate..................................8",
+        "abirtega..................................... 13 ADVAIR DISKUS...................... 45 amphetamine-"
+      ]
+    },
+    {
+      "line": 2492,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "abiraterone acetate................... 13 ADMELOG SOLOSTAR........... 28 clavulanate..................................8",
+      "context": [
+        "ABILIFY ASIMTUFII..................16 ADEMPAS................................ 47 amoxicillin................................... 8",
+        "ABILIFY MAINTENA................. 16 ADMELOG................................ 28 amoxicillin-potassium",
+        "abiraterone acetate................... 13 ADMELOG SOLOSTAR........... 28 clavulanate..................................8",
+        "abirtega..................................... 13 ADVAIR DISKUS...................... 45 amphetamine-",
+        "ABRILADA (1 PEN).................. 38 ADVAIR HFA............................ 45 dextroamphetamine.................. 21"
+      ]
+    },
+    {
+      "line": 2501,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK FASTCLIX AFSTYLA.................................. 17 AMZEEQ...................................23",
+      "context": [
+        "ACANYA................................... 23 AFINITOR DISPERZ.................13 AMPYRA...................................22",
+        "ACCRUFER.............................. 30 afirmelle.................................... 34 AMRIX.......................................48",
+        "ACCU-CHEK FASTCLIX AFSTYLA.................................. 17 AMZEEQ...................................23",
+        "LANCET KIT............................. 26 AIMOVIG...................................13 anastrozole............................... 13",
+        "ACCU-CHEK SOFTCLIX AIRSUPRA................................45 ANDEMBRY..............................38"
+      ]
+    },
+    {
+      "line": 2502,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "LANCET KIT............................. 26 AIMOVIG...................................13 anastrozole............................... 13",
+      "context": [
+        "ACCRUFER.............................. 30 afirmelle.................................... 34 AMRIX.......................................48",
+        "ACCU-CHEK FASTCLIX AFSTYLA.................................. 17 AMZEEQ...................................23",
+        "LANCET KIT............................. 26 AIMOVIG...................................13 anastrozole............................... 13",
+        "ACCU-CHEK SOFTCLIX AIRSUPRA................................45 ANDEMBRY..............................38",
+        "LANCET DEVICE KIT...............26 AJOVY...................................... 13 ANDROGEL PUMP.................. 33"
+      ]
+    },
+    {
+      "line": 2503,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK SOFTCLIX AIRSUPRA................................45 ANDEMBRY..............................38",
+      "context": [
+        "ACCU-CHEK FASTCLIX AFSTYLA.................................. 17 AMZEEQ...................................23",
+        "LANCET KIT............................. 26 AIMOVIG...................................13 anastrozole............................... 13",
+        "ACCU-CHEK SOFTCLIX AIRSUPRA................................45 ANDEMBRY..............................38",
+        "LANCET DEVICE KIT...............26 AJOVY...................................... 13 ANDROGEL PUMP.................. 33",
+        "accutane................................... 23 AKEEGA................................... 13 ANKTIVA...................................13"
+      ]
+    },
+    {
+      "line": 2504,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "LANCET DEVICE KIT...............26 AJOVY...................................... 13 ANDROGEL PUMP.................. 33",
+      "context": [
+        "LANCET KIT............................. 26 AIMOVIG...................................13 anastrozole............................... 13",
+        "ACCU-CHEK SOFTCLIX AIRSUPRA................................45 ANDEMBRY..............................38",
+        "LANCET DEVICE KIT...............26 AJOVY...................................... 13 ANDROGEL PUMP.................. 33",
+        "accutane................................... 23 AKEEGA................................... 13 ANKTIVA...................................13",
+        "acetaminophen-codeine..............7 AKLIEF......................................23 ANNOVERA..............................35"
+      ]
+    },
+    {
+      "line": 2549,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "AUGTYRO................................ 13 BD ULTRA-FINE INSULIN BRYNOVIN............................... 25",
+      "context": [
+        "AUBAGIO..................................22 BD PEN NEEDLE SHORT BROMSITE............................... 43",
+        "aubra eq....................................35 ULTRAFINE.............................. 42 BRONCHITOL.......................... 47",
+        "AUGTYRO................................ 13 BD ULTRA-FINE INSULIN BRYNOVIN............................... 25",
+        "aurovela 1.5/30......................... 35 SYRINGES............................... 28 BUCAPSOL.............................. 17",
+        "aurovela 1/20............................ 35 BD ULTRA-FINE PEN budesonide......................... 41, 46"
+      ]
+    },
+    {
+      "line": 2553,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "aurovela fe 1.5/30..................... 35 BD VEO INSULIN SYR fumarate....................................46",
+      "context": [
+        "aurovela 1/20............................ 35 BD ULTRA-FINE PEN budesonide......................... 41, 46",
+        "aurovela 24 fe........................... 35 NEEDLES................................. 42 budesonide-formoterol",
+        "aurovela fe 1.5/30..................... 35 BD VEO INSULIN SYR fumarate....................................46",
+        "aurovela fe 1/20........................ 35 ULTRAFINE.............................. 28 bumetanide............................... 19",
+        "AURYXIA.................................. 32 BELBUCA................................... 7 BUPHENYL...............................31"
+      ]
+    },
+    {
+      "line": 2589,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR KWIKPEN............. 28 BREKIYA.................................. 13 CARBIDOPA-LEVODOPA ER..16",
+      "context": [
+        "BAQSIMI TWO PACK...............28 BOMYNTRA..............................41 CARBATROL............................ 10",
+        "BARACLUDE............................ 16 BONSITY.................................. 41 carbidopa-levodopa.................. 16",
+        "BASAGLAR KWIKPEN............. 28 BREKIYA.................................. 13 CARBIDOPA-LEVODOPA ER..16",
+        "BASAGLAR TEMPO PEN........ 28 BRENZAVVY............................ 25 CARDIZEM LA..........................19",
+        "BD PEN NEEDLE MICRO BREO ELLIPTA........................ 45 carisoprodol.............................. 48"
+      ]
+    },
+    {
+      "line": 2590,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR TEMPO PEN........ 28 BRENZAVVY............................ 25 CARDIZEM LA..........................19",
+      "context": [
+        "BARACLUDE............................ 16 BONSITY.................................. 41 carbidopa-levodopa.................. 16",
+        "BASAGLAR KWIKPEN............. 28 BREKIYA.................................. 13 CARBIDOPA-LEVODOPA ER..16",
+        "BASAGLAR TEMPO PEN........ 28 BRENZAVVY............................ 25 CARDIZEM LA..........................19",
+        "BD PEN NEEDLE MICRO BREO ELLIPTA........................ 45 carisoprodol.............................. 48",
+        "ULTRAFINE.............................. 41 breyna....................................... 46 CARNITOR............................... 30"
+      ]
+    },
+    {
+      "line": 2616,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "chlorthalidone............................19 CONTOUR NEXT EZ KIT STARTER................................. 39",
+      "context": [
+        "chateal eq................................. 35 CONJUPRI................................19 CYLTEZO (2 SYRINGE)...........39",
+        "chlorhexidine gluconate............ 23 constulose.................................31 CYLTEZO-CD/UC/HS",
+        "chlorthalidone............................19 CONTOUR NEXT EZ KIT STARTER................................. 39",
+        "CIALIS.......................................32 W/DEVICE................................ 26 CYLTEZO-PSORIASIS/UV",
+        "CIBINQO...................................23 CONTOUR NEXT GEN STARTER................................. 39"
+      ]
+    },
+    {
+      "line": 2618,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "CIBINQO...................................23 CONTOUR NEXT GEN STARTER................................. 39",
+      "context": [
+        "chlorthalidone............................19 CONTOUR NEXT EZ KIT STARTER................................. 39",
+        "CIALIS.......................................32 W/DEVICE................................ 26 CYLTEZO-PSORIASIS/UV",
+        "CIBINQO...................................23 CONTOUR NEXT GEN STARTER................................. 39",
+        "ciclodan.....................................12 MONITOR KIT W/DEVICE........26 cyproheptadine hcl....................45",
+        "ciclopirox................................... 12 CONTOUR NEXT GEN TEST cyred eq.................................... 35"
+      ]
+    },
+    {
+      "line": 2620,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "ciclopirox................................... 12 CONTOUR NEXT GEN TEST cyred eq.................................... 35",
+      "context": [
+        "CIBINQO...................................23 CONTOUR NEXT GEN STARTER................................. 39",
+        "ciclodan.....................................12 MONITOR KIT W/DEVICE........26 cyproheptadine hcl....................45",
+        "ciclopirox................................... 12 CONTOUR NEXT GEN TEST cyred eq.................................... 35",
+        "CIMDUO................................... 16 STRIPS..................................... 26 CYTOMEL.................................37",
+        "CIMZIA......................................38 CONTOUR NEXT MONITOR dalfampridine er........................ 22"
+      ]
+    },
+    {
+      "line": 2622,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "CIMZIA......................................38 CONTOUR NEXT MONITOR dalfampridine er........................ 22",
+      "context": [
+        "ciclopirox................................... 12 CONTOUR NEXT GEN TEST cyred eq.................................... 35",
+        "CIMDUO................................... 16 STRIPS..................................... 26 CYTOMEL.................................37",
+        "CIMZIA......................................38 CONTOUR NEXT MONITOR dalfampridine er........................ 22",
+        "CIMZIA (1 SYRINGE)............... 38 KIT W/DEVICE..........................26 DANZITEN................................ 14",
+        "CIMZIA (2 SYRINGE)............... 38 CONTOUR NEXT ONE KIT......26 DAPAGLIFLOZIN PRO-"
+      ]
+    },
+    {
+      "line": 2624,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "Ascensia Contour (PHC Holdings)"
+      ],
+      "text": "CIMZIA (2 SYRINGE)............... 38 CONTOUR NEXT ONE KIT......26 DAPAGLIFLOZIN PRO-",
+      "context": [
+        "CIMZIA......................................38 CONTOUR NEXT MONITOR dalfampridine er........................ 22",
+        "CIMZIA (1 SYRINGE)............... 38 KIT W/DEVICE..........................26 DANZITEN................................ 14",
+        "CIMZIA (2 SYRINGE)............... 38 CONTOUR NEXT ONE KIT......26 DAPAGLIFLOZIN PRO-",
+        "CIMZIA-STARTER....................38 CONTOUR PLUS BLUE KIT METFORMIN ER...................... 25",
+        "CINRYZE.................................. 38 W/DEVICE................................ 26 DAPAGLIFLOZIN"
+      ]
+    },
+    {
+      "line": 2629,
+      "tickers": [],
+      "labels": [
+        "Diabetic supplies (category)"
+      ],
+      "text": "CITALOPRAM CONTOUR TEST STRIPS........26 DAWNZERA............................. 39",
+      "context": [
+        "ciprofloxacin hcl.................... 9, 43 CONTOUR PLUS TEST PROPANEDIOL........................ 25",
+        "ciprofloxacin-dexamethasone... 45 STRIP....................................... 26 DARZALEX FASPRO............... 14",
+        "CITALOPRAM CONTOUR TEST STRIPS........26 DAWNZERA............................. 39",
+        "HYDROBROMIDE.................... 11 CONTRAVE.............................. 22 DAYBUE................................... 22",
+        "citalopram hydrobromide.......... 11 CONZIP...................................... 7 DAYTRANA.............................. 21"
+      ]
+    },
+    {
+      "line": 2646,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "clindamycin phosphate- COSENTYX SENSOREADY DEXCOM G6 RECEIVER......... 27",
+      "context": [
+        "clindamycin phos (twice-daily).. 23 COSENTYX SENSOREADY desvenlafaxine succinate er......11",
+        "clindamycin phosphate............. 23 (300 MG)...................................38 dexamethasone........................ 33",
+        "clindamycin phosphate- COSENTYX SENSOREADY DEXCOM G6 RECEIVER......... 27",
+        "benzoyl peroxide.......................23 PEN...........................................39 DEXCOM G6 SENSOR............ 27",
+        "CLINDESSE................................9 COSENTYX UNOREADY.........39 DEXCOM G6 TRANSMITTER.. 27"
+      ]
+    },
+    {
+      "line": 2647,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "benzoyl peroxide.......................23 PEN...........................................39 DEXCOM G6 SENSOR............ 27",
+      "context": [
+        "clindamycin phosphate............. 23 (300 MG)...................................38 dexamethasone........................ 33",
+        "clindamycin phosphate- COSENTYX SENSOREADY DEXCOM G6 RECEIVER......... 27",
+        "benzoyl peroxide.......................23 PEN...........................................39 DEXCOM G6 SENSOR............ 27",
+        "CLINDESSE................................9 COSENTYX UNOREADY.........39 DEXCOM G6 TRANSMITTER.. 27",
+        "CLOBETASOL PROPIONATE. 23 COSOPT...................................44"
+      ]
+    },
+    {
+      "line": 2648,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "CLINDESSE................................9 COSENTYX UNOREADY.........39 DEXCOM G6 TRANSMITTER.. 27",
+      "context": [
+        "clindamycin phosphate- COSENTYX SENSOREADY DEXCOM G6 RECEIVER......... 27",
+        "benzoyl peroxide.......................23 PEN...........................................39 DEXCOM G6 SENSOR............ 27",
+        "CLINDESSE................................9 COSENTYX UNOREADY.........39 DEXCOM G6 TRANSMITTER.. 27",
+        "CLOBETASOL PROPIONATE. 23 COSOPT...................................44",
+        "52"
+      ]
+    },
+    {
+      "line": 2651,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 15 DAY dutasteride................................ 33 epinephrine............................... 46",
+      "context": [
+        "CLOBETASOL PROPIONATE. 23 COSOPT...................................44",
+        "52",
+        "DEXCOM G7 15 DAY dutasteride................................ 33 epinephrine............................... 46",
+        "SENSOR...................................27 DUVYZAT................................. 31 EPIPEN JR 2-PAK.................... 46",
+        "DEXCOM G7 RECEIVER......... 27 DYANAVEL XR.........................21 EPOGEN...................................18"
+      ]
+    },
+    {
+      "line": 2653,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 RECEIVER......... 27 DYANAVEL XR.........................21 EPOGEN...................................18",
+      "context": [
+        "DEXCOM G7 15 DAY dutasteride................................ 33 epinephrine............................... 46",
+        "SENSOR...................................27 DUVYZAT................................. 31 EPIPEN JR 2-PAK.................... 46",
+        "DEXCOM G7 RECEIVER......... 27 DYANAVEL XR.........................21 EPOGEN...................................18",
+        "DEXCOM G7 SENSOR............ 27 DYMISTA.................................. 45 EPRONTIA................................10",
+        "DEXILANT................................ 30 DYSPORT.................................42 EPSOLAY................................. 24"
+      ]
+    },
+    {
+      "line": 2654,
+      "tickers": [
+        "DXCM"
+      ],
+      "labels": [
+        "Dexcom CGM"
+      ],
+      "text": "DEXCOM G7 SENSOR............ 27 DYMISTA.................................. 45 EPRONTIA................................10",
+      "context": [
+        "SENSOR...................................27 DUVYZAT................................. 31 EPIPEN JR 2-PAK.................... 46",
+        "DEXCOM G7 RECEIVER......... 27 DYANAVEL XR.........................21 EPOGEN...................................18",
+        "DEXCOM G7 SENSOR............ 27 DYMISTA.................................. 45 EPRONTIA................................10",
+        "DEXILANT................................ 30 DYSPORT.................................42 EPSOLAY................................. 24",
+        "dexmethylphenidate hcl............ 21 EBGLYSS................................. 24 ergocalciferol.............................30"
+      ]
+    },
+    {
+      "line": 2705,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FENOPRON................................7 FREESTYLE LIBRE 3 GUARDIAN REAL-TIME TEST",
+      "context": [
+        "DUROLANE.............................. 42 EPIDUO FORTE....................... 24 fenofibrate micronized...............19",
+        "53",
+        "FENOPRON................................7 FREESTYLE LIBRE 3 GUARDIAN REAL-TIME TEST",
+        "FERRIC CITRATE.................... 32 READER................................... 27 PLUG........................................ 27",
+        "FIASP........................................28 FREESTYLE LIBRE 3 GUARDIAN SENSOR 3............27"
+      ]
+    },
+    {
+      "line": 2707,
+      "tickers": [
+        "ABT",
+        "MDT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "Medtronic diabetes",
+        "Insulin (category)"
+      ],
+      "text": "FIASP........................................28 FREESTYLE LIBRE 3 GUARDIAN SENSOR 3............27",
+      "context": [
+        "FENOPRON................................7 FREESTYLE LIBRE 3 GUARDIAN REAL-TIME TEST",
+        "FERRIC CITRATE.................... 32 READER................................... 27 PLUG........................................ 27",
+        "FIASP........................................28 FREESTYLE LIBRE 3 GUARDIAN SENSOR 3............27",
+        "FIASP FLEXTOUCH.................28 SENSOR...................................27 GVOKE HYPOPEN 1-PACK.....28",
+        "FIASP PENFILL........................ 28 FULPHILA.................................18 GVOKE HYPOPEN 2-PACK.....28"
+      ]
+    },
+    {
+      "line": 2708,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FIASP FLEXTOUCH.................28 SENSOR...................................27 GVOKE HYPOPEN 1-PACK.....28",
+      "context": [
+        "FERRIC CITRATE.................... 32 READER................................... 27 PLUG........................................ 27",
+        "FIASP........................................28 FREESTYLE LIBRE 3 GUARDIAN SENSOR 3............27",
+        "FIASP FLEXTOUCH.................28 SENSOR...................................27 GVOKE HYPOPEN 1-PACK.....28",
+        "FIASP PENFILL........................ 28 FULPHILA.................................18 GVOKE HYPOPEN 2-PACK.....28",
+        "FIASP PUMPCART.................. 28 FUROSCIX............................... 19 GVOKE KIT...............................28"
+      ]
+    },
+    {
+      "line": 2709,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FIASP PENFILL........................ 28 FULPHILA.................................18 GVOKE HYPOPEN 2-PACK.....28",
+      "context": [
+        "FIASP........................................28 FREESTYLE LIBRE 3 GUARDIAN SENSOR 3............27",
+        "FIASP FLEXTOUCH.................28 SENSOR...................................27 GVOKE HYPOPEN 1-PACK.....28",
+        "FIASP PENFILL........................ 28 FULPHILA.................................18 GVOKE HYPOPEN 2-PACK.....28",
+        "FIASP PUMPCART.................. 28 FUROSCIX............................... 19 GVOKE KIT...............................28",
+        "FILSPARI.................................. 32 furosemide................................ 19 GVOKE PFS............................. 28"
+      ]
+    },
+    {
+      "line": 2710,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FIASP PUMPCART.................. 28 FUROSCIX............................... 19 GVOKE KIT...............................28",
+      "context": [
+        "FIASP FLEXTOUCH.................28 SENSOR...................................27 GVOKE HYPOPEN 1-PACK.....28",
+        "FIASP PENFILL........................ 28 FULPHILA.................................18 GVOKE HYPOPEN 2-PACK.....28",
+        "FIASP PUMPCART.................. 28 FUROSCIX............................... 19 GVOKE KIT...............................28",
+        "FILSPARI.................................. 32 furosemide................................ 19 GVOKE PFS............................. 28",
+        "FINACEA.................................. 24 fyavolv.......................................35 GYNAZOLE-1........................... 12"
+      ]
+    },
+    {
+      "line": 2735,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HFA...........................................46 glipizide er.................................25 HUMALOG................................28",
+      "context": [
+        "DISKUS.....................................46 GLEEVEC................................. 14 HULIO (2 PEN)......................... 39",
+        "FLUTICASONE PROPIONATE glimepiride.................................25 HULIO (2 SYRINGE)................ 39",
+        "HFA...........................................46 glipizide er.................................25 HUMALOG................................28",
+        "FLUTICASONE- glipizide ir.................................. 26 HUMALOG KWIKPEN.............. 28",
+        "SALMETEROL..........................46 GLOPERBA.............................. 13 HUMALOG MIX 50/50"
+      ]
+    },
+    {
+      "line": 2736,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FLUTICASONE- glipizide ir.................................. 26 HUMALOG KWIKPEN.............. 28",
+      "context": [
+        "FLUTICASONE PROPIONATE glimepiride.................................25 HULIO (2 SYRINGE)................ 39",
+        "HFA...........................................46 glipizide er.................................25 HUMALOG................................28",
+        "FLUTICASONE- glipizide ir.................................. 26 HUMALOG KWIKPEN.............. 28",
+        "SALMETEROL..........................46 GLOPERBA.............................. 13 HUMALOG MIX 50/50",
+        "fluticasone-salmeterol............... 46 GLUCAGON EMERGENCY KWIKPEN................................. 28"
+      ]
+    },
+    {
+      "line": 2737,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SALMETEROL..........................46 GLOPERBA.............................. 13 HUMALOG MIX 50/50",
+      "context": [
+        "HFA...........................................46 glipizide er.................................25 HUMALOG................................28",
+        "FLUTICASONE- glipizide ir.................................. 26 HUMALOG KWIKPEN.............. 28",
+        "SALMETEROL..........................46 GLOPERBA.............................. 13 HUMALOG MIX 50/50",
+        "fluticasone-salmeterol............... 46 GLUCAGON EMERGENCY KWIKPEN................................. 28",
+        "fluvoxamine maleate................. 11 KIT............................................ 28 HUMALOG MIX 75/25"
+      ]
+    },
+    {
+      "line": 2739,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "fluvoxamine maleate................. 11 KIT............................................ 28 HUMALOG MIX 75/25",
+      "context": [
+        "SALMETEROL..........................46 GLOPERBA.............................. 13 HUMALOG MIX 50/50",
+        "fluticasone-salmeterol............... 46 GLUCAGON EMERGENCY KWIKPEN................................. 28",
+        "fluvoxamine maleate................. 11 KIT............................................ 28 HUMALOG MIX 75/25",
+        "FOCALIN.................................. 21 glycopyrrolate............................31 KWIKPEN................................. 28",
+        "FOCALIN XR............................ 21 GLYXAMBI................................26 HUMALOG MIX 75/25 VIAL......28"
+      ]
+    },
+    {
+      "line": 2741,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FOCALIN XR............................ 21 GLYXAMBI................................26 HUMALOG MIX 75/25 VIAL......28",
+      "context": [
+        "fluvoxamine maleate................. 11 KIT............................................ 28 HUMALOG MIX 75/25",
+        "FOCALIN.................................. 21 glycopyrrolate............................31 KWIKPEN................................. 28",
+        "FOCALIN XR............................ 21 GLYXAMBI................................26 HUMALOG MIX 75/25 VIAL......28",
+        "folic acid.................................... 30 GOCOVRI................................. 16 HUMALOG TEMPO PEN..........28",
+        "FOLLISTIM AQ......................... 34 GOLYTELY............................... 31 HUMALOG U-100 JUNIOR"
+      ]
+    },
+    {
+      "line": 2742,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "folic acid.................................... 30 GOCOVRI................................. 16 HUMALOG TEMPO PEN..........28",
+      "context": [
+        "FOCALIN.................................. 21 glycopyrrolate............................31 KWIKPEN................................. 28",
+        "FOCALIN XR............................ 21 GLYXAMBI................................26 HUMALOG MIX 75/25 VIAL......28",
+        "folic acid.................................... 30 GOCOVRI................................. 16 HUMALOG TEMPO PEN..........28",
+        "FOLLISTIM AQ......................... 34 GOLYTELY............................... 31 HUMALOG U-100 JUNIOR",
+        "FORTEO................................... 41 GONAL-F.................................. 34 KWIKPEN................................. 28"
+      ]
+    },
+    {
+      "line": 2743,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "FOLLISTIM AQ......................... 34 GOLYTELY............................... 31 HUMALOG U-100 JUNIOR",
+      "context": [
+        "FOCALIN XR............................ 21 GLYXAMBI................................26 HUMALOG MIX 75/25 VIAL......28",
+        "folic acid.................................... 30 GOCOVRI................................. 16 HUMALOG TEMPO PEN..........28",
+        "FOLLISTIM AQ......................... 34 GOLYTELY............................... 31 HUMALOG U-100 JUNIOR",
+        "FORTEO................................... 41 GONAL-F.................................. 34 KWIKPEN................................. 28",
+        "FOTIVDA.................................. 14 GONAL-F RFF REDIJECT....... 34 HUMATROPE........................... 34"
+      ]
+    },
+    {
+      "line": 2746,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 14 DAY GRALISE.................................. 22 HUMIRA (1 PEN)...................... 39",
+      "context": [
+        "FORTEO................................... 41 GONAL-F.................................. 34 KWIKPEN................................. 28",
+        "FOTIVDA.................................. 14 GONAL-F RFF REDIJECT....... 34 HUMATROPE........................... 34",
+        "FREESTYLE LIBRE 14 DAY GRALISE.................................. 22 HUMIRA (1 PEN)...................... 39",
+        "READER................................... 27 GRANIX.................................... 18 HUMIRA (2 PEN)...................... 39",
+        "FREESTYLE LIBRE 14 DAY guanfacine hcl...........................19 HUMIRA (2 SYRINGE)............. 39"
+      ]
+    },
+    {
+      "line": 2748,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 14 DAY guanfacine hcl...........................19 HUMIRA (2 SYRINGE)............. 39",
+      "context": [
+        "FREESTYLE LIBRE 14 DAY GRALISE.................................. 22 HUMIRA (1 PEN)...................... 39",
+        "READER................................... 27 GRANIX.................................... 18 HUMIRA (2 PEN)...................... 39",
+        "FREESTYLE LIBRE 14 DAY guanfacine hcl...........................19 HUMIRA (2 SYRINGE)............. 39",
+        "SENSOR...................................27 guanfacine hcl er.......................21 HUMIRA-CD/UC/HS",
+        "FREESTYLE LIBRE 2 PLUS GUARDIAN 4 GLUCOSE STARTER................................. 39"
+      ]
+    },
+    {
+      "line": 2750,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 2 PLUS GUARDIAN 4 GLUCOSE STARTER................................. 39",
+      "context": [
+        "FREESTYLE LIBRE 14 DAY guanfacine hcl...........................19 HUMIRA (2 SYRINGE)............. 39",
+        "SENSOR...................................27 guanfacine hcl er.......................21 HUMIRA-CD/UC/HS",
+        "FREESTYLE LIBRE 2 PLUS GUARDIAN 4 GLUCOSE STARTER................................. 39",
+        "SENSOR...................................27 SENSOR...................................27 HUMIRA-PSORIASIS/UVEIT",
+        "FREESTYLE LIBRE 2 GUARDIAN 4 TRANSMITTER. 27 STARTER................................. 39"
+      ]
+    },
+    {
+      "line": 2752,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre"
+      ],
+      "text": "FREESTYLE LIBRE 2 GUARDIAN 4 TRANSMITTER. 27 STARTER................................. 39",
+      "context": [
+        "FREESTYLE LIBRE 2 PLUS GUARDIAN 4 GLUCOSE STARTER................................. 39",
+        "SENSOR...................................27 SENSOR...................................27 HUMIRA-PSORIASIS/UVEIT",
+        "FREESTYLE LIBRE 2 GUARDIAN 4 TRANSMITTER. 27 STARTER................................. 39",
+        "READER................................... 27 GUARDIAN LINK 3 HUMULIN 70/30 KWIKPEN...... 28",
+        "FREESTYLE LIBRE 2 TRANSMITTER........................ 27 HUMULIN 70/30 VIAL...............28"
+      ]
+    },
+    {
+      "line": 2753,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "READER................................... 27 GUARDIAN LINK 3 HUMULIN 70/30 KWIKPEN...... 28",
+      "context": [
+        "SENSOR...................................27 SENSOR...................................27 HUMIRA-PSORIASIS/UVEIT",
+        "FREESTYLE LIBRE 2 GUARDIAN 4 TRANSMITTER. 27 STARTER................................. 39",
+        "READER................................... 27 GUARDIAN LINK 3 HUMULIN 70/30 KWIKPEN...... 28",
+        "FREESTYLE LIBRE 2 TRANSMITTER........................ 27 HUMULIN 70/30 VIAL...............28",
+        "SENSOR...................................27 GUARDIAN REAL-TIME HUMULIN N KWIKPEN............ 28"
+      ]
+    },
+    {
+      "line": 2754,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "Insulin (category)"
+      ],
+      "text": "FREESTYLE LIBRE 2 TRANSMITTER........................ 27 HUMULIN 70/30 VIAL...............28",
+      "context": [
+        "FREESTYLE LIBRE 2 GUARDIAN 4 TRANSMITTER. 27 STARTER................................. 39",
+        "READER................................... 27 GUARDIAN LINK 3 HUMULIN 70/30 KWIKPEN...... 28",
+        "FREESTYLE LIBRE 2 TRANSMITTER........................ 27 HUMULIN 70/30 VIAL...............28",
+        "SENSOR...................................27 GUARDIAN REAL-TIME HUMULIN N KWIKPEN............ 28",
+        "FREESTYLE LIBRE 3 PLUS CHARGER................................ 27 HUMULIN N VIAL..................... 28"
+      ]
+    },
+    {
+      "line": 2755,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SENSOR...................................27 GUARDIAN REAL-TIME HUMULIN N KWIKPEN............ 28",
+      "context": [
+        "READER................................... 27 GUARDIAN LINK 3 HUMULIN 70/30 KWIKPEN...... 28",
+        "FREESTYLE LIBRE 2 TRANSMITTER........................ 27 HUMULIN 70/30 VIAL...............28",
+        "SENSOR...................................27 GUARDIAN REAL-TIME HUMULIN N KWIKPEN............ 28",
+        "FREESTYLE LIBRE 3 PLUS CHARGER................................ 27 HUMULIN N VIAL..................... 28",
+        "SENSOR...................................27 HUMULIN R U-500 KWIKPEN..28"
+      ]
+    },
+    {
+      "line": 2756,
+      "tickers": [
+        "ABT"
+      ],
+      "labels": [
+        "Abbott FreeStyle Libre",
+        "Insulin (category)"
+      ],
+      "text": "FREESTYLE LIBRE 3 PLUS CHARGER................................ 27 HUMULIN N VIAL..................... 28",
+      "context": [
+        "FREESTYLE LIBRE 2 TRANSMITTER........................ 27 HUMULIN 70/30 VIAL...............28",
+        "SENSOR...................................27 GUARDIAN REAL-TIME HUMULIN N KWIKPEN............ 28",
+        "FREESTYLE LIBRE 3 PLUS CHARGER................................ 27 HUMULIN N VIAL..................... 28",
+        "SENSOR...................................27 HUMULIN R U-500 KWIKPEN..28",
+        "54"
+      ]
+    },
+    {
+      "line": 2757,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SENSOR...................................27 HUMULIN R U-500 KWIKPEN..28",
+      "context": [
+        "SENSOR...................................27 GUARDIAN REAL-TIME HUMULIN N KWIKPEN............ 28",
+        "FREESTYLE LIBRE 3 PLUS CHARGER................................ 27 HUMULIN N VIAL..................... 28",
+        "SENSOR...................................27 HUMULIN R U-500 KWIKPEN..28",
+        "54",
+        "HUMULIN R VIAL..................... 28 IMAAVY.................................... 39 INSULIN GLARGINE"
+      ]
+    },
+    {
+      "line": 2759,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HUMULIN R VIAL..................... 28 IMAAVY.................................... 39 INSULIN GLARGINE",
+      "context": [
+        "SENSOR...................................27 HUMULIN R U-500 KWIKPEN..28",
+        "54",
+        "HUMULIN R VIAL..................... 28 IMAAVY.................................... 39 INSULIN GLARGINE",
+        "HYALGAN.................................42 IMBRUVICA.............................. 14 SOLOSTAR.............................. 29",
+        "hydralazine hcl.......................... 19 IMCIVREE.................................32 INSULIN GLARGINE-YFGN..... 29"
+      ]
+    },
+    {
+      "line": 2761,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "hydralazine hcl.......................... 19 IMCIVREE.................................32 INSULIN GLARGINE-YFGN..... 29",
+      "context": [
+        "HUMULIN R VIAL..................... 28 IMAAVY.................................... 39 INSULIN GLARGINE",
+        "HYALGAN.................................42 IMBRUVICA.............................. 14 SOLOSTAR.............................. 29",
+        "hydralazine hcl.......................... 19 IMCIVREE.................................32 INSULIN GLARGINE-YFGN..... 29",
+        "hydrochlorothiazide...................19 imiquimod..................................24 INSULIN LISPRO......................29",
+        "hydrocodone-acetaminophen..... 7 imiquimod pump........................24 INSULIN LISPRO (1 UNIT"
+      ]
+    },
+    {
+      "line": 2762,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "hydrochlorothiazide...................19 imiquimod..................................24 INSULIN LISPRO......................29",
+      "context": [
+        "HYALGAN.................................42 IMBRUVICA.............................. 14 SOLOSTAR.............................. 29",
+        "hydralazine hcl.......................... 19 IMCIVREE.................................32 INSULIN GLARGINE-YFGN..... 29",
+        "hydrochlorothiazide...................19 imiquimod..................................24 INSULIN LISPRO......................29",
+        "hydrocodone-acetaminophen..... 7 imiquimod pump........................24 INSULIN LISPRO (1 UNIT",
+        "hydrocortisone.................... 24, 33 IMITREX................................... 13 DIAL).........................................29"
+      ]
+    },
+    {
+      "line": 2763,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "hydrocodone-acetaminophen..... 7 imiquimod pump........................24 INSULIN LISPRO (1 UNIT",
+      "context": [
+        "hydralazine hcl.......................... 19 IMCIVREE.................................32 INSULIN GLARGINE-YFGN..... 29",
+        "hydrochlorothiazide...................19 imiquimod..................................24 INSULIN LISPRO......................29",
+        "hydrocodone-acetaminophen..... 7 imiquimod pump........................24 INSULIN LISPRO (1 UNIT",
+        "hydrocortisone.................... 24, 33 IMITREX................................... 13 DIAL).........................................29",
+        "HYDROCORTISONE................24 IMITREX STATDOSE REFILL..13 INSULIN LISPRO JUNIOR"
+      ]
+    },
+    {
+      "line": 2765,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HYDROCORTISONE................24 IMITREX STATDOSE REFILL..13 INSULIN LISPRO JUNIOR",
+      "context": [
+        "hydrocodone-acetaminophen..... 7 imiquimod pump........................24 INSULIN LISPRO (1 UNIT",
+        "hydrocortisone.................... 24, 33 IMITREX................................... 13 DIAL).........................................29",
+        "HYDROCORTISONE................24 IMITREX STATDOSE REFILL..13 INSULIN LISPRO JUNIOR",
+        "hydrocortisone (perianal).......... 41 IMITREX STATDOSE KWIKPEN................................. 29",
+        "HYDROCORTISONE SYSTEM................................... 13 INSULIN LISPRO PROT &"
+      ]
+    },
+    {
+      "line": 2767,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HYDROCORTISONE SYSTEM................................... 13 INSULIN LISPRO PROT &",
+      "context": [
+        "HYDROCORTISONE................24 IMITREX STATDOSE REFILL..13 INSULIN LISPRO JUNIOR",
+        "hydrocortisone (perianal).......... 41 IMITREX STATDOSE KWIKPEN................................. 29",
+        "HYDROCORTISONE SYSTEM................................... 13 INSULIN LISPRO PROT &",
+        "ACETATE................................. 24 IMKELDI....................................14 LISPRO.....................................29",
+        "hydromorphone hcl..................... 7 IMPOYZ.................................... 24 INSULIN PEN NEEDLES..........42"
+      ]
+    },
+    {
+      "line": 2769,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "hydromorphone hcl..................... 7 IMPOYZ.................................... 24 INSULIN PEN NEEDLES..........42",
+      "context": [
+        "HYDROCORTISONE SYSTEM................................... 13 INSULIN LISPRO PROT &",
+        "ACETATE................................. 24 IMKELDI....................................14 LISPRO.....................................29",
+        "hydromorphone hcl..................... 7 IMPOYZ.................................... 24 INSULIN PEN NEEDLES..........42",
+        "hydroxychloroquine sulfate....... 15 IMULDOSA............................... 39 INTUNIV....................................21",
+        "hydroxyzine hcl......................... 17 IMVEXXY MAINTENANCE INVEGA HAFYERA.................. 16"
+      ]
+    },
+    {
+      "line": 2787,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "PSORIASIS START..................39 HUMALOG................................27 ISTURISA................................. 34",
+      "context": [
+        "PSOR/UVEIT START............... 39 INPEFA..................................... 20 isosorbide mononitrate er......... 20",
+        "HYRIMOZ-PLAQUE INPEN 100-BLUE-LILLY- isotretinoin.................................24",
+        "PSORIASIS START..................39 HUMALOG................................27 ISTURISA................................. 34",
+        "HYSINGLA ER............................7 INPEN 100-BLUE-NOVOLOG- IVRA..........................................14",
+        "HYZAAR................................... 19 FIASP........................................27 IYUZEH.....................................44"
+      ]
+    },
+    {
+      "line": 2788,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HYSINGLA ER............................7 INPEN 100-BLUE-NOVOLOG- IVRA..........................................14",
+      "context": [
+        "HYRIMOZ-PLAQUE INPEN 100-BLUE-LILLY- isotretinoin.................................24",
+        "PSORIASIS START..................39 HUMALOG................................27 ISTURISA................................. 34",
+        "HYSINGLA ER............................7 INPEN 100-BLUE-NOVOLOG- IVRA..........................................14",
+        "HYZAAR................................... 19 FIASP........................................27 IYUZEH.....................................44",
+        "IBSRELA...................................31 INPEN 100-GREY-LILLY- JALYN.......................................33"
+      ]
+    },
+    {
+      "line": 2789,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "HYZAAR................................... 19 FIASP........................................27 IYUZEH.....................................44",
+      "context": [
+        "PSORIASIS START..................39 HUMALOG................................27 ISTURISA................................. 34",
+        "HYSINGLA ER............................7 INPEN 100-BLUE-NOVOLOG- IVRA..........................................14",
+        "HYZAAR................................... 19 FIASP........................................27 IYUZEH.....................................44",
+        "IBSRELA...................................31 INPEN 100-GREY-LILLY- JALYN.......................................33",
+        "IBTROZI....................................14 HUMALOG................................27 jantoven...................................... 9"
+      ]
+    },
+    {
+      "line": 2791,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "IBTROZI....................................14 HUMALOG................................27 jantoven...................................... 9",
+      "context": [
+        "HYZAAR................................... 19 FIASP........................................27 IYUZEH.....................................44",
+        "IBSRELA...................................31 INPEN 100-GREY-LILLY- JALYN.......................................33",
+        "IBTROZI....................................14 HUMALOG................................27 jantoven...................................... 9",
+        "ibuprofen..................................... 7 INPEN 100-GREY- JANUMET................................. 26",
+        "ibuprofen-famotidine................... 7 NOVOLOG-FIASP.................... 27 JANUMET XR........................... 26"
+      ]
+    },
+    {
+      "line": 2793,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ibuprofen-famotidine................... 7 NOVOLOG-FIASP.................... 27 JANUMET XR........................... 26",
+      "context": [
+        "IBTROZI....................................14 HUMALOG................................27 jantoven...................................... 9",
+        "ibuprofen..................................... 7 INPEN 100-GREY- JANUMET................................. 26",
+        "ibuprofen-famotidine................... 7 NOVOLOG-FIASP.................... 27 JANUMET XR........................... 26",
+        "ICLUSIG....................................14 INPEN 100-PINK-LILLY- JANUVIA...................................26",
+        "icosapent ethyl.......................... 19 HUMALOG................................27 JARDIANCE..............................26"
+      ]
+    },
+    {
+      "line": 2795,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "icosapent ethyl.......................... 19 HUMALOG................................27 JARDIANCE..............................26",
+      "context": [
+        "ibuprofen-famotidine................... 7 NOVOLOG-FIASP.................... 27 JANUMET XR........................... 26",
+        "ICLUSIG....................................14 INPEN 100-PINK-LILLY- JANUVIA...................................26",
+        "icosapent ethyl.......................... 19 HUMALOG................................27 JARDIANCE..............................26",
+        "IDELVION................................. 18 INPEN 100-PINK-NOVOLOG- jasmiel.......................................35",
+        "IDHIFA...................................... 14 FIASP........................................27 JATENZO..................................33"
+      ]
+    },
+    {
+      "line": 2796,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "IDELVION................................. 18 INPEN 100-PINK-NOVOLOG- jasmiel.......................................35",
+      "context": [
+        "ICLUSIG....................................14 INPEN 100-PINK-LILLY- JANUVIA...................................26",
+        "icosapent ethyl.......................... 19 HUMALOG................................27 JARDIANCE..............................26",
+        "IDELVION................................. 18 INPEN 100-PINK-NOVOLOG- jasmiel.......................................35",
+        "IDHIFA...................................... 14 FIASP........................................27 JATENZO..................................33",
+        "ILET CONTACT DETACH 23\" INQOVI..................................... 14 JAVYGTOR...............................32"
+      ]
+    },
+    {
+      "line": 2797,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "IDHIFA...................................... 14 FIASP........................................27 JATENZO..................................33",
+      "context": [
+        "icosapent ethyl.......................... 19 HUMALOG................................27 JARDIANCE..............................26",
+        "IDELVION................................. 18 INPEN 100-PINK-NOVOLOG- jasmiel.......................................35",
+        "IDHIFA...................................... 14 FIASP........................................27 JATENZO..................................33",
+        "ILET CONTACT DETACH 23\" INQOVI..................................... 14 JAVYGTOR...............................32",
+        "6MM.......................................... 42 INSULIN ASP PROT & ASP jencycla..................................... 35"
+      ]
+    },
+    {
+      "line": 2799,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "6MM.......................................... 42 INSULIN ASP PROT & ASP jencycla..................................... 35",
+      "context": [
+        "IDHIFA...................................... 14 FIASP........................................27 JATENZO..................................33",
+        "ILET CONTACT DETACH 23\" INQOVI..................................... 14 JAVYGTOR...............................32",
+        "6MM.......................................... 42 INSULIN ASP PROT & ASP jencycla..................................... 35",
+        "ILET INFUSION-INSET 23\" FLEXPEN..................................28 JENTADUETO.......................... 26",
+        "6MM.......................................... 42 INSULIN ASPART.................... 28 JENTADUETO XR.................... 26"
+      ]
+    },
+    {
+      "line": 2801,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "6MM.......................................... 42 INSULIN ASPART.................... 28 JENTADUETO XR.................... 26",
+      "context": [
+        "6MM.......................................... 42 INSULIN ASP PROT & ASP jencycla..................................... 35",
+        "ILET INFUSION-INSET 23\" FLEXPEN..................................28 JENTADUETO.......................... 26",
+        "6MM.......................................... 42 INSULIN ASPART.................... 28 JENTADUETO XR.................... 26",
+        "ILET INFUSION-INSET 32\" INSULIN ASPART FLEXPEN... 29 jinteli..........................................36",
+        "6MM.......................................... 42 INSULIN ASPART PENFILL.....29 JIVI............................................18"
+      ]
+    },
+    {
+      "line": 2802,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ILET INFUSION-INSET 32\" INSULIN ASPART FLEXPEN... 29 jinteli..........................................36",
+      "context": [
+        "ILET INFUSION-INSET 23\" FLEXPEN..................................28 JENTADUETO.......................... 26",
+        "6MM.......................................... 42 INSULIN ASPART.................... 28 JENTADUETO XR.................... 26",
+        "ILET INFUSION-INSET 32\" INSULIN ASPART FLEXPEN... 29 jinteli..........................................36",
+        "6MM.......................................... 42 INSULIN ASPART PENFILL.....29 JIVI............................................18",
+        "ILET INSULIN PUMP................42 INSULIN ASPART PROT & JOBEVNE................................. 14"
+      ]
+    },
+    {
+      "line": 2803,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "6MM.......................................... 42 INSULIN ASPART PENFILL.....29 JIVI............................................18",
+      "context": [
+        "6MM.......................................... 42 INSULIN ASPART.................... 28 JENTADUETO XR.................... 26",
+        "ILET INFUSION-INSET 32\" INSULIN ASPART FLEXPEN... 29 jinteli..........................................36",
+        "6MM.......................................... 42 INSULIN ASPART PENFILL.....29 JIVI............................................18",
+        "ILET INSULIN PUMP................42 INSULIN ASPART PROT & JOBEVNE................................. 14",
+        "ILET STARTER - CONTACT ASPART....................................29 JOENJA.................................... 39"
+      ]
+    },
+    {
+      "line": 2804,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ILET INSULIN PUMP................42 INSULIN ASPART PROT & JOBEVNE................................. 14",
+      "context": [
+        "ILET INFUSION-INSET 32\" INSULIN ASPART FLEXPEN... 29 jinteli..........................................36",
+        "6MM.......................................... 42 INSULIN ASPART PENFILL.....29 JIVI............................................18",
+        "ILET INSULIN PUMP................42 INSULIN ASPART PROT & JOBEVNE................................. 14",
+        "ILET STARTER - CONTACT ASPART....................................29 JOENJA.................................... 39",
+        "DETACH................................... 42 INSULIN DEGLUDEC...............29 JORNAY PM............................. 21"
+      ]
+    },
+    {
+      "line": 2806,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "DETACH................................... 42 INSULIN DEGLUDEC...............29 JORNAY PM............................. 21",
+      "context": [
+        "ILET INSULIN PUMP................42 INSULIN ASPART PROT & JOBEVNE................................. 14",
+        "ILET STARTER - CONTACT ASPART....................................29 JOENJA.................................... 39",
+        "DETACH................................... 42 INSULIN DEGLUDEC...............29 JORNAY PM............................. 21",
+        "ILET STARTER KIT - INSET INSULIN DEGLUDEC JOURNAVX................................ 7",
+        "23\".............................................42 FLEXTOUCH............................ 29 JUBBONTI................................ 41"
+      ]
+    },
+    {
+      "line": 2807,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ILET STARTER KIT - INSET INSULIN DEGLUDEC JOURNAVX................................ 7",
+      "context": [
+        "ILET STARTER - CONTACT ASPART....................................29 JOENJA.................................... 39",
+        "DETACH................................... 42 INSULIN DEGLUDEC...............29 JORNAY PM............................. 21",
+        "ILET STARTER KIT - INSET INSULIN DEGLUDEC JOURNAVX................................ 7",
+        "23\".............................................42 FLEXTOUCH............................ 29 JUBBONTI................................ 41",
+        "ILET STARTER KIT - INSET INSULIN GLARGINE MAX JUBLIA......................................12"
+      ]
+    },
+    {
+      "line": 2809,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "ILET STARTER KIT - INSET INSULIN GLARGINE MAX JUBLIA......................................12",
+      "context": [
+        "ILET STARTER KIT - INSET INSULIN DEGLUDEC JOURNAVX................................ 7",
+        "23\".............................................42 FLEXTOUCH............................ 29 JUBBONTI................................ 41",
+        "ILET STARTER KIT - INSET INSULIN GLARGINE MAX JUBLIA......................................12",
+        "32\".............................................42 SOLOSTAR.............................. 29 juleber....................................... 36",
+        "ILEVRO.....................................43 JULUCA.................................... 17"
+      ]
+    },
+    {
+      "line": 2818,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "JYLAMVO................................. 39 LANTUS SOLOSTAR............... 29 lithium carbonate er.................. 17",
+      "context": [
+        "junel fe 1/20.............................. 36 lamotrigine er............................ 10 LITFULO................................... 24",
+        "junel fe 24................................. 36 lansoprazole..............................30 lithium carbonate.......................17",
+        "JYLAMVO................................. 39 LANTUS SOLOSTAR............... 29 lithium carbonate er.................. 17",
+        "JYNARQUE.............................. 30 LANTUS U-100 VIAL................ 29 LIVALO..................................... 20",
+        "kalliga........................................36 larin 1.5/30................................ 36 LIVDELZI.................................. 31"
+      ]
+    },
+    {
+      "line": 2819,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "JYNARQUE.............................. 30 LANTUS U-100 VIAL................ 29 LIVALO..................................... 20",
+      "context": [
+        "junel fe 24................................. 36 lansoprazole..............................30 lithium carbonate.......................17",
+        "JYLAMVO................................. 39 LANTUS SOLOSTAR............... 29 lithium carbonate er.................. 17",
+        "JYNARQUE.............................. 30 LANTUS U-100 VIAL................ 29 LIVALO..................................... 20",
+        "kalliga........................................36 larin 1.5/30................................ 36 LIVDELZI.................................. 31",
+        "KANJINTI.................................. 14 larin 1/20................................... 36 LIVMARLI..................................42"
+      ]
+    },
+    {
+      "line": 2874,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV KWIKPEN................29 mili.............................................36 neomycin-polymyxin-dexameth 44",
+      "context": [
+        "LYRICA..................................... 22 midodrine hcl.............................20 NEFFY...................................... 46",
+        "LYRICA CR...............................22 MIEBO...................................... 44 NEMLUVIO............................... 25",
+        "LYUMJEV KWIKPEN................29 mili.............................................36 neomycin-polymyxin-dexameth 44",
+        "LYUMJEV TEMPO PEN........... 29 MINIMED INSTINCT GLUC neomycin-polymyxin-hc............ 45",
+        "LYUMJEV VIAL.........................29 SENSOR...................................27 NEULASTA............................... 18"
+      ]
+    },
+    {
+      "line": 2875,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes",
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV TEMPO PEN........... 29 MINIMED INSTINCT GLUC neomycin-polymyxin-hc............ 45",
+      "context": [
+        "LYRICA CR...............................22 MIEBO...................................... 44 NEMLUVIO............................... 25",
+        "LYUMJEV KWIKPEN................29 mili.............................................36 neomycin-polymyxin-dexameth 44",
+        "LYUMJEV TEMPO PEN........... 29 MINIMED INSTINCT GLUC neomycin-polymyxin-hc............ 45",
+        "LYUMJEV VIAL.........................29 SENSOR...................................27 NEULASTA............................... 18",
+        "lyza............................................36 minocycline hcl............................9 NEULASTA ONPRO.................18"
+      ]
+    },
+    {
+      "line": 2876,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LYUMJEV VIAL.........................29 SENSOR...................................27 NEULASTA............................... 18",
+      "context": [
+        "LYUMJEV KWIKPEN................29 mili.............................................36 neomycin-polymyxin-dexameth 44",
+        "LYUMJEV TEMPO PEN........... 29 MINIMED INSTINCT GLUC neomycin-polymyxin-hc............ 45",
+        "LYUMJEV VIAL.........................29 SENSOR...................................27 NEULASTA............................... 18",
+        "lyza............................................36 minocycline hcl............................9 NEULASTA ONPRO.................18",
+        "marlissa.....................................36 minoxidil.................................... 20 NEUPOGEN............................. 18"
+      ]
+    },
+    {
+      "line": 2893,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "MERILOG SOLOSTAR.............29 MOUNJARO............................. 26 nitrofurantoin macrocrystal..........9",
+      "context": [
+        "memantine hcl...........................11 MOTOFEN................................ 31 NILOTINIB D-TARTRATE.........14",
+        "MERILOG................................. 29 MOTPOLY XR.......................... 10 NITROFURANTOIN....................9",
+        "MERILOG SOLOSTAR.............29 MOUNJARO............................. 26 nitrofurantoin macrocrystal..........9",
+        "mesalamine...............................41 MOVANTIK............................... 31 nitrofurantoin monohydrate",
+        "mesalamine er oral capsule MOVIPREP............................... 31 macrocrystals..............................9"
+      ]
+    },
+    {
+      "line": 2923,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN 70/30 FLEXPEN...... 29 olmesartan medoxomil..............20 ORENITRAM MONTH 1........... 47",
+      "context": [
+        "NOVOFINE PLUS PEN OJJAARA..................................14 ORENCIA CLICKJECT............. 40",
+        "NEEDLE....................................42 olanzapine.................................16 ORENITRAM............................ 47",
+        "NOVOLIN 70/30 FLEXPEN...... 29 olmesartan medoxomil..............20 ORENITRAM MONTH 1........... 47",
+        "NOVOLIN 70/30 FLEXPEN olmesartan medoxomil-hctz...... 20 ORENITRAM MONTH 2........... 47",
+        "RELION.....................................29 OLPRUVA (2 GM DOSE)......... 32 ORENITRAM MONTH 3........... 47"
+      ]
+    },
+    {
+      "line": 2924,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN 70/30 FLEXPEN olmesartan medoxomil-hctz...... 20 ORENITRAM MONTH 2........... 47",
+      "context": [
+        "NEEDLE....................................42 olanzapine.................................16 ORENITRAM............................ 47",
+        "NOVOLIN 70/30 FLEXPEN...... 29 olmesartan medoxomil..............20 ORENITRAM MONTH 1........... 47",
+        "NOVOLIN 70/30 FLEXPEN olmesartan medoxomil-hctz...... 20 ORENITRAM MONTH 2........... 47",
+        "RELION.....................................29 OLPRUVA (2 GM DOSE)......... 32 ORENITRAM MONTH 3........... 47",
+        "NOVOLIN 70/30 RELION......... 29 OLPRUVA (3 GM DOSE)......... 32 ORFADIN..................................32"
+      ]
+    },
+    {
+      "line": 2926,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN 70/30 RELION......... 29 OLPRUVA (3 GM DOSE)......... 32 ORFADIN..................................32",
+      "context": [
+        "NOVOLIN 70/30 FLEXPEN olmesartan medoxomil-hctz...... 20 ORENITRAM MONTH 2........... 47",
+        "RELION.....................................29 OLPRUVA (2 GM DOSE)......... 32 ORENITRAM MONTH 3........... 47",
+        "NOVOLIN 70/30 RELION......... 29 OLPRUVA (3 GM DOSE)......... 32 ORFADIN..................................32",
+        "NOVOLIN 70/30 VIAL............... 29 OLPRUVA (4 GM DOSE)......... 32 ORGOVYX................................14",
+        "NOVOLIN N FLEXPEN.............29 OLPRUVA (5 GM DOSE)......... 32 ORIAHNN................................. 37"
+      ]
+    },
+    {
+      "line": 2927,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN 70/30 VIAL............... 29 OLPRUVA (4 GM DOSE)......... 32 ORGOVYX................................14",
+      "context": [
+        "RELION.....................................29 OLPRUVA (2 GM DOSE)......... 32 ORENITRAM MONTH 3........... 47",
+        "NOVOLIN 70/30 RELION......... 29 OLPRUVA (3 GM DOSE)......... 32 ORFADIN..................................32",
+        "NOVOLIN 70/30 VIAL............... 29 OLPRUVA (4 GM DOSE)......... 32 ORGOVYX................................14",
+        "NOVOLIN N FLEXPEN.............29 OLPRUVA (5 GM DOSE)......... 32 ORIAHNN................................. 37",
+        "NOVOLIN N FLEXPEN OLPRUVA (6 GM DOSE)......... 32 ORILISSA................................. 34"
+      ]
+    },
+    {
+      "line": 2928,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN N FLEXPEN.............29 OLPRUVA (5 GM DOSE)......... 32 ORIAHNN................................. 37",
+      "context": [
+        "NOVOLIN 70/30 RELION......... 29 OLPRUVA (3 GM DOSE)......... 32 ORFADIN..................................32",
+        "NOVOLIN 70/30 VIAL............... 29 OLPRUVA (4 GM DOSE)......... 32 ORGOVYX................................14",
+        "NOVOLIN N FLEXPEN.............29 OLPRUVA (5 GM DOSE)......... 32 ORIAHNN................................. 37",
+        "NOVOLIN N FLEXPEN OLPRUVA (6 GM DOSE)......... 32 ORILISSA................................. 34",
+        "RELION.....................................29 OLPRUVA (6.67 GM DOSE).... 32 ORLADEYO.............................. 40"
+      ]
+    },
+    {
+      "line": 2929,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN N FLEXPEN OLPRUVA (6 GM DOSE)......... 32 ORILISSA................................. 34",
+      "context": [
+        "NOVOLIN 70/30 VIAL............... 29 OLPRUVA (4 GM DOSE)......... 32 ORGOVYX................................14",
+        "NOVOLIN N FLEXPEN.............29 OLPRUVA (5 GM DOSE)......... 32 ORIAHNN................................. 37",
+        "NOVOLIN N FLEXPEN OLPRUVA (6 GM DOSE)......... 32 ORILISSA................................. 34",
+        "RELION.....................................29 OLPRUVA (6.67 GM DOSE).... 32 ORLADEYO.............................. 40",
+        "NOVOLIN N RELION................29 OLUMIANT............................... 39 ORLYNVAH................................ 9"
+      ]
+    },
+    {
+      "line": 2931,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN N RELION................29 OLUMIANT............................... 39 ORLYNVAH................................ 9",
+      "context": [
+        "NOVOLIN N FLEXPEN OLPRUVA (6 GM DOSE)......... 32 ORILISSA................................. 34",
+        "RELION.....................................29 OLPRUVA (6.67 GM DOSE).... 32 ORLADEYO.............................. 40",
+        "NOVOLIN N RELION................29 OLUMIANT............................... 39 ORLYNVAH................................ 9",
+        "NOVOLIN N VIAL..................... 29 omega-3-acid ethyl esters.........20 ORPHENGESIC FORTE.......... 48",
+        "NOVOLIN R FLEXPEN.............29 omeprazole............................... 30 orquidea.................................... 37"
+      ]
+    },
+    {
+      "line": 2932,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN N VIAL..................... 29 omega-3-acid ethyl esters.........20 ORPHENGESIC FORTE.......... 48",
+      "context": [
+        "RELION.....................................29 OLPRUVA (6.67 GM DOSE).... 32 ORLADEYO.............................. 40",
+        "NOVOLIN N RELION................29 OLUMIANT............................... 39 ORLYNVAH................................ 9",
+        "NOVOLIN N VIAL..................... 29 omega-3-acid ethyl esters.........20 ORPHENGESIC FORTE.......... 48",
+        "NOVOLIN R FLEXPEN.............29 omeprazole............................... 30 orquidea.................................... 37",
+        "NOVOLIN R FLEXPEN omeprazole-sodium ORTHOVISC.............................42"
+      ]
+    },
+    {
+      "line": 2933,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN R FLEXPEN.............29 omeprazole............................... 30 orquidea.................................... 37",
+      "context": [
+        "NOVOLIN N RELION................29 OLUMIANT............................... 39 ORLYNVAH................................ 9",
+        "NOVOLIN N VIAL..................... 29 omega-3-acid ethyl esters.........20 ORPHENGESIC FORTE.......... 48",
+        "NOVOLIN R FLEXPEN.............29 omeprazole............................... 30 orquidea.................................... 37",
+        "NOVOLIN R FLEXPEN omeprazole-sodium ORTHOVISC.............................42",
+        "RELION.....................................29 bicarbonate............................... 30 oseltamivir phosphate............... 17"
+      ]
+    },
+    {
+      "line": 2934,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN R FLEXPEN omeprazole-sodium ORTHOVISC.............................42",
+      "context": [
+        "NOVOLIN N VIAL..................... 29 omega-3-acid ethyl esters.........20 ORPHENGESIC FORTE.......... 48",
+        "NOVOLIN R FLEXPEN.............29 omeprazole............................... 30 orquidea.................................... 37",
+        "NOVOLIN R FLEXPEN omeprazole-sodium ORTHOVISC.............................42",
+        "RELION.....................................29 bicarbonate............................... 30 oseltamivir phosphate............... 17",
+        "NOVOLIN R RELION................29 OMNARIS................................. 45 OSENVELT...............................41"
+      ]
+    },
+    {
+      "line": 2936,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN R RELION................29 OMNARIS................................. 45 OSENVELT...............................41",
+      "context": [
+        "NOVOLIN R FLEXPEN omeprazole-sodium ORTHOVISC.............................42",
+        "RELION.....................................29 bicarbonate............................... 30 oseltamivir phosphate............... 17",
+        "NOVOLIN R RELION................29 OMNARIS................................. 45 OSENVELT...............................41",
+        "NOVOLIN R VIAL..................... 29 OMNIPOD 5 DEXCOM INTRO OSPHENA................................ 34",
+        "NOVOLOG 70/30 FLEXPEN KIT............................................ 42 OTEZLA.................................... 40"
+      ]
+    },
+    {
+      "line": 2937,
+      "tickers": [
+        "DXCM",
+        "PODD"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "NOVOLIN R VIAL..................... 29 OMNIPOD 5 DEXCOM INTRO OSPHENA................................ 34",
+      "context": [
+        "RELION.....................................29 bicarbonate............................... 30 oseltamivir phosphate............... 17",
+        "NOVOLIN R RELION................29 OMNARIS................................. 45 OSENVELT...............................41",
+        "NOVOLIN R VIAL..................... 29 OMNIPOD 5 DEXCOM INTRO OSPHENA................................ 34",
+        "NOVOLOG 70/30 FLEXPEN KIT............................................ 42 OTEZLA.................................... 40",
+        "RELION.....................................29 OMNIPOD 5 DEXCOM PODS..42 OTEZLA XR.............................. 40"
+      ]
+    },
+    {
+      "line": 2938,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG 70/30 FLEXPEN KIT............................................ 42 OTEZLA.................................... 40",
+      "context": [
+        "NOVOLIN R RELION................29 OMNARIS................................. 45 OSENVELT...............................41",
+        "NOVOLIN R VIAL..................... 29 OMNIPOD 5 DEXCOM INTRO OSPHENA................................ 34",
+        "NOVOLOG 70/30 FLEXPEN KIT............................................ 42 OTEZLA.................................... 40",
+        "RELION.....................................29 OMNIPOD 5 DEXCOM PODS..42 OTEZLA XR.............................. 40",
+        "NOVOLOG FLEXPEN.............. 29 OMNIPOD 5 LIBRE PODS....... 42 OTEZLA/OTEZLA XR"
+      ]
+    },
+    {
+      "line": 2939,
+      "tickers": [
+        "DXCM",
+        "PODD"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Insulet Omnipod"
+      ],
+      "text": "RELION.....................................29 OMNIPOD 5 DEXCOM PODS..42 OTEZLA XR.............................. 40",
+      "context": [
+        "NOVOLIN R VIAL..................... 29 OMNIPOD 5 DEXCOM INTRO OSPHENA................................ 34",
+        "NOVOLOG 70/30 FLEXPEN KIT............................................ 42 OTEZLA.................................... 40",
+        "RELION.....................................29 OMNIPOD 5 DEXCOM PODS..42 OTEZLA XR.............................. 40",
+        "NOVOLOG FLEXPEN.............. 29 OMNIPOD 5 LIBRE PODS....... 42 OTEZLA/OTEZLA XR",
+        "NOVOLOG FLEXPEN OMNIPOD 5 LIBRE2 G6 INITIATION PK......................... 40"
+      ]
+    },
+    {
+      "line": 2940,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG FLEXPEN.............. 29 OMNIPOD 5 LIBRE PODS....... 42 OTEZLA/OTEZLA XR",
+      "context": [
+        "NOVOLOG 70/30 FLEXPEN KIT............................................ 42 OTEZLA.................................... 40",
+        "RELION.....................................29 OMNIPOD 5 DEXCOM PODS..42 OTEZLA XR.............................. 40",
+        "NOVOLOG FLEXPEN.............. 29 OMNIPOD 5 LIBRE PODS....... 42 OTEZLA/OTEZLA XR",
+        "NOVOLOG FLEXPEN OMNIPOD 5 LIBRE2 G6 INITIATION PK......................... 40",
+        "RELION.....................................29 INTRO GEN5............................ 42 OTULFI..................................... 40"
+      ]
+    },
+    {
+      "line": 2941,
+      "tickers": [
+        "DXCM",
+        "PODD"
+      ],
+      "labels": [
+        "Dexcom CGM",
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG FLEXPEN OMNIPOD 5 LIBRE2 G6 INITIATION PK......................... 40",
+      "context": [
+        "RELION.....................................29 OMNIPOD 5 DEXCOM PODS..42 OTEZLA XR.............................. 40",
+        "NOVOLOG FLEXPEN.............. 29 OMNIPOD 5 LIBRE PODS....... 42 OTEZLA/OTEZLA XR",
+        "NOVOLOG FLEXPEN OMNIPOD 5 LIBRE2 G6 INITIATION PK......................... 40",
+        "RELION.....................................29 INTRO GEN5............................ 42 OTULFI..................................... 40",
+        "NOVOLOG MIX 70/30 OMNIPOD DASH INTRO KIT... 42 OVIDREL.................................. 34"
+      ]
+    },
+    {
+      "line": 2943,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30 OMNIPOD DASH INTRO KIT... 42 OVIDREL.................................. 34",
+      "context": [
+        "NOVOLOG FLEXPEN OMNIPOD 5 LIBRE2 G6 INITIATION PK......................... 40",
+        "RELION.....................................29 INTRO GEN5............................ 42 OTULFI..................................... 40",
+        "NOVOLOG MIX 70/30 OMNIPOD DASH INTRO KIT... 42 OVIDREL.................................. 34",
+        "FLEXPEN..................................29 OMNIPOD DASH PODS...........42 OXAPROZIN...............................8",
+        "NOVOLOG MIX 70/30 OMNITROPE............................ 34 oxcarbazepine...........................10"
+      ]
+    },
+    {
+      "line": 2944,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod"
+      ],
+      "text": "FLEXPEN..................................29 OMNIPOD DASH PODS...........42 OXAPROZIN...............................8",
+      "context": [
+        "RELION.....................................29 INTRO GEN5............................ 42 OTULFI..................................... 40",
+        "NOVOLOG MIX 70/30 OMNIPOD DASH INTRO KIT... 42 OVIDREL.................................. 34",
+        "FLEXPEN..................................29 OMNIPOD DASH PODS...........42 OXAPROZIN...............................8",
+        "NOVOLOG MIX 70/30 OMNITROPE............................ 34 oxcarbazepine...........................10",
+        "RELION.....................................29 OMVOH.................................... 40 OXLUMO.................................. 32"
+      ]
+    },
+    {
+      "line": 2945,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30 OMNITROPE............................ 34 oxcarbazepine...........................10",
+      "context": [
+        "NOVOLOG MIX 70/30 OMNIPOD DASH INTRO KIT... 42 OVIDREL.................................. 34",
+        "FLEXPEN..................................29 OMNIPOD DASH PODS...........42 OXAPROZIN...............................8",
+        "NOVOLOG MIX 70/30 OMNITROPE............................ 34 oxcarbazepine...........................10",
+        "RELION.....................................29 OMVOH.................................... 40 OXLUMO.................................. 32",
+        "NOVOLOG MIX 70/30 VIAL......29 OMVOH (300 MG DOSE)......... 40 OXTELLAR XR......................... 10"
+      ]
+    },
+    {
+      "line": 2947,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG MIX 70/30 VIAL......29 OMVOH (300 MG DOSE)......... 40 OXTELLAR XR......................... 10",
+      "context": [
+        "NOVOLOG MIX 70/30 OMNITROPE............................ 34 oxcarbazepine...........................10",
+        "RELION.....................................29 OMVOH.................................... 40 OXLUMO.................................. 32",
+        "NOVOLOG MIX 70/30 VIAL......29 OMVOH (300 MG DOSE)......... 40 OXTELLAR XR......................... 10",
+        "NOVOLOG PENFILL................ 29 ondansetron hcl........................ 12 oxybutynin chloride................... 32",
+        "NOVOLOG RELION................. 29 ondansetron odt........................ 12 oxybutynin chloride er............... 32"
+      ]
+    },
+    {
+      "line": 2948,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG PENFILL................ 29 ondansetron hcl........................ 12 oxybutynin chloride................... 32",
+      "context": [
+        "RELION.....................................29 OMVOH.................................... 40 OXLUMO.................................. 32",
+        "NOVOLOG MIX 70/30 VIAL......29 OMVOH (300 MG DOSE)......... 40 OXTELLAR XR......................... 10",
+        "NOVOLOG PENFILL................ 29 ondansetron hcl........................ 12 oxybutynin chloride................... 32",
+        "NOVOLOG RELION................. 29 ondansetron odt........................ 12 oxybutynin chloride er............... 32",
+        "NOVOLOG U-100 VIAL............ 29 ONETOUCH ULTRA 2 KIT OXYCODONE HCL.................... 7"
+      ]
+    },
+    {
+      "line": 2949,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG RELION................. 29 ondansetron odt........................ 12 oxybutynin chloride er............... 32",
+      "context": [
+        "NOVOLOG MIX 70/30 VIAL......29 OMVOH (300 MG DOSE)......... 40 OXTELLAR XR......................... 10",
+        "NOVOLOG PENFILL................ 29 ondansetron hcl........................ 12 oxybutynin chloride................... 32",
+        "NOVOLOG RELION................. 29 ondansetron odt........................ 12 oxybutynin chloride er............... 32",
+        "NOVOLOG U-100 VIAL............ 29 ONETOUCH ULTRA 2 KIT OXYCODONE HCL.................... 7",
+        "NUBEQA...................................14 W/DEVICE................................ 27 oxycodone hcl............................. 7"
+      ]
+    },
+    {
+      "line": 2950,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Insulin (category)"
+      ],
+      "text": "NOVOLOG U-100 VIAL............ 29 ONETOUCH ULTRA 2 KIT OXYCODONE HCL.................... 7",
+      "context": [
+        "NOVOLOG PENFILL................ 29 ondansetron hcl........................ 12 oxybutynin chloride................... 32",
+        "NOVOLOG RELION................. 29 ondansetron odt........................ 12 oxybutynin chloride er............... 32",
+        "NOVOLOG U-100 VIAL............ 29 ONETOUCH ULTRA 2 KIT OXYCODONE HCL.................... 7",
+        "NUBEQA...................................14 W/DEVICE................................ 27 oxycodone hcl............................. 7",
+        "NUCALA................................... 46 ONETOUCH ULTRA BLUE oxycodone-acetaminophen.........7"
+      ]
+    },
+    {
+      "line": 2952,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "NUCALA................................... 46 ONETOUCH ULTRA BLUE oxycodone-acetaminophen.........7",
+      "context": [
+        "NOVOLOG U-100 VIAL............ 29 ONETOUCH ULTRA 2 KIT OXYCODONE HCL.................... 7",
+        "NUBEQA...................................14 W/DEVICE................................ 27 oxycodone hcl............................. 7",
+        "NUCALA................................... 46 ONETOUCH ULTRA BLUE oxycodone-acetaminophen.........7",
+        "NUCYNTA...................................7 TEST.........................................27 OXYCONTIN...............................7",
+        "NUCYNTA ER.............................7 ONETOUCH ULTRA TEST OZEMPIC..................................26"
+      ]
+    },
+    {
+      "line": 2954,
+      "tickers": [
+        "PRIVATE",
+        "NVO"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)",
+        "Novo semaglutide"
+      ],
+      "text": "NUCYNTA ER.............................7 ONETOUCH ULTRA TEST OZEMPIC..................................26",
+      "context": [
+        "NUCALA................................... 46 ONETOUCH ULTRA BLUE oxycodone-acetaminophen.........7",
+        "NUCYNTA...................................7 TEST.........................................27 OXYCONTIN...............................7",
+        "NUCYNTA ER.............................7 ONETOUCH ULTRA TEST OZEMPIC..................................26",
+        "NURTEC................................... 13 STRIPS..................................... 27 OZOBAX DS............................. 48",
+        "NUTROPIN AQ NUSPIN 10..... 34 ONETOUCH VERIO FLEX PALFORZIA.............................. 42"
+      ]
+    },
+    {
+      "line": 2956,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "NUTROPIN AQ NUSPIN 10..... 34 ONETOUCH VERIO FLEX PALFORZIA.............................. 42",
+      "context": [
+        "NUCYNTA ER.............................7 ONETOUCH ULTRA TEST OZEMPIC..................................26",
+        "NURTEC................................... 13 STRIPS..................................... 27 OZOBAX DS............................. 48",
+        "NUTROPIN AQ NUSPIN 10..... 34 ONETOUCH VERIO FLEX PALFORZIA.............................. 42",
+        "NUTROPIN AQ NUSPIN 20..... 34 SYSTEM................................... 27 PALFORZIA (1 MG DAILY",
+        "NUTROPIN AQ NUSPIN 5....... 34 ONETOUCH VERIO KIT DOSE).......................................42"
+      ]
+    },
+    {
+      "line": 2958,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "NUTROPIN AQ NUSPIN 5....... 34 ONETOUCH VERIO KIT DOSE).......................................42",
+      "context": [
+        "NUTROPIN AQ NUSPIN 10..... 34 ONETOUCH VERIO FLEX PALFORZIA.............................. 42",
+        "NUTROPIN AQ NUSPIN 20..... 34 SYSTEM................................... 27 PALFORZIA (1 MG DAILY",
+        "NUTROPIN AQ NUSPIN 5....... 34 ONETOUCH VERIO KIT DOSE).......................................42",
+        "NUVARING............................... 37 W/DEVICE................................ 27 PALFORZIA INITIAL DOSE 1-",
+        "NUVESSA...................................9 ONETOUCH VERIO 3YRS.........................................42"
+      ]
+    },
+    {
+      "line": 2960,
+      "tickers": [
+        "PRIVATE"
+      ],
+      "labels": [
+        "LifeScan OneTouch (private)"
+      ],
+      "text": "NUVESSA...................................9 ONETOUCH VERIO 3YRS.........................................42",
+      "context": [
+        "NUTROPIN AQ NUSPIN 5....... 34 ONETOUCH VERIO KIT DOSE).......................................42",
+        "NUVARING............................... 37 W/DEVICE................................ 27 PALFORZIA INITIAL DOSE 1-",
+        "NUVESSA...................................9 ONETOUCH VERIO 3YRS.........................................42",
+        "NUVIGIL....................................48 REFLECT KIT W/DEVICE........ 27 PALFORZIA INITIAL DOSE 4-",
+        "NUWIQ......................................18 ONEXTON................................ 25 17YRS.......................................42"
+      ]
+    },
+    {
+      "line": 3011,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "pramipexole dihydrochloride..... 16 QUESTRAN LIGHT.................. 20 REZVOGLAR KWIKPEN.......... 29",
+      "context": [
+        "potassium citrate er...................30 QSYMIA.................................... 22 REZLIDHIA............................... 15",
+        "PRALUENT...............................20 QUESTRAN.............................. 20 REZUROCK..............................40",
+        "pramipexole dihydrochloride..... 16 QUESTRAN LIGHT.................. 20 REZVOGLAR KWIKPEN.......... 29",
+        "prasugrel hcl............................. 16 quetiapine fumarate.................. 16 RHAPSIDO............................... 40",
+        "pravastatin sodium....................20 quetiapine fumarate er.............. 16 RHOFADE................................ 25"
+      ]
+    },
+    {
+      "line": 3035,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "RYBELSUS...............................26 SKYTROFA...............................34 SYMPAZAN.............................. 10",
+      "context": [
+        "RUCONEST..............................40 SKYRIZI.................................... 40 SYMBICORT.............................47",
+        "RUXIENCE............................... 15 SKYRIZI PEN............................40 SYMBRAVO..............................13",
+        "RYBELSUS...............................26 SKYTROFA...............................34 SYMPAZAN.............................. 10",
+        "RYDAPT................................... 15 SLYND...................................... 37 SYMPROIC...............................31",
+        "RYKINDO..................................16 SOAANZ................................... 21 SYMTUZA.................................17"
+      ]
+    },
+    {
+      "line": 3049,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "SAXENDA.................................22 SOTYKTU................................. 40 T/SLIM X2 CONTROL-IQ 7.8",
+      "context": [
+        "SANTYL.................................... 25 SOOLANTRA............................25 T/SLIM X2 CONTROL-IQ 7.7",
+        "SAPHRIS.................................. 16 SORILUX.................................. 25 PUMP........................................43",
+        "SAXENDA.................................22 SOTYKTU................................. 40 T/SLIM X2 CONTROL-IQ 7.8",
+        "SCEMBLIX................................15 SOVUNA...................................15 PUMP........................................43",
+        "scopolamine..............................12 SPIRIVA HANDIHALER............47 T/SLIM X2 INSULIN PMP"
+      ]
+    },
+    {
+      "line": 3051,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "scopolamine..............................12 SPIRIVA HANDIHALER............47 T/SLIM X2 INSULIN PMP",
+      "context": [
+        "SAXENDA.................................22 SOTYKTU................................. 40 T/SLIM X2 CONTROL-IQ 7.8",
+        "SCEMBLIX................................15 SOVUNA...................................15 PUMP........................................43",
+        "scopolamine..............................12 SPIRIVA HANDIHALER............47 T/SLIM X2 INSULIN PMP",
+        "SECUADO................................ 16 SPIRIVA RESPIMAT................ 47 BASAL6.4................................. 43",
+        "SEGLUROMET.........................26 spironolactone...........................21 T/SLIM X2 INSULIN PUMP...... 43"
+      ]
+    },
+    {
+      "line": 3053,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SEGLUROMET.........................26 spironolactone...........................21 T/SLIM X2 INSULIN PUMP...... 43",
+      "context": [
+        "scopolamine..............................12 SPIRIVA HANDIHALER............47 T/SLIM X2 INSULIN PMP",
+        "SECUADO................................ 16 SPIRIVA RESPIMAT................ 47 BASAL6.4................................. 43",
+        "SEGLUROMET.........................26 spironolactone...........................21 T/SLIM X2 INSULIN PUMP...... 43",
+        "SELARSDI................................ 40 SPRAVATO (56 MG DOSE)..... 12 T/SLIM X2/BASAL-",
+        "SEMGLEE (YFGN)................... 29 SPRAVATO (84 MG DOSE)..... 12 IQ/ACC/INSTR..........................43"
+      ]
+    },
+    {
+      "line": 3055,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "SEMGLEE (YFGN)................... 29 SPRAVATO (84 MG DOSE)..... 12 IQ/ACC/INSTR..........................43",
+      "context": [
+        "SEGLUROMET.........................26 spironolactone...........................21 T/SLIM X2 INSULIN PUMP...... 43",
+        "SELARSDI................................ 40 SPRAVATO (56 MG DOSE)..... 12 T/SLIM X2/BASAL-",
+        "SEMGLEE (YFGN)................... 29 SPRAVATO (84 MG DOSE)..... 12 IQ/ACC/INSTR..........................43",
+        "SENSIPAR................................41 sprintec 28................................ 37 T/SLIM X2/CONTROL-",
+        "SEPHIENCE............................. 32 SPRITAM.................................. 10 IQ/ACC/INSTR..........................43"
+      ]
+    },
+    {
+      "line": 3072,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "SIMLANDI (2 SYRINGE).......... 40 SUBLOCADE..............................8 TANDEM MOBI AUTOSOFT",
+      "context": [
+        "SIMLANDI (1 PEN)................... 40 STRENSIQ................................32 tamoxifen citrate........................15",
+        "SIMLANDI (2 PEN)................... 40 STRIVERDI RESPIMAT........... 47 tamsulosin hcl........................... 33",
+        "SIMLANDI (2 SYRINGE).......... 40 SUBLOCADE..............................8 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SENSOR................28 SUBOXONE................................8 30 KIT....................................... 43",
+        "SIMPLERA SYNC SENSOR.....28 subvenite...................................10 TANDEM MOBI AUTOSOFT"
+      ]
+    },
+    {
+      "line": 3073,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes"
+      ],
+      "text": "SIMPLERA SENSOR................28 SUBOXONE................................8 30 KIT....................................... 43",
+      "context": [
+        "SIMLANDI (2 PEN)................... 40 STRIVERDI RESPIMAT........... 47 tamsulosin hcl........................... 33",
+        "SIMLANDI (2 SYRINGE).......... 40 SUBLOCADE..............................8 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SENSOR................28 SUBOXONE................................8 30 KIT....................................... 43",
+        "SIMPLERA SYNC SENSOR.....28 subvenite...................................10 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SYSTEM................ 28 sucralfate.................................. 31 XC KIT...................................... 43"
+      ]
+    },
+    {
+      "line": 3074,
+      "tickers": [
+        "TNDM",
+        "MDT"
+      ],
+      "labels": [
+        "Tandem pump",
+        "Medtronic diabetes"
+      ],
+      "text": "SIMPLERA SYNC SENSOR.....28 subvenite...................................10 TANDEM MOBI AUTOSOFT",
+      "context": [
+        "SIMLANDI (2 SYRINGE).......... 40 SUBLOCADE..............................8 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SENSOR................28 SUBOXONE................................8 30 KIT....................................... 43",
+        "SIMPLERA SYNC SENSOR.....28 subvenite...................................10 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SYSTEM................ 28 sucralfate.................................. 31 XC KIT...................................... 43",
+        "SIMPONI...................................40 SUFLAVE..................................31 TANDEM MOBI"
+      ]
+    },
+    {
+      "line": 3075,
+      "tickers": [
+        "MDT"
+      ],
+      "labels": [
+        "Medtronic diabetes"
+      ],
+      "text": "SIMPLERA SYSTEM................ 28 sucralfate.................................. 31 XC KIT...................................... 43",
+      "context": [
+        "SIMPLERA SENSOR................28 SUBOXONE................................8 30 KIT....................................... 43",
+        "SIMPLERA SYNC SENSOR.....28 subvenite...................................10 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SYSTEM................ 28 sucralfate.................................. 31 XC KIT...................................... 43",
+        "SIMPONI...................................40 SUFLAVE..................................31 TANDEM MOBI",
+        "SIMPONI ARIA......................... 40 sulfamethoxazole-trimethoprim...9 AUTOSOFT30 14PK23\"........... 43"
+      ]
+    },
+    {
+      "line": 3076,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "SIMPONI...................................40 SUFLAVE..................................31 TANDEM MOBI",
+      "context": [
+        "SIMPLERA SYNC SENSOR.....28 subvenite...................................10 TANDEM MOBI AUTOSOFT",
+        "SIMPLERA SYSTEM................ 28 sucralfate.................................. 31 XC KIT...................................... 43",
+        "SIMPONI...................................40 SUFLAVE..................................31 TANDEM MOBI",
+        "SIMPONI ARIA......................... 40 sulfamethoxazole-trimethoprim...9 AUTOSOFT30 14PK23\"........... 43",
+        "simvastatin................................ 21 sulfatrim pediatric........................9 TANDEM MOBI"
+      ]
+    },
+    {
+      "line": 3078,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "simvastatin................................ 21 sulfatrim pediatric........................9 TANDEM MOBI",
+      "context": [
+        "SIMPONI...................................40 SUFLAVE..................................31 TANDEM MOBI",
+        "SIMPONI ARIA......................... 40 sulfamethoxazole-trimethoprim...9 AUTOSOFT30 14PK23\"........... 43",
+        "simvastatin................................ 21 sulfatrim pediatric........................9 TANDEM MOBI",
+        "SINGULAIR...............................46 sumatriptan succinate............... 13 AUTOSOFTXC 14PK23\".......... 43",
+        "SITAGLIPT BASE-METFORM SUNOSI.................................... 48 TANDEM MOBI"
+      ]
+    },
+    {
+      "line": 3080,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "SITAGLIPT BASE-METFORM SUNOSI.................................... 48 TANDEM MOBI",
+      "context": [
+        "simvastatin................................ 21 sulfatrim pediatric........................9 TANDEM MOBI",
+        "SINGULAIR...............................46 sumatriptan succinate............... 13 AUTOSOFTXC 14PK23\".......... 43",
+        "SITAGLIPT BASE-METFORM SUNOSI.................................... 48 TANDEM MOBI",
+        "HCL ER.....................................26 SUPARTZ FX............................42 AUTOSOFTXC 14PK5\"............ 43",
+        "60"
+      ]
+    },
+    {
+      "line": 3083,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM MOBI TRUSTEEL TIKOSYN.................................. 21 triazolam................................... 17",
+      "context": [
+        "HCL ER.....................................26 SUPARTZ FX............................42 AUTOSOFTXC 14PK5\"............ 43",
+        "60",
+        "TANDEM MOBI TRUSTEEL TIKOSYN.................................. 21 triazolam................................... 17",
+        "SUPP KIT..................................43 timolol maleate..........................44 TRIBENZOR............................. 21",
+        "TANDEM T/SLIM ASFT 30 timolol maleate (once-daily)...... 44 TRICOR.................................... 21"
+      ]
+    },
+    {
+      "line": 3085,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T/SLIM ASFT 30 timolol maleate (once-daily)...... 44 TRICOR.................................... 21",
+      "context": [
+        "TANDEM MOBI TRUSTEEL TIKOSYN.................................. 21 triazolam................................... 17",
+        "SUPP KIT..................................43 timolol maleate..........................44 TRIBENZOR............................. 21",
+        "TANDEM T/SLIM ASFT 30 timolol maleate (once-daily)...... 44 TRICOR.................................... 21",
+        "PK10 23\"................................... 43 timolol maleate ocudose........... 44 TRIDACAINE II........................... 8",
+        "TANDEM T/SLIM ASFT 30 timolol maleate pf......................44 TRIDACAINE III.......................... 8"
+      ]
+    },
+    {
+      "line": 3087,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T/SLIM ASFT 30 timolol maleate pf......................44 TRIDACAINE III.......................... 8",
+      "context": [
+        "TANDEM T/SLIM ASFT 30 timolol maleate (once-daily)...... 44 TRICOR.................................... 21",
+        "PK10 23\"................................... 43 timolol maleate ocudose........... 44 TRIDACAINE II........................... 8",
+        "TANDEM T/SLIM ASFT 30 timolol maleate pf......................44 TRIDACAINE III.......................... 8",
+        "PK14 23\"................................... 43 TIMOPTIC OCUDOSE..............44 triderm.......................................25",
+        "TANDEM T/SLIM ASFT XC tiotropium bromide.................... 47 tri-estarylla................................ 37"
+      ]
+    },
+    {
+      "line": 3089,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T/SLIM ASFT XC tiotropium bromide.................... 47 tri-estarylla................................ 37",
+      "context": [
+        "TANDEM T/SLIM ASFT 30 timolol maleate pf......................44 TRIDACAINE III.......................... 8",
+        "PK14 23\"................................... 43 TIMOPTIC OCUDOSE..............44 triderm.......................................25",
+        "TANDEM T/SLIM ASFT XC tiotropium bromide.................... 47 tri-estarylla................................ 37",
+        "PK10 23\"................................... 43 TIROSINT................................. 37 TRIJARDY XR.......................... 26",
+        "TANDEM T/SLIM ASFT XC TIROSINT-SOL.........................37 TRIKAFTA.................................47"
+      ]
+    },
+    {
+      "line": 3091,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T/SLIM ASFT XC TIROSINT-SOL.........................37 TRIKAFTA.................................47",
+      "context": [
+        "TANDEM T/SLIM ASFT XC tiotropium bromide.................... 47 tri-estarylla................................ 37",
+        "PK10 23\"................................... 43 TIROSINT................................. 37 TRIJARDY XR.......................... 26",
+        "TANDEM T/SLIM ASFT XC TIROSINT-SOL.........................37 TRIKAFTA.................................47",
+        "PK14 23\"................................... 43 tizanidine hcl............................. 48 TRILEPTAL...............................11",
+        "TANDEM T/SLIM TRUSTL TLANDO................................... 33 tri-linyah.................................... 37"
+      ]
+    },
+    {
+      "line": 3093,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T/SLIM TRUSTL TLANDO................................... 33 tri-linyah.................................... 37",
+      "context": [
+        "TANDEM T/SLIM ASFT XC TIROSINT-SOL.........................37 TRIKAFTA.................................47",
+        "PK14 23\"................................... 43 tizanidine hcl............................. 48 TRILEPTAL...............................11",
+        "TANDEM T/SLIM TRUSTL TLANDO................................... 33 tri-linyah.................................... 37",
+        "PK10 23\"................................... 43 TOBI NEBULIZER.................... 47 tri-lo-estarylla............................ 37",
+        "TAPENTADOL HCL ER..............7 TOBI PODHALER.....................47 tri-lo-marzia............................... 37"
+      ]
+    },
+    {
+      "line": 3110,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly dulaglutide"
+      ],
+      "text": "TEGRETOL...............................10 TOSYMRA................................ 13 TRULICITY............................... 26",
+      "context": [
+        "TECFIDERA..............................22 TOPROL XL..............................21 TRUDHESA.............................. 13",
+        "TEGLUTIK................................ 23 torsemide.................................. 21 TRULANCE...............................31",
+        "TEGRETOL...............................10 TOSYMRA................................ 13 TRULICITY............................... 26",
+        "TEGRETOL-XR........................ 10 TOUJEO MAX SOLOSTAR...... 29 TRUQAP................................... 15",
+        "TEKTURNA...............................21 TOUJEO SOLOSTAR...............30 TRUVADA.................................17"
+      ]
+    },
+    {
+      "line": 3111,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TEGRETOL-XR........................ 10 TOUJEO MAX SOLOSTAR...... 29 TRUQAP................................... 15",
+      "context": [
+        "TEGLUTIK................................ 23 torsemide.................................. 21 TRULANCE...............................31",
+        "TEGRETOL...............................10 TOSYMRA................................ 13 TRULICITY............................... 26",
+        "TEGRETOL-XR........................ 10 TOUJEO MAX SOLOSTAR...... 29 TRUQAP................................... 15",
+        "TEKTURNA...............................21 TOUJEO SOLOSTAR...............30 TRUVADA.................................17",
+        "telmisartan................................ 21 TOVIAZ..................................... 32 TRUXIMA..................................15"
+      ]
+    },
+    {
+      "line": 3112,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TEKTURNA...............................21 TOUJEO SOLOSTAR...............30 TRUVADA.................................17",
+      "context": [
+        "TEGRETOL...............................10 TOSYMRA................................ 13 TRULICITY............................... 26",
+        "TEGRETOL-XR........................ 10 TOUJEO MAX SOLOSTAR...... 29 TRUQAP................................... 15",
+        "TEKTURNA...............................21 TOUJEO SOLOSTAR...............30 TRUVADA.................................17",
+        "telmisartan................................ 21 TOVIAZ..................................... 32 TRUXIMA..................................15",
+        "temazepam............................... 48 TRACLEER...............................47 TRYNGOLZA............................ 21"
+      ]
+    },
+    {
+      "line": 3128,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TEZRULY..................................33 TRESIBA...................................30 TYVASO DPI INSTITUTIONAL",
+      "context": [
+        "testosterone.............................. 33 TREMFYA.................................40 TYRVAYA................................. 45",
+        "testosterone cypionate..............33 treprostinil........................... 47, 48 TYVASO................................... 48",
+        "TEZRULY..................................33 TRESIBA...................................30 TYVASO DPI INSTITUTIONAL",
+        "TEZSPIRE................................ 47 TRESIBA FLEXTOUCH............30 KIT............................................ 48",
+        "THALITONE..............................21 tretinoin..................................... 25 TYVASO DPI MAINTENANCE"
+      ]
+    },
+    {
+      "line": 3129,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "TEZSPIRE................................ 47 TRESIBA FLEXTOUCH............30 KIT............................................ 48",
+      "context": [
+        "testosterone cypionate..............33 treprostinil........................... 47, 48 TYVASO................................... 48",
+        "TEZRULY..................................33 TRESIBA...................................30 TYVASO DPI INSTITUTIONAL",
+        "TEZSPIRE................................ 47 TRESIBA FLEXTOUCH............30 KIT............................................ 48",
+        "THALITONE..............................21 tretinoin..................................... 25 TYVASO DPI MAINTENANCE",
+        "THIOLA..................................... 32 TREXALL.................................. 40 KIT............................................ 48"
+      ]
+    },
+    {
+      "line": 3138,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "UCERIS.................................... 41 VICTOZA.................................. 26 XALATAN..................................44",
+      "context": [
+        "61",
+        "UBRELVY................................. 13 VIBERZI.................................... 31 XACIATO.................................... 9",
+        "UCERIS.................................... 41 VICTOZA.................................. 26 XALATAN..................................44",
+        "UDENYCA................................ 18 vienva........................................37 XALKORI.................................. 15",
+        "UDENYCA ONBODY................18 VIGADRONE............................ 11 XANAX......................................17"
+      ]
+    },
+    {
+      "line": 3180,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo semaglutide"
+      ],
+      "text": "VENXXIVA................................ 32 WEGOVY..................................23 YUFLYMA-CD/UC/HS",
+      "context": [
+        "venlafaxine hcl er...................... 12 warfarin sodium...........................9 YUFLYMA (2 PEN)................... 41",
+        "VENTOLIN HFA........................47 WAYRILZ.................................. 18 YUFLYMA (2 SYRINGE).......... 41",
+        "VENXXIVA................................ 32 WEGOVY..................................23 YUFLYMA-CD/UC/HS",
+        "VEOZAH................................... 43 WELCHOL................................ 21 STARTER................................. 41",
+        "verapamil hcl er.........................21 WELLBUTRIN SR.....................12 YUPELRI...................................47"
+      ]
+    },
+    {
+      "line": 3198,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND.............................. 23",
+      "context": [
+        "ZENPEP....................................32",
+        "ZENZEDI...................................22",
+        "ZEPBOUND.............................. 23",
+        "ZEPBOUND KWIKPEN............ 23",
+        "ZEPOSIA.................................. 22"
+      ]
+    },
+    {
+      "line": 3199,
+      "tickers": [
+        "LLY"
+      ],
+      "labels": [
+        "Lilly tirzepatide"
+      ],
+      "text": "ZEPBOUND KWIKPEN............ 23",
+      "context": [
+        "ZENZEDI...................................22",
+        "ZEPBOUND.............................. 23",
+        "ZEPBOUND KWIKPEN............ 23",
+        "ZEPOSIA.................................. 22",
+        "ZEPOSIA 7-DAY STARTER"
+      ]
+    }
+  ]
+}

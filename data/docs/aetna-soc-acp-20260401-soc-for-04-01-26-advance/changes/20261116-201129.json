@@ -1,0 +1,26 @@
+{
+  "id": "aetna-soc-acp-20260401-soc-for-04-01-26-advance",
+  "stamp": "20261116-201129",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 357,
+  "watchlist_in_document": [
+    {
+      "line": 55,
+      "tickers": [
+        "NVO"
+      ],
+      "labels": [
+        "Novo liraglutide"
+      ],
+      "text": "SAXENDA Moving to non-preferred brand tier",
+      "context": [
+        "PROLIA Non-formulary; not covered. Covered options include: teriparatide,",
+        "zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS",
+        "SAXENDA Moving to non-preferred brand tier",
+        "STOBOCLO Drug list addition (preferred specialty); Preauthorization required;",
+        "Quantity limits apply. Covered up to 1 syringe every 6 months"
+      ]
+    }
+  ]
+}

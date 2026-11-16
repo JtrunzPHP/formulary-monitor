@@ -1,0 +1,1024 @@
+Prior authorization
+Premium Formulary
+Utilization Management
+July 1, 2026
+
+
+
+
+Prior authorization (PA) requires your doctor to tell us why you are taking a medication to determine if it
+will be covered under your pharmacy benefit. Some medications must be reviewed because they may:
+• Only be approved or effective for safely treating specific conditions.
+• Cost more than other medications used to treat the same or similar conditions.
+
+The following medications require a PA for coverage
+This means we need more information from your doctor to see if you can get coverage for
+your medication.
+
+Getting a short-term supply
+If you must take a medication that requires prior authorization right away, there are two options that
+may work for you. First, ask your doctor if a sample is available. Or, check with your pharmacy to request
+a short-term supply of 5 days or less. Keep in mind, you will be responsible for the full cost at that time.
+If the prior authorization request is approved, then your pharmacist can fill the rest of your prescription.
+If you see your medication listed, we encourage you to talk with your doctor about your treatment
+and medication options. If you have questions about the PA process, call the phone number on your
+member ID card.
+Premium non-specialty prior authorization list
+
+ Therapy class                         Medication name                                          Quantity limit
+ Anti-infectives
+ Anthelmintics                         albendazole tab 200 mg                                   120 tablets per 180 days
+ Antibiotics                           AEMCOLO TAB                                              None
+                                       XIFAXAN TAB 550 MG                                       None
+                                       ZINPLAVA IV SOLN                                         None
+ Antifungals                           CICLOPIROX KIT                                           None
+                                       CRESEMBA CAP                                             None
+                                       NOXAFIL PACKET                                           None
+                                       NOXAFIL SUSP                                             None
+                                       NOXAFIL TAB                                              None
+                                       SPORANOX                                                 None
+                                       tavaborole soln                                          None
+                                       VFEND SUSP                                               None
+                                       VFEND TAB                                                None
+ Antimalarial                          QUALAQUIN CAP                                            None
+ Antiretrovirals, HIV                  DESCOVY TAB 200-25 MG                                    None
+                                       SELZENTRY                                                None
+                                       SUNLENCA SOLN 463.5 MG/1.5 ML                            9 mL per 365 days
+                                       SUNLENCA TAB 300 MG                                      2 packs per 365 days
+                                       SUNLENCA TAB THERAPY PACK                                2 packs per 365 days
+ Cardiology
+ Antihypertensive Agents               TRYVIO TAB                                               1 tablet per day
+                                       NEXLETOL TAB                                             1 tablet per day
+                                       NEXLIZET TAB                                             1 tablet per day
+                                       VASCEPA CAP                                              None
+ Heart Failure                         VERQUVO TAB                                              1 tablet per day
+ Miscellaneous                         DEMSER CAP 250 MG                                        16 capsules per day
+                                       DIBENZYLINE CAP                                          None
+ Central Nervous System
+ Analgesics (Cough Opioid) (PA         CAPCOF SYRUP 5-2-10 MG/5 ML                              240 mL per fill, 2 fills per 60 days
+ age <18 years only)                   CODITUSSIN AC LIQUID 200-10 MG/5 ML                      240 mL per fill, 2 fills per 60 days
+                                       CODITUSSIN DAC LIQUID 30-10-200 MG/5 ML                  240 mL per fill, 2 fills per 60 days
+                                       GUAIFENESIN-CODEINE SOLN 100-10 MG/5 ML                  240 mL per fill, 2 fills per 60 days
+                                       HYCODAN SYRUP 5-1.5 MG/5 ML                              240 mL per fill, 2 fills per 60 days
+                                       HYCODAN TAB 5-1.5 MG                                     6 tabs per day, 7 day supply, 2 fills per 60 days
+                                       HYD POL/CPM SUSP 10-8 MG/5 ML                            240 mL per fill, 2 fills per 60 days
+                                       MAR-COF BP LIQUID 30-2-7.5 MG/5 ML                       240 mL per fill, 2 fills per 60 days
+                                       MAR-COF CG LIQUID 225-7.5 MG/5 ML                        240 mL per fill, 2 fills per 60 days
+                                       MAXI-TUSS CD LIQUID 10-4-10 MG/5 ML                      240 mL per fill, 2 fills per 60 days
+                                       NINJACOF-XG LIQUID 200-8 MG/5 ML                         240 mL per fill, 2 fills per 60 days
+                                       POLY-TUSSIN AC LIQUID 10-4-10 MG/5 ML                    240 mL per fill, 2 fills per 60 days
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).                 2
+ Therapy class                         Medication name                         Quantity limit
+                                       PROMETHAZINE/CODEINE SYRUP 6.25-10 MG/5 240 mL per fill, 2 fills per 60 days
+                                       ML
+                                       PRO-RED AC SYRUP 5-1-9 MG/5 ML          240 mL per fill, 2 fills per 60 days
+                                       RYDEX LIQUID 10-1.33-6.33 MG/5 ML       240 mL per fill, 2 fills per 60 days
+                                       TUXARIN ER TAB                          2 tablets per day, 7 day supply, 2 fills per 60 days
+ Analgesics (Non-Opioid)               diclofenac soln                         None
+                                       QUTENZA PATCH KIT                       4 patches per 90 days
+ Analgesics (Opioid)                   ACTIQ LOZENGE                           4 lozenges per day
+                                       BELBUCA FILM                            2 films per day
+                                       buprenorphine patch                     4 patches per 28 days
+                                       fentanyl patch                          15 patches per 30 days
+                                       fentanyl patch 75 mcg/hr                1 patch per day
+                                       fentanyl patch 100 mcg/hr               1 patch per day
+                                       hydrocodone ER cap                      2 capsules per day
+                                       hydrocodone ER cap 50 MG                4 capsules per day
+                                       hydromorphone ER tab                    2 tablets per day
+                                       HYSINGLA ER TAB                         1 tablet per day
+                                       methadone soln                          None
+                                       methadone tab                           None
+                                       morphine ER beads cap                   1 capsule per day
+                                       morphine ER beads cap 120 mg            2 capsules per day
+                                       morphine ER cap                         2 capsules per day
+                                       morphine ER tab                         3 tablets per day
+                                       OXYCONTIN ER TAB                        4 tablets per day
+                                       oxymorphone ER tab                      4 tablets per day
+                                       tramadol ER tab                         1 tablet per day
+                                       XTAMPZA ER CAP                          4 capsules per day
+ Analgesics Gastroprotective           naproxen/esomeprazole tab               2 tablets per day
+ Agents
+ Anticonvulsants                       BANZEL                                                   None
+                                       HORIZANT                                                 2 tablets per day
+ Antipsychotics                        ADASUVE INHALER 10 MG                                    None
+                                       IGALMI FILM                                              None
+ Benzodiazepines                       clobazam, SYMPAZAN                                       None
+ Hypoactive Sexual Desire              ADDYI TAB                                                1 tablet per day
+ Disorder                              VYLEESI INJ 1.75 MG/0.3 ML                               6 syringes per 30 days
+ Migraine                              AIMOVIG INJ                                              2 syringes per 28 days
+                                       AIMOVIG INJ 140 MG/ML                                    1 syringe per 28 days
+                                       dihydroergotamine inj 1 mg/mL                            24 ampules per 28 days
+                                       EMGALITY INJ 100 MG/ML                                   3 syringes per 28 days
+                                       EMGALITY INJ 120 MG/ML                                   1 syringe per 28 days
+                                       ERGOMAR SL TAB 2 MG                                      20 tablets per 28 days
+                                       ergotamine/caffeine tab 1-100 mg                         24 tablets per 28 days
+                                       MIGERGOT SUPP 2-100 MG                                   20 suppositories per 28 days
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   3
+ Therapy class                         Medication name                                          Quantity limit
+                                       MIGRANAL NASAL SPRAY 4 MG/ML                             8 vials per 30 days
+                                       NURTEC ODT                                               16 tablets per 30 days
+                                       QULIPTA TAB                                              1 tablet per day
+                                       UBRELVY TAB                                              16 tablets per 30 days
+                                       VYEPTI IV SOLN                                           3 vials per 84 days
+                                       ZAVZPRET NASAL SPRAY 10 MG/ACT                           6 devices per 30 days
+ Miscellaneous                         NUEDEXTA CAP                                             None
+ Neurotoxins                           BOTOX COSMETIC INJ                                       None
+                                       BOTOX INJ                                                None
+                                       DAXXIFY INJ                                              None
+                                       DYSPORT INJ                                              None
+                                       MYOBLOC INJ                                              None
+                                       XEOMIN INJ                                               None
+ Parkinson's Agents                    DUOPA SUSP 4.63-20 MG/ML                                 None
+                                       NUPLAZID CAP                                             None
+                                       NUPLAZID TAB                                             None
+ Sedative Hypnotics                    flurazepam cap                                           1 capsule per day
+ Stimulants                            armodafinil tab 50 mg                                    1 tablet per day
+                                       armodafinil tab 50 mg                                    2 tablets per day
+                                       modafinil tab                                            1 tablet per day
+                                       SUNOSI TAB                                               1 tablet per day
+ Weight Loss                           LOMAIRA TAB 8 MG                                         None
+                                       QSYMIA CAP                                               None
+                                       SAXENDA INJ                                              5 syringes per 30 days
+                                       WEGOVY INJ                                               4 syringes per 28 days
+                                       WEGOVY TAB                                               1 tablet per day
+                                       WEGOVY TAB 1.5 MG                                        60 tablets per 365 days
+                                       XENICAL CAP 120 MG                                       None
+                                       ZEPBOUND INJ                                             4 syringes per 28 days
+ Dermatology
+ Acne (Oral)                           ABSORICA LD CAP                                          None
+ Acne (Topical)                        AKLIEF CREAM                                             None
+                                       ALTRENO, ATRALIN, tretinoin                              None
+                                       tazarotene                                               None
+ Beta-Blocker                          HEMANGEOL SOLN 4.28 MG/ML                                None
+ Molluscum Contagiosum                 YCANTH SOLN 0.7%                                         None
+ Agents                                ZELSUVMI GEL 10.3%                                       None
+ Electrolyte & Renal Agents
+ Vasopressin Analog                    NOCDURNA SL TAB                                          None
+ Endocrinology & Metabolism
+ Aldosterone Antagonist                KERENDIA TAB                                             1 tablet per day
+ Androgens, Testosterone               TESTONE CIK KIT 200 MG/ML                                4 kits per 28 days
+ (Injectable)                          testosterone cypionate inj                               1 vial per 28 days
+                                       TESTOSTERONE CYPIONATE INJ 200 MG/ML                     4 vials per 28 days
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   4
+ Therapy class                  Medication name                                                 Quantity limit
+                                testosterone enanthate inj 200 mg/mL                            1 vial per 28 days
+                                testosterone implant pellets                                    None
+ Androgens, Testosterone (Oral) KYZATREX CAP                                                    4 capsules per day
+                                KYZATREX CAP 100 MG                                             7 capsules per day
+                                METHITEST TAB 10 MG                                             20 tablets per day
+                                methyltestosterone cap 10 mg                                    20 capsules per day
+ Androgens, Testosterone        testosterone gel 1% (25 mg)                                     4 packets per day
+ (Topical)                      testosterone gel 1% (50 mg)                                     2 packets per day
+                                testosterone gel 1.62% (20.25 mg)                               4 packets per day
+                                testosterone gel 1.62% (40.5 mg)                                2 packets per day
+                                testosterone gel pump 1%                                        4 bottles per 30 days
+                                testosterone gel pump 1.62%                                     2 bottles per 30 days
+                                testosterone gel pump 10 mg/act                                 2 bottles per 30 days
+                                testosterone soln 30 mg/act                                     2 bottles per 30 days
+ Antidiabetic Agents            AFREZZA INHALATION POWDER                                       None
+                                SYMLINPEN INJ                                                   None
+ Diabetic Supplies              CONTINUOUS BLOOD GLUCOSE SYSTEM                                 None
+                                RECEIVER*
+                                CONTINUOUS BLOOD GLUCOSE SYSTEM                                 None
+                                SENSOR*
+                                CONTINUOUS BLOOD GLUCOSE SYSTEM                                 None
+                                TRANSMITTER*
+ GLP-1 Agonists                 BYDUREON BCISE                                                  4 syringes per 28 days
+                                BYETTA INJ                                                      1 syringe per 30 days
+                                liraglutide inj                                                 3 syringes per 30 days
+                                MOUNJARO INJ                                                    4 syringes per 28 days
+                                OZEMPIC INJ                                                     1 syringe per 28 days
+                                RYBELSUS TAB                                                    1 tablet per day
+                                RYBELSUS TAB 3 MG                                               2 starter packs per 365 days
+                                TRULICITY INJ                                                   4 syringes per 28 days
+ Gonadotropins                  MYFEMBREE TAB                                                   1 tablet per day
+                                ORIAHNN CAP                                                     2 capsules per day
+                                ORILISSA TAB 150 MG                                             1 tablet per day
+                                ORILISSA TAB 200 MG                                             2 tablets per day
+ Gastroenterology
+ Antiemetics                    BONJESTA TAB 20-20 MG                                           2 tablets per day
+                                DICLEGIS TAB 10-10 MG                                           4 tablets per day
+                                MARINOL CAP                                                     2 capsules per day
+                                SYNDROS SOLN                                                    4 mL per day
+ Corticosteroid                 EOHILIA SUSP 2 MG/10 ML                                         20 mL per day
+ Irritable Bowel Syndrome       LOTRONEX TAB                                                    None
+                                VIBERZI TAB                                                     2 tablets per day
+ Hematology
+ Sickle Cell Disease            ENDARI POWDER PACK                                              None
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   5
+ Therapy class                         Medication name                                          Quantity limit
+                                       SIKLOS TAB                                               None
+                                       XROMI SOLN                                               None
+ Immunology
+ Allergen Extracts                     GRASTEK SL TAB                                           1 tablet per day
+                                       ODACTRA SL TAB 12 SQ-HDM                                 1 tablet per day
+                                       ORALAIR SL TAB 100 IR                                    2 packs per 365 days
+                                       ORALAIR SL TAB 300 IR                                    1 tablet per day
+                                       RAGWITEK SL TAB                                          1 tablet per day
+ Immune Globulins                      VARIZIG                                                  None
+ Miscellaneous
+ Anticholinergic                       CUVPOSA SOLN 1 MG/5 ML                                   None
+                                       GLYCATE TAB 1.5 MG                                       6 tablets per day
+                                       ROBINUL FORTE TAB 2 MG (Brand only)                      4 tablets per day
+                                       ROBINUL TAB 1 MG (Brand only)                            4 tablets per day
+ Calcium Modifier                      cinacalcet tab                                           None
+ Methotrexate Auto-Injectors           RASUVO INJ                                               4 syringes per 28 days
+ Movement Disorder Agents              NOURIANZ TAB                                             None
+ Toxicology                            EXJADE, JADENU                                           None
+                                       FERRIPROX SOLN 100 MG/ML                                 None
+                                       FERRIPROX TAB                                            None
+                                       PEDMARK INJ 12.5 GM                                      None
+ Viscosupplements                      DUROLANE INJ 60 MG/3 ML                                  2 syringes per 180 days
+                                       EUFLEXXA INJ 20 MG/2 ML                                  6 syringes per 180 days
+                                       GELSYN-3 INJ 16.8 MG/2 ML                                6 syringes per 180 days
+ Wound Care                            REGRANEX GEL                                             None
+ Non-Solid Oral Dosage Forms
+ Antidepressants             RALDESY SOLN 10 MG/ML                                              None
+ Antihypertensive Agents     ARBLI SUSP 10 MG/ML                                                None
+                             LOPRESSOR SOLN 10 MG/ML                                            None
+                             NORLIQVA SOLN 1 MG/ML (Brand only)                                 None
+ Oncology (Oral)             JYLAMVO SOLN 2 MG/ML                                               None
+                             XATMEP SOLN 2.5 MG/ML                                              None
+ Ophthalmology
+ Dry Eye                     CEQUA SOLN 0.09%                                                   2 vials per day
+                             EYSUVIS SUSP 0.25%                                                 1 bottle per 30 days
+                             MIEBO SOLN 1.3 GM/ML                                               3 mL per 30 day
+                             RESTASIS EMULSION 0.05% (Brand only)                               2 vials per day or 1 bottle per 30 days
+                             TRYPTYR SOLN 0.003%                                                2 vials per day
+                             TYRVAYA NASAL SPRAY                                                2 bottles per 30 days
+                             VEVYE SOLN 0.1%                                                    1 bottle per 30 days
+                             XIIDRA SOLN 5%                                                     2 vials per day
+ Miscellaneous               XIPERE SUSP 40 MG/ML                                               None
+ Prostaglandins              IDOSE TR IMPLANT                                                   None
+ Vasoconstrictor             UPNEEQ SOLN                                                        None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).       6
+ Therapy class                         Medication name                                          Quantity limit
+ Respiratory
+ Asthma/COPD                           DALIRESP TAB                                             None
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   7
+Premium specialty prior authorization list
+ Therapy class                         Medication name                                          Quantity limit
+ Anti-infectives
+ Antibiotics                           ARIKAYCE SUSP 590 MG/8.4 ML                              None
+                                       REBYOTA SUSP                                             None
+ Antifungals                           REZZAYO IV SOLN                                          None
+ Antiprotozoal                         DARAPRIM TAB                                             None
+ Antivirals                            LIVTENCITY TAB                                           None
+ Cardiology
+ Antilipemic                  EVKEEZA IV SOLN                                                   None
+                              JUXTAPID CAP                                                      1 capsule per day
+                              JUXTAPID CAP 20 MG                                                2 capsules per day
+                              JUXTAPID CAP 30 MG                                                2 capsules per day
+                              TRYNGOLZA INJ 80 MG/0.8 ML                                        1 syringe per 28 days
+ Hereditary Angioedema Agents ANDEMBRY INJ 200 MG/1.2 ML                                        1 syringe per 28 days
+                              BERINERT INJ                                                      10 vials per 30 days
+                              DAWNZERA INJ 80 MG/0.8 ML                                         1 syringe per 28 days
+                              HAEGARDA INJ 2000 UNIT                                            24 vials per 28 days
+                              HAEGARDA INJ 3000 UNIT                                            16 vials per 28 days
+                              icatibant inj                                                     6 syringes per 30 days
+                              KALBITOR INJ 10 MG/ML                                             12 vials per 30 days
+                              ORLADEYO CAP                                                      1 capsule per day
+                              RUCONEST INJ 2100 UNIT                                            8 vials per 30 days
+                              SAJAZIR INJ                                                       6 syringes per 30 days
+                              TAKHZYRO INJ                                                      2 syringes/vials per 28 days
+ Pulmonary Arterial           ADEMPAS TAB                                                       3 tablets per day
+ Hypertension                 ambrisentan tab                                                   1 tablet per day
+                              bosentan tab                                                      2 tablets per day
+                              FLOLAN, VELETRI                                                   None
+                              OPSUMIT TAB                                                       1 tablet per day
+                              ORENITRAM TAB                                                     None
+                              ORENITRAM TITRATION KIT                                           2 starter kits per 365 days
+                              sildenafil iv soln                                                None
+                              sildenafil susp                                                   2 bottles per 30 days
+                              sildenafil tab                                                    3 tablets per day
+                              tadalafil tab                                                     2 tablets per day
+                              TRACLEER TAB FOR ORAL SUSP                                        4 tablets per day
+                              treprostinil                                                      None
+                              TYVASO DPI MAINTENANCE KIT                                        4 cartridges per day
+                              TYVASO DPI MAINTENANCE KIT 32-64 MCG                              8 cartridges per day
+                              TYVASO DPI MAINTENANCE KIT 48-64 MCG                              8 cartridges per day
+                              TYVASO DPI TITRATION KIT                                          2 starter kits per 365 days
+                              TYVASO SOLN 0.6 MG/ML                                             1 ampule per day
+                              UPTRAVI IV SOLN                                                   None
+                              UPTRAVI TAB                                                       2 tablets per day
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   8
+ Therapy class                  Medication name                                                 Quantity limit
+                                UPTRAVI TITRATION PACK 200-800 MCG                              2 starter packs per 365 days
+                                VENTAVIS SOLN                                                   9 ampules per day
+                                WINREVAIR INJ                                                   1 kit per 21 days
+                                YUTREPIA CAP                                                    5 capsules per day
+                                YUTREPIA CAP 79.5 MCG                                           10 capsules per day
+                                YUTREPIA CAP 106 MCG                                            8 capsules per day
+ Transthyretin Stabilizers      VYNDAMAX CAP                                                    1 capsule per day
+                                VYNDAQEL CAP                                                    4 capsules per day
+ Vasopressors                   NORTHERA CAP                                                    None
+ von Willebrand Factor-Directed CABLIVI KIT                                                     1 kit per day
+ Antibody
+ Central Nervous System
+ Anticonvulsants                DIACOMIT                                                        None
+                                EPIDIOLEX SOLN                                                  None
+                                FINTEPLA SOLN                                                   None
+                                vigabatrin                                                      None
+                                VIGAFYDE                                                        None
+                                ZTALMY                                                          None
+ Antidepressants                SPRAVATO NASAL SPRAY                                            None
+                                ZULRESSO IV SOLN                                                None
+ Antipruritic                   KORSUVA INJ 50 MCG/ML                                           None
+ Depressant                     sodium oxybate                                                  18 mL per day
+                                XYWAV SOLN                                                      18 mL per day
+ Gene Therapy                   KEBILIDI                                                        None
+                                LENMELDY                                                        None
+                                SKYSONA                                                         None
+ Miscellaneous                  QALSODY SOLN                                                    None
+                                RADICAVA                                                        None
+                                RELYVRIO PAK 3-1 GM                                             2 packets per day
+ Muscular Dystrophy             AGAMREE                                                         None
+                                deflazacort                                                     None
+ Neurological Agents            AMVUTTRA INJ                                                    1 syringe per 90 days
+                                ONPATTRO IV SOLN                                                None
+                                SKYCLARYS CAP 50 MG                                             3 capsules per day
+                                TEGSEDI INJ                                                     4 syringes per 28 days
+                                WAINUA INJ 45 MG/0.8 ML                                         1 syringe per 28 days
+ Parkinson's Agents             APOKYN INJ                                                      30 cartridges per 30 days
+                                INBRIJA CAP                                                     None
+                                ONAPGO INJ 98 MG/20 ML                                          20 mL per day
+                                VYALEV INJ                                                      None
+ Sleep Disorder                 tasimelteon cap                                                 1 capsule per day
+                                WAKIX TAB                                                       2 tablets per day
+
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   9
+ Therapy class                         Medication name                                          Quantity limit
+ Dermatology
+ Alkylating Agents                     VALCHLOR GEL                                             None
+ Alpha-Melanocyte Stimulating          SCENESSE IMPLANT                                         None
+ Hormone Analog
+ Epidermolysis Bullosa Agent           VYJUVEK GEL                                              10 mL per 28 days
+ Electrolyte & Renal Agents
+ Diuretics                             KEVEYIS, ORMALVI TAB                                     4 tablets per day
+ Endocrinology & Metabolism
+ Antidiabetic Agents                   LANTIDRA IV SUSP                                         None
+ Congenital Adrenal Hyperplasia        CRENESSITY CAP                                           3 capsules per day
+ Agent                                 CRENESSITY CAP 100 MG                                    4 capsules per day
+                                       CRENESSITY SOLN 50 MG/ML                                 8 mL per day
+ C-type Natriuretic Peptide            VOXZOGO INJ                                              1 vial per day
+ Cyclic Pyranopterin                   NULIBRY IV SOLN                                          None
+ Monophosphate (cPMP)
+ Substrate Replacement
+ Therapy
+ Endothelin Receptor                   FILSPARI TAB                                             1 tablet per day
+ Antagonist                            VANRAFIA TAB                                             1 tablet per day
+ Farnesyltransferase Inhibitor         ZOKINVY CAP                                              4 capsules per day
+ Gonadotropins                         CAMCEVI INJ 42 MG                                        1 injection per 168 days
+                                       ELIGARD INJ 7.5 MG                                       1 injection per 28 days
+                                       ELIGARD INJ 22.5 MG                                      1 injection per 84 days
+                                       ELIGARD INJ 30 MG                                        1 injection per 112 days
+                                       ELIGARD INJ 45 MG                                        1 injection per 168 days
+                                       FENSOLVI INJ 45 MG                                       1 injection per 168 days
+                                       FIRMAGON INJ 80 MG                                       1 vial per 28 days
+                                       FIRMAGON INJ 120 MG                                      2 vials per 365 days
+                                       leuprolide inj 1 mg/0.2 mL                               None
+                                       LEUPROLIDE INJ 22.5 MG                                   1 injection per 84 days
+                                       LUPRON DEPOT INJ                                         None
+                                       LUPRON DEPOT-PED                                         1 syringe per 28 days
+                                       LUPRON DEPOT-PED (3-MONTH)                               1 syringe per 84 days
+                                       LUPRON DEPOT-PED (6 MONTH)                               1 syringe per 168 days
+                                       ORGOVYX TAB                                              None
+                                       SUPPRELIN LA IMPLANT KIT                                 1 kit per 365 days
+                                       TRELSTAR MIX INJ 3.75 MG                                 1 injection per 28 days
+                                       TRELSTAR MIX INJ 11.25 MG                                1 injection per 84 days
+                                       TRELSTAR MIX INJ 22.5 MG                                 1 injection per 168 days
+                                       TRIPTODUR INJ                                            1 injection per 168 days
+ Growth Hormones and Related           EGRIFTA SV INJ 2 MG                                      1 vial per day
+ Therapy                               EGRIFTA WR KIT 11.6 MG                                   1 kit per 28 days
+                                       NORDITROPIN, NUTROPIN AQ, OMNITROPE                      None
+                                       NGENLA                                                   None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   10
+ Therapy class                Medication name                                                   Quantity limit
+                              SEROSTIM INJ                                                      None
+                              SKYTROFA INJ                                                      None
+                              SOGROYA INJ                                                       None
+                              ZORBTIVE INJ                                                      None
+ Growth Hormones and Related INCRELEX                                                           None
+ Therapy (Acromegaly)         SOMAVERT                                                          None
+ Hormone Modifiers            MYALEPT INJ                                                       None
+ Hyperammonemia Agents        CARBAGLU TAB 200 MG                                               None
+ Hypoparathyroidism Agent     YORVIPATH INJ                                                     2 syringes per 28 days
+ Miscellaneous                ACTHAR, CORTROPHIN INJ GEL                                        None
+                              KORLYM TAB                                                        4 tablets per day
+ Monoclonal Antibody          TEPEZZA IV SOLN                                                   None
+ Osteoporosis                 BONSITY, TERIPARATIDE                                             None
+                              EVENITY INJ                                                       2 syringes per 28 days
+                              STOBOCLO INJ 60 MG/ML                                             2 syringes per 365 days
+ Prader-Willi Syndrome Agent  VYKAT XR TAB 25 MG                                                4 tablets per day
+                              VYKAT XR TAB 75 MG                                                7 tablets per day
+                              VYKAT XR TAB 100 MG                                               3 tablets per day
+                              TYMLOS INJ                                                        None
+ Retinoic Acid Receptor Gamma SOHONOS CAP 1 MG                                                  20 capsules per day
+ Agonist                      SOHONOS CAP 1.5 MG                                                13 capsules per day
+                              SOHONOS CAP 2.5 MG                                                8 capsules per day
+                              SOHONOS CAP 5 MG                                                  4 capsules per day
+                              SOHONOS CAP 10 MG                                                 2 capsules per day
+ Somatostatins                octreotide inj                                                    None
+                              SANDOSTATIN LAR INJ                                               None
+                              SIGNIFOR LAR INJ                                                  1 vial per 28 days
+                              SOMATULINE INJ                                                    None
+ Vasopressin Antagonist       JYNARQUE TAB (Brand only)                                         2 tablets per day
+                              JYNARQUE THERAPY PACK (Brand only)                                2 tablets per day
+                              SAMSCA TAB                                                        2 tablets per day
+ Enzyme-Related
+ Alpha-1 Proteinase Inhibitor ARALAST NP, PROLASTIN-C, ZEMAIRA INJ                              None
+                              GLASSIA, PROLASTIN-C INJ                                          None
+ Cystine-Depleting Agents     PROCYSBI CAP                                                      None
+                              PROCYSBI GRANULES PACKET                                          None
+ Enzyme Replacement           ADZYNMA KIT                                                       None
+                              ALDURAZYME INJ                                                    None
+                              AQNEURSA POWDER PACKET                                            4 packets per day
+                              BRINEURA KIT                                                      None
+                              CERDELGA CAP                                                      None
+                              CEREZYME INJ                                                      None
+                              ELAPRASE                                                          None
+                              ELELYSO INJ                                                       None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   11
+ Therapy class                         Medication name                                          Quantity limit
+                                       FABRAZYME IV SOLN                                        None
+                                       GALAFOLD CAP                                             14 capsules per 28 days
+                                       KANUMA IV SOLN                                           None
+                                       LAMZEDE IV SOLN 10 MG                                    None
+                                       LUMIZYME IV SOLN                                         None
+                                       MEPSEVII IV SOLN                                         None
+                                       MIPLYFFA CAP                                             3 capsules per day
+                                       NAGLAZYME IV SOLN                                        None
+                                       NEXVIAZYME IV SOLN 100 MG                                None
+                                       OPFOLDA CAP 65 MG                                        8 capsules per 28 days
+                                       PHEBURANE PELLETS                                        None
+                                       POMBILITI                                                None
+                                       REVCOVI INJ                                              None
+                                       STRENSIQ INJ                                             None
+                                       sodium phenylbutyrate                                    None
+                                       SUCRAID SOLN 8500 UNIT/ML                                None
+                                       VIMIZIM INJ                                              None
+                                       VPRIV INJ                                                None
+                                       XENPOZYME                                                None
+                                       XURIDEN GRANULES PACKET                                  4 packets per day
+                                       ZAVESCA CAP                                              None
+ Enzyme, Gout                          KRYSTEXXA INJ                                            None
+ Metabolic Agents                      nitisinone cap                                           None
+                                       NITYR TAB                                                None
+                                       ORFADIN SUSP                                             None
+ Phenylketonuria Treatment             sapropterin                                              None
+ Agents
+ Gastroenterology
+ Acute Hepatic Porphyria Agents GIVLAARI INJ                                                    None
+ Bile Acid Agents               CHENODAL TAB                                                    None
+                                CHOLBAM CAP                                                     None
+                                CTEXLI TAB                                                      None
+ Diarrhea                       XERMELO                                                         3 tablets per day
+ Hepatic Agents                 IQIRVO TAB                                                      1 tablet per day
+                                LIVDELZI CAP                                                    1 capsule per day
+                                OCALIVA TAB                                                     1 tablet per day
+ Ileal Bile Acid Transporter    BYLVAY                                                          None
+ Inhibitor
+ Short Bowel Syndrome           GATTEX KIT                                                      None
+ Hematology
+ Hemolytic Anemia               PYRUKYND TAB                                                    2 tablets per day
+                                PYRUKYND THERAPY PACK                                           1 tablet per day
+ Hemophilia Agents              HEMGENIX                                                        None
+                                QFITLIA                                                         None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   12
+ Therapy class                         Medication name                                          Quantity limit
+                                       ROCTAVIAN INJ                                            None
+ Sickle Cell Disease                   ADAKVEO INJ                                              None
+                                       CASGEVY                                                  None
+                                       LYFGENIA                                                 None
+                                       ZYNTEGLO INJ                                             None
+ Immunology
+ Bruton Tyrosine Kinase                RHAPSIDO TAB 25 MG                                       2 tablets per day
+ Inhibitor
+ Complement Inhibitor                  ENJAYMO IV SOLN                                          None
+                                       VEOPOZ INJ 400 MG/2 ML                                   None
+                                       ZILBRYSQ                                                 None
+ Hematopoietic Agents                  ARANESP                                                  None
+                                       BKEMV INJ                                                None
+                                       EMPAVELI INJ                                             None
+                                       ENSPRYNG INJ                                             None
+                                       EPYSQLI INJ                                              None
+                                       FABHALTA CAP 200 MG                                      2 capsules per day
+                                       LEUKINE                                                  None
+                                       MIRCERA INJ                                              None
+                                       NEULASTA                                                 None
+                                       NIVESTYM                                                 None
+                                       PROCRIT INJ                                              None
+                                       REBLOZYL INJ                                             None
+                                       RETACRIT INJ                                             None
+                                       SOLIRIS IV SOLN                                          None
+                                       TAVALISSE TAB                                            None
+                                       UDENYCA INJ                                              None
+                                       ULTOMIRIS IV SOLN                                        None
+                                       UPLIZNA IV SOLN                                          None
+                                       VOYDEYA                                                  6 tablets per day
+                                       ZARXIO INJ                                               None
+ Hepatitis C Agents                    EPCLUSA PELLET PACK 150-37.5 MG                          1 pack per day
+                                       EPCLUSA PELLET PACK 200-50 MG                            2 packs per day
+                                       EPCLUSA TAB                                              1 tablet per day
+                                       HARVONI PELLET PACK 33.75-150 MG                         1 pack per day
+                                       HARVONI PELLET PACK 45-200 MG                            2 packs per day
+                                       HARVONI TAB 45-200 MG                                    2 tablets per day
+                                       HARVONI TAB 90-400 MG                                    1 tablet per day
+                                       MAVYRET                                                  3 tablets per day
+                                       MAVYRET PELLET PACK 50-20 MG                             5 packs per day
+                                       PEGASYS                                                  None
+                                       SOVALDI PELLET PACK 150 MG                               1 pack per day
+                                       SOVALDI PELLET PACK 200 MG                               2 packs per day
+                                       SOVALDI TAB                                              1 tablet per day
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   13
+ Therapy class                         Medication name                                          Quantity limit
+                                       SOVALDI TAB 200 MG                                       2 tablets per day
+                                       VOSEVI                                                   1 tablet per day
+                                       ZEPATIER                                                 1 tablet per day
+ Immune Globulins                      BIVIGAM, CARIMUNE/NF, CUTAQUIG, CUVITRU,                 None
+                                       FLEBOGAMMA, GAMASTAN, GAMMAGARD/
+                                       SD, GAMMAKED, GAMMAPLEX, GAMUNEX-C,
+                                       HIZENTRA, OCTAGAM, PANZYGA, PRIVIGEN,
+                                       XEMBIFY
+                                       CYTOGAM                                                  None
+                                       HYQVIA                                                   None
+ Immunomodulators                      ACTEMRA INJ                                              4 syringes per 28 days
+                                       ACTEMRA IV SOLN                                          None
+                                       AMJEVITA* INJ 10 MG                                      2 syringes per 28 days
+                                       AMJEVITA* INJ 20 MG                                      4 syringes per 28 days
+                                       AMJEVITA* INJ 40 MG                                      4 syringes per 28 days
+                                       AMJEVITA* INJ 80 MG                                      2 syringes per 28 days
+                                       AVSOLA IV SOLN                                           None
+                                       AVTOZMA IV SOLN                                          None
+                                       BIMZELX INJ                                              1 syringe per 28 days
+                                       CIBINQO TAB                                              1 tablet per day
+                                       CIMZIA KIT 200 MG                                        4 syringes per 28 days
+                                       CIMZIA PREFL KIT 200 MG/ML                               4 syringes per 28 days
+                                       ENBREL INJ 25 MG/0.5 ML                                  8 syringes/vials per 28 days
+                                       ENBREL INJ 50 MG/ML                                      4 syringes per 28 days
+                                       ENBREL MINI INJ 50 MG/ML                                 4 cartridges per 28 days
+                                       ENBREL SRCLK INJ 50 MG/ML                                4 syringes per 28 days
+                                       ENTYVIO INJ 108 MG/0.68 ML                               2 syringes per 28 days
+                                       ENTYVIO IV SOLN                                          None
+                                       ILUMYA INJ 100 MG/ML                                     1 syringe per 84 days
+                                       INFLECTRA IV SOLN                                        None
+                                       KEVZARA INJ                                              2 syringes per 28 days
+                                       KINERET INJ                                              None
+                                       LEQSELVI TAB 8 MG                                        2 tablets per day
+                                       LITFULO CAP                                              1 capsule per day
+                                       OLUMIANT TAB                                             1 tablet per day
+                                       OMVOH INJ 100 MG/ML                                      2 syringes per 28 days
+                                       OMVOH INJ 100/200 MG/ML                                  1 package per 28 days
+                                       OMVOH INJ 200 MG/2 ML                                    1 syringe per 28 days
+                                       OMVOH IV SOLN 300 MG/15 ML                               45 mL per 365 days
+                                       ORENCIA INJ                                              4 syringes per 28 days
+                                       ORENCIA IV SOLN                                          None
+                                       OTEZLA STARTER PACK                                      1 starter pack per 365 days
+                                       OTEZLA TAB                                               2 tablets per day
+                                       OTEZLA XR TAB 75 MG                                      1 tablet per day
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   14
+ Therapy class                         Medication name                                          Quantity limit
+                                       RINVOQ LQ SOLN 1 MG/ML                                   12 mL per day
+                                       RINVOQ TAB                                               1 tablet per day
+                                       RINVOQ TAB 45 MG                                         1 tablet per day, 84 tablets per 365 days
+                                       SILIQ INJ 210 MG/1.5 ML                                  2 syringes per 28 days
+                                       SIMPONI ARIA IV SOLN                                     None
+                                       SIMPONI INJ                                              1 syringe per 28 days
+                                       SKYRIZI INJ 150 MG/ML                                    1 syringe per 84 days
+                                       SKYRIZI INJ                                              1 syringe per 56 days
+                                       SKYRIZI IV SOLN                                          None
+                                       SKYRIZI PEN INJ 150 MG/ML                                1 syringe per 84 days
+                                       SOTYKTU TAB                                              1 tablet per day
+                                       TALTZ INJ                                                1 syringe per 28 days
+                                       TREMFYA INJ 100 MG/ML                                    1 syringe per 56 days
+                                       TREMFYA INJ 200 MG/2 ML                                  1 syringe per 28 days
+                                       TREMFYA IV SOLN 200 MG/20 ML                             None
+                                       VELSIPITY TAB                                            1 tablet per day
+                                       WEZLANA INJ                                              1 syringe/vial per 56 days
+                                       WEZLANA IV SOLN                                          None
+                                       XELJANZ SOLN                                             10 mL per day
+                                       XELJANZ TAB                                              2 tablets per day
+                                       XELJANZ XR TAB                                           1 tablet per day
+                                       YESINTEK INJ                                             1 syringe per 56 days
+                                       YESINTEK IV SOLN                                         None
+ Interleukins                          ARCALYST                                                 None
+                                       ILARIS                                                   2 vials per 28 days
+                                       SPEVIGO INJ 150 MG/1 ML                                  2 syringes per 28 days
+                                       SPEVIGO INJ 300 MG/2 ML                                  1 syringe per 28 days
+                                       SPEVIGO IV SOLN                                          30 mL per 84 days
+ Miscellaneous                         ACTIMMUNE INJ                                            None
+                                       BENLYSTA                                                 None
+                                       CRYSVITA INJ                                             None
+                                       SAPHNELO IV SOLN 300 MG/2 ML                             None
+ Monoclonal Antibody                   ADBRY INJ 150 MG/ML                                      4 syringes per 28 days
+                                       ADBRY INJ 300 MG/2 ML                                    2 syringes per 28 days
+                                       CINQAIR IV SOLN                                          None
+                                       DUPIXENT INJ                                             4 syringes per 28 days
+                                       EBGLYSS INJ                                              2 syringes per 28 days
+                                       FASENRA INJ                                              1 syringe per 56 days
+                                       FASENRA PEN INJ 30 MG/ML                                 1 syringe per 56 days
+                                       GAMIFANT IV SOLN                                         None
+                                       NEMLUVIO INJ 30 MG                                       2 syringes per 28 days
+                                       NUCALA                                                   3 vials/syringes per 28 days
+                                       NUCALA INJ 40 MG/0.4 ML                                  1 syringe per 28 days
+                                       TEZSPIRE                                                 1 syringe per 28 days
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).         15
+ Therapy class                         Medication name                                          Quantity limit
+                                       XOLAIR                                                   None
+                                       XOLAIR INJ 75 MG/0.5 ML                                  2 syringes per 28 days
+                                       XOLAIR INJ 150 MG/ML                                     2 syringes per 28 days
+                                       XOLAIR INJ 300 MG/2 ML                                   4 syringes per 28 days
+ Multiple Sclerosis                    AVONEX INJ 30 MCG/0.5 ML                                 1 kit per 28 days
+                                       BAFIERTAM CAP                                            4 capsules per day
+                                       BETASERON INJ                                            1 package per 28 days
+                                       BRIUMVI INJ 150 MG/6 ML                                  None
+                                       dalfampridine tab                                        2 tablets per day
+                                       dimethyl fumarate cap                                    2 capsules per day
+                                       dimethyl fumarate starter pack                           2 starter packs per 365 days
+                                       fingolimod cap                                           1 capsule per day
+                                       GILENYA CAP 0.25 MG                                      1 capsule per day
+                                       glatiramer inj 20 mg/mL                                  1 syringe per day
+                                       glatiramer inj 40 mg/mL                                  12 syringes per 28 days
+                                       KESIMPTA INJ 20 MG/0.4 ML                                1 syringe per 28 days
+                                       LEMTRADA                                                 3.6 mL per 365 days
+                                       MAVENCLAD                                                4 cycles per lifetime
+                                       MAYZENT STARTER PACK                                     2 starter packs per 365 days
+                                       MAYZENT TAB 0.25 MG                                      4 tablets per day
+                                       MAYZENT TAB 1 MG                                         1 tablet per day
+                                       MAYZENT TAB 2 MG                                         1 tablet per day
+                                       mitoxantrone inj                                         None
+                                       OCREVUS IV SOLN                                          None
+                                       OCREVUS ZUNOVO INJ                                       1 syringe per 180 days
+                                       teriflunomide tab                                        1 tablet per day
+                                       TYRUKO INJ 300 MG/15 ML                                  1 vial per 28 days
+                                       TYSABRI INJ 300 MG/15 ML                                 1 vial per 28 days
+                                       VUMERITY CAP                                             4 capsules per day
+                                       ZEPOSIA CAP                                              1 capsule per day
+                                       ZEPOSIA STARTER PACK                                     2 starter packs per 365 days
+ Neonatal Fc Receptor                  RYSTIGGO INJ                                             4 vials per 28 days
+ Antagonist                            RYSTIGGO INJ 280 MG/3ML                                  6 vials per 28 days
+                                       VYVGART HYTRULO INJ                                      None
+                                       VYVGART HYTRULO INJ 1000 MG/10000                        4 syringes per 28 days
+                                       UNIT/5 ML
+                                       VYVGART IV SOLN                                          None
+ Thrombopoietin Receptor               ALVAIZ                                                   None
+ Agonists                              DOPTELET SPRINKLE CAP 10 MG                              2 capsules per day
+                                       DOPTELET TAB                                             None
+                                       MULPLETA TAB                                             None
+                                       NPLATE                                                   None
+ WHIM Syndrome                         XOLREMDI CAP                                             4 capsules per day
+
+
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   16
+ Therapy class                         Medication name                                          Quantity limit
+ Miscellaneous
+ Blood Modifier                        RYPLAZIM IV SOLN                                         None
+ Collagenase                           XIAFLEX INJ                                              None
+ Diagnostic                            THYROGEN INJ                                             None
+ Movement Disorder Agents              AUSTEDO TAB                                              4 tablets per day
+                                       AUSTEDO TITRATION KIT                                    2 starter packs per 365 days
+                                       AUSTEDO XR TAB                                           1 tablet per day
+                                       AUSTEDO XR TITRATION KIT                                 2 starter packs per 365 days
+                                       INGREZZA CAP                                             1 capsule per day
+                                       INGREZZA SPRINKLE CAP                                    1 capsule per day
+                                       INGREZZA THERAPY PACK                                    2 starter packs per 365 days
+                                       XENAZINE TAB                                             None
+ Musculoskeletal Agents                SPINRAZA INJ 12 MG/5ML                                   None
+                                       ZOLGENSMA INJ                                            None
+ Toxicology                            DEPEN TAB 250 MG                                         None
+                                       SYPRINE CAP                                              None
+ Obstetrics & Gynecology
+ Fertility Agents                      cetrorelix inj                                           None
+                                       CHORIONIC GONADOTROPIN, NOVAREL,                         None
+                                       PREGNYL INJ
+                                       FOLLISTIM AQ INJ                                         None
+                                       FYREMADEL INJ                                            None
+                                       MENOPUR INJ                                              None
+                                       OVIDREL INJ 250 MCG/0.5 ML                               None
+ Oncology (Injectable)
+ Alkylating Agents                     bendamustine iv soln                                     None
+                                       BENDEKA IV SOLN                                          None
+                                       ZEPZELCA IV SOLN                                         None
+ Antibiotics                           ZUSDURI INJ                                              None
+ Antifolate                            FOLOTYN IV SOLN                                          None
+                                       TECENTRIQ HYBREZA INJ 1875-30000 MG-                     None
+                                       UNIT/15ML
+                                       TECENTRIQ IV SOLN                                        None
+ Antimicrotubular                      HALAVEN IV SOLN                                          None
+                                       JEVTANA IV SOLN                                          None
+ Bispecific Antibody                   BIZENGRI                                                 None
+ CAR-T Therapy                         ABECMA IV SUSP                                           None
+                                       AUCATZYL                                                 None
+                                       BREYANZI IV SUSP                                         None
+                                       CARVYKTI IV SUSP                                         None
+                                       KYMRIAH IV SUSP                                          None
+                                       TECARTUS IV SUSP                                         None
+                                       YESCARTA IV SUSP                                         None
+ Gene Therapy                          ADSTILADRIN SUSP                                         None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   17
+ Therapy class                         Medication name                                          Quantity limit
+                                       TECELRA SUSP                                             None
+ Interferons                           BESREMI INJ                                              None
+ Interleukins                          ELZONRIS IV SOLN                                         None
+ Kinase and Molecular Target           ALIQOPA IV SOLN                                          None
+ Inhibitors                            BESPONSA IV SOLN                                         None
+                                       BORUZU, VELCADE                                          None
+                                       FYARRO IV SUSP                                           None
+                                       KYPROLIS IV SOLN                                         None
+                                       PORTRAZZA IV SOLN                                        None
+                                       VYXEOS                                                   None
+                                       ZALTRAP IV SOLN                                          None
+ Miscellaneous                         BELEODAQ IV SOLN                                         None
+                                       ISTODAX IV SOLN                                          None
+                                       PROVENGE IV SUSP                                         None
+ Monoclonal Antibody                   ADCETRIS IV SOLN                                         None
+                                       ARZERRA IV SOLN                                          None
+                                       BAVENCIO IV SOLN                                         None
+                                       BLINCYTO IV SOLN                                         None
+                                       COLUMVI IV SOLN                                          None
+                                       CYRAMZA IV SOLN                                          None
+                                       DANYELZA IV SOLN                                         None
+                                       DARZALEX IV SOLN                                         None
+                                       DATROWAY IV SOLN                                         None
+                                       ELAHERE IV SOLN                                          None
+                                       ELREXFIO INJ                                             None
+                                       EMPLICITI IV SOLN                                        None
+                                       EMRELIS INJ                                              None
+                                       ENHERTU IV SOLN                                          None
+                                       EPKINLY INJ                                              None
+                                       ERBITUX IV SOLN                                          None
+                                       GAZYVA IV SOLN                                           None
+                                       HERCEPTIN HYLECTA INJ                                    None
+                                       HERCEPTIN IV SOLN                                        None
+                                       IMDELLTRA IV SOLN                                        None
+                                       IMFINZI IV SOLN                                          None
+                                       IMJUDO IV SOLN                                           None
+                                       JEMPERLI IV SOLN                                         None
+                                       KADCYLA IV SOLN                                          None
+                                       KANJINTI IV SOLN                                         None
+                                       KEYTRUDA IV SOLN                                         None
+                                       LIBTAYO IV SOLN                                          None
+                                       LOQTORZI IV SOLN                                         None
+                                       LUNSUMIO IV                                              None
+                                       LYNOZYFIC IV SOLN                                        None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   18
+ Therapy class                         Medication name                                          Quantity limit
+                                       MARGENZA IV SOLN                                         None
+                                       MONJUVI IV SOLN                                          None
+                                       MYLOTARG IV SOLN                                         None
+                                       OPDIVO IV SOLN                                           None
+                                       OPDIVO QVANTIG INJ                                       None
+                                       OPDUALAG IV SOLN 240-80 MG/20 ML                         None
+                                       OSENVELT INJ 120 MG/1.7 ML                               None
+                                       PADCEV IV SOLN                                           None
+                                       PERJETA IV SOLN                                          None
+                                       PHESGO INJ                                               None
+                                       POLIVY IV SOLN                                           None
+                                       POTELIGEO IV SOLN                                        None
+                                       RITUXAN HYCELA INJ                                       None
+                                       RITUXAN IV SOLN                                          None
+                                       RUXIENCE IV SOLN                                         None
+                                       RYBREVANT IV SOLN                                        None
+                                       SARCLISA IV SOLN                                         None
+                                       SYLVANT IV SOLN                                          None
+                                       TALVEY INJ                                               None
+                                       TECVAYLI INJ                                             None
+                                       TEVIMBRA INJ                                             None
+                                       TIVDAK IV SOLN                                           None
+                                       TRAZIMERA IV SOLN                                        None
+                                       TRODELVY IV SOLN                                         None
+                                       UNITUXIN IV SOLN                                         None
+                                       VYLOY INJ                                                None
+                                       YERVOY IV SOLN                                           None
+                                       ZIIHERA                                                  None
+                                       ZYNLONTA IV SOLN                                         None
+                                       ZYNYZ IV SOLN                                            None
+ T-Cell Receptor                       KIMMTRAK IV SOLN                                         None
+ Vascular Endothelial Growth           AVASTIN IV SOLN                                          None
+ Factor (VEGF) Inhibitor               MVASI IV SOLN                                            None
+                                       ZIRABEV IV SOLN                                          None
+ Oncology (Oral)
+ Alkylating Agents                     temozolomide cap                                         None
+ Antiandrogen                          abiraterone                                              None
+                                       BRUKINSA                                                 None
+                                       ERLEADA CAP                                              None
+                                       INREBIC TAB                                              None
+                                       NUBEQA TAB                                               None
+                                       ROZLYTREK                                                None
+                                       XTANDI                                                   None
+ Gamma Secretase Inhibitor             OGSIVEO TAB                                              None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   19
+ Therapy class                         Medication name                                          Quantity limit
+ Kinase and Molecular Target           ALECENSA CAP                                             None
+ Inhibitors                            ALUNBRIG STARTER PACK                                    1 starter pack per 365 days
+                                       ALUNBRIG TAB                                             1 tablet per day
+                                       ALUNBRIG TAB 30 MG                                       4 tablets per day
+                                       AUGTYRO CAP                                              None
+                                       AVMAPKI FAKZYNJA PAK                                     None
+                                       AYVAKIT TAB                                              1 tablet per day
+                                       BALVERSA TAB                                             None
+                                       BOSULIF                                                  None
+                                       BRAFTOVI CAP                                             None
+                                       CABOMETYX TAB                                            None
+                                       CABOMETYX TAB 20 MG                                      1 tablet per day
+                                       CALQUENCE                                                None
+                                       CAPRELSA TAB                                             None
+                                       CAPRELSA TAB 100 MG                                      2 tablets per day
+                                       COMETRIQ KIT                                             None
+                                       COPIKTRA CAP                                             None
+                                       COTELLIC TAB                                             None
+                                       DANZITEN TAB                                             None
+                                       dasatinib tab                                            None
+                                       DAURISMO TAB                                             None
+                                       ENSACOVE CAP                                             None
+                                       ERIVEDGE CAP                                             None
+                                       everolimus tab                                           1 tablet per day
+                                       everolimus tab for oral susp                             None
+                                       FRUZAQLA CAP                                             None
+                                       GAVRETO CAP                                              None
+                                       GILOTRIF TAB                                             1 tablet per day
+                                       IMKELDI                                                  None
+                                       GOMEKLI                                                  None
+                                       HERNEXEOS TAB 60 MG                                      None
+                                       IBRANCE                                                  None
+                                       ICLUSIG TAB                                              None
+                                       ICLUSIG TAB 10 MG                                        1 tablet per day
+                                       ICLUSIG TAB 15 MG                                        1 tablet per day
+                                       IDHIFA TAB                                               1 tablet per day
+                                       imatinib tab                                             None
+                                       IMBRUVICA CAP                                            1 capsule per day
+                                       IMBRUVICA CAP 140 MG                                     3 capsules per day
+                                       IMBRUVICA SUSP 70 MG/ML                                  None
+                                       IMBRUVICA TAB 420MG, 560MG                               1 tablet per day
+                                       INLYTA TAB                                               None
+                                       IRESSA TAB                                               None
+                                       ITOVEBI TAB                                              None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   20
+ Therapy class                         Medication name                                          Quantity limit
+                                       ITOVEBI TAB 3 MG                                         2 tablets per day
+                                       JAKAFI TAB                                               None
+                                       JAKAFI TAB 5 MG                                          2 tablets per day
+                                       JAKAFI TAB 10 MG                                         2 tablets per day
+                                       JAYPIRCA TAB 50 MG                                       1 tablet per day
+                                       JAYPIRCA TAB 100 MG                                      None
+                                       KOSELUGO                                                 None
+                                       KRAZATI TAB                                              None
+                                       LAZCLUZE TAB                                             None
+                                       LAZCLUZE TAB 80 MG                                       2 tablets per day
+                                       LENVIMA THERAPY PACK                                     None
+                                       LORBRENA TAB                                             None
+                                       LUMAKRAS TAB                                             None
+                                       LYNPARZA TAB                                             None
+                                       LYTGOBI THERAPY PACK                                     None
+                                       MEKINIST                                                 None
+                                       MEKTOVI TAB                                              None
+                                       NERLYNX TAB                                              6 tablets per day
+                                       NEXAVAR                                                  None
+                                       nilotinib cap                                            None
+                                       NINLARO CAP                                              None
+                                       ODOMZO CAP                                               None
+                                       pazopanib tab 400MG                                      None
+                                       PIQRAY THERAPY PACK                                      None
+                                       QINLOCK TAB                                              None
+                                       RETEVMO                                                  None
+                                       RETEVMO TAB 40 MG                                        3 tablets per day
+                                       RETEVMO TAB 80 MG                                        2 tablets per day
+                                       REVUFORJ TAB                                             None
+                                       ROMVIMZA                                                 None
+                                       RYDAPT CAP                                               None
+                                       SCEMBLIX TAB                                             None
+                                       SCEMBLIX TAB 20 MG                                       2 tablets per day
+                                       SCEMBLIX TAB 40 MG                                       8 tablets per day
+                                       STIVARGA TAB 40 MG                                       None
+                                       sunitinib cap                                            None
+                                       TABRECTA TAB                                             None
+                                       TAFINLAR                                                 None
+                                       TAGRISSO TAB                                             None
+                                       TAGRISSO TAB 40 MG                                       1 tablet per day
+                                       TARCEVA TAB                                              None
+                                       TARCEVA TAB 25 MG                                        3 tablets per day
+                                       TEPMETKO TAB                                             None
+                                       TRUQAP PAK                                               None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   21
+ Therapy class                         Medication name                                          Quantity limit
+                                       TRUQAP TAB                                               None
+                                       TUKYSA TAB                                               None
+                                       TURALIO CAP                                              None
+                                       TYKERB                                                   None
+                                       VANFLYTA TAB                                             None
+                                       VENCLEXTA                                                None
+                                       VERZENIO TAB                                             None
+                                       VIJOICE GRANULES 50 MG                                   1 packet per day
+                                       VIJOICE PAK                                              1 tablet per day
+                                       VIJOICE PAK 250 MG                                       2 tablets per day
+                                       VITRAKVI                                                 None
+                                       VIZIMPRO TAB                                             None
+                                       VIZIMPRO TAB 15 MG                                       1 tablet per day
+                                       VONJO CAP 100 MG                                         None
+                                       VORANIGO TAB                                             None
+                                       VORANIGO TAB 10 MG                                       2 tablets per day
+                                       VOTRIENT TAB                                             None
+                                       XOSPATA TAB                                              None
+                                       ZEJULA                                                   None
+                                       ZEJULA TAB 100 MG                                        1 tablet per day
+                                       ZELBORAF TAB                                             None
+                                       ZYDELIG TAB                                              None
+                                       ZYKADIA                                                  None
+ Miscellaneous                         bexarotene cap                                           None
+                                       KISQALI FEMARA                                           None
+                                       KISQALI PAK                                              None
+                                       LONSURF TAB                                              None
+                                       MODEYSO CAP 125 MG                                       None
+                                       ONUREG TAB                                               None
+                                       ORSERDU TAB                                              None
+                                       TARGRETIN GEL                                            None
+                                       TIBSOVO CAP                                              None
+                                       WELIREG CAP                                              None
+                                       XPOVIO PAK                                               None
+                                       ZOLINZA CAP                                              None
+ Ornithine Decarboxylase               IWILFIN TAB                                              None
+ Inhibitor
+ Thalidomide-Related Agents            POMALYST CAP                                             None
+                                       POMALYST CAP 1 MG                                        1 capsule per day
+                                       POMALYST CAP 2 MG                                        1 capsule per day
+                                       REVLIMID CAP                                             None
+                                       THALOMID CAP                                             None
+ Ophthalmology
+ Complement Inhibitor                  IZERVAY SOLN 2 MG/0.1 ML                                 None
+
+Brand-name medications are shown in UPPERCASE (for example, CLOBEX) and generic medications in lowercase (for example, clobetasol).   22
+Therapy class                           Medication name                                              Quantity limit
+                                        SYFOVRE INJ 15 MG/0.1 ML                                     None
+Miscellaneous                           LUXTURNA SUSP                                                None
+                                        OXERVATE SOLN                                                2 mL per day, 112 mL per lifetime
+Vascular Endothelial Growth             CIMERLI                                                      None
+Factor (VEGF) Inhibitor                 EYLEA, EYLEA HD                                              None
+                                        PAVBLU                                                       None
+                                        SUSVIMO                                                      None
+                                        VABYSMO INJ                                                  None
+Respiratory
+Cystic Fibrosis                         ALYFTREK TAB 4-20-50 MG                                      3 tablets per day
+                                        ALYFTREK TAB 10-50-125 MG                                    2 tablets per day
+                                        KALYDECO PAK                                                 2 packets per day
+                                        KALYDECO TAB                                                 None
+                                        ORKAMBI GRANULES PACKET                                      2 packets per day
+                                        ORKAMBI TAB                                                  4 tablets per day
+                                        PULMOZYME SOLN                                               None
+                                        SYMDEKO TAB                                                  2 tablets per day
+                                        TRIKAFTA GRANULES PACKET                                     2 packets per day
+                                        TRIKAFTA TAB                                                 3 tablets per day
+Pulmonary Fibrosis                      OFEV CAP                                                     2 capsules per day
+                                        pirfenidone cap 267 mg                                       9 capsules per day
+                                        pirfenidone tab 267 mg                                       9 tablets per day
+                                        pirfenidone tab 801 mg                                       3 tablets per day
+Urology
+Primary Hyperoxaluria Type 1            OXLUMO INJ                                                   None
+                                        RIVFLOZA INJ                                                 1 syringe per 28 days
+                                        RIVFLOZA INJ 80 MG/0.5 ML                                    2 vials per 28 days
+
+
+
+
+* Preferred NDCs
+
+Note: PA applies to both brand and generic unless otherwise noted. If a strength is not listed then QL
+will apply to all strengths. When differences between this list and your benefit plan documents exist,
+please refer to the information included in your benefit plan documents. Please review your benefit plan
+documents for full details on what medications are covered by your plan.
+PLEASE NOTE: This drug list may have regular updates and may not include all medications. Drugs in this
+list include brand and generic and all dosage types unless noted. If a new drug is approved and falls into
+one of the targeted PA categories, the new drug may be automatically added to this list.
+
+
+
+
+All Optum trademarks and logos are owned by Optum, Inc. in the U.S. and other jurisdictions. All other trademarks are the property of their respective owners.
+© 2026 OptumRx, Inc. All rights reserved. WF20455908-B PA.PREMIUM 07012026                                                                               Premium
+

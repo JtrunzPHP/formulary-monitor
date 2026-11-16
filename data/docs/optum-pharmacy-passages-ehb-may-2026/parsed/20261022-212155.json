@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "Enoby (denosumab-qbde) prefilled syringe for SC injection Xtrenbo (denosumab-",
       "brand_generic": "",
@@ -28,6 +29,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "qbde) SC injection",
       "brand_generic": "",
@@ -54,6 +56,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Farxiga",
       "brand_generic": "",
@@ -80,6 +83,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "ER",
       "name": "Xigduo XR",
       "brand_generic": "",
@@ -106,6 +110,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "N/A inhaler",
       "brand_generic": "",
@@ -132,6 +137,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Atrovent HFA inhaler",
       "brand_generic": "",

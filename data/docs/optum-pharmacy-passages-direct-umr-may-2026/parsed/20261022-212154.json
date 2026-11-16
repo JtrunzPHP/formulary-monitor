@@ -2,6 +2,7 @@
   "rows": [
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Auvelity (dextromethorphan- 3 bupropion) ER tablet",
       "brand_generic": "Brand",
@@ -23,6 +24,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Ibtrozi (taletrectinib) capsule 3",
       "brand_generic": "Brand",
@@ -44,6 +46,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "and Agents",
       "name": "Rezdiffra (resmetirom) tablet 3 Bimzelx (bimekizumab-bkzx)",
       "brand_generic": "Brand",
@@ -65,6 +68,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "auto-injector and prefilled syringe for SC injection",
       "brand_generic": "Brand",
@@ -86,6 +90,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antidiabetic Agents",
       "name": "Dapagliflozin-saxagliptin 10-5mg tablet* Ozempic (semaglutide)",
       "brand_generic": "",
@@ -118,6 +123,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "tablet 1.5, 4, 9mg Granisol (granisetron)",
       "brand_generic": "",
@@ -144,6 +150,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antiemetic Agents",
       "name": "oral solution* Nereus (tradipitant)",
       "brand_generic": "",
@@ -170,6 +177,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antilipemic",
       "name": "capsule* Juxtapid (lomitapide)",
       "brand_generic": "",
@@ -196,6 +204,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "capsule 2mg Avopef (etoposide) IV",
       "brand_generic": "",
@@ -222,6 +231,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Antineoplastic Agents",
       "name": "injection* Favlyxa (fluorouracil) IV",
       "brand_generic": "",
@@ -248,6 +258,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Anti-obesity",
       "name": "injection* Foundayo (oforglipron)",
       "brand_generic": "",
@@ -274,6 +285,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "tablet* Azilsartan (ABA of",
       "brand_generic": "",
@@ -300,6 +312,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "Edarbi) tablet* Hemangeol (propranolol)",
       "brand_generic": "",
@@ -326,6 +339,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Cardiovascular Agents",
       "name": "oral solution (by Eton)* Widaplik (amlodipine-",
       "brand_generic": "",
@@ -352,6 +366,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "telmisartan-indapamide) tablet* Fesilty (fibrinogen,",
       "brand_generic": "",
@@ -378,6 +393,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Hematological Agents",
       "name": "human-chmt) IV injection* Quiofic (folic acid) oral",
       "brand_generic": "",
@@ -404,6 +420,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Immunological",
       "name": "solution* Saphnelo (anifrolumab-",
       "brand_generic": "",
@@ -430,6 +447,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "fnia) auto-injector for SC injection*",
       "brand_generic": "",
@@ -456,6 +474,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "Neurological Agents",
       "name": "Relgaabi (gabapentin) capsule 300, 400mg* Wainua (eplontersen)",
       "brand_generic": "",
@@ -482,6 +501,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Ophthalmic",
       "name": "prefilled syringe for SC injection Byqlovi (clobetasol)",
       "brand_generic": "",
@@ -508,6 +528,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents Respiratory",
       "name": "ophthalmic suspension* Umeclidinium Ellipta",
       "brand_generic": "",
@@ -534,6 +555,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "Agents",
       "name": "(ABA of Incruse Ellipta) powder inhaler*",
       "brand_generic": "",
@@ -560,6 +582,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Orudis",
       "brand_generic": "",
@@ -586,6 +609,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "N/A",
       "brand_generic": "",
@@ -612,6 +636,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Farxiga",
       "brand_generic": "",
@@ -638,6 +663,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "ER",
       "name": "Xigduo XR",
       "brand_generic": "",
@@ -664,6 +690,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "tablet Folotyn",
       "brand_generic": "",
@@ -690,6 +717,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Nitro-bid 2%",
       "brand_generic": "",
@@ -716,6 +744,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "HFA",
       "name": "N/A",
       "brand_generic": "",
@@ -742,6 +771,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "Atrovent inhaler",
       "brand_generic": "",
@@ -768,6 +798,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "Hyrnuo (sevabertinib) tablet Keytruda Qlex (pembrolizumab-",
       "brand_generic": "Brand",
@@ -794,6 +825,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "berahyaluron- pmph) SC injection Foundayo",
       "brand_generic": "Brand",
@@ -820,6 +852,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "(orfoglipron) tablet Voyxact (sibeprenlimab-",
       "brand_generic": "Brand",
@@ -846,6 +879,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "szsi) prefilled syringe for SC injection Bildyos (denosumab-nxxp)",
       "brand_generic": "Brand",
@@ -872,6 +906,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "prefilled syringe for SC injection",
       "brand_generic": "Brand",
@@ -898,6 +933,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "Bilprevda (denosumab-nxxp) SC injection Enoby (denosumab-",
       "brand_generic": "Brand",
@@ -924,6 +960,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "qbde) prefilled syringe for SC injection Xtrenbo",
       "brand_generic": "Brand",
@@ -950,6 +987,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": true,
       "therapeutic_use": "",
       "name": "(denosumab- qbde) SC injection Zycubo (copper",
       "brand_generic": "Brand",
@@ -976,6 +1014,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "histidinate) SC injection Itvisma (onasemnogene",
       "brand_generic": "Brand",
@@ -1002,6 +1041,7 @@
     },
     {
       "kind": "tier_change",
+      "suspect": false,
       "therapeutic_use": "",
       "name": "abeparvovec-brve) intrathecal injection",
       "brand_generic": "Brand",

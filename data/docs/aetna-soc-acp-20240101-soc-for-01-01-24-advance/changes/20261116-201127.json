@@ -1,0 +1,362 @@
+{
+  "id": "aetna-soc-acp-20240101-soc-for-01-01-24-advance",
+  "stamp": "20261116-201127",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 452,
+  "watchlist_in_document": [
+    {
+      "line": 28,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK FASTCLIX LANCETDEVICE Moving to preferred brand tier",
+      "context": [
+        "UPPER CASE = brand-name drug lower case = generic drug",
+        "Drug Name Change(s)",
+        "ACCU-CHEK FASTCLIX LANCETDEVICE Moving to preferred brand tier",
+        "KIT (NDC* 65702048110 only)",
+        "ACCU-CHEK FASTCLIX LANCETS Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 30,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK FASTCLIX LANCETS Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK FASTCLIX LANCETDEVICE Moving to preferred brand tier",
+        "KIT (NDC* 65702048110 only)",
+        "ACCU-CHEK FASTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 65702028810 only)",
+        "ACCU-CHEK SAFE-T-PRO LANCETS Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 32,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK SAFE-T-PRO LANCETS Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK FASTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 65702028810 only)",
+        "ACCU-CHEK SAFE-T-PRO LANCETS Moving to preferred brand tier",
+        "(NDC* 50924095120 only)",
+        "ACCU-CHEK SOFTCLIX (NDC* Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 34,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek"
+      ],
+      "text": "ACCU-CHEK SOFTCLIX (NDC* Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK SAFE-T-PRO LANCETS Moving to preferred brand tier",
+        "(NDC* 50924095120 only)",
+        "ACCU-CHEK SOFTCLIX (NDC* Moving to preferred brand tier",
+        "75537000971 only)",
+        "ACCU-CHEK SOFTCLIX LANCETDEVICE Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 36,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK SOFTCLIX LANCETDEVICE Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK SOFTCLIX (NDC* Moving to preferred brand tier",
+        "75537000971 only)",
+        "ACCU-CHEK SOFTCLIX LANCETDEVICE Moving to preferred brand tier",
+        "KIT (NDC* 65702040010 only)",
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 38,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK SOFTCLIX LANCETDEVICE Moving to preferred brand tier",
+        "KIT (NDC* 65702040010 only)",
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 50924097110 only)",
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 40,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 50924097110 only)",
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 65702012410 only)",
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier"
+      ]
+    },
+    {
+      "line": 42,
+      "tickers": [
+        "ROG SW"
+      ],
+      "labels": [
+        "Roche Accu-Chek",
+        "Diabetic supplies (category)"
+      ],
+      "text": "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+      "context": [
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 65702012410 only)",
+        "ACCU-CHEK SOFTCLIX LANCETS Moving to preferred brand tier",
+        "(NDC* 65702015610 only)",
+        "ADVAIR DISKUS Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 66,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR KWIKPEN Non-formulary; not covered. Covered options include: Lantus,",
+      "context": [
+        "1981703-01-04 (1/24) 100_AdvancedCtrl",
+        "Drug Name Change(s)",
+        "BASAGLAR KWIKPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "BASAGLAR TEMPO PEN Non-formulary; not covered. Covered options include: Lantus,"
+      ]
+    },
+    {
+      "line": 67,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Lantus Solostar",
+      "context": [
+        "Drug Name Change(s)",
+        "BASAGLAR KWIKPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "BASAGLAR TEMPO PEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar"
+      ]
+    },
+    {
+      "line": 68,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "BASAGLAR TEMPO PEN Non-formulary; not covered. Covered options include: Lantus,",
+      "context": [
+        "BASAGLAR KWIKPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "BASAGLAR TEMPO PEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "BESREMI Drug list addition (preferred specialty)"
+      ]
+    },
+    {
+      "line": 69,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Lantus Solostar",
+      "context": [
+        "Lantus Solostar",
+        "BASAGLAR TEMPO PEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "BESREMI Drug list addition (preferred specialty)",
+        "BYOOVIZ Drug list addition (preferred specialty); Preauthorization"
+      ]
+    },
+    {
+      "line": 162,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS (NDC* 00088222033 only) Drug list addition (preferred)",
+      "context": [
+        "Drug Name Change(s)",
+        "KRAZATI Moving to preferred specialty tier",
+        "LANTUS (NDC* 00088222033 only) Drug list addition (preferred)",
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221900 only)"
+      ]
+    },
+    {
+      "line": 163,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+      "context": [
+        "KRAZATI Moving to preferred specialty tier",
+        "LANTUS (NDC* 00088222033 only) Drug list addition (preferred)",
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221900 only)",
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)"
+      ]
+    },
+    {
+      "line": 165,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+      "context": [
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221900 only)",
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221901 only)",
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)"
+      ]
+    },
+    {
+      "line": 167,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+      "context": [
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221901 only)",
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221905 only)",
+        "LEVEMIR Non-formulary; not covered. Covered options include: Lantus,"
+      ]
+    },
+    {
+      "line": 169,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LEVEMIR Non-formulary; not covered. Covered options include: Lantus,",
+      "context": [
+        "LANTUS SOLOSTAR (NDC* Drug list addition (preferred)",
+        "00088221905 only)",
+        "LEVEMIR Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LEVEMIR FLEXPEN Non-formulary; not covered. Covered options include: Lantus,"
+      ]
+    },
+    {
+      "line": 170,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Lantus Solostar",
+      "context": [
+        "00088221905 only)",
+        "LEVEMIR Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LEVEMIR FLEXPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar"
+      ]
+    },
+    {
+      "line": 171,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LEVEMIR FLEXPEN Non-formulary; not covered. Covered options include: Lantus,",
+      "context": [
+        "LEVEMIR Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LEVEMIR FLEXPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LEVEMIR FLEXTOUCH Non-formulary; not covered. Covered options include: Lantus,"
+      ]
+    },
+    {
+      "line": 172,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Lantus Solostar",
+      "context": [
+        "Lantus Solostar",
+        "LEVEMIR FLEXPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LEVEMIR FLEXTOUCH Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar"
+      ]
+    },
+    {
+      "line": 173,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "LEVEMIR FLEXTOUCH Non-formulary; not covered. Covered options include: Lantus,",
+      "context": [
+        "LEVEMIR FLEXPEN Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LEVEMIR FLEXTOUCH Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LORBRENA Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 174,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "Lantus Solostar",
+      "context": [
+        "Lantus Solostar",
+        "LEVEMIR FLEXTOUCH Non-formulary; not covered. Covered options include: Lantus,",
+        "Lantus Solostar",
+        "LORBRENA Non-formulary; not covered. Covered options include:",
+        "Alecensa, Alunbrig"
+      ]
+    }
+  ]
+}

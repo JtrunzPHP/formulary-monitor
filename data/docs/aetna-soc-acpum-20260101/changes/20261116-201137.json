@@ -1,0 +1,664 @@
+{
+  "id": "aetna-soc-acpum-20260101",
+  "stamp": "20261116-201137",
+  "previous": null,
+  "kind": "baseline",
+  "lines_total": 248,
+  "watchlist_in_document": [
+    {
+      "line": 45,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "tetrabenazine, AUSTEDO, INGREZZA",
+        "AUTOSOFT 30 INFUSION SET/23\"/13MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT 30 INFUSION SET/43\"/13MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 48,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT 30 INFUSION SET/43\"/13MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/23\"/6MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 51,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/23\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/23\"/9MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 54,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/23\"/9MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/43\"/6MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 57,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/43\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/43\"/9MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 60,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT 90 INFUSION SET/43\"/9MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/23\"/6MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 63,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/23\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "2588551-01-10 (1/26) ©2025 Aetna Inc."
+      ]
+    },
+    {
+      "line": 69,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "DRUG_NAME CHANGES",
+        "AUTOSOFT XC INFUSION SET/23\"/9MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/32\"/6MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 72,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/32\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/43\"/6MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 75,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/43\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/43\"/9MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 78,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "AUTOSOFT XC INFUSION SET/43\"/9MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "CIMERLI Moving to non-preferred specialty tier"
+      ]
+    },
+    {
+      "line": 106,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "MOBI 2ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+      "context": [
+        "MITIGARE Non-formulary; not covered. Generic version of drug",
+        "covered",
+        "MOBI 2ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 107,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "covered",
+        "MOBI 2ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "2588551-01-10 (1/26) ©2025 Aetna Inc."
+      ]
+    },
+    {
+      "line": 129,
+      "tickers": [],
+      "labels": [
+        "Insulin (category)"
+      ],
+      "text": "T:FLEX T:LOCK INSULIN CARTRIDGE Non-formulary; not covered. Covered options include:",
+      "context": [
+        "SUPARTZ FX Non-formulary; not covered. Covered options include:",
+        "DUROLANE, EUFLEXXA, GELSYN-3, ORTHOVISC",
+        "T:FLEX T:LOCK INSULIN CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "4.8ML OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 130,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "4.8ML OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "DUROLANE, EUFLEXXA, GELSYN-3, ORTHOVISC",
+        "T:FLEX T:LOCK INSULIN CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "4.8ML OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "T:SLIM X2 3 ML CARTRIDGE Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 132,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2 3 ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+      "context": [
+        "4.8ML OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "T:SLIM X2 3 ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 133,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "T:SLIM X2 3 ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "T:SLIM X2 3ML CARTRIDGE Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 135,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "T:SLIM X2 3ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+      "context": [
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "T:SLIM X2 3ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 136,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "T:SLIM X2 3ML CARTRIDGE Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TACLONEX Moving to non-preferred brand tier"
+      ]
+    },
+    {
+      "line": 139,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT 30 PK10 23\" Non-formulary; not covered. Covered options include:",
+      "context": [
+        "SUPPLIES",
+        "TACLONEX Moving to non-preferred brand tier",
+        "TANDEM T:SLIM ASFT 30 PK10 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 140,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "TACLONEX Moving to non-preferred brand tier",
+        "TANDEM T:SLIM ASFT 30 PK10 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT 30 PK14 23\" Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 142,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT 30 PK14 23\" Non-formulary; not covered. Covered options include:",
+      "context": [
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT 30 PK14 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 143,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT 30 PK14 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT XC PK10 23\" Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 145,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT XC PK10 23\" Non-formulary; not covered. Covered options include:",
+      "context": [
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT XC PK10 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 146,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT XC PK10 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT XC PK14 23\" Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 148,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM ASFT XC PK14 23\" Non-formulary; not covered. Covered options include:",
+      "context": [
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT XC PK14 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 149,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "TANDEM T:SLIM ASFT XC PK14 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "2588551-01-10 (1/26) ©2025 Aetna Inc."
+      ]
+    },
+    {
+      "line": 154,
+      "tickers": [
+        "TNDM"
+      ],
+      "labels": [
+        "Tandem pump"
+      ],
+      "text": "TANDEM T:SLIM TRUSTL PK10 23\" Non-formulary; not covered. Covered options include:",
+      "context": [
+        "101_AdvancedCtrlModifiedUM",
+        "DRUG_NAME CHANGES",
+        "TANDEM T:SLIM TRUSTL PK10 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES"
+      ]
+    },
+    {
+      "line": 155,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "DRUG_NAME CHANGES",
+        "TANDEM T:SLIM TRUSTL PK10 23\" Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TEGSEDI Moving to non-preferred specialty tier"
+      ]
+    },
+    {
+      "line": 161,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "up to 18 units every 25 days",
+        "TRUSTEEL INFUSION SET/23\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TRUSTEEL INFUSION SET/23\"/8MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 164,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "TRUSTEEL INFUSION SET/23\"/8MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TRUSTEEL INFUSION SET/32\"/6MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 167,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "TRUSTEEL INFUSION SET/32\"/6MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TRUSTEEL INFUSION SET/32\"/8MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 170,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "TRUSTEEL INFUSION SET/32\"/8MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "TURALIO Drug list addition (non-preferred specialty);"
+      ]
+    },
+    {
+      "line": 179,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "30 days",
+        "VARISOFT INFUSION SET/23\"/13MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "VARISOFT INFUSION SET/23\"/17MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 182,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "VARISOFT INFUSION SET/23\"/17MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "VARISOFT INFUSION SET/32\"/13MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 185,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "VARISOFT INFUSION SET/32\"/13MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "VARISOFT INFUSION SET/43\"/17MM Non-formulary; not covered. Covered options include:"
+      ]
+    },
+    {
+      "line": 188,
+      "tickers": [
+        "PODD"
+      ],
+      "labels": [
+        "Insulet Omnipod",
+        "Insulin (category)"
+      ],
+      "text": "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+      "context": [
+        "SUPPLIES",
+        "VARISOFT INFUSION SET/43\"/17MM Non-formulary; not covered. Covered options include:",
+        "OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND",
+        "SUPPLIES",
+        "VEMLIDY Non-formulary; not covered. Covered options include:"
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
-Known-answer checks: 10 passed, 0 failed, 4 skipped
+Known-answer checks: 11 passed, 0 failed, 3 skipped
 
 # Formulary monitor: commercial documents report
 
-Generated 2026-11-16T19:59:52.535Z
+Generated 2026-11-16T20:11:57.251Z
 
 ## 2026 Advanced Control Plan, Aetna (aetna-acp-2026)
 Parser: aetna-guide; rows 4551, problems 0, watchlist rows 164
@@ -225,13 +225,72 @@ Structured changes vs previous version (watchlist first, up to 60):
 - ADDED NOVOLIN 70/30 SUBCUTANEOUS SUSPENSION (70-30) 100 UNIT/ML (insulin nph isophane & regular): - -> PB []
 
 ## National Preferred Formulary exclusion changes effective January 1, 2026 (esi-npf-changes-jan-2026)
-Parser: esi-exclusions
+Parser: esi-exclusions; rows 76, problems 0, watchlist rows 9
+
+Notes: {"bbox":true,"pages":3,"tables":3,"effective":"January 1, 2026"}
+
+Sample rows (first 10):
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | nitrofurantoin sulfamethoxazole/trimethoprim, cream | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | DENAVIR | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | XERESE acyclovir oral cabergoline, ropinirole risperidone INVEGA SUSTENNA | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | ARISTADA | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | UZEDY ER AUSTEDO XR INGREZZA | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | OXYCODONE ER | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | OXYCONTIN, hydrocodone ER morphine sulfate amlodipine/olmesartan | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | DYRENIUM amiloride hcl, azelaic acid | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | ZILXI sodium sulfacetamide/sulfur, adapalene | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections Antivirals penciclovir AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA Movement Disorders Therapy AUSTEDO, NUCYNTA Narcotic Analgesics & Combinations XTAMPZA CARDIOVASCULAR Angiotensin Receptor Blockers telmisartan/amlodipine (ARBs) and Combinations Diuretics triamterene, DERMATOLOGICAL EPSOLAY, Rosacea Agents (Topical) Topical Agents for Acne CABTREO, naftifine, oxiconazole, LULICONAZOLE, Topical Antifungals SULCONAZOLE, ciclopirox Miscellaneous crotamiton Topical Dermatological Agents | TWYNEO benzoyl peroxide clindamycin/benzoyl ECOZA | alternatives: macro, nitrofurantoin mono/macro, trimethoprim or cream, famciclovir, valacyclovir entacapone, prami… | eff January 1, 2026
+
+Watchlist rows (up to 60 of 9):
+- [PRIVATE] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | ABBOTT FREESTYLE (FREESTYLE (CONTOUR) FREESTYLE ABBOTT FREESTYLE (ONETOUCH SOLUTIONS STARTER, (FREESTYLE | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | VERIO FLEX)4 FREESTYLE ABBOTT PRECISION METERS & TEST STRIPS TRIVIDIA METERS NOT LISTED AS PREFERRED TRUE METRIX TRIVIDIA TEST U-100: HUMALOG APIDRA | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | FIASP | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | HUMALOG VIAL | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | NOVOLOG | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | RELION NOVOLOG INSULIN LISPRO | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | LYUMJEV U-200: HUMALOG DYMISTA azelastine nasal MYTESI diphenoxylate/atropine | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [NVO LLY] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | WEZLANA IV YESINTEK ZEPBOUND VIALS WEGOVY | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [LLY] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE U-100: ADMELOG, Insulins INSULIN ASPART, Inhalation: AFREZZA EAR/NOSE Nasal Antihistamines and azelastine/fluticasone, Combination Products GASTROINTESTINAL opium tincture, Antidiarrheal Agents COXANTO, MUSCULOSKELETAL & DOLOBID, RHEUMATOLOGY FENOPRON, Nonsteroidal OXAPROZIN Anti-Inflammatory Drugs (NSAIDs) SPRIX, TIVORBEX, OBSTETRICAL & GYNECOLOGICAL paroxetine Miscellaneous Gynecological Agents ONCOLOGY HERCEPTIN, Trastuzumab-Containing Agents KANJINTI, OPHTHALMIC tafluprost Antiglaucoma Agents IDOSE TR, (Ophthalmic Prostaglandins) XELPROS, RENAL FERRIC CITRATE, Phosphate Binders VELPHORO, ALVESCO, ARNUITY ELLIPTA, RESPIRATORY FLUTICASONE Pulmonary Anti-Inflammatory Inhalers FLUTICASONE PULMICORT MISCELLANEOUS AGENTS BKEMV, PIASKY, Complement Inhibitors Immune Globulins CUTAQUIG, JYLAMVO, Immunosuppressant Agents OTREXUP, Infused TNF Antagonists INFLECTRA, Infused Non-TNF Biologics - ACTEMRA Tocilizumab Agents Infused Non-TNF Biologics - OTULFI IV, Ustekinumab Agents USTEKINUMAB Weight Loss SAXENDA, | ZEPBOUND | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
 
 ## National Preferred Formulary exclusion changes effective July 1, 2026 (esi-npf-changes-jul-2026)
-Parser: esi-exclusions
+Parser: esi-exclusions; rows 27, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":2,"tables":2,"effective":"July 1, 2026"}
+
+Sample rows (first 10):
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics | orphenadrine-aspirin-caffeine | alternatives: orphenadrine citrate er | eff July 1, 2026
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics | NORGESIC | alternatives: orphenadrine citrate er | eff July 1, 2026
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Orphenadrine-Containing Analgesics | NORGESIC FORTE | alternatives: orphenadrine citrate er | eff July 1, 2026
+- Tricyclic Antidepressants | protriptyline1 | alternatives: desipramine, nortriptyline | eff July 1, 2026
+- CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | fluvastatin, fluvastatin er | alternatives: atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin | eff July 1, 2026
+- CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | ALTOPREV | alternatives: atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin | eff July 1, 2026
+- CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | ATORVALIQ | alternatives: atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin | eff July 1, 2026
+- CARDIOVASCULAR HMG and Cholesterol Inhibitor Combinations | LESCOL XL | alternatives: atorvastatin, lovastatin, pitavastatin, pravastatin, rosuvastatin, simvastatin | eff July 1, 2026
+- MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents | BOMYNTRA | alternatives: BILPREVDA, XTRENBO | eff July 1, 2026
+- MISCELLANEOUS AGENTS Other Bone Mineral Density Increasing Agents | OSENVELT | alternatives: BILPREVDA, XTRENBO | eff July 1, 2026
 
 ## National Preferred Flex Formulary exclusion changes effective January 1, 2026 (esi-npf-flex-changes-jan-2026)
-Parser: esi-exclusions
+Parser: esi-exclusions; rows 84, problems 0, watchlist rows 4
+
+Notes: {"bbox":true,"pages":3,"tables":3,"effective":"January 1, 2026"}
+
+Sample rows (first 10):
+- ANTIINFECTIVES Antibiotic Agents for fosfomycin Urinary Tract Infections | nitrofurantoin sulfamethoxazole/trimethoprim, | alternatives: macro, nitrofurantoin mono/macro, trimethoprim | eff January 1, 2026
+- Antivirals penciclovir | cream | alternatives: or cream, famciclovir, valacyclovir | eff January 1, 2026
+- Antivirals penciclovir | DENAVIR | alternatives: or cream, famciclovir, valacyclovir | eff January 1, 2026
+- Antivirals penciclovir | XERESE acyclovir oral | alternatives: or cream, famciclovir, valacyclovir | eff January 1, 2026
+- AUTONOMIC & CENTRAL NERVOUS SYSTEM NOURIANZ Antiparkinsonism Agents | cabergoline, ropinirole | alternatives: entacapone, pramipexole, rasagiline, | eff January 1, 2026
+- INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA | risperidone INVEGA SUSTENNA | alternatives: er, ABILIFY ASIMTUFII, ABILIFY MAINTENA, ARISTADA INITIO, ERZOFRI, RYKINDO ER, | eff January 1, 2026
+- INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA | ARISTADA | alternatives: er, ABILIFY ASIMTUFII, ABILIFY MAINTENA, ARISTADA INITIO, ERZOFRI, RYKINDO ER, | eff January 1, 2026
+- INVEGA HAFYERA, Antipsychotics (Injectable) INVEGA TRINZA | UZEDY ER | alternatives: er, ABILIFY ASIMTUFII, ABILIFY MAINTENA, ARISTADA INITIO, ERZOFRI, RYKINDO ER, | eff January 1, 2026
+- Movement Disorders Therapy AUSTEDO, | AUSTEDO XR INGREZZA, | alternatives: INGREZZA SPRINKLE | eff January 1, 2026
+- NUCYNTA Narcotic Analgesics & Combinations XTAMPZA | OXYCODONE ER | alternatives: bitartrate er, hydromorphone er, er, oxymorphone hcl er, HYSINGLA ER | eff January 1, 2026
+
+Watchlist rows (up to 60 of 4):
+- [PRIVATE] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE | ABBOTT FREESTYLE (FREESTYLE (CONTOUR) FREESTYLE ABBOTT FREESTYLE (ONETOUCH SOLUTIONS STARTER, (FREESTYLE | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [] ASCENSIA ELI LILLY (TEMPO) LIFESCAN DIABETES ULTRA, ULTRA2, Blood Glucose Meters & Test Strips ROCHE (ACCU-CHEK) ALL OTHER THAT ARE | VERIO FLEX)3 FREESTYLE ABBOTT PRECISION METERS & TEST STRIPS TRIVIDIA METERS NOT LISTED AS PREFERRED TRUE METRIX TRIVIDIA TEST | alternatives: KITS/METERS FREEDOM, FREESTYLE FREEDOM LITE, INSULINX, FREESTYLE LITE) TEST STRIPS FREESTYLE INSULIN… | eff January 1, 2026
+- [NVO LLY] Weight Loss SAXENDA, | ZEPBOUND VIALS WEGOVY | alternatives: PENS | eff January 1, 2026
+- [LLY] Weight Loss SAXENDA, | ZEPBOUND | alternatives: PENS | eff January 1, 2026
 
 ## Optum Rx formulary and UM updates page (Pharmacy Passages index) (optum-formulary-updates-page)
 Parser: none
@@ -551,9 +610,6 @@ Sample rows (first 10):
 - Rasonque (daraxonrasib) tablet | Base Tier 4; Enhanced Tier 5 | PA | eff 11/1/26
 - Xocova (ensitrelvir) tablet | Base Tier 3; Enhanced Tier 3 | QL | eff 9/21/26
 
-Watchlist rows (up to 60 of 1):
-- [NVO] Ozempic (semaglutide) tablet Tyvaso (treprostinil) DPI | Base Tier 2; Enhanced Tier 2 | PA/QL | eff 9/1/26
-
 ## Optum Rx: pharmacy-passages-july-2026.pdf (optum-pharmacy-passages-july-2026)
 Parser: optum-passages; rows 41, problems 11, watchlist rows 0
 
@@ -615,10 +671,9 @@ Sample rows (first 10):
 - Brukinsa (zanubrutinib) 160mg tablet | Select Tier 3; Premium Tier 3 | SP/PA | eff 9/10/25
 - Hernexeos (zongertinib) tablet* | Select Tier 3; Premium EXC | SP | eff 8/11/25
 
-Watchlist rows (up to 60 of 9):
+Watchlist rows (up to 60 of 8):
 - [] Supplies | Freestyle glucose blood test strips and blood glucose monitoring kits Precision glucose blood test strips and | Select 3 > 2; Premium EXC | Brand | no flags | eff 9/15/25
 - [] and Metabolic | blood glucose monitoring kits Jynarque (tolvaptan) tablet and tablet | Select 3 > 2; Premium EXC | Brand | no flags | eff 9/15/25
-- [] Agents | Brynovin (sitagliptin) oral solution* Kirsty (insulin aspart-xjhz) solution | Select Tier 3; Premium EXC | no flags | eff 8/8/25
 - [DXCM] Supplies | Dexcom G7 15-day continuous glucose monitor sensor MODD1 insulin disposable infusion | Select Tier 2; Premium Tier 2 | PA | eff 9/16/25
 - [] Add Merilog (insulin aspart-szjj) pen-injector for SC injection | eff 9/1/25
 - [] Add Merilog (insulin aspart-szjj) solution for SC injection | eff 9/1/25
@@ -679,6 +734,955 @@ Sample rows (first 10):
 - Cequr Inserter | Base Tier 2; Enhanced Tier 2 | no flags | eff 10/15/26
 - Tryngolza (olezarsen) auto-injector for SC injection 50mg/0.8mL | Base Tier 4; Enhanced Tier 5 | SP/PA/QL | eff 11/1/26
 
+## 2026 Advanced Control Plan drug guide (aetna.com) (aetna-acp-official-2026)
+Parser: aetna-guide; rows 4496, problems 0, watchlist rows 164
+
+Notes: {"bbox":true,"pages":252,"blocks":210,"unknownTier":{}}
+
+Sample rows (first 10):
+- COX-2 INHIBITORS | CELEBREX ORAL CAPSULE 100 MG, 200 MG, 400 MG, 50 MG (celecoxib) | NF | 
+- COX-2 INHIBITORS | celecoxib oral capsule 100 mg, 200 mg, 400 mg | NP | N8
+- COX-2 INHIBITORS | celecoxib oral capsule 50 mg | NP | 
+- COX-2 INHIBITORS | ELYXYB ORAL SOLUTION 120 MG/4.8ML (celecoxib (migraine)) | NF | 
+- COX-2 INHIBITORS | VYSCOXA ORAL SUSPENSION 10 MG/ML (celecoxib) | NF | 
+- GOUT | allopurinol oral tablet 100 mg, 300 mg | PG | 
+- GOUT | allopurinol oral tablet 200 mg | NF | QL
+- GOUT | colchicine oral capsule 0.6 mg | PG | QL
+- GOUT | colchicine oral tablet 0.6 mg | PG | 
+- GOUT | colchicine-probenecid oral tablet 0.5-500 mg | PG | 
+
+Watchlist rows (up to 60 of 164):
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | liraglutide subcutaneous solution pen-injector 18 mg/3ml | PG | PA, QL
+- [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | MOUNJARO SUBCUTANEOUS SOLUTION AUTO- INJECTOR 10 MG/0.5ML, 12.5 MG/0.5ML, 15 MG/0.5ML, 2.5 MG/0.5ML, 5 MG/0.5ML, 7.5 MG/0.5ML (tirzepatide) | PB | PA, QL
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (0.25 OR 0.5 MG/DOSE) SUBCUTANEOUS SOLUTION PEN-INJECTOR 2 MG/3ML (semaglutide) | PB | PA, QL
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (1 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 4 MG/3ML (semaglutide) | PB | PA, QL
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | OZEMPIC (2 MG/DOSE) SUBCUTANEOUS SOLUTION PEN- INJECTOR 8 MG/3ML (semaglutide) | PB | PA, QL
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | RYBELSUS ORAL TABLET 14 MG, 3 MG, 7 MG (semaglutide) | PB | PA, QL
+- [LLY] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | TRULICITY SUBCUTANEOUS SOLUTION AUTO- INJECTOR 0.75 MG/0.5ML, 1.5 MG/0.5ML, 3 MG/0.5ML, 4.5 MG/0.5ML (dulaglutide) | PB | PA, QL
+- [NVO] ANTIDIABETICS, INCRETIN MIMETIC AGENTS | VICTOZA SUBCUTANEOUS SOLUTION PEN-INJECTOR 18 MG/3ML (liraglutide) | NF | 
+- [] AGENTS | SOLIQUA SUBCUTANEOUS SOLUTION PEN-INJECTOR 100-33 UNT-MCG/ML (insulin glargine-lixisenatide) | PB | ST
+- [NVO] AGENTS | XULTOPHY SUBCUTANEOUS SOLUTION PEN-INJECTOR 100-3.6 UNIT-MG/ML (insulin degludec-liraglutide) | PB | ST
+- [] ANTIDIABETICS, INSULIN | ADMELOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | ADMELOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | &60X8 & 60X12 UNIT, 8 UNIT, 90 X 4 UNIT & 90X8 UNIT, 90 X 8 UNIT & 90X12 UNIT (insulin regular human) | NF | 
+- [] ANTIDIABETICS, INSULIN | APIDRA INJECTION SOLUTION 100 UNIT/ML (insulin glulisine) | NF | 
+- [] ANTIDIABETICS, INSULIN | APIDRA SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glulisine) | NF | 
+- [] ANTIDIABETICS, INSULIN | BASAGLAR KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | NF | 
+- [] ANTIDIABETICS, INSULIN | BASAGLAR TEMPO PEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin glargine) | NF | 
+- [] ANTIDIABETICS, INSULIN | FIASP FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart (w/niacinamide)) | PB | 
+- [] ANTIDIABETICS, INSULIN | FIASP INJECTION SOLUTION 100 UNIT/ML (insulin aspart (w/niacinamide)) | PB | 
+- [] ANTIDIABETICS, INSULIN | FIASP PENFILL SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)) | PB | N8
+- [] ANTIDIABETICS, INSULIN | FIASP PUMPCART SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG JUNIOR KWIKPEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 50/50 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (50-50) 100 UNIT/ML (insulin lispro prot & lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (75-25) 100 UNIT/ML (insulin lispro prot & lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG MIX 75/25 SUBCUTANEOUS SUSPENSION (75- 25) 100 UNIT/ML (insulin lispro prot & lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMALOG TEMPO PEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin lispro) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN 70/30 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (70-30) 100 UNIT/ML (insulin nph isophane & regular) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN 70/30 SUBCUTANEOUS SUSPENSION (70-30) 100 UNIT/ML (insulin nph isophane & regular) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN N KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR 100 UNIT/ML (insulin nph human (isophane)) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN N SUBCUTANEOUS SUSPENSION 100 UNIT/ML (insulin nph human (isophane)) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN R INJECTION SOLUTION 100 UNIT/ML (insulin regular human) | NF | 
+- [] ANTIDIABETICS, INSULIN | HUMULIN R U-500 KWIKPEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 500 UNIT/ML (insulin regular human) | PB | 
+- [] ANTIDIABETICS, INSULIN | insulin asp prot & asp flexpen subcutaneous suspension pen- injector (70-30) 100 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin aspart flexpen subcutaneous solution pen-injector 100 | NF | 
+- [] ANTIDIABETICS, INSULIN | unit/ml insulin aspart injection solution 100 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin aspart penfill subcutaneous solution cartridge 100 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin aspart prot & aspart subcutaneous suspension (70-30) 100 | NF | 
+- [] ANTIDIABETICS, INSULIN | unit/ml insulin degludec flextouch subcutaneous solution pen-injector 100 | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin degludec subcutaneous solution 100 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine max solostar subcutaneous solution pen-injector 300 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine solostar subcutaneous solution pen-injector 300 | NF | 
+- [] ANTIDIABETICS, INSULIN | unit/ml insulin glargine-yfgn subcutaneous solution 100 unit/ml | PB | 
+- [] ANTIDIABETICS, INSULIN | insulin glargine-yfgn subcutaneous solution pen-injector 100 | PB | 
+- [] ANTIDIABETICS, INSULIN | unit/ml insulin lispro (1 unit dial) subcutaneous solution pen-injector 100 | NF | 
+- [] ANTIDIABETICS, INSULIN | unit/ml insulin lispro injection solution 100 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro junior kwikpen subcutaneous solution pen-injector 100 unit/ml | NF | 
+- [] ANTIDIABETICS, INSULIN | insulin lispro prot & lispro subcutaneous suspension pen-injector | NF | 
+- [] ANTIDIABETICS, INSULIN | KIRSTY INJECTION SOLUTION 100 UNIT/ML (insulin aspart-xjhz) | NF | 
+- [] ANTIDIABETICS, INSULIN | KIRSTY SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin aspart-xjhz) | NF | 
+- [] ANTIDIABETICS, INSULIN | LANTUS SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine) | PB | 
+- [] ANTIDIABETICS, INSULIN | LANTUS SUBCUTANEOUS SOLUTION 100 UNIT/ML (insulin glargine) | PB | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV INJECTION SOLUTION 100 UNIT/ML (insulin lispro-aabc) | NF | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro-aabc) | NF | 
+- [] ANTIDIABETICS, INSULIN | LYUMJEV TEMPO PEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin lispro-aabc) | NF | 
+- [] ANTIDIABETICS, INSULIN | MERILOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart-szjj) | NF | 
+- [] ANTIDIABETICS, INSULIN | MERILOG SUBCUTANEOUS SOLUTION 100 UNIT/ML (insulin aspart-szjj) | NF | 
+- [] ANTIDIABETICS, INSULIN | MYXREDLIN INTRAVENOUS SOLUTION 100-0.9 UT/100ML-% (insulin regular(human) in nacl) | NF | 
+
+## 2027 Advanced Control Plan drug guide (aetna.com) (aetna-acp-official-2027)
+Parser: aetna-guide; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":44,"blocks":0,"unknownTier":{}}
+
+Sample rows (first 10):
+
+## 2026 Formulary Exclusions, Standard Control Choice with ACSF (aetna-scc-exclusions-2026)
+Parser: none
+
+
+## Aetna Advanced Control changes effective 2024-01-01 (SOC-for-01.01.24-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20240101-soc-for-01-01-24-advance)
+Parser: aetna-soc; rows 59, problems 0, watchlist rows 8
+
+Notes: {"bbox":true,"pages":11,"tables":5,"effective":"January 1, 2024"}
+
+Sample rows (first 10):
+- TIER_DOWN | ACCU-CHEK FASTCLIX LANCETDEVICE | Moving to preferred brand tier | eff January 1, 2024
+- TIER_DOWN | KIT (NDC* 65702048110 only) ACCU-CHEK FASTCLIX LANCETS | Moving to preferred brand tier | eff January 1, 2024
+- TIER_DOWN | (NDC* 65702028810 only) ACCU-CHEK SAFE-T-PRO LANCETS | Moving to preferred brand tier | eff January 1, 2024
+- TIER_DOWN | (NDC* 50924095120 only) ACCU-CHEK SOFTCLIX (NDC* | Moving to preferred brand tier | eff January 1, 2024
+- NOT_COVERED | BASAGLAR KWIKPEN | Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar | eff January 1, 2024
+- NOT_COVERED | BASAGLAR TEMPO PEN | Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar | eff January 1, 2024
+- ADDED | BESREMI | Drug list addition (preferred specialty) | eff January 1, 2024
+- ADDED | BYOOVIZ | Drug list addition (preferred specialty); Preauthorization required | eff January 1, 2024
+- NOT_COVERED | CETROTIDE | Non-formulary; not covered. Covered options include: brand Ganirelix (NDC 78206-0138-xx) | eff January 1, 2024
+- TIER_DOWN | CIMERLI | Moving to preferred specialty tier; Preauthorization required | eff January 1, 2024
+
+Watchlist rows (up to 60 of 8):
+- [ROG SW] TIER_DOWN | ACCU-CHEK FASTCLIX LANCETDEVICE | Moving to preferred brand tier | eff January 1, 2024
+- [ROG SW] TIER_DOWN | KIT (NDC* 65702048110 only) ACCU-CHEK FASTCLIX LANCETS | Moving to preferred brand tier | eff January 1, 2024
+- [ROG SW] TIER_DOWN | (NDC* 65702028810 only) ACCU-CHEK SAFE-T-PRO LANCETS | Moving to preferred brand tier | eff January 1, 2024
+- [ROG SW] TIER_DOWN | (NDC* 50924095120 only) ACCU-CHEK SOFTCLIX (NDC* | Moving to preferred brand tier | eff January 1, 2024
+- [] NOT_COVERED | BASAGLAR KWIKPEN | Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar | eff January 1, 2024
+- [] NOT_COVERED | BASAGLAR TEMPO PEN | Non-formulary; not covered. Covered options include: Lantus, Lantus Solostar | eff January 1, 2024
+- [] ADDED | LANTUS (NDC* 00088222033 only) | Drug list addition (preferred) | eff January 1, 2024
+- [] ADDED | LANTUS SOLOSTAR (NDC* | Drug list addition (preferred) | eff January 1, 2024
+
+## Aetna Advanced Control changes effective 2024-04-01 (SOC-for-04.01.24-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20240401-soc-for-04-01-24-advance)
+Parser: aetna-soc; rows 26, problems 0, watchlist rows 2
+
+Notes: {"bbox":true,"pages":8,"tables":2,"effective":"April 1, 2024"}
+
+Sample rows (first 10):
+- RESTRICTION | ADIPEX-P | Quantity limits apply. Covered up to 30 units every 25 days | eff April 1, 2024
+- NOT_COVERED | albuterol sulfate hfa (NDC* 00093317431 only) | Non-formulary drug (Other NDCs covered) | eff April 1, 2024
+- RESTRICTION | benzphetamine hcl | Quantity limits apply. Covered up to 90 tabs every 25 days | eff April 1, 2024
+- TIER_UP | BIDIL | Moving to non-preferred brand tier | eff April 1, 2024
+- RESTRICTION | diethylprop tab 25mg | Quantity limits apply. Covered up to 90 tabs every 25 days | eff April 1, 2024
+- RESTRICTION | diethylprop tab 75mg er | Quantity limits apply. Covered up to 30 tabs every 25 days | eff April 1, 2024
+- TIER_UP | EVAMIST | Moving to non-preferred brand tier | eff April 1, 2024
+- NOT_COVERED | FENSOLVI | Not covered under pharmacy benefit. May be covered under the medical benefit | eff April 1, 2024
+- NOT_COVERED | HUMIRA | Non-formulary; not covered. | eff April 1, 2024
+- OTHER | HUMIRA PEDIATRIC CROHNS DISEASE STARTER PACK | Covered options include: For Ankylosing Spondylitis: Adalimumab-ADAZ, Cosentyx, | eff April 1, 2024
+
+Watchlist rows (up to 60 of 2):
+- [NVO] RESTRICTION | SAXENDA | Quantity limits apply. Covered up to 5 pens every 25 days | eff April 1, 2024
+- [NVO] RESTRICTION | WEGOVY | Quantity limits apply. Covered up to 4 pens every 21 days | eff April 1, 2024
+
+## Aetna Advanced Control changes effective 2024-07-01 (SOC-for-07.01.24-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20240701-soc-for-07-01-24-advance)
+Parser: aetna-soc; rows 35, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":2,"effective":"July 1, 2024"}
+
+Sample rows (first 10):
+- TIER_UP | DEMSER | Moving to non-preferred specialty tier; Preauthorization required; Quantity limits apply. Covered up to 4 grams per day | eff July 1, 2024
+- TIER_UP | DIVIGEL | Moving to non-preferred brand tier | eff July 1, 2024
+- ADDED | eluryng | Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days | eff July 1, 2024
+- TIER_DOWN | EMVERM | Moving to preferred brand tier | eff July 1, 2024
+- ADDED | enilloring | Drug list addition (preferred generic); Quantity limits apply. Covered up to 13 units every 300 days | eff July 1, 2024
+- ADDED | etonogestrel / ethinyl | Drug list addition (preferred generic); Quantity limits apply. | eff July 1, 2024
+- OTHER | estradiol | Covered up to 13 units every 300 days | eff July 1, 2024
+- RESTRICTION | EXELON | Preauthorization removed | eff July 1, 2024
+- TIER_DOWN | FABRAZYME | Moving to preferred specialty tier | eff July 1, 2024
+- TIER_UP | FORTEO | Moving to non-preferred specialty tier | eff July 1, 2024
+
+## Aetna Advanced Control changes effective 2024-10-01 (SOC-for-10.01.24-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20241001-soc-for-10-01-24-advance)
+Parser: aetna-soc; rows 18, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":2,"effective":"October 1, 2024"}
+
+Sample rows (first 10):
+- RESTRICTION | AGRYLIN | Quantity limits removed | eff October 1, 2024
+- RESTRICTION | anagrelide hydrochloride | Quantity limits removed | eff October 1, 2024
+- RESTRICTION | aspirin / dipyridamole | Quantity limits removed | eff October 1, 2024
+- RESTRICTION | BRILINTA | Quantity limits removed | eff October 1, 2024
+- RESTRICTION | cilostazol | Quantity limits removed | eff October 1, 2024
+- RESTRICTION | clovique | Preauthorization removed | eff October 1, 2024
+- RESTRICTION | DEPEN TITRATABS | Preauthorization removed | eff October 1, 2024
+- RESTRICTION | DIPENTUM | Preauthorization removed | eff October 1, 2024
+- RESTRICTION | dipyridamole | Quantity limits removed | eff October 1, 2024
+- RESTRICTION | EFFIENT | Quantity limits removed | eff October 1, 2024
+
+## Aetna Advanced Control changes effective 2025-01-01 (SOC-for-01.01.25-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20250101-soc-for-01-01-25-advance)
+Parser: aetna-soc; rows 67, problems 0, watchlist rows 6
+
+Notes: {"bbox":true,"pages":9,"tables":3,"effective":"January 1, 2025"}
+
+Sample rows (first 10):
+- TIER_DOWN | ABILIFY ASIMTUFII | Moving to preferred brand tier | eff January 1, 2025
+- NOT_COVERED | ACTEMRA | Not covered under pharmacy benefit. May be covered under the medical benefit | eff January 1, 2025
+- ADDED | ALTUVIIIO | Drug list addition (preferred specialty); Preauthorization required | eff January 1, 2025
+- ADDED | ASMANEX HFA | Drug list addition (preferred); Quantity limits apply. Covered up to 1 package every 25 days | eff January 1, 2025
+- ADDED | BAFIERTAM | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every… | eff January 1, 2025
+- ADDED | BENEFIX | Drug list addition (preferred specialty); Preauthorization required | eff January 1, 2025
+- ADDED | breyna | Drug list addition (preferred); Quantity limits apply. Covered up to 3 packages every 25 days | eff January 1, 2025
+- TIER_DOWN | BRIVIACT | Moving to preferred brand tier; Preauthorization removed | eff January 1, 2025
+- ADDED | budesonide / formoterol fumarate | Drug list addition (preferred); Quantity limits apply. Covered up to 3 | eff January 1, 2025
+- OTHER | dihydrate | packages every 25 days | eff January 1, 2025
+
+Watchlist rows (up to 60 of 6):
+- [] ADDED | INSULIN GLARGINE-YFGN | Drug list addition (preferred) | eff January 1, 2025
+- [PODD] NOT_COVERED | OMNIPOD GO 20 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP… | eff January 1, 2025
+- [PODD] NOT_COVERED | OMNIPOD GO 30 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP… | eff January 1, 2025
+- [PODD] NOT_COVERED | OMNIPOD GO 40 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP… | eff January 1, 2025
+- [] NOT_COVERED | SEMGLEE | Non-formulary; not covered. Covered options include: INSULIN GLARGINE-YFGN | eff January 1, 2025
+- [NVO] NOT_COVERED | VICTOZA | Non-formulary; not covered. Covered options include: liraglutide, MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY | eff January 1, 2025
+
+## Aetna Advanced Control changes effective 2025-04-01 (SOC-for-04.01.25-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20250401-soc-for-04-01-25-advance)
+Parser: aetna-soc; rows 11, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":2,"effective":"April 1, 2025"}
+
+Sample rows (first 10):
+- ADDED | ADALIMUMAB-FKJP AUTO- | Drug list addition (preferred specialty); Preauthorization | eff April 1, 2025
+- RESTRICTION | INJECTOR KIT 40 MG / 0.8ML | required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days | eff April 1, 2025
+- ADDED | ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty); Preauthorization | eff April 1, 2025
+- RESTRICTION | SYRINGE KIT 20 MG / 0.4ML | required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days | eff April 1, 2025
+- ADDED | ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty); Preauthorization | eff April 1, 2025
+- RESTRICTION | SYRINGE KIT 40 MG / 0.8ML | required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days | eff April 1, 2025
+- ADDED | budesonide | Drug list addition (preferred) | eff April 1, 2025
+- TIER_UP | CORLANOR | Moving to non-preferred brand tier | eff April 1, 2025
+- NOT_COVERED | COTELLIC | Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI | eff April 1, 2025
+- ADDED | dabigatran cap 110mg (except NDC | Drug list addition (preferred) | eff April 1, 2025
+
+## Aetna Advanced Control changes effective 2025-07-01 (SOC-for-07.01.25-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20250701-soc-for-07-01-25-advance)
+Parser: aetna-soc; rows 41, problems 0, watchlist rows 5
+
+Notes: {"bbox":true,"pages":10,"tables":4,"effective":"July 1, 2025"}
+
+Sample rows (first 10):
+- TIER_DOWN | ACCU-CHEK SAFE-T-PRO | Moving to preferred brand tier | eff July 1, 2025
+- ADDED | FULPHILA | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 2 syringes eve… | eff July 1, 2025
+- NOT_COVERED | FYLNETRA | Non-formulary; not covered. Covered options include: FULPHILA | eff July 1, 2025
+- ADDED | GLASSIA | Drug list addition (preferred specialty); Preauthorization required | eff July 1, 2025
+- NOT_COVERED | HYRIMOZ (by Sandoz) | Non-formulary; not covered. Covered options include:Ankylosing Spondylitis: ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, AVSOLA, CO… | eff July 1, 2025
+- NOT_COVERED | icosapent ethyl | Non-formulary; not covered. Covered options include: VASCEPA | eff July 1, 2025
+- ADDED | IQIRVO | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every … | eff July 1, 2025
+- ADDED | ivermectin cream | Drug list addition (preferred generic); Preauthorization required | eff July 1, 2025
+- NOT_COVERED | JATENZO | Non-formulary; not covered. Covered options include: testosterone gel (except authorized generics for TESTIM and VOGELXO… | eff July 1, 2025
+- ADDED | LIBERVANT | Drug list addition (preferred); Quantity limits apply. Covered up to 10 pouches every 25 days | eff July 1, 2025
+
+Watchlist rows (up to 60 of 5):
+- [ROG SW] TIER_DOWN | ACCU-CHEK SAFE-T-PRO | Moving to preferred brand tier | eff July 1, 2025
+- [PRIVATE] NOT_COVERED | ONETOUCH ULTRA | Non-formulary; not covered. Covered options include: ACCU- | eff July 1, 2025
+- [PRIVATE] OTHER | STRIPS, ONETOUCH | CHEK AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU- | eff July 1, 2025
+- [PRIVATE] OTHER | ONETOUCH LANCETS & | DEVICES | eff July 1, 2025
+- [LLY] NOT_COVERED | ZEPBOUND | Non-formulary; not covered. Covered options include: orlistat, QSYMIA, SAXENDA, WEGOVY | eff July 1, 2025
+
+## Aetna Advanced Control changes effective 2025-10-01 (SOC-for-10.01.25-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20251001-soc-for-10-01-25-advance)
+Parser: aetna-soc; rows 2, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":12,"tables":1,"effective":"October 1, 2025"}
+
+Sample rows (first 10):
+- ADDED | BELSOMRA | Drug list addition (preferred) | eff October 1, 2025
+- NOT_COVERED | VYVANSE | Non-formulary; not covered. Covered options include: amphetamine-dextroamphetamine mixed salts ext-rel, dexmethylphenida… | eff October 1, 2025
+
+## Aetna Advanced Control changes effective 2026-01-01 (SOC-for-01.01.26-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20260101-soc-for-01-01-26-advance)
+Parser: aetna-soc; rows 72, problems 0, watchlist rows 9
+
+Notes: {"bbox":true,"pages":7,"tables":5,"effective":"January 1, 2026"}
+
+Sample rows (first 10):
+- TIER_UP | ADBRY | Moving to non-preferred specialty tier | eff January 1, 2026
+- NOT_COVERED | ALPROLIX | Non-formulary; not covered. Covered options include: BENEFIX, REBINYN | eff January 1, 2026
+- TIER_UP | APTIOM | Moving to non-preferred brand tier | eff January 1, 2026
+- NOT_COVERED | AUSTEDO XR | Non-formulary; not covered. Covered options include: tetrabenazine, AUSTEDO, INGREZZA | eff January 1, 2026
+- NOT_COVERED | AUSTEDO XR PATIENT TITRATION KIT | Non-formulary; not covered. Covered options include: tetrabenazine, AUSTEDO, INGREZZA | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 30 INFUSION | Non-formulary; not covered. Covered options include: | eff January 1, 2026
+- OTHER | SET/23"/13MM | OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 30 INFUSION | Non-formulary; not covered. Covered options include: | eff January 1, 2026
+- OTHER | SET/43"/13MM | OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 90 INFUSION SET/23"/6MM | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+
+Watchlist rows (up to 60 of 9):
+- [TNDM] NOT_COVERED | MOBI 2ML CARTRIDGE | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [] NOT_COVERED | T:FLEX T:LOCK INSULIN CARTRIDGE | Non-formulary; not covered. Covered options include: | eff January 1, 2026
+- [TNDM] NOT_COVERED | T:SLIM X2 3 ML CARTRIDGE | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | T:SLIM X2 3ML CARTRIDGE | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT 30 PK10 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT 30 PK14 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT XC PK10 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT XC PK14 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM TRUSTL PK10 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+
+## Aetna Advanced Control changes effective 2026-04-01 (SOC-for-04.01.26-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20260401-soc-for-04-01-26-advance)
+Parser: aetna-soc; rows 15, problems 0, watchlist rows 1
+
+Notes: {"bbox":true,"pages":12,"tables":1,"effective":"April 1, 2026"}
+
+Sample rows (first 10):
+- NOT_COVERED | ARMOUR THYROID | Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine | eff April 1, 2026
+- ADDED | BONSITY | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 pen every 28… | eff April 1, 2026
+- TIER_UP | BRILINTA | Moving to non-preferred brand tier | eff April 1, 2026
+- TIER_UP | COPAXONE | Moving to non-preferred specialty tier | eff April 1, 2026
+- TIER_UP | DIFICID | Moving to non-preferred brand tier | eff April 1, 2026
+- NOT_COVERED | FORTEO | Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS | eff April 1, 2026
+- TIER_UP | hydrocodone | Moving to non-preferred generic tier | eff April 1, 2026
+- TIER_UP | bitartrate/homatropine methylbromide hydromet | Moving to non-preferred generic tier | eff April 1, 2026
+- NOT_COVERED | NP THYROID | Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine | eff April 1, 2026
+- ADDED | OSPOMYV | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe ever… | eff April 1, 2026
+
+Watchlist rows (up to 60 of 1):
+- [NVO] TIER_UP | SAXENDA | Moving to non-preferred brand tier | eff April 1, 2026
+
+## Aetna Advanced Control changes effective 2026-07-01 (SOC-for-07.01.26-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20260701-soc-for-07-01-26-advance)
+Parser: aetna-soc; rows 22, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":14,"tables":3,"effective":"July 1, 2026"}
+
+Sample rows (first 10):
+- NOT_COVERED | ANNOVERA | Non-formulary; not covered. Covered options include: etonogestrel-ethinyl estradiol vaginal ring, Haloette; For clients … | eff July 1, 2026
+- ADDED | BRIUMVI | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 3 vials every … | eff July 1, 2026
+- NOT_COVERED | COMBIVENT RESPIMAT | Non-formulary; not covered. Covered options include: ipratropium- albuterol inhalation solution, ANORO ELLIPTA, STIOLTO … | eff July 1, 2026
+- ADDED | EPYSQLI | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 12 vials every… | eff July 1, 2026
+- RESTRICTION | EUCRISA | Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days | eff July 1, 2026
+- ADDED | INVEGA HAFYERA | Drug list addition (preferred brand) | eff July 1, 2026
+- TIER_DOWN | INVEGA SUSTENNA | Moving to preferred brand tier | eff July 1, 2026
+- ADDED | INVEGA TRINZA | Drug list addition (preferred brand) | eff July 1, 2026
+- TIER_UP | ORENCIA INJ 50/0.4ML | Moving to non-preferred specialty tier | eff July 1, 2026
+- TIER_UP | ORENCIA INJ 87.5/0.7ML | Moving to non-preferred specialty tier | eff July 1, 2026
+
+## Aetna Advanced Control changes effective 2026-10-01 (SOC-for-10.01.26-Advanced-Control-Aetna.pdf) (aetna-soc-acp-20261001-soc-for-10-01-26-advance)
+Parser: aetna-soc; rows 12, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":14,"tables":3,"effective":"October 1, 2026"}
+
+Sample rows (first 10):
+- TIER_UP | BRIVIACT (oral tab, oral solution) | Moving to non-preferred brand tier | eff October 1, 2026
+- RESTRICTION | clotrimazole troche | Quantity limits removed | eff October 1, 2026
+- TIER_UP | FARXIGA | Moving to non-preferred brand tier | eff October 1, 2026
+- TIER_DOWN | KOSELUGO ORAL GRANULES | Moving to preferred specialty tier | eff October 1, 2026
+- RESTRICTION | tetracycline hydrochloride | Quantity limits removed | eff October 1, 2026
+- ADDED | vilazodone hydrochloride | Drug list addition (preferred generic) | eff October 1, 2026
+- NOT_COVERED | XELJANZ SOL 1MG/ML | Non-formulary; not covered. Covered options include: Psoriatic Arthritis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-… | eff October 1, 2026
+- NOT_COVERED | XELJANZ TAB 10MG | Non-formulary; not covered. Covered options include: Ulcerative Colitis: tofacitinib, tofacitinib ext- rel, ADALIMUMAB-A… | eff October 1, 2026
+- NOT_COVERED | XELJANZ TAB 5MG | Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMA… | eff October 1, 2026
+- NOT_COVERED | XELJANZ XR TAB 11MG | Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMA… | eff October 1, 2026
+
+## Aetna Advanced Control changes effective 2027-01-01 (SOC_for_01_01_27_Advanced_Control_Aetna.pdf) (aetna-soc-acp-20270101-soc-for-01-01-27-advance)
+Parser: aetna-soc; rows 65, problems 0, watchlist rows 14
+
+Notes: {"bbox":true,"pages":17,"tables":5,"effective":"January 1, 2027"}
+
+Sample rows (first 10):
+- TIER_UP | ALPHAGAN P | Moving to non-preferred brand tier | eff January 1, 2027
+- ADDED | AUVELITY | Drug list addition (preferred brand) | eff January 1, 2027
+- ADDED | AUVELITY TITRATION PACK | Drug list addition (preferred brand) | eff January 1, 2027
+- TIER_DOWN | BENLYSTA | Moving to preferred specialty tier | eff January 1, 2027
+- ADDED | BILPREVDA | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 vial every 2… | eff January 1, 2027
+- NOT_COVERED | BOSULIF | Non-formulary; not covered. Covered options include: bosutinib, dasatinib, imatinib mesylate, nilotinib, SCEMBLIX | eff January 1, 2027
+- ADDED | budesonide tab er 9mg | Drug list addition (preferred generic) | eff January 1, 2027
+- NOT_COVERED | CORLANOR | Non-formulary; not covered. Covered options include: ivabradine | eff January 1, 2027
+- ADDED | cyclosporine 0.05% | Drug list addition (preferred generic) | eff January 1, 2027
+- TIER_UP | ophthalmic emulsion DESCOVY | Moving to non-preferred brand tier | eff January 1, 2027
+
+Watchlist rows (up to 60 of 14):
+- [DXCM] NOT_COVERED | DEXCOM G6 RECEIVER | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE | eff January 1, 2027
+- [DXCM] NOT_COVERED | DEXCOM G6 SENSOR | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE | eff January 1, 2027
+- [DXCM] NOT_COVERED | DEXCOM G6 TRANSMITTER | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE | eff January 1, 2027
+- [DXCM] NOT_COVERED | DEXCOM G7 15 DAY SENSOR | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE | eff January 1, 2027
+- [DXCM] NOT_COVERED | DEXCOM G7 RECEIVER | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE | eff January 1, 2027
+- [DXCM] NOT_COVERED | DEXCOM G7 SENSOR | Non-formulary; not covered. Covered options include: FREESTYLE LIBRE | eff January 1, 2027
+- [ABT] ADDED | FREESTYLE LIBRE 2 | Drug list addition (preferred brand); Quantity limits | eff January 1, 2027
+- [ABT] ADDED | GLUCOSE MONITOR SYSTEM FREESTYLE LIBRE 3 | Drug list addition (preferred brand); Quantity limits | eff January 1, 2027
+- [ABT] ADDED | MONITORING SYSTEM FREESTYLE LIBRE KIT | Drug list addition (preferred brand); Quantity limits | eff January 1, 2027
+- [ABT] ADDED | FREESTYLE LIBRE KIT | Drug list addition (preferred brand); Quantity limits | eff January 1, 2027
+- [ABT] ADDED | FREESTYLE LIBRE KIT | Drug list addition (preferred brand); Quantity limits | eff January 1, 2027
+- [ABT] ADDED | FREESTYLE LIBRE MIS | Drug list addition (preferred brand) | eff January 1, 2027
+- [ABT] ADDED | 14D/READER FREESTYLE LIBRE MIS | Drug list addition (preferred brand) | eff January 1, 2027
+- [ABT] ADDED | 2/READER FREESTYLE LIBRE MIS | Drug list addition (preferred brand) | eff January 1, 2027
+
+## Aetna Advanced Control (Modified UM) changes effective 2025-01-01 (aetna-soc-acpum-20250101)
+Parser: aetna-soc; rows 67, problems 0, watchlist rows 6
+
+Notes: {"bbox":true,"pages":9,"tables":3,"effective":"January 1, 2025"}
+
+Sample rows (first 10):
+- TIER_DOWN | ABILIFY ASIMTUFII | Moving to preferred brand tier | eff January 1, 2025
+- NOT_COVERED | ACTEMRA | Not covered under pharmacy benefit. May be covered under the medical benefit | eff January 1, 2025
+- ADDED | ALTUVIIIO | Drug list addition (preferred specialty); Preauthorization required | eff January 1, 2025
+- ADDED | ASMANEX HFA | Drug list addition (preferred); Quantity limits apply. Covered up to 1 package every 25 days | eff January 1, 2025
+- ADDED | BAFIERTAM | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 120 caps every… | eff January 1, 2025
+- ADDED | BENEFIX | Drug list addition (preferred specialty); Preauthorization required | eff January 1, 2025
+- ADDED | breyna | Drug list addition (preferred); Quantity limits apply. Covered up to 3 packages every 25 days | eff January 1, 2025
+- TIER_DOWN | BRIVIACT | Moving to preferred brand tier; Preauthorization removed | eff January 1, 2025
+- ADDED | budesonide / formoterol fumarate | Drug list addition (preferred); Quantity limits apply. Covered up to 3 | eff January 1, 2025
+- OTHER | dihydrate | packages every 25 days | eff January 1, 2025
+
+Watchlist rows (up to 60 of 6):
+- [] ADDED | INSULIN GLARGINE-YFGN | Drug list addition (preferred) | eff January 1, 2025
+- [PODD] NOT_COVERED | OMNIPOD GO 20 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP… | eff January 1, 2025
+- [PODD] NOT_COVERED | OMNIPOD GO 30 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP… | eff January 1, 2025
+- [PODD] NOT_COVERED | OMNIPOD GO 40 UNITS / DAY | Non-formulary; not covered. Covered options include: OMNIPOD 5 INSULIN INFUSION PUMP, OMNIPOD DASH INSULIN INFUSION PUMP… | eff January 1, 2025
+- [] NOT_COVERED | SEMGLEE | Non-formulary; not covered. Covered options include: INSULIN GLARGINE-YFGN | eff January 1, 2025
+- [NVO] NOT_COVERED | VICTOZA | Non-formulary; not covered. Covered options include: liraglutide, MOUNJARO, OZEMPIC, RYBELSUS, TRULICITY | eff January 1, 2025
+
+## Aetna Advanced Control (Modified UM) changes effective 2025-04-01 (aetna-soc-acpum-20250401)
+Parser: aetna-soc; rows 12, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":9,"tables":3,"effective":"April 1, 2025"}
+
+Sample rows (first 10):
+- ADDED | ADALIMUMAB-FKJP AUTO-INJECTOR | Drug list addition (preferred specialty); | eff April 1, 2025
+- RESTRICTION | KIT 40 MG / 0.8ML | Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 pens every 28 days | eff April 1, 2025
+- ADDED | ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty); | eff April 1, 2025
+- RESTRICTION | SYRINGE KIT 20 MG / 0.4ML | Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days | eff April 1, 2025
+- ADDED | ADALIMUMAB-FKJP PREFILLED | Drug list addition (preferred specialty); | eff April 1, 2025
+- RESTRICTION | SYRINGE KIT 40 MG / 0.8ML | Preauthorization required; Step therapy required; Quantity limits apply. Covered up to 4 syringes every 28 days | eff April 1, 2025
+- ADDED | budesonide | Drug list addition (preferred) | eff April 1, 2025
+- TIER_UP | CORLANOR | Moving to non-preferred brand tier | eff April 1, 2025
+- NOT_COVERED | COTELLIC | Non-formulary; not covered. Covered options include: MEKINIST, MEKTOVI | eff April 1, 2025
+- ADDED | dabigatran cap 110mg (except NDC | Drug list addition (preferred) | eff April 1, 2025
+
+## Aetna Advanced Control (Modified UM) changes effective 2025-07-01 (aetna-soc-acpum-20250701)
+Parser: aetna-soc; rows 40, problems 0, watchlist rows 5
+
+Notes: {"bbox":true,"pages":10,"tables":4,"effective":"July 1, 2025"}
+
+Sample rows (first 10):
+- TIER_DOWN | ACCU-CHEK SAFE-T-PRO | Moving to preferred brand tier | eff July 1, 2025
+- ADDED | FULPHILA | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 2 syringes eve… | eff July 1, 2025
+- NOT_COVERED | FYLNETRA | Non-formulary; not covered. Covered options include: FULPHILA | eff July 1, 2025
+- ADDED | GLASSIA | Drug list addition (preferred specialty); Preauthorization required | eff July 1, 2025
+- NOT_COVERED | HYRIMOZ (by Sandoz) | Non-formulary; not covered. Covered options include:Ankylosing Spondylitis: ADALIMUMAB-ADAZ, ADALIMUMAB-FKJP, AVSOLA, CO… | eff July 1, 2025
+- NOT_COVERED | icosapent ethyl | Non-formulary; not covered. Covered options include: VASCEPA | eff July 1, 2025
+- ADDED | IQIRVO | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 30 tabs every … | eff July 1, 2025
+- ADDED | ivermectin cream | Drug list addition (preferred generic); Preauthorization required | eff July 1, 2025
+- NOT_COVERED | JATENZO | Non-formulary; not covered. Covered options include: testosterone gel (except authorized generics for TESTIM and VOGELXO… | eff July 1, 2025
+- ADDED | LIBERVANT | Drug list addition (preferred); Quantity limits apply. Covered up to 10 pouches every 25 days | eff July 1, 2025
+
+Watchlist rows (up to 60 of 5):
+- [ROG SW] TIER_DOWN | ACCU-CHEK SAFE-T-PRO | Moving to preferred brand tier | eff July 1, 2025
+- [PRIVATE] NOT_COVERED | ONETOUCH ULTRA | Non-formulary; not covered. Covered options include: ACCU-CHEK | eff July 1, 2025
+- [PRIVATE] OTHER | STRIPS, ONETOUCH | AVIVA PLUS STRIPS, ACCU-CHEK GUIDE STRIPS, ACCU-CHEK | eff July 1, 2025
+- [PRIVATE] ADDED | ONETOUCH LANCETS & LANCING DEVICES OTREXUP | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 4 injections e… | eff July 1, 2025
+- [LLY] NOT_COVERED | ZEPBOUND | Non-formulary; not covered. Covered options include: orlistat, QSYMIA, SAXENDA, WEGOVY | eff July 1, 2025
+
+## Aetna Advanced Control (Modified UM) changes effective 2025-10-01 (aetna-soc-acpum-20251001)
+Parser: aetna-soc; rows 2, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":4,"tables":1,"effective":"October 1, 2025"}
+
+Sample rows (first 10):
+- ADDED | BELSOMRA | Drug list addition (preferred) | eff October 1, 2025
+- NOT_COVERED | VYVANSE | Non-formulary; not covered. Covered options include: amphetamine-dextroamphetamine mixed salts ext-rel, dexmethylphenida… | eff October 1, 2025
+
+## Aetna Advanced Control (Modified UM) changes effective 2026-01-01 (aetna-soc-acpum-20260101)
+Parser: aetna-soc; rows 70, problems 0, watchlist rows 9
+
+Notes: {"bbox":true,"pages":7,"tables":5,"effective":"January 1, 2026"}
+
+Sample rows (first 10):
+- TIER_UP | ADBRY | Moving to non-preferred specialty tier | eff January 1, 2026
+- NOT_COVERED | ALPROLIX | Non-formulary; not covered. Covered options include: BENEFIX, REBINYN | eff January 1, 2026
+- TIER_UP | APTIOM | Moving to non-preferred brand tier | eff January 1, 2026
+- NOT_COVERED | AUSTEDO XR | Non-formulary; not covered. Covered options include: tetrabenazine, AUSTEDO, INGREZZA | eff January 1, 2026
+- NOT_COVERED | AUSTEDO XR PATIENT TITRATION KIT | Non-formulary; not covered. Covered options include: tetrabenazine, AUSTEDO, INGREZZA | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 30 INFUSION SET/23"/13MM | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 30 INFUSION SET/43"/13MM | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 90 INFUSION SET/23"/6MM | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 90 INFUSION SET/23"/9MM | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- NOT_COVERED | AUTOSOFT 90 INFUSION SET/43"/6MM | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+
+Watchlist rows (up to 60 of 9):
+- [TNDM] NOT_COVERED | MOBI 2ML CARTRIDGE | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [] NOT_COVERED | T:FLEX T:LOCK INSULIN CARTRIDGE | Non-formulary; not covered. Covered options include: | eff January 1, 2026
+- [TNDM] NOT_COVERED | T:SLIM X2 3 ML CARTRIDGE | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | T:SLIM X2 3ML CARTRIDGE | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT 30 PK10 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT 30 PK14 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT XC PK10 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM ASFT XC PK14 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+- [TNDM] NOT_COVERED | TANDEM T:SLIM TRUSTL PK10 23" | Non-formulary; not covered. Covered options include: OMNIPOD 5/ DASH, TWIIST INSULIN INFUSION PUMP AND SUPPLIES | eff January 1, 2026
+
+## Aetna Advanced Control (Modified UM) changes effective 2026-04-01 (aetna-soc-acpum-20260401)
+Parser: aetna-soc; rows 15, problems 0, watchlist rows 1
+
+Notes: {"bbox":true,"pages":12,"tables":1,"effective":"April 1, 2026"}
+
+Sample rows (first 10):
+- NOT_COVERED | ARMOUR THYROID | Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine | eff April 1, 2026
+- ADDED | BONSITY | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 pen every 28… | eff April 1, 2026
+- TIER_UP | BRILINTA | Moving to non-preferred brand tier | eff April 1, 2026
+- TIER_UP | COPAXONE | Moving to non-preferred specialty tier | eff April 1, 2026
+- TIER_UP | DIFICID | Moving to non-preferred brand tier | eff April 1, 2026
+- NOT_COVERED | FORTEO | Non-formulary; not covered. Covered options include: teriparatide, zoledronic acid, BONSITY, OSPOMYV, STOBOCLO, TYMLOS | eff April 1, 2026
+- TIER_UP | hydrocodone | Moving to non-preferred generic tier | eff April 1, 2026
+- TIER_UP | bitartrate/homatropine methylbromide hydromet | Moving to non-preferred generic tier | eff April 1, 2026
+- NOT_COVERED | NP THYROID | Non-formulary; not covered. Covered options include: levothyroxine tabs, liothyronine | eff April 1, 2026
+- ADDED | OSPOMYV | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 1 syringe ever… | eff April 1, 2026
+
+Watchlist rows (up to 60 of 1):
+- [NVO] TIER_UP | SAXENDA | Moving to non-preferred brand tier | eff April 1, 2026
+
+## Aetna Advanced Control (Modified UM) changes effective 2026-07-01 (aetna-soc-acpum-20260701)
+Parser: aetna-soc; rows 22, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":14,"tables":3,"effective":"July 1, 2026"}
+
+Sample rows (first 10):
+- NOT_COVERED | ANNOVERA | Non-formulary; not covered. Covered options include: etonogestrel-ethinyl estradiol vaginal ring, Haloette; For clients … | eff July 1, 2026
+- ADDED | BRIUMVI | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 3 vials every … | eff July 1, 2026
+- NOT_COVERED | COMBIVENT RESPIMAT | Non-formulary; not covered. Covered options include: ipratropium-albuterol inhalation solution, ANORO ELLIPTA, STIOLTO R… | eff July 1, 2026
+- ADDED | EPYSQLI | Drug list addition (preferred specialty); Preauthorization required; Quantity limits apply. Covered up to 12 vials every… | eff July 1, 2026
+- RESTRICTION | EUCRISA | Preauthorization required; Quantity limits apply. Covered up to 60 g every 25 days | eff July 1, 2026
+- ADDED | INVEGA HAFYERA | Drug list addition (preferred brand) | eff July 1, 2026
+- TIER_DOWN | INVEGA SUSTENNA | Moving to preferred brand tier | eff July 1, 2026
+- ADDED | INVEGA TRINZA | Drug list addition (preferred brand) | eff July 1, 2026
+- TIER_UP | ORENCIA INJ 50/0.4ML | Moving to non-preferred specialty tier | eff July 1, 2026
+- TIER_UP | ORENCIA INJ 87.5/0.7ML | Moving to non-preferred specialty tier | eff July 1, 2026
+
+## Aetna Advanced Control (Modified UM) changes effective 2026-10-01 (aetna-soc-acpum-20261001)
+Parser: aetna-soc; rows 12, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":14,"tables":3,"effective":"October 1, 2026"}
+
+Sample rows (first 10):
+- TIER_UP | BRIVIACT (oral tab, oral solution) | Moving to non-preferred brand tier | eff October 1, 2026
+- RESTRICTION | clotrimazole troche | Quantity limits removed | eff October 1, 2026
+- TIER_UP | FARXIGA | Moving to non-preferred brand tier | eff October 1, 2026
+- TIER_DOWN | KOSELUGO ORAL GRANULES | Moving to preferred specialty tier | eff October 1, 2026
+- RESTRICTION | tetracycline hydrochloride | Quantity limits removed | eff October 1, 2026
+- ADDED | vilazodone hydrochloride | Drug list addition (preferred generic) | eff October 1, 2026
+- NOT_COVERED | XELJANZ SOL 1MG/ML | Non-formulary; not covered. Covered options include: Psoriatic Arthritis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-A… | eff October 1, 2026
+- NOT_COVERED | XELJANZ TAB 10MG | Non-formulary; not covered. Covered options include: Ulcerative Colitis: tofacitinib, tofacitinib ext-rel, ADALIMUMAB-AD… | eff October 1, 2026
+- NOT_COVERED | XELJANZ TAB 5MG | Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMA… | eff October 1, 2026
+- NOT_COVERED | XELJANZ XR TAB 11MG | Non-formulary; not covered. Covered options include: Ankylosing Spondylitis: tofacitinib, tofacitinib ext-rel, ADALIMUMA… | eff October 1, 2026
+
+## Aetna Standard Control changes effective 2024-01-01 (aetna-soc-sc-20240101)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":9,"tables":0,"effective":"January 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2024-04-01 (aetna-soc-sc-20240401)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"April 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2024-07-01 (aetna-soc-sc-20240701)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":0,"effective":"July 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2024-10-01 (aetna-soc-sc-20241001)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":0,"effective":"October 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2025-01-01 (aetna-soc-sc-20250101)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"January 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2025-04-01 (aetna-soc-sc-20250401)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"April 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2025-07-01 (aetna-soc-sc-20250701)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":0,"effective":"July 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2025-10-01 (aetna-soc-sc-20251001)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":11,"tables":0,"effective":"October 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2026-01-01 (aetna-soc-sc-20260101)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":13,"tables":0,"effective":"January 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2026-04-01 (aetna-soc-sc-20260401)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":12,"tables":0,"effective":"April 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2026-07-01 (aetna-soc-sc-20260701)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":12,"tables":0,"effective":"July 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control changes effective 2026-10-01 (aetna-soc-sc-20261001)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":11,"tables":0,"effective":"October 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2024-01-01 (aetna-soc-scc-20240101)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":9,"tables":0,"effective":"January 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2024-04-01 (aetna-soc-scc-20240401)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"April 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2024-07-01 (aetna-soc-scc-20240701)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":0,"effective":"July 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2024-10-01 (aetna-soc-scc-20241001)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"October 1, 2024"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2025-01-01 (aetna-soc-scc-20250101)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"January 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2025-04-01 (aetna-soc-scc-20250401)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":7,"tables":0,"effective":"April 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2025-07-01 (aetna-soc-scc-20250701)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":8,"tables":0,"effective":"July 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2025-10-01 (aetna-soc-scc-20251001)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":11,"tables":0,"effective":"October 1, 2025"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2026-01-01 (aetna-soc-scc-20260101)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":13,"tables":0,"effective":"January 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2026-04-01 (aetna-soc-scc-20260401)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":12,"tables":0,"effective":"April 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2026-07-01 (aetna-soc-scc-20260701)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":12,"tables":0,"effective":"July 1, 2026"}
+
+Sample rows (first 10):
+
+## Aetna Standard Control Choice changes effective 2026-10-01 (aetna-soc-scc-20261001)
+Parser: aetna-soc; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":12,"tables":0,"effective":"October 1, 2026"}
+
+Sample rows (first 10):
+
+## Express Scripts: 2026%20Basic%20and%20HPF%20changes%20for%20HP%20early%20send.pdf (esi-2026-20basic-20and-20hpf-20changes-20for-20hp-20early-20send)
+Parser: esi-exclusions; rows 0, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":1,"tables":0,"effective":"July 1, 2026"}
+
+Sample rows (first 10):
+
+## Basic and High Performance Formulary status updates effective January 1, 2027 (esi-basic-hpf-changes-jan-2027)
+Parser: none
+
+
+## Evernorth formulary updates page (consultant) (esi-consultant-updates-page)
+Parser: none
+
+
+## National Preferred Flex Formulary exclusion changes effective January 1, 2027 (esi-flex-changes-jan-2027)
+Parser: esi-exclusions; rows 64, problems 0, watchlist rows 0
+
+Notes: {"bbox":true,"pages":3,"tables":3,"effective":"January 1, 2027"}
+
+Sample rows (first 10):
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | zolmitriptan 5mg nasal | alternatives: sumatriptan nasal | eff January 1, 2027
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ONZETRA XSAIL | alternatives: sumatriptan nasal | eff January 1, 2027
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ZOLMITRIPTAN 2.5MG NASAL | alternatives: sumatriptan nasal | eff January 1, 2027
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ZOMIG NASAL | alternatives: sumatriptan nasal | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | HEMANGEOL diltiazem er tablets | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | CARDIZEM LA nisoldipine | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | SULAR verapamil er pm (100 mg | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 200mg | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 300mg) fenofibrate capsules (130mg), fenofibrate tablets (40mg | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 120mg) | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+
+## National Preferred Formulary exclusion changes effective January 1, 2027 (esi-npf-changes-jan-2027)
+Parser: esi-exclusions; rows 77, problems 0, watchlist rows 7
+
+Notes: {"bbox":true,"pages":3,"tables":4,"effective":"January 1, 2027"}
+
+Sample rows (first 10):
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | zolmitriptan 5mg nasal | alternatives: sumatriptan nasal | eff January 1, 2027
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ONZETRA XSAIL | alternatives: sumatriptan nasal | eff January 1, 2027
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ZOLMITRIPTAN 2.5MG NASAL | alternatives: sumatriptan nasal | eff January 1, 2027
+- AUTONOMIC AND CENTRAL NERVOUS SYSTEM Antimigraine Agents | ZOMIG NASAL | alternatives: sumatriptan nasal | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | HEMANGEOL diltiazem er tablets | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | CARDIZEM LA nisoldipine | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | SULAR verapamil er pm (100 mg | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 200mg | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 300mg) fenofibrate capsules (130mg), fenofibrate tablets (40mg | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+- CARDIOVASCULAR Beta Blockers & Combinations Calcium Channel Blockers Fenofibrates HMG & Cholesterol Inhibitor Combinations Obstructive Hypertrophic Cardiomyopathy Agents | 120mg) | alternatives: propranolol solution diltiazem er capsules amlodipine, felodipine er verapamil er (120mg, 180mg, 240… | eff January 1, 2027
+
+Watchlist rows (up to 60 of 7):
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | 750mg tablets; METFORMIN 625MG TABLETS U-100: ADMELOG | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | FIASP | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | HUMALOG VIAL | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | INSULIN ASPART | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | LYUMJEV | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | NOVOLOG | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+- [] Pulmonary Arterial Hypertension (PAH) Agents DERMATOLOGICAL Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Insulins GASTROINTESTINAL Anti-Ulcer Agents | RELION NOVOLOG U-200: LYUMJEV Inhalation: AFREZZA sucralfate suspension | alternatives: Coverage may be approved for the treatment of Pulmonary Arterial Hypertension (PAH) under certain co… | eff January 1, 2027
+
+## 2026 National Preferred Formulary exclusions (full list) (esi-npf-exclusions-2026)
+Parser: esi-exclusions; rows 309, problems 0, watchlist rows 20
+
+Notes: {"bbox":true,"pages":22,"tables":18,"effective":""}
+
+Sample rows (first 10):
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | VANCOMYCIN 25MG/ML SOLUTION vancomycin 125MG TABLETS metronidazole linezolid tablets amoxicillin/clavulanate, levofloxacin | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | BLUJEPA | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | ORLYNVAH | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | PIVYA nitrofurantoin sulfamethoxazole/trimethoprim | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | 50MG/5ML SUSPENSION nitrofurantoin itraconazole cream | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | DENAVIR | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | XERESE acyclovir oral BENZNIDAZOLE 80MG | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | DORYX MPC, doxycycline HYCLATE DR 80MG, doxycycline HYCLATE 75MG CAPSULES doxycycline Coverage LEQEMBI | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- (oversized row, 281 chars) LEQEMBI IQLIK Alzheimer’s donepezil, rivastigmine Coverage Amyotrophic conditions. DIACOMIT, gabapentin RELGAABI 200MG solution, tablets ODT levetiracetam diaze…
+- All trademarks are the property of their respective owners. | Page 1 | alternatives: EXCL-NPF-26 (10/01/2026) | eff 
+
+Watchlist rows (up to 60 of 20):
+- [PRIVATE] (oversized row, 335 chars) SORILUX calcipotriene generic topical A in the exclusion plus mupirocin permethrin alclometasone & ointment; & solution; 2.5% cream, hydrocortisone lidocaine cr…
+- [] ciclopirox MICONAZOLE/ZINC DERMATOLOGICAL (continued) VUSION Topical Antifungals naftifine, oxiconazole, ECOZA, ERTACZO, NAFTIN, OXISTAT XOLEGEL clocortolone, flurandrenolide, Topical Corticosteroids HALOBETASOL ULTRAVATE, Vitamin D Analogs (Topical) CALCIPOTRIENE ALCORTIN crotamiton Miscellaneous doxepin cream Topical Dermatological Agents PLIAGLIS TRI-LUMA VEREGEN DIABETES METFORMIN Biguanidine Agents ASCENSIA ELI LILLY LIFESCAN Blood Glucose Meters & Test Strips ULTRA, ULTRA2, ROCHE (ACCU-CHEK) ALL OTHER THAT ARE Continuous Glucose EVERSENSE Monitoring Systems | VERIO FLEX) FREESTYLE ABBOTT PRECISION METERS & TEST STRIPS TEST STRIPS NOT LISTED AS PREFERRED TRIVIDIA METERS TRUE METRIX | alternatives: topical solution, topical solution ketoconazole, miconazole, nystatin clotrimazole, econazole cream,… | eff 
+- [DXCM] ciclopirox MICONAZOLE/ZINC DERMATOLOGICAL (continued) VUSION Topical Antifungals naftifine, oxiconazole, ECOZA, ERTACZO, NAFTIN, OXISTAT XOLEGEL clocortolone, flurandrenolide, Topical Corticosteroids HALOBETASOL ULTRAVATE, Vitamin D Analogs (Topical) CALCIPOTRIENE ALCORTIN crotamiton Miscellaneous doxepin cream Topical Dermatological Agents PLIAGLIS TRI-LUMA VEREGEN DIABETES METFORMIN Biguanidine Agents ASCENSIA ELI LILLY LIFESCAN Blood Glucose Meters & Test Strips ULTRA, ULTRA2, ROCHE (ACCU-CHEK) ALL OTHER THAT ARE Continuous Glucose EVERSENSE Monitoring Systems | DEXCOM TRANSMITTER 365: SENSOR | alternatives: topical solution, topical solution ketoconazole, miconazole, nystatin clotrimazole, econazole cream,… | eff 
+- [DXCM] ciclopirox MICONAZOLE/ZINC DERMATOLOGICAL (continued) VUSION Topical Antifungals naftifine, oxiconazole, ECOZA, ERTACZO, NAFTIN, OXISTAT XOLEGEL clocortolone, flurandrenolide, Topical Corticosteroids HALOBETASOL ULTRAVATE, Vitamin D Analogs (Topical) CALCIPOTRIENE ALCORTIN crotamiton Miscellaneous doxepin cream Topical Dermatological Agents PLIAGLIS TRI-LUMA VEREGEN DIABETES METFORMIN Biguanidine Agents ASCENSIA ELI LILLY LIFESCAN Blood Glucose Meters & Test Strips ULTRA, ULTRA2, ROCHE (ACCU-CHEK) ALL OTHER THAT ARE Continuous Glucose EVERSENSE Monitoring Systems | TRANSMITTER DEXCOM FREESTYLE | alternatives: topical solution, topical solution ketoconazole, miconazole, nystatin clotrimazole, econazole cream,… | eff 
+- [DXCM] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | & SYRINGES BY: DIAGNOSTICS EMBECTA DIABETES CARE EMBECTA (NIPRO DIAGNOSTICS) DIABETIC & SYRINGES NOT LISTED AS PREFERRED DEXCOM TRANSMITTER UNITY PROGRAM KIT DEXCOM FREESTYLE BRYNOVIN | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | FIASP | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | U-100: HUMALOG VIAL | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | INSULIN ASPART | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | RELION NOVOLOG U-200: HUMALOG AFREZZA BASAGLAR TEMPO | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | U-100: INSULIN DEGLUDEC | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | INSULIN GLARGINE-YFGN LANTUS | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | LEVEMIR | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | REZVOGLAR U-200: TRESIBA DEGLUDEC U-300: INSULIN AWIQLI PROTAMINE | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | HUMALOG MIX | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | RELION NOVOLOG MIX NOVOLIN MIX | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | HUMULIN | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, HUMALOG NOVOLOG, Inhalation: U-100: BASAGLAR, INSULIN (by Civica), Insulins U-200: INSULIN U-700 (Weekly): INSULIN ASPART NOVOLOG NOVOLIN, RELION NOVOLIN, | RELION NOVOLIN MIX | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [NVO] MISCELLANEOUS AGENTS (continued) POKONZA, Potassium Replacement Agents Primary Biliary Cholangitis Agents LYNAVOY Thymidine Kinase 2 Deficiency KYGEVVI Agents Weight Loss ZEPBOUND Wilson’s Disease Agents CUVRIOR, | 130mg, naltrexone Coverage Thymidine conditions. liraglutide | alternatives: chloride fenofibrate capsules (43mg, 134mg, 200mg), fenofibrate tablets, hydrochloride, rifampin, se… | eff 
+- [LLY] MISCELLANEOUS AGENTS (continued) POKONZA, Potassium Replacement Agents Primary Biliary Cholangitis Agents LYNAVOY Thymidine Kinase 2 Deficiency KYGEVVI Agents Weight Loss ZEPBOUND Wilson’s Disease Agents CUVRIOR, | ZEPBOUND VIALS PENS | alternatives: chloride fenofibrate capsules (43mg, 134mg, 200mg), fenofibrate tablets, hydrochloride, rifampin, se… | eff 
+- [NVO] MISCELLANEOUS AGENTS (continued) POKONZA, Potassium Replacement Agents Primary Biliary Cholangitis Agents LYNAVOY Thymidine Kinase 2 Deficiency KYGEVVI Agents Weight Loss ZEPBOUND Wilson’s Disease Agents CUVRIOR, | WEGOVY TRIENTINE 500MG CAPSULES trientine 250mg | alternatives: chloride fenofibrate capsules (43mg, 134mg, 200mg), fenofibrate tablets, hydrochloride, rifampin, se… | eff 
+
+## 2027 National Preferred Formulary exclusions (full list) (esi-npf-exclusions-2027)
+Parser: esi-exclusions; rows 407, problems 0, watchlist rows 21
+
+Notes: {"bbox":true,"pages":23,"tables":16,"effective":""}
+
+Sample rows (first 10):
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | FIRVANQ | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | VANCOMYCIN 25MG/ML SOLUTION LIKMEZ | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | METRONIDAZOLE 125MG TABLETS SIVEXTRO fosfomycin | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | BLUJEPA | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | ORLYNVAH | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | PIVYA NITROFURANTOIN 50MG/5ML SUSPENSION TOLSURA penciclovir cream | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | DENAVIR | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | XERESE | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- Chagas Disease Agents AUTONOMIC AND CENTRAL NERVOUS SYSTEM Alzheimer’s Agents Amyotrophic Lateral Sclerosis (ALS) Agents | LAMPIT KISUNLA | alternatives: BENZNIDAZOLE Coverage may be approved for the treatment of Alzheimer’s under certain conditions. don… | eff 
+- Chagas Disease Agents AUTONOMIC AND CENTRAL NERVOUS SYSTEM Alzheimer’s Agents Amyotrophic Lateral Sclerosis (ALS) Agents | LEQEMBI | alternatives: BENZNIDAZOLE Coverage may be approved for the treatment of Alzheimer’s under certain conditions. don… | eff 
+
+Watchlist rows (up to 60 of 21):
+- [PRIVATE] Topical Antifungals Topical Corticosteroids Vitamin D Analogs (Topical) Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Blood Glucose Meters and Test Strips Continuous Glucose Monitoring Systems | 750mg tablets; METFORMIN 625MG TABLETS ASCENSIA (CONTOUR) ELI LILLY (TEMPO) LIFESCAN (ONETOUCH SOLUTIONS STARTER | alternatives: ciclopirox 8% topical solution, tavaborole topical solution clotrimazole, ketoconazole, miconazole, … | eff 
+- [ROG SW] Topical Antifungals Topical Corticosteroids Vitamin D Analogs (Topical) Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Blood Glucose Meters and Test Strips Continuous Glucose Monitoring Systems | VERIO FLEX) ROCHE (ACCU-CHEK) ALL OTHER METERS AND TEST STRIPS THAT ARE NOT LISTED AS PREFERRED EVERSENSE 365: SENSOR | alternatives: ciclopirox 8% topical solution, tavaborole topical solution clotrimazole, ketoconazole, miconazole, … | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | ZEGALOGUE XULTOPHY U-100: ADMELOG | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | FIASP | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | HUMALOG VIAL | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN ASPART | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | LYUMJEV | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | NOVOLOG | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLOG U-200: LYUMJEV Inhalation: AFREZZA U-100: BASAGLAR | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | BASAGLAR TEMPO | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN DEGLUDEC | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN GLARGINE-YFGN (by Civica) | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | LEVEMIR | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | REZVOGLAR U-200: INSULIN DEGLUDEC INSULIN ASPART PROTAMINE | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | NOVOLOG MIX | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLOG MIX NOVOLIN | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | NOVOLIN MIX | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLIN | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLIN MIX BRENZAVVY | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [LLY] Immunosuppressant Agents Inflammatory Conditions Agents Infused Non-TNF Biologics Infused Non-TNF Biologics - Tocilizumab Intravenous Agents Infused Non-TNF Biologics - Ustekinumab Agents Infused TNF Antagonists Menkes Disease Agents Metabolic Agents Myasthenia Gravis Agents Neuromyelitis Optica Spectrum Disorder Agents NSAID and Acid Reducing Agent Combination Products Osteoporosis (Bone Modifiers) Other Bone Mineral Density Increasing Agents Potassium Replacement Agents Primary Biliary Cholangitis Agents Thymidine Kinase 2 Deficiency Agents Weight Loss Wilson’s Disease Agents | POTASSIUM CL 40MEQ PACKETS LIVDELZI KYGEVVI ZEPBOUND KWIKPENS | alternatives: tacrolimus capsules methotrexate tablets IMBRUVICA, JAKAFI, JAKAFI XR hydroxychloroquine tablets COS… | eff 
+- [LLY] Immunosuppressant Agents Inflammatory Conditions Agents Infused Non-TNF Biologics Infused Non-TNF Biologics - Tocilizumab Intravenous Agents Infused Non-TNF Biologics - Ustekinumab Agents Infused TNF Antagonists Menkes Disease Agents Metabolic Agents Myasthenia Gravis Agents Neuromyelitis Optica Spectrum Disorder Agents NSAID and Acid Reducing Agent Combination Products Osteoporosis (Bone Modifiers) Other Bone Mineral Density Increasing Agents Potassium Replacement Agents Primary Biliary Cholangitis Agents Thymidine Kinase 2 Deficiency Agents Weight Loss Wilson’s Disease Agents | ZEPBOUND VIALS CUVRIOR | alternatives: tacrolimus capsules methotrexate tablets IMBRUVICA, JAKAFI, JAKAFI XR hydroxychloroquine tablets COS… | eff 
+
+## 2026 National Preferred Flex Formulary exclusions (full list) (esi-npf-flex-exclusions-2026)
+Parser: esi-exclusions; rows 311, problems 0, watchlist rows 23
+
+Notes: {"bbox":true,"pages":22,"tables":18,"effective":""}
+
+Sample rows (first 10):
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | VANCOMYCIN 25MG/ML SOLUTION vancomycin 125MG TABLETS metronidazole linezolid tablets amoxicillin/clavulanate, levofloxacin | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | BLUJEPA | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | ORLYNVAH | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | PIVYA nitrofurantoin sulfamethoxazole/trimethoprim | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | 50MG/5ML SUSPENSION nitrofurantoin itraconazole cream | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | DENAVIR | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | XERESE acyclovir oral BENZNIDAZOLE 80MG | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- FIRVANQ, ANTIINFECTIVES LIKMEZ, METRONIDAZOLE Antibiotic Agents (Oral) SIVEXTRO fosfomycin, Antibiotic Agents for Urinary Tract Infections NITROFURANTOIN Antifungal Agents (Oral) TOLSURA Antivirals penciclovir Chagas Disease Agents LAMPIT DORYX DR Doxycycline Products DOXYCYCLINE DOXYCYCLINE KISUNLA, AUTONOMIC & CENTRAL NERVOUS SYSTEM Alzheimer’s Agents ZUNVEYL Amyotrophic Lateral Sclerosis QALSODY (ALS) Agents FINTEPLA GABARONE, LEVETIRACETAM LIBERVANT Anticonvulsants MOTPOLY PRIMIDONE SUBVENITE TOPIRAMATE | DORYX MPC, doxycycline HYCLATE DR 80MG, doxycycline HYCLATE 75MG CAPSULES doxycycline Coverage LEQEMBI | alternatives: capsules, vancomycin 50mg/ml solution 250mg or 500mg tablets or suspension cefadroxil, ciprofloxacin… | eff 
+- (oversized row, 281 chars) LEQEMBI IQLIK Alzheimer’s donepezil, rivastigmine Coverage Amyotrophic conditions. DIACOMIT, gabapentin RELGAABI 200MG solution, tablets ODT levetiracetam diaze…
+- All trademarks are the property of their respective owners. | Page 1 | alternatives: EXCL-FLEX-26 (10/01/2026) | eff 
+
+Watchlist rows (up to 60 of 23):
+- [PRIVATE] (oversized row, 335 chars) SORILUX calcipotriene generic topical A in the exclusion plus mupirocin permethrin alclometasone & ointment; & solution; 2.5% cream, hydrocortisone lidocaine cr…
+- [] ciclopirox JUBLIA MICONAZOLE/ZINC DERMATOLOGICAL (continued) VUSION Topical Antifungals naftifine, oxiconazole, ECOZA, ERTACZO, NAFTIN, OXISTAT XOLEGEL clocortolone, flurandrenolide, Topical Corticosteroids HALOBETASOL ULTRAVATE, Vitamin D Analogs (Topical) CALCIPOTRIENE ALCORTIN crotamiton Miscellaneous doxepin cream Topical Dermatological Agents PLIAGLIS TRI-LUMA VEREGEN DIABETES METFORMIN Biguanidine Agents ASCENSIA ELI LILLY LIFESCAN Blood Glucose Meters & Test Strips ULTRA, ULTRA2, ROCHE (ACCU-CHEK) ALL OTHER THAT ARE Continuous Glucose EVERSENSE Monitoring Systems | VERIO FLEX) FREESTYLE ABBOTT PRECISION METERS & TEST STRIPS TEST STRIPS NOT LISTED AS PREFERRED TRIVIDIA METERS TRUE METRIX | alternatives: topical solution, topical solution ketoconazole, miconazole, nystatin clotrimazole, econazole cream,… | eff 
+- [DXCM] ciclopirox JUBLIA MICONAZOLE/ZINC DERMATOLOGICAL (continued) VUSION Topical Antifungals naftifine, oxiconazole, ECOZA, ERTACZO, NAFTIN, OXISTAT XOLEGEL clocortolone, flurandrenolide, Topical Corticosteroids HALOBETASOL ULTRAVATE, Vitamin D Analogs (Topical) CALCIPOTRIENE ALCORTIN crotamiton Miscellaneous doxepin cream Topical Dermatological Agents PLIAGLIS TRI-LUMA VEREGEN DIABETES METFORMIN Biguanidine Agents ASCENSIA ELI LILLY LIFESCAN Blood Glucose Meters & Test Strips ULTRA, ULTRA2, ROCHE (ACCU-CHEK) ALL OTHER THAT ARE Continuous Glucose EVERSENSE Monitoring Systems | DEXCOM TRANSMITTER 365: SENSOR | alternatives: topical solution, topical solution ketoconazole, miconazole, nystatin clotrimazole, econazole cream,… | eff 
+- [DXCM] ciclopirox JUBLIA MICONAZOLE/ZINC DERMATOLOGICAL (continued) VUSION Topical Antifungals naftifine, oxiconazole, ECOZA, ERTACZO, NAFTIN, OXISTAT XOLEGEL clocortolone, flurandrenolide, Topical Corticosteroids HALOBETASOL ULTRAVATE, Vitamin D Analogs (Topical) CALCIPOTRIENE ALCORTIN crotamiton Miscellaneous doxepin cream Topical Dermatological Agents PLIAGLIS TRI-LUMA VEREGEN DIABETES METFORMIN Biguanidine Agents ASCENSIA ELI LILLY LIFESCAN Blood Glucose Meters & Test Strips ULTRA, ULTRA2, ROCHE (ACCU-CHEK) ALL OTHER THAT ARE Continuous Glucose EVERSENSE Monitoring Systems | TRANSMITTER DEXCOM FREESTYLE | alternatives: topical solution, topical solution ketoconazole, miconazole, nystatin clotrimazole, econazole cream,… | eff 
+- [DXCM] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | & SYRINGES BY: DIAGNOSTICS EMBECTA DIABETES CARE EMBECTA (NIPRO DIAGNOSTICS) DIABETIC & SYRINGES NOT LISTED AS PREFERRED DEXCOM TRANSMITTER UNITY PROGRAM KIT DEXCOM FREESTYLE BRYNOVIN | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | FIASP | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | HUMALOG JUNIOR KWIKPEN) | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | INSULIN ASPART | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | U-100: HUMALOG LYUMJEV | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | LYUMJEV TEMPO | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | MERILOG RELION NOVOLOG U-200: HUMALOG AFREZZA BASAGLAR TEMPO | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | INSULIN GLARGINE-YFGN U-100: INSULIN LANTUS | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | LEVEMIR | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | TRESIBA SEMGLEE (YFGN) U-200: TRESIBA DEGLUDEC U-300: INSULIN AWIQLI MIX 75-25 KWIKPEN | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | HUMALOG PROTAMINE | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | INSULIN MIX | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] PEN NEEDLES ARKRAY HOME AIDE HTL-STREFA NOVO NORDISK OWEN MUMFORD DIABETES (continued) PRODIGY Diabetic Pen Needles & Syringes SIMPLE DIAGNOSTICS TRIVIDIA ULTIMED ALL OTHER PEN NEEDLES THAT ARE Diabetic Supply Kits BIGFOOT ALOGLIPTIN, TRADJENTA, ALOGLIPTIN/METFORMIN, Dipeptidyl Peptidase-4 (DPP-4) JENTADUETO Inhibitors & Combinations SITAGLIPTIN/METFORMIN ZITUVIMET, ALOGLIPTIN/PIOGLITAZONE Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose QTERN, STEGLUJAN Co-Transporter-2 (SGLT-2) Inhibitors Combinations GLUCAGON Glucose-Elevating Drugs ZEGALOGUE Insulin (Basal) & Glucagon-Like Peptide-1 (GLP-1) XULTOPHY Agonist Combinations U-100: ADMELOG, (VIAL & KWIKPEN, HUMALOG KIRSTY, NOVOLOG, U-200: LYUMJEV Inhalation: U-100: BASAGLAR, Insulins INSULIN (by Civica), REZVOGLAR, U-200: INSULIN U-300: TOUJEO U-700 (Weekly): HUMALOG INSULIN ASPART NOVOLOG | RELION NOVOLOG MIX | alternatives: PEN NEEDLES SYRINGES G6: RECEIVER, SENSOR, G7: RECEIVER, SENSOR LIBRE: READER, SENSOR sitagliptin ph… | eff 
+- [] DIABETES NOVOLIN, Insulins (continued) RELION NOVOLIN, BRENZAVVY, Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors & Combinations INVOKAMET, GLIMEPIRIDE Sulfonylurea Agents GLIPIZIDE EAR/NOSE Nasal Antihistamines & azelastine/fluticasone, Combination Products Nasal Steroids OMNARIS, CETRAXAL, Otic Antibiotics & Combination Products CIPROFLOXACIN/FLUOCINOLONE ISTURISA ENDOCRINE Cushing’s Agents RECORLEV Enzyme Replacement Agents LOARGYS Gonadotropin-Releasing Hormone (GnRH) Analogs LUPRON (for Central Precocious Puberty) HUMATROPE, NUTROPIN Growth Hormones SKYTROFA, Phenylketonuria Agents SEPHIENCE BYNFEZIA LANREOTIDE, Somatostatin Analogs & SANDOSTATIN Other Related Medications SIGNIFOR AVEED, AZMIRO Testosterone Products KYZATREX, ADTHYZA 130MG Thyroid Replacement Therapy LEVOTHYROXINE TIROSINT, CORTROPHIN Miscellaneous Endocrine Agents DESMODA | NOVOLIN MIX | alternatives: HUMULIN MIX JARDIANCE ext-release, SYNJARDY XR 1mg, 2mg or 4mg tablets & 10mg tablets nasal plus flu… | eff 
+- [] DIABETES NOVOLIN, Insulins (continued) RELION NOVOLIN, BRENZAVVY, Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors & Combinations INVOKAMET, GLIMEPIRIDE Sulfonylurea Agents GLIPIZIDE EAR/NOSE Nasal Antihistamines & azelastine/fluticasone, Combination Products Nasal Steroids OMNARIS, CETRAXAL, Otic Antibiotics & Combination Products CIPROFLOXACIN/FLUOCINOLONE ISTURISA ENDOCRINE Cushing’s Agents RECORLEV Enzyme Replacement Agents LOARGYS Gonadotropin-Releasing Hormone (GnRH) Analogs LUPRON (for Central Precocious Puberty) HUMATROPE, NUTROPIN Growth Hormones SKYTROFA, Phenylketonuria Agents SEPHIENCE BYNFEZIA LANREOTIDE, Somatostatin Analogs & SANDOSTATIN Other Related Medications SIGNIFOR AVEED, AZMIRO Testosterone Products KYZATREX, ADTHYZA 130MG Thyroid Replacement Therapy LEVOTHYROXINE TIROSINT, CORTROPHIN Miscellaneous Endocrine Agents DESMODA | HUMULIN | alternatives: HUMULIN MIX JARDIANCE ext-release, SYNJARDY XR 1mg, 2mg or 4mg tablets & 10mg tablets nasal plus flu… | eff 
+- [] DIABETES NOVOLIN, Insulins (continued) RELION NOVOLIN, BRENZAVVY, Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors & Combinations INVOKAMET, GLIMEPIRIDE Sulfonylurea Agents GLIPIZIDE EAR/NOSE Nasal Antihistamines & azelastine/fluticasone, Combination Products Nasal Steroids OMNARIS, CETRAXAL, Otic Antibiotics & Combination Products CIPROFLOXACIN/FLUOCINOLONE ISTURISA ENDOCRINE Cushing’s Agents RECORLEV Enzyme Replacement Agents LOARGYS Gonadotropin-Releasing Hormone (GnRH) Analogs LUPRON (for Central Precocious Puberty) HUMATROPE, NUTROPIN Growth Hormones SKYTROFA, Phenylketonuria Agents SEPHIENCE BYNFEZIA LANREOTIDE, Somatostatin Analogs & SANDOSTATIN Other Related Medications SIGNIFOR AVEED, AZMIRO Testosterone Products KYZATREX, ADTHYZA 130MG Thyroid Replacement Therapy LEVOTHYROXINE TIROSINT, CORTROPHIN Miscellaneous Endocrine Agents DESMODA | RELION NOVOLIN MIX INVOKANA | alternatives: HUMULIN MIX JARDIANCE ext-release, SYNJARDY XR 1mg, 2mg or 4mg tablets & 10mg tablets nasal plus flu… | eff 
+- [NVO] MISCELLANEOUS AGENTS BOSAYA, (continued) OSPOMYV Osteoporosis (Bone Modifiers) STOBOCLO Other Bone Mineral Density AUKELSO, Increasing Agents WYOST, XGEVA Polyneuropathy of Hereditary ONPATTRO, Transthyretin-Mediated Amyloidosis Potassium Replacement Agents POKONZA, Primary Biliary Cholangitis Agents LYNAVOY Thymidine Kinase 2 Deficiency KYGEVVI Agents Weight Loss ZEPBOUND Wilson’s Disease Agents CUVRIOR, | 130mg, naltrexone Coverage Thymidine conditions. liraglutide | alternatives: ibandronate, risedronate, teriparatide, acid, BILDYOS, ENOBY, TYMLOS XTRENBO chloride fenofibrate ca… | eff 
+- [LLY] MISCELLANEOUS AGENTS BOSAYA, (continued) OSPOMYV Osteoporosis (Bone Modifiers) STOBOCLO Other Bone Mineral Density AUKELSO, Increasing Agents WYOST, XGEVA Polyneuropathy of Hereditary ONPATTRO, Transthyretin-Mediated Amyloidosis Potassium Replacement Agents POKONZA, Primary Biliary Cholangitis Agents LYNAVOY Thymidine Kinase 2 Deficiency KYGEVVI Agents Weight Loss ZEPBOUND Wilson’s Disease Agents CUVRIOR, | ZEPBOUND VIALS PENS | alternatives: ibandronate, risedronate, teriparatide, acid, BILDYOS, ENOBY, TYMLOS XTRENBO chloride fenofibrate ca… | eff 
+- [NVO] MISCELLANEOUS AGENTS BOSAYA, (continued) OSPOMYV Osteoporosis (Bone Modifiers) STOBOCLO Other Bone Mineral Density AUKELSO, Increasing Agents WYOST, XGEVA Polyneuropathy of Hereditary ONPATTRO, Transthyretin-Mediated Amyloidosis Potassium Replacement Agents POKONZA, Primary Biliary Cholangitis Agents LYNAVOY Thymidine Kinase 2 Deficiency KYGEVVI Agents Weight Loss ZEPBOUND Wilson’s Disease Agents CUVRIOR, | WEGOVY TRIENTINE 500MG CAPSULES trientine 250mg | alternatives: ibandronate, risedronate, teriparatide, acid, BILDYOS, ENOBY, TYMLOS XTRENBO chloride fenofibrate ca… | eff 
+
+## 2027 National Preferred Flex Formulary exclusions (full list) (esi-npf-flex-exclusions-2027)
+Parser: esi-exclusions; rows 415, problems 0, watchlist rows 24
+
+Notes: {"bbox":true,"pages":23,"tables":16,"effective":""}
+
+Sample rows (first 10):
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | FIRVANQ | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | VANCOMYCIN 25MG/ML SOLUTION LIKMEZ | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | METRONIDAZOLE 125MG TABLETS SIVEXTRO fosfomycin | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | BLUJEPA | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | ORLYNVAH | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | PIVYA NITROFURANTOIN 50MG/5ML SUSPENSION TOLSURA penciclovir cream | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | DENAVIR | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- ANTIINFECTIVES Antibiotic Agents (Oral) Antibiotic Agents for Urinary Tract Infections Antifungal Agents (Oral) Antivirals | XERESE | alternatives: vancomycin capsules, vancomycin 50mg/ml solution metronidazole 250mg or 500mg tablets linezolid tabl… | eff 
+- Chagas Disease Agents AUTONOMIC AND CENTRAL NERVOUS SYSTEM Alzheimer’s Agents Amyotrophic Lateral Sclerosis (ALS) Agents | LAMPIT KISUNLA | alternatives: BENZNIDAZOLE Coverage may be approved for the treatment of Alzheimer’s under certain conditions. don… | eff 
+- Chagas Disease Agents AUTONOMIC AND CENTRAL NERVOUS SYSTEM Alzheimer’s Agents Amyotrophic Lateral Sclerosis (ALS) Agents | LEQEMBI | alternatives: BENZNIDAZOLE Coverage may be approved for the treatment of Alzheimer’s under certain conditions. don… | eff 
+
+Watchlist rows (up to 60 of 24):
+- [PRIVATE] Topical Antifungals Topical Corticosteroids Vitamin D Analogs (Topical) Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Blood Glucose Meters and Test Strips Continuous Glucose Monitoring Systems | 750mg tablets; METFORMIN 625MG TABLETS ASCENSIA (CONTOUR) ELI LILLY (TEMPO) LIFESCAN (ONETOUCH SOLUTIONS STARTER | alternatives: ciclopirox 8% topical solution, tavaborole topical solution ciclopirox clotrimazole, ketoconazole, m… | eff 
+- [ROG SW] Topical Antifungals Topical Corticosteroids Vitamin D Analogs (Topical) Miscellaneous Topical Dermatological Agents DIABETES Biguanide Agents Blood Glucose Meters and Test Strips Continuous Glucose Monitoring Systems | VERIO FLEX) ROCHE (ACCU-CHEK) ALL OTHER METERS AND TEST STRIPS THAT ARE NOT LISTED AS PREFERRED EVERSENSE 365: SENSOR | alternatives: ciclopirox 8% topical solution, tavaborole topical solution ciclopirox clotrimazole, ketoconazole, m… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | ZEGALOGUE XULTOPHY U-100: ADMELOG | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | FIASP | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | HUMALOG (VIAL | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN ASPART | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | LYUMJEV | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | NOVOLOG | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLOG U-200: LYUMJEV Inhalation: AFREZZA U-100: BASAGLAR | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | BASAGLAR TEMPO | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN DEGLUDEC | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN GLARGINE-YFGN (by Civica) | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | LANTUS | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | LEVEMIR | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | REZVOGLAR | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | SEMGLEE (YFGN) U-200: INSULIN DEGLUDEC U-300: TOUJEO HUMALOG MIX 75-25 KWIKPEN | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | INSULIN ASPART PROTAMINE | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | NOVOLOG MIX | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLOG MIX NOVOLIN | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | NOVOLIN MIX | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLIN | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [] Diabetic Pen Needles and Syringes Diabetic Supply Kits Dipeptidyl Peptidase-4 (DPP-4) Inhibitors and Combinations Dipeptidyl Peptidase-4 (DPP-4) Inhibitors/Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors Combinations Glucose-Elevating Drugs Insulin (Basal) and Glucagon-Like Peptide-1 (GLP- 1) Agonist Combinations Insulins Sodium Glucose Co-Transporter-2 (SGLT-2) Inhibitors and Combinations Sulfonylurea Agents | RELION NOVOLIN MIX BRENZAVVY | alternatives: EMBECTA PEN NEEDLES EMBECTA SYRINGES DEXCOM G6: RECEIVER, SENSOR, TRANSMITTER DEXCOM G7: RECEIVER, S… | eff 
+- [LLY] Immune Globulins Immunosuppressant Agents Inflammatory Conditions Agents Infused Non-TNF Biologics Infused Non-TNF Biologics - Tocilizumab Intravenous Agents Infused Non-TNF Biologics - Ustekinumab Agents Infused TNF Antagonists Menkes Disease Agents Metabolic Agents Myasthenia Gravis Agents Neuromyelitis Optica Spectrum Disorder Agents NSAID and Acid Reducing Agent Combination Products Osteoporosis (Bone Modifiers) Other Bone Mineral Density Increasing Agents Potassium Replacement Agents Primary Biliary Cholangitis Agents Thymidine Kinase 2 Deficiency Agents Weight Loss Wilson’s Disease Agents | POTASSIUM CL 40MEQ PACKETS LIVDELZI KYGEVVI ZEPBOUND KWIKPENS | alternatives: SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IV: GAMMAGARD LIQUID, GAMMAGARD LIQUI… | eff 
+- [LLY] Immune Globulins Immunosuppressant Agents Inflammatory Conditions Agents Infused Non-TNF Biologics Infused Non-TNF Biologics - Tocilizumab Intravenous Agents Infused Non-TNF Biologics - Ustekinumab Agents Infused TNF Antagonists Menkes Disease Agents Metabolic Agents Myasthenia Gravis Agents Neuromyelitis Optica Spectrum Disorder Agents NSAID and Acid Reducing Agent Combination Products Osteoporosis (Bone Modifiers) Other Bone Mineral Density Increasing Agents Potassium Replacement Agents Primary Biliary Cholangitis Agents Thymidine Kinase 2 Deficiency Agents Weight Loss Wilson’s Disease Agents | ZEPBOUND VIALS CUVRIOR | alternatives: SC: GAMMAGARD LIQUID, GAMMAGARD LIQUID ERC, GAMUNEX-C, XEMBIFY IV: GAMMAGARD LIQUID, GAMMAGARD LIQUI… | eff 
+
+## Optum Rx Premium Standard Formulary, July 2026 cycle (client copy) (optum-premium-standard-formulary-jul-2026)
+Parser: none
+
+
+## Optum Rx Premium UM list 2026-01-01 (pa-premium-um-drug-list-010126.pdf) (optum-um-20260101-pa-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2026-01-01 (ql-premium-um-drug-list-010126.pdf) (optum-um-20260101-ql-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2026-01-01 (st-premium-um-drug-list-010126.pdf) (optum-um-20260101-st-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2026-07-01 (pa-premium-um-drug-list-070126.pdf) (optum-um-20260701-pa-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2026-07-01 (ql-premium-um-drug-list-070126.pdf) (optum-um-20260701-ql-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2026-07-01 (st-premium-um-drug-list-070126.pdf) (optum-um-20260701-st-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2027-01-01 (pa-premium-um-drug-list-010127.pdf) (optum-um-20270101-pa-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2027-01-01 (ql-premium-um-drug-list-010127.pdf) (optum-um-20270101-ql-premium-um-drug-list-)
+Parser: none
+
+
+## Optum Rx Premium UM list 2027-01-01 (st-premium-um-drug-list-010127.pdf) (optum-um-20270101-st-premium-um-drug-list-)
+Parser: none
+
+
 ## Edition comparison: 2026 Advanced Control Plan, Aetna -> 2027 Advanced Control Plan, Aetna
 Rows 4551 -> 4557; changes {"NOW_NOT_COVERED":19,"REMOVED":19,"TIER_CHANGED":5,"RESTRICTION_CHANGED":82,"NOW_COVERED":22,"ADDED":26}
 
@@ -731,3 +1735,88 @@ Other coverage changes (first 40 of 29):
 - NOW_COVERED MAVYRET ORAL PACKET 50-20 MG (glecaprevir- pibrentasvir): NF -> PSP
 - NOW_COVERED MAVYRET ORAL TABLET 100-40 MG (glecaprevir- pibrentasvir): NF -> PSP
 - NOW_COVERED MIEBO OPHTHALMIC SOLUTION 1.338 GM/ML (perfluorohexyloctane): NF -> PB
+
+## Edition comparison: 2026 Advanced Control Plan drug guide (aetna.com) -> 2027 Advanced Control Plan drug guide (aetna.com)
+Rows 4496 -> 0; changes {"REMOVED":4431}
+
+Watchlist changes (164):
+- REMOVED [] &60X8 & 60X12 UNIT, 8 UNIT, 90 X 4 UNIT & 90X8 UNIT, 90 X 8 UNIT & 90X12 UNIT (insulin regular human): NF -> -
+- REMOVED [] 31G X 15/64" 0.5 ML, 31G X 15/64" 1 ML, 31G X 5/16" 0.3 ML, 31G X 5/16" 0.5 ML, 31G X 5/16" 1 ML (insulin syringe-needle u-100): PB [N8] -> -
+- REMOVED [ROG SW] ACCU-CHEK AVIVA PLUS IN VITRO STRIP (glucose blood): PB [N8, QL] -> -
+- REMOVED [ROG SW] ACCU-CHEK FASTCLIX LANCET KIT (lancets misc.): PB [N8] -> -
+- REMOVED [ROG SW] ACCU-CHEK FASTCLIX LANCETS (lancets): PB [QL] -> -
+- REMOVED [ROG SW] ACCU-CHEK GUIDE TEST IN VITRO STRIP (glucose blood): PB [N8] -> -
+- REMOVED [ROG SW] ACCU-CHEK SAFE-T PRO LANCETS (lancets): PB [QL] -> -
+- REMOVED [ROG SW] ACCU-CHEK SMARTVIEW IN VITRO STRIP (glucose blood): PB [N8] -> -
+- REMOVED [ROG SW] ACCU-CHEK SOFTCLIX LANCET DEV KIT (lancets misc.): PB [N8] -> -
+- REMOVED [ROG SW] ACCU-CHEK SOFTCLIX LANCETS (lancets): PB -> -
+- REMOVED [] ADMELOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] ADMELOG SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] APIDRA INJECTION SOLUTION 100 UNIT/ML (insulin glulisine): NF -> -
+- REMOVED [] APIDRA SOLOSTAR SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glulisine): NF -> -
+- REMOVED [] BASAGLAR KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin glargine): NF -> -
+- REMOVED [] BASAGLAR TEMPO PEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin glargine): NF -> -
+- REMOVED [] BD INSULIN SYRINGE U-500 31G X 6MM 0.5 ML (insulin syringe/needle u-500): PB [N8] -> -
+- REMOVED [] BD PEN NEEDLE MICRO ULTRAFINE 32G X 6 MM (insulin pen needle): PB [N8] -> -
+- REMOVED [] BD PEN NEEDLE MINI ULTRAFINE 31G X 5 MM (insulin pen needle): PB [N8] -> -
+- REMOVED [] BD PEN NEEDLE NANO 2ND GEN 32G X 4 MM (insulin pen needle): PB [N8] -> -
+- REMOVED [] BD PEN NEEDLE NANO ULTRAFINE 32G X 4 MM (insulin pen needle): PB -> -
+- REMOVED [] BD PEN NEEDLE ORIG ULTRAFINE 29G X 12.7MM (insulin pen needle): PB [N8] -> -
+- REMOVED [] BD PEN NEEDLE SHORT ULTRAFINE 31G X 8 MM (insulin pen needle): PB [N8] -> -
+- REMOVED [] BD VEO INSULIN SYR ULTRAFINE 31G X 15/64" 0.3 ML, 31G X 15/64" 1 ML (insulin syringe-needle u-100): PB -> -
+- REMOVED [PRIVATE] CONTOUR NEXT TEST IN VITRO STRIP (glucose blood): NF -> -
+- REMOVED [] COOL BLOOD GLUCOSE TEST STRIPS IN VITRO STRIP (glucose blood): NF -> -
+- REMOVED [DXCM] DEXCOM G6 RECEIVER DEVICE (continuous glucose receiver): PB -> -
+- REMOVED [DXCM] DEXCOM G6 SENSOR (continuous glucose sensor): PB [QL] -> -
+- REMOVED [DXCM] DEXCOM G6 TRANSMITTER (continuous glucose transmitter): PB -> -
+- REMOVED [DXCM] DEXCOM G7 15 DAY SENSOR (continuous glucose sensor): PB [QL] -> -
+- REMOVED [DXCM] DEXCOM G7 RECEIVER DEVICE (continuous glucose receiver): PB -> -
+- REMOVED [DXCM] DEXCOM G7 SENSOR (continuous glucose sensor): PB [QL] -> -
+- REMOVED [] EMBECTA AUTOSHIELD DUO 30G X 5 MM (insulin pen needle): PB -> -
+- REMOVED [] EMBECTA INSULIN SYR ULTRAFINE 30G X 1/2" 0.3 ML,: - -> -
+- REMOVED [] EMBECTA INSULIN SYRINGE U-500 31G X 6MM 0.5 ML (insulin syringe/needle u-500): PB [N8] -> -
+- REMOVED [] EMBECTA PEN NEEDLE NANO 32G X 4 MM (insulin pen needle): PB [N8] -> -
+- REMOVED [] EMBECTA PEN NEEDLE ULTRAFINE 29G X 12.7MM , 31G X 5 MM , 31G X 8 MM , 32G X 6 MM (insulin pen needle): PB -> -
+- REMOVED [] ENLITE GLUCOSE SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [] EVERSENSE 365 SENSOR/HOLDER (continuous glucose sensor): NF -> -
+- REMOVED [] EVERSENSE 365 SMART TRANSMIT (continuous glucose transmitter): NF -> -
+- REMOVED [] EVERSENSE SENSOR/HOLDER (continuous glucose sensor): NF -> -
+- REMOVED [] EVERSENSE SMART TRANSMITTER (continuous glucose transmitter): NF -> -
+- REMOVED [] FIASP FLEXTOUCH SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML (insulin aspart (w/niacinamide)): PB -> -
+- REMOVED [] FIASP INJECTION SOLUTION 100 UNIT/ML (insulin aspart (w/niacinamide)): PB -> -
+- REMOVED [] FIASP PENFILL SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)): PB [N8] -> -
+- REMOVED [] FIASP PUMPCART SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin aspart (w/niacinamide)): NF -> -
+- REMOVED [] FREESTYLE INSULINX TEST IN VITRO STRIP (glucose blood): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE 14 DAY SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE 2 PLUS SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE 2 SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE 3 PLUS SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE 3 READER DEVICE (continuous glucose receiver): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE 3 SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [ABT] FREESTYLE LIBRE READER DEVICE (continuous glucose receiver): NF -> -
+- REMOVED [] glucose meter test in vitro strip gnp easy touch glucose test in vitro strip: NF -> -
+- REMOVED [] GOJJI BLOOD TEST STRIP/LANCETS IN VITRO STRIP (glucose blood): NF -> -
+- REMOVED [] GUARDIAN 4 GLUCOSE SENSOR (continuous glucose sensor): NF -> -
+- REMOVED [] GUARDIAN 4 TRANSMITTER (continuous glucose transmitter): NF -> -
+- REMOVED [] GUARDIAN LINK 3 TRANSMITTER (continuous glucose transmitter): NF -> -
+- REMOVED [MDT] GUARDIAN SENSOR (3) (continuous glucose sensor): NF -> -
+- REMOVED [MDT] guardian sensor 3: NF -> -
+- REMOVED [] HUMALOG INJECTION SOLUTION 100 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] HUMALOG JUNIOR KWIKPEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] HUMALOG KWIKPEN SUBCUTANEOUS SOLUTION PEN- INJECTOR 100 UNIT/ML, 200 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] HUMALOG MIX 50/50 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (50-50) 100 UNIT/ML (insulin lispro prot & lispro): NF -> -
+- REMOVED [] HUMALOG MIX 75/25 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (75-25) 100 UNIT/ML (insulin lispro prot & lispro): NF -> -
+- REMOVED [] HUMALOG MIX 75/25 SUBCUTANEOUS SUSPENSION (75- 25) 100 UNIT/ML (insulin lispro prot & lispro): NF -> -
+- REMOVED [] HUMALOG SUBCUTANEOUS SOLUTION CARTRIDGE 100 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] HUMALOG TEMPO PEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 100 UNIT/ML (insulin lispro): NF -> -
+- REMOVED [] HUMULIN 70/30 KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR (70-30) 100 UNIT/ML (insulin nph isophane & regular): NF -> -
+- REMOVED [] HUMULIN 70/30 SUBCUTANEOUS SUSPENSION (70-30) 100 UNIT/ML (insulin nph isophane & regular): NF -> -
+- REMOVED [] HUMULIN N KWIKPEN SUBCUTANEOUS SUSPENSION PEN-INJECTOR 100 UNIT/ML (insulin nph human (isophane)): NF -> -
+- REMOVED [] HUMULIN N SUBCUTANEOUS SUSPENSION 100 UNIT/ML (insulin nph human (isophane)): NF -> -
+- REMOVED [] HUMULIN R INJECTION SOLUTION 100 UNIT/ML (insulin regular human): NF -> -
+- REMOVED [] HUMULIN R U-500 KWIKPEN SUBCUTANEOUS SOLUTION PEN-INJECTOR 500 UNIT/ML (insulin regular human): PB -> -
+- REMOVED [] IGLUCOSE TEST STRIPS IN VITRO STRIP (glucose blood): NF -> -
+- REMOVED [] insulin asp prot & asp flexpen subcutaneous suspension pen- injector (70-30) 100 unit/ml: NF -> -
+- REMOVED [] insulin aspart flexpen subcutaneous solution pen-injector 100: NF -> -
+- REMOVED [] insulin aspart penfill subcutaneous solution cartridge 100 unit/ml: NF -> -
+- REMOVED [] insulin aspart prot & aspart subcutaneous suspension (70-30) 100: NF -> -
