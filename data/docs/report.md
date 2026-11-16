@@ -2,7 +2,7 @@ Known-answer checks: 10 passed, 0 failed, 4 skipped
 
 # Formulary monitor: commercial documents report
 
-Generated 2026-11-16T19:46:38.324Z
+Generated 2026-11-16T19:59:52.535Z
 
 ## 2026 Advanced Control Plan, Aetna (aetna-acp-2026)
 Parser: aetna-guide; rows 4551, problems 0, watchlist rows 164
