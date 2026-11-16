@@ -664,8 +664,8 @@ function parseAetnaSocBbox(html) {
     };
     for (const L of lines) {
       const t = L.words.map((w) => w.t);
-      const iD = t.findIndex((x) => /^DRUG(_NAME)?$/i.test(x));
-      const iC = t.findIndex((x, i) => /^CHANGE(S)?$/i.test(x) && i > iD);
+      const iD = t.findIndex((x) => /^(DRUG(_NAME)?|Prescription)$/i.test(x));
+      const iC = t.findIndex((x, i) => /^CHANGE(S|\(S\))?$/i.test(x) && i > iD);
       if (iD >= 0 && iC >= 0 && t.length <= 4) { flush(); col = { nameX: L.words[iD].x0, changeX: L.words[iC].x0 }; notes.tables++; continue; }
       if (!col) continue;
       const text = t.join(' ');
@@ -786,7 +786,7 @@ function main() {
         const watchRows = parsed.rows.filter((r) => r.watch_tickers && r.watch_tickers.length);
         if (watchRows.length) {
           log('   watchlist rows (up to 40):');
-          watchRows.slice(0, 40).forEach((r) => log(`      [${r.watch_tickers.join(' ')}] ${r.kind === 'tier_change' ? `${r.name} | ${r.tier_before} -> ${r.tier_after} | ${JSON.stringify(r.flags)} | eff ${r.effective}` : r.kind === 'add_remove' ? `${r.action} ${r.name} eff ${r.effective}` : `${r.category} | ${r.name} (${r.generic}) | ${r.tier} | ${r.restrictions.join(', ')}`}`));
+          watchRows.slice(0, 40).forEach((r) => log(`      [${(r.watch_tickers || []).join(' ')}] ${rowLine(r)}`));
         }
         if (parsed.problems.length) { log('   first 10 parse problems:'); parsed.problems.slice(0, 10).forEach((x) => log(`      ${x.problem}: ${x.text.slice(0, 140)}`)); }
         log('   sample of 8 parsed rows:');
