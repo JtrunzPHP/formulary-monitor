@@ -103,6 +103,7 @@ function cleanName(r) { return String(r.name || '').replace(/\*+$/, '').trim(); 
 function usable(r) {
   // Drop rows the parser could not read well enough to act on.
   const n = cleanName(r);
+  if (r.suspect) return false;
   if (!n || n.length < 4 || !/[A-Za-z]{3}/.test(n)) return false;
   if (r.kind === 'tier_change' && !r.tier_before && !r.tier_after && !r.select) return false;
   if (/^(Tier|Tie|name|use|N\/A)\b/i.test(n)) return false;
