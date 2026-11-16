@@ -53,7 +53,8 @@ function docEvents(state) {
       ev.watchLines = hits.slice(0, 40);
     }
     // Structured rows: Optum issues are change tables; Aetna has a version diff
-    if (st.parser === 'optum-passages' && Array.isArray(st.changes)) ev.rows = st.changes;
+    if (['optum-passages', 'aetna-soc', 'esi-exclusions'].includes(st.parser) && Array.isArray(st.changes)) ev.rows = st.changes;
+    if (st.untrusted && st.untrusted.length) { ev.rows = []; ev.untrusted = st.untrusted; }
     else if (Array.isArray(st.latest_changes)) ev.rows = st.latest_changes;
     ev.watch = ev.rows.filter((r) => r.watch_tickers && r.watch_tickers.length);
     if (ev.kind === 'update' && !ev.linesAdded && !ev.linesRemoved && !ev.rows.length) continue;
@@ -103,7 +104,7 @@ function usable(r) {
   // Drop rows the parser could not read well enough to act on.
   const n = cleanName(r);
   if (!n || n.length < 4 || !/[A-Za-z]{3}/.test(n)) return false;
-  if (r.kind === 'tier_change' && !r.tier_before && !r.tier_after) return false;
+  if (r.kind === 'tier_change' && !r.tier_before && !r.tier_after && !r.select) return false;
   if (/^(Tier|Tie|name|use|N\/A)\b/i.test(n)) return false;
   return true;
 }
@@ -111,6 +112,8 @@ function umList(r) { return ['PA', 'ST', 'QL'].filter((k) => r.flags && r.flags[
 function bucket(r) {
   // exclusion | restriction | tier_down | tier_up | added | removed | other
   if (r.kind === 'add_remove') return r.action === 'Remove' ? 'removed' : 'added';
+  if (r.kind === 'exclusion') return 'exclusion';
+  if (r.kind === 'soc_change') return r.change === 'NOT_COVERED' ? 'exclusion' : r.change === 'ADDED' ? 'added' : /TIER/.test(r.change) ? 'tier' : r.change === 'RESTRICTION' ? 'restriction' : 'other';
   if (r.change) { // Aetna diff rows
     if (r.change === 'REMOVED' || (r.tier_after || '').toUpperCase() === 'NF') return 'exclusion';
     if (r.change === 'ADDED') return 'added';
@@ -139,6 +142,8 @@ function sentence(r) {
     return `<b>${esc(n)}</b>${cls}: ${what}${um.length ? `, ${um.join(', ')}` : ''}${r.brand_generic ? ` <span style="color:#536270">${esc(r.brand_generic)}</span>` : ''}${eff}`;
   }
   if (r.kind === 'add_remove') return `<b>${esc(n)}</b>${cls}: ${r.action === 'Remove' ? 'removed' : 'added'}${eff}`;
+  if (r.kind === 'soc_change') return `<b>${esc(n)}</b>: ${esc(r.change_text || r.change)}${eff}`;
+  if (r.kind === 'exclusion') return `<b>${esc(n)}</b>${cls}: excluded${r.alternatives ? `; alternatives ${esc(r.alternatives)}` : ''}${eff}`;
   const ra = (r.restrictions_after || []).join(', '), rb = (r.restrictions_before || []).join(', ');
   const g = r.generic ? ` <span style="color:#536270">(${esc(r.generic)})</span>` : '';
   if (r.change === 'ADDED') return `<b>${esc(n)}</b>${g}${cls}: added as ${esc(r.tier_after || 'listed')}${ra ? `, ${esc(ra)}` : ''}`;
@@ -156,6 +161,11 @@ function buildHtml(docEvs, pd, heartbeat, editionEvs) {
   const UL = (items) => `<ul style="padding-left:18px;margin:0 0 8px">${items.map((i) => `<li style="margin:2px 0">${i}</li>`).join('')}</ul>`;
   h.push(`<div style="${style}">`);
   if (heartbeat) h.push(`<p>No formulary changes since the last alert. All sources were checked on schedule.</p>`);
+
+  // ---- Parser health ----
+  const checks = (readJson(path.join(DOCS, 'structured.json'), {}).checks) || [];
+  const failed = checks.filter((c) => c.result === 'fail');
+  if (checks.length) h.push(`<p style="margin:0 0 10px;font-size:13px;color:${failed.length ? '#b23a3a' : '#2f7d4f'}">Parser checks: ${checks.filter((c) => c.result === 'pass').length} of ${checks.length} known facts reproduced${failed.length ? `. Failing: ${esc(failed.map((c) => `${c.source} / ${c.product}`).join('; '))}. Rows from those documents are held back until the parser is fixed.` : '.'}</p>`);
 
   // ---- Summary line ----
   const docsWithRows = docEvs.filter((e) => e.rows.some(usable));
@@ -202,7 +212,7 @@ function buildHtml(docEvs, pd, heartbeat, editionEvs) {
     const unread = ev.rows.length - rows.length;
     if (!rows.length && ev.kind !== 'baseline' && !(ev.linesAdded || ev.linesRemoved)) continue;
     h.push(H2(`${esc(ev.name)} <span style="font-weight:400;color:#536270">${esc(ev.pbm)}</span>`));
-    h.push(`<p style="margin:0 0 6px;color:#536270">${ev.kind === 'baseline' ? 'First capture of this document.' : `Document updated: ${fmt(ev.linesAdded)} lines added, ${fmt(ev.linesRemoved)} removed.`} <a href="${esc(ev.url)}">Source</a>${unread ? ` · ${fmt(unread)} rows could not be read cleanly and are on the site only` : ''}</p>`);
+    h.push(`<p style="margin:0 0 6px;color:#536270">${ev.kind === 'baseline' ? 'First capture of this document.' : `Document updated: ${fmt(ev.linesAdded)} lines added, ${fmt(ev.linesRemoved)} removed.`} <a href="${esc(ev.url)}">Source</a>${unread ? ` · ${fmt(unread)} rows could not be read cleanly and are on the site only` : ''}${ev.untrusted ? ` · parser check failed (${esc(ev.untrusted.join('; '))}); rows held back` : ''}</p>`);
     const groups = new Map();
     for (const r of rows) { if (r.watch_tickers && r.watch_tickers.length) continue; const b = bucket(r); if (!groups.has(b)) groups.set(b, []); groups.get(b).push(r); }
     for (const b of BUCKET_ORDER) {
