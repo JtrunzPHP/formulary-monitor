@@ -105,7 +105,7 @@
     <button data-view="overview" aria-selected="true">Overview</button>
     <button data-view="watch" aria-selected="false">Watchlist <span class="n" id="nWatch"></span></button>
     <button data-view="editions" aria-selected="false">Aetna editions <span class="n" id="nEd"></span></button>
-    <button data-view="optum" aria-selected="false">Optum updates <span class="n" id="nOpt"></span></button>
+    <button data-view="optum" aria-selected="false">Change notices <span class="n" id="nOpt"></span></button>
     <button data-view="partd" aria-selected="false">Medicare Part D</button>
     <button data-view="sources" aria-selected="false">Sources <span class="n" id="nSrc"></span></button>
     <div class="foot" id="foot"></div>
@@ -143,8 +143,8 @@
 
     <!-- Optum -->
     <section class="view" id="view-optum" hidden>
-      <div class="head"><div><h2>Optum Rx Pharmacy Passages</h2><p>Every row from the monthly update tables, in Optum's own terms: Select and Premium formulary status (Base and Enhanced for EHB issues), utilization management flags and effective dates.</p></div><div class="spacer"></div><input type="search" id="opSearch" placeholder="Filter by product or class"></div>
-      <div class="toolbar"><label>Issue <select id="opIssue"><option value="">All</option></select></label><label>Kind <select id="opKind"><option value="">All</option><option value="excluded">Excluded on a formulary</option><option value="moved">Tier moved</option><option value="add_remove">Added or removed</option><option value="status">New status or UM</option></select></label><label><input type="checkbox" id="opWatch"> Watchlist only</label></div>
+      <div class="head"><div><h2>PBM change notices</h2><p>Every decision row from the PBMs' own update documents: Optum Rx Pharmacy Passages (Select and Premium status), Aetna's quarterly Summary of Changes, and the Express Scripts exclusion lists.</p></div><div class="spacer"></div><input type="search" id="opSearch" placeholder="Filter by product, class or alternative"></div>
+      <div class="toolbar"><label>PBM <select id="opPbm"><option value="">All</option></select></label><label>Document <select id="opIssue"><option value="">All</option></select></label><label>Kind <select id="opKind"><option value="">All</option><option value="excluded">Excluded or not covered</option><option value="moved">Tier moved</option><option value="add_remove">Added or removed</option><option value="status">New status or UM</option></select></label><label><input type="checkbox" id="opWatch"> Watchlist only</label></div>
       <div id="opErr"></div>
       <div class="wrap"><table id="opTable"></table></div>
     </section>
@@ -237,6 +237,8 @@
       return { cls, label: label + (um.length ? ` · ${um.join('/')}` : ''), sub: r.effective ? `eff ${r.effective}` : '' };
     }
     if (r.kind === 'add_remove') return r.action === 'Remove' ? { cls: 'bad', label: 'Removed', sub: `eff ${r.effective}` } : { cls: 'good', label: 'Added', sub: `eff ${r.effective}` };
+    if (r.kind === 'soc_change') { const m = { NOT_COVERED: ['bad', 'Not covered'], ADDED: ['good', 'Added'], TIER_UP: ['warn', 'To non-preferred'], TIER_DOWN: ['good', 'To preferred'], RESTRICTION: ['warn', 'Restriction'], OTHER: ['', 'Changed'] }[r.change] || ['', r.change]; return { cls: m[0], label: m[1], sub: r.effective ? `eff ${r.effective}` : '' }; }
+    if (r.kind === 'exclusion') return { cls: 'bad', label: 'Excluded', sub: r.effective ? `eff ${r.effective}` : '' };
     const t = (r.tier || '').toUpperCase(); const restr = (r.restrictions || []).map((x) => x.replace(/\s*\(.*$/, ''));
     const um = restr.filter((x) => /^(PA|ST|QL|SPC|N8|AL)$/.test(x));
     if (t === 'NF') return { cls: 'bad', label: 'NF', sub: 'not covered' };
@@ -318,28 +320,37 @@
   function buildOptum() {
     opRows = [];
     for (const s of Object.values(structured.sources || {})) {
-      if (s.parser !== 'optum-passages') continue;
+      if (!['optum-passages', 'aetna-soc', 'esi-exclusions'].includes(s.parser)) continue;
       for (const r of s.changes || []) {
         const name = String(r.name || '').replace(/\*+$/, '').trim(); if (!name || name.length < 4) continue;
-        const cols = r.formulary_columns || ['Select', 'Premium'];
-        const kind = r.kind === 'add_remove' ? 'add_remove' : (r.excluded || EXC.test(`${r.select} ${r.premium}`)) ? 'excluded' : (r.moved || />/.test(`${r.select} ${r.premium}`)) ? 'moved' : 'status';
-        opRows.push({ issue: s.name.replace(/^Optum Rx: /, ''), sid: s.id, kind, name, cls: r.therapeutic_use || '', c1: cols[0], c2: cols[1], select: r.kind === 'add_remove' ? (r.action || '') : (r.select || ''), premium: r.kind === 'add_remove' ? '' : (r.premium || ''), um: r.flags ? ['SP', 'PA', 'ST', 'QL'].filter((k) => r.flags[k]).join(' ') : '', effective: r.effective || '', sortDate: toSortDate(r.effective), watch: (r.watch_tickers || []).join(' '), status: statusCell(r) });
+        let kind, c1 = '', c2 = '', select = '', premium = '', detail = '';
+        if (r.kind === 'soc_change') { kind = r.change === 'NOT_COVERED' ? 'excluded' : r.change === 'ADDED' ? 'add_remove' : /TIER/.test(r.change) ? 'moved' : 'status'; detail = r.change_text || ''; }
+        else if (r.kind === 'exclusion') { kind = 'excluded'; detail = r.alternatives ? `Alternatives: ${r.alternatives}` : ''; }
+        else {
+          const cols = r.formulary_columns || ['Select', 'Premium']; c1 = cols[0]; c2 = cols[1];
+          kind = r.kind === 'add_remove' ? 'add_remove' : (r.excluded || EXC.test(`${r.select} ${r.premium}`)) ? 'excluded' : (r.moved || />/.test(`${r.select} ${r.premium}`)) ? 'moved' : 'status';
+          select = r.kind === 'add_remove' ? (r.action || '') : (r.select || ''); premium = r.kind === 'add_remove' ? '' : (r.premium || '');
+          detail = [select && `${c1} ${select}`, premium && `${c2} ${premium}`].filter(Boolean).join(', ');
+        }
+        const um = r.flags ? ['SP', 'PA', 'ST', 'QL'].filter((k) => r.flags[k]).join(' ') : '';
+        opRows.push({ pbm: s.pbm || '', issue: s.name.replace(/^Optum Rx: /, ''), sid: s.id, kind, name, cls: r.therapeutic_use || r.drug_class || '', detail, um, effective: r.effective || s.effective || '', sortDate: toSortDate(r.effective || s.effective), watch: (r.watch_tickers || []).join(' '), status: statusCell(r) });
       }
     }
     $('#nOpt').textContent = opRows.length || '';
+    $('#opPbm').innerHTML = '<option value="">All</option>' + [...new Set(opRows.map((r) => r.pbm))].sort().map((n) => `<option>${esc(n)}</option>`).join('');
     $('#opIssue').innerHTML = '<option value="">All</option>' + [...new Set(opRows.map((r) => r.issue))].sort().map((n) => `<option>${esc(n)}</option>`).join('');
   }
   function renderOptum() {
     try {
-      const q = ($('#opSearch').value || '').trim().toLowerCase(), issue = $('#opIssue').value, kind = $('#opKind').value, w = $('#opWatch').checked;
-      const rows = opRows.filter((r) => (!issue || r.issue === issue) && (!kind || r.kind === kind) && (!w || r.watch) && (!q || `${r.name} ${r.cls}`.toLowerCase().includes(q)));
+      const q = ($('#opSearch').value || '').trim().toLowerCase(), pbm = $('#opPbm').value, issue = $('#opIssue').value, kind = $('#opKind').value, w = $('#opWatch').checked;
+      const rows = opRows.filter((r) => (!pbm || r.pbm === pbm) && (!issue || r.issue === issue) && (!kind || r.kind === kind) && (!w || r.watch) && (!q || `${r.name} ${r.cls} ${r.detail}`.toLowerCase().includes(q)));
       renderTable($('#opTable'), [
         { key: 'sortDate', label: 'Effective', render: (v, r) => esc(r.effective) }, { key: 'name', label: 'Product', render: (v, r) => `<b>${esc(v)}</b>${r.cls ? `<br><span class="muted">${esc(r.cls)}</span>` : ''}` },
-        { key: 'select', label: 'Select / Base', render: (v, r) => cellHtml({ cls: r.status.cls, label: v || '-', sub: '' }) }, { key: 'premium', label: 'Premium / Enhanced', render: (v, r) => v ? cellHtml({ cls: r.status.cls, label: v, sub: '' }) : '<span class="muted">·</span>' },
-        { key: 'um', label: 'UM' }, { key: 'issue', label: 'Issue' }, { key: 'watch', label: 'Ticker', render: (v) => `<span class="tk">${esc(v)}</span>` },
-      ], rows, { sortKey: 'sortDate', limit: 600, emptyTitle: 'No Optum rows match', emptyBody: 'Optum publishes Pharmacy Passages monthly; new issues are discovered from the Optum index page automatically.' });
+        { key: 'kind', label: 'Status', render: (v, r) => cellHtml({ cls: r.status.cls, label: r.status.label, sub: '' }) }, { key: 'detail', label: 'Detail', render: (v) => esc(v) },
+        { key: 'um', label: 'UM' }, { key: 'pbm', label: 'PBM' }, { key: 'issue', label: 'Document' }, { key: 'watch', label: 'Ticker', render: (v) => `<span class="tk">${esc(v)}</span>` },
+      ], rows, { sortKey: 'sortDate', limit: 800, emptyTitle: 'No change rows match', emptyBody: 'New Optum issues, Aetna notices and Express Scripts lists are discovered automatically on each run.' });
       errBox('#opErr', '');
-    } catch (e) { errBox('#opErr', 'The Optum feed could not be drawn: ' + e.message); }
+    } catch (e) { errBox('#opErr', 'The change feed could not be drawn: ' + e.message); }
   }
 
   // ---------- Sources ----------
@@ -347,13 +358,16 @@
     try {
       const rows = Object.values(docsIndex.sources || {}).map((s) => {
         const st = (structured.sources || {})[s.id] || {}; const vers = st.versions || {}; const latest = st.latest_stamp ? vers[st.latest_stamp] : null;
-        return { pbm: s.pbm || '', name: s.name || s.id, url: s.url || '', status: s.status || '', last_checked: s.last_checked || '', last_change: s.last_change || '', cadence: s.cadence || '', parser: st.parser || 'none', rows: latest ? latest.rows : '', problems: latest ? latest.problems : '' };
+        const chk = (structured.checks || []).filter((c) => c.source === s.id);
+        const checks = chk.length ? (chk.every((c) => c.result === 'pass') ? `${chk.length} pass` : chk.some((c) => c.result === 'fail') ? `${chk.filter((c) => c.result === 'fail').length} FAIL` : 'skipped') : '';
+        return { pbm: s.pbm || '', name: s.name || s.id, url: s.url || '', status: s.status || '', last_checked: s.last_checked || '', last_change: s.last_change || '', cadence: s.cadence || '', parser: st.parser || 'none', rows: latest ? latest.rows : '', problems: latest ? latest.problems : '', checks, untrusted: !!(st.untrusted && st.untrusted.length) };
       });
       $('#nSrc').textContent = rows.length || '';
       renderTable($('#srcTable'), [
         { key: 'pbm', label: 'PBM' }, { key: 'name', label: 'Document', render: (v, r) => r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(v)}</a>` : esc(v) },
         { key: 'status', label: 'Health', render: (v) => `<span class="pill ${/fail/i.test(v) ? 'bad' : v ? 'good' : ''}">${esc(v || 'unknown')}</span>` },
         { key: 'last_checked', label: 'Checked', render: (v) => esc(String(v).slice(0, 16).replace('T', ' ')) }, { key: 'last_change', label: 'Last change' }, { key: 'cadence', label: 'Cadence' }, { key: 'parser', label: 'Parser' }, { key: 'rows', label: 'Rows read', num: true }, { key: 'problems', label: 'Problems', num: true },
+        { key: 'checks', label: 'Known facts', render: (v, r) => v ? `<span class="pill ${r.untrusted ? 'bad' : /pass/.test(v) ? 'good' : ''}">${esc(v)}</span>` : '<span class="muted">none yet</span>' },
       ], rows, { sortKey: 'pbm', sortDir: 1, emptyTitle: 'No sources recorded', emptyBody: 'data/docs/index.json is written by the commercial document collector.' });
       errBox('#srcErr', '');
     } catch (e) { errBox('#srcErr', 'The sources table could not be drawn: ' + e.message); }
@@ -368,15 +382,16 @@
       const srcs = Object.values(docsIndex.sources || {}); const failed = srcs.filter((s) => /fail/i.test(s.status || '')).length;
       const cards = [];
       if (comp) { const lost = comp.counts.NOW_NOT_COVERED || 0, gained = comp.counts.NOW_COVERED || 0; cards.push(`<a class="card kpi" data-view="editions" href="#editions"><span class="l">Aetna ${esc(comp.from_year)} to ${esc(comp.to_year)}</span><b>${fmt(lost)}</b><span class="l">products no longer covered</span><span class="s">${fmt(gained)} newly covered · ${fmt(comp.counts.TIER_CHANGED || 0)} tier changes · ${fmt(comp.changes.filter((c) => c.watch_tickers).length)} on the watchlist</span></a>`); }
-      cards.push(`<a class="card kpi" data-view="optum" href="#optum"><span class="l">Optum Rx update rows</span><b>${fmt(opRows.length)}</b><span class="l">across ${fmt(optum.length)} Pharmacy Passages issues</span><span class="s">${fmt(opRows.filter((r) => r.kind === 'excluded').length)} exclusions · ${fmt(opRows.filter((r) => r.watch).length)} on the watchlist</span></a>`);
+      cards.push(`<a class="card kpi" data-view="optum" href="#optum"><span class="l">PBM change notice rows</span><b>${fmt(opRows.length)}</b><span class="l">across ${fmt(new Set(opRows.map((r) => r.issue)).size)} documents (Optum, Aetna, Express Scripts)</span><span class="s">${fmt(opRows.filter((r) => r.kind === 'excluded').length)} exclusions or coverage losses · ${fmt(opRows.filter((r) => r.watch).length)} on the watchlist</span></a>`);
       if (summary) { const t = summary.by_type || {}; cards.push(`<a class="card kpi" data-view="partd" href="#partd"><span class="l">Medicare Part D ${esc(summary.prev)} to ${esc(summary.latest)}</span><b>${fmt(t.REMOVED)}</b><span class="l">plan-level drug removals</span><span class="s">${fmt(t.PA_ADDED)} PA added · ${fmt(t.ST_ADDED)} ST added · ${fmt(summary.plans_matched)} plans${summary.enrollment_period ? ` · weighted by ${esc(summary.enrollment_period)} enrollment` : ''}</span></a>`); }
       else cards.push(`<a class="card kpi" data-view="partd" href="#partd"><span class="l">Medicare Part D</span><b>·</b><span class="l">no comparison loaded</span></a>`);
-      cards.push(`<a class="card kpi" data-view="sources" href="#sources"><span class="l">Sources watched</span><b>${fmt(srcs.length)}</b><span class="l">${failed ? `${fmt(failed)} failing` : 'all healthy on the last check'}</span><span class="s">${esc(structured.generated_at ? 'parsed ' + structured.generated_at.slice(0, 16).replace('T', ' ') + ' UTC' : '')}</span></a>`);
+      const chks = structured.checks || []; const chkFail = chks.filter((c) => c.result === 'fail').length;
+      cards.push(`<a class="card kpi" data-view="sources" href="#sources"><span class="l">Sources watched</span><b>${fmt(srcs.length)}</b><span class="l">${failed ? `${fmt(failed)} failing` : 'all healthy on the last check'}</span><span class="s">${chks.length ? `parser checks ${fmt(chks.filter((c) => c.result === 'pass').length)} of ${fmt(chks.length)} known facts reproduced${chkFail ? `, ${fmt(chkFail)} failing` : ''}` : ''}${structured.generated_at ? ` · parsed ${esc(structured.generated_at.slice(0, 16).replace('T', ' '))} UTC` : ''}</span></a>`);
       $('#ovCards').innerHTML = cards.join('');
       // watchlist movements
       const items = [];
       if (comp) for (const c of comp.changes.filter((c) => c.watch_tickers && /NOW_NOT_COVERED|NOW_COVERED|TIER_CHANGED|RESTRICTION_CHANGED/.test(c.change)).slice(0, 14)) items.push(`<li><span class="tk">${esc(c.watch_tickers.join(' '))}</span><span>${tag(c.change)} <b>${esc(c.name)}</b>: ${esc(c.from_tier || '-')} to ${esc(c.to_tier || '-')}</span><span class="m">Aetna ${esc(comp.from_year)}→${esc(comp.to_year)}</span></li>`);
-      for (const r of opRows.filter((r) => r.watch).sort((a, b) => b.sortDate.localeCompare(a.sortDate)).slice(0, 10)) items.push(`<li><span class="tk">${esc(r.watch)}</span><span><b>${esc(r.name)}</b>: ${esc([r.select && `${r.c1} ${r.select}`, r.premium && `${r.c2} ${r.premium}`].filter(Boolean).join(', '))}${r.um ? `, ${esc(r.um)}` : ''}</span><span class="m">Optum ${esc(r.effective)}</span></li>`);
+      for (const r of opRows.filter((r) => r.watch).sort((a, b) => b.sortDate.localeCompare(a.sortDate)).slice(0, 14)) items.push(`<li><span class="tk">${esc(r.watch)}</span><span><b>${esc(r.name)}</b>: ${esc(r.status.label)}${r.detail ? `, ${esc(r.detail.slice(0, 120))}` : ''}${r.um ? `, ${esc(r.um)}` : ''}</span><span class="m">${esc(r.pbm)} ${esc(r.effective)}</span></li>`);
       $('#ovWatch').innerHTML = items.join('') || '<li class="muted">No watchlist movements recorded yet.</li>';
       $('#ovDocs').innerHTML = srcs.filter((s) => s.last_change).sort((a, b) => String(b.last_change).localeCompare(String(a.last_change))).slice(0, 10).map((s) => `<li><span>${esc(s.name)}</span><span class="m">${esc(String(s.last_change).slice(0, 8))}</span></li>`).join('') || '<li class="muted">No captures yet.</li>';
       errBox('#ovErr', '');
@@ -473,7 +488,7 @@
     try { docsIndex = await fetchJson(DOCS + 'index.json'); } catch (e) { errs.push('index.json: ' + e.message); }
     if (errs.length) errBox('#ovErr', 'Some commercial data did not load. ' + errs.join(' '));
     buildOptum(); renderOptum(); renderSources(); renderWatch(); renderEditions(); renderOverview();
-    ['#opSearch', '#opIssue', '#opKind', '#opWatch'].forEach((s) => $(s).addEventListener('input', renderOptum));
+    ['#opSearch', '#opPbm', '#opIssue', '#opKind', '#opWatch'].forEach((s) => $(s).addEventListener('input', renderOptum));
     ['#edSearch', '#edKind', '#edWatch'].forEach((s) => $(s).addEventListener('input', renderEditions));
     $('#watchSearch').addEventListener('input', renderWatch);
     $('#foot').textContent = `${Object.keys(docsIndex.sources || {}).length} documents watched${structured.generated_at ? `; parsed ${structured.generated_at.slice(0, 10)}` : ''}`;
