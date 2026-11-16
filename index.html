@@ -322,7 +322,7 @@
     for (const s of Object.values(structured.sources || {})) {
       if (!['optum-passages', 'aetna-soc', 'esi-exclusions'].includes(s.parser)) continue;
       for (const r of s.changes || []) {
-        const name = String(r.name || '').replace(/\*+$/, '').trim(); if (!name || name.length < 4) continue;
+        const name = String(r.name || '').replace(/\*+$/, '').trim(); if (!name || name.length < 4 || r.suspect) continue;
         let kind, c1 = '', c2 = '', select = '', premium = '', detail = '';
         if (r.kind === 'soc_change') { kind = r.change === 'NOT_COVERED' ? 'excluded' : r.change === 'ADDED' ? 'add_remove' : /TIER/.test(r.change) ? 'moved' : 'status'; detail = r.change_text || ''; }
         else if (r.kind === 'exclusion') { kind = 'excluded'; detail = r.alternatives ? `Alternatives: ${r.alternatives}` : ''; }
