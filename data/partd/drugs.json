@@ -66860,14 +66860,28 @@
   "rxcui": "1101932",
   "updated": "2026-10-22",
   "ndc": "49884033901",
-  "labeler": "Par Health USA, LLC",
+  "labeler": "Teva Pharmaceuticals USA, Inc.",
   "fda_brand": "Dexmethylphenidate Hydrochloride",
   "fda_generic": "Dexmethylphenidate Hydrochloride",
   "dosage_form": "CAPSULE, EXTENDED RELEASE",
   "route": "ORAL",
   "marketing_category": "ANDA",
   "product_type": "HUMAN PRESCRIPTION DRUG",
-  "fda_source": "cms ndc"
+  "fda_source": "rxnorm ndc",
+  "rx_ndcs": [
+   "00093504601",
+   "00115171001",
+   "00527811237",
+   "00781268801",
+   "00781273331",
+   "16714056801",
+   "31722023501",
+   "49884033901",
+   "57664062988",
+   "63629217601",
+   "70010001001",
+   "72162149601"
+  ]
  },
  "1102273": {
   "name": "rilpivirine 25 MG Oral Tablet",
