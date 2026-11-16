@@ -25,6 +25,7 @@
 const fs = require('fs');
 const path = require('path');
 const { watchHits } = require('./watchlist');
+const { CHECKS } = require('./checks');
 
 const DATA_DIR = path.join(__dirname, 'data', 'docs');
 const OUT = path.join(DATA_DIR, 'structured.json');
@@ -619,13 +620,121 @@ function parseAetnaBbox(html) {
   return { rows, problems, notes };
 }
 
+
+// ---------------------------------------------------------------------------
+// Aetna "Summary of Changes" notices (word coordinates)
+// Two-column tables: DRUG NAME | CHANGES, repeated per page. The change text is
+// plain English: "Non-formulary; not covered. Covered options include: ...",
+// "Moving to preferred brand tier", "Drug list addition (preferred); Preauthorization required".
+// ---------------------------------------------------------------------------
+
+function classifySocChange(text) {
+  const t = text.toLowerCase();
+  if (/non-formulary|not covered under pharmacy|no longer covered|formulary removal/.test(t)) return 'NOT_COVERED';
+  if (/drug list addition|added to the formulary|formulary addition/.test(t)) return 'ADDED';
+  if (/moving to non-preferred/.test(t)) return 'TIER_UP';
+  if (/moving to preferred/.test(t)) return 'TIER_DOWN';
+  if (/preauthorization|prior authorization|step therapy|quantity limit/.test(t)) return 'RESTRICTION';
+  return 'OTHER';
+}
+
+function parseAetnaSocBbox(html) {
+  const pages = parseBboxWords(html);
+  const rows = []; const problems = []; const notes = { bbox: true, pages: pages.length, tables: 0, effective: '' };
+  const DATEWORD = /^(January|February|March|April|May|June|July|August|September|October|November|December)$/;
+  for (const page of pages) {
+    const lines = groupLines(page.words, 2.2);
+    // effective date: "Starting January 1, 2026" or "effective October 1, 2026"
+    if (!notes.effective) for (const L of lines) { const t = L.words.map((w) => w.t).join(' '); const m = t.match(/(?:Starting|effective|changing on)\s+([A-Z][a-z]+ \d{1,2},? \d{4})/i); if (m) { notes.effective = m[1]; break; } }
+    let col = null; let buf = null;
+    const flush = () => {
+      if (!buf) return;
+      const name = norm(buf.name.join(' ')); const change = norm(buf.change.join(' '));
+      buf = null;
+      if (!name || !change) return;
+      if (/^(DRUG|UPPER CASE|lower case|Information is subject|©)/i.test(name)) return;
+      const kind = classifySocChange(change);
+      const alts = (change.match(/Covered options include:?\s*(.*)$/i) || [])[1] || '';
+      rows.push({ kind: 'soc_change', name, change_text: change, change: kind, alternatives: norm(alts), effective: notes.effective, text: `${name} | ${change}` });
+    };
+    for (const L of lines) {
+      const t = L.words.map((w) => w.t);
+      const iD = t.findIndex((x) => /^DRUG(_NAME)?$/i.test(x));
+      const iC = t.findIndex((x, i) => /^CHANGE(S)?$/i.test(x) && i > iD);
+      if (iD >= 0 && iC >= 0 && t.length <= 4) { flush(); col = { nameX: L.words[iD].x0, changeX: L.words[iC].x0 }; notes.tables++; continue; }
+      if (!col) continue;
+      const text = t.join(' ');
+      if (/^(Information is subject|©|Aetna is the brand|Some drugs listed|UPPER CASE|For questions|\d+_|Discrimination)/i.test(text) || /^\d{6,}/.test(text)) { flush(); col = null; continue; }
+      const nameW = L.words.filter((w) => w.x0 < col.changeX - 8); const chW = L.words.filter((w) => w.x0 >= col.changeX - 8);
+      const nameT = nameW.map((w) => w.t).join(' '); const chT = chW.map((w) => w.t).join(' ');
+      // A new entry starts when a name appears at the column edge and the current entry already has change text.
+      const startsEntry = nameW.length && nameW[0].x0 < col.nameX + 4 && buf && buf.change.length;
+      if (startsEntry) flush();
+      if (!buf) buf = { name: [], change: [] };
+      if (nameT) buf.name.push(nameT);
+      if (chT) buf.change.push(chT);
+    }
+    flush();
+  }
+  return { rows, problems, notes };
+}
+
+// ---------------------------------------------------------------------------
+// Express Scripts exclusion lists (word coordinates)
+// Tables: Drug Class | Excluded Medications | Preferred Alternatives.
+// ---------------------------------------------------------------------------
+
+function parseEsiExclusionsBbox(html) {
+  const pages = parseBboxWords(html);
+  const rows = []; const problems = []; const notes = { bbox: true, pages: pages.length, tables: 0, effective: '' };
+  for (const page of pages) {
+    const lines = groupLines(page.words, 2.2);
+    if (!notes.effective) for (const L of lines) { const t = L.words.map((w) => w.t).join(' '); const m = t.match(/(?:effective|beginning|coming)\s+([A-Z][a-z]+ \d{1,2},? \d{4})/i); if (m) { notes.effective = m[1]; break; } }
+    let col = null; let buf = null; let cls = ''; let lastY1 = null;
+    const flush = () => {
+      if (!buf) return;
+      const excluded = norm(buf.ex.join(' ')); const alts = norm(buf.alt.join(' ')); const c = norm(buf.cls.join(' ')) || cls;
+      buf = null;
+      if (!excluded) return;
+      if (c) cls = c;
+      // Excluded cell can hold several products separated by commas; keep one row per product.
+      const items = excluded.split(/,\s*(?=[A-Z0-9])/).map((x) => norm(x)).filter((x) => x.length > 2);
+      for (const it of items) rows.push({ kind: 'exclusion', drug_class: cls, name: it, alternatives: alts, effective: notes.effective, text: `${cls} | ${it} | ${alts}` });
+    };
+    for (const L of lines) {
+      const t = L.words.map((w) => w.t);
+      const iD = t.findIndex((x) => /^Drug$/i.test(x)); const iE = t.findIndex((x) => /^Excluded$/i.test(x)); const iP = t.findIndex((x) => /^Preferred$/i.test(x));
+      if (iD >= 0 && iE >= 0 && iP >= 0 && iE > iD && iP > iE) { flush(); col = { clsX: L.words[iD].x0, exX: L.words[iE].x0, altX: L.words[iP].x0 }; notes.tables++; continue; }
+      if (!col) continue;
+      const text = t.join(' ');
+      if (/^(©|Page \d|CRP\d|EXCL-|Go to express-scripts|This is not an all-inclusive|The excluded medications|Express Scripts manages|https?:)/i.test(text)) { flush(); lastY1 = null; continue; }
+      const cW = L.words.filter((w) => w.x0 < col.exX - 8), eW = L.words.filter((w) => w.x0 >= col.exX - 8 && w.x0 < col.altX - 8), aW = L.words.filter((w) => w.x0 >= col.altX - 8);
+      const cT = cW.map((w) => w.t).join(' '), eT = eW.map((w) => w.t).join(' '), aT = aW.map((w) => w.t).join(' ');
+      // Rows are separated by a larger vertical gap than the line spacing inside a cell.
+      const lineH = L.y1 - L.y0 || 10;
+      const gap = lastY1 == null ? 0 : L.y0 - lastY1;
+      if (buf && gap > lineH * 0.55) flush();
+      lastY1 = L.y1;
+      if (!buf) buf = { cls: [], ex: [], alt: [] };
+      if (cT) buf.cls.push(cT);
+      if (eT) buf.ex.push(eT);
+      if (aT) buf.alt.push(aT);
+    }
+    flush();
+  }
+  return { rows, problems, notes };
+}
+
 // ---------------------------------------------------------------------------
 // Driver
 // ---------------------------------------------------------------------------
 
-function parserFor(id) {
-  if (id.startsWith('aetna-')) return { name: 'aetna-guide', parse: parseAetna, diff: diffAetna };
-  if (id.startsWith('optum-pharmacy-passages') || id.startsWith('optum-pp')) return { name: 'optum-passages', parse: parseOptum, diff: null };
+function parserFor(id, declared) {
+  const name = declared || (id.startsWith('aetna-soc') ? 'aetna-soc' : id.startsWith('aetna-') ? 'aetna-guide' : /^optum-(pharmacy-)?passages|^optum-pp/.test(id) ? 'optum-passages' : id.startsWith('esi-') ? 'esi-exclusions' : '');
+  if (name === 'aetna-guide') return { name, parse: parseAetna, diff: diffAetna, bbox: parseAetnaBbox };
+  if (name === 'aetna-soc') return { name, parse: null, diff: null, bbox: parseAetnaSocBbox };
+  if (name === 'optum-passages') return { name, parse: parseOptum, diff: null, bbox: parseOptumBbox };
+  if (name === 'esi-exclusions') return { name, parse: null, diff: diffAetna, bbox: parseEsiExclusionsBbox };
   return null;
 }
 
@@ -642,10 +751,10 @@ function main() {
 
   for (const id of ids) {
     if (ONLY && id !== ONLY) continue;
-    const p = parserFor(id);
     const meta = readJson(path.join(DATA_DIR, id, 'meta.json'), null);
     if (!meta || !meta.versions || !meta.versions.length) continue;
     const src = index.sources[id] || {};
+    const p = parserFor(id, src.parser && src.parser !== 'none' ? src.parser : (src.parser === 'none' ? 'none' : ''));
     const entry = structured.sources[id] || { id, pbm: src.pbm || '', name: src.name || id, parser: p ? p.name : 'none', versions: {} };
     entry.parser = p ? p.name : 'none';
     entry.pbm = src.pbm || entry.pbm; entry.name = src.name || entry.name; entry.url = src.url || entry.url;
@@ -662,9 +771,10 @@ function main() {
       let parsed;
       if (fs.existsSync(outFile) && !FORCE) parsed = readJson(outFile, null);
       if (!parsed) {
-        const useBbox = (p.name === 'optum-passages' || p.name === 'aetna-guide') && fs.existsSync(bbox);
+        const useBbox = p.bbox && fs.existsSync(bbox);
+        if (!useBbox && !p.parse) { log(`Parsing ${id} ${v.stamp}: no word-coordinate file yet for ${p.name}; run the collector once more`); continue; }
         log(`Parsing ${id} ${v.stamp} with ${p.name}${useBbox ? ' (word coordinates)' : ''}`);
-        parsed = useBbox ? (p.name === 'aetna-guide' ? parseAetnaBbox(fs.readFileSync(bbox, 'utf8')) : parseOptumBbox(fs.readFileSync(bbox, 'utf8'))) : p.parse(fs.readFileSync(txt, 'utf8'));
+        parsed = useBbox ? p.bbox(fs.readFileSync(bbox, 'utf8')) : p.parse(fs.readFileSync(txt, 'utf8'));
         parsed.rows.forEach(tagWatch);
         writeJson(outFile, parsed);
         log(`   rows: ${parsed.rows.length}, problems: ${parsed.problems.length}, watchlist rows: ${parsed.rows.filter((r) => r.watch_tickers).length}; notes ${JSON.stringify(parsed.notes || {})}`);
@@ -693,16 +803,37 @@ function main() {
     // Latest watchlist rows and (for Optum) latest changes, for the cross-book view
     entry.latest_stamp = prevStamp;
     entry.watch_rows = (prevRows || []).filter((r) => r.watch_tickers).map((r) => ({ ...r, text: undefined }));
-    if (p.name === 'optum-passages') entry.changes = (prevRows || []).map((r) => ({ ...r, text: undefined }));
+    if (p.name === 'optum-passages' || p.name === 'aetna-soc' || p.name === 'esi-exclusions') entry.changes = (prevRows || []).map((r) => ({ ...r, text: undefined }));
+    entry.family = src.family || entry.family || ''; entry.effective = src.effective || (prevRows && prevRows[0] && prevRows[0].effective) || '';
     if (entry.latest_diff) entry.latest_changes = readJson(path.join(pdir, entry.latest_diff), { changes: [] }).changes;
     structured.sources[id] = entry;
   }
+
+  // Known-answer checks: every fact in checks.js must be reproduced by the latest parse of its document.
+  structured.checks = [];
+  const checkRes = { pass: 0, fail: 0, skipped: 0 };
+  for (const chk of CHECKS) {
+    const e = structured.sources[chk.source];
+    if (!e || !e.latest_stamp) { structured.checks.push({ ...chk, result: 'skipped', reason: 'document not parsed' }); checkRes.skipped++; continue; }
+    const rows = readJson(path.join(DATA_DIR, chk.source, 'parsed', `${e.latest_stamp}.json`), { rows: [] }).rows;
+    const row = rows.find((r) => String(r.name || '').toLowerCase().includes(chk.product.toLowerCase()));
+    if (!row) { structured.checks.push({ ...chk, result: 'fail', reason: 'product not found in parsed rows' }); checkRes.fail++; e.untrusted = (e.untrusted || []).concat([`${chk.product}: not found`]); continue; }
+    const bad = [];
+    for (const [k, v] of Object.entries(chk.expect)) {
+      if (k === 'flags') { for (const [fk, fv] of Object.entries(v)) if (!!(row.flags || {})[fk] !== fv) bad.push(`flags.${fk} is ${!!(row.flags || {})[fk]}, expected ${fv}`); }
+      else if (!String(row[k] == null ? '' : row[k]).toUpperCase().includes(String(v).toUpperCase())) bad.push(`${k} is "${row[k] == null ? '' : row[k]}", expected "${v}"`);
+    }
+    if (bad.length) { structured.checks.push({ ...chk, result: 'fail', reason: bad.join('; '), found: row.name }); checkRes.fail++; e.untrusted = (e.untrusted || []).concat([`${chk.product}: ${bad.join('; ')}`]); }
+    else { structured.checks.push({ ...chk, result: 'pass', found: row.name }); checkRes.pass++; }
+  }
+  log(`Known-answer checks: ${checkRes.pass} passed, ${checkRes.fail} failed, ${checkRes.skipped} skipped`);
+  for (const c of structured.checks.filter((c) => c.result !== 'pass')) log(`   ${c.result.toUpperCase().padEnd(7)} ${c.source} / ${c.product}: ${c.reason}`);
 
   // Edition comparisons: sources whose ids differ only by a year (aetna-acp-2026 vs aetna-acp-2027)
   // are compared product by product, so a coverage swap between plan years is produced here.
   structured.comparisons = [];
   const families = {};
-  for (const e of Object.values(structured.sources)) { const m = e.id.match(/^(.*)-(20\d\d)$/); if (m && e.parser === 'aetna-guide') (families[m[1]] = families[m[1]] || []).push({ year: m[2], e }); }
+  for (const e of Object.values(structured.sources)) { const m = e.id.match(/^(.*)-(20\d\d)$/); if (m && e.parser === 'aetna-guide') (families[e.family || m[1]] = families[e.family || m[1]] || []).push({ year: m[2], e }); }
   for (const [fam, list] of Object.entries(families)) {
     list.sort((a, b) => a.year.localeCompare(b.year));
     for (let i = 0; i + 1 < list.length; i++) {
@@ -752,6 +883,7 @@ function main() {
     if (e.watch_rows && e.watch_rows.length) { lines.push(`Watchlist rows (up to 60 of ${e.watch_rows.length}):`); e.watch_rows.slice(0, 60).forEach((r) => lines.push(`- [${(r.watch_tickers || []).join(' ')}] ${rowLine(r)}`)); lines.push(''); }
     if (e.latest_changes && e.latest_changes.length) { lines.push(`Structured changes vs previous version (watchlist first, up to 60):`); const w = e.latest_changes.filter((c) => c.watch_tickers); const o = e.latest_changes.filter((c) => !c.watch_tickers); w.concat(o).slice(0, 60).forEach((c) => lines.push(`- ${c.change} ${c.name}${c.generic ? ` (${c.generic})` : ''}: ${c.tier_before || '-'} -> ${c.tier_after || '-'}${c.restrictions_after ? ` [${c.restrictions_after.join(', ')}]` : ''}`)); lines.push(''); }
   }
+  lines.unshift(`Known-answer checks: ${checkRes.pass} passed, ${checkRes.fail} failed, ${checkRes.skipped} skipped` + (checkRes.fail ? '. FAILED: ' + structured.checks.filter((c) => c.result === 'fail').map((c) => `${c.source}/${c.product} (${c.reason})`).join('; ') : ''), '');
   for (const comp of structured.comparisons || []) {
     lines.push(`## Edition comparison: ${comp.from_name} -> ${comp.to_name}`, `Rows ${comp.rows_from} -> ${comp.rows_to}; changes ${JSON.stringify(comp.counts)}`, ``);
     const w = comp.changes.filter((c) => c.watch_tickers);
@@ -768,6 +900,8 @@ function rowLine(r) {
   if (r.name && String(r.name).length > 200) return `(oversized row, ${String(r.name).length} chars) ${cut(r.name)}`;
   if (r.kind === 'tier_change') return `${r.therapeutic_use ? r.therapeutic_use + ' | ' : ''}${r.name} | ${r.select != null ? `${(r.formulary_columns || ['Select', 'Premium'])[0]} ${r.select || '-'}; ${(r.formulary_columns || ['Select', 'Premium'])[1]} ${r.premium || '-'}` : `${r.tier_before} -> ${r.tier_after}`}${r.brand_generic ? ' | ' + r.brand_generic : ''} | ${Object.entries(r.flags || {}).filter(([, v]) => v).map(([k]) => k).join('/') || 'no flags'} | eff ${r.effective}`;
   if (r.kind === 'add_remove') return `${r.action} ${r.name} | eff ${r.effective}`;
+  if (r.kind === 'soc_change') return `${r.change} | ${r.name} | ${cut(r.change_text, 120)} | eff ${r.effective}`;
+  if (r.kind === 'exclusion') return `${r.drug_class} | ${r.name} | alternatives: ${cut(r.alternatives, 100)} | eff ${r.effective}`;
   return `${r.category} | ${r.name}${r.generic ? ' (' + r.generic + ')' : ''} | ${r.tier || (r.coverage || '')} | ${(r.restrictions || []).join(', ')}`;
 }
 
