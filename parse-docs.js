@@ -660,7 +660,8 @@ function parseAetnaSocBbox(html) {
       if (/^(DRUG|UPPER CASE|lower case|Information is subject|©)/i.test(name)) return;
       const kind = classifySocChange(change);
       const alts = (change.match(/Covered options include:?\s*(.*)$/i) || [])[1] || '';
-      rows.push({ kind: 'soc_change', name, change_text: change, change: kind, alternatives: norm(alts), effective: notes.effective, text: `${name} | ${change}` });
+      const suspect = kind === 'OTHER' && !/\b(tier|covered|required|removed|apply|addition)\b/i.test(change);
+      rows.push({ kind: 'soc_change', suspect, name, change_text: change, change: kind, alternatives: norm(alts), effective: notes.effective, text: `${name} | ${change}` });
     };
     for (const L of lines) {
       const t = L.words.map((w) => w.t);
@@ -704,7 +705,9 @@ function parseEsiExclusionsBbox(html) {
       if (c) cls = c;
       // Excluded cell can hold several products separated by commas; keep one row per product.
       const items = excluded.split(/,\s*(?=[A-Z0-9])/).map((x) => norm(x)).filter((x) => x.length > 2);
-      for (const it of items) rows.push({ kind: 'exclusion', drug_class: cls, name: it, alternatives: alts, effective: notes.effective, text: `${cls} | ${it} | ${alts}` });
+      // Dense full-year lists can merge several table rows into one entry; flag those rather than trust them.
+      const suspect = cls.length > 90 || excluded.length > 70 || alts.length > 400;
+      for (const it of items) rows.push({ kind: 'exclusion', suspect, drug_class: cls, name: it, alternatives: alts, effective: notes.effective, text: `${cls} | ${it} | ${alts}` });
     };
     for (const L of lines) {
       const t = L.words.map((w) => w.t);
@@ -818,9 +821,9 @@ function main() {
   structured.checks = [];
   const checkRes = { pass: 0, fail: 0, skipped: 0 };
   for (const chk of CHECKS) {
-    const e = structured.sources[chk.source];
+    const e = structured.sources[chk.source] || Object.values(structured.sources).find((x) => x.id.startsWith(chk.source + '-') || x.id.startsWith(chk.source));
     if (!e || !e.latest_stamp) { structured.checks.push({ ...chk, result: 'skipped', reason: 'document not parsed' }); checkRes.skipped++; continue; }
-    const rows = readJson(path.join(DATA_DIR, chk.source, 'parsed', `${e.latest_stamp}.json`), { rows: [] }).rows;
+    const rows = readJson(path.join(DATA_DIR, e.id, 'parsed', `${e.latest_stamp}.json`), { rows: [] }).rows;
     const row = rows.find((r) => String(r.name || '').toLowerCase().includes(chk.product.toLowerCase()));
     if (!row) { structured.checks.push({ ...chk, result: 'fail', reason: 'product not found in parsed rows' }); checkRes.fail++; e.untrusted = (e.untrusted || []).concat([`${chk.product}: not found`]); continue; }
     const bad = [];
@@ -845,6 +848,7 @@ function main() {
       const A = list[i], B = list[i + 1];
       const ra = readJson(path.join(DATA_DIR, A.e.id, 'parsed', `${A.e.latest_stamp}.json`), { rows: [] }).rows;
       const rb = readJson(path.join(DATA_DIR, B.e.id, 'parsed', `${B.e.latest_stamp}.json`), { rows: [] }).rows;
+      if (ra.length < 100 || rb.length < 100) { log(`Edition comparison ${A.e.id} -> ${B.e.id} skipped: an edition parsed only ${Math.min(ra.length, rb.length)} rows (abridged or unreadable layout)`); continue; }
       const key = (r) => `${norm(r.name).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()}|${(r.generic || '').toLowerCase()}`;
       const ma = new Map(ra.map((r) => [key(r), r])), mb = new Map(rb.map((r) => [key(r), r]));
       const changes = [];
