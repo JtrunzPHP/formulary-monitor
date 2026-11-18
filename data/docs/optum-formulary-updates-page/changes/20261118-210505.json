@@ -1,0 +1,61 @@
+{
+  "id": "optum-formulary-updates-page",
+  "stamp": "20261118-210505",
+  "previous": "20261117-212944",
+  "kind": "update",
+  "lines_added": 0,
+  "lines_removed": 12,
+  "added": [],
+  "removed": [
+    {
+      "line": 13,
+      "text": "Contact sales"
+    },
+    {
+      "line": 14,
+      "text": "Go back to options"
+    },
+    {
+      "line": 15,
+      "text": "Contact our sales team"
+    },
+    {
+      "line": 20,
+      "text": "Get in touch"
+    },
+    {
+      "line": 22,
+      "text": "Connect with us for solutions or services."
+    },
+    {
+      "line": 24,
+      "text": "Customer sign-in"
+    },
+    {
+      "line": 25,
+      "text": "Access our customer portals."
+    },
+    {
+      "line": 26,
+      "text": "Optum Provider Portal Optum Pay All Sign-in Portals"
+    },
+    {
+      "line": 27,
+      "text": "Support and resources"
+    },
+    {
+      "line": 28,
+      "text": "Manage your account, find resources and more."
+    },
+    {
+      "line": 29,
+      "text": "Payer lists Enrollment forms Product Support portals Claims"
+    },
+    {
+      "line": 30,
+      "text": "Rx Prior Authorization Join Our Team All Support"
+    }
+  ],
+  "watchlist_in_added": [],
+  "watchlist_in_removed": []
+}
