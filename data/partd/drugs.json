@@ -59885,10 +59885,17 @@
   "rxcui": "967388",
   "updated": "2026-10-22",
   "ndc": "00469305130",
-  "labeler": "",
+  "labeler": "Astellas Pharma US, Inc.",
   "rx_ndcs": [
    "00469305130"
-  ]
+  ],
+  "fda_brand": "AmBisome",
+  "fda_generic": "amphotericin B",
+  "dosage_form": "INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION",
+  "route": "INTRAVENOUS",
+  "marketing_category": "NDA",
+  "product_type": "HUMAN PRESCRIPTION DRUG",
+  "fda_source": "cms ndc"
  },
  "977427": {
   "name": "everolimus 0.25 MG Oral Tablet",
