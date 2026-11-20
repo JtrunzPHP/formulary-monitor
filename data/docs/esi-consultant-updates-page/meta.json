@@ -24,7 +24,13 @@
       "hash": "f5fe66204f7fc7f480bbde7c5171bdbcffefaccc468b17e6cd523356b75e867d",
       "size": 78714,
       "captured_at": "2026-11-19T21:08:25.963Z"
+    },
+    {
+      "stamp": "20261120-205331",
+      "hash": "7e212077d04b1fb0bdd0e93b1b49c054ce0d75213dbf88f2f277b7497326076f",
+      "size": 78714,
+      "captured_at": "2026-11-20T20:53:31.909Z"
     }
   ],
-  "last_checked": "2026-11-19T21:08:25.963Z"
+  "last_checked": "2026-11-20T20:53:31.909Z"
 }
