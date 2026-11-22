@@ -4,7 +4,7 @@
     "esi-npf-changes-jul-2026": "20261022-211455",
     "esi-npf-changes-jan-2026": "20261022-211455",
     "esi-npf-flex-changes-jan-2026": "20261022-211456",
-    "optum-formulary-updates-page": "20261118-210505",
+    "optum-formulary-updates-page": "20261122-200627",
     "optum-pharmacy-passages-sep-2025": "20261022-211456",
     "optum-pharmacy-passages-direct-september-2026": "20261022-212153",
     "optum-pharmacy-passages-august-2026": "20261022-212153",
@@ -92,7 +92,7 @@
   "partd": {
     "last_tag": "20260916_to_20261008"
   },
-  "last_sent": "2026-11-18T21:05:47.544Z",
+  "last_sent": "2026-11-22T20:07:02.603Z",
   "editions": {
     "aetna-acp-2026>aetna-acp-2027": "{\"NOW_NOT_COVERED\":19,\"REMOVED\":19,\"TIER_CHANGED\":5,\"RESTRICTION_CHANGED\":82,\"NOW_COVERED\":22,\"ADDED\":26}",
     "aetna-acp-official-2026>aetna-acp-official-2027": "{\"REMOVED\":4431}"
