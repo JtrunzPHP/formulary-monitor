@@ -1,0 +1,17 @@
+{
+  "id": "optum-formulary-updates-page",
+  "stamp": "20261122-200627",
+  "previous": "20261121-195440",
+  "kind": "update",
+  "lines_added": 1,
+  "lines_removed": 0,
+  "added": [
+    {
+      "line": 2,
+      "text": "Skip to Optum Assistant"
+    }
+  ],
+  "removed": [],
+  "watchlist_in_added": [],
+  "watchlist_in_removed": []
+}
