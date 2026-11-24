@@ -1,5 +1,6 @@
 Formulary Updates for Providers | Optum
 Skip to Data Use Notice
+Skip to Optum Assistant
 Skip to main content
 Personal
 Business
@@ -12,23 +13,11 @@ OptumRx PBM
 All sign-in portals
 Support
 Contact sales
-Go back to options
 Contact our sales team
 Provide your contact details below, so one of our product specialists can schedule a call.
 Need help or account access? View our support resources or sign in.
 You will be contacted shortly by a member of the Optum sales team.&lt;strong>&lt;/strong>&lt;/p>
 " data-download-cta-label="Download" data-link-source="page" data-component-name="o5-marketo-form" data-resource-path-hashcode="226614812" role="status" aria-live="polite" qa-handles="marketoFormSuccess">
-Get in touch
-Contact our sales team
-Connect with us for solutions or services.
-Contact sales
-Customer sign-in
-Access our customer portals.
-Optum Provider Portal Optum Pay All Sign-in Portals
-Support and resources
-Manage your account, find resources and more.
-Payer lists Enrollment forms Product Support portals Claims
-Rx Prior Authorization Join Our Team All Support
 Home
 Business customer support
 Forms & resources for health care professionals
