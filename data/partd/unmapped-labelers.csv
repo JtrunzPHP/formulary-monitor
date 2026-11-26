@@ -3,29 +3,29 @@ labeler,drug_count
 Aurobindo Pharma Limited,157
 Pfizer Laboratories Div Pfizer Inc,140
 Novartis Pharmaceuticals Corporation,119
+"Sun Pharmaceutical Industries, Inc.",116
 Mylan Pharmaceuticals Inc.,115
-"Sun Pharmaceutical Industries, Inc.",115
 "Lupin Pharmaceuticals, Inc.",110
 Hikma Pharmaceuticals USA Inc.,99
 Apotex Corp.,94
 Zydus Pharmaceuticals USA Inc.,88
 Amneal Pharmaceuticals LLC,85
+Sandoz Inc,83
 "ANI Pharmaceuticals, Inc.",83
 "Glenmark Pharmaceuticals Inc., USA",79
 Eli Lilly and Company,77
-Sandoz Inc,77
 Padagis Israel Pharmaceuticals Ltd,77
-"Rising Pharma Holdings, Inc.",71
+"Rising Pharma Holdings, Inc.",72
+"Par Health USA, LLC",71
 "Allergan, Inc.",70
-Merck Sharp & Dohme LLC,68
-"Par Health USA, LLC",68
+Merck Sharp & Dohme LLC,69
+AbbVie Inc.,68
 "Takeda Pharmaceuticals America, Inc.",68
-AbbVie Inc.,67
 GlaxoSmithKline LLC,66
 "Actavis Pharma, Inc.",63
 AstraZeneca Pharmaceuticals LP,61
 "Ascend Laboratories, LLC",61
-"Upsher-Smith Laboratories, LLC",59
+"Upsher-Smith Laboratories, LLC",60
 "Camber Pharmaceuticals, Inc.",59
 Viatris Specialty LLC,57
 "Fresenius Kabi USA, LLC",57
@@ -33,16 +33,17 @@ Viatris Specialty LLC,57
 Organon LLC,52
 "Teva Pharmaceuticals, Inc.",46
 "Ingenus Pharmaceuticals, LLC",46
-"Amgen, Inc",44
+"Amgen, Inc",45
 Amneal Pharmaceuticals NY LLC,42
+Macleods Pharmaceuticals Limited,41
 Bayer HealthCare Pharmaceuticals Inc.,41
-Macleods Pharmaceuticals Limited,40
+"UCB, Inc.",38
 Heritage Pharmaceuticals Inc. d/b/a Avet Pharmaceuticals Inc.,37
-"UCB, Inc.",37
 Amneal Pharmaceuticals of New York LLC,36
 SpecGx LLC,36
 "Cosette Pharmaceuticals, Inc.",35
 "Janssen Pharmaceuticals, Inc.",35
+"E.R. Squibb & Sons, L.L.C.",34
 (no FDA match),34
 "Lannett Company, Inc.",34
 Bausch & Lomb Incorporated,32
@@ -51,13 +52,12 @@ Cipla USA Inc.,32
 Novadoz Pharmaceuticals LLC,32
 Torrent Pharmaceuticals Limited,31
 "Bausch Health US, LLC",31
+IBSA Pharma Inc.,31
 Pharmacia & Upjohn Company LLC,30
 Sanofi-Aventis U.S. LLC,30
 Dr. Reddy's Laboratories Limited,30
 Prasco Laboratories,30
-IBSA Pharma Inc.,30
 "Genentech, Inc.",29
-"E.R. Squibb & Sons, L.L.C.",28
 "Unichem Pharmaceuticals (USA), Inc.",28
 Strides Pharma Science Limited,28
 Baxter Healthcare Corporation,27
@@ -82,20 +82,20 @@ Alvogen Inc.,19
 "Lannett Company, LLC",18
 Micro Labs Limited,18
 United Therapeutics Corporation,18
+Eisai Inc.,17
 Padagis US LLC,16
 Dr. Reddy's Laboratories Inc.,16
 Dr. Reddy's Laboratories Inc,16
 ViiV Healthcare Company,16
-Eisai Inc.,16
 "Teva Neuroscience, Inc.",16
 "Xiromed, LLC",16
 "CELLTRION USA, Inc.",16
 "Alkermes, Inc.",15
+Vanda Pharmaceuticals Inc.,15
 "Leading Pharma, LLC",15
 "Actelion Pharmaceuticals US, Inc.",15
 "PAI Holdings, LLC dba PAI Pharma",14
 Sandoz Inc.,14
-Vanda Pharmaceuticals Inc.,14
 Sanofi Vaccines US Inc.,14
 Incyte Corporation,14
 "Janssen Products, LP",14
@@ -107,6 +107,7 @@ Accord Healthcare Inc.,13
 Rhodes Pharmaceuticals LLC,13
 Eugia US LLC,13
 Advanz Pharma (US) Corp.,13
+"Chartwell RX, LLC",13
 Granules Pharmaceuticals Inc.,13
 "Slate Run Pharmaceuticals, LLC",13
 Knoa Pharma LLC,13
@@ -121,7 +122,6 @@ Northstar Rx LLC,11
 Validus Pharmaceuticals LLC,11
 Janssen Products LP,11
 Apotex Corp,11
-"Chartwell RX, LLC",11
 "Somerset Therapeutics, LLC",11
 "Aimmune Therapeutics, Inc.",11
 "Sumitomo Pharma America, Inc.",11
@@ -132,6 +132,7 @@ TruPharma LLC,10
 Oceanside Pharmaceuticals,10
 "SK Life Science, Inc.",10
 Biocon Biologics Inc.,10
+Almatica Pharma LLC,10
 Acer Therapeutics Inc.,10
 Lundbeck Pharmaceuticals LLC,10
 "Vertical Pharmaceuticals, LLC",10
@@ -140,6 +141,7 @@ Baxter Healthcare Company,9
 "Afaxys Pharma, LLC",9
 "Catalyst Pharmaceuticals, Inc.",9
 "Xiromed, LLC.",9
+Advagen Pharma Limited,9
 Mirum Pharmaceuticals Inc.,9
 Quallent Pharmaceuticals Health LLC,9
 Medexus Pharma Inc.,9
@@ -173,12 +175,11 @@ TOLMAR Inc.,7
 Genus Lifesciences Inc.,7
 "Neurocrine Biosciences, Inc.",7
 "Agios Pharmaceuticals, Inc.",7
-Advagen Pharma Limited,7
 Corcept Therapeutics Incorporated,7
-Almatica Pharma LLC,7
 "Almirall, LLC",7
 Cycle Pharmaceuticals Ltd.,7
 "Melinta Therapeutics, LLC",7
+Legacy Pharma USA Inc.,7
 "E. Fougera & Co. a division of Fougera Pharmaceuticals, LLC",6
 "Lannett Company, Inc",6
 "Cranbury Pharmaceuticals, LLC",6
@@ -197,7 +198,6 @@ Acadia Pharmaceuticals Inc.,6
 "Shandong Luye Pharmaceutical Co., Ltd.",6
 Roerig,6
 "Orexo US, Inc.",6
-Legacy Pharma USA Inc.,6
 VIVUS LLC,6
 ROERIG,6
 sanofi-aventis U.S. LLC,5
@@ -222,6 +222,7 @@ Viona Pharmaceuticals Inc,5
 Advagen Pharma Ltd,5
 "Ritedose Pharmaceuticals, LLC",5
 pharmaand GmbH,5
+"CivicaScript, LLC",5
 "SpringWorks Therapeutics, Inc.",5
 Thea Pharma Inc.,5
 "Exeltis USA, Inc.",5
@@ -308,6 +309,7 @@ Mission Pharmacal Company,3
 "Ascendis Pharma, Endocrinology, Inc.",3
 Verity Pharmaceuticals Inc.,3
 "Supernus Pharmaceuticals, Inc",3
+Dr. Reddys Laboratories Inc.,3
 "kaleo, Inc",3
 Bio Products Laboratory Ltd,3
 "Larken Laboratories, Inc.",3
@@ -357,6 +359,7 @@ Octapharma USA Inc,2
 "Amici Pharma, Inc",2
 "Coherus Oncology, Inc.",2
 Array BioPharma Inc.,2
+Shionogi Inc.,2
 "SOLA Pharmaceuticals, LLC",2
 Xellia Pharmaceuticals USA LLC,2
 TerSera Therapeutics LLC,2
@@ -367,8 +370,10 @@ Modavar Pharmaceuticals LLC,2
 ARMAS PHARMACEUTICALS INC.,2
 Asegua Therapeutics LLC,2
 Servier Pharmaceuticals LLC,2
+Advagen Pharma Ltd.,2
 "Secura Bio, Inc",2
 Solaris Pharma Corporation,2
+PharmaEssentia USA,2
 "WINDER LABORATORIES, LLC",2
 Cadila Pharmaceuticals Limited,2
 "Nivagen Pharmaceuticals, Inc.",2
@@ -388,7 +393,6 @@ Bausch & Lomb Americas Inc.,2
 Pharming Healthcare Inc.,2
 The J. Molner Company LLC,2
 "INDEPENDENCE PHARMACEUTICALS, LLC",2
-Dr. Reddys Laboratories Inc.,2
 "Azurity Pharmaceuticals, Inc",2
 "Travere Therapeutics, Inc.",2
 "Harmony Biosciences, LLC",2
@@ -410,6 +414,7 @@ Theratechnologies Inc.,2
 "ARS Pharmaceuticals Operations, Inc.",2
 "Regeneron Pharmaceuticals, Inc.",2
 Journey Medical Corporation,2
+"Ionis Pharmaceuticals, Inc.",2
 Marius Pharmaceuticals,2
 "Lifsa Drugs, LLC",2
 Alexion Pharmaceuticals Inc.,2
@@ -422,6 +427,10 @@ Accord BioPharma Inc.,2
 PTC Therapeutics Inc.,2
 Kedrion S.p.A.,2
 Pharmaka Generics Inc.,2
+"Pangea Pharmaceuticals, LLC",2
+Scienture LLC,2
+"Nuvalent, Inc.",2
+"Perfero Pharma, Inc.",2
 Wyeth Pharmaceutical Division of Wyeth Holdings LLC,1
 Hikma Pharmceuticals USA Inc.,1
 "Colgate Oral Pharmaceuticals, Inc.",1
@@ -486,7 +495,6 @@ OPKO Pharmaceuticals LLC,1
 Slate Run Pharmaceuticals,1
 "Puma Biotechnology, Inc.",1
 Analog Pharma,1
-Shionogi Inc.,1
 "Radius Health, Inc.",1
 XIROMED LLC,1
 Lifestar Pharma LLC.,1
@@ -499,8 +507,6 @@ Eywa Pharma Inc,1
 "Sobi, Inc.",1
 "BeOne Medicines USA, Inc.",1
 Servier Pharmaceutical LLC,1
-Advagen Pharma Ltd.,1
-PharmaEssentia USA,1
 "Kiniksa Pharmaceuticals (UK), Ltd.",1
 "Nivagen Pharmaceuticals, INC.",1
 Dr. Reddy�s Laboratories Inc,1
@@ -514,7 +520,6 @@ Immedica Pharma US Inc,1
 "Shorla Oncology Inc.,",1
 "Tarsus Pharmaceuticals, Inc.",1
 Hepalink USA Inc.,1
-"CivicaScript, LLC",1
 "X4 Pharmaceuticals, Inc.",1
 Avenacy Inc.,1
 Nuvation Bio Inc.,1
@@ -604,7 +609,6 @@ MERCK SHARP & DOHME LLC,1
 Corstasis USA LLC,1
 "Emmaus Medical, Inc.",1
 Impel Pharmaceuticals LLC,1
-"Ionis Pharmaceuticals, Inc.",1
 "Apellis Pharmaceuticals, Inc.",1
 Forte Bio-Pharma,1
 FH2 PHARMA LLC,1
@@ -635,7 +639,6 @@ Zyla Life Sciences US Inc.,1
 Avion Pharmaceuticals,1
 "Oliva Therapeutics, LLC",1
 "NextWave Pharmaceuticals, Inc",1
-"Pangea Pharmaceuticals, LLC",1
 Intra-Sana Laboratories,1
-Scienture LLC,1
 Botanix SB Inc.,1
+"Agile Therapeutics, Inc.",1
