@@ -6,6 +6,13 @@
       "latest": "20261008",
       "total_change_rows": 370300,
       "generated_at": "2026-11-13T18:30:34.627Z"
+    },
+    {
+      "tag": "20261008_to_20261118",
+      "prev": "20261008",
+      "latest": "20261118",
+      "total_change_rows": 11470,
+      "generated_at": "2026-11-26T20:55:39.810Z"
     }
   ]
 }
