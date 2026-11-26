@@ -90,9 +90,9 @@
     "optum-um-20270101-ql-premium-um-drug-list-": "20261116-201141"
   },
   "partd": {
-    "last_tag": "20260916_to_20261008"
+    "last_tag": "20261008_to_20261118"
   },
-  "last_sent": "2026-11-24T01:05:58.913Z",
+  "last_sent": "2026-11-26T20:55:59.167Z",
   "editions": {
     "aetna-acp-2026>aetna-acp-2027": "{\"NOW_NOT_COVERED\":19,\"REMOVED\":19,\"TIER_CHANGED\":5,\"RESTRICTION_CHANGED\":82,\"NOW_COVERED\":22,\"ADDED\":26}",
     "aetna-acp-official-2026>aetna-acp-official-2027": "{\"REMOVED\":4431}"
