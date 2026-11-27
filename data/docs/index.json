@@ -12,7 +12,7 @@
       "cadence": "updated the first week of each month",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:03:57.834Z",
+      "last_checked": "2026-11-27T21:46:30.859Z",
       "last_change": "20261022-211806",
       "error": null
     },
@@ -27,7 +27,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:29.096Z",
+      "last_checked": "2026-11-27T21:46:59.992Z",
       "last_change": "20261022-211455",
       "error": null
     },
@@ -42,7 +42,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:29.391Z",
+      "last_checked": "2026-11-27T21:47:00.223Z",
       "last_change": "20261022-211455",
       "error": null
     },
@@ -57,7 +57,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:29.720Z",
+      "last_checked": "2026-11-27T21:47:00.438Z",
       "last_change": "20261022-211456",
       "error": null
     },
@@ -72,8 +72,8 @@
       "cadence": "monthly",
       "verified": "yes",
       "status": "update",
-      "last_checked": "2026-11-26T22:04:30.129Z",
-      "last_change": "20261126-220430",
+      "last_checked": "2026-11-27T21:47:00.741Z",
+      "last_change": "20261127-214700",
       "error": null
     },
     "optum-pharmacy-passages-mar-2026": {
@@ -101,7 +101,7 @@
       "cadence": "monthly",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:30.388Z",
+      "last_checked": "2026-11-27T21:47:01.010Z",
       "last_change": "20261022-211456",
       "error": null
     },
@@ -117,7 +117,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.267Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:35.581Z",
+      "last_checked": "2026-11-27T21:47:05.366Z",
       "last_change": "20261022-212153",
       "error": null
     },
@@ -133,7 +133,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:35.983Z",
+      "last_checked": "2026-11-27T21:47:05.625Z",
       "last_change": "20261022-212153",
       "error": null
     },
@@ -149,7 +149,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:36.234Z",
+      "last_checked": "2026-11-27T21:47:05.756Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -165,7 +165,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:36.489Z",
+      "last_checked": "2026-11-27T21:47:05.950Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -181,7 +181,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:36.833Z",
+      "last_checked": "2026-11-27T21:47:06.132Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -197,7 +197,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:37.021Z",
+      "last_checked": "2026-11-27T21:47:06.392Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -213,7 +213,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:37.264Z",
+      "last_checked": "2026-11-27T21:47:06.682Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -229,7 +229,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:37.544Z",
+      "last_checked": "2026-11-27T21:47:07.140Z",
       "last_change": "20261022-212154",
       "error": null
     },
@@ -245,7 +245,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:37.779Z",
+      "last_checked": "2026-11-27T21:47:07.361Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -261,7 +261,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:37.964Z",
+      "last_checked": "2026-11-27T21:47:07.509Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -277,7 +277,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:38.230Z",
+      "last_checked": "2026-11-27T21:47:07.637Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -293,7 +293,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-10-22T21:21:53.268Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:38.340Z",
+      "last_checked": "2026-11-27T21:47:07.811Z",
       "last_change": "20261022-212155",
       "error": null
     },
@@ -309,7 +309,7 @@
       "cadence": "monthly",
       "verified": "inferred",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:03:58.002Z",
+      "last_checked": "2026-11-27T21:46:31.000Z",
       "last_change": "20261022-212410",
       "error": null
     },
@@ -325,7 +325,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-11-03T19:56:00.227Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:38.708Z",
+      "last_checked": "2026-11-27T21:47:07.998Z",
       "last_change": "20261103-195602",
       "error": null
     },
@@ -341,7 +341,7 @@
       "discovered_from": "https://business.optum.com/en/support/hcp-resources/formulary-updates.html",
       "found_at": "2026-11-03T19:56:00.227Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:38.938Z",
+      "last_checked": "2026-11-27T21:47:08.174Z",
       "last_change": "20261103-195603",
       "error": null
     },
@@ -357,7 +357,7 @@
       "cadence": "monthly",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:03:58.452Z",
+      "last_checked": "2026-11-27T21:46:31.592Z",
       "last_change": "20261116-201041",
       "error": null
     },
@@ -373,7 +373,7 @@
       "cadence": "monthly",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:03:58.699Z",
+      "last_checked": "2026-11-27T21:46:32.078Z",
       "last_change": "20261116-201041",
       "error": null
     },
@@ -388,7 +388,7 @@
       "cadence": "quarterly",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:03:58.929Z",
+      "last_checked": "2026-11-27T21:46:32.398Z",
       "last_change": "20261116-201042",
       "error": null
     },
@@ -400,7 +400,7 @@
       "kind": "probe",
       "cadence": "quarterly",
       "status": "probe: 25 documents",
-      "last_checked": "2026-11-26T22:04:13.063Z",
+      "last_checked": "2026-11-27T21:46:44.857Z",
       "last_change": null
     },
     "aetna-soc-standard-control": {
@@ -411,7 +411,7 @@
       "kind": "probe",
       "cadence": "quarterly",
       "status": "probe: 12 documents",
-      "last_checked": "2026-11-26T22:04:16.827Z",
+      "last_checked": "2026-11-27T21:46:48.850Z",
       "last_change": null
     },
     "aetna-soc-standard-control-choice": {
@@ -422,7 +422,7 @@
       "kind": "probe",
       "cadence": "quarterly",
       "status": "probe: 12 documents",
-      "last_checked": "2026-11-26T22:04:21.056Z",
+      "last_checked": "2026-11-27T21:46:53.290Z",
       "last_change": null
     },
     "aetna-soc-advanced-control-modified-um": {
@@ -433,7 +433,7 @@
       "kind": "probe",
       "cadence": "quarterly",
       "status": "probe: 8 documents",
-      "last_checked": "2026-11-26T22:04:24.427Z",
+      "last_checked": "2026-11-27T21:46:56.935Z",
       "last_change": null
     },
     "esi-npf-exclusions-2026": {
@@ -448,7 +448,7 @@
       "cadence": "updated through the year",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:25.613Z",
+      "last_checked": "2026-11-27T21:46:57.621Z",
       "last_change": "20261116-201111",
       "error": null
     },
@@ -464,7 +464,7 @@
       "cadence": "updated through the year",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:26.168Z",
+      "last_checked": "2026-11-27T21:46:58.011Z",
       "last_change": "20261116-201112",
       "error": null
     },
@@ -480,7 +480,7 @@
       "cadence": "posted around year end",
       "verified": "inferred",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:26.954Z",
+      "last_checked": "2026-11-27T21:46:58.466Z",
       "last_change": "20261116-201113",
       "error": null
     },
@@ -496,7 +496,7 @@
       "cadence": "posted around year end",
       "verified": "inferred",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:27.783Z",
+      "last_checked": "2026-11-27T21:46:58.867Z",
       "last_change": "20261116-201114",
       "error": null
     },
@@ -511,7 +511,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:28.339Z",
+      "last_checked": "2026-11-27T21:46:59.274Z",
       "last_change": "20261116-201115",
       "error": null
     },
@@ -526,7 +526,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:28.602Z",
+      "last_checked": "2026-11-27T21:46:59.517Z",
       "last_change": "20261116-201115",
       "error": null
     },
@@ -541,7 +541,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:28.892Z",
+      "last_checked": "2026-11-27T21:46:59.735Z",
       "last_change": "20261116-201115",
       "error": null
     },
@@ -556,7 +556,7 @@
       "cadence": "January and July",
       "verified": "yes",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:30.009Z",
+      "last_checked": "2026-11-27T21:47:00.688Z",
       "last_change": "20261120-205331",
       "error": null
     },
@@ -568,7 +568,7 @@
       "kind": "probe",
       "cadence": "January and July",
       "status": "probe: 9 documents",
-      "last_checked": "2026-11-26T22:04:34.880Z",
+      "last_checked": "2026-11-27T21:47:04.428Z",
       "last_change": null
     },
     "optum-premium-standard-formulary-jul-2026": {
@@ -582,7 +582,7 @@
       "cadence": "January and July",
       "verified": "client copy",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:35.364Z",
+      "last_checked": "2026-11-27T21:47:04.879Z",
       "last_change": "20261116-201123",
       "error": null
     },
@@ -601,7 +601,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.028Z",
+      "last_checked": "2026-11-27T21:47:08.276Z",
       "last_change": "20261116-201127",
       "error": null
     },
@@ -620,7 +620,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.079Z",
+      "last_checked": "2026-11-27T21:47:08.310Z",
       "last_change": "20261116-201127",
       "error": null
     },
@@ -639,7 +639,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.107Z",
+      "last_checked": "2026-11-27T21:47:08.395Z",
       "last_change": "20261116-201128",
       "error": null
     },
@@ -658,7 +658,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.144Z",
+      "last_checked": "2026-11-27T21:47:08.454Z",
       "last_change": "20261116-201128",
       "error": null
     },
@@ -677,7 +677,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.172Z",
+      "last_checked": "2026-11-27T21:47:08.550Z",
       "last_change": "20261116-201128",
       "error": null
     },
@@ -696,7 +696,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.206Z",
+      "last_checked": "2026-11-27T21:47:08.615Z",
       "last_change": "20261116-201128",
       "error": null
     },
@@ -715,7 +715,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.259Z",
+      "last_checked": "2026-11-27T21:47:08.656Z",
       "last_change": "20261116-201129",
       "error": null
     },
@@ -734,7 +734,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.289Z",
+      "last_checked": "2026-11-27T21:47:08.704Z",
       "last_change": "20261116-201129",
       "error": null
     },
@@ -753,7 +753,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.311Z",
+      "last_checked": "2026-11-27T21:47:08.736Z",
       "last_change": "20261116-201129",
       "error": null
     },
@@ -772,7 +772,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.335Z",
+      "last_checked": "2026-11-27T21:47:08.764Z",
       "last_change": "20261116-201129",
       "error": null
     },
@@ -791,7 +791,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.367Z",
+      "last_checked": "2026-11-27T21:47:08.794Z",
       "last_change": "20261116-201129",
       "error": null
     },
@@ -810,7 +810,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.392Z",
+      "last_checked": "2026-11-27T21:47:08.836Z",
       "last_change": "20261116-201129",
       "error": null
     },
@@ -829,7 +829,7 @@
       "discovered_from": "aetna-soc-advanced-control",
       "found_at": "2026-11-16T20:10:58.344Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.429Z",
+      "last_checked": "2026-11-27T21:47:08.886Z",
       "last_change": "20261116-201130",
       "error": null
     },
@@ -848,7 +848,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.456Z",
+      "last_checked": "2026-11-27T21:47:08.915Z",
       "last_change": "20261116-201130",
       "error": null
     },
@@ -867,7 +867,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.480Z",
+      "last_checked": "2026-11-27T21:47:08.949Z",
       "last_change": "20261116-201130",
       "error": null
     },
@@ -886,7 +886,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.505Z",
+      "last_checked": "2026-11-27T21:47:08.983Z",
       "last_change": "20261116-201131",
       "error": null
     },
@@ -905,7 +905,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.535Z",
+      "last_checked": "2026-11-27T21:47:09.054Z",
       "last_change": "20261116-201131",
       "error": null
     },
@@ -924,7 +924,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.561Z",
+      "last_checked": "2026-11-27T21:47:09.129Z",
       "last_change": "20261116-201131",
       "error": null
     },
@@ -943,7 +943,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.599Z",
+      "last_checked": "2026-11-27T21:47:09.217Z",
       "last_change": "20261116-201132",
       "error": null
     },
@@ -962,7 +962,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.624Z",
+      "last_checked": "2026-11-27T21:47:09.261Z",
       "last_change": "20261116-201132",
       "error": null
     },
@@ -981,7 +981,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.649Z",
+      "last_checked": "2026-11-27T21:47:09.285Z",
       "last_change": "20261116-201132",
       "error": null
     },
@@ -1000,7 +1000,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.679Z",
+      "last_checked": "2026-11-27T21:47:09.346Z",
       "last_change": "20261116-201132",
       "error": null
     },
@@ -1019,7 +1019,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.703Z",
+      "last_checked": "2026-11-27T21:47:09.383Z",
       "last_change": "20261116-201133",
       "error": null
     },
@@ -1038,7 +1038,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.729Z",
+      "last_checked": "2026-11-27T21:47:09.475Z",
       "last_change": "20261116-201133",
       "error": null
     },
@@ -1057,7 +1057,7 @@
       "discovered_from": "aetna-soc-standard-control",
       "found_at": "2026-11-16T20:11:02.806Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.754Z",
+      "last_checked": "2026-11-27T21:47:09.530Z",
       "last_change": "20261116-201133",
       "error": null
     },
@@ -1076,7 +1076,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.783Z",
+      "last_checked": "2026-11-27T21:47:09.564Z",
       "last_change": "20261116-201133",
       "error": null
     },
@@ -1095,7 +1095,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.807Z",
+      "last_checked": "2026-11-27T21:47:09.589Z",
       "last_change": "20261116-201133",
       "error": null
     },
@@ -1114,7 +1114,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.832Z",
+      "last_checked": "2026-11-27T21:47:09.633Z",
       "last_change": "20261116-201134",
       "error": null
     },
@@ -1133,7 +1133,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.856Z",
+      "last_checked": "2026-11-27T21:47:09.668Z",
       "last_change": "20261116-201134",
       "error": null
     },
@@ -1152,7 +1152,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.885Z",
+      "last_checked": "2026-11-27T21:47:09.711Z",
       "last_change": "20261116-201134",
       "error": null
     },
@@ -1171,7 +1171,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.930Z",
+      "last_checked": "2026-11-27T21:47:09.761Z",
       "last_change": "20261116-201135",
       "error": null
     },
@@ -1190,7 +1190,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.959Z",
+      "last_checked": "2026-11-27T21:47:09.808Z",
       "last_change": "20261116-201135",
       "error": null
     },
@@ -1209,7 +1209,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:39.981Z",
+      "last_checked": "2026-11-27T21:47:09.836Z",
       "last_change": "20261116-201135",
       "error": null
     },
@@ -1228,7 +1228,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.006Z",
+      "last_checked": "2026-11-27T21:47:09.894Z",
       "last_change": "20261116-201135",
       "error": null
     },
@@ -1247,7 +1247,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.037Z",
+      "last_checked": "2026-11-27T21:47:10.010Z",
       "last_change": "20261116-201136",
       "error": null
     },
@@ -1266,7 +1266,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.062Z",
+      "last_checked": "2026-11-27T21:47:10.197Z",
       "last_change": "20261116-201136",
       "error": null
     },
@@ -1285,7 +1285,7 @@
       "discovered_from": "aetna-soc-standard-control-choice",
       "found_at": "2026-11-16T20:11:06.799Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.088Z",
+      "last_checked": "2026-11-27T21:47:10.337Z",
       "last_change": "20261116-201136",
       "error": null
     },
@@ -1304,7 +1304,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.115Z",
+      "last_checked": "2026-11-27T21:47:10.384Z",
       "last_change": "20261116-201136",
       "error": null
     },
@@ -1323,7 +1323,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.139Z",
+      "last_checked": "2026-11-27T21:47:10.440Z",
       "last_change": "20261116-201137",
       "error": null
     },
@@ -1342,7 +1342,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.169Z",
+      "last_checked": "2026-11-27T21:47:10.523Z",
       "last_change": "20261116-201137",
       "error": null
     },
@@ -1361,7 +1361,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.191Z",
+      "last_checked": "2026-11-27T21:47:10.585Z",
       "last_change": "20261116-201137",
       "error": null
     },
@@ -1380,7 +1380,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.211Z",
+      "last_checked": "2026-11-27T21:47:10.664Z",
       "last_change": "20261116-201137",
       "error": null
     },
@@ -1399,7 +1399,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.234Z",
+      "last_checked": "2026-11-27T21:47:10.779Z",
       "last_change": "20261116-201137",
       "error": null
     },
@@ -1418,7 +1418,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.259Z",
+      "last_checked": "2026-11-27T21:47:10.890Z",
       "last_change": "20261116-201137",
       "error": null
     },
@@ -1437,7 +1437,7 @@
       "discovered_from": "aetna-soc-advanced-control-modified-um",
       "found_at": "2026-11-16T20:11:10.055Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.283Z",
+      "last_checked": "2026-11-27T21:47:10.943Z",
       "last_change": "20261116-201138",
       "error": null
     },
@@ -1454,7 +1454,7 @@
       "discovered_from": "https://www.evernorth.com/consultant-2026-annualformularyupdates",
       "found_at": "2026-11-16T20:11:16.376Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.594Z",
+      "last_checked": "2026-11-27T21:47:11.169Z",
       "last_change": "20261116-201138",
       "error": null
     },
@@ -1473,7 +1473,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.251Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.712Z",
+      "last_checked": "2026-11-27T21:47:11.281Z",
       "last_change": "20261116-201138",
       "error": null
     },
@@ -1492,7 +1492,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.251Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:40.858Z",
+      "last_checked": "2026-11-27T21:47:11.374Z",
       "last_change": "20261116-201139",
       "error": null
     },
@@ -1511,7 +1511,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.251Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:41.112Z",
+      "last_checked": "2026-11-27T21:47:11.561Z",
       "last_change": "20261116-201139",
       "error": null
     },
@@ -1530,7 +1530,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.252Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:41.337Z",
+      "last_checked": "2026-11-27T21:47:11.982Z",
       "last_change": "20261116-201139",
       "error": null
     },
@@ -1549,7 +1549,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.252Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:41.723Z",
+      "last_checked": "2026-11-27T21:47:12.073Z",
       "last_change": "20261116-201140",
       "error": null
     },
@@ -1568,7 +1568,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.252Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:42.359Z",
+      "last_checked": "2026-11-27T21:47:12.186Z",
       "last_change": "20261116-201140",
       "error": null
     },
@@ -1587,7 +1587,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.252Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:42.619Z",
+      "last_checked": "2026-11-27T21:47:12.340Z",
       "last_change": "20261116-201140",
       "error": null
     },
@@ -1606,7 +1606,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.252Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:42.937Z",
+      "last_checked": "2026-11-27T21:47:12.614Z",
       "last_change": "20261116-201141",
       "error": null
     },
@@ -1625,7 +1625,7 @@
       "discovered_from": "optum-premium-um-lists",
       "found_at": "2026-11-16T20:11:22.252Z",
       "status": "unchanged",
-      "last_checked": "2026-11-26T22:04:43.312Z",
+      "last_checked": "2026-11-27T21:47:12.700Z",
       "last_change": "20261116-201141",
       "error": null
     }
@@ -9040,6 +9040,363 @@
     },
     {
       "at": "2026-11-26T22:04:43.312Z",
+      "results": [
+        {
+          "id": "aetna-acp-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-acp-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-acp-official-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-acp-official-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-scc-exclusions-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-exclusions-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-flex-exclusions-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-exclusions-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-flex-exclusions-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-changes-jan-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-flex-changes-jan-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-basic-hpf-changes-jan-2027",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-changes-jul-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-changes-jan-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-npf-flex-changes-jan-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-consultant-updates-page",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-formulary-updates-page",
+          "status": "update"
+        },
+        {
+          "id": "optum-pharmacy-passages-sep-2025",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-premium-standard-formulary-jul-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-september-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-august-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-july-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-june-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-may-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-april-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-september-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-august-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-july-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-june-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-may-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-april-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-direct-umr-october-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-pharmacy-passages-ehb-october-2026",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20240101-soc-for-01-01-24-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20240401-soc-for-04-01-24-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20240701-soc-for-07-01-24-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20241001-soc-for-10-01-24-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20250101-soc-for-01-01-25-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20250401-soc-for-04-01-25-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20250701-soc-for-07-01-25-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20251001-soc-for-10-01-25-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20260101-soc-for-01-01-26-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20260401-soc-for-04-01-26-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20260701-soc-for-07-01-26-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20261001-soc-for-10-01-26-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acp-20270101-soc-for-01-01-27-advance",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20240101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20240401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20240701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20241001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20250101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20250401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20250701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20251001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20260101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20260401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20260701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-sc-20261001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20240101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20240401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20240701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20241001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20250101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20250401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20250701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20251001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20260101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20260401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20260701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-scc-20261001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20250101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20250401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20250701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20251001",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20260101",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20260401",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20260701",
+          "status": "unchanged"
+        },
+        {
+          "id": "aetna-soc-acpum-20261001",
+          "status": "unchanged"
+        },
+        {
+          "id": "esi-2026-20basic-20and-20hpf-20changes-20for-20hp-20early-20send",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20260101-st-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20260101-pa-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20260101-ql-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20260701-st-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20260701-pa-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20260701-ql-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20270101-st-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20270101-pa-premium-um-drug-list-",
+          "status": "unchanged"
+        },
+        {
+          "id": "optum-um-20270101-ql-premium-um-drug-list-",
+          "status": "unchanged"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-27T21:47:12.700Z",
       "results": [
         {
           "id": "aetna-acp-2027",
